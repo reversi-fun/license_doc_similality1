@@ -41,6 +41,13 @@ def corpus_load(corpus_dir,prefix):
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx')
 preprocessed_docs.update(corpus_load('./own_text', 'research'))
 
+f = open('data/docNames.txt', 'w')
+for docName, doc in preprocessed_docs.items():
+    f.write("{},{}\n".format(docName, len(doc)))
+
+f.close()
+
+
 # 低頻度と高頻度のワードは除く
 dictionary1 = gensim.corpora.Dictionary(preprocessed_docs.values())  # 辞書作成
 unfiltered = dictionary1.token2id.keys()
@@ -63,7 +70,7 @@ for docname, doc in preprocessed_docs.items():
     name = docname[5:] if docname[0:5] == "spdx/" else  docname[9:]  if docname[0:9] == 'research/'  else docname
     print(docname, name, license_notices.get(name, []))
     training_docs.append(TaggedDocument(words=doc, tags=(
-        [docname] + license_notices.get(name, []))))
+        [docname] ))) #  + license_notices.get(name, [])
 
 model = gensim.models.doc2vec.Doc2Vec(dm=0, vector_size=300, window=17, min_count=1)
 model.build_vocab(training_docs)
@@ -81,6 +88,60 @@ for epoch in range(20):
 
 model.save('./data/doc2vec.model')
 
+dot = open('data/lic_graph.dot', 'w')
+dot.write('digraph LicenseGraph {\n')
+dot.write('  newrank = true;\n')
+dot.write('  ratio = "auto" ;\n')
+# dot.write('  mincross = 2.0 ;\n')
+dot.write(' graph [layout="sfdp", rankdir=TB, overlap=false, ranksep=10.0,  nodesep=10.0, margin = 5.5,  concentrate=true]\n')
+dot.write(' node [shape=box, width=1];\n')
+dot.write(' edge [color=darkgoldenrod, width=1];\n')
+
+license_cluster = {}
+for licName, lic_ClsterNames in license_notices.items():
+    if len(lic_ClsterNames) > 0:
+        nearName = ''
+        if  ('spdx/' + licName )  in preprocessed_docs:
+            nearName = ('spdx/' + licName)
+        elif  ('research/' + licName )  in preprocessed_docs:
+             nearName = ('research/' + licName)
+        else:
+             nearName = '' ## licName
+        if len(nearName) > 0:
+            for lic_ClsterName in lic_ClsterNames:
+                if  (lic_ClsterName not in license_cluster):
+                    license_cluster[lic_ClsterName] = []
+                license_cluster[lic_ClsterName].append(nearName)
+
+## license clastering nodes
+## Error: node "spdx/AFL-3.0" is contained in two non-comparable clusters 2" and "cluster_1"
+clusterIndex = 0
+for lic_ClsterName, nearNames in  license_cluster.items():
+    clusterIndex = clusterIndex + 1
+    dot.write('   "' + lic_ClsterName + '"  [label="' + lic_ClsterName + '" , shape=egg, style="dotted,filled", fontcolor=navyblue, color=blue];\n')
+    # dot.write('  subgraph  cluster_' + str(clusterIndex) + '{ \n')
+    # dot.write('      label = "' +lic_ClsterName + '";\n')
+    # dot.write('     style=dashed;	color=blue; \n')
+    for nearName in nearNames:
+        dot.write('      "' + lic_ClsterName + '" -> "' + nearName  + '"  [dir=none, style=dotted, color=blue];\n')
+        # dot.write('       "' + nearName + '" ;\n' )
+    # dot.write('  }\n')
+
+for docName, doc in preprocessed_docs.items():
+    dot.write('   "' + docName + '"  [label="' + docName + '"];\n')
+    similar_docs = model.docvecs.most_similar(docName, topn=5)
+    moreShort = 0
+    for nearName , similarl in similar_docs:
+       if  (nearName in preprocessed_docs ) and  (len(preprocessed_docs[nearName]) <  len(doc)) :
+         moreShort = moreShort + 1
+         dot.write('      "' + nearName + '" -> "' + docName  + "\" [style=solid,label=\"{0:.3f}\"];\n".format(round(similarl,3) ))
+    if moreShort <= 0:
+        for nearName , similarl in similar_docs:
+             dot.write('      "' + docName + '" -> "' + nearName  +  "\" [style=solid,label=\"{0:.3f}\" ];\n".format(round(similarl,3) ))
+
+dot.write('}\n')
+dot.close()
+
 print(model.docvecs.most_similar('spdx/IBM-pibs', topn=4))
 print(model.docvecs.most_similar('spdx/MITNFA', topn=4))
 print(model.docvecs.most_similar('spdx/MIT-feh', topn=4))
@@ -95,10 +156,15 @@ print(model.docvecs.most_similar('spdx/GPL-3.0-or-later', topn=14))
 print(model.docvecs.most_similar('spdx/SPL-1.0', topn=4))
 print(model.docvecs.most_similar('spdx/WTFPL', topn=4))
 print(model.docvecs.most_similar('research/ACDL-1.0', topn=4))
-print(model.docvecs.most_similar('Patent_Reciprocity', topn=14))
+print(model.docvecs)
+for token in ['Patent_Reciprocity', 'NonCommercial', 'GPL_incompatibility', 'GPLv2&GPLv3_compatibility',
+ 'BSD_based', 'MIT_based','Cipher', 'NonFree', 'not_Evil']:
+    similar_docs = model.docvecs.most_similar(token, topn=14)
+    for name , similarl in similar_docs:
+      print(token, name,similarl)
+
 
 print("MPL_like but MIT_base", model.docvecs.most_similar(positive=["MPL_like"], negative=["MIT_based"]))
-print("NonCommercial", model.docvecs.most_similar(positive=["NonCommercial"]))
 
 
 # docs = corpus_load('./license-list-data-master/own_text')

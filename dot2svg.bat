@@ -1,0 +1,1 @@
+dot -Tsvg %1 -o  %~dp1%1.svg
