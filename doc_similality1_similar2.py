@@ -89,31 +89,35 @@ print(model.docvecs.most_similar('spdx/BSD-Protection', topn=14))
 print(model.docvecs.most_similar('spdx/EPL-1.0', topn=14))
 print(model.docvecs.most_similar('spdx/EPL-2.0', topn=14))
 print(model.docvecs.most_similar('spdx/CC-BY-NC-SA-1.0', topn=14))
+print(model.docvecs.most_similar('spdx/SISSL-1.2', topn=14)) # ('spdx/CDDL-1.0', 0.42703720927238464),
 # 選択条件における類似度の下限は、上記出力のsimilarlの値を参考とする
 similarl_lower = 0.5
 
 docs_similar_tree = {} # 該当ドキュメントに類似した、短いドキュメント
 for docName, doc in preprocessed_docs.items():
-    if docName not in docs_similar_tree:
-        docs_similar_tree[docName] = []
     similar_docs = model.docvecs.most_similar(docName, topn=6) # 少数に限定した、短いドキュメントに限定しないと、dotコマンドがメモリ不足となる
     # if  (docName == 'research/MS-RL') or  (docName == 'spdx/MS-RL'):
     #     print('similar_docs', docName,similar_docs )
-    member_count = 0
-    for nearName , similarl in similar_docs:
-        if nearName not in docs_similar_tree:
-            docs_similar_tree[nearName] = []
-        if  (nearName in preprocessed_docs ):
-            if  ( len(doc) >= len(preprocessed_docs[nearName]) ) and (similarl > similarl_lower) : # 先祖的ライセンスを選ぶ
-                docs_similar_tree[nearName].append((docName,similarl, len(doc) - len(preprocessed_docs[nearName])))
-                member_count = member_count + 1
-    if  member_count <= 0: # 先祖が一つも見つからなかった場合、最も似た派生ライセンスを選ぶ
-        similar_docs_top = sorted(similar_docs, key=lambda x:(-x[1], x[0]))
-        for index, (nearName , similarl) in enumerate(similar_docs_top):
-            # if  nearName in preprocessed_docs:
-            #     if  ( len(doc) < len(preprocessed_docs[nearName]) ) :
+    # member_count = 0
+    # for nearName , similarl in similar_docs:
+    #     if nearName not in docs_similar_tree:
+    #         docs_similar_tree[nearName] = []
+    #     if  (nearName in preprocessed_docs ):
+    #         if  ( len(doc) >= len(preprocessed_docs[nearName]) ) and (similarl > similarl_lower) : # 先祖的ライセンスを選ぶ
+    #             docs_similar_tree[nearName].append((docName,similarl, len(doc) - len(preprocessed_docs[nearName])))
+    #             member_count = member_count + 1
+    # if  member_count <= 0: # 先祖が一つも見つからなかった場合、最も似た派生ライセンスを選ぶ
+    similar_docs_top = sorted(similar_docs, key=lambda x:(-x[1], x[0]))
+    if docName not in docs_similar_tree:
+        docs_similar_tree[docName] = []
+    for index, (nearName , similarl) in enumerate(similar_docs_top):
             if (index <= 1) or (similarl > similarl_lower) :
-                docs_similar_tree[docName].append((nearName,similarl,  len(preprocessed_docs[nearName]) - len(doc)))
+                if  ( len(doc) <= len(preprocessed_docs[nearName]) ): 
+                    if nearName not in docs_similar_tree:
+                       docs_similar_tree[nearName] = []
+                    docs_similar_tree[nearName].append((docName,similarl, len(preprocessed_docs[nearName]) - len(doc))) # 先祖的ライセンスとして登録
+                else:
+                    docs_similar_tree[docName].append((nearName,similarl,  len(doc) - len(preprocessed_docs[nearName]) )) # 子孫的ライセンスとして登録
 
 print('docs_similar_tree.length', len(docs_similar_tree))
 # 関連ドキュメントをconcatする
@@ -209,7 +213,11 @@ for docName, similar_docs_names  in docs_related_tree.items():
         nitcies_text = '\\n' + ','.join(nitcies_items)
     else:
         nitcies_text = ''
-    dot.write('   "' + docName + '"  [label="' + docName + nitcies_text + '"];\n')
+    if docName[0:5] != 'spdx/':
+        doc_color = ',color=red'
+    else:
+        doc_color=''
+    dot.write('   "' + docName + '"  [label="' + docName + nitcies_text + '"'  + doc_color + '];\n')
     for nearName, similarl, len_diff in similar_docs_names:
          dot.write('      "' +docName   + '" -> "' + nearName  + "\" [label=\"{0:.3f}{1:+d}\"];\n".format(round(similarl,3), len_diff ))
 
