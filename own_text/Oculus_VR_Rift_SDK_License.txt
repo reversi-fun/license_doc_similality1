@@ -47,9 +47,9 @@ conditions:
 
 1.1. This license includes the non-exclusive license and right to use
 (i) the RIFT SDK to make applications, content, games and demos
-(collectively and generally referred to as ÅgDeveloper ContentÅh) that run
-on the Oculus VR approved mobile hardware and software products (ÅgOculus
-Approved Rift ProductsÅh) and which may incorporate the RIFT SDK in whole
+(collectively and generally referred to as ‚ÄúDeveloper Content‚Äù) that run
+on the Oculus VR approved mobile hardware and software products (‚ÄúOculus
+Approved Rift Products‚Äù) and which may incorporate the RIFT SDK in whole
 or in part in binary or object code; and (ii) to use the RIFT SDK to
 create derivative works of the RIFT SDK itself ("RIFT SDK Derivatives"),
 whether in source, binary, or object form, in whole or in part,
@@ -77,10 +77,10 @@ rights to the RIFT SDK and the RIFT SDK Derivatives that may be
 incorporated into your Developer Content.
 
 1.4 You agree to and you will use the Flash Screen Warning and the
-Health and Safety Warnings (collectively the ÅgOculus WarningsÅh) and the
+Health and Safety Warnings (collectively the ‚ÄúOculus Warnings‚Äù) and the
 Oculus VR health and safety protocols found in the Oculus Best Practices
-Guide (ÅgOculus H&S ProtocolsÅh), and your use of the Oculus Warnings and
-the Oculus end user license agreement (ÅgOculus EULAÅh) with your
+Guide (‚ÄúOculus H&S Protocols‚Äù), and your use of the Oculus Warnings and
+the Oculus end user license agreement (‚ÄúOculus EULA‚Äù) with your
 Developer Content as provided for in the Oculus Developer Center, all of
 which can be found at the following link:
 https://developer.oculusvr.com/?action=doc.
@@ -145,13 +145,13 @@ License as such recipients, licensees or sublicensees may only use the
 RIFT SDK or any RIFT SDK Derivatives or any elements thereof subject to
 the terms of this Licence and such recipients, licensees or sublicensees
 agreement and acceptance of this License with Oculus VR (which will
-convey all rights to the recipientsÅf or licenseesÅf or sublicenseesÅf RIFT
+convey all rights to the recipients‚Äô or licensees‚Äô or sublicensees‚Äô RIFT
 SDK Derivatives to Oculus VR), and you must cause any modified files to
 carry prominent notices stating that you changed the files;
 
 3.5. If the RIFT SDK or a specific element thereof such as LibOVR
-includes a "LICENSE" text file as part of its distribution (the ÅgLicense
-NoticeÅh), then any RIFT SDK Derivatives that you distribute with the
+includes a "LICENSE" text file as part of its distribution (the ‚ÄúLicense
+Notice‚Äù), then any RIFT SDK Derivatives that you distribute with the
 RIFT SDK in whole or in part must include a readable copy of such
 attribution notices as are contained within the applicable License
 Notice file (excluding those notices that do not pertain to any part of
@@ -279,8 +279,8 @@ conducted in accordance with the rules and procedures of JAMS then in
 effect, and the judgment of the arbitrator shall be final and capable of
 entry in any court of competent jurisdiction. You agree to submit to the
 personal jurisdiction of the courts located within Orange County,
-California in connection with any entrance of an arbitratorÅfs judgment
+California in connection with any entrance of an arbitrator‚Äôs judgment
 or decision or any dispute with respect to the arbitration process or
-procedure or Oculus VRÅfs exercise of its equitable rights or remedies.
+procedure or Oculus VR‚Äôs exercise of its equitable rights or remedies.
 
 
