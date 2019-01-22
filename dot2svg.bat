@@ -1,1 +1,1 @@
-dot -Tsvg %1 -o  %~dp1%1.svg
+C:\Program Files (x86)\Graphviz2.38\bin\dot -Tsvg %1 -o  %~dp1%1.svg
