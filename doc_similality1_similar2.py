@@ -82,9 +82,13 @@ if not os.path.isfile('./data/doc2vec.model'):
     # LSIにより次元削減
     print("\n---LSI Model---")
     num_topics = 33
-    lsi_model = gensim.models.LsiModel(bow_docs.values(),id2word=dictionary1, num_topics=num_topics)
+    # lsiモデルのみtfidfコーパスが必要なため一部作成順序が変わっています。
+    tfidf_model = models.TfidfModel(corpus1)
+    tfidf_corpus = tfidf_model[corpus1]
+    lsi_model = models.LsiModel(tfidf_corpus, id2word=dictionary1, num_topics= num_topics)
+    # lsi_model = gensim.models.LsiModel(bow_docs.values(),id2word=dictionary1, num_topics=num_topics)
     lsi_model.save('./data/lsi.model')
-    lsi_index = similarities.MatrixSimilarity(lsi_model[corpus1])
+    lsi_index = similarities.MatrixSimilarity(lsi_model[tfidf_corpus])
     # ※インデックス化は非常に時間がかかるため、毎回実施すべきでない
     # インデックスの保存
     print('lsi_index', lsi_index)
@@ -101,12 +105,15 @@ if not os.path.isfile('./data/doc2vec.model'):
     for lsiTopic in lsi_model.get_topics():
         print(lsiTopic, "\n")
     print("\nLDA Topics")
-    lda = gensim.models.ldamodel.LdaModel(corpus=corpus1, num_topics=num_topics, id2word=dictionary1)
+    # https://hivecolor.com/id/88
+    lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus1, num_topics=num_topics, id2word=dictionary1)
     for i in range(num_topics):
-        print('TOPIC:', i, '__', lda.print_topic(i))
-    lda.save('./data/lda_model')
+        print('TOPIC:', i, '__', lda_model.print_topic(i))
+    lda_model.save('./data/lda_model')
+    lda_index = similarities.MatrixSimilarity(lda_model[corpus1])
+    lda_index.save('./data/lda_index')
 
-    print('topics: {}'.format(lda.show_topics(num_topics=num_topics, num_words=20)))
+    print('topics: {}'.format(lda_model.show_topics(num_topics=num_topics, num_words=20)))
     print('sample LSI topic', lsi_model[bow_docs['spdx/GPL-3.0-or-later']])
 
      # https://www.programcreek.com/python/example/88175/gensim.similarities.MatrixSimilarity
@@ -133,7 +140,8 @@ else:
     model = gensim.models.doc2vec.Doc2Vec.load('./data/doc2vec.model')
     lsi_model = gensim.models.LsiModel.load('./data/lsi.model')
     lsi_index = similarities.MatrixSimilarity.load('./data/lsiModels.index')
-    lda =  gensim.models.ldamodel.LdaModel.load('./data/lda_model')
+    lda_model =  gensim.models.ldamodel.LdaModel.load('./data/lda_model')
+    lda_index =   similarities.MatrixSimilarity.load('./data/lda_index')
 
 # 類似度をサンプル表示
 print(model.docvecs.most_similar('spdx/GPL-3.0-or-later', topn=14))
@@ -146,6 +154,7 @@ print(model.docvecs.most_similar('spdx/MPL-2.0', topn=14))
 print(model.docvecs.most_similar('spdx/CC-BY-NC-SA-1.0', topn=14))
 print(model.docvecs.most_similar('spdx/Sleepycat', topn=14))
 print(model.docvecs.most_similar('spdx/SISSL-1.2', topn=14)) # ('spdx/CDDL-1.0', 0.42703720927238464),
+print('research/Oculus_VR_Rift_SDK_License', model.docvecs.most_similar('research/Oculus_VR_Rift_SDK_License', topn=14))
 print(model.docvecs.most_similar('spdx/Sleepycat', topn=14))
 print(model['spdx/Sleepycat'])
 
@@ -153,11 +162,15 @@ print(model['spdx/Sleepycat'])
 doc3 = open('own_text/Oculus_VR_Rift_SDK_License.txt', encoding='utf-8').read()
 vec_bow3= dictionary1.doc2bow(doc3.lower().split())
 vec_lsi3 = lsi_model[vec_bow3] # convert the query to LSI space
-print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','lsi-model',vec_lsi3)
-vec_lda3 = lda[vec_bow3]
-lda_sims3 = lsi_index[vec_lda3]
+print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','lsi-model',len(vec_lsi3),vec_lsi3)
+vec_lda3 = lda_model[vec_bow3]
+print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','lda-model',len(vec_lda3), vec_lda3)
+lda_sims3 = lda_index[vec_lda3]
 lda_sims3 = sorted(enumerate(lda_sims3), key=lambda item: -item[1])
-print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','LDA-model', lda_sims3)
+print('own_text/Oculus_VR_Rift_SDK_License.txt', 'sim3','lda-index',len(lda_sims3))
+for i,similarl3 in lda_sims3[0:14]:
+    print(u'lda類似度=' + str(similarl3) + ':[' + str(i) +  '] ' + list(preprocessed_docs.keys())[i])
+
 new_doc_vec3 = model.infer_vector(doc3)
 print('own_text', model.docvecs.most_similar([new_doc_vec3], topn=14))
 # 選択条件における類似度の下限は、上記出力のsimilarlの値を参考とする
