@@ -412,6 +412,25 @@ spdx/Zlib,58
 spdx/ZPL-1.1,229
 spdx/ZPL-2.0,176
 spdx/ZPL-2.1,161
+Approved/cucumber-sandwich.jar#/asm-license,112
+Approved/cucumber-sandwich.jar#/cglib-license,792
+Approved/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,90
+Approved/cucumber-sandwich.jar#/charts/flash_charts.zip#/charts/AC_RunActiveContent.js,612
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/g.bar-min.js,470
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/g.pie-min.js,458
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/g.raphael-min.js,252
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/highcharts.js,4527
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.enumerable.js,197
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.min.js,2834
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.tufte-graph.js,362
+Approved/cucumber-sandwich.jar#/charts/js.zip#/js/raphael.js,824
+Approved/cucumber-sandwich.jar#/hamcrest-license,113
+Approved/cucumber-sandwich.jar#/LICENSE,82
+Approved/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.TXT,171
+Approved/cucumber-sandwich.jar#/licenses/javolution.license.TXT,107
+Approved/cucumber-sandwich.jar#/licenses/thoughtworks.TXT,118
+Approved/cucumber-sandwich.jar#/NOTICE,18
+Approved/cucumber-sandwich.jar#/objenesis-license,81
 Approved/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/META-INF/LICENSE,792
 Approved/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/META-INF/LICENSE,792
 Approved/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/META-INF/LICENSE,792
@@ -495,6 +514,7 @@ research/Apache-1.0,203
 research/Apache-1.1,189
 research/APSL-2.0,1527
 research/Arphic,504
+research/ASM=Java_bytecode_manipulation_framework,119
 research/BerkeleyDB,522
 research/BitTorrentOSL1.1,2034
 research/CNRI-DOR,262
@@ -529,6 +549,7 @@ research/Scratch-1.4,172
 research/SimpleM-1.1,251
 research/SISSL-1.1,1084
 research/Sleepycat,369
+research/SmartBear - On PremSoftware Licensing Terms of Use,5759
 research/Squeak-old,753
 research/StandardML-NJ,87
 research/SunCSLv2.8,3083
@@ -537,4 +558,6 @@ research/TrueCrypt-3.0,1680
 research/UtahPublicLicense,896
 research/Watcom-1.0,1587
 research/WebM,109
+research/WTFPL-1.0,27
+research/WTFPL-2.0,35
 research/X11,94
