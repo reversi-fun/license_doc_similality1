@@ -174,9 +174,14 @@ for i,similarl3 in lda_sims3[0:14]:
 new_doc_vec3 = model.infer_vector(doc3)
 print('own_text', model.docvecs.most_similar([new_doc_vec3], topn=14))
 # 選択条件における類似度の下限は、上記出力のsimilarlの値を参考とする
-similarl_lower = 0.5
+similarl_lower = 0.5 # 類似していると見なす閾値
+similarl_extend = 0.35 # 孤立しそうなdocumentについて、類似していると見なす閾値
+similarl_upper = 0.98 # 同一条文と見なす閾値
 
 docs_similar_tree = {} # 該当ドキュメントに類似した、短いドキュメント
+same_text_groups_seq = {} # 同一条文と見なすドキュメントのグループ番号
+same_text_groups_seq_num = 0
+same_text_groups_names = {} # 上記グルーピングの転置
 for docName, doc in preprocessed_docs.items():
     if docName not in docs_similar_tree:
         docs_similar_tree[docName] = []
@@ -184,18 +189,43 @@ for docName, doc in preprocessed_docs.items():
     similar_docs_top = sorted(model.docvecs.most_similar(docName, topn=8), key=lambda x:(-x[1], x[0]))
     if docName == 'spdx/OGL-UK-3.0':
         print('similar_docs_top',docName,similar_docs_top )
+    similarl_count = 0
     for index, (nearName , similarl) in enumerate(similar_docs_top):
         if nearName in preprocessed_docs:
-            if (index <= 2) or (similarl > similarl_lower) :
+            if  (similarl > similarl_upper) and (-1 <= len(doc) - len(preprocessed_docs[nearName]) <= 1) :
+                same_text_groups_seq_num  += 1
+                cur_groups_seq_num = min([same_text_groups_seq.get(docName,same_text_groups_seq_num ), same_text_groups_seq.get(nearName,same_text_groups_seq_num )])
+                same_text_groups_seq[docName] = cur_groups_seq_num
+                if  cur_groups_seq_num == same_text_groups_seq_num:
+                    same_text_groups_names[cur_groups_seq_num] = []
+                else:
+                    same_text_groups_seq[nearName] = cur_groups_seq_num
+                if docName not in  same_text_groups_names[cur_groups_seq_num]:
+                    same_text_groups_names[cur_groups_seq_num].append(docName)
+                if nearName not in  same_text_groups_names[cur_groups_seq_num]:
+                    same_text_groups_names[cur_groups_seq_num].append(nearName)
+            elif  (similarl >= similarl_lower) :
+                similarl_count += 1
                 if  ( len(doc) <= len(preprocessed_docs[nearName]) ): 
                     if nearName not in docs_similar_tree:
                        docs_similar_tree[nearName] = []
-                    docs_similar_tree[nearName].append((docName,similarl, len(preprocessed_docs[nearName]) - len(doc))) # 先祖的ライセンスとして登録
+                    docs_similar_tree[nearName].append((docName,similarl, len(preprocessed_docs[nearName]) - len(doc))) # 子孫的ライセンスとして登録
                 else:
-                    docs_similar_tree[docName].append((nearName,similarl,  len(doc) - len(preprocessed_docs[nearName]) )) # 子孫的ライセンスとして登録
+                    docs_similar_tree[docName].append((nearName,similarl,  len(doc) - len(preprocessed_docs[nearName]) )) # 先祖的ライセンスとして登録
         else:
             print('WARNNING : most_similarで、 preprocessed_docsに含まれないドキュメント名が見つかった ' +  nearName)
-
+    if  similarl_count <= 0: # 先祖的or子孫的ライセンスが一つも見つかっていない場合、条件を緩めて登録
+       for index, (nearName , similarl) in enumerate(similar_docs_top):
+         if  (similarl_lower > similarl > similarl_extend ) : # 多重登録を避ける為の除外条件
+                if  ( len(doc) <= len(preprocessed_docs[nearName]) ): 
+                    if nearName not in docs_similar_tree:
+                       docs_similar_tree[nearName] = []
+                    docs_similar_tree[nearName].append((docName,similarl, len(preprocessed_docs[nearName]) - len(doc))) # 子孫的ライセンスとして登録
+                else:
+                    docs_similar_tree[docName].append((nearName,similarl,  len(doc) - len(preprocessed_docs[nearName]) )) # 先祖的ライセンスとして登録
+                similarl_count += 1
+                if similarl_count > 0:
+                    break
 
 print('docs_similar_tree.length', len(docs_similar_tree))
 # 関連ドキュメントをconcatする。　類似ドキュメントの合流が多い場合を想定し、再帰的な深さ優先ではなく、横探索する。
@@ -234,43 +264,23 @@ def get_uniq_names(docs_similar):
 for nearName, docs_similar in docs_similar_tree.items():
     docs_similar_tree[nearName] = get_uniq_names(docs_similar)
 
-# 同一条文のlicence documentをグループ化する
-same_text_groups_seq = {}
-same_text_groups_seq_num = 0
-same_text_groups_names = {}
-for nearName, docs_similar in docs_similar_tree.items(): # ボトムアップで伝播
-    same_text_childs = [docName for docName, similarl, len_diff in docs_similar if  (similarl >= 0.98) and (len_diff < 1) and (pickUp_dict.get(nearName, '') ==  pickUp_dict.get(docName, '')) ]
-    if len(same_text_childs) > 0:
-        same_text_groups_seq_num += 1
-        cur_groups_seq_num = min([same_text_groups_seq.get(docName,same_text_groups_seq_num ) for docName in same_text_childs])
-        same_text_groups_seq[nearName] = cur_groups_seq_num
-        if  cur_groups_seq_num not in same_text_groups_names:
-            same_text_groups_names[cur_groups_seq_num] = []
-        same_text_groups_names[cur_groups_seq_num].append(nearName)
-        for docName in same_text_childs:
-            same_text_groups_seq[docName] = cur_groups_seq_num
-            same_text_groups_names[cur_groups_seq_num].append(docName)
-
+# 同一条文のlicence documentをグループをマージする
 more_mearge_need = True
 more_mearge_counter = 0
 while more_mearge_need and (more_mearge_counter <30):
     more_mearge_counter += 1
     more_mearge_need = False
-    for docName, docs_similar in docs_similar_tree.items(): # ボトムアップで再伝播
-        same_text_childs = [nearName for nearName, similarl, len_diff in  docs_similar  if  (similarl >= 0.98) and (len_diff < 1) and (pickUp_dict.get(nearName, '') ==  pickUp_dict.get(docName, '')) ]
-        if len(same_text_childs) > 0:
-            cur_groups_seq_num = min([same_text_groups_seq[nearName] for nearName in same_text_childs])
-            if same_text_groups_seq[docName] != cur_groups_seq_num:
-                more_mearge_need = True
-                for related_docName in same_text_groups_names[same_text_groups_seq[docName]]:
-                    same_text_groups_seq[related_docName] = cur_groups_seq_num
-            same_text_groups_seq[docName] = cur_groups_seq_num
-            for nearName in same_text_childs:
-                if same_text_groups_seq[nearName] != cur_groups_seq_num:
-                    more_mearge_need = True
-                    for related_docName in same_text_groups_names[same_text_groups_seq[nearName]]:
-                        same_text_groups_seq[related_docName] = cur_groups_seq_num
-                same_text_groups_seq[nearName] = cur_groups_seq_num
+    for cur_groups_seq_num, cur_groups_names  in same_text_groups_names.items(): # 番号順にマージ
+        cur_groups_seq_list = [same_text_groups_seq[related_docName] for related_docName in cur_groups_names]
+        min_groups_seq = min(cur_groups_seq_list)
+        max_groups_seq = max(cur_groups_seq_list)
+        if  min_groups_seq < max_groups_seq:
+          for related_docName_seq in cur_groups_seq_list:
+              if min_groups_seq < related_docName_seq: 
+                  for related_docName in same_text_groups_names[related_docName_seq]:
+                      same_text_groups_seq[related_docName] = min_groups_seq
+                  same_text_groups_names[related_docName_seq] = []
+          more_mearge_need = True
 
 same_text_groups_names = {}
 grouped_doc_names = {}
@@ -279,7 +289,6 @@ for cur_groups_name, cur_groups_seq_num in same_text_groups_seq.items(): # 番�
           same_text_groups_names[cur_groups_seq_num] = []
       same_text_groups_names[cur_groups_seq_num].append(cur_groups_name)
       grouped_doc_names[cur_groups_name] = 0 - cur_groups_seq_num
-
 
 # 単段の関係が多段の関係から導出できる冗長な関係を削除する
 for nearName, docs_similar in docs_similar_tree.items():
@@ -321,7 +330,11 @@ for nearName, docs_similar in docs_similar_tree.items():
 
 tail_rank_docs = sorted(tail_rank_docs, key=lambda x:(x[1], x[0]))
 for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs):
-    uniq_docs = [nearName] + [doc_name for doc_name in related_docs if doc_name not in  grouped_doc_names]
+    if nearName not in grouped_doc_names:
+        uniq_docs = [nearName]
+    else:
+        uniq_docs = []
+    uniq_docs.extend([doc_name for doc_name in related_docs if doc_name not in  grouped_doc_names])
     tail_rank_docs[index] = (nearName,doc_count, uniq_docs) #  (キュメント名、 関連ドキュメントの数 （len(uniq_docs)に非ず）、ドキュメント）
     for doc_name in uniq_docs:
         grouped_doc_names[doc_name] = index
