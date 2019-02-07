@@ -11,6 +11,7 @@ from gensim.models.doc2vec import TaggedDocument
 from gensim import corpora, similarities
 import re
 import json
+from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
 
 # licenseの分類情報を読み込み
 # https://directory.fsf.org/wiki/Free_Software_Directory:SPDX_Group
@@ -22,24 +23,36 @@ f.close()
 pickUp_token = re.compile(r'[^w][Pp]atent')
 pickUp_dict = {}
 # Loding a corpus, remove the line break, convert to lower case
+# encodingの検出ツールを使う。
+encode_detector = UniversalDetector()
 def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     docs = {}
     for filename in glob.glob(corpus_dir + '/**', recursive=True):
         try:
-          if   (not re.match('.+MANIFEST.MF|.+pom.xml' ,filename)) and os.path.isfile(filename):
+          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and (os.path.splitext(filename)[1]  not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties']): 
             if '.txt' == filename[-4:]:
                 name = prefix + '/' +  filename[len(corpus_dir) + 1:-4]
             else:
                 name = prefix + '/' +  filename[len(corpus_dir) + 1:]
             name = name.replace('\\', '/')
-            raw_doc = open(filename, encoding='utf-8').read()
+            encode_detector.reset()
+            raw_doc = open(filename, 'rb').read()
+            encode_detector.feed(raw_doc)
+            if encode_detector.done:
+                encode_detector.close()
+                raw_doc = raw_doc.decode(encode_detector.result['encoding'], errors='ignore' ) # .encode('utf-8', 'ignore')
+            else:
+                encode_detector.close()
+                raw_doc = raw_doc.decode('utf-8', errors='ignore' )
             parsed_words = gensim.parsing.preprocess_string(raw_doc)
             if len(parsed_words) > 4:
                 docs[name] = parsed_words
                 if pickUp_token.search(raw_doc):
                     pickUp_dict[name] = 'Patent'
+        # expect TypeError:
+        #    print("SKIP " + filename, encode_detector)
         except UnicodeDecodeError:
-            print("SKIP " + filename)
+            print("SKIP " + filename, encode_detector)
     return docs
 
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp_token,pickUp_dict)
@@ -57,9 +70,9 @@ if not os.path.isfile('./data/doc2vec.model'):
     unfiltered = dictionary1.token2id.keys()
     dictionary1.filter_extremes(no_below=2,  # 二回以下しか出現しない単語は無視し
                             no_above=0.9,  # 全部の文章の90パーセント以上に出現したワードは一般的すぎるワードとして無視
-                            keep_tokens=["evil", "Evil", "FUCK", "fuck", "beer", "copyleft", '(c)', "donation",
+                            keep_tokens=["evil", "Evil", "FUCK", "fuck", "beer", "copyleft", '(c)', "donation", "ALL", "ANY", "AND", "OR",
                                            "grant", "grants", "granted", "permitted", "permission", "Permissive", "use", "sublicense", "distribute",
-                                         "GPL", "RMS"])
+                                         "GPL", "RMS", "ISC"])
     filtered = dictionary1.token2id.keys()
     filtered_out = set(unfiltered) - set(filtered)
     # 作成した辞書をファイルに保存
@@ -100,20 +113,20 @@ if not os.path.isfile('./data/doc2vec.model'):
         # vec2dense(sparse, num_topics)
         dense = list(gensim.matutils.corpus2dense([sparse], num_terms=num_topics).T[0])
         lsi_docs[docname] = sparse
-        print(docname, ":", dense, vec)
-    print("\nLSI Topics")
-    for lsiTopic in lsi_model.get_topics():
-        print(lsiTopic, "\n")
-    print("\nLDA Topics")
+        print(docname, ":", dense)
+    # print("\nLSI Topics")
+    # for lsiTopic in lsi_model.get_topics():
+    #     print(lsiTopic, "\n")
     # https://hivecolor.com/id/88
     lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus1, num_topics=num_topics, id2word=dictionary1)
-    for i in range(num_topics):
-        print('TOPIC:', i, '__', lda_model.print_topic(i))
+    # print("\nLDA Topics")
+    # print('topics: {}'.format(lda_model.show_topics(num_topics=num_topics, num_words=20)))
+    # for i in range(num_topics):
+    #     print('TOPIC:', i, '__', lda_model.print_topic(i))
     lda_model.save('./data/lda_model')
     lda_index = similarities.MatrixSimilarity(lda_model[corpus1])
     lda_index.save('./data/lda_index')
 
-    print('topics: {}'.format(lda_model.show_topics(num_topics=num_topics, num_words=20)))
     print('sample LSI topic', lsi_model[bow_docs['spdx/GPL-3.0-or-later']])
 
      # https://www.programcreek.com/python/example/88175/gensim.similarities.MatrixSimilarity
