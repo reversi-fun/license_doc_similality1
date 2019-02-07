@@ -285,15 +285,16 @@ while more_mearge_need and (more_mearge_counter <30):
     more_mearge_need = False
     for cur_groups_seq_num, cur_groups_names  in same_text_groups_names.items(): # 番号順にマージ
         cur_groups_seq_list = [same_text_groups_seq[related_docName] for related_docName in cur_groups_names]
-        min_groups_seq = min(cur_groups_seq_list)
-        max_groups_seq = max(cur_groups_seq_list)
-        if  min_groups_seq < max_groups_seq:
-          for related_docName_seq in cur_groups_seq_list:
-              if min_groups_seq < related_docName_seq: 
-                  for related_docName in same_text_groups_names[related_docName_seq]:
-                      same_text_groups_seq[related_docName] = min_groups_seq
-                  same_text_groups_names[related_docName_seq] = []
-          more_mearge_need = True
+        if len(cur_groups_seq_list) > 0:
+            min_groups_seq = min(cur_groups_seq_list)
+            max_groups_seq = max(cur_groups_seq_list)
+            if  min_groups_seq < max_groups_seq:
+              for related_docName_seq in cur_groups_seq_list:
+                  if min_groups_seq < related_docName_seq: 
+                      for related_docName in same_text_groups_names[related_docName_seq]:
+                          same_text_groups_seq[related_docName] = min_groups_seq
+                      same_text_groups_names[related_docName_seq] = []
+              more_mearge_need = True
 
 same_text_groups_names = {}
 grouped_doc_names = {}
