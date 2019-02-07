@@ -5,15 +5,35 @@ import os
 import sys
 import gensim
 # from gensim import models
-
 import fileinput
+from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
 
 topN = 32
 similarl_low = 0.5
 
-print(sys.argv[1])
-doc3 = gensim.parsing.preprocess_string(open(sys.argv[1].replace('\\', '/'), encoding='utf-8').read())
-model = gensim.models.doc2vec.Doc2Vec.load('./data/doc2vec.model')
+##
+toolFileName = sys.argv[0]
+if len(toolFileName) <= 0:
+    toolDirName = os.path.dirname(os.getcwd())
+elif os.path.isdir(toolFileName):
+    toolDirName = toolFileName
+else:
+    toolDirName = os.path.dirname(toolFileName)
+print(toolDirName , sys.argv[1])
+# encodingの検出ツールを使う。
+encode_detector = UniversalDetector()
+encode_detector.reset()
+raw_doc = open(sys.argv[1].replace('\\', '/'), 'rb').read()
+encode_detector.feed(raw_doc)
+if encode_detector.done:
+    encode_detector.close()
+    raw_doc = raw_doc.decode(encode_detector.result['encoding'], errors='ignore' ) # .encode('utf-8', 'ignore')
+else:
+    encode_detector.close()
+    raw_doc = raw_doc.decode('utf-8', errors='ignore') 
+doc3 = gensim.parsing.preprocess_string(raw_doc)
+raw_doc = None
+model = gensim.models.doc2vec.Doc2Vec.load(os.path.join(toolDirName,'data/doc2vec.model'))
 
 # .doc2vec is better Similarity!
 # .doc2vecは、隣接する単語の並びをnGram化しているので、文章としての類似度が自然に見える。
@@ -24,9 +44,9 @@ for docName,similarl in similarl_docs:
     print('{:3.5f}'.format(similarl), docName)
 
 # # 上記では類似documentが見つからなかった場合に備え、類似単語を含むドキュメントも列挙する
-dictionary1 = gensim.corpora.Dictionary.load('data/id2word2.dict')
-lda_model =  gensim.models.ldamodel.LdaModel.load('./data/lda_model')
-lda_index =   gensim.similarities.MatrixSimilarity.load('./data/lda_index')
+dictionary1 = gensim.corpora.Dictionary.load(os.path.join(toolDirName,'data/id2word2.dict'))
+lda_model =  gensim.models.ldamodel.LdaModel.load(os.path.join(toolDirName,'./data/lda_model'))
+lda_index =   gensim.similarities.MatrixSimilarity.load(os.path.join(toolDirName,'./data/lda_index'))
 
 vec_bow3= dictionary1.doc2bow(doc3)
 vec_lda3 = lda_model[vec_bow3]
