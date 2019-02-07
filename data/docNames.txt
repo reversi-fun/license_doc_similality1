@@ -412,6 +412,9 @@ spdx/Zlib,58
 spdx/ZPL-1.1,229
 spdx/ZPL-2.0,176
 spdx/ZPL-2.1,161
+Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,886
+Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,1826
+Approved/CDDL + GPL-2.0-with-classpath-exception,2605
 Approved/cucumber-sandwich.jar#/asm-license,112
 Approved/cucumber-sandwich.jar#/cglib-license,792
 Approved/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,90
@@ -578,6 +581,7 @@ Approved/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/META-INF/LICENSE,792
 Approved/elasticsearch-6.2.3/NOTICE,13717
 Approved/elasticsearch-6.2.3/README.textile,775
 Approved/ISC-Contributors-License,58
+Approved/mecab-ipadic-2.7.0-20070801 Notice,276
 Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,297
 Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software,268
 research/ACDL-1.0,646
