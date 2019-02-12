@@ -14,12 +14,45 @@ import json
 from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
 
 # licenseの分類情報を読み込み
+license_notices = {'':[]}
+license_alias = {}
+f = open("./license-list-data-master/json/licenses.json", "r",  encoding="utf-8")
+spdx_licenseData = json.load(f)
+f.close()
+for spdxData in spdx_licenseData['licenses']:
+        license_alias['spdx/' + spdxData['licenseId']] =  'spdx/' + spdxData['licenseId']
+        license_alias[spdxData['licenseId']] =  'spdx/' + spdxData['licenseId']
+        license_alias[spdxData['name']] =  'spdx/' + spdxData['licenseId']
+        if spdxData['isOsiApproved']:
+            license_notices[ 'spdx/' + spdxData['licenseId']] = ['OsiApproved']
+
+f = open("./license-list-data-master/json/exceptions.json", "r",  encoding="utf-8")
+spdx_licenseData = json.load(f)
+f.close()
+for spdxData in spdx_licenseData['exceptions']:
+        license_alias['spdx/' + spdxData['licenseExceptionId']] =  'spdx/' + spdxData['licenseExceptionId']
+        license_alias[spdxData['licenseExceptionId']] =  'spdx/' + spdxData['licenseExceptionId']
+        license_alias[spdxData['name']] =  'spdx/' + spdxData['licenseExceptionId']
+
 # https://directory.fsf.org/wiki/Free_Software_Directory:SPDX_Group
-f = open("./config/@licenseNotice.json", "r")
+# https://github.com/wking/fsf-apiからGPLとの互換性に関する情報を転記する
+# https://wking.github.io/fsf-api/licenses-full.json
+f = open("./config/FSF-licenses-full.json", "r",  encoding="utf-8")
 # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
-license_notices = json.load(f)
+license_metaData = json.load(f)
 # ファイルを閉じる
 f.close()
+for licName,licMetaData in license_metaData['licenses'].items():
+    license_notices['FSF/' + licName] = licMetaData.get('tags', [])
+    if len(license_alias.get(licMetaData['name'],'')) <= 0:
+        license_alias[licMetaData['name']] = 'FSF/' + licName
+    if (len(licMetaData.get('identifiers',{})) > 0) and (len(licMetaData['identifiers'].get('spdx',[])) > 0):
+        license_alias['FSF/' + licName] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
+        if len( license_alias.get(licMetaData['name'], '')) <= 0:
+              license_alias[licMetaData['name']] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
+        for spdxId in licMetaData['identifiers']['spdx']:
+             license_notices['spdx/' + spdxId] = license_notices.get('spdx/' + spdxId, []) + licMetaData.get('tags', [])
+
 pickUp_token = re.compile(r'[^w][Pp]atent')
 pickUp_dict = {}
 # Loding a corpus, remove the line break, convert to lower case
@@ -47,6 +80,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
             parsed_words = gensim.parsing.preprocess_string(raw_doc)
             if len(parsed_words) > 4:
                 docs[name] = parsed_words
+                print('loaded ', name)
                 if pickUp_token.search(raw_doc):
                     pickUp_dict[name] = 'Patent'
         # expect TypeError:
@@ -56,8 +90,9 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     return docs
 
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp_token,pickUp_dict)
+preprocessed_docs.update(corpus_load('./FSF_texts', 'FSF',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Approved_texts', 'Approved',pickUp_token,pickUp_dict))
-preprocessed_docs.update(corpus_load('./own_text', 'research',pickUp_token,pickUp_dict))
+preprocessed_docs.update(corpus_load('./own_texts', 'research',pickUp_token,pickUp_dict))
 f = open('data/docNames.txt', 'w')
 for docName, doc in preprocessed_docs.items():
     f.write("{},{}\n".format(docName, len(doc)))
@@ -134,7 +169,7 @@ if not os.path.isfile('./data/doc2vec.model'):
     # training
     training_docs = []
     for docname, doc in preprocessed_docs.items():
-        training_docs.append(TaggedDocument(words=doc, tags=( [docname] ))) #  + license_notices.get(name, [])
+        training_docs.append(TaggedDocument(words=doc, tags=( [docname] )))
     model.build_vocab(training_docs)
     # model = models.Doc2Vec(training_docs, dm=0, vector_size=300, window=15, alpha=.025,  min_alpha=.025, min_count=1, sample=1e-6)
     # model = gensim.models.Doc2Vec(training_docs, dm=0)
@@ -167,25 +202,25 @@ print(model.docvecs.most_similar('spdx/MPL-2.0', topn=14))
 print(model.docvecs.most_similar('spdx/CC-BY-NC-SA-1.0', topn=14))
 print(model.docvecs.most_similar('spdx/Sleepycat', topn=14))
 print(model.docvecs.most_similar('spdx/SISSL-1.2', topn=14)) # ('spdx/CDDL-1.0', 0.42703720927238464),
-print('research/Oculus_VR_Rift_SDK_License', model.docvecs.most_similar('research/Oculus_VR_Rift_SDK_License', topn=14))
+print('Approved/Oculus_VR_Rift_SDK_License', model.docvecs.most_similar('Approved/Oculus_VR_Rift_SDK_License', topn=14))
 print(model.docvecs.most_similar('spdx/Sleepycat', topn=14))
 print(model['spdx/Sleepycat'])
 
 
-doc3 = open('own_text/Oculus_VR_Rift_SDK_License.txt', encoding='utf-8').read()
+doc3 = open('Approved_texts/Oculus_VR_Rift_SDK_License.txt', encoding='utf-8').read()
 vec_bow3= dictionary1.doc2bow(doc3.lower().split())
 vec_lsi3 = lsi_model[vec_bow3] # convert the query to LSI space
-print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','lsi-model',len(vec_lsi3),vec_lsi3)
+print('Approved_texts/Oculus_VR_Rift_SDK_License.txt', 'vec3','lsi-model',len(vec_lsi3),vec_lsi3)
 vec_lda3 = lda_model[vec_bow3]
-print('own_text/Oculus_VR_Rift_SDK_License.txt', 'vec3','lda-model',len(vec_lda3), vec_lda3)
+print('Approved_texts/Oculus_VR_Rift_SDK_License.txt', 'vec3','lda-model',len(vec_lda3), vec_lda3)
 lda_sims3 = lda_index[vec_lda3]
 lda_sims3 = sorted(enumerate(lda_sims3), key=lambda item: -item[1])
-print('own_text/Oculus_VR_Rift_SDK_License.txt', 'sim3','lda-index',len(lda_sims3))
+print('Approved_texts/Oculus_VR_Rift_SDK_License.txt', 'sim3','lda-index',len(lda_sims3))
 for i,similarl3 in lda_sims3[0:14]:
     print(u'lda類似度=' + str(similarl3) + ':[' + str(i) +  '] ' + list(preprocessed_docs.keys())[i])
 
 new_doc_vec3 = model.infer_vector(doc3)
-print('own_text', model.docvecs.most_similar([new_doc_vec3], topn=14))
+print('Approved_texts', model.docvecs.most_similar([new_doc_vec3], topn=14))
 # 選択条件における類似度の下限は、上記出力のsimilarlの値を参考とする
 similarl_lower = 0.5 # 類似していると見なす閾値
 similarl_extend = 0.35 # 孤立しそうなdocumentについて、類似していると見なす閾値
@@ -382,7 +417,7 @@ for gruop_seq, related_docs in same_text_groups_names.items(): # 同一条文の
         dot.write('        color=blue;\n')
     dot.write('        label="' + related_docs[0]+ ' similarl groups count=' + str( len(related_docs)) +  '";\n')
     for docName in related_docs:
-        notcies_items = license_notices.get(docName[5:], []) +  license_notices.get(docName[9:], []) #research/
+        notcies_items = license_notices.get(license_alias.get(docName,''), []) +  license_notices.get(docName[9:], []) #research/
         if len(notcies_items) > 0:
             notcies_text = '\\n' + ','.join(notcies_items)
         else:
@@ -401,7 +436,7 @@ for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs): # �
     dot.write('    subgraph cluster_' + str(index) + ' { style=dashed; color=blue;\n')
     dot.write('        label="' + related_docs[0]+ ' groups count=' + str(doc_count) +  '";\n')
     for docName in related_docs:
-        notcies_items = license_notices.get(docName[5:], []) +  license_notices.get(docName[9:], []) #research/
+        notcies_items = license_notices.get(license_alias.get(docName,''),[]) +  license_notices.get(docName[9:], []) #research/
         if len(notcies_items) > 0:
             notcies_text = '\\n' + ','.join(notcies_items)
         else:
@@ -417,7 +452,7 @@ for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs): # �
 
 for docName, similar_docs_names  in docs_related_tree.items():
     if (docName not in  grouped_doc_names): #  dot.nodeは、subgraphと排他的に出力。
-        notcies_items = license_notices.get(docName[5:], []) +  license_notices.get(docName[9:], []) #research/
+        notcies_items = license_notices.get(license_alias.get(docName,''), []) +  license_notices.get(docName[9:], []) #Approved/ research/
         if len(notcies_items) > 0:
             notcies_text = '\\n' + ','.join(notcies_items)
         else:
