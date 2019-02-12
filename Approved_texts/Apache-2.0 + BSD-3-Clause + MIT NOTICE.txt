@@ -1,0 +1,4 @@
+Cglib - Apache License 2.0
+ASM - BSD license
+Objenesis - MIT license
+Hamcrest - BSD license

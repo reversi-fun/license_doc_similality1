@@ -1,0 +1,517 @@
+
+
+License:Scilab-old - Free Software Directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+		
+                
+
+
+
+
+         
+         
+           
+         
+
+		
+			
+		          
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		         
+		     
+
+		
+		
+		
+			
+			
+
+			
+				From Free Software Directory				
+								
+					Jump to:					, 					
+				
+				
+
+Name
+
+SCILAB License
+
+
+URL
+
+
+
+
+Comment
+
+This is not a free software license because it does not allow
+commercial distribution of a modified version. Thankfully, recent
+versions of the Scilab software are free software, released under
+CeCILL version 2.
+
+
+
+Important notice : this is a translation of the original license
+written in French
+
+SCILAB License
+
+1- Preface
+
+The aim of this license is to lay down the conditions enabling you to
+use, modify and circulate the SOFTWARE. However, INRIA and ENPC remain
+the authors of the SOFTWARE and so retain property rights and the use
+of all ancillary rights.
+
+2- Definitions
+
+The SOFTWARE is defined as all successive versions of SCILAB software
+and their documentation that have been developed by INRIA and ENPC.
+
+SCILAB DERIVED SOFTWARE is defined as all or part of the SOFTWARE that
+you have modified and/or translated and/or adapted.
+
+SCILAB COMPOSITE SOFTWARE is defined as all or a part of the SOFTWARE
+that you have interfaced with a software, an application package or a
+toolbox of which you are owner or entitled beneficiary.
+
+3- Object and conditions of the SOFTWARE license
+
+   1. INRIA and ENPC authorize you free of charge, to reproduce the
+      SOFTWARE source and/or object code on any present and future
+      support, without restriction, providing the following reference
+      appears in all the copies: Scilab (c)INRIA-ENPC.
+
+   2. INRIA and ENPC authorize you free of charge to correct any bugs,
+      carry out any modifications required for the porting of the
+      SOFTWARE and to carry out any usual functional modification or
+      correction, providing you insert a patch file or you indicate by
+      any other equivalent means the nature and date of the
+      modification or the correction, on the corresponding file(s) of
+      the SOFTWARE.
+
+   3. INRIA and ENPC authorize you free of charge to use the SOFTWARE
+      source and/or object code, without restriction, providing the
+      following reference appears in all the copies: Scilab
+      (c)INRIA-ENPC.
+
+   4. INRIA and ENPC authorize you free of charge to circulate and
+      distribute, free of charge or for a fee, the SOFTWARE source
+      and/or object code, including the SOFTWARE modified in
+      accordance with above-mentioned article 3 b), on any present and
+      future support, providing: * the following reference appears in
+      all the copies: Scilab (c)INRIA-ENPC.  * the SOFTWARE is
+      circulated or distributed under the present license.  * patch
+      files or files containing equivalent means indicating the nature
+      and the date of the modification or the correction to the
+      SOFTWARE file(s) concerned are freely circulated.
+
+4- Object and conditions of the DERIVED SOFTWARE license
+
+   1. INRIA and ENPC authorize you free of charge to reproduce and
+      modify and/or translate and/or adapt all or part of the source
+      and/or the object code of the SOFTWARE, providing a patch file
+      indicating the date and the nature of the modification and/or
+      the translation and/or the adaptation and the name of their
+      author in the SOFTWARE file(s) concerned is inserted. The
+      SOFTWARE thus modified is defined as DERIVED SOFTWARE. The INRIA
+      authorizes you free of charge to use the source and/or object
+      code of the SOFTWARE, without restriction, providing the
+      following reference appears in all the copies: Scilab
+      (c)INRIA-ENPC.
+
+   2. INRIA and ENPC authorize you free of charge to use the SOFTWARE
+      source and/or object code modified according to article 4-a)
+      above, without restriction, providing the following reference
+      appears in all the copies: "Scilab inside (c)INRIA-ENPC".
+
+   3. The INRIA and the ENPC authorize you free of charge to circulate
+      and distribute for no charge, for non-commercial purposes the
+      source and/or object code of DERIVED SOFTWARE on any present and
+      future support, providing: * the reference " Scilab inside
+      (c)INRIA-ENPC " is prominently mentioned; * the DERIVED SOFTWARE
+      is distributed under the present license; * the recipients of
+      the distribution can access the SOFTWARE code source; * the
+      DERIVED SOFTWARE is distributed under a name other than SCILAB.
+
+   4. Any commercial use or circulation of the DERIVED SOFTWARE shall
+      have been previously authorized by INRIA and ENPC.
+
+5- Object and conditions of the license concerning COMPOSITE SOFTWARE
+
+   1. INRIA and ENPC authorize you to reproduce and interface all or
+      part of the SOFTWARE with all or part of other software,
+      application packages or toolboxes of which you are owner or
+      entitled beneficiary in order to obtain COMPOSITE SOFTWARE.
+
+   2. INRIA and ENPC authorize you free, of charge, to use the
+      SOFTWARE source and/or object code included in the COMPOSITE
+      SOFTWARE, without restriction, providing the following statement
+      appears in all the copies: "composite software using Scilab
+      (c)INRIA-ENPC functionality".
+
+   3. INRIA and ENPC authorize you, free of charge, to circulate and
+      distribute for no charge, for purposes other than commercial,
+      the source and/or object code of COMPOSITE SOFTWARE on any
+      present and future support, providing: * the following reference
+      is prominently mentioned: "composite software using Scilab
+      (c)INRIA-ENPC functionality "; * the SOFTWARE included in
+      COMPOSITE SOFTWARE is distributed under the present license ; *
+      recipients of the distribution have access to the SOFTWARE
+      source code; * the COMPOSITE SOFTWARE is distributed under a
+      name other than SCILAB.
+
+   4. Any commercial use or distribution of COMPOSITE SOFTWARE shall
+      have been previously authorized by INRIA and ENPC.
+
+6- Limitation of the warranty
+
+Except when mentioned otherwise in writing, the SOFTWARE is supplied
+as is, with no explicit or implicit warranty, including warranties of
+commercialization or adaptation. You assume all risks concerning the
+quality or the effects of the SOFTWARE and its use. If the SOFTWARE is
+defective, you will bear the costs of all required services,
+corrections or repairs.
+
+7- Consent
+
+When you access and use the SOFTWARE, you are presumed to be aware of
+and to have accepted all the rights and obligations of the present
+license.
+
+8- Binding effect
+
+This license has the binding value of a contract.
+
+You are not responsible for respect of the license by a third party.
+
+9- Applicable law
+
+The present license and its effects are subject to French law and the
+competent French courts.
+
+
+
+
+
+FR:
+
+Licence SCILAB
+
+1- Préambule
+
+La présente licence a pour objet d'établir les conditions dans
+lesquelles vous pouvez utiliser, modifier et diffuser le
+LOGICIEL. Toutefois l'INRIA et l'ENPC demeurent les auteurs du
+LOGICIEL et conservent la jouissance et l'usage de tous les droits qui
+y sont attachés.
+
+2- Définitions
+
+Le LOGICIEL est constitué par toutes les versions successives du
+logiciel SCILAB, et de leur documentation, développées par l'INRIA et
+l'ENPC.
+
+Les LOGICIELS DERIVES de SCILAB sont constitués de tout ou partie du
+LOGICIEL que vous avez modifié et/ou traduit et/ou adapté.
+
+Les LOGICIELS COMPOSITES de SCILAB sont constitués de tout ou partie
+du LOGICIEL que vous avez mis en interface avec un logiciel, un
+progiciel ou une boîte à outils dont vous êtres propriétaire ou ayant
+droit.
+
+3- Objet et conditions de la licence portant sur le LOGICIEL
+
+   1. L'INRIA et l'ENPC vous autorisent, gratuittement, à reproduire
+      sur tout support présent et à venir le code source et/ou le code
+      objet du LOGICIEL, sans restriction, à condition de faire
+      figurer sur toutes les copies la mention du copyright suivante :
+      Scilab (c)INRIA-ENPC.
+
+   2. L'INRIA et l'ENPC vous autorisent gratuitement à corriger les
+      bogues éventuels, à effectuer les modifications nécessaires au
+      portage du LOGICIEL et à procéder à toute modification ou
+      correction fonctionnelle usuelle, à condition d'insérer un
+      fichier patch, ou d'indiquer par tout autre moyen équivalent la
+      nature et la date de la modification ou de la correction
+      apportée, sur le(s) fichier(s) concerné(s) du LOGICIEL.
+
+   3. L'INRIA et l'ENPC vous autorisent gratuitement, à utiliser le
+      code source et/ou le code objet du LOGICIEL, sans restriction, à
+      condition de faire figurer sur toutes les copies la mention du
+      copyright suivante : Scilab (c)INRIA-ENPC.
+
+   4. L'INRIA et l'ENPC vous autorisent gratuitement, à diffuser et
+      distribuer gratuitement ou à titre onéreux le code source et/ou
+      le code objet du LOGICIEL y compris du LOGICIEL modifié
+      conformément à l'article 3 b) ci-dessus, sur tout support
+      présent et à venir, à condition : * de faire figurer sur toutes
+      les copies la mention du copyright suivante : Scilab
+      (c)INRIA-ENPC.  * de diffuser ou de distribuer le LOGICIEL sous
+      la présente licence.  * de diffuser librement les fichiers patch
+      ou les fichiers contenant les moyens équivalents indiquant la
+      nature et la date de la modification ou de la correction
+      apportée sur le(s) fichier(s) concerné(s) du LOGICIEL.
+
+4- Objet et conditions de la licence portant sur les LOGICIELS DERIVES
+
+   1. L'INRIA et l'ENPC vous autorisent, gratuitement, à reproduire et
+      à modifier et/ou à traduire et/ou à adapter tout ou partie du
+      code source et/ou du code objet du LOGICIEL, à condition
+      d'insérer un fichier patch indiquant la date et la nature de la
+      modification et/ou de la traduction et/ou de l'adaptation et le
+      nom de leur auteur sur le(s) fichier(s) concerné(s) du
+      LOGICIEL. Le LOGICIEL ainsi modifié constitue des LOGICIELS
+      DERIVES. L'INRIA vous autorise gratuitement, à utiliser le code
+      source et/ou le code objet du LOGICIEL, sans restriction, à
+      condition de faire figurer sur toutes les copies la mention du
+      copyright suivante : Scilab (c)INRIA-ENPC.
+
+   2. L'INRIA et l'ENPC vous autorisent gratuitement, à utiliser le
+      code source et/ou le code objet du LOGICIEL modifié en vertu de
+      l'article 4-a) ci-dessus, sans restriction, à condition de faire
+      figurer sur toutes les copies la mention du copyright suivante :
+      " Scilab inside (c)INRIA-ENPC ".
+
+   3. L'INRIA et l'ENPC vous autorisent, gratuitement, à diffuser et à
+      distribuer à titre gratuit à des fins autres que commerciales,
+      le code source et/ou le code objet des LOGICIELS DERIVES sur
+      tout support présent et à venir, à condition : * d'indiquer
+      clairement la mention " Scilab inside (c)INRIA-ENPC " ; * de
+      distribuer le LOGICIEL DERIVE sous la présente licence ; * de
+      permettre aux destinataires de la distribution d'avoir accès au
+      code source du LOGICIEL ; * de distribuer le LOGICIEL DERIVE
+      sous une autre dénomination que SCILAB.
+
+   4. Toute utilisation ou diffusion commerciale du LOGICIEL DERIVE
+      doit être préalablement autorisée par l'INRIA et l'ENPC.
+
+5- Objet et conditions de la licence portant sur les LOGICIELS COMPOSITES
+
+   1. L'INRIA et l'ENPC vous autorisent à reproduire et à procéder à
+      l'interface de tout ou partie du LOGICIEL, avec tout ou partie
+      d'autres logiciels, progiciels ou boîtes à outils dont vous êtes
+      propriétaires ou titulaires des droits, afin d'obtenir des
+      LOGICIELS COMPOSITES.
+
+   2. L'INRIA et l'ENPC vous autorisent gratuitement, à utiliser le
+      code source et/ou le code objet du LOGICIEL inclus dans le
+      LOGICIEL COMPOSITE, sans restriction, à condition de faire
+      figurer sur toutes les copies la mention du copyright suivante :
+      " logiciel composite utilisant les fonctionnalités de Scilab
+      (c)INRIA-ENPC ".
+
+   3. L'INRIA et l'ENPC vous autorisent, gratuitement, à diffuser et à
+      distribuer à titre gratuit, à des fins autres que commerciales,
+      le code source et/ou le code objet des LOGICIELS COMPOSITES sur
+      tout support présent et à venir, à condition : * d'indiquer
+      clairement la mention " logiciel composite utilisant les
+      fonctionnalités de Scilab (c)INRIA-ENPC " ; * de distribuer le
+      LOGICIEL inclus dans les LOGICIELS COMPOSITES sous la présente
+      licence ; * de permettre aux destinataires de la distribution
+      d'avoir accès au code source du LOGICIEL ; * de distribuer le
+      LOGICIEL COMPOSITE sous une autre dénomination que SCILAB.
+
+   4. Toute utilisation ou diffusion commerciale du LOGICIEL COMPOSITE
+      doit être préalablement autorisée par l'INRIA et l'ENPC.
+
+6- Limitation de garantie
+
+Sauf mention écrite contraire, le LOGICIEL est fourni en l'état, sans
+aucune garantie explicite ou implicite, y compris les garanties de
+commercialisation ou d'adaptation. Vous assumez tous les risques quant
+à la qualité ou aux effets du LOGICIEL et de son utilisation. Si le
+LOGICIEL est défectueux, vous assumez le coût de tous les services,
+corrections ou réparations nécessaires.
+
+7- Consentement
+
+En accédant et en travaillant sur le LOGICIEL, vous êtes présumé
+connaître et avoir accepté tous les droits et toutes les obligations
+résultant de la présente licence.
+
+8- Effet Obligatoire
+
+Cette licence a la valeur obligatoire d'un contrat.
+
+Vous n'êtes pas responsable du respect de la licence par un tiers.
+
+9- Loi applicable
+
+La présente licence et ses effets sont soumis au droit français et aux
+tribunaux français compétents. 
+
+
+
+
+
+
+
+				Permission is granted to copy, distribute and/or modify this document
+				under the terms of the , Version 1.3 or
+				any later version published by the Free Software Foundation; with no
+				Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.   is included in the page “”.
+
+				The copyright and license notices on this page only apply to the
+				text on this page.  Any software or copyright-licenses or other
+				similar notices described in this text has its own copyright notice
+				and license, which can usually be found in the distribution or license
+				text itself. 
+
+				
+									
+						Retrieved from ""					
+				: 				
+							
+		
+		
+			
+			
+									
+						
+						
+													
+					
+									
+										
+						
+						
+													
+					
+										
+												
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						
+						
+													
+					
+										
+						
+						
+						
+							
+															
+						
+					
+										
+						
+						
+					
+									
+			
+			
+
+
+						
+			
+			
+								
+									
+							
+		
+			
+			
+			
+								
+									
+							
+		
+			
+			
+			
+								
+									
+							
+		
+			
+			
+			
+								
+									
+							
+		
+			
+			
+			
+								
+									
+							
+		
+			
+			
+			
+								
+									
+							
+		
+				
+		
+				
+
+The FSF is a charity with a worldwide mission to advance software freedom — 
+
+
+Copyright © 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 .
+
+
+Licensed under the , version 1.3 or later.
+
+
+
+Powered by  and 
+
+
+
+
+
+
+
+
+
+			
+		
+		
+
+
+
+
+
+
+	
+

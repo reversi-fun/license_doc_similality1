@@ -1,0 +1,637 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Licenses
+- GNU Project - Free Software Foundation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+ [en]  
+ [ar]  
+ [ca]  
+ [de]  
+ [el]  
+ [es]  
+ [fr]  
+ [it]  
+ [ja]  
+ [nl]  
+ [pl]  
+ [pt-br]  
+ [ru]  
+ [sq]  
+ [sr]  
+ [zh-cn]  
+ [zh-tw]  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Sponsored by the 
+
+
+
+
+
+ 
+
+
+
+   
+
+
+  
+
+
+  
+     = 
+    
+    
+     = 
+  
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+  
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+Published software should be .  To make it free software, you need to release it under
+a free software license.  We normally use the  (GNU GPL), specifying version 3 or any
+later version, but occasionally we
+use .  We use only licenses that are compatible with
+the GNU GPL for GNU software.
+
+
+
+Documentation for free software should be
+, so that
+people can redistribute it and improve it along with the software
+it describes.  To make it free documentation, you need to release
+it under a free documentation license.  We normally use the
+ (GNU
+FDL), but occasionally we use
+.
+
+
+If you've started a new project and you're not sure what license to
+use,  details our
+recommendations in an easy-to-follow guide.  If you just want a quick
+list reference, we have a page that names
+our .
+
+We also have a page that discusses .
+
+
+
+If you come across a license not mentioned in our
+, you can ask us
+to evaluate whether it is a free license.  Please email a copy of the
+license (and the URL where you found it)
+to .  Our
+licensing experts in the staff and the board of directors will review
+it.  If the license has some unusual conditions, they may pose
+difficult philosophical problems, so we can't promise to decide
+quickly.
+
+
+
+We have a number of resources to help people understand and use our
+various licenses:
+
+
+
+  
+  
+  
+  
+  
+  
+  
+   to use
+  with your project
+  
+   for general licensing help
+  
+
+
+
+
+
+
+The GNU General Public License is often called the GNU GPL for short;
+it is used by most GNU programs, and by more than half of all free
+software packages.  The latest version is version 3.
+
+
+
+  The GNU General Public License is available in these formats:
+      ,
+      ,
+      ,
+      Docbook  or 
+      ,
+      ,
+      , 
+      , and
+      .
+These documents are not formatted for standalone publishing, and
+are intended to be included in another document.
+  
+  
+
+
+
+
+
+The GNU Lesser General Public License is used by a few (not by any means
+all) GNU libraries.  The latest version is version 3.
+
+
+
+  The GNU Lesser General Public License text is available in
+      these formats:
+      ,
+      ,
+      , 
+      , 
+      , 
+      , and
+      .
+These documents are not formatted for standalone publishing, and
+are intended to be included in another document.
+  
+  
+
+
+
+
+
+The GNU Affero General Public License is based on the GNU GPL, but has an
+additional term to allow users who interact with the licensed software over
+a network to receive the source for that program.  We recommend that people
+consider using the GNU AGPL for any software which will commonly be run
+over a network.  The latest version is version 3.
+
+
+
+  The GNU Affero General Public License text is available in
+      these formats:
+      ,
+      ,
+      ,
+      , 
+      , 
+      , 
+      , and
+      .
+These documents are not formatted for standalone publishing, and
+are intended to be included in another document.
+  
+
+
+
+
+
+The GNU Free Documentation License is a form of copyleft intended
+for use on a manual, textbook or other document to assure everyone
+the effective freedom to copy and redistribute it, with or without
+modifications, either commercially or non-commercially.  The latest version
+is 1.3.
+
+
+
+  The GNU Free Documentation License text is available in these formats:
+      ,
+      ,
+      Docbook  or 
+      , 
+      , 
+      , 
+      , 
+      , and
+      .
+These documents are not formatted for standalone publishing, and
+are intended to be included in another document.
+  
+  
+  
+  
+      
+
+
+
+
+Some GNU programs have additional permissions or special exceptions
+  to specific terms in one of the main licenses.  Since some of those
+  are commonly used or inspire a lot of questions on their own, we've
+  started collecting them on
+  our .
+
+
+
+When linking to our licenses, it's usually best to link to the latest
+version; hence the standard URLs such as
+http://www.gnu.org/licenses/gpl.html have no version number.
+Occasionally, however, you may want to link to a specific version of a
+given license.  In those situations, you can use the following links
+[]:
+
+
+GNU General Public License (GPL)
+
+,
+,
+
+
+GNU Lesser General Public License (LGPL)
+,
+
+
+GNU Affero General Public License (AGPL)
+  (The  is not a GNU license, but it was
+    designed to serve a purpose much like the GNU AGPL's.)
+
+GNU Free Documentation License (FDL)
+,
+,
+
+
+
+Stable links to each license's alternative
+  formats are available on its respective page.  Not every version of
+  every license is available in every format.  If you need one that is
+  missing, please .
+
+See also the .
+
+
+
+
+
+Legally speaking, the original (English) version of the licenses is what
+specifies the actual distribution terms for GNU programs and others that
+use them. But to help people better understand the licenses, we give
+permission to publish translations into other languages provided that
+they follow our regulations for unofficial translations:
+
+
+
+  
+    
+  
+  
+
+
+
+
+The standard copyright terms for GNU web pages is now the .  It used to
+be (and for a few pages still is):
+
+Verbatim
+copying and distribution of this entire article are permitted worldwide,
+without royalty, in any medium, provided this notice is
+preserved.
+
+Please note the following commentary about this
+“verbatim license” by Eben Moglen:
+
+
+“Our intention in using the phrase ‘verbatim copying in
+any medium’ is not to require retention of page headings and
+footers or other formatting features.  Retention of weblinks in both
+hyperlinked and non-hyperlinked media (as notes or some other form of
+printed URL in non-HTML media) is required.”
+
+
+
+
+
+  
+    
+
+ If you are contemplating writing a new license, please contact the
+FSF by writing to . The
+proliferation of different free software licenses means increased work
+for users in understanding the licenses; we may be able to help you
+find an existing Free Software license that meets your needs.
+
+
+
+If that isn't possible, if you really need a new license, with our
+help you can ensure that the license really is a Free Software license
+and avoid various practical problems.
+
+
+  
+ 
+
+
+
+
+
+ is a general
+method for making a program free
+software and requiring all modified and extended versions of the
+program to be free software as well.
+
+
+
+The simplest way to make a program free is to put it in the
+, uncopyrighted.  This allows people to share the program
+and their improvements, if they are so minded.  But it also allows
+uncooperative people to convert the program into
+.  They can make changes, many or few, and distribute the
+result as a proprietary product.  People who receive the program in
+that modified form do not have the freedom that the original author
+gave them; the middleman has stripped it away.
+
+
+
+In the , our aim is
+to give all users the freedom to redistribute and change GNU
+software.  If middlemen could strip off the freedom, we might have
+many users, but those users would not have freedom.  So instead of
+putting GNU software in the public domain, we “copyleft”
+it.  Copyleft says that anyone who redistributes the software, with or
+without changes, must pass along the freedom to further copy and
+change it.  Copyleft guarantees that every user has freedom.
+
+
+
+Copyleft also provides an
+
+for other programmers to add to free software.
+Important free programs such as the GNU C++ compiler exist
+only because of this.
+
+
+
+Copyleft also helps programmers who want to contribute
+ to
+ get permission to
+do that.  These programmers often work for companies or universities
+that would do almost anything to get more money.  A programmer may
+want to contribute her changes to the community, but her employer may
+want to turn the changes into a proprietary software product.
+
+
+
+When we explain to the employer that it is illegal to distribute the
+improved version except as free software, the employer usually decides
+to release it as free software rather than throw it away.
+
+
+
+To copyleft a program, we first state that it is copyrighted; then
+we add distribution terms, which are a legal instrument that gives
+everyone the rights to use, modify, and redistribute the program's
+code or any program derived from it but only if the
+distribution terms are unchanged.  Thus, the code and the freedoms
+become legally inseparable.
+
+
+
+Proprietary software developers use copyright to take away the users'
+freedom; we use copyright to guarantee their freedom.  That's why we
+reverse the name, changing “copyright” into
+“copyleft”.
+
+
+
+Copyleft is a general concept; there are many ways to fill in the
+details.  In the GNU Project, the specific distribution terms that we
+use are contained in the GNU General Public License, the GNU Lesser
+General Public License and the GNU Free Documentation License.
+
+
+
+The appropriate license is included in many manuals and in each GNU
+source code distribution.
+
+
+
+The GNU GPL is designed so that you can easily apply it to your own
+program if you are the copyright holder.  You don't have to modify the
+GNU GPL to do this, just add notices to your program which refer
+properly to the GNU GPL. Please note that you must use the
+entire text of the GPL, if you use it.  It is an integral whole, and
+partial copies are not permitted.  (Likewise for the LGPL, AGPL, and FDL.)
+
+
+
+Using the same distribution terms for many different programs makes it
+easy to copy code between various different programs.  Since they all
+have the same distribution terms, there is no need to think about
+whether the terms are compatible.  The Lesser GPL includes a
+provision that lets you alter the distribution terms to the ordinary
+GPL, so that you can copy code into another program covered by the GPL.
+
+
+
+
+
+We believe that published software and documentation should be
+.
+We recommend making all sorts of educational and reference works free
+also, using free documentation licenses such as the
+ (GNU FDL).
+
+
+For essays of opinion and scientific papers, we recommend
+either the , or the
+simple “verbatim copying only” license stated above.
+ 
+
+We don't take the position that artistic or entertainment works must
+be free, but if you want to make one free, we recommend
+the .
+
+
+
+              
+
+
+
+
+
+ 
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+
+
+
+“The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.”
+
+
+
+The  is
+the principal organizational sponsor of the GNU Operating System.
+Support GNU and the FSF by ,  as an associate member, or .
+
+
+
+
+
+
+
+
+Please send general FSF & GNU inquiries to
+.
+There are also 
+the FSF.  Broken links and other corrections or suggestions can be sent
+to .
+
+
+Please see the  for information on coordinating and submitting translations
+of this article.
+
+
+
+
+Copyright © 2014, 2015, 2016, 2018 Free Software Foundation, Inc.
+
+This page is licensed under a .
+
+
+
+
+
+
+
+
+
+
+
+
+Updated:
+
+$Date: 2018/12/15 14:02:37 $
+
+
+
+
+
+
