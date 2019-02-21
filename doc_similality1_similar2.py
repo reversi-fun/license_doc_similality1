@@ -1,7 +1,8 @@
 #coding: UTF-8
 # http://tadaoyamaoka.hatenablog.com/entry/2017/04/29/122128 学習済みモデルを使用して文の類似度を測る
 #  http://stmind.hatenablog.com/?page=1384701545
-import os
+import os,io
+import csv
 import glob
 import gensim
 from gensim.parsing.preprocessing import preprocess_documents
@@ -13,27 +14,45 @@ import re
 import json
 from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
 
-# licenseの分類情報を読み込み
+# licenseの条文の類似性によって分類したライセンスの別名を読み込む
+if  os.path.isfile("./config/license_alias.csv"):
+    with  io.open("./config/license_alias.csv", "r",  encoding="utf_8_sig") as f:
+        f.readline()
+        reader = csv.reader(f)
+        license_alias = {}
+        for aliasName, shortName in  reader:
+            license_alias[aliasName.lower()] = shortName
+        reader = None
+else:
+    license_alias = {}
+
+# SPDXのlicenseの分類情報を読み込み
 license_notices = {'':[]}
-license_alias = {}
 f = open("./license-list-data-master/json/licenses.json", "r",  encoding="utf-8")
 spdx_licenseData = json.load(f)
 f.close()
 for spdxData in spdx_licenseData['licenses']:
-        license_alias['spdx/' + spdxData['licenseId']] =  'spdx/' + spdxData['licenseId']
-        license_alias[spdxData['licenseId']] =  'spdx/' + spdxData['licenseId']
-        license_alias[spdxData['name']] =  'spdx/' + spdxData['licenseId']
-        if spdxData['isOsiApproved']:
-            license_notices[ 'spdx/' + spdxData['licenseId']] = ['OsiApproved']
+    if len(license_alias.get('spdx/' + spdxData['licenseId'].lower(),'')) <= 0:
+        license_alias['spdx/' + spdxData['licenseId'].lower()] =  'spdx/' + spdxData['licenseId']
+    if len(license_alias.get(spdxData['licenseId'].lower(),'')) <= 0:
+        license_alias[spdxData['licenseId'].lower()] =  'spdx/' + spdxData['licenseId']
+    if len(license_alias.get(spdxData['name'].lower(),'')) <= 0:
+        license_alias[spdxData['name'].lower()] =  'spdx/' + spdxData['licenseId']
+    if spdxData['isOsiApproved']:
+        license_notices[ 'spdx/' + spdxData['licenseId'].lower()] = ['OsiApproved']
 
 f = open("./license-list-data-master/json/exceptions.json", "r",  encoding="utf-8")
 spdx_licenseData = json.load(f)
 f.close()
 for spdxData in spdx_licenseData['exceptions']:
-        license_alias['spdx/' + spdxData['licenseExceptionId']] =  'spdx/' + spdxData['licenseExceptionId']
-        license_alias[spdxData['licenseExceptionId']] =  'spdx/' + spdxData['licenseExceptionId']
-        license_alias[spdxData['name']] =  'spdx/' + spdxData['licenseExceptionId']
+    if len(license_alias.get('spdx/' + spdxData['licenseExceptionId'].lower(),'')) <= 0:
+        license_alias['spdx/' + spdxData['licenseExceptionId'].lower()] =  'spdx/' + spdxData['licenseExceptionId']
+    if len(license_alias.get(spdxData['licenseExceptionId'].lower(),'')) <= 0:
+        license_alias[spdxData['licenseExceptionId'].lower()] =  'spdx/' + spdxData['licenseExceptionId']
+    if len(license_alias.get(spdxData['name'].lower(),'')) <= 0:
+        license_alias[spdxData['name'].lower()] =  'spdx/' + spdxData['licenseExceptionId']
 
+# FSFのlicenseの分類情報を読み込み
 # https://directory.fsf.org/wiki/Free_Software_Directory:SPDX_Group
 # https://github.com/wking/fsf-apiからGPLとの互換性に関する情報を転記する
 # https://wking.github.io/fsf-api/licenses-full.json
@@ -44,14 +63,26 @@ license_metaData = json.load(f)
 f.close()
 for licName,licMetaData in license_metaData['licenses'].items():
     license_notices['FSF/' + licName] = licMetaData.get('tags', [])
-    if len(license_alias.get(licMetaData['name'],'')) <= 0:
-        license_alias[licMetaData['name']] = 'FSF/' + licName
+    if len(license_alias.get(licMetaData['name'].lower(),'')) <= 0:
+        license_alias[licMetaData['name'].lower()] = 'FSF/' + licName
     if (len(licMetaData.get('identifiers',{})) > 0) and (len(licMetaData['identifiers'].get('spdx',[])) > 0):
-        license_alias['FSF/' + licName] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
+        license_alias[('FSF/' + licName).lower()] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
         if len( license_alias.get(licMetaData['name'], '')) <= 0:
-              license_alias[licMetaData['name']] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
+              license_alias[licMetaData['name'].lower()] = 'spdx/' + min(licMetaData['identifiers']['spdx'])
         for spdxId in licMetaData['identifiers']['spdx']:
              license_notices['spdx/' + spdxId] = license_notices.get('spdx/' + spdxId, []) + licMetaData.get('tags', [])
+
+# ONIのlicenseの分類情報を読み込み
+f = open("./config/ONI-licenses-full.json", "r",  encoding="utf-8")
+# jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+license_metaData = json.load(f)
+# ファイルを閉じる
+f.close()
+for licName,licMetaData in license_metaData.items():
+    license_notices['ONI/' + licName] = ['OsiApproved']
+    license_alias[('ONI/' + licName).lower()] = 'spdx/' + licMetaData['id']
+    if len(license_alias.get(licName.lower(),'')) <= 0:
+        license_alias[licName.lower()] = 'spdx/' + licMetaData['id']
 
 pickUp_token = re.compile(r'[^w][Pp]atent')
 pickUp_dict = {}
@@ -62,7 +93,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     docs = {}
     for filename in glob.glob(corpus_dir + '/**', recursive=True):
         try:
-          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and (os.path.splitext(filename)[1]  not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties']): 
+          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and all([not filename.endswith(suffix) for suffix in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties', '.MF', 'pom.xml']]) and (prefix != 'research' or  any([licenseName in filename for licenseName in ['license','LICENSE', 'licence' , 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty' ,'readme','copy','contribut',  'pom']])): 
             if '.txt' == filename[-4:]:
                 name = prefix + '/' +  filename[len(corpus_dir) + 1:-4]
             else:
@@ -90,6 +121,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     return docs
 
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp_token,pickUp_dict)
+preprocessed_docs.update(corpus_load('./ONI_texts', 'ONI',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./FSF_texts', 'FSF',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Approved_texts', 'Approved',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./own_texts', 'research',pickUp_token,pickUp_dict))
@@ -230,17 +262,41 @@ docs_similar_tree = {} # 該当ドキュメントに類似した、短いドキ�
 same_text_groups_seq = {} # 同一条文と見なすドキュメントのグループ番号
 same_text_groups_seq_num = 0
 same_text_groups_names = {} # 上記グルーピングの転置
+# 別名情報によるグループ化
+for docName, doc in preprocessed_docs.items():
+    nearName = license_alias.get(docName.lower(),'')
+    if len(nearName) > 0:
+        if nearName not in preprocessed_docs:
+            if  (nearName + '+'  in preprocessed_docs):
+                 nearName = nearName + '+'
+            elif (nearName + '-or-later'  in preprocessed_docs):
+                 nearName = nearName + '-or-later'
+            elif (nearName + '-only'  in preprocessed_docs):
+                 nearName = nearName + '-only'
+            else:
+                nearName = '' # textが無いlicense名は、取り消す
+    if len(nearName) > 0:
+        same_text_groups_seq_num  += 1
+        cur_groups_seq_num = min([same_text_groups_seq.get(docName,same_text_groups_seq_num ), same_text_groups_seq.get(nearName,same_text_groups_seq_num )])
+        same_text_groups_seq[docName] = cur_groups_seq_num
+        if  cur_groups_seq_num == same_text_groups_seq_num:
+                    same_text_groups_names[cur_groups_seq_num] = []
+        else:
+                    same_text_groups_seq[nearName] = cur_groups_seq_num
+        if docName not in  same_text_groups_names[cur_groups_seq_num]:
+                    same_text_groups_names[cur_groups_seq_num].append(docName)
+        if nearName not in  same_text_groups_names[cur_groups_seq_num]:
+                    same_text_groups_names[cur_groups_seq_num].append(nearName)
+# 文書内容の類似性によるクループ化または隣接マトトリックス作成
 for docName, doc in preprocessed_docs.items():
     if docName not in docs_similar_tree:
         docs_similar_tree[docName] = []
     # 少数に限定した、短いドキュメントに限定しないと、dotコマンドがメモリ不足となる
     similar_docs_top = sorted(model.docvecs.most_similar(docName, topn=8), key=lambda x:(-x[1], x[0]))
-    if docName == 'spdx/OGL-UK-3.0':
-        print('similar_docs_top',docName,similar_docs_top )
     similarl_count = 0
     for index, (nearName , similarl) in enumerate(similar_docs_top):
         if nearName in preprocessed_docs:
-            if  (similarl > similarl_upper) and (-1 <= len(doc) - len(preprocessed_docs[nearName]) <= 1) :
+            if  (similarl > similarl_upper) and (-1 <= len(doc) - len(preprocessed_docs[nearName]) <= 1) : # 同一条文である
                 same_text_groups_seq_num  += 1
                 cur_groups_seq_num = min([same_text_groups_seq.get(docName,same_text_groups_seq_num ), same_text_groups_seq.get(nearName,same_text_groups_seq_num )])
                 same_text_groups_seq[docName] = cur_groups_seq_num
@@ -252,7 +308,7 @@ for docName, doc in preprocessed_docs.items():
                     same_text_groups_names[cur_groups_seq_num].append(docName)
                 if nearName not in  same_text_groups_names[cur_groups_seq_num]:
                     same_text_groups_names[cur_groups_seq_num].append(nearName)
-            elif  (similarl >= similarl_lower) :
+            elif  (similarl >= similarl_lower) : # 同一ではないが、似ている条文である
                 similarl_count += 1
                 if  ( len(doc) <= len(preprocessed_docs[nearName]) ): 
                     if nearName not in docs_similar_tree:
@@ -315,22 +371,28 @@ for nearName, docs_similar in docs_similar_tree.items():
 # 同一条文のlicence documentをグループをマージする
 more_mearge_need = True
 more_mearge_counter = 0
+same_text_groups_seq_num  += 1
 while more_mearge_need and (more_mearge_counter <30):
     more_mearge_counter += 1
     more_mearge_need = False
     for cur_groups_seq_num, cur_groups_names  in same_text_groups_names.items(): # 番号順にマージ
-        cur_groups_seq_list = [same_text_groups_seq[related_docName] for related_docName in cur_groups_names]
-        if len(cur_groups_seq_list) > 0:
+        cur_groups_seq_list = [same_text_groups_seq.get(related_docName,same_text_groups_seq_num) for related_docName in cur_groups_names]
+        if len(cur_groups_seq_list) > 1:
             min_groups_seq = min(cur_groups_seq_list)
             max_groups_seq = max(cur_groups_seq_list)
             if  min_groups_seq < max_groups_seq:
+              merge_groups_names = cur_groups_names
               for related_docName_seq in cur_groups_seq_list:
-                  if min_groups_seq < related_docName_seq: 
-                      for related_docName in same_text_groups_names[related_docName_seq]:
-                          same_text_groups_seq[related_docName] = min_groups_seq
-                      same_text_groups_names[related_docName_seq] = []
+                  if related_docName_seq < same_text_groups_seq_num:
+                       merge_groups_names.extend(same_text_groups_names[related_docName_seq])
+                       same_text_groups_names[related_docName_seq] = []
+              merge_groups_names = list(set(merge_groups_names))
+              same_text_groups_names[min_groups_seq] = merge_groups_names
+              for related_docName in merge_groups_names:
+                  same_text_groups_seq[related_docName] = min_groups_seq
               more_mearge_need = True
 
+# 同一条文のlicence documentをグループのマージ結果の索引を再作成する
 same_text_groups_names = {}
 grouped_doc_names = {}
 for cur_groups_name, cur_groups_seq_num in same_text_groups_seq.items(): # 番号順に転地
@@ -339,9 +401,24 @@ for cur_groups_name, cur_groups_seq_num in same_text_groups_seq.items(): # 番�
       same_text_groups_names[cur_groups_seq_num].append(cur_groups_name)
       grouped_doc_names[cur_groups_name] = 0 - cur_groups_seq_num
 
+# license name spaceのソート順
+licenseSortOrder={'spdx': 1, 'ONI': 2, 'FSF': 3, 'Approved': 4 , 'research': 5, '': 6}
+for cur_seq_num, cur_group_names in  same_text_groups_names.items():
+    cur_group_names = sorted(cur_group_names, key=lambda item: ([v for k,v in licenseSortOrder.items() if  (k + '/') in item][0], item))
+    same_text_groups_names[cur_seq_num] =  cur_group_names
+    if  len(cur_group_names) > 1:
+        for licName in  cur_group_names[1:]:
+            license_alias[licName.lower()] = cur_group_names[0]
+
+with open("./config/license_alias_updated.csv", 'w', encoding="utf_8_sig") as f:
+    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
+    writer.writerow(['aliasNames', 'shortName'])
+    for aliasName, shortName in sorted(license_alias.items()):
+        writer.writerow([aliasName.lower(), shortName])
+
 # 単段の関係が多段の関係から導出できる冗長な関係を削除する
 for nearName, docs_similar in docs_similar_tree.items():
-    tree_related_docs_debug = (nearName == 'spdx/OGL-UK-2.0') # False # (len(docs_similar) > 10)
+    tree_related_docs_debug = False # (nearName == 'spdx/OGL-UK-2.0') # False # (len(docs_similar) > 10)
     if  tree_related_docs_debug:
         print('docs_similar before',nearName,len(docs_similar))
     related_docs = []
@@ -370,7 +447,6 @@ for docName, similar_docs_names  in docs_related_tree.items():
       docs_related_tree[docName] = get_uniq_names(similar_docs_names) # unit
 print('docs_related_tree size=', len(docs_related_tree))
 
-
 tail_rank_docs = [] # 最も長いドキュメント
 for nearName, docs_similar in docs_similar_tree.items():
     if (len(docs_related_tree.get(nearName,[])) <= 0) and (same_text_groups_seq.get(nearName,0) > 0):
@@ -385,8 +461,6 @@ for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs):
         uniq_docs = []
     uniq_docs.extend([doc_name for doc_name in related_docs if doc_name not in  grouped_doc_names])
     tail_rank_docs[index] = (nearName,doc_count, uniq_docs) #  (キュメント名、 関連ドキュメントの数 （len(uniq_docs)に非ず）、ドキュメント）
-    for doc_name in uniq_docs:
-        grouped_doc_names[doc_name] = index
 
 tail_rank_docs = sorted(tail_rank_docs, key=lambda x:(len(x[2]), x[1],  x[0]))
 print('tail_rank_docs size=', len(tail_rank_docs))
@@ -403,56 +477,76 @@ dot.write('digraph LicenseGraph {\n')
 dot.write('  newrank = true;\n')
 dot.write('  ratio = "auto" ;\n')
 # dot.write('  mincross = 2.0 ;\n')
-dot.write(' graph [layout="dot", rankdir=LR, overlap=false]\n')
+# layout="dot"にすると、下記エラーで、fgraphivizで描画できなかった！！
+# Approved/SmartBear - On PremSoftware Licensing Terms of Use 1
+# libpath/.\shortest.c:324: triangulation failed
+# libpath/.\shortest.c:192: source point not in any triangle
+# Error: in routesplines, Pshortestpath failed
+# layout="sfdpにすると、subgrraphの罫線が表示されない
+dot.write(' graph [layout="fdp", rankdir=LR, overlap=false]\n')
 dot.write(' node [shape=box, width=1];\n')
 dot.write(' edge [style=solid, color=darkgoldenrod, width=1];\n')
 
 dot.write('{rank=same "' +'" "'.join(root_rank_docs) + '" }\n')
 # dot.write('{rank=same "' +'" "'.join(tail_rank_docs) + '" }\n')
 for gruop_seq, related_docs in same_text_groups_names.items(): # 同一条文のグループを出力
-    dot.write('    subgraph cluster_same_texts_' + str(gruop_seq) + ' { style=dashed;\n')
-    if  len(pickUp_dict.get(related_docs[0], '')) > 0:
-        dot.write('        color=magenta; fillcolor=lightpink;\n')
-    else:
-        dot.write('        color=blue;\n')
-    dot.write('        label="' + related_docs[0]+ ' similarl groups count=' + str( len(related_docs)) +  '";\n')
-    for docName in related_docs:
-        notcies_items = license_notices.get(license_alias.get(docName,''), []) +  license_notices.get(docName[9:], []) #research/
-        if len(notcies_items) > 0:
-            notcies_text = '\\n' + ','.join(notcies_items)
-        else:
-            notcies_text = ''
-        if  len(pickUp_dict.get(docName, '')) > 0:
+  if len(related_docs) > 1:
+      dot.write('    subgraph cluster_same_texts_' + str(gruop_seq) + ' { style=dashed;\n')
+      if  len(pickUp_dict.get(related_docs[0], '')) > 0:
+          dot.write('        color=magenta; fillcolor=lightpink;\n')
+      else:
+          dot.write('        color=blue;\n')
+      dot.write('        label="' + related_docs[0]+ ' similarl groups count=' + str( len(related_docs)) +  '";\n')
+  for docName in related_docs:
+          if docName !=  related_docs[0]:
+              similarl = model.docvecs.similarity(related_docs[0],docName)
+              if similarl >= similarl_upper:
+                  edge_color = "color=lightblue, fontcolor=lightblue,"
+              elif similarl >= similarl_lower:
+                 edge_color =  "color=lightpink, fontcolor=lightpink,"
+              else:
+                 edge_color =  "color=red, fontcolor=crimson,style=bold," # ドキュメント内容が似ていない
+              dot.write('      "' + related_docs[0]   + '" -> "' + docName  +
+               "\" [constraint=false,dir=both," +  edge_color + " label=\"{0:.3f}{1:+d}\"];\n".format(round(similarl,3),
+                  len(preprocessed_docs[docName]) - len(preprocessed_docs[related_docs[0]])))
+          notcies_items = license_notices.get(license_alias.get(docName.lower(),''), []) +  license_notices.get(docName[9:], []) #research/
+          if len(notcies_items) > 0:
+              notcies_text = '\\n' + ','.join(notcies_items)
+          else:
+              notcies_text = ''
+          if  len(pickUp_dict.get(docName, '')) > 0:
              doc_color = ',color=magenta, style=filled, fillcolor=lightpink;'
-        elif docName[0:5] != 'spdx/':
-            doc_color = ',color=red'
-        else:
-            doc_color=''
-        dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
-    dot.write('    }\n')
+          elif docName[0:9] == 'research/':
+             doc_color = ',color=red'
+          else:
+             doc_color=''
+          dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
+  if len(related_docs) > 1:
+      dot.write('    }\n')
 
 for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs): # 関連ドキュメントのグループを出力
-  if len(related_docs) > 1:
-    dot.write('    subgraph cluster_' + str(index) + ' { style=dashed; color=blue;\n')
-    dot.write('        label="' + related_docs[0]+ ' groups count=' + str(doc_count) +  '";\n')
-    for docName in related_docs:
-        notcies_items = license_notices.get(license_alias.get(docName,''),[]) +  license_notices.get(docName[9:], []) #research/
-        if len(notcies_items) > 0:
-            notcies_text = '\\n' + ','.join(notcies_items)
-        else:
-            notcies_text = ''
-        if  len(pickUp_dict.get(docName, '')) > 0:
-             doc_color = ',color=magenta, style=filled, fillcolor=lightpink;'
-        elif docName[0:5] != 'spdx/':
-            doc_color = ',color=red'
-        else:
-            doc_color=''
-        dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
+  subgrouped_docs = [docName for docName in related_docs if  (docName not in  grouped_doc_names)]
+  if len(subgrouped_docs) > 1:
+    dot.write('    subgraph cluster_' + str(index) + ' { style=dashed; color=azure3; fontcolor=antiquewhite3;\n')
+    dot.write('        label="' + subgrouped_docs[0]+ ' related groups count=' + str(doc_count) +  '";\n')
+    for docName in  subgrouped_docs:
+            grouped_doc_names[docName] = index
+            notcies_items = license_notices.get(license_alias.get(docName.lower(),''),[]) +  license_notices.get(docName[9:], []) #research/
+            if len(notcies_items) > 0:
+                notcies_text = '\\n' + ','.join(notcies_items)
+            else:
+                notcies_text = ''
+            if  len(pickUp_dict.get(docName, '')) > 0:
+                 doc_color = ',color=magenta, style=filled, fillcolor=lightpink;'
+            elif docName[0:5] != 'spdx/':
+                doc_color = ',color=red'
+            else:
+                doc_color=''
+            dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
     dot.write('    }\n')
-
 for docName, similar_docs_names  in docs_related_tree.items():
     if (docName not in  grouped_doc_names): #  dot.nodeは、subgraphと排他的に出力。
-        notcies_items = license_notices.get(license_alias.get(docName,''), []) +  license_notices.get(docName[9:], []) #Approved/ research/
+        notcies_items = license_notices.get(license_alias.get(docName.lower(),''), []) +  license_notices.get(docName[9:], []) #Approved/ research/
         if len(notcies_items) > 0:
             notcies_text = '\\n' + ','.join(notcies_items)
         else:
@@ -465,7 +559,7 @@ for docName, similar_docs_names  in docs_related_tree.items():
             doc_color=''
         dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
     for nearName, similarl, len_diff in similar_docs_names:
-         dot.write('      "' +docName   + '" -> "' + nearName  + "\" [label=\"{0:.3f}{1:+d}\"];\n".format(round(similarl,3), len_diff ))
+         dot.write('      "' +docName   + '" -> "' + nearName  + "\" [label=\"{0:.3f}{1:+d}\",fontcolor=chocolate];\n".format(round(similarl,3), len_diff ))
 
 dot.write('}\n')
 dot.close()
