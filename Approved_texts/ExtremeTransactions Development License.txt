@@ -1,0 +1,49 @@
+ExtremeTransactions Development License
+IF YOU INSTALL OR USE THE SOFTWARE, YOU WILL BE CONSIDERED TO HAVE ACCEPTED THIS LICENSE AGREEMENT. IF YOU DO NOT AGREE TO THIS AGREEMENT THEN YOU SHOULD DELETE ANY INSTALLATION OF THE SOFTWARE IMMEDIATELY.
+
+1. LICENSE TO USE.
+
+Atomikos grants you a non-exclusive, non-transferable and royalty-free license, without the right to sublicense or redistribute, for internal development and testing use only of the software and documentation accompanying this license, whether on disk, in read only memory, on any other media or in any other form, and any error corrections provided by Atomikos (collectively called " software"). Commercial use as well as any other use of the software is not allowed.
+
+2. PROPERTY.
+
+The software is protected by Belgian intellectual property laws, other intellectual property laws and international treaty provisions. The software and all associated intellectual rights remain the exclusive property of Atomikos. You acknowledge and agree that Atomikos will be entitled to develop and implement any suggestions made by You regarding the software or related to the use thereof.
+
+3. RESTRICTIONS.
+
+You may not use the software for your own internal data processing or for any commercial or production purposes, or use the programs for any purpose except the development of a single prototype of your application. You may not use the software if you are participating or plan to participate in the development of a system (whether commercial or not) that could be presented as similar to the software. The software may only be installed and used by the person(s) in the operating environment identified by Atomikos, and for the named project covered by your development subscription. You may make one copy of the software for backup purposes. You are not allowed (nor permitted to instruct others) to redistribute the software, or modify, decompile, or reverse engineer the software or any part thereof (this includes the generation of documentation). You may also not rent, lease, lend or sublicense the software. You may not remove any notices or tags concerning intellectual property from the software nor do anything else that could endanger the rights of Atomikos. You are not allowed to disclose any benchmark results for the software without the prior and explicit consent of Atomikos. In addition, you acknowledge that Atomikos may audit your use of the software.
+
+4. DISCLAIMER.
+
+THE SOFTWARE IS PROVIDED "AS IS". TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOU HEREBY WAIVE, AND ATOMIKOS HEREBY DISCLAIMS, ANY SUPPORT (*), REPRESENTATION OR WARRANTY OF ANY KIND WHATSOEVER, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+
+(*) Except for the support that is implied by our Terms & Conditions and to which you are entitled via your development subscription purchase
+5. LIABILITY DISCLAIMER.
+
+Because software is inherently complex and may not be completely free of errors, You are advised to verify your work and make backup copies where appropriate. IN NO EVENT WILL ATOMIKOS BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING - BUT NOT RESTRICTED TO - LOST REVENUE OR PROFITS OR OTHER DIRECT, INDIRECT, SPECIAL, INCIDENTAL, COVER, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, EXCEPT TO THE EXTENT APPLICABLE LAW, IF ANY, PROVIDES OTHERWISE. IN NO EVENT WILL ATOMIKOS' LIABILITY TO YOU EXCEED THE AMOUNT OF 50,- EUR.
+
+6. EXPORT REGULATIONS.
+
+All software and technical data delivered under this agreement are subject to Belgian and the European Union's export control laws and may be subject to export or import regulations in other countries. You agree to comply strictly with all such laws and regulations and acknowledge that you have the responsibility to obtain such licenses to export, re-export, or import as may be required after delivery to you and to comply strictly with any other applicable export regulations or laws.
+
+7. TERMINATION.
+
+This license automatically terminates without notice after your development subscription purchase expires (typically expiration happens after one year, unless otherwise indicated in your purchase records).
+
+The license shall terminate immediately and automatically without notice if you fail to comply with any limitation contained herein. You agree to destroy all copies of the software upon termination. In addition, you may terminate this license at any time by destroying or erasing all your copies of the software. Atomikos reserves the right at any time to alter prices, features, specifications, capabilities, functions, licensing terms, release dates, general availability or other characteristics of the software.
+
+8. GOVERNING LAW. APPLICABLE JURISDICTION.
+
+This license will be governed by and construed in accordance with the laws of the Kingdom of Belgium. This license shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Any legal conflicts will be exclusively settled by the Court of Mechelen, Belgium.
+
+9. COMPLETENESS.
+
+This agreement is the entire agreement between you and Atomikos relating to its subject matter. It supersedes all prior communications, whether oral or in written, and prevails over any conflicting or additional terms. No modification of this agreement will be binding, unless in written and signed by an authorized representative of Atomikos.
+
+10. WARNING.
+
+Any violation of this contract will be prosecuted by Atomikos to the maximum extent possible by law, and will provoque damage claims.
+
+11. WARRANTY.
+
+Until this license terminates, Atomikos warrants that the software will work in substantial conformance to the published specification. This warranty does not imply that the software will have full operability under any conditions chosen by you for the purpose of the use thereof, nor does it warrant that the operation of the software will be uninterrupted or error-free. The details that govern this warranty are outlined in the Atomikos support conditions.

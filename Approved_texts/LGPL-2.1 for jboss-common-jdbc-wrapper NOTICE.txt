@@ -1,0 +1,5 @@
+jboss-common-jdbc-wrapper.jar
+You are receiving a copy of jboss-common-jdbc-wrapper.jar in both source and object code in the following /src/lib/jboss-common-jdbc-wrapper.jar. The terms of the Oracle license do NOT apply to jboss-common-jdbc-wrapper.jar; it is licensed under the following license, separately from the Oracle programs you receive. If you do not wish to install this library, you may remove the file /src/lib/jboss-common-jdbc-wrapper.jar, but the Oracle program might not operate properly or at all without the library.
+
+This component is licensed under Section 3.4, ÅgGNU Lesser General Public License Version 2.1, February 1999Åh.
+

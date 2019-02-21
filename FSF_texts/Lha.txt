@@ -1,0 +1,171 @@
+This package was debianized by Atsushi KAMOSHIDA kamop@post1.com on
+Sun, 13 Apr 1997 17:52:59 +0900.
+
+It was downloaded from http://www2m.biglobe.ne.jp/~dolphin/lha/lha.htm
+
+Upstream Authors: 
+
+      LHarc 0.01-1.00:   Yooichi Tagawa (LHa code taken from here, 1988-1989)
+     	  Nikkei-mix ID: y.tagawa (Now this is defunct BBS, Licensing term
+     	  in manual page come from his licence for lharc)
+     	  His new web page seems to be www2s.biglibe.ne.jp/~yex/
+     	  yooedit2001@yahoo.co.jp is the contact e-mail address for another
+     	  software.  Page updated at least July/2001
+     	  
+      LHa   0.01-1.00:   Masaru Oki     (LHa original author, 1991-1992)
+     	  E-Mail address: oki@netbsd.org
+     
+      LHa   1.10-1.14:   Nobutaka Watazaki (Last official release? 1993-1995)
+	  ALICE-NET       ALS00595    Nasty
+	  E-Mail          JBD02514@niftyserve.or.jp
+	  E-Mail          femcs@mbox.kyoto-inet.or.jp
+	  NIFTY-Serve     JBD02514
+	  E-Mail address: watazaki@shimadzu.co.jp
+	  E-Mail address: watazaki@shimadzusd.co.jp
+     	  
+      Lha   1.14a-1.14e: Tsugio Okamoto <tsugio@muc.biglobe.ne.jp> (1996-2000)
+     
+
+Copyright:
+
+Original Source Code License Statement:
+
+   /*    Copyright (C) MCMLXXXIX Yooichi.Tagawa                      */
+   /*    Modified                Nobutaka Watazaki                   */
+   /*                   Thanks to H.Yoshizaki. (MS-DOS LHarc)        */
+
+
+Original Authors License Statement (from man/lha.man, in Japanese
+EUC-JP):
+
+   �����ۤˤĤ���
+       �ʲ��ξ��ǡ������ۡ�ž�ܡ����Ѥ��Ĥ��ޤ���
+
+       1.     ��ɽ������ʤ����ȡ�
+
+       2.     �������ƤˤĤ��Ƥϡ�
+
+              a.     ���ۤκݤ�¸�ߤ�������(���ʤ�� ���� �� ����
+                     �ɡ� �� ������ȡ��ץ���ޡ��ؤμ���
+                     ��)�������ۤ��줿��Τ����ɬ��¸�� �� �� ��
+                     �ȡ� �� �Ѥ���Ƥ���ʤ�С���������������
+                     ������Ȥ��Ѱդ��뤳�ȡ�
+
+              b.     LHa ���Ф����ղò��ͤ��դ����ƺ����ۤ����
+                     ���ˤϤ�����Ǥ������ޤ��褦���Ϥ���
+                     ���ȡ��ޤ������κݤˤ��ղò��ͤ��դ����Ƥ�
+                     �뤳�Ȥ���������ɥ�����Ȥ��Ѱդ��뤳�ȡ�
+
+              c.     �Х��ʥ�Τߤ����ۤϵ��ʤ���(�ղò��� ��
+                     ��Τ�ޤ�)
+
+       3.     �ǿ��Ǥ����ۤ�̳��뤳�ȡ�(��̳�Ϥʤ�)
+
+              ��.    �ʤ����ͥåȤǤ����դϼ�ͳ�Ǥ��뤬���ͥåȤ�
+                     ���������Ǥ��ʤ���ʻ��浪��ӡ� CDROM �� ��
+                     �� �������դϡ�������ˤ����� EMail ��
+                     �ꤤ���ޤ���������˽���ʤ��ݤˤϡ�����ɬ��
+                     EMail �򤪴ꤤ���ޤ���
+
+       4.      ���Υץ�����¸�ߤ���Ѥ������Ȥˤ�ä������»
+              ��������ݾڤ��ʤ���
+
+       5.     ��Ԥϡ����Υץ�����������äƤ⡢������� �
+              �����̳�����ʤ���
+
+       6.      ���Υץ����ΰ���ޤ�������¾�Υץ�����
+              �Ȥ߹�������Ѥ��Ƥ⤫�ޤ�ʤ������ξ�硢���Υ� ��
+              ������ LHa �ǤϤʤ��� LHa ��̾��äƤϤ����ʤ���
+
+       7.      �����Ѥ˴ؤ��Ƥϡ��嵭�ξ��˲ä��������ξ��Τ�
+              �Ȥˤ����ǧ��롣
+
+              a.     ���Υץ�����ᥤ��Ȥ��뾦���Ѥ϶� �� ��
+                     �롣
+
+              b.     �����Ѥ���꤬���Υץ����λ��ѼԤȤ�����
+                     Ŭ�ڤ�Ƚ�Ǥ������ˤ����ۤ��ʤ���
+
+              c.     ���󥹥ȡ���μ��ʤȤ��ƻ��Ѥ����硢���Υ�
+                     ������Ȥ����Ȥ����˶�����ʤ������ξ�
+                     �硢�����ѼԤ���Ȥ�Ԥ����ޤ������ΤȤ���»
+                     ���ϡ������ѼԤ����Ǥ���餦��
+
+              d.     �����Ѥ��ղò��ͤȤ��ƹԤ����Υץ������
+                     �Ѥ����硢�����ѼԤϡ����Υ��ݡ��Ȥ�Ԥ���
+
+
+Original Authors License Statement (from man/lha.man, translated by
+Osamu Aoki <debian@aokiconsulting.com>):
+
+   Permission is given for redistribution, copy, and modification provided
+   following conditions are met.
+   
+   1. Do not remove copyright clause.
+   2. Distribution shall conform:
+    a. The content of redistribution (i.e., source code, documentation,
+       and reference guide for programmers) shall include original contents.
+       If contents are modified, the document clearly indicating
+       the fact of modification must be included.
+    b. If LHa is redistributed with added values, you must put your best
+       effort to include them (Translator comment: If read literally,
+       original Japanese was unclear what "them" means here.  But
+       undoubtedly this "them" means source code for the added value
+       portion and this is a typical Japanese sloppy writing style to
+       abbreviate as such)  Also the document clearly indicating that
+       added value was added must be included. 
+    c. Binary only distribution is not allowed (including added value
+       ones.)
+   3. You need to put effort to distribute the latest version (This is not
+      your duty).
+   
+      NB: Distribution on Internet is free.  Please notify me by e-mail or
+      other means prior to the distribution if distribution is done through
+      non-Internet media (Magazine, CDROM etc.)  If not, make sure to Email
+      me later.
+   
+   4. Any damage caused by the existence and use of this program will not
+      be compensated.
+   
+   5. Author will not be responsible to correct errors even if program is
+      defective.
+   
+   6. This program, either as a part of this or as a whole of this, may be
+      included into other programs.  In this case, that program is not LHa
+      and can not call itself LHa.
+   
+   7. For commercial use, in addition to above conditions, following
+      condition needs to be met.
+   
+      a.  The program whose content is mainly this program can not be used
+          commercially.
+      b.  If the recipient of commercial use deems inappropriate as a
+          program user, you must not distribute.
+      c.  If used as a method for the installation, you must not force
+          others to use this program.  In this case, commercial user will
+          perform its work while taking full responsibility of its outcome.
+      d.  If added value is done under the commercial use by using this
+          program, commercial user shall provide its support.
+
+
+(Osamu Aoki also comments:
+   Here "commercial" may be interpreted as "for-fee".  "Added value" seems
+   to mean "feature enhancement".  )
+
+
+License Statement by Tsugio Okamoto (in Japanese EUC-JP):
+
+   �ʤ����ͥåȤǤ����դϼ�ͳ�Ǥ������ͥåȤ˥��������Ǥ��ʤ���ʻ��浪��ӡ�
+   CD-ROM �ʤɤˤ��ˤؤ����դϡ�������ˤ����� Inter-Net �����E-Mail
+   �� ���ꤤ���ޤ��� �ɤ������ˡ��Ǻܤ���Ȥ����ݤ�����з빽�Ǥ��Τǡ�
+   �ޤ�����������ʤ��ݤˤϡ����� E-Mail ��ɬ�����ꤤ���ޤ���
+
+
+Translated License Statement by Tsugio Okamoto (translated by
+GOTO Masanori <gotom@debian.org>):
+
+   It's free to distribute on the network, but if you distribute for
+   the people who cannot access the network (by magazine or CD-ROM),
+   please send E-Mail (Inter-Net address) to the author before the
+   distribution. That's well where this software is appeard.
+   If you cannot do, you must send me the E-Mail later. 

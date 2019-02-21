@@ -64,13 +64,12 @@
           "AFL-1.1"
         ]
       },
-      "name": "Academic Free License, all versions through 3.0",
+      "name": "Academic Free License, 1.1",
       "tags": [
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense",
-        "http://directory.fsf.org/wiki/License:AFLv3"
+        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense"
       ]
     },
     "AcademicFreeLicense1.2": {
@@ -80,13 +79,12 @@
           "AFL-1.2"
         ]
       },
-      "name": "Academic Free License, all versions through 3.0",
+      "name": "Academic Free License, 1.2",
       "tags": [
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense",
-        "http://directory.fsf.org/wiki/License:AFLv3"
+        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense"
       ]
     },
     "AcademicFreeLicense2.0": {
@@ -96,13 +94,12 @@
           "AFL-2.0"
         ]
       },
-      "name": "Academic Free License, all versions through 3.0",
+      "name": "Academic Free License, 2.0",
       "tags": [
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense",
-        "http://directory.fsf.org/wiki/License:AFLv3"
+        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense"
       ]
     },
     "AcademicFreeLicense2.1": {
@@ -112,13 +109,12 @@
           "AFL-2.1"
         ]
       },
-      "name": "Academic Free License, all versions through 3.0",
+      "name": "Academic Free License, 2.1",
       "tags": [
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense",
-        "http://directory.fsf.org/wiki/License:AFLv3"
+        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense"
       ]
     },
     "AcademicFreeLicense3.0": {
@@ -548,8 +544,7 @@
         "non-free"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#DOR",
-        "http://dorepository.org/download.html"
+        "https://www.gnu.org/licenses/license-list.html#DOR"
       ]
     },
     "ECL2.0": {
@@ -598,7 +593,7 @@
       ],
       "uris": [
         "https://www.gnu.org/licenses/license-list.html#EPL2",
-        "http://directory.fsf.org/wiki/License:EPLv2.0"
+        "https://www.eclipse.org/legal/epl-2.0/"
       ]
     },
     "EUDataGrid": {
@@ -723,7 +718,6 @@
       ],
       "uris": [
         "https://www.gnu.org/licenses/license-list.html#FDL",
-        "https://www.gnu.org/licenses/fdl.html",
         "https://www.gnu.org/licenses/license-list.html#FDLOther"
       ]
     },
@@ -743,7 +737,6 @@
       ],
       "uris": [
         "https://www.gnu.org/licenses/license-list.html#FDL",
-        "https://www.gnu.org/licenses/fdl.html",
         "https://www.gnu.org/licenses/license-list.html#FDLOther"
       ]
     },
@@ -1278,8 +1271,7 @@
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#OSL",
-        "http://directory.fsf.org/wiki/License:OSLv3.0"
+        "https://www.gnu.org/licenses/license-list.html#OSL"
       ]
     },
     "OSL-1.1": {
@@ -1294,8 +1286,7 @@
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#OSL",
-        "http://directory.fsf.org/wiki/License:OSLv3.0"
+        "https://www.gnu.org/licenses/license-list.html#OSL"
       ]
     },
     "OSL-2.0": {
@@ -1666,8 +1657,7 @@
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#SILOFL",
-        "http://directory.fsf.org/wiki/SIL_Open_Font_License_1.1"
+        "https://www.gnu.org/licenses/license-list.html#SILOFL"
       ]
     },
     "SILOFL-1.1": {
@@ -2093,15 +2083,14 @@
           "ZPL-2.0"
         ]
       },
-      "name": "Zope Public License, versions 2.0 and 2.1",
+      "name": "Zope Public License, versions 2.0",
       "tags": [
         "gpl-2-compatible",
         "gpl-3-compatible",
         "libre"
       ],
       "uris": [
-        "https://www.gnu.org/licenses/license-list.html#Zope2.0",
-        "http://directory.fsf.org/wiki?title=License:ZopePLv2.1"
+        "https://www.gnu.org/licenses/license-list.html#Zope2.0"
       ]
     },
     "Zope2.1": {
@@ -2111,7 +2100,7 @@
           "ZPL-2.1"
         ]
       },
-      "name": "Zope Public License, versions 2.0 and 2.1",
+      "name": "Zope Public License, versions 2.1",
       "tags": [
         "gpl-2-compatible",
         "gpl-3-compatible",
@@ -2185,7 +2174,7 @@
       ],
       "uris": [
         "https://www.gnu.org/licenses/license-list.html#apsl1",
-        "http://directory.fsf.org/wiki/License:APSLv1.x"
+        "https://directory.fsf.org/wiki/License:APSL-1.0"
       ]
     },
     "apsl2": {
@@ -2465,7 +2454,7 @@
       "id": "intel",
       "identifiers": {
         "spdx": [
-          "Intel"
+          "Intel-ACPI"
         ]
       },
       "name": "Intel Open Source License",

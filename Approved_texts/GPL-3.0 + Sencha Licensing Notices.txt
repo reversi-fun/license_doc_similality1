@@ -1,0 +1,124 @@
+Sencha Licensing
+Sencha ExtReact
+Sencha Ext JS
+Sencha Test
+Sencha GXT
+Sencha Touch
+Sencha Architect
+
+Sencha ExtReact
+Sencha ExtReact is made available under Commercial License.
+There is no open source license for Sencha ExtReact.
+
+Commercial license for Sencha ExtReact is governed by the Sencha Software License Agreement.
+
+Support for Sencha ExtReact is governed by the Maintenance and Support Agreement.
+
+Sencha ExtReact is licensed on an annual basis, which includes support, and must be current to develop applications.
+
+Sencha Ext JS
+Sencha Ext JS is made available under Commercial License or the GNU General Public License version 3 (GPLv3). The Commercial License requires the payment of a fee for each Designated User (i.e. developer). If you choose not to pay a fee and use the GPLv3 license, you are required to release the source code of any program that you distribute that uses Ext JS. If you choose to pay for a Commercial License, you are not required to disclose your source code.
+
+Trial Licensing
+A trial download is available for Sencha Ext JS effective for 30 days and governed by the Sencha Software License Agreement. You cannot commence development of an application under GPLv3 license and later convert to a commercial license. You cannot develop during a trial period and continue development beyond that period (30 days).
+
+Commercial License
+License to each included SDK and Tool is governed by the Sencha Software License Agreement
+
+Support for Sencha Ext JS is governed by the Maintenance and Support Agreement
+
+A summary of important restrictions can be found at Summary of Important Use Restrictions for Sencha Software
+
+Additional information on licensing can be found in the Licensing, Maintenance, and Support FAQs
+
+Open Source (GPLv3) License
+Open Source (GPLv3) license for Sencha Ext JS can be found on the
+Sencha GPL Download Page
+
+Additional information on open source licensing can be found in the
+Open Source FAQ
+
+Custom Use Licensing
+Custom Use Licensing is available for uses that exceed the commercial license use restrictions, such as use for software that can be described as a development toolkit or library, an application builder, a website builder or any application that is intended for use by software, application, or website developers or designers.
+
+Contact us to learn more about a Custom Use License
+
+Extension Licensing
+You can create commercial extensions provided they add substantial value to Sencha Ext JS. Extension licensing is available under the terms and conditions of the Sencha Extension License, including registration with Sencha.
+
+Sencha Test
+Sencha Test is made available under Commercial License.
+There is no open source license for Sencha Test.
+
+Commercial license for Sencha Test is governed by the Sencha Software License Agreement.
+
+Support for Sencha Test is governed by the Maintenance and Support Agreement.
+
+Sencha Test is licensed on an annual basis, which includes support, and must be current to access the Sencha Test tools.
+
+Sencha GXT
+Sencha GXT is made available under Commercial License or the GNU General Public License version 3 (GPLv3). The Commercial License requires the payment of a fee for each Designated User (i.e. developer). If you choose not to pay a fee and use the GPLv3 license, you are required to release the source code of any program that you distribute that uses GXT. If you choose to pay for a Commercial License, you are not required to disclose your source code.
+
+Trial Licensing
+A trial download is available for Sencha GXT effective for 30 days and governed by the Sencha Software License Agreement. You cannot commence development of an application under GPLv3 license and later convert to a commercial license. You cannot develop during a trial period and continue development beyond that period (30 days).
+
+Commercial License
+Commercial license for Sencha GXT is governed by the
+Sencha Software License Agreement
+
+Support for Sencha GXT is governed by the
+Maintenance and Support Agreement
+
+A summary of important restrictions can be found at
+Summary of Important Use Restrictions for Sencha Software
+
+Additional information on licensing can be found in the
+Licensing, Maintenance, and Support FAQs
+
+Open Source (GPLv3) License
+Open Source (GPLv3) license for Sencha GXT can be found on the
+Sencha GPL Download Page
+
+Additional information on open source licensing can be found in the
+Open Source FAQ
+
+Custom Use Licensing
+Custom Use Licensing is available for uses that exceed the commercial license use restrictions, such as use for software that can be described as a development toolkit or library, an application builder, a website builder or any application that is intended for use by software, application, or website developers or designers.
+
+Contact us to learn more about a Custom Use License
+
+Extension Licensing
+You can create commercial extensions provided they add substantial value to Sencha GXT. Extension licensing is available under the terms and conditions of the Sencha Extension License, including registration with Sencha.
+
+Sencha Touch
+Sencha Touch is made available under Commercial License or the GNU General Public License version 3 (GPLv3). Both the Commercial License and the GPLv3 versions are free. Should you develop an app and wrap it for distribution in AppleÅfs App Store, the GPLv3 license is not compatible with AppleÅfs App Store terms, in which case you would need to use the Commercial License.
+
+Commercial License
+Commercial license for Sencha Touch is governed by the
+Sencha Touch Software License Agreement
+
+Additional information on licensing can be found in the
+Licensing, Maintenance, and Support FAQs
+
+Open Source (GPLv3) License
+Open Source (GPLv3) license for Sencha Ext JS can be found on the
+Sencha GPL Download Page
+
+Additional information on open source licensing can be found in the
+Open Source FAQ
+
+Custom Use Licensing
+Custom Use Licensing is available for uses that exceed the commercial license use restrictions, such as use for software that can be described as a development toolkit or library, an application builder, a website builder or any application that is intended for use by software, application, or website developers or designers.
+
+Contact us to learn more about a Custom Use License
+
+Extension Licensing
+You can create commercial extensions provided they add substantial value to Sencha Touch. Extension licensing is available under the terms and conditions of the Sencha Extension License, including registration with Sencha.
+
+Sencha Architect
+Sencha Architect is made available under Commercial License.
+There is no open source license for Sencha Architect.
+
+Commercial license for Sencha Architect is governed by the
+Sencha Software License Agreement
+https://www.sencha.com/legal/

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+   <service name="jmxconnector" provider="java:RPC">
+      <namespace>http://mx4j.sourceforge.net/remote/soap/1.0</namespace>
+      <parameter name="className" value="mx4j.tools.remote.soap.SSLSOAPService"/>
+      <parameter name="scope" value="application"/>
+      <parameter name="allowedMethods" value="*"/>
+      <requestFlow>
+         <handler type="java:mx4j.tools.remote.soap.ConnectionIDRequestHandler"/>
+      </requestFlow>
+   </service>
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Attribute"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.AttributeSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.AttributeDeserFactory"
+      type="java:javax.management.Attribute"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:AttributeList"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.AttributeListSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.AttributeListDeserFactory"
+      type="java:javax.management.AttributeList"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanAttributeInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanAttributeInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanAttributeInfoDeserFactory"
+      type="java:javax.management.MBeanAttributeInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanConstructorInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanConstructorInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanConstructorInfoDeserFactory"
+      type="java:javax.management.MBeanConstructorInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanInfoDeserFactory"
+      type="java:javax.management.MBeanInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanNotificationInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanNotificationInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanNotificationInfoDeserFactory"
+      type="java:javax.management.MBeanNotificationInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanOperationInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanOperationInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanOperationInfoDeserFactory"
+      type="java:javax.management.MBeanOperationInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanParameterInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanParameterInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanParameterInfoDeserFactory"
+      type="java:javax.management.MBeanParameterInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanServerNotification"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanServerNotificationSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanServerNotificationDeserFactory"
+      type="java:javax.management.MBeanServerNotification"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MBeanServerNotificationFilter"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MBeanServerNotificationFilterSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MBeanServerNotificationFilterDeserFactory"
+      type="java:javax.management.relation.MBeanServerNotificationFilter"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:MonitorNotification"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.MonitorNotificationSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.MonitorNotificationDeserFactory"
+      type="java:javax.management.monitor.MonitorNotification"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Notification"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.NotificationSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.NotificationDeserFactory"
+      type="java:javax.management.Notification"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:NotificationFilterSupport"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.NotificationFilterSupportSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.NotificationFilterSupportDeserFactory"
+      type="java:javax.management.NotificationFilterSupport"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:NotificationResult"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.NotificationResultSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.NotificationResultDeserFactory"
+      type="java:javax.management.remote.NotificationResult"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:ObjectInstance"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.ObjectInstanceSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.ObjectInstanceDeserFactory"
+      type="java:javax.management.ObjectInstance"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:ObjectName"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.ObjectNameSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.ObjectNameDeserFactory"
+      type="java:javax.management.ObjectName"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Principal"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.PrincipalSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.PrincipalDeserFactory"
+      type="java:java.security.Principal"
+      />
+   <!--
+      <typeMapping
+         xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+         qname="jmx:RelationNotification"
+         encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+         serializer="mx4j.tools.remote.soap.axis.ser.RelationNotificationSerFactory"
+         deserializer="mx4j.tools.remote.soap.axis.ser.RelationNotificationDeserFactory"
+         type="java:javax.management.relation.RelationNotification"
+      />
+   -->
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RelationTypeSupport"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RelationTypeSupportSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RelationTypeSupportDeserFactory"
+      type="java:javax.management.relation.RelationTypeSupport"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Role"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleDeserFactory"
+      type="java:javax.management.relation.Role"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RoleInfo"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleInfoSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleInfoDeserFactory"
+      type="java:javax.management.relation.RoleInfo"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RoleList"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleListSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleListDeserFactory"
+      type="java:javax.management.relation.RoleList"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RoleResult"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleResultSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleResultDeserFactory"
+      type="java:javax.management.relation.RoleResult"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RoleUnresolved"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleUnresolvedSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleUnresolvedDeserFactory"
+      type="java:javax.management.relation.RoleUnresolved"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:RoleUnresolvedList"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.RoleUnresolvedListSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.RoleUnresolvedListDeserFactory"
+      type="java:javax.management.relation.RoleUnresolvedList"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Set"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.SetSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.SetDeserFactory"
+      type="java:java.util.Set"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:Subject"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.SubjectSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.SubjectDeserFactory"
+      type="java:javax.security.auth.Subject"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:TargetedNotification"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.TargetedNotificationSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.TargetedNotificationDeserFactory"
+      type="java:javax.management.remote.TargetedNotification"
+      />
+
+   <typeMapping
+      xmlns:jmx="http://mx4j.sourceforge.net/remote/soap/1.0"
+      qname="jmx:TimerNotification"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      serializer="mx4j.tools.remote.soap.axis.ser.TimerNotificationSerFactory"
+      deserializer="mx4j.tools.remote.soap.axis.ser.TimerNotificationDeserFactory"
+      type="java:javax.management.timer.TimerNotification"
+      />
+
+</deployment>

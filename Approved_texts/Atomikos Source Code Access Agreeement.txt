@@ -1,0 +1,50 @@
+﻿Source Code Access Agreement 
+
+This Atomikos Source Code Access Agreeement (“License”) governs the access to any Atomikos source code obtained by You, including (but not limited to):
+• Test suites for TransactionsEssentials 
+• Any source code checked out via non-public online source code repositories managed by Atomikos and/or containing Atomikos source code. 
+• Source code fragments exchanged via email or via the forums. 
+
+The Atomikos Source Code (and its structure, organization, and other non-literal elements) is protected by copyright laws in Belgium and other countries. Atomikos owns and retains all right, title and interest in and to Atomikos Source Code, including all copyright, patents, trade secret rights, trademarks, and other intellectual property rights therein. Unauthorized reproduction or distribution of this copyrighted work is illegal, and may result in civil or criminal liability.
+
+DEFINITIONS
+
+“You/you” means the individual person installing or using Atomikos software delivered with or following this License. If you are acting on behalf of an organization then “you” means the organization in question, and the person installing or using the Atomikos Source Code confirms that he or she has the authority to do so on your behalf. “Atomikos Source Code” means the source code for Atomikos products delivered to you with or following this agreement.
+
+YOUR RIGHTS
+
+You may download the Atomikos Source Code files and make a reasonable number of copies on one computer as necessary to exercise the rights granted here. You may review the Atomikos Source Code in these files for your own internal use only. You may compile the Atomikos Source Code into an executable program. You may run the executable program on one computer only in order to assist in your internal testing efforts. You may also modify the Atomikos Source Code in the course of exercising these rights.
+
+LIMITATIONS
+
+You may not modify the Atomikos Source Code beyond the rights outlined above. You may not make extra copies of the Atomikos Source Code beyond what is allowed above. You may not remove or alter any notices regarding intellectual property rights such as copyright, patents, trademarks or other rights. You may not distribute or redistribute the Atomikos Source Code to any other legal party beyond yourself. You may not use any executable code obtained directly or indirectly from the Atomikos Source Code for any other purpose than what is explicitly allowed above. You may not give, sell, loan, distribute or otherwise transfer any executable code obtained from the Atomikos Source Code to anybody else.
+
+BUG COMMUNICATIONS
+If you find any bug or other problem within the Atomikos Source Code then you must let Atomikos know about it (by reporting to support@atomikos.com).You acknowledge and agree that Atomikos will be entitled to develop and implement any suggestions made by You regarding the software or related to the use thereof. You agree that you will NOT post any information about any problem or weakness in any place other than the Atomikos support channel mentioned above. Atomikos will decide at its own discretion whether any problems you find require correction or not. Under this license, Atomikos is not required to deliver any corrections to you or anybody else. Under no circumstances will Atomikos be liable for any consequences, except to the extent required by the governing law. 
+EXPORT CONTROL
+
+You agree to comply with all international rules and regulations concerning export from Atomikos’ home base (Belgium, Brussels) to your country. You agree that Atomikos cannot be held responsible for any violations of export laws.
+
+DISCLAIMER
+
+THE ATOMIKOS SOURCE CODE IS PROVIDED "AS IS" AND IN EXPERIMENTAL STATUS. TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOU HEREBY WAIVE, AND ATOMIKOS HEREBY DISCLAIMS, ANY SUPPORT, REPRESENTATION OR WARRANTY OF ANY KIND WHATSOEVER, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+
+LIABILITY DISCLAIMER
+
+IN NO EVENT WILL ATOMIKOS BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING - BUT NOT RESTRICTED TO - LOST REVENUE OR PROFITS OR OTHER DIRECT, INDIRECT, SPECIAL, INCIDENTAL, COVER, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE ATOMIKOS SOURCE CODE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, EXCEPT TO THE EXTENT APPLICABLE LAW, IF ANY, PROVIDES OTHERWISE. IN NO EVENT WILL ATOMIKOS' LIABILITY TO YOU EXCEED THE AMOUNT OF 50,- EUR.
+
+TERMINATION
+
+The license shall terminate immediately and automatically without notice if you fail to comply with any limitation contained herein. You agree to destroy all copies of the Atomikos Source Code upon termination. In addition, Atomikos may terminate this license upon notice to you (which may be delivered electronically by the same means as the Atomikos Source Code is distributed), and you may terminate this license at any time by destroying or erasing all your copies of the Atomikos Source Code. Atomikos reserves the right at any time to alter prices, features, specifications, capabilities, functions, licensing terms, release dates, general availability or other characteristics of the Atomikos Source Code.
+
+EXCEPTIONS
+
+This confidentiality agreement does not apply to any source code that is distributed by Atomikos under the apache license, version 2. Such source code is not confidential and can be redistributed as far as allowed by the apache license.
+
+COMPLETENESS
+
+This agreement is the entire agreement between you and Atomikos, unless otherwise agreed in writing by an Atomikos representative. You are not required to accept this license, however you are only allowed to access and use the Atomikos Source Code if you accept this license. Consequently, you will be deemed to have accepted this license if (and as soon as) you start using the Atomikos Source Code. If you do not accept this license then you should delete all your copies of the Atomikos Source Code immediately.
+
+COMPETENT COURT
+
+This license will be governed by and construed in accordance with the laws of the Kingdom of Belgium. This license shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Any legal conflicts will be exclusively settled by the Court of Mechelen, Belgium.

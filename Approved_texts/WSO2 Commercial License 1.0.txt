@@ -1,0 +1,48 @@
+WSO2 COMMERCIAL LICENSE TERMS 1.0
+THESE WSO2 COMMERCIAL LICENSE TERMS (THE ÅgTERMSÅh) CONSTITUTE A LEGALLY BINDING AGREEMENT BETWEEN WSO2 AND LICENSEE. BY DOWNLOADING, INSTALLING, COPYING, ACCESSING OR OTHERWISE USING THE SOFTWARE, LICENSEE AGREES TO THESE TERMS. IF YOU ARE ACCEPTING THESE TERMS ON BEHALF OF LICENSEE, YOU REPRESENT AND WARRANT THAT YOU HAVE FULL AUTHORITY TO BIND LICENSEE TO THESE TERMS.
+
+Definitions
+ÅgLicenseeÅh means the entity using the Software in accordance with these Terms and any Subscription Agreement that expressly incorporates these Terms or to which these Terms may be attached.
+
+ÅgLicenseeÅfs SystemsÅh means any computer system owned, controlled, or operated by or solely on behalf of Licensee upon which the Software shall be deployed.
+
+ÅgSoftwareÅh means the software identified in a Subscription Agreement, together with any documentation and Updates thereto.
+
+ÅgSubscription AgreementÅh means any valid written agreement entered into between WSO2 and Licensee setting forth the specifics of the licenses, usage limits and services provided to Licensee in relation to the Software.
+
+ÅgTermÅh means the period of time these Terms, including the Software License, as described herein and in any applicable Subscription Agreement, are valid. The Term shall be coterminous with the term of the Subscription Agreement to which these Terms are attached or which expressly incorporates these Terms or, in the case of evaluation offers, the term of the evaluation, as described in Section 5(b), below.
+
+ÅgUpdateÅh means software components, media, printed materials, and online or electronic documentation that augments the capability or addresses a requirement or deficiency in the Software. Updates include patches or fixes obtained through the WSO2 Update service (see https://wso2.com/updates) or delivered directly to Licensee.
+
+ÅgWSO2Åh means WSO2 Inc. and its affiliate entities which are owned and/or controlled by, owned and/or controlled; or are under common ownership and/or control with WSO2.
+
+License Grant
+Subject to the terms and conditions contained herein and the applicable Subscription Agreement, including the usage limits described therein, WSO2 grants Licensee a non-exclusive, non-transferable, renewable license (the ÅgSoftware LicenseÅh) to Use the Software during the Term. For purposes of this Software License, the term ÅgUseÅh means to install, store, load, execute, and display the Software on the LicenseeÅfs Systems for its own internal use.
+
+Ownership
+All right, title and interest, including but not limited to intellectual property rights such as copyrights, in and to the Software and any copies thereof, are owned by WSO2 or its suppliers. All right, title and interest, including but not limited to intellectual property rights such as copyrights, in and to the content which may be accessed through use of the Software is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. All rights not expressly granted are reserved by WSO2 or its suppliers.
+
+Updates
+Updates and minor version upgrades to the Software may be made available periodically to the Licensee during the Term, as set out in the LicenseeÅfs Subscription Agreement, and such Updates and minor version upgrades shall be subject to these Terms. In the event of any conflict between these Terms and the terms of any other license terms or End User License Agreements attached to Updates and minor version upgrades, these terms shall govern.
+
+License Restrictions
+Use Restrictions. Licensee may not exceed the number of licenses, tiers, nodes or other use restrictions or authorizations agreed to and paid for by Licensee in a Subscription Agreement.
+Evaluation. WSO2 may provide copies of the Software to Licensee for the purpose of evaluation and trials, without a Subscription Agreement. By accepting such copies of the Software, Licensee agrees to be bound by these Terms, for a Term as specified in the evaluation offer extended by WSO2. For evaluations, Licensee may deploy a single instance of the Software for purposes of testing, evaluation, and demonstration. Licensee may not deploy the Software into production (accepting legally-binding transactions from actual end users) during the evaluation term. Upon (i) conclusion of the evaluation period as determined by WSO2, (ii) notice by Licensee of the conclusion of its evaluation, or (ii) the execution of a Subscription Agreement superseding the evaluation license, the evaluation restrictions on use of the Software set forth in this Section 5(b) terminates.
+Copy. Licensee may make copies of the Software for backup or archival purposes or when copying is an essential step in the authorized Use of the Software. Licensee shall ensure that backup copies are executed only upon the failure of the original to execute.
+Maintenance of Copyright Notices. Licensee may not remove or alter any copyright notices on the Software (including any documentation related thereto) and must reproduce all copyright notices that appear in or on the Software (including any documentation related thereto) on all permitted copies. Licensee may use Software documentation and copies thereof solely for internal use.
+Theming. Licensee may use supported features for theming product user interfaces, but must retain the ÅgWSO2Åh or Ågpowered by WSO2Åh logos in conformance with WSO2 logo usage guidelines provided by WSO2.
+Modification. Other than supported theming, Licensee may not modify, reverse engineer, disassemble, decrypt, decompile, or make derivative works of the Software.
+Distribution. Licensee may not distribute copies of the Software to third parties.
+Rental. Licensee may not sublicense, assign, transfer, rent or lease the Software or the Software License, except as expressly permitted under Section 5(i).
+Commercial hosting. Licensee may not use the Software for commercial software hosting services.
+Consultant or Subcontractor Use. Subject to these Terms, Licensee may permit a consultant or subcontractor to Use the Software solely on behalf of the Licensee, on the LicenseeÅfs Systems provided that Licensee remains fully responsible and directly liable to WSO2 for consultantsÅf/subcontractorsÅf compliance with these Terms.
+Termination
+These Terms, including the Software License, shall expire at the end of the Term, unless Licensee and WSO2 agree to renew such License. Without prejudice to any other rights, WSO2 may terminate these Terms, including the Software License, if Licensee fails to comply with any of the Terms. Upon expiration or termination of these Terms, Licensee shall destroy or return to WSO2 the Software, all copies of the Software in LicenseeÅfs possession and any documentation in relation to the Software, and shall uninstall any Updates provided by WSO2 in relation to the Software.
+
+Limited Warranty
+EXCEPT FOR THE WARRANTIES EXPRESSLY SET OUT IN ANY SUBSCRIPTION AGREEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WSO2 PROVIDES NO OTHER WARRANTIES OF ANY KIND IN RELATION TO THE SOFTWARE OR THE OPERATION THEREOF, INCLUDING ANY IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. NO WARRANTY, WRITTEN OR ORAL, IS EXPRESSED OR IMPLIED BY WSO2 OR MAY BE INFERRED FROM A COURSE OF DEALING OR USAGE OF TRADE.
+
+WSO2 WARRANTS FOR THIRTY (30) DAYS FROM THE BEGINNING OF THE TERM THAT THE SOFTWARE WILL PERFORM SUBSTANTIALLY AS DESCRIBED IN THE DOCUMENTATION. THE REMEDY FOR A BREACH OF THIS WARRANTY IS FOR WSO2 TO REPLACE OR REPAIR THE SOFTWARE WITHIN SIXTY (60) DAYS OF WSO2 HAVING BEEN NOTIFIED OF THE DEFECT; IF A REPAIR CANNOT BE MADE DURING THIS TIME, WSO2 WILL TERMINATE THIS LICENSE AND REFUND LICENSEE THE AMOUNT PAID FOR THE SOFTWARE.
+
+Limitation of Liability
+IN NO EVENT WILL WSO2 BE LIABLE FOR ANY INCIDENTAL INDIRECT, SPECIAL, OR CONSEQUENTIAL COSTS OR DAMAGES INCLUDING, WITHOUT LIMITATION, DOWNTIME COSTS; LOST BUSINESS, REVENUES, OR PROFITS; FAILURE TO REALIZE EXPECTED SAVINGS; OR SOFTWARE RESTORATION, REGARDLESS OF WHETHER ANY OF THE FOREGOING ARE FORESEEABLE, AND REGARDLESS OF WHETHER WSO2 HAS BEEN NOTIFIED OF THE POSSIBILITY OF ANY OF THE FOREGOING. THESE LIMITATIONS WILL APPLY REGARDLESS OF THE BASIS OF LIABILITY; INCLUDING NEGLIGENCE; MISREPRESENTATION; BREACH; LIBEL; INFRINGEMENT OF PUBLICITY, PRIVACY, OR INTELLECTUAL PROPERTY RIGHTS; OR ANY OTHER CONTRACT OR TORT CLAIM.

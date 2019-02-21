@@ -1,0 +1,274 @@
+ONTOTEXT LICENSE AGREEMENT
+
+This Ontotext License Agreement ("Agreement") is entered into by and between:
+
+   1. "ONTOTEXT" AD, EIK 200356710, VAT number: BG200356710, company registered under the Laws of Republic of Bulgaria with headquarters in 1784 Sofia, Bulgaria, company address: 135 "Tsarigradsko Shosse" Blvd, represented by its Executive Director Atanas Kostadinov Kiryakov (hereinafter referred to the "Licensor"), and
+   2. You hereinafter referred to the "Licensee"
+
+as of the date first usage of the Licensed Software (the "Effective Date"), agreed to the following:
+
+Contents
+
+Ontotext License Agreement
+
+Article 1.  Definitions
+When used in this Agreement, the following terms shall have the respective meanings indicated, such meanings to be applicable to both the singular and plural forms of the terms defined:
+1. "Licensed Software" shall mean GraphDB Software with product line and version as specified in Exhibit A: Licensed Configuration, Usage and Fees and related Documentation, including all legally obtained Updates, Upgrades and modifications to such products that may be provided from time to time by the Licensor.
+GraphDB has several editions:
+1. GraphDB Free
+2. GraphDB Standard
+3. GraphDB Enterprise
+The term "Licensed Software" does not include Interfaces and Application Programming Interfaces specified in Exhibit A: Terms and Conditions Relating to Third-Party Products and Libraries which are distributed together with the Licensed Software, but licensed directly from their respective owners.
+2. "Documentation" shall mean the operating instructions, user manuals, "read-me" files, and all technical information and reference materials related to the Software, in whatever form, provided by the Licensor.
+3. "Updates" shall mean any subsequent releases of the Licensor makes generally available to Licensee from time to time and that is intended to replace a prior Licensed Software release and when applied become a part of the Licensed Software. Updates are minor software enhancements, patches or bug fixes to the Software. Depending on the nature of the changes, there might or might not be change in the release number of the Licensed Software.
+4. "Upgrade" shall mean any subsequent releases of the Licensor makes generally available to Licensee from time to time and that is intended to replace a prior Licensed Software release and when applied become a part of the Licensed Software. Upgrade is a newer version of the Licensed Software with new features or significant enhancements indicated by a change in the release number of the Licensed Software.
+5. "CPU Core" means any actual or virtual (including Hyper Threading) processing part of a Central Processing Unit (CPU) chip minus the cache. The number of the CPU Cores is determined by the number available to the Java Virtual Machine.
+6. "Worker node" shall be a machine that runs an instance of the GraphDB-Enterprise worker software. This node will store a replicated copy of the database and will be utilized by GraphDB -Enterprise master nodes for the purposes of query answering and handling updates.
+7. "Master node" shall be machine that runs an instance of the GraphDB-Enterprise master software. This node will manage a cluster of worker nodes in order to delegate query and update requests and ensure synchronization between workers.
+8. "License Code" shall mean a text file or symbol string which will enable you to activate the Licensed Software for initial evaluation or for production usage. You may not re-license, reproduce or distribute any License Code except with the express written permission of Licensor. Any change, update or upgrade and of the License Code associated with the Licensed Software license does not constitute the granting of a second license.
+9.  "Intellectual property" or "Intellectual property rights" shall mean:
+     (a) Software (including but not limited to the Licensed Software), Updates, source and binary code, all copyrightable works, all copyrights and related rights, all applications, registrations and renewals in connection therewith, all moral rights and all other works of authorship, including all mask work rights;
+     (b) All Documentation and additional technical information, including, without limitation to all source code comments, all algorithms, ideas, structure, organization, source code and other information related to the Licensed Software;
+     (c) Databases, Database authorship rights and rights over data compilations;
+     (d) Patents and all inventions (whether or not patentable and whether or not reduced to practice), all improvements thereto, and all patents, patent applications, and patent disclosures, together with all reissuances, divisions, continuations, continuations-in-part, revisions, renewals, extensions, and re-examinations thereof,
+     (e) all trade secrets, business and technological know-how, software development methodologies,
+     (f) all registered and unregistered trademarks, service marks, domain names, logos, trade names, and corporate names, together with all translations, adaptations, derivations, and combinations thereof and including all goodwill associated therewith, and all applications, registrations and renewals in connection therewith,
+     (g) all derivative works of any of the foregoing;
+     (h) any other similar rights or intangible assets recognized under any laws or international conventions, and in any country or jurisdiction in the world, as intellectual creations to which rights of ownership accrue, and all registrations, applications, disclosures, renewals, extensions, continuations or reissues of the foregoing now or hereafter in force, and
+     (i) all copies and tangible embodiments of all of the foregoing (a) through (f) in any form or medium throughout the world.
+10. "Web service" is a method of communication between two electronic devices over the Internet, using standardized machine readable protocol made available by the Licensor to the Licensee.
+
+Article 2.  License Grant
+1. Licensor hereby grants to Licensee, for the Term of this Agreement (as defined in Article 4.), a worldwide, nonexclusive, non-transferable and non-assignable limited right and license to use the type and number of copies of Licensed Software, Documentation and access to Web Services:
+     (a) for which the applicable license fees and royalties have been paid,
+     (b) for Licensee's own internal use, and
+     (c) in accordance with the licensed number of CPU Cores, the additional purpose specific limitations and the licensed configuration agreed between the parties.
+2. Licensee may make copies of the Licensed Software in machine-readable form for back-up and archival purposes only. All copies of the Licensed Software will be subject to the terms of this Agreement.
+3. Under this License the Licensee is allowed to install and use the Licensed Software on worker node computer(s) with up to the number of CPU cores agreed between the parties.
+4. The Licensee receives the License Grant after full payment of the Fees specified in Article 5. according to the Article 5. payment terms and schedule specified in Article 6.
+
+Article 3.  Uses Not Permitted
+1. Except as provided herein, Licensee shall not sublicense, sell, rent, lease, lend, assign, provide as a remote Service (Software as a Service) or time-share any Licensed Software, Web Services or Documentation. Licensee shall not act as a service bureau or commercial application service provider that allows third-party access to the Licensed Software, Web Services and Documentation. Licensee shall not use Licensed Software, Web Services or Documentation for a site or service and operate the site or the service for a profit or generate revenue through direct or indirect methods (e.g., advertising or by charging for access to the site or service).
+2. Licensee shall not reverse engineer, decompile, or disassemble Software, Web Services or Documentation except to the extent that such activity is expressly permitted by applicable law notwithstanding this restriction.
+
+Article 4.  Term
+This Agreement shall become effective on the Effective Date and if not specified otherwise in a separate agreement between the parties shall remain in effect for an initial term of one year ("Initial Term") and shall automatically renew for subsequent one-year terms ("Renewal Term") unless sooner terminated as provided in Article 17.
+
+Article 5.  Editions
+The Licensed Software has the following editions:
+1. GraphDB Free
+2. GraphDB Standard
+3. GraphDB Enterprise
+
+Article 6.  Fees
+1. GraphDB Free is distributed free of any licensing fees and charges and all corresponding fees and payment terms do not apply.
+2. In consideration for the license rights granted with regards to GraphDB Standard or GraphDB Enterprise editions, Licensee agrees to pay to Licensor the License Fees agreed between the parties, based on the number of Central Processing Unit (CPU) cores of the Hardware platform on which the Licensed Software will be used.
+
+Article 7.  Payment terms and payment schedule
+Licensee agrees to pay to Licensor the fees according to the following terms:
+1. All payments due to Licensor shall be due in five (5) working days following the receipt of an Invoice.
+2. All bank and transfer fees shall be covered by the Licensee.
+3. Late payments shall incur interest at the rate of 18% per annum from the date such payments were originally due.
+
+Article 8.  Licensor's Obligations and Warranties
+1. Beginning upon of the receipt of the License fee or if no License fee is due beginning upon the Effective date, Licensor shall provide Licensee with the Licensed Software as a download from a Licensor's website and will send an email with a license key file for each copy of the Licensed Software.
+2. Licensor represents and warrants that:
+     (a) it has the right and power to grant the licenses granted herein,
+     (b) it has the right to distribute the software specified in Article 10. ;
+     (c) there are no other agreements with any other party in conflict with such grant and
+     (d) it has no actual knowledge that the Licensed Software infringes any valid rights of any third party.
+
+Article 9.  Services Not Included
+For avoidance of any doubt the provision of the following services is not included in this Agreement and may be subject to separate agreements between the parties:
+     (a) Maintenance Services for the Licensed Software, including but not limited to the provision of Updates, major version upgrades ("Upgrades"), Bug fixes and patches for the Licensed Software;
+     (b) Support Services for the Licensed Software, including but not limited to: assistance for resolution of incidents, including investigation of all sorts of issues related to the behaviour and performance of the Licenses Software.
+     (c) Custom Software Development, Training, Hosting, Software Installation and Administration, Procurement or any other services not explicitly described in this Agreement.
+
+Article 10.  General Terms
+This agreement is an absolute pre-requisite for conclusion of any other agreement concerning the Licensed Software and shall serve as General Terms for each and every contract for the Licensed Software.
+
+Article 11.  Distribution of Third Party Components
+1. Licensor may distribute complementary software products, tools and libraries for use with the Licensed Software.
+2. The Third-Party Products and Libraries listed in Exhibit A: Terms and Conditions Relating to Third-Party Products and Libraries may be distributed together with the Licensed Software, but are property and licensed directly from their respective owners.
+
+Article 12.  Licensee's Obligations
+1. Licensee shall fully comply with the marking provisions of the intellectual property laws of the applicable jurisdictions.
+2. Licensee shall not use Licensed Software or Web Services to transfer or exchange any material where such transfer or exchange is prohibited by intellectual property laws or any other applicable laws.
+3. Except to the extent that applicable law prohibits this restriction, Licensee shall not make any attempt to circumvent the technological measure(s) that controls access to or use of Licensed Software, Web Services and Documentation.
+4. Licensee shall not redistribute Licensed Software activation License Code(s), registration number/licence authorization file(s), developer licence file(s), or Web Services access codes to third parties.
+5. Licensee shall not remove or obscure any Licensor or its licensors' patent, copyright, trademark, or proprietary rights notices contained in or affixed to Software, Web Services or Documentation.
+6. Licensee shall not unbundle individual or component parts of Licensed Software or Data for independent use.
+7. Licensee shall not translate, disassemble, reverse engineer, decompile or otherwise attempt to reconstruct or discover any source code or underlying ideas or algorithms of, or embodied in the Licensed Software. Licensee shall not  cause or permit unauthorized copying, reproduction or disclosure of any portion of the Licensed Software, Updates or any instructions, manuals, or other Documentation, or the delivery or distribution of any part of either the Software or the Documentation, to any third person or entity, for any purpose whatsoever, including, but not limited to, transmission, uploading, downloading, leasing, or operating the Licensed Software as a remote Service (Software as a Service), timeshare or service bureau without the prior written consent of Licensor.
+
+Article 13.  Ownership of Intellectual Property
+1. Licensee acknowledges and agrees that Licensor shall retain and own all right, title and interest and all Intellectual Property and Intellectual Property Rights in and to all of the Licensed Software, Documentation, Updates and all copies thereof, and that nothing herein transfers or conveys to Licensee any ownership right, title or interest in or to the Licensor's Intellectual Property to any copy thereof or any license right with respect to same not expressly granted herein.
+2. Licensee agrees that it will not, either during or after the termination of this Agreement, contest or challenge the ownership of the intellectual property rights in the Licensor's Intellectual Property.
+
+Article 14.  Acknowledgement of Intellectual Property Rights
+1. Licensee acknowledges that the Licensed Software and any copies that Licensee is authorized by Licensor to make are the intellectual property of and are owned by Ontotext and the explicitly specified third parties.
+2. The structure, organization and code of the Licensed Software are the valuable trade secrets and confidential information of Licensor and its suppliers.
+3. The Licensed Software is protected by copyright, international treaty provisions and applicable laws in the country in which it is being used.
+4. You acknowledge that Licensor retains the ownership of all patents, copyrights, trade secrets, trademarks and other Intellectual property rights pertaining to the Software, and that Licensor's ownership rights extend to any images, photographs, animations, videos, audio, music, text and "applets" incorporated into the Software and all accompanying printed materials.
+5. Licensee will take no actions which adversely affect Licensor's intellectual property rights in the Software.
+
+Article 15.  Marketing Activities
+1. Licensor can mention and list the Licensee as a user of the Licensed Software, but except that neither party will issue any public announcement nor publish any materials that reference or discuss the other party or its products without the prior written consent of the other party. Each party grants the other party the right to use the other party's name and logo for marketing purposes.
+2. During the Term of this Agreement, Licensee and Licensor may mutually agree from time to time to engage in joint marketing activities which promote their products including seminars, press announcements, trade shows, user groups or other events.
+3. The Licensee is not allowed to publish evaluation results obtained through the use of the Licensed Software without the written permission of the Licensor.
+
+Article 16.  Trademarks
+1. Trademarks shall be used in accordance with accepted trademark practice, including identification of trademark owners' names. Trademarks may only be used to identify printed output produced by the Software, and such use of any trademark does not give you any right of ownership in that trademark. GraphDB, OWLIM, GraphDB Lite, GraphDB SE, GraphDB Enterprise, KIM, Web Mining Framework, WMF, Forest, Linked Life Data, and Semantic Bio Tagger are Trademarks of Ontotext AD.
+2. RDF, XHTML, XML and XSL are trademarks (registered in numerous countries) of the World Wide Web Consortium (W3C); marks of the W3C are registered and held by its host institutions, MIT, INRIA and Keio. Except as expressly stated above, this Software License Agreement does not grant you any intellectual property rights in the Software. Notifications of claimed copyright infringement should be sent to Ontotext's copyright agent as further provided on the Ontotext Web Site.
+
+Article 17.  Taxes due
+Licence Fees specified in Article 5. or previously quoted to Licensee are exclusive of any and all taxes or fees, including, but not limited to, sales tax, use tax, value-added tax (VAT), customs, duties, or tariffs, and shipping and handling charges.
+
+Article 18.  Termination
+1. If either party breaches this Agreement, the non-defaulting party may give written notice to the defaulting party of the beach. The defaulting party shall have thirty (30) days from the date of such notice in which to cure the breach. If the default is not cured during the thirty day period, this Agreement shall automatically terminate at the end of that period.
+2. Either party may terminate this Agreement without cause effective as of the end of the Initial Term or any Renewal Term by providing the other with not less than 2 (two) months written notice prior to the end of the Initial Term or such Renewal Term.
+3. Termination of this Agreement shall not limit or restrict any of the remedies otherwise available to the parties hereunder or at law.
+
+Article 19.  Effects of Termination
+1. Upon termination of this Agreement for any reason, all rights and licenses granted to Licensee under this Agreement shall terminate and revert to Licensor.
+2. Upon termination of this Agreement for any reason, Licensee shall:
+     (a) immediately return to Licensor all Confidential Information including the copies of Intellectual property, business and technical information, catalogues and literature in its possession, custody or control in whichever form held (including all copies or embodiments thereof);
+     (b) cease using any trademarks, service marks and other designations of Licensor;
+     (c) no longer identify or hold itself out as a user of Licensed Software.
+
+Article 20.  Survival
+1. The following provisions shall survive the termination or expiration of this Agreement for any reason and shall remain in effect after any such termination or expiration:
+     (a) All obligations relating to ownership and protection of Intellectual property rights;
+     (b) All obligations relating to Royalties and License Fee payments;
+     (c) All obligations relating to non-use and nondisclosure of Confidential Information;
+     (d) All obligations relating to indemnification and protection of proprietary rights;
+     (e) All obligations to make payments of amounts that are or become due under this Agreement prior to termination; and
+     (f) All provisions regarding the limitations of warranty, remedy and liability.
+
+Article 21.  Indemnification
+1. Licensee agrees to defend, indemnify and hold Licensor and its officers, directors, agents and employees harmless against all costs, expenses and losses (including reasonable attorneys' fees and costs) incurred through claims of third parties against Licensor based on the use of the Licensed Software including, but not limited to, actions founded on product liability.
+2. Licensor agrees to defend, indemnify and hold Licensee and its officers, directors, agents and employees harmless against all costs, expenses and losses (including reasonable attorneys' fees and costs) incurred through claims of third parties against Licensee based on a breach by Licensor of any representation or warranty made in this Agreement.
+3. Licensor will, at its own expense, defend Licensee in any action, suit or claim ("Claim"), brought before a court anywhere in European Union and The United States of America, by a third party alleging that one or more of the Licensed Software infringes patent, trademark, trade secret, copyright or any other proprietary rights of such third party anywhere in European Union and The United States of America. As conditions for such defence and satisfaction by Licensor:
+     (a) Licensee will notify Licensor promptly in writing upon becoming aware of all pending claims and suits;
+     (b) Licensee will give Licensor sole control of the defence and settlement of such suits;
+     (c) Licensee will cooperate fully with Licensor in the defence or settlement of such Claim; and
+     (d) Licensee will not settle the Claim without Licensor's consent, or compromise the defence of such Claim.
+4. The indemnity herein does not extend to:
+(a) any Claim based upon infringement or alleged infringement of any patent, trademark or copyright by the combination of the Licensed Software provided by Licensor with Licensed Product or other products not provided by or approved by Licensor;
+(b) any Claim related to or in connection with any modification of the Products not created by Licensor.
+5. In any such Claim, Licensor will satisfy any final award for infringement against Licensee, but in no event will Licensor liability pursuant to this indemnity clause will exceed the Fees paid by Licensee during the past twelve (12) months.
+6. The provisions of this Article state the sole and exclusive liability of Licensor exclusive remedy with respect to any claim of the nature described herein.
+
+Article 22.  Confidential Information
+1. "Confidential Information" means all confidential and proprietary information of a party ("Disclosing Party") disclosed to the other party ("Receiving Party"), whether orally or in writing, that is either marked or designated as confidential or is identified in writing as confidential or proprietary within fifteen (15) days of disclosure to the Receiving Party; provided that the following shall be deemed to be Confidential Information even if not so marked or identified:
+     (a) the terms and conditions of this Agreement (including pricing and other terms reflected in all schedules hereto),
+     (b) Intellectual Property Rights,
+     (c) the Disclosing Party's business and marketing plans,
+     (d) technology and technical information,
+     (e) product designs, and business processes,
+     (f) any information or materials with the name, sign, trade name or trademark of the Disclosing Party and
+     (g) any information that a reasonable person would deem confidential or proprietary given the nature of the information and the circumstances under which it is disclosed.
+2. "Confidential Information" does not include any item of information which:
+     (a) is or becomes available in the public domain without the fault of the Receiving Party;
+     (b) is disclosed or made available to the Receiving Party by a third party without restriction and without breach of any relationship of confidentiality;
+     (c) is independently developed by the Receiving Party without access to the disclosing party's Confidential Information; or
+     (d) is known to the recipient at the time of disclosure.
+3. The Receiving Party shall not disclose or use any Confidential Information of the Disclosing Party for any purpose outside the scope of this Agreement, except with the Disclosing Party's prior written permission; provided that a Receiving Party may disclose any Confidential Information of the Disclosing Party to its employees, attorneys and accountants who have a need to know such Confidential Information for purposes of this Agreement and who are bound to a written agreement protecting such Confidential Information as required hereby.
+4. The Receiving Party agrees to protect the confidentiality of the Confidential Information of the Disclosing Party in the same manner that it protects the confidentiality of its own proprietary and confidential information of like kind, but in no event shall either party exercise less than reasonable care in protecting such Confidential Information.
+5. If the Receiving Party is compelled by law to disclose Confidential Information of the Disclosing Party, it shall provide the Disclosing Party with prior notice of such compelled disclosure (to the extent legally permitted) and reasonable assistance, at Disclosing Party's cost, if the Disclosing Party wishes to contest the disclosure.
+6. If the Receiving Party discloses or uses (or threatens to disclose or use) any Confidential Information of the Disclosing Party in breach of this Section 16, the Disclosing Party shall have the right, in addition to any other remedies available to it, to seek injunctive relief to enjoin such acts, without the necessity of posting bond, it being specifically acknowledged by the parties that any other available remedies are inadequate.
+7. Upon the termination of this Agreement for any reason whatsoever, or upon request of a Disclosing Party, the Receiving Party shall return to the Disclosing Party, or shall destroy, as the Disclosing Party shall specify, all copies of all the Disclosing Party's Confidential Information in the Receiving Party's possession. Within five (5) days thereafter, the Receiving Party shall provide the Disclosing Party with a certificate, executed by the Receiving Party or by an officer of the Receiving Party, confirming that all copies of all such Confidential Information have been returned to the Disclosing Party or destroyed, as the case may be.
+
+Article 23.  Disclaimer of Warranties
+1. Limited Warranties. Except as otherwise provided in this Article, Licensor warrants that:
+     (a) the unmodified Software will substantially conform to the published Documentation and
+     (b) media on which the Software, Web Services and Documentation are provided will be free from defects in materials and workmanship under normal use and service for a period of 90 days from the date of receipt.
+2. Internet Disclaimer. THE PARTIES EXPRESSLY ACKNOWLEDGE AND AGREE THAT THE INTERNET IS A NETWORK OF PRIVATE AND PUBLIC NETWORKS AND THAT:
+     (a) THE INTERNET IS NOT A SECURE INFRASTRUCTURE,
+     (b) THE PARTIES HAVE NO CONTROL OVER THE INTERNET, AND
+     (c) NONE OF THE PARTIES SHALL BE LIABLE FOR DAMAGES UNDER ANY THEORY OF LAW RELATED TO THE DISCONTINUANCE OF OPERATION OF ANY PORTION OF THE INTERNET OR POSSIBLE REGULATION OF THE INTERNET THAT MIGHT RESTRICT OR PROHIBIT THE OPERATION OF THE WEB SERVICE.
+3. General Disclaimer. EXCEPT FOR THE ABOVE EXPRESS LIMITED WARRANTIES, ONTOTEXT DISCLAIMS ALL OTHER WARRANTIES OR CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OR CONDITIONS OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, AND NONINFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS. LICENSOR DOES NOT WARRANT AND DISCLAIMS THAT SOFTWARE, DATA, WEB SERVICES, OR DOCUMENTATION WILL MEET LICENCEE'S NEEDS; THAT LICENCEE'S OPERATION OF THE SAME WILL BE UNINTERRUPTED, ERROR FREE, FAULT TOLERANT, OR FAIL SAFE; OR THAT ALL NONCONFORMITIES CAN OR WILL BE CORRECTED. SOFTWARE, DATA, WEB SERVICES, AND DOCUMENTATION ARE NOT DESIGNED, MANUFACTURED, OR INTENDED FOR USE IN ENVIRONMENTS OR APPLICATIONS THAT MAY LEAD TO DEATH, PERSONAL INJURY, OR PHYSICAL PROPERTY/ENVIRONMENTAL DAMAGE. ANY SUCH USE SHALL BE AT LICENCEE'S OWN RISK AND COST.
+4. Licensee's exclusive remedy and Licensor's entire liability for breach of the limited warranties set forth in this Article shall be limited, at Licensor's sole discretion, to:
+     (a) replacement of any defective media;
+     (b) repair, correction, or a workaround for the Licensed Software; or
+     (c) return of the licence fees paid by Licensee for Licensed Software or Documentation that does not meet Licensor's limited warranty, provided that Licensee uninstalls, removes, and destroys all copies of Software or Documentation and executes and delivers evidence of such actions to Licensor or its authorized distributor.
+
+Article 24.  Notes and communication
+1. All notices and other communications required or permitted hereunder will be in writing and will be delivered by hand or sent by overnight courier, fax or e-mail to:
+     (a) to Licensor:
+
+fax:           +359 988 10 60 85
+e-mail:        info@ontotext.com
+Attention:  Atanas Kiryakov
+phone:        +359 (0)2 974 4802
+
+     (b) to Licensee:
+fax:
+e-mail:
+Attention:
+phone:
+
+2. Both parties are obliged to notify each other about changes in their contact information, including, but not limited to, their names, address, and web-address.
+
+Article 25.  Limitation of liabilities
+1. Disclaimer of Certain Types of Liability. LICENSOR SHALL NOT BE LIABLE TO LICENCEE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES; INVESTMENTS; BUSINESS COMMITMENTS; LOSS OF ANY GOODWILL; OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATED TO THIS LICENCE AGREEMENT OR USE OF SOFTWARE, DATA, WEB SERVICES, OR DOCUMENTATION, HOWEVER CAUSED ON ANY THEORY OF LIABILITY, WHETHER OR NOT LICENSOR OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+2. General Limitation of Liability. LICENSOR'S TOTAL CUMULATIVE LIABILITY HEREUNDER, FROM ALL CAUSES OF ACTION OF ANY KIND, INCLUDING, BUT NOT LIMITED TO, CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, BREACH OF WARRANTY, MISREPRESENTATION, OR OTHERWISE, SHALL NOT EXCEED THE AMOUNTS PAID BY LICENCEE FOR SOFTWARE, DATA, WEB SERVICES, OR DOCUMENTATION URSUANT TO THIS LICENCE AGREEMENT FOR THE PERIOD OF THE LAST SIX (6) MONTHS OF THIS AGREEMENT.
+3. Applicability of Disclaimers and Limitations. Licensee agrees that the limitations of liability and disclaimers set forth in this Licence Agreement will apply regardless of whether Licensee has accepted Software, Web Services, or Documentation or any other product or service delivered by Licensor. The parties agree that Licensor has set its fees and entered into this Licence Agreement in reliance on the disclaimers and limitations set forth herein, that the same reflect an allocation of risk between the parties, and that the same form an essential basis of the bargain between the parties. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+4. Nothing in this agreement shall be construed as attempting to limit or exclude the liability of any party in respect of injury to, or the death of, any person caused by any wilful or negligent act or omission of any party, its officers, employees, agents or subcontractors, or for fraud or fraudulent misrepresentation or the deliberate default or wilful misconduct of that party, its employees or agents or subcontractors.
+
+Article 26.  Assignment
+1. Neither party may assign any of its rights or obligations hereunder, whether by operation of law or otherwise, without the prior express written consent of the other party. Any attempt by a party to assign its rights or obligations under this Agreement in breach of this Article shall be void and of no effect.
+2. Subject to the foregoing, this Agreement shall bind and inure to the benefit of the parties, their respective successors and permitted assigns.
+
+
+Article 27.  Entire Agreement, Amendment and Wavier
+1. This Agreement, including all schedules and exhibits attached hereto, embodies the entire agreement and understanding between the parties hereto with respect to the subject matter of this Agreement and supersedes all prior or contemporaneous agreements and understandings other than this Agreement relating to the subject matter hereof.
+2. This Agreement may be amended only by a written agreement executed by the parties hereto, except the Licensor's right to to change unilaterally its licensing scheme and policy; License Royalties, Maintenance Fees and general price list at any time.
+3.  No provision of this Agreement may be waived except by a written document executed by the party entitled to the benefits of the provision.
+4. No waiver of a provision will be deemed to be or will constitute a waiver of any other provision of this Agreement. A waiver will be effective only in the specific instance and for the purpose for which it was given, and will not constitute a continuing waiver.
+
+Article 28.  No Benefit to Others
+1. There are no intended third party beneficiaries of this Agreement.
+2. The representations, warranties, covenants, and agreements contained in this Agreement are for the sole benefit of the parties and their respective successors and permitted assigns, and they are not to be construed as conferring any rights on any other persons.
+
+Article 29.  Governing Law and Dispute Resolution
+1. All claims regarding this Agreement are governed by and construed in accordance with the Laws of Republic of Bulgaria, applicable to contracts wholly made and performed in such jurisdiction, except for any choice or conflict of Law principles, and must be litigated in Sofia, regardless of the inconvenience of the forum, except that a party may seek temporary injunctive relief in any venue of its choosing.
+2. This License Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Either party shall, at the request of the other, make available documents or witnesses relevant to the major aspects of the dispute.
+
+Article 30.  Force Majeure
+Licensor shall not be responsible for failures of its obligations under this Agreement to the extent that such failure is due to causes beyond Licensor's control including, but not limited to, acts of God, war, acts of any government or agency thereof, fire, explosions, epidemics, quarantine restrictions, strikes, delivery services, telecommunication providers, strikes, labour difficulties, lockouts, embargoes, severe weather conditions, delay in transportation, or delay of suppliers or subcontractors.
+
+Article 31.  Severability
+If any provision of this Agreement is found to be invalid or unenforceable by any court, such provision shall be ineffective only to the extent that it is in contravention of applicable laws without invalidating the remaining provisions of the Agreement.
+
+Article 32.  Headings
+Headings used in this Agreement are provided for convenience only and shall not be used to construe meaning or intent.
+
+Article 33.  Authority to sign
+Each person signing this Agreement represents and warrants that he or she is duly authorized and has legal capacity to execute and deliver this Agreement. Each party represents and warrants to the other that the execution and delivery of this Agreement and the performance of such party's obligations have been duly authorized and that the Agreement is a valid and legal agreement binding on the party and enforceable according to its terms.
+
+Article 34.  Exhibits
+This Agreement has the following exhibits:
+     (a) EXHIBIT A: Terms and Conditions Relating to Third-Party Products and Libraries.
+This Agreement may be in any number of counterparts, each of which will be deemed an original, but all of which together will constitute one instrument.
+
+EXHIBIT A: TERMS AND CONDITIONS RELATING TO THIRD-PARTY PRODUCTS AND LIBRARIES
+Ontotext uses the following third-party technologies within the PRODUCTS, as part of their proper functionality and integration:
+- Apache Commons, URL: https://commons.apache.org/, License: Apache 2.0;
+- Apache Lucene, URL: http://lucene.apache.org, License: Apache 2.0;
+- ConcurrentLinkedHashMap, URL: https://github.com/ben-manes/concurrentlinkedhashmap, License: Apache 2.0;
+- Dropwizard, URL: http://www.dropwizard.io, License: Apache 2.0;
+- Elasticseach, URL: https://www.elastic.co/, License: Apache 2.0;
+- Guava, URL: https://github.com/google/guava, License: Apache 2.0;
+- Jackson, URL: https://github.com/FasterXML/jackson, License: Apache 2.0;
+- Janino, URL: http://janino-compiler.github.io/janino/, License: BSD-like License;
+- JSON-LD, URL: http://json-ld.org/, License: MIT License;
+- MapDB, URL: http://www.mapdb.org/, License: Apache 2.0;
+- OW2 ASM, URL: http://asm.ow2.org/, License: BSD-like License;
+- RDF4J, URL: http://rdf4j.org, License: Eclipse EDL v1.0;
+- Snappy, URL: https://github.com/google/snappy, License: BSD-like License;
+- SOLR, URL: http://lucene.apache.org/solr/, License: Apache 2.0;
+- Spatial Index Library, URL: http://sourceforge.net/projects/spatialindexlib/, License: LGPL v2.1;
+- Spatial Index RTree Library, URL: http://jsi.sourceforge.net/, License: GPL v2.1;
+- Trove, URL: http://trove.starlight-systems.com/home, License: LGPL v2.1;
+
+        |  

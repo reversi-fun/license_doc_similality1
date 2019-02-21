@@ -1,0 +1,5 @@
+SIP is available under the following licenses.
+
+SIP License. This is very similar to the Python Software Foundation license used for Python itself.
+GNU General Public License v2
+GNU General Public License v3

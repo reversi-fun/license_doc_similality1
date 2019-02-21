@@ -1,0 +1,397 @@
+﻿Standard License Agreement 9.0
+This License Agreement sets forth the terms and conditions governing purchases and use of Software owned
+and delivered by Highsoft AS.
+By installing or using the Software, Licensee agrees to be bound by this Agreement, unless Licensee is using
+the Software for authorized non-commercial purposes.
+If Licensee does not agree to this Agreement, Licensee is not allowed to install or use any Software made
+available through the Highsoft Website.
+2 / 11 Highsoft Standard License Agreement 9.0
+1 Definitions
+Agreement shall mean this document, its appendices and the License Statement;
+Affiliate shall mean any entity that directly, or indirectly controls, is controlled by, or is under common control
+with the subject entity. “Control”, for purposes of this definition, means direct, or indirect ownership, or control
+of more than 50% of the voting interests of the subject;
+Confidential Information shall mean any and all written, verbal, or demonstrated information provided by
+one Party to the other in connection with this Agreement; Confidential information shall include, without
+limitation, information relating to technologies, finances, marketing and legal affairs which relate in any manner
+to a Party’s actual, or anticipated business whether obtained in tangible or intangible form, including oral or
+visual;
+Content Creator shall mean any person that is not a Developer who is working with a product that use the
+Software through an abstract interface (e.g Highcharts Editor) to create and/or modify charts including but not
+limited to choosing data, modifying labels or style;
+Customer Installation shall mean any distribution of the Software as an integral part of a Licensee Product
+installed or to be installed on a server owned and/or operated by a Licensee customer pursuant to an OEM
+license granted in accordance with section 3.4 below;
+Customer Installation with Developer Rights shall mean any distribution of the Software, as an integral part
+of a Licensee Product installed or to be installed on a server owned and/or operated by a Licensee customer,
+that allows the Licensee customer to customize Software for Licensee customer’s own purposes, pursuant to
+an OEM license with Developer Rights granted in accordance with section 3.4 below;
+Delivery Date shall mean the date Licensee is invoiced by Highsoft for the applicable Software;
+Developer shall mean any person who will be working with the API and/or source code in any capacity
+including, but not limited to, developers, designers and testers who make use of the Software in the planning,
+development, production and maintenance phases. The number of Developers authorized to work with the
+Software is stated in the License Statement;
+Highsoft shall mean Highsoft AS, a Norwegian corporation with organization no. NO996840506MVA;
+Highsoft Website shall mean www.highcharts.com;
+iOS Wrapper shall mean a wrapper for the Software developed and Licensed by Highsoft:
+License shall mean the right to use the Software granted to Licensee by Highsoft through this Agreement, in
+the form of a High-Five License, Developer License, OEM License, Licensee must choose one license type
+prior to entering into this Agreement. The usage rights granted under each of the above mentioned license
+types, are set out in section 3 of this Agreement; 
+3 / 11 Highsoft Standard License Agreement 9.0
+License and Support Fee shall mean the fee payable by Licensee to Highsoft for the right to use Software
+and/or Premium Support respectively in accordance with the License;
+Licensee shall mean the legal entity to which License has been granted;
+Licensee Product shall mean any proprietary software product, application or other software solution,
+marketed by Licensee, in which Software has been incorporated pursuant to an OEM-license or other valid
+authorization from Highsoft, and which Licensee thereby is authorized to make available to its own customers,
+or use for Licensee’s internal purposes. Licensee Products shall be listed in the License Statement;
+License Statement shall mean a document confirming purchase to be sent to Licensee by Highsoft; which
+states what License has been purchased, what Software and what Major Release has been purchased, and
+if applicable, also for what Licensee Products the Software can be used;
+Major Release shall mean any release of substantial news and improvements, possibly redesign, and
+refactoring of the API. Such improvements may typically include modifications to the given Software which
+increase the efficiency, ease of use of the Software, and/or add additional capabilities or functionality to the
+Software. Such release is marked by a new number in the first position of the version number, e.g. from 2.0.
+to 3.0. To gain access to Major Releases, Licensee must purchase a Version Upgrade, in accordance with
+section 3.5;
+Minor Release shall mean any release of minor news, and bug fixes. Such a release is marked by a new
+number in the second position of the version number, e.g. from 3.0 to 3.1. Licensee will have access to such
+release without additional cost for any Major Release to which Licensee owns a valid License;
+Party shall mean a party to this Agreement;
+Software shall mean the software owned by Highsoft licensed to Licensee as a particular Major Release,
+including Minor Releases to that Major Release, and consisting of one or more of the following products:
+Highcharts JS, Highstock JS, Highmaps JS and/or Highcharts .NET as stated in the License Statement;
+Third Party shall mean any other party than the Parties, including but not limited to Licensee customers;
+Version Upgrade shall mean the right to use the Major Release subsequent to the commencement of this
+Agreement, as further set forth in subsection 3.5.
+2 Ownership and Copyright
+The Software is the property of Highsoft, and is protected by copyright law as well as other statutory and nonstatutory intellectual property law. Highsoft product names are owned by Highsoft and protected under trademark
+law as registered trademarks.
+All title and copyrights in and to Software, trademarks and the accompanying materials and rights are and shall
+remain owned fully and solely by Highsoft.
+Through this Agreement, Software is licensed, not sold. 
+4 / 11 Highsoft Standard License Agreement 9.0
+3 Grant of License
+Subject to the terms and conditions of this Agreement and upon Licensee's full payment of the applicable fees,
+Highsoft grants Licensee the right to use the particular Major Release of the Software within the scope of the
+granted License type as described below.
+The License is registered in Licensee's name, commences on Delivery Date and is effective until terminated
+in accordance with the terms and conditions set forth in this Agreement.
+When entering into this License Agreement, Licensee must choose one of the License types described in this
+section. Each License type grants Licensee a specific set of usage-rights to Software, as described
+respectively in section 3.2, 3.3 and 3.4 below.
+Depending on the purchased License type, sections 3.2 –3.6 below shall apply. Sections 3.1 and 3.5 are
+applicable for all License types and shall hence apply regardless of the chosen License type. The License
+type chosen by Licensee shall be stated in License Statement.
+3.1 General Grants and Limitations
+The determination of which License type will be suitable for Licensee will depend on factors, such as e.g. the
+number of developers, the manner of deployment of Licensee Products, the number of installations, etc.
+Licensee may seek advice on the suitable License type directly from Highsoft. In such case, Highsoft will use
+to its best effort to suggest a suitable License type based on the information provided by Licensee. Licensee
+guarantees that all information provided to be complete and true. Highsoft provides no guarantees as to the
+suitability of the chosen License type and disclaims all liability related to the choice made by Licensee.
+Licensee shall be allowed to deploy all subsequent Minor Releases of the licensed Software. Major releases
+are however only available by purchasing Version Upgrade as set forth in section 3.5 below.
+Included in the purchase of any License, Licensee is entitled to:
+Make full use of Highsoft’s online support forum as set forth on Highsoft’s Website,
+Access to 1st line support, with a guaranteed response no later than 36 hours on working days, Central
+European Time (CET) after the request was received.
+Licensee may obtain Software source code by downloading the source code from Highsoft Website, and make
+own edits, and keep its own repositories with the modified source code.
+Licensee undertakes not to use Software as part of any offerings comprising functionality that is substantially
+similar to that of Software or any other products that Highsoft is offering, during the term of this Agreement,
+and for a period of three (3) years after termination. Nothing in this Agreement shall, however, be construed
+to preclude either Party from developing, using, marketing, licensing and/or selling independently software 
+5 / 11 Highsoft Standard License Agreement 9.0
+which has the same or similar functionality as Software or any other products, as long as such activities do
+not infringe the intellectual property rights of the other Party.
+Highsoft reserves all rights not expressly granted to Licensee in this Agreement. Without limiting the generality
+of the foregoing, Licensee acknowledges and agrees that: (a) except as specifically set forth in this Agreement,
+Highsoft retains all right, title and interest in and to Software, and Licensee does not acquire any right, title or
+interest to Software except as set forth herein; (b) any configuration or deployment of Software shall not affect
+or diminish Highsoft’s rights, title or interest in and to Software. Except as stated in the foregoing subsection,
+nothing in this Agreement shall limit in any way Highsoft’s right to develop, use, license, create derivative
+works of, or otherwise exploit Software, or to permit Third Parties to do so.
+Licensee shall not modify, delete or obscure any notices of proprietary rights or any Software identification or
+restrictions on or in Software found in the license-header of the code files.
+3.2 High-Five License
+A High-Five License is only available for start-up companies at the pre-revenue and/or pre-financing stage.
+Only companies fulfilling the abovementioned conditions are eligible to use Software or iOS Wrapper based
+on the High-Five License. Highsoft may at its sole discretion decide whether such conditions are fulfilled or
+not.
+Through a High-Five License, Highsoft grants Licensee a non-exclusive, perpetual (for applicable Major
+Release), non-sublicensable, non-reusable, worldwide right to install, reproduce, use and further develop the
+Software as described in subsection 3.3 ‘Developer License’ or iOS Wrapper as described in subsection 3.6
+below, with the following exceptions:
+The License is limited to a maximum of two (2) Developers,
+The License is valid for one (1) year from Delivery Date, and includes any Major Release available within that
+time period,
+Upon expiration of the High-Five License, in order to continue the use of the Software or iOS Wrapper,
+Licensee shall be obliged to purchase a License as described in subsections 3.3, 3.4 or 3.6 below.
+If any item in this Agreement contradicts this subsection 3.2, the wording in this subsection shall prevail.
+3.3 Developer License
+Through a Developer License, Highsoft grants Licensee a non-exclusive, perpetual (for applicable Major
+Release), non-sublicensable, non-reusable, worldwide right to install, reproduce, use and further develop
+Software:
+on any computer, platform, system and/or environment;
+on any website, domain, web application, or intranet; or 
+6 / 11 Highsoft Standard License Agreement 9.0
+in any SaaS;
+controlled or owned by Licensee.
+The number of Developers must not exceed the total number of Developers stated in License Statement.
+A Developer License does not authorize Licensee to carry out Customer Installations. All Customer
+Installations made by a Licensee holding a Developer License are therefore unauthorized and invalid.
+Each developer license includes 5 Content Creators by default unless otherwise expressly agreed to in writing
+by Parties, and further set forth in the License Statement.
+Licensee and its Affiliates are under no circumstances authorized to transfer, rent, lease, lend, sell, copy,
+redistribute, or sublicense any Software, by itself or with other software, or in any other way make Software
+available to any Third Party. Any attempt to do so is considered a material breach of this Agreement.
+3.4 OEM License
+Throughan OEM License, Highsoft grants Licensee a non-exclusive, perpetual (for applicable Major Release),
+sublicensable, non-reusable, worldwide right to install, reproduce, use and further develop Software as an
+integral part of a Licensee Product, provided that such Licensee Product be supplied to Third Party through
+either a Customer Installation, a Customer Installation with Developer Rights and/or with Content Creator
+Rights, dependent on Licensee’s choice as specified in License Statement.
+Sublicensing of Software is only allowed when incorporated with Licensee Product supplied to Third Party in
+accordance with this Agreement.
+Software shall only be incorporated into such Licensee Products as specified in the License Statement.
+Licensee is prohibited from reselling any Licensee Product in any manner that will infringe this License
+Agreement. Licensee is prohibited from granting its customers permission to use the Software in a manner
+that contradicts the terms of this Agreement.
+Highsoft acknowledges and agrees that (i) Licensee retains all rights, title and interest in and to any Licensee
+Product, and Highsoft does not acquire any right, title, or interest in or to such product; and (ii) any integration
+of Software with Licensee Product shall not affect or diminish Licensee’s rights, title, and interest in and to
+such Licensee Product.
+3.5 Version Upgrades
+In order to gain access to and rights to use a new Major Release of the Software, Licensee must purchase a
+Version Upgrade.
+Highsoft may, at its sole discretion, at any time choose to discontinue the offering of Version Upgrades and
+the supply of new Major Releases. 
+7 / 11 Highsoft Standard License Agreement 9.0
+In order to purchase a Version Upgrade, Licensee must own a valid License to the previous Major Release of
+the Software (e.g. in order to purchase Version Upgrade to 5.0, Licensee must own a valid License to
+4.0). Licensee holding a License authorizing to use a Major Release older than the previous Major Release
+must thus purchase a new License (not just a Version Upgrade) in order to access the new Major Release.
+Once Licensee purchases a Version Upgrade, Licensee is authorized to use all Minor Releases to the Major
+Release to which Licensee holds a valid license.
+3.6 iOS Wrapper License
+Through an iOS Wrapper License, Highsoft grants Licensee a non-exclusive, perpetual (for applicable Major
+Release), non-sublicensable, non-reusable, worldwide right to install, reproduce, use and further develop iOS
+Wrapper for a given number of iOS platform controlled or owned by Licensee.
+For avoidance of doubt, the iOS Wrapper License does not give Licensee the right to use the Software.
+The number of Developers and the number of applications allowed must not exceed the total number stated
+in License Statement.
+Licensee and its Affiliates are under no circumstances authorized to transfer, rent, lease, lend, sell, copy,
+redistribute, or sublicense any Software or iOS Wrapper, by itself or with other software, or in any other way
+make Software or iOS Wrapper available to any Third Party. Any attempt to do so is considered a material
+breach of this Agreement.
+4 Premium Support
+A Premium Support agreement is entered for a period of twelve (12) months from Delivery Date and is
+independent of the current Major Release.
+Technical support will be executed during normal business hours, Central European time (CET).
+If Licensee purchase Premium Support from Highsoft, Highsoft shall provide the following during the term of
+Premium Support:
+Ten (10) hours of personalized technical support per Developer,
+Technical support by e-mail, and online chat as specified on Highsoft’s website,
+Priority response, no later than 24 hours on working days, CET after the request was received,
+Access to 2nd line support by core developers,
+Text chat with 1st line support engineers, working days 10-18 CET(CEST),
+Investigation of any claimed bug/error/malfunction/nonfunctioning of Software, and when possible suggest
+corrective- or work-around solutions to the problems,
+8 / 11 Highsoft Standard License Agreement 9.0
+Supply emergency hot fixes to Software. This will be available as patches to the latest stable source code,
+and, if applicable, be included in the subsequent Minor Release,
+Provide guidance and advice on implementing Software with any Third Party systems and platforms where
+such implementation is allowed under this Agreement. This includes advice on best practices, code review
+and guidance on parts of the code that are directly related to using Software. The guidance and advice from
+Highsoft will not include general usage of the Third Party system, platform or actual coding work.
+Any bug and error fixing, malfunctioning of Software are to be delivered outside the personalized technical
+support hours. Any unused hours will be cancelled when Licensee purchase a Version Upgrade, Licensee
+must then enter into new Premium Support term to further receive Premium Support. Highsoft will provide
+support for the foregoing Major Release of Software for one (1) year after release of new Major Release.
+Premium Support does not cover issues arising in connection with implementation of Software to Licensee
+own products.
+Premium Support as set forth in this section, shall not extend to Third Parties to which Licensee distributes
+Licensee Product containing Software or any part thereof. Support to Licensee’s customers shall hence be
+Licensee’s full and sole responsibility.
+5 License and Support Fee
+Licensee shall pay the agreed License and Support Fee for the purchaseof Software and/or Premium Support.
+Highsoft shall invoice Licensee and Licensee shall pay all invoices by the agreed payment method timely,
+which shall be no later than 30 days from invoice date. In case of payment delay, Highsoft may claim late
+payment interest.
+Each Party is responsible to pay any bank charges and/or local taxes imposed by law of Party's home country
+related to the purchase of ordered Items. Invoices from Highsoft do not include taxes, except VAT in the case
+of Norwegian customers. Licensee cannot withhold any part of the invoiced amount as payment of taxes.
+Licenses and all the accompanying rights are granted to Licensee on the condition that all the due fees are
+paid to Highsoft in full and on time.
+6 Delivery
+During the term of this Agreement, Software shall be made available by Highsoft and Licensee shall be
+authorized to download Software from Highsoft Website. As set forth in sections 3.5 above, new Major
+Releases of Software are not available to Licensee without additional purchase of the corresponding Version
+Upgrade. 
+9 / 11 Highsoft Standard License Agreement 9.0
+7 Marketing
+Licensee may use Licensee’s own descriptions of the functionality provided by Software for the purposes of
+marketing Licensee Products insofar as the descriptions are not misleading.
+Licensee shall not do anything that might misrepresent the ownership of Software. Licensee undertakes not
+to brand Software as Licensee’s own or declare or give the impression that Licensee owns the copyright in
+Software.
+Licensee may use Highsoft name and logos in its marketing, promotion and website, as is reasonably
+necessary in order to describe and promote Highsoft Software.
+Licensee agrees to conduct its business with the highest standards and will do nothing to injure Highsoft’s
+reputation.
+8 Warranties and representation
+8.1 Scope
+Highsoft's warranties and representations in this section 9 are limited to Software provided to Licensee under
+this Agreement, and warranties and representations shall under no circumstances be deemed to cover the
+Map Collection, which is made available to Licensee by Highsoft.
+8.2 Highsoft's warranties and representations
+Highsoft warrants and represents that:
+For a period of ninety (90) days following Delivery Date of Software, Software will perform substantially in
+accordance with Highsoft’s written specifications, provided that it has been used in accordance with all
+documentation and specifications made available on Highsoft's Website,
+Highsoft will perform its obligations under this Agreement in accordance with all applicable laws and
+regulations,
+Highsoft has the full and unconditional ownership of Software,
+This Agreement does not infringe intellectual property rights of any Third Party,
+The Software does not include any Third Party software,
+Licensee may make full use of License granted to it in full knowledge of the above,
+Highsoft has the requisite knowledge, personnel, resources and know-how to fully perform and deliver
+Software and associated services as contemplated by this Agreement in a professional manner,
+Highsoft has not intentionally placed, and will use its best efforts to avoid the placement of any Harmful Codes
+into Software provided under this Agreement. For the purpose of this section 8.2 "Harmful Codes" is defined 
+10 / 11 Highsoft Standard License Agreement 9.0
+as any program that infects, damages and/or impairs another program or data, disables hardware or software,
+or permits or assists in the breach of data.
+8.3 Licensee's remedies
+In the event of breach, or alleged breach of any of the warranties in section 8.2, Licensee shall promptly notify
+Highsoft and delete Software. Licensee’s sole remedy in such an event shall be that Highsoft shall re-supply
+or correct the Software so that it operates according to the warranties set out in section 8.2. The warranties
+shall not apply if Licensee has modified, or used Software improperly, or on an operating environment not
+approved by Highsoft. Improper use and unapproved operating environments will be as set forth in the
+documentation provided to Licensee on or prior to Delivery Date.
+9 Limitation of Liability
+All Software and support services supplied by Highsoft are provided ‘as is’ and may have errors and omissions.
+Thus remedies are only available to Licensee in the event of any breach of the warranties set out in section
+8.
+UNDER NO CIRCUMSTANCES, AND EVEN IF INFORMED THEREOF BY LICENSEE OR ANY OTHER
+PARTY, SHALL HIGHSOFT BE LIABLE FOR (i) LOSS OF, OR DAMAGE TO, DATA; (ii) SPECIAL,
+INCIDENTAL, CONSEQUENTIAL OR INDIRECT DAMAGES; OR (iii) LOST PROFITS, BUSINESS,
+REVENUE, GOODWILL, OR ANTICIPATED SAVINGS.
+In all events, Highsoft’s liability for damages to Licensee for any cause whatsoever related to this Agreement,
+shall be limited to License Fee paid or due by Licensee for a twelve (12) month period under this Agreement.
+10 Intellectual Property Infringement
+Highsoft will defend, indemnify and hold Licensee harmless against any claim stating that Software is violating
+any Third Party copyright provided that:
+Licensee promptly notifies Highsoft of the claim, such notice to be provided no later than ten (10) business
+days after receipt of said claim(s),
+A hardcopy of the notices of copyright infringement is sent to:
+Highsoft AS, Sentrumsgata 44, 6893 Vik i Sogn, Norway,
+Licensee shall in good faith make commercially reasonable efforts to stop any claim made against Licensee
+by Third Party related to the Software,
+Notwithstanding subsection iii above, Highsoft shall have sole control of the defense and any related
+settlement negotiations in the case of legal proceedings,
+11 / 11 Highsoft Standard License Agreement 9.0
+Licensee timely provides Highsoft with all necessary assistance, information and authority to perform the
+above.
+If Software is held by a final court ruling to be infringing any Third Party intellectual property rights Highsoft
+will at its option: (i) obtain the right for Licensee to continue to use Software consistent with this Agreement;
+(ii) modify Software so that it is non-infringing; or solely in the event that (i) and (ii) are not feasible, (iii) refund
+any and all invoiced amounts to Licensee and all of Highsoft’s obligations under this Agreement shall terminate
+upon written notice.
+Notwithstanding the foregoing, Highsoft's indemnity obligations under this section 10 shall under any
+circumstances be limited to the total amount invoiced to Licensee by Highsoft under this Agreement during
+the last twelve (12) months prior to the day when Licensee provided notice to Highsoft of claim subject to this
+section 10.
+11 Confidentiality
+For the purpose of this section each Party shall be called Disclosing Party and Receiving Party respectively.
+Each Party acknowledges that Confidential Information is proprietary, that it is valuable to Disclosing Party
+and that any disclosure or unauthorized use thereof may cause irreparable harm and loss to Disclosing Party.
+Confidential Information shall not include information that (i) is generally known to the public at the time of
+disclosure; (ii) is legally received by Receiving Party from a Third Party, which Third Party is in rightful
+possession of Confidential Information, (iii) becomes generally known to the public subsequent to the time of
+such disclosure, but not as a result of disclosure by Receiving Party, or (iv) prior to signing of this Agreement,
+is already in the possession of Receiving Party.
+Obligations of receiving Party in regards to Confidential Information:
+In consideration of the disclosure to Receiving Party of Confidential Information, Receiving Party agrees to
+receive and to treat Confidential Information on a confidential and restricted basis and to undertake the
+following additional obligations with respect thereto,
+To use Confidential Information for the sole purpose of fulfilling this Agreement unless otherwise expressly
+agreed to in writing by Parties,
+Not to duplicate, in whole or in part, any Confidential Information,
+Not to disclose Confidential Information to its members, officers, employees, Affiliates, counsel or consultants
+except on a need-to-know basis, and each such person Receiving Confidential Information shall be notified
+of and required to abide by the terms and conditions of this Agreement,
+Not to disclose Confidential Information to any Third Party entity or individual, corporation, partnership, sole
+proprietorship, customer, advisor or client without the prior express written consent of Disclosing Party;
+This confidentiality section 11 shall survive any termination of the Agreement however occasioned.
+12 / 11 Highsoft Standard License Agreement 9.0
+12 Term and Termination
+Either Party may terminate this Agreement in the event of a material breach of this Agreement by the other
+Party.
+The termination of this Agreement shall not impair any license, sublicense or maintenance obligations already
+granted or undertaken by Licensee towards Third Party regarding Software as incorporated into Licensee
+Product pursuant to OEM-License. In such case, upon termination of this Agreement, Licensee may continue
+to exercise the rights granted hereunder to the extent necessary to fulfill Licensee’s existing contractual
+obligations towards such Third Party.
+On termination of this Agreement:
+i. Section 2, 9, 11 and 17 shall survive,
+ii. Licensee shall immediately cease use and distribution of Software,
+iii. Each Party must remove, delete or otherwise destroy any of other Party‘s material that it has received,
+copied or otherwise obtained, including but not limited to Confidential Information cf. section 11, except
+for information required to support any license, sublicense or maintenance obligations already granted or
+undertaken by Licensee towards any Third Party. A written confirmation that such deletion has been
+completed shall be sent to the other Party without undue delay.
+13 Relationship Between Parties
+Parties are independent contractors, and this Agreement will not be construed as constituting either Party as
+partner, joint venture, agency or fiduciary of the other, as creating any other form of legal association that
+would impose liability on one Party for the act, or failure to act, of the other, or as providing either Party with
+the right, power, or authority (express, or implied) to create any duty or obligation of the other. Neither Party
+shall directly or indirectly represent to the public that it has the right or the authority to create or accept
+obligations on behalf of the other Party. Except as otherwise expressly provided in this Agreement, each Party
+has the sole right and obligation to supervise, manage, contract, direct, procure, perform or cause to be
+performed all work to be performed by it under this Agreement.
+14 Severability
+In the event any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions
+of this Agreement will remain in full force.
+15 Waiver
+The waiver by either Highsoft, or Licensee of any default or breach of this Agreement shall not constitute a
+waiver of any other or subsequent default or breach. Except for actions for non-payment or breach of 
+13 / 11 Highsoft Standard License Agreement 9.0
+Highsoft’s intellectual proprietary rights in Software, no action, regardless of form, arising out of this Agreement
+may be brought by Licensee more than one (1) year after the cause of action has occurred.
+16 Non-assignment
+Licensee is not allowed to assign or transfer all, or any part of its rights under this Agreement without Highsoft’s
+prior written consent. Notwithstanding the foregoing, either Party may assign this Agreement in its entirety to
+its Affiliate(s), or in connection with a merger, acquisition, corporate reorganization, or sale of all or
+substantially all of its assets. In such case, Licensee shall notify Highsoft in writing without undue delay, and
+unless otherwise agreed upon in writing, this Agreement shall bind, and inure to the benefit of Parties, their
+respective successors, and permitted assigns.
+17 Applicable Law and Venue
+This Agreement shall be governed by and construed in accordance with the laws of Norway.
+Any dispute, controversy or claim arising out of or relating to this Agreement, or the breach, termination, or
+invalidity thereof, Parties shall seek to solve amicably through negotiations. If the Parties do not reach an
+amicable solution within two (2) weeks, any dispute, controversy or claim shall be finally settled by the regular
+courts of Norway. Both Parties hereby agree to and accept Sogn District Court (Sogn tingrett) as exclusive
+legal venue.
+18 Amendments
+No amendment to, or modification of this Agreement will be binding unless made in writing and signed by
+Parties. Parties agree that any additional or different terms in any other document or arrangement not forming
+part of this Agreement, including any letter or terms of engagement or the like, purchase order, invoice,
+acknowledgment, delivery receipt, confirmation or other delivery or acceptance document issued by or on
+behalf of Highsoft, or by or on behalf of Licensee at the request of Highsoft, shall be void, and of no force or
+effect if in breach with this Agreement.
+19 Entire Agreement
+This Agreement, is the entire agreement between Highsoft and Licensee relating to this relationship and
+supersedes all prior or contemporaneous oral or written communications, proposals and representations
+relating to that relationship.
+20 Notices
+All notices to be given under this Agreement to Highsoft shall be sent by email to sales@highsoft.com
+14 / 11 Highsoft Standard License Agreement 9.0
+Information from Highsoft to Licensee shall be sent by email to the email address Licensee has provided upon
+purchase. It is Licensee’ responsibility to ensure that the e-mail address is correct. Highsoft does not take
+responsibility for lost communication.
+All notices, demands or other communication given by a party to the other shall be deemed to have been duly
+given when made in writing and sent to the registered e-mail address.
+

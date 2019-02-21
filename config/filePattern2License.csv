@@ -1,461 +1,1293 @@
-identificationType,fileIdentifier,fileSize,projectsName,licenseName(s),similarity(s)
-pathSuffix,W3C DOCUMENT NOTICE AND LICENSE.dom-documentation.txt,4083,?----,Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,0.94523
-pathSuffix,W3C SOFTWARE NOTICE AND LICENSE.dom-software.txt,3595,?----,"spdx/W3C-19980720
-Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software","0.94479,
-0.94637"
-pathSuffix,cucumber-sandwich.jar#\asm-license.txt,1538,?--cucumber-sandwich.jar#--0,"spdx/BSD-3-Clause
-spdx/BSD-2-Clause
-Approved/cucumber-sandwich.jar#/asm-license","0.84524,
-0.82416,
-0.85184"
-pathSuffix,cucumber-sandwich.jar#\cglib-license.txt,11356,?--cucumber-sandwich.jar#--0,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE","0.92878,
-0.92812,
-0.92804"
-pathSuffix,cucumber-sandwich.jar#\hamcrest-license.txt,1481,?--cucumber-sandwich.jar#--0,"spdx/BSD-3-Clause
-spdx/BSD-2-Clause
-Approved/cucumber-sandwich.jar#/hamcrest-license","0.82556,
-0.80440,
-0.83723"
-pathSuffix,cucumber-sandwich.jar#\LICENSE,1080,?--cucumber-sandwich.jar#--0,"spdx/MIT
-spdx/MIT-0
-spdx/JSON","0.88125,
-0.87542,
-0.84700"
-pathSuffix,cucumber-sandwich.jar#\NOTICE,160,?--cucumber-sandwich.jar#--0,Approved/cucumber-sandwich.jar#/NOTICE,0.91562
-pathSuffix,cucumber-sandwich.jar#\objenesis-license.txt,1089,?--cucumber-sandwich.jar#--0,"spdx/MIT
-spdx/MIT-0
-Approved/cucumber-sandwich.jar#/objenesis-license","0.88916,
-0.87263,
-0.88897"
-pathSuffix,cucumber-sandwich.jar#\charts\codemirror.zip#\CodeMirror-2.33\LICENSE,1228,?--codemirror--,Approved/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,0.86256
-pathSuffix,cucumber-sandwich.jar#\licenses\extreme.indiana.edu.license.TXT,2239,?--cucumber-sandwich.jar#--0,Approved/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.TXT,0.91656
-pathSuffix,cucumber-sandwich.jar#\licenses\javolution.license.TXT,1431,?--cucumber-sandwich.jar#--0,"spdx/BSD-2-Clause
-Approved/cucumber-sandwich.jar#/licenses/javolution.license.TXT","0.81254,
-0.85202"
-pathSuffix,elasticsearch-6.2.3\LICENSE.txt,11358,?--elasticsearch---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE","0.92551,
-0.93020,
-0.92675"
-pathSuffix,elasticsearch-6.2.3\NOTICE.txt,191887,?--elasticsearch---6.2.3,Approved/elasticsearch-6.2.3/NOTICE,0.95606
-pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE","0.93793,
-0.93374,
-0.93334"
-pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-cli-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-cli---6.2.3,"Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE","0.93733,
-0.93556,
-0.93523"
-pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-core-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-core---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/META-INF/LICENSE","0.93068,
-0.93356,
-0.93279"
-pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-launchers-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-launchers---6.2.3,"Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE","0.93397,
-0.93283,
-0.93214"
-pathSuffix,elasticsearch-6.2.3\lib\HdrHistogram-2.1.9.jar#\META-INF\maven\org.hdrhistogram\HdrHistogram\pom.xml,9661,org.hdrhistogram--HdrHistogram--2.1.9,Approved/elasticsearch-6.2.3/lib/HdrHistogram-2.1.9.jar#/META-INF/maven/org.hdrhistogram/HdrHistogram/pom.xml,0.94114
-pathSuffix,elasticsearch-6.2.3\lib\hppc-0.7.1.jar#\META-INF\maven\com.carrotsearch\hppc\pom.xml,18205,com.carrotsearch--hppc--0.7.1,Approved/elasticsearch-6.2.3/lib/hppc-0.7.1.jar#/META-INF/maven/com.carrotsearch/hppc/pom.xml,0.97577
-pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\LICENSE,332,?--jackson-core---2.8.10,"Approved/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/LICENSE","0.86327,
-0.85252"
-pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\NOTICE,822,?--jackson-core---2.8.10,"Approved/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/NOTICE","0.93118,
-0.92651"
-pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.core\jackson-core\pom.xml,5417,com.fasterxml.jackson.core--jackson-core--2.8.10,Approved/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml,0.93868
-pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-cbor-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\pom.xml,2080,com.fasterxml.jackson.dataformat--jackson-dataformat-cbor--2.8.10,"Approved/elasticsearch-6.2.3/lib/jackson-dataformat-cbor-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/pom.xml
-Approved/elasticsearch-6.2.3/lib/jackson-dataformat-smile-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/pom.xml","0.94679,
-0.93600"
-pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-smile-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\pom.xml,1860,com.fasterxml.jackson.dataformat--jackson-dataformat-smile--2.8.10,"Approved/elasticsearch-6.2.3/lib/jackson-dataformat-smile-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/pom.xml
-Approved/elasticsearch-6.2.3/lib/jackson-dataformat-cbor-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/pom.xml","0.93649,
-0.90405"
-pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-yaml-2.8.10.jar#\META-INF\LICENSE,317,?--jackson-dataformat-yaml---2.8.10,Approved/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/LICENSE,0.88196
-pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-yaml-2.8.10.jar#\META-INF\NOTICE,825,?--jackson-dataformat-yaml---2.8.10,"Approved/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/NOTICE","0.93222,
-0.93128"
-pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-yaml-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.dataformat\jackson-dataformat-yaml\pom.xml,6166,com.fasterxml.jackson.dataformat--jackson-dataformat-yaml--2.8.10,Approved/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/pom.xml,0.94472
-pathSuffix,elasticsearch-6.2.3\lib\joda-time-2.9.9.jar#\META-INF\LICENSE.txt,11560,?--joda-time---2.9.9,"Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/LICENSE","0.94057,
-0.93959,
-0.93734"
-pathSuffix,elasticsearch-6.2.3\lib\joda-time-2.9.9.jar#\META-INF\maven\joda-time\joda-time\pom.xml,34627,joda-time--joda-time--2.9.9,Approved/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/maven/joda-time/joda-time/pom.xml,0.97898
-pathSuffix,elasticsearch-6.2.3\lib\jopt-simple-5.0.2.jar#\META-INF\maven\net.sf.jopt-simple\jopt-simple\pom.xml,13944,net.sf.jopt-simple--jopt-simple--5.0.2,Approved/elasticsearch-6.2.3/lib/jopt-simple-5.0.2.jar#/META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml,0.96030
-pathSuffix,elasticsearch-6.2.3\lib\jts-1.13.jar#\META-INF\maven\com.vividsolutions\jts\pom.xml,6329,com.vividsolutions--jts--1.13,Approved/elasticsearch-6.2.3/lib/jts-1.13.jar#/META-INF/maven/com.vividsolutions/jts/pom.xml,0.94157
-pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\LICENSE,11358,?--log4j-api---2.9.1,"Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/LICENSE","0.93749,
-0.93610,
-0.93535"
-pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\NOTICE,173,?--log4j-api---2.9.1,Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/NOTICE,0.84954
-pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\maven\org.apache.logging.log4j\log4j-api\pom.xml,12370,org.apache.logging.log4j--log4j-api--2.9.1,Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.xml,0.95641
-pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\LICENSE,11366,?--log4j-core---2.9.1,"Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE","0.92872,
-0.92868,
-0.92830"
-pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\NOTICE,217,?--log4j-core---2.9.1,Approved/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/NOTICE,0.87852
-pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\maven\org.apache.logging.log4j\log4j-core\pom.xml,20279,org.apache.logging.log4j--log4j-core--2.9.1,Approved/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/maven/org.apache.logging.log4j/log4j-core/pom.xml,0.97085
-pathSuffix,elasticsearch-6.2.3\lib\lucene-analyzers-common-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-analyzers-common---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE","0.94802,
-0.94800,
-0.94669"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-analyzers-common-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-analyzers-common---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE","0.96551,
-0.96488,
-0.96472"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-backward-codecs-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-backward-codecs---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/LICENSE","0.94782,
-0.94464,
-0.94396"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-backward-codecs-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-backward-codecs---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE","0.96175,
-0.96146,
-0.96097"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-core-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-core---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/LICENSE","0.94290,
-0.94067,
-0.94052"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-core-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-core---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE","0.96362,
-0.96317,
-0.96265"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-grouping-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-grouping---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE","0.94857,
-0.94762,
-0.94753"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-grouping-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-grouping---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE","0.96162,
-0.96161,
-0.95924"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-highlighter-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-highlighter---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-grouping-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/LICENSE","0.95278,
-0.95197,
-0.95177"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-highlighter-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-highlighter---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/NOTICE","0.96037,
-0.96013,
-0.95991"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-join-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-join---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE","0.94361,
-0.94344,
-0.94137"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-join-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-join---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE","0.95912,
-0.95864,
-0.95835"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-memory-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-memory---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE","0.94395,
-0.94241,
-0.94228"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-memory-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-memory---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE","0.96504,
-0.96319,
-0.96278"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-misc-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-misc---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE","0.95177,
-0.95171,
-0.95105"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-misc-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-misc---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE","0.96315,
-0.96275,
-0.96223"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-queries-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-queries---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/LICENSE","0.94067,
-0.93962,
-0.93944"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-queries-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-queries---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE","0.95206,
-0.95170,
-0.95063"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-queryparser-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-queryparser---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE","0.95702,
-0.95486,
-0.95390"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-queryparser-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-queryparser---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/NOTICE","0.96097,
-0.95998,
-0.95995"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-sandbox-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-sandbox---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/LICENSE","0.95543,
-0.95499,
-0.95396"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-sandbox-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-sandbox---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/NOTICE","0.96555,
-0.96479,
-0.96474"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/LICENSE","0.94862,
-0.94558,
-0.94522"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE","0.96481,
-0.96439,
-0.96278"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-extras-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial-extras---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE","0.94135,
-0.94015,
-0.93870"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-extras-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial-extras---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE","0.96453,
-0.96336,
-0.96256"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial3d-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial3d---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE","0.94790,
-0.94773,
-0.94769"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial3d-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial3d---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE","0.95821,
-0.95632,
-0.95622"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-suggest-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-suggest---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE","0.95886,
-0.95631,
-0.95601"
-pathSuffix,elasticsearch-6.2.3\lib\lucene-suggest-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-suggest---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE","0.95939,
-0.95911,
-0.95908"
-pathSuffix,elasticsearch-6.2.3\lib\plugin-classloader-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--plugin-classloader---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE","0.94028,
-0.94498,
-0.94340"
-pathSuffix,elasticsearch-6.2.3\lib\plugin-cli-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--plugin-cli---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/LICENSE
-Approved/cucumber-sandwich.jar#/cglib-license","0.92402,
-0.92477,
-0.92467"
-pathSuffix,elasticsearch-6.2.3\lib\securesm-1.2.jar#\META-INF\maven\org.elasticsearch\securesm\pom.xml,3477,org.elasticsearch--securesm--1.2,Approved/elasticsearch-6.2.3/lib/securesm-1.2.jar#/META-INF/maven/org.elasticsearch/securesm/pom.xml,0.95209
-pathSuffix,elasticsearch-6.2.3\lib\snakeyaml-1.17.jar#\META-INF\maven\org.yaml\snakeyaml\pom.xml,28005,org.yaml--snakeyaml--1.17,Approved/elasticsearch-6.2.3/lib/snakeyaml-1.17.jar#/META-INF/maven/org.yaml/snakeyaml/pom.xml,0.96187
-pathSuffix,elasticsearch-6.2.3\lib\spatial4j-0.6.jar#\META-INF\maven\org.locationtech.spatial4j\spatial4j\pom.xml,13617,org.locationtech.spatial4j--spatial4j--0.6,Approved/elasticsearch-6.2.3/lib/spatial4j-0.6.jar#/META-INF/maven/org.locationtech.spatial4j/spatial4j/pom.xml,0.95481
-pathSuffix,elasticsearch-6.2.3\lib\t-digest-3.0.jar#\META-INF\maven\com.tdunning\t-digest\pom.xml,7384,com.tdunning--t-digest--3.0,Approved/elasticsearch-6.2.3/lib/t-digest-3.0.jar#/META-INF/maven/com.tdunning/t-digest/pom.xml,0.94522
-pathSuffix,elasticsearch-6.2.3\modules\aggs-matrix-stats\aggs-matrix-stats-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--aggs-matrix-stats---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/LICENSE","0.93686,
-0.94061,
-0.93738"
-pathSuffix,elasticsearch-6.2.3\modules\analysis-common\analysis-common-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--analysis-common---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/LICENSE","0.92577,
-0.93073,
-0.92669"
-pathSuffix,elasticsearch-6.2.3\modules\ingest-common\ingest-common-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--ingest-common---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE","0.92592,
-0.92821,
-0.92743"
-pathSuffix,elasticsearch-6.2.3\modules\ingest-common\jcodings-1.0.12.jar#\META-INF\maven\org.jruby.jcodings\jcodings\pom.xml,3411,org.jruby.jcodings--jcodings--1.0.12,Approved/elasticsearch-6.2.3/modules/ingest-common/jcodings-1.0.12.jar#/META-INF/maven/org.jruby.jcodings/jcodings/pom.xml,0.94124
-pathSuffix,elasticsearch-6.2.3\modules\ingest-common\joni-2.1.6.jar#\META-INF\maven\org.jruby.joni\joni\pom.xml,4414,org.jruby.joni--joni--2.1.6,Approved/elasticsearch-6.2.3/modules/ingest-common/joni-2.1.6.jar#/META-INF/maven/org.jruby.joni/joni/pom.xml,0.95162
-pathSuffix,elasticsearch-6.2.3\modules\lang-expression\antlr4-runtime-4.5.1-1.jar#\META-INF\maven\org.antlr\antlr4-runtime\pom.xml,2312,org.antlr--antlr4-runtime--4.5.1-1,"Approved/elasticsearch-6.2.3/modules/lang-expression/antlr4-runtime-4.5.1-1.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml
-Approved/elasticsearch-6.2.3/modules/lang-painless/antlr4-runtime-4.5.3.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml","0.94997,
-0.94929"
-pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lang-expression-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-expression---6.2.3,"Approved/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE","0.93022,
-0.92890,
-0.92747"
-pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lucene-expressions-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-expressions---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE","0.94783,
-0.94759,
-0.94746"
-pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lucene-expressions-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-expressions---7.2.1,"Approved/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE","0.96346,
-0.96288,
-0.96246"
-pathSuffix,elasticsearch-6.2.3\modules\lang-mustache\compiler-0.9.3.jar#\META-INF\maven\com.github.spullara.mustache.java\compiler\pom.xml,3710,com.github.spullara.mustache.java--compiler--0.9.3,Approved/elasticsearch-6.2.3/modules/lang-mustache/compiler-0.9.3.jar#/META-INF/maven/com.github.spullara.mustache.java/compiler/pom.xml,0.95076
-pathSuffix,elasticsearch-6.2.3\modules\lang-mustache\lang-mustache-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-mustache---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE","0.93022,
-0.93794,
-0.93726"
-pathSuffix,elasticsearch-6.2.3\modules\lang-painless\antlr4-runtime-4.5.3.jar#\META-INF\maven\org.antlr\antlr4-runtime\pom.xml,2310,org.antlr--antlr4-runtime--4.5.3,"Approved/elasticsearch-6.2.3/modules/lang-painless/antlr4-runtime-4.5.3.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml
-Approved/elasticsearch-6.2.3/modules/lang-expression/antlr4-runtime-4.5.1-1.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml","0.95394,
-0.95377"
-pathSuffix,elasticsearch-6.2.3\modules\lang-painless\elasticsearch-scripting-painless-spi-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-scripting-painless-spi---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE","0.93608,
-0.94036,
-0.93993"
-pathSuffix,elasticsearch-6.2.3\modules\lang-painless\lang-painless-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-painless---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/META-INF/LICENSE","0.93665,
-0.94170,
-0.93799"
-pathSuffix,elasticsearch-6.2.3\modules\mapper-extras\mapper-extras-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--mapper-extras---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/LICENSE","0.92220,
-0.92184,
-0.92177"
-pathSuffix,elasticsearch-6.2.3\modules\parent-join\parent-join-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--parent-join---6.2.3,"Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE","0.93414,
-0.93314,
-0.93090"
-pathSuffix,elasticsearch-6.2.3\modules\percolator\percolator-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--percolator---6.2.3,"Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/LICENSE","0.92377,
-0.92346,
-0.92296"
-pathSuffix,elasticsearch-6.2.3\modules\rank-eval\rank-eval-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--rank-eval---6.2.3,"Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/LICENSE","0.93236,
-0.93034,
-0.92963"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\LICENSE.txt,11560,?--commons-codec---1.10,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/LICENSE","0.92269,
-0.92529,
-0.92498"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\NOTICE.txt,749,?--commons-codec---1.10,Approved/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/NOTICE,0.88846
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\maven\commons-codec\commons-codec\pom.xml,11609,commons-codec--commons-codec--1.10,Approved/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/maven/commons-codec/commons-codec/pom.xml,0.96826
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\LICENSE.txt,11358,?--commons-logging---1.1.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE","0.92904,
-0.92952,
-0.92884"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\NOTICE.txt,177,?--commons-logging---1.1.3,"Approved/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/NOTICE","0.87397,
-0.84566,
-0.84043"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\maven\commons-logging\commons-logging\pom.xml,18353,commons-logging--commons-logging--1.1.3,Approved/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/maven/commons-logging/commons-logging/pom.xml,0.97642
-pathSuffix,elasticsearch-6.2.3\modules\reindex\elasticsearch-rest-client-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-rest-client---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/META-INF/LICENSE","0.93228,
-0.93088,
-0.92880"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\LICENSE,11358,?--httpasyncclient---4.1.2,"Approved/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE","0.93278,
-0.92966,
-0.92913"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\NOTICE,179,?--httpasyncclient---4.1.2,"Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/NOTICE","0.85970,
-0.85905,
-0.85311"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\maven\org.apache.httpcomponents\httpasyncclient\pom.xml,5270,org.apache.httpcomponents--httpasyncclient--4.1.2,"Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml","0.95226,
-0.92945,
-0.92475"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\LICENSE,11358,?--httpclient---4.5.2,"Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF/LICENSE","0.92916,
-0.92876,
-0.92837"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\NOTICE,174,?--httpclient---4.5.2,"Approved/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/NOTICE","0.85043,
-0.84893,
-0.84464"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\maven\org.apache.httpcomponents\httpclient\pom.xml,6393,org.apache.httpcomponents--httpclient--4.5.2,"Approved/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml","0.93440,
-0.91181"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\LICENSE,22994,?--httpcore---4.4.5,Approved/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/LICENSE,0.90700
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\NOTICE,308,?--httpcore---4.4.5,Approved/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/NOTICE,0.89736
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\maven\org.apache.httpcomponents\httpcore\pom.xml,5522,org.apache.httpcomponents--httpcore--4.4.5,"Approved/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml","0.95036,
-0.92704,
-0.92221"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\LICENSE,11358,?--httpcore-nio---4.4.5,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/META-INF/LICENSE","0.93140,
-0.92905,
-0.92766"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\NOTICE,176,?--httpcore-nio---4.4.5,"Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/NOTICE
-Approved/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/NOTICE","0.88256,
-0.88218,
-0.87923"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\maven\org.apache.httpcomponents\httpcore-nio\pom.xml,4915,org.apache.httpcomponents--httpcore-nio--4.4.5,"Approved/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml
-Approved/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml","0.95751,
-0.94549,
-0.93602"
-pathSuffix,elasticsearch-6.2.3\modules\reindex\reindex-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--reindex---6.2.3,"spdx/Apache-2.0
-Approved/cucumber-sandwich.jar#/cglib-license
-Approved/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE","0.92745,
+identificationType,fileIdentifier,fileSize,ArtifactId,similarity(s),licenseName(s),licenseURL(s),auther(s),relatedURL(s),name,description
+pathSuffix,cucumber-sandwich.jar#\asm-license.txt,1538,?--cucumber-sandwich.jar#--0,"0.83104,
+0.82062,
+0.84008",spdx/BSD-3-Clause,,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\cglib-license.txt,11356,?--cucumber-sandwich.jar#--0,"0.91279,
+0.91524,
+0.91482",spdx/Apache-2.0,,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\hamcrest-license.txt,1481,?--cucumber-sandwich.jar#--0,"0.85523,
+0.83822,
+0.84857",spdx/BSD-3-Clause,,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\LICENSE,1080,?--cucumber-sandwich.jar#--0,"0.88504,
+0.86132,
+0.89673",spdx/MIT,,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\NOTICE,160,?--cucumber-sandwich.jar#--0,"0.88489,
+0.87940","Approved/Apache-2.0 + BSD-3-Clause + MIT NOTICE
+research/cucumber-sandwich.jar#/NOTICE",,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\objenesis-license.txt,1089,?--cucumber-sandwich.jar#--0,"0.88708,
+0.85876,
+0.84995",spdx/MIT,,,,cucumber-sandwich.jar#
+pathSuffix,cucumber-sandwich.jar#\charts\codemirror.zip#\CodeMirror-2.33\LICENSE,1228,?--codemirror--,"0.88941,
+0.88737,
+0.88590","spdx/MIT
+research/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE",,,,codemirror
+pathSuffix,cucumber-sandwich.jar#\licenses\extreme.indiana.edu.license.TXT,2239,?--cucumber-sandwich.jar#--0,"0.90018,
+0.89821",Approved/Indiana University Extreme! Lab Software License,,,,cucumber-sandwich.jar#
+pathSuffix,elasticsearch-6.2.3\LICENSE.txt,11358,?--elasticsearch---6.2.3,"0.92357,
+0.92435,
+0.92212",spdx/Apache-2.0,,,,elasticsearch-
+pathSuffix,elasticsearch-6.2.3\NOTICE.txt,191887,?--elasticsearch---6.2.3,"0.94686,
+0.94816",Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,,,,elasticsearch-
+pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch---6.2.3,"0.92621,
+0.92953,
+0.92395",spdx/Apache-2.0,,,,elasticsearch-
+pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-cli-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-cli---6.2.3,"0.91578,
+0.91427,
+0.91966",spdx/Apache-2.0,,,,elasticsearch-cli-
+pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-core-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-core---6.2.3,"0.92461,
+0.92557,
+0.92476",spdx/Apache-2.0,,,,elasticsearch-core-
+pathSuffix,elasticsearch-6.2.3\lib\elasticsearch-launchers-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-launchers---6.2.3,"0.91592,
+0.91847,
+0.91766",spdx/Apache-2.0,,,,elasticsearch-launchers-
+pathSuffix,elasticsearch-6.2.3\lib\HdrHistogram-2.1.9.jar#\META-INF\maven\org.hdrhistogram\HdrHistogram\pom.xml,9661,org.hdrhistogram--HdrHistogram--2.1.9,1,spdx/CC0-1.0,http://creativecommons.org/publicdomain/zero/1.0/,"giltene
+Gil Tene",https://github.com/giltene,HdrHistogram,"
+        HdrHistogram supports the recording and analyzing sampled data value
+        counts across a configurable integer value range with configurable value
+        precision within the range. Value precision is expressed as the number of
+        significant digits in the value recording, and provides control over value
+        quantization behavior across the value range and the subsequent value
+        resolution at any given level.
+    "
+pathSuffix,elasticsearch-6.2.3\lib\hppc-0.7.1.jar#\META-INF\maven\com.carrotsearch\hppc\pom.xml,18205,com.carrotsearch--hppc--0.7.1,0,,,,,HPPC Collections,"High Performance Primitive Collections. 
+  Fundamental data structures (maps, sets, lists, stacks, queues) generated for
+  combinations of object and primitive types to conserve JVM memory and speed
+  up execution."
+pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\LICENSE,332,?--jackson-core---2.8.10,0.81314,research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/LICENSE,,,,jackson-core-
+pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\NOTICE,822,?--jackson-core---2.8.10,"0.92331,
+0.90605,
+0.92362","Approved/Apache-2.0 + OWN CREDITS NOTICE
+Approved/FasterXML_CREDITS_NOTICE",,,,jackson-core-
+pathSuffix,elasticsearch-6.2.3\lib\jackson-core-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.core\jackson-core\pom.xml,5417,com.fasterxml.jackson.core--jackson-core--2.8.10,0,,,,,Jackson-core,"Core Jackson abstractions, basic JSON streaming API implementation"
+pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-cbor-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\pom.xml,2080,com.fasterxml.jackson.dataformat--jackson-dataformat-cbor--2.8.10,0,,,,,Jackson dataformat: CBOR,"Support for reading and writing Concise Binary Object Representation
+([CBOR](https://www.rfc-editor.org/info/rfc7049)
+encoded data using Jackson abstractions (streaming API, data binding, tree model)
+  "
+pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-smile-2.8.10.jar#\META-INF\maven\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\pom.xml,1860,com.fasterxml.jackson.dataformat--jackson-dataformat-smile--2.8.10,0,,,,,Jackson dataformat: Smile,"Support for reading and writing Smile (""binary JSON"")
+encoded data using Jackson abstractions (streaming API, data binding,
+tree model)
+  "
+pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-yaml-2.8.10.jar#\META-INF\LICENSE,317,?--jackson-dataformat-yaml---2.8.10,"0.82856,
+0.81854,
+0.85485","Approved/Apache-2.0 licensed NOTICE
+research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/LICENSE",,,,jackson-dataformat-yaml-
+pathSuffix,elasticsearch-6.2.3\lib\jackson-dataformat-yaml-2.8.10.jar#\META-INF\NOTICE,825,?--jackson-dataformat-yaml---2.8.10,"0.91834,
+0.90472,
+0.91747","Approved/Apache-2.0 + OWN CREDITS NOTICE
+Approved/FasterXML_CREDITS_NOTICE",,,,jackson-dataformat-yaml-
+pathSuffix,elasticsearch-6.2.3\lib\joda-time-2.9.9.jar#\META-INF\LICENSE.txt,11560,?--joda-time---2.9.9,"0.92121,
+0.92077,
+0.91939",spdx/Apache-2.0,,,,joda-time-
+pathSuffix,elasticsearch-6.2.3\lib\joda-time-2.9.9.jar#\META-INF\maven\joda-time\joda-time\pom.xml,34627,joda-time--joda-time--2.9.9,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,"jodastephen
+Stephen Colebourne
+broneill
+Brian S O'Neill
+Joda.org
+Adrian Acala
+Afif Ahmed
+Guy Allard
+Oren Benjamin
+Fredrik Borgh
+Dave Brosius
+Dan Cavallaro
+Luc Claes
+Emiliano Claria
+Dan Cojocar
+Evgeniy Devyatykh
+dspitfire
+Christopher Elkins
+emopers
+Jeroen van Erp
+Gwyn Evans
+John Fletcher
+Sean Geoghegan
+Jim Gough
+Craig Gidney
+haguenau
+Kaj Hejer
+Rowan Hill
+LongHua Huang
+Brendan Humphreys
+Vsevolod Ivanov
+Ing. Jan Kalab
+Ashish Katyal
+Martin Kneissl
+Sebastian Kurten
+Fabian Lange
+Vidar Larsen
+Kasper Laudrup
+Jeff Lavallee
+Chung-yeol Lee
+Antonio Leitao
+Kostas Maistrelis
+mjunginger
+Al Major
+Pete Marsh
+Blair Martin
+Paul Martin
+Katy P
+Amling Palantir
+Julen Parra
+Jorge Perez
+Rok Piltaver
+Michael Plump
+Bjorn Pollex
+Ryan Propper
+Mike Schrag
+Hajime Senuma
+Kandarp Shah
+Francois Staes
+Grzegorz Swierczynski
+Jason Tedor
+trejkaz
+Ricardo Trindade
+Bram Van Dam
+Ed Wagstaff
+Can Yapan
+Maxim Zhao
+Alex","https://github.com/jodastephen
+https://github.com/broneill
+http://www.joda.org
+https://github.com/AdrianAcala
+https://github.com/a7i7
+https://github.com/oby1
+https://github.com/mebigfatguy
+https://github.com/dancavallaro
+https://github.com/lucclaes
+https://github.com/emilianogc
+https://github.com/dancojocar
+https://github.com/john9x
+https://github.com/dspitfire
+https://github.com/celkins
+https://github.com/emopers
+https://github.com/jpgough
+https://github.com/Strilanc
+https://github.com/haguenau
+https://github.com/kajh
+https://github.com/rowanhill
+https://github.com/longhua
+https://github.com/pandacalculus
+https://github.com/seva-ask
+https://github.com/Pitel
+https://github.com/mkneissl
+https://github.com/sebkur
+https://github.com/CodingFabian
+https://github.com/vlarsen
+https://github.com/jlavallee
+https://github.com/chungyeol
+https://github.com/mjunginger
+https://github.com/petedmarsh
+https://github.com/pgpx
+https://github.com/katyp
+https://github.com/AmlingPalantir
+https://github.com/jperezalv
+https://github.com/Rok-Piltaver
+https://github.com/bjoernpollex
+https://github.com/hajimes
+https://github.com/gswierczynski
+https://github.com/jasontedor
+https://github.com/trejkaz
+https://github.com/codematters
+https://github.com/edwag
+https://github.com/canyapan
+https://github.com/nyrk",Joda-Time,Date and time library to replace JDK date handling
+pathSuffix,elasticsearch-6.2.3\lib\jopt-simple-5.0.2.jar#\META-INF\maven\net.sf.jopt-simple\jopt-simple\pom.xml,13944,net.sf.jopt-simple--jopt-simple--5.0.2,1,spdx/MIT,http://www.opensource.org/licenses/mit-license.php,"pholser
+Paul Holser
+pholser@alumni.rice.edu",http://www.pholser.com,JOpt Simple,A Java library for parsing command line options
+pathSuffix,elasticsearch-6.2.3\lib\jts-1.13.jar#\META-INF\maven\com.vividsolutions\jts\pom.xml,6329,com.vividsolutions--jts--1.13,1,spdx/LGPL-2.1,http://www.gnu.org/copyleft/lesser.txt,"dr_jts
+Martin Davis
+Tsusiat Software",,JTS Topology Suite,"
+        The JTS Topology Suite is an API for modelling and
+        manipulating 2-dimensional linear geometry. It provides
+        numerous geometric predicates and functions. JTS
+        conforms to the Simple Features Specification for
+        SQL published by the Open GIS Consortium.
+    "
+pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\LICENSE,11358,?--log4j-api---2.9.1,"0.92298,
+0.92713,
+0.92600",spdx/Apache-2.0,,,,log4j-api-
+pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\NOTICE,173,?--log4j-api---2.9.1,"0.85673,
+0.85527,
+0.85448",Approved/Apache Software Foundation products NOTICE,,,,log4j-api-
+pathSuffix,elasticsearch-6.2.3\lib\log4j-api-2.9.1.jar#\META-INF\maven\org.apache.logging.log4j\log4j-api\pom.xml,12370,org.apache.logging.log4j--log4j-api--2.9.1,0,,,,,Apache Log4j API,The Apache Log4j API
+pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\LICENSE,11366,?--log4j-core---2.9.1,"0.93020,
 0.92659,
-0.92347"
-pathSuffix,elasticsearch-6.2.3\modules\repository-url\repository-url-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--repository-url---6.2.3,"Approved/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE","0.93041,
-0.92856,
-0.92854"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-buffer-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-buffer\pom.xml,1493,io.netty--netty-buffer--4.1.16.Final,"Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-buffer-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-buffer/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-resolver-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-resolver/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-transport-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-transport/pom.xml","0.92671,
-0.92385,
-0.91438"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-codec-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-codec\pom.xml,3169,io.netty--netty-codec--4.1.16.Final,"Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-codec/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-http-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-codec-http/pom.xml","0.94716,
-0.90739"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-codec-http-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-codec-http\pom.xml,1841,io.netty--netty-codec-http--4.1.16.Final,"Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-http-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-codec-http/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-buffer-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-buffer/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-transport-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-transport/pom.xml","0.94112,
-0.90785,
-0.89625"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-common-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-common\pom.xml,7533,io.netty--netty-common--4.1.16.Final,Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-common-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-common/pom.xml,0.95565
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-common-4.1.16.Final.jar#\META-INF\maven\org.jctools\jctools-core\pom.xml,4093,org.jctools--jctools-core--4.1.16.Final,Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-common-4.1.16.Final.jar#/META-INF/maven/org.jctools/jctools-core/pom.xml,0.95081
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-handler-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-handler\pom.xml,2919,io.netty--netty-handler--4.1.16.Final,Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-handler-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-handler/pom.xml,0.94672
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-resolver-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-resolver\pom.xml,1498,io.netty--netty-resolver--4.1.16.Final,"Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-resolver-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-resolver/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-transport-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-transport/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-buffer-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-buffer/pom.xml","0.90747,
-0.90328,
-0.88594"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-transport-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-transport\pom.xml,1669,io.netty--netty-transport--4.1.16.Final,"Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-transport-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-transport/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-resolver-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-resolver/pom.xml
-Approved/elasticsearch-6.2.3/modules/transport-netty4/netty-buffer-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-buffer/pom.xml","0.91862,
-0.89714,
-0.88973"
-pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\transport-netty4-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--transport-netty4---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE","0.92195,
-0.92892,
-0.92853"
-pathSuffix,elasticsearch-6.2.3\modules\tribe\tribe-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--tribe---6.2.3,"spdx/Apache-2.0
-Approved/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/META-INF/LICENSE
-Approved/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/META-INF/LICENSE","0.92803,
-0.93054,
-0.92900"
+0.92595",spdx/Apache-2.0,,,,log4j-core-
+pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\NOTICE,217,?--log4j-core---2.9.1,0.87786,research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/NOTICE,,,,log4j-core-
+pathSuffix,elasticsearch-6.2.3\lib\log4j-core-2.9.1.jar#\META-INF\maven\org.apache.logging.log4j\log4j-core\pom.xml,20279,org.apache.logging.log4j--log4j-core--2.9.1,0,,,,,Apache Log4j Core,The Apache Log4j Implementation
+pathSuffix,elasticsearch-6.2.3\lib\lucene-analyzers-common-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-analyzers-common---7.2.1,"0.93875,
+0.93802,
+0.93637",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-analyzers-common-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-analyzers-common-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-analyzers-common---7.2.1,"0.96361,
+0.96199,
+0.96132",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-analyzers-common-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-backward-codecs-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-backward-codecs---7.2.1,"0.94622,
+0.94535,
+0.94480",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-backward-codecs-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-backward-codecs-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-backward-codecs---7.2.1,"0.96033,
+0.96006,
+0.95858",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-backward-codecs-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-core-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-core---7.2.1,"0.93685,
+0.93615,
+0.93581",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-core-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-core-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-core---7.2.1,"0.95555,
+0.95494,
+0.95372",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-core-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-grouping-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-grouping---7.2.1,"0.93475,
+0.93271,
+0.93230",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-grouping-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-grouping-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-grouping---7.2.1,"0.96369,
+0.96320,
+0.96216",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-grouping-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-highlighter-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-highlighter---7.2.1,"0.93078,
+0.93014,
+0.92963",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-highlighter-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-highlighter-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-highlighter---7.2.1,"0.96617,
+0.96548,
+0.96490",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-highlighter-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-join-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-join---7.2.1,"0.93397,
+0.93385,
+0.93384",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-join-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-join-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-join---7.2.1,"0.95219,
+0.95208,
+0.95186",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-join-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-memory-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-memory---7.2.1,"0.94377,
+0.94347,
+0.94279",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-memory-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-memory-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-memory---7.2.1,"0.96152,
+0.96132,
+0.96068",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-memory-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-misc-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-misc---7.2.1,"0.94470,
+0.94284,
+0.94258",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-misc-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-misc-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-misc---7.2.1,"0.95279,
+0.95194,
+0.95093",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-misc-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-queries-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-queries---7.2.1,"0.94818,
+0.94793,
+0.94563",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-queries-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-queries-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-queries---7.2.1,"0.96329,
+0.96108,
+0.96102",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-queries-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-queryparser-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-queryparser---7.2.1,"0.93709,
+0.93702,
+0.93678",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-queryparser-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-queryparser-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-queryparser---7.2.1,"0.96016,
+0.95949,
+0.95882",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-queryparser-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-sandbox-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-sandbox---7.2.1,"0.93319,
+0.93270,
+0.93224",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-sandbox-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-sandbox-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-sandbox---7.2.1,"0.95504,
+0.95347,
+0.95279",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-sandbox-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial---7.2.1,"0.93743,
+0.93712,
+0.93679",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-spatial-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial---7.2.1,"0.95977,
+0.95957,
+0.95953",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-spatial-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-extras-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial-extras---7.2.1,"0.93640,
+0.93458,
+0.93435",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-spatial-extras-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial-extras-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial-extras---7.2.1,"0.95849,
+0.95697,
+0.95683",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-spatial-extras-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial3d-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-spatial3d---7.2.1,"0.94482,
+0.94426,
+0.94319",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-spatial3d-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-spatial3d-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-spatial3d---7.2.1,"0.94846,
+0.94840,
+0.94779",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-spatial3d-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-suggest-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-suggest---7.2.1,"0.93919,
+0.93901,
+0.93891",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-suggest-
+pathSuffix,elasticsearch-6.2.3\lib\lucene-suggest-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-suggest---7.2.1,"0.96316,
+0.96135,
+0.96098",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-suggest-
+pathSuffix,elasticsearch-6.2.3\lib\plugin-classloader-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--plugin-classloader---6.2.3,"0.92208,
+0.91927,
+0.92276",spdx/Apache-2.0,,,,plugin-classloader-
+pathSuffix,elasticsearch-6.2.3\lib\plugin-cli-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--plugin-cli---6.2.3,"0.92835,
+0.92791,
+0.93331",spdx/Apache-2.0,,,,plugin-cli-
+pathSuffix,elasticsearch-6.2.3\lib\securesm-1.2.jar#\META-INF\maven\org.elasticsearch\securesm\pom.xml,3477,org.elasticsearch--securesm--1.2,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,,,Elasticsearch SecureSM,SecurityManager implementation that works around design flaws in Java
+pathSuffix,elasticsearch-6.2.3\lib\snakeyaml-1.17.jar#\META-INF\maven\org.yaml\snakeyaml\pom.xml,28005,org.yaml--snakeyaml--1.17,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,"asomov
+Andrey Somov
+public.somov@gmail.com
+maslovalex
+Alexander Maslov
+alexander.maslov@gmail.com
+Jordan
+Jordan Angold
+jordanangold@gmail.com",,SnakeYAML,YAML 1.1 parser and emitter for Java
+pathSuffix,elasticsearch-6.2.3\lib\spatial4j-0.6.jar#\META-INF\maven\org.locationtech.spatial4j\spatial4j\pom.xml,13617,org.locationtech.spatial4j--spatial4j--0.6,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,LocationTech,http://www.locationtech.org/,Spatial4J,"
+    Spatial4j is a general purpose spatial / geospatial ASL licensed open-source Java library. It's
+    core capabilities are 3-fold: to provide common geospatially-aware shapes, to provide distance
+    calculations and other math, and to read shape formats like WKT and GeoJSON.
+  "
+pathSuffix,elasticsearch-6.2.3\lib\t-digest-3.0.jar#\META-INF\maven\com.tdunning\t-digest\pom.xml,7384,com.tdunning--t-digest--3.0,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,"tdunning
+Ted
+ted.dunning@gmail.com",https://github.com/tdunning/t-digest,T-Digest,Data structure which allows accurate estimation of quantiles and related rank statistics
+pathSuffix,elasticsearch-6.2.3\modules\aggs-matrix-stats\aggs-matrix-stats-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--aggs-matrix-stats---6.2.3,"0.92718,
+0.92685,
+0.92552",spdx/Apache-2.0,,,,aggs-matrix-stats-
+pathSuffix,elasticsearch-6.2.3\modules\analysis-common\analysis-common-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--analysis-common---6.2.3,"0.93303,
+0.92950,
+0.92827",spdx/Apache-2.0,,,,analysis-common-
+pathSuffix,elasticsearch-6.2.3\modules\ingest-common\ingest-common-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--ingest-common---6.2.3,"0.92337,
+0.92244,
+0.92108",spdx/Apache-2.0,,,,ingest-common-
+pathSuffix,elasticsearch-6.2.3\modules\ingest-common\jcodings-1.0.12.jar#\META-INF\maven\org.jruby.jcodings\jcodings\pom.xml,3411,org.jruby.jcodings--jcodings--1.0.12,1,spdx/MIT,http://www.opensource.org/licenses/mit-license.php,"lopex
+Marcin Mielzynski
+lopx@gazeta.pl",,JCodings,"
+    Byte based encoding support library for java
+  "
+pathSuffix,elasticsearch-6.2.3\modules\ingest-common\joni-2.1.6.jar#\META-INF\maven\org.jruby.joni\joni\pom.xml,4414,org.jruby.joni--joni--2.1.6,1,spdx/MIT,http://www.opensource.org/licenses/mit-license.php,"lopex
+Marcin Mielzynski
+lopx@gazeta.pl",,Joni,"
+    Java port of Oniguruma: http://www.geocities.jp/kosako3/oniguruma
+    that uses byte arrays directly instead of java Strings and chars
+  "
+pathSuffix,elasticsearch-6.2.3\modules\lang-expression\antlr4-runtime-4.5.1-1.jar#\META-INF\maven\org.antlr\antlr4-runtime\pom.xml,2312,org.antlr--antlr4-runtime--4.5.1-1,0,,,,,ANTLR 4 Runtime,The ANTLR 4 Runtime
+pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lang-expression-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-expression---6.2.3,"0.93613,
+0.93401,
+0.93378",spdx/Apache-2.0,,,,lang-expression-
+pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lucene-expressions-7.2.1.jar#\META-INF\LICENSE.txt,24570,?--lucene-expressions---7.2.1,"0.93853,
+0.93693,
+0.93682",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,,,,lucene-expressions-
+pathSuffix,elasticsearch-6.2.3\modules\lang-expression\lucene-expressions-7.2.1.jar#\META-INF\NOTICE.txt,9571,?--lucene-expressions---7.2.1,"0.96100,
+0.95976,
+0.95852",Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,,,,lucene-expressions-
+pathSuffix,elasticsearch-6.2.3\modules\lang-mustache\lang-mustache-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-mustache---6.2.3,"0.91140,
+0.91361,
+0.91351",spdx/Apache-2.0,,,,lang-mustache-
+pathSuffix,elasticsearch-6.2.3\modules\lang-painless\antlr4-runtime-4.5.3.jar#\META-INF\maven\org.antlr\antlr4-runtime\pom.xml,2310,org.antlr--antlr4-runtime--4.5.3,0,,,,,ANTLR 4 Runtime,The ANTLR 4 Runtime
+pathSuffix,elasticsearch-6.2.3\modules\lang-painless\elasticsearch-scripting-painless-spi-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-scripting-painless-spi---6.2.3,"0.90911,
+0.90626,
+0.90613",spdx/Apache-2.0,,,,elasticsearch-scripting-painless-spi-
+pathSuffix,elasticsearch-6.2.3\modules\lang-painless\lang-painless-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--lang-painless---6.2.3,"0.92553,
+0.93149,
+0.92959",spdx/Apache-2.0,,,,lang-painless-
+pathSuffix,elasticsearch-6.2.3\modules\mapper-extras\mapper-extras-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--mapper-extras---6.2.3,"0.93120,
+0.92795,
+0.92753",spdx/Apache-2.0,,,,mapper-extras-
+pathSuffix,elasticsearch-6.2.3\modules\parent-join\parent-join-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--parent-join---6.2.3,"0.93348,
+0.92951,
+0.92933",spdx/Apache-2.0,,,,parent-join-
+pathSuffix,elasticsearch-6.2.3\modules\percolator\percolator-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--percolator---6.2.3,"0.91478,
+0.91780,
+0.91630",spdx/Apache-2.0,,,,percolator-
+pathSuffix,elasticsearch-6.2.3\modules\rank-eval\rank-eval-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--rank-eval---6.2.3,"0.91795,
+0.92144,
+0.92055",spdx/Apache-2.0,,,,rank-eval-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\LICENSE.txt,11560,?--commons-codec---1.10,"0.91177,
+0.91277,
+0.91195",spdx/Apache-2.0,,,,commons-codec-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\NOTICE.txt,749,?--commons-codec---1.10,"0.91422,
+0.90937",research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/NOTICE,,,,commons-codec-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-codec-1.10.jar#\META-INF\maven\commons-codec\commons-codec\pom.xml,11609,commons-codec--commons-codec--1.10,0,,,"bayard
+Henri Yandell
+bayard@apache.org
+tobrien
+Tim OBrien
+tobrien@apache.org
+sanders
+Scott Sanders
+sanders@totalsync.com
+rwaldhoff
+Rodney Waldhoff
+rwaldhoff@apache.org
+dlr
+Daniel Rall
+dlr@finemaltcoding.com
+jon
+Jon S. Stevens
+jon@collab.net
+ggregory
+Gary Gregory
+ggregory@apache.org
+dgraham
+David Graham
+dgraham@apache.org
+julius
+Julius Davies
+julius@apache.org
+tn
+Thomas Neidhart
+tn@apache.org
+Christopher O'Brien
+siege@preoccupied.net
+Martin Redington
+Jeffery Dever
+Steve Zimmermann
+steve.zimmermann@heii.com
+Benjamin Walstrum
+ben@walstrum.com
+Oleg Kalnichevski
+oleg@ural.ru
+Dave Dribin
+apache@dave.dribin.org
+Alex Karasulu
+aok123 at bellsouth.net
+Matthew Inger
+mattinger at yahoo.com
+Jochen Wiedmann
+jochen@apache.org
+Sebastian Bazley
+sebb@apache.org
+Matthew Pocock
+turingatemyhamster@gmail.com
+Colm Rice
+colm_rice at hotmail dot com",http://www.garygregory.com,Apache Commons Codec,"
+     The Apache Commons Codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.
+  "
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\LICENSE.txt,11358,?--commons-logging---1.1.3,"0.93542,
+0.93271,
+0.93010",spdx/Apache-2.0,,,,commons-logging-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\NOTICE.txt,177,?--commons-logging---1.1.3,"0.80109,
+0.79927,
+0.79886",Approved/Apache Software Foundation products NOTICE,,,,commons-logging-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\commons-logging-1.1.3.jar#\META-INF\maven\commons-logging\commons-logging\pom.xml,18353,commons-logging--commons-logging--1.1.3,0,,,"baliuka
+Juozas Baliuka
+baliuka@apache.org
+morgand
+Morgan Delagrange
+morgand@apache.org
+Apache
+donaldp
+Peter Donald
+donaldp@apache.org
+rdonkin
+Robert Burrell Donkin
+rdonkin@apache.org
+The Apache Software Foundation
+skitching
+Simon Kitching
+skitching@apache.org
+The Apache Software Foundation
+dennisl
+Dennis Lundberg
+dennisl@apache.org
+The Apache Software Foundation
+costin
+Costin Manolache
+costin@apache.org
+The Apache Software Foundation
+craigmcc
+Craig McClanahan
+craigmcc@apache.org
+The Apache Software Foundation
+tn
+Thomas Neidhart
+tn@apache.org
+The Apache Software Foundation
+sanders
+Scott Sanders
+sanders@apache.org
+The Apache Software Foundation
+rsitze
+Richard Sitze
+rsitze@apache.org
+The Apache Software Foundation
+bstansberry
+Brian Stansberry
+rwaldhoff
+Rodney Waldhoff
+rwaldhoff@apache.org
+The Apache Software Foundation
+Matthew P. Del Buono
+Vince Eagen
+vince256 at comcast dot net
+Peter Lawrey
+Berin Loritsch
+bloritsch at apache dot org
+Philippe Mouawad
+Neeme Praks
+neeme at apache dot org",,Commons Logging,"Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems."
+pathSuffix,elasticsearch-6.2.3\modules\reindex\elasticsearch-rest-client-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--elasticsearch-rest-client---6.2.3,"0.92053,
+0.92236,
+0.92089",spdx/Apache-2.0,,,,elasticsearch-rest-client-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\LICENSE,11358,?--httpasyncclient---4.1.2,"0.92665,
+0.92283,
+0.92194",spdx/Apache-2.0,,,,httpasyncclient-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\NOTICE,179,?--httpasyncclient---4.1.2,"0.86173,
+0.86109,
+0.85832",Approved/Apache Software Foundation products NOTICE,,,,httpasyncclient-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpasyncclient-4.1.2.jar#\META-INF\maven\org.apache.httpcomponents\httpasyncclient\pom.xml,5270,org.apache.httpcomponents--httpasyncclient--4.1.2,0,,,,,Apache HttpAsyncClient,"
+   Apache HttpComponents AsyncClient
+  "
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\LICENSE,11358,?--httpclient---4.5.2,"0.89983,
+0.90206,
+0.90105",spdx/Apache-2.0,,,,httpclient-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\NOTICE,174,?--httpclient---4.5.2,"0.85830,
+0.85694,
+0.85694",Approved/Apache Software Foundation products NOTICE,,,,httpclient-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpclient-4.5.2.jar#\META-INF\maven\org.apache.httpcomponents\httpclient\pom.xml,6393,org.apache.httpcomponents--httpclient--4.5.2,0,,,,,Apache HttpClient,"
+   Apache HttpComponents Client
+  "
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\LICENSE,22994,?--httpcore---4.4.5,"0.92939,
+0.93392",Approved/Apache-2.0 + CC-BY-2.5 License,,,,httpcore-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\NOTICE,291,?--httpcore---4.4.5,"0.89140,
+0.88413","Approved/Apache-2.0 + CC-BY-2.5 License
+research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/NOTICE",,,,httpcore-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-4.4.5.jar#\META-INF\maven\org.apache.httpcomponents\httpcore\pom.xml,5522,org.apache.httpcomponents--httpcore--4.4.5,0,,,,,Apache HttpCore,"
+   Apache HttpComponents Core (blocking I/O)
+  "
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\LICENSE,11358,?--httpcore-nio---4.4.5,"0.92528,
+0.92268,
+0.92083",spdx/Apache-2.0,,,,httpcore-nio-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\NOTICE,176,?--httpcore-nio---4.4.5,"0.86917,
+0.86775,
+0.86553",Approved/Apache Software Foundation products NOTICE,,,,httpcore-nio-
+pathSuffix,elasticsearch-6.2.3\modules\reindex\httpcore-nio-4.4.5.jar#\META-INF\maven\org.apache.httpcomponents\httpcore-nio\pom.xml,4915,org.apache.httpcomponents--httpcore-nio--4.4.5,0,,,,,Apache HttpCore NIO,"
+   Apache HttpComponents Core (non-blocking I/O)
+  "
+pathSuffix,elasticsearch-6.2.3\modules\reindex\reindex-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--reindex---6.2.3,"0.92465,
+0.92972,
+0.92792",spdx/Apache-2.0,,,,reindex-
+pathSuffix,elasticsearch-6.2.3\modules\repository-url\repository-url-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--repository-url---6.2.3,"0.90888,
+0.90833,
+0.90601",spdx/Apache-2.0,,,,repository-url-
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-buffer-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-buffer\pom.xml,1493,io.netty--netty-buffer--4.1.16.Final,0,,,,,Netty/Buffer,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-codec-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-codec\pom.xml,3169,io.netty--netty-codec--4.1.16.Final,0,,,,,Netty/Codec,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-codec-http-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-codec-http\pom.xml,1841,io.netty--netty-codec-http--4.1.16.Final,0,,,,,Netty/Codec/HTTP,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-common-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-common\pom.xml,7533,io.netty--netty-common--4.1.16.Final,0,,,,,Netty/Common,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-common-4.1.16.Final.jar#\META-INF\maven\org.jctools\jctools-core\pom.xml,4093,org.jctools--jctools-core--2.1.0,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,,"https://github.com/nitsanw
+https://github.com/mjpt777
+https://github.com/RichardWarburton
+https://github.com/Kay",Java Concurrency Tools Core Library,Java Concurrency Tools Core Library
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-handler-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-handler\pom.xml,2919,io.netty--netty-handler--4.1.16.Final,0,,,,,Netty/Handler,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-resolver-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-resolver\pom.xml,1498,io.netty--netty-resolver--4.1.16.Final,0,,,,,Netty/Resolver,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\netty-transport-4.1.16.Final.jar#\META-INF\maven\io.netty\netty-transport\pom.xml,1669,io.netty--netty-transport--4.1.16.Final,0,,,,,Netty/Transport,
+pathSuffix,elasticsearch-6.2.3\modules\transport-netty4\transport-netty4-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--transport-netty4---6.2.3,"0.91879,
+0.92558,
+0.92097",spdx/Apache-2.0,,,,transport-netty4-
+pathSuffix,elasticsearch-6.2.3\modules\tribe\tribe-6.2.3.jar#\META-INF\LICENSE.txt,11358,?--tribe---6.2.3,"0.94071,
+0.93911,
+0.93853",spdx/Apache-2.0,,,,tribe-
+pathSuffix,node_modules\protractor\LICENSE,1079,.--protractor--0,"0.89502,
+0.87959,
+0.86285","spdx/MIT
+spdx/MIT-0",,,,protractor
+pathSuffix,node_modules\protractor\package.json,5726,.--protractor--2.5.1,1,spdx/MIT,,"Julie Ralph
+ju.ralph@gmail.com",https://github.com/angular/protractor,protractor,"Webdriver E2E test wrapper for Angular.
+[angular,test,testing,webdriver,webdriverjs,selenium]"
+pathSuffix,node_modules\protractor\node_modules\glob\LICENSE,1310,.--glob--0,"0.80992,
+0.80983,
+0.80687","spdx/BSD-2-Clause
+spdx/BSD-3-Clause",,,,glob
+pathSuffix,node_modules\protractor\node_modules\glob\package.json,11969,.--glob--3.2.11,1,spdx/BSD,,"Isaac Z. Schlueter
+i@izs.me","https://github.com/isaacs/node-glob#readme
+http://blog.izs.me/",glob,a little globber
+pathSuffix,node_modules\protractor\node_modules\glob\test\readme-issue.js,672,.--glob--0,0.94689,research/node_modules/protractor/node_modules/glob/test/readme-issue.js,,,,glob
+pathSuffix,node_modules\protractor\node_modules\lodash\LICENSE.txt,1238,.--lodash--0,"0.86560,
+0.84594,
+0.86685",spdx/MIT,,,,lodash
+pathSuffix,node_modules\protractor\node_modules\lodash\package.json,12197,.--lodash--2.4.2,1,spdx/MIT,,"John-David Dalton
+john.david.dalton@gmail.com
+John-David Dalton
+john.david.dalton@gmail.com
+Blaine Bublitz
+blaine@iceddev.com
+Kit Cambridge
+github@kitcambridge.be
+Mathias Bynens
+mathias@qiwi.be","http://lodash.com/
+http://allyoucanleet.com/
+http://allyoucanleet.com/
+http://www.iceddev.com/
+http://kitcambridge.be/
+http://mathiasbynens.be/",lodash,"A utility library delivering consistency, customization, performance, & extras.
+[amd,browser,client,customize,functional,server,util]"
+pathSuffix,node_modules\protractor\node_modules\mime-db\LICENSE,1099,.--mime-db--0,"0.86858,
+0.88213,
+0.86577",spdx/MIT,,,,mime-db
+pathSuffix,node_modules\protractor\node_modules\mime-db\package.json,5701,.--mime-db--1.12.0,1,spdx/MIT,,"Douglas Christopher Wilson
+doug@somethingdoug.com
+Jonathan Ong
+me@jongleberry.com
+Robert Kieffer
+robert@broofa.com","https://github.com/jshttp/mime-db#readme
+http://jongleberry.com
+http://github.com/broofa",mime-db,"Media Type Database
+[mime,db,type,types,database,charset,charsets]"
+pathSuffix,node_modules\protractor\node_modules\mime-types\LICENSE,1099,.--mime-types--0,"0.88111,
+0.86244,
+0.89198",spdx/MIT,,,,mime-types
+pathSuffix,node_modules\protractor\node_modules\mime-types\package.json,5670,.--mime-types--2.0.14,1,spdx/MIT,,"Douglas Christopher Wilson
+doug@somethingdoug.com
+Jeremiah Senkpiel
+fishrock123@rocketmail.com
+Jonathan Ong
+me@jongleberry.com","https://github.com/jshttp/mime-types#readme
+https://searchbeam.jit.su
+http://jongleberry.com",mime-types,"The ultimate javascript content-type utility.
+[mime,types]"
+pathSuffix,node_modules\protractor\node_modules\minimatch\LICENSE,1092,.--minimatch--0,"0.90347,
+0.87394,
+0.86677",spdx/MIT,,,,minimatch
+pathSuffix,node_modules\protractor\node_modules\minimatch\package.json,9045,.--minimatch--0.3.0,1,"spdx/ISC
+spdx/MIT",http://github.com/isaacs/minimatch/raw/master/LICENSE,"Isaac Z. Schlueter
+i@izs.me","https://github.com/isaacs/minimatch#readme
+http://blog.izs.me",minimatch,a glob matcher in javascript
+pathSuffix,node_modules\protractor\node_modules\qs\LICENSE,1654,.--qs--0,0.87868,research/node_modules/protractor/node_modules/qs/LICENSE,,,,qs
+pathSuffix,node_modules\protractor\node_modules\qs\package.json,9501,.--qs--3.1.0,1,spdx/BSD-3-Clause,,,https://github.com/hapijs/qs,qs,"A querystring parser that supports nesting and arrays, with a depth limit
+[querystring,qs]"
+pathSuffix,node_modules\protractor\node_modules\request\LICENSE,9140,.--request--0,"0.90450,
+0.91037,
+0.90715","spdx/Apache-2.0
+research/node_modules/protractor/node_modules/request/LICENSE",,,,request
+pathSuffix,node_modules\protractor\node_modules\request\package.json,42987,.--request--2.57.0,1,spdx/Apache-2.0,,"Mikeal Rogers
+mikeal.rogers@gmail.com",https://github.com/request/request#readme,request,Simplified HTTP request client.
+pathSuffix,node_modules\protractor\node_modules\request\lib\copy.js,144,.--request--0,0.82879,research/node_modules/protractor/node_modules/request/lib/copy.js,,,,request
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\asm-license.txt,1604,.--selenium-server-standalone---2.47.1,"0.87930,
+0.88013,
+0.86650","Approved/ASM=Java_bytecode_manipulation_framework
+research/cucumber-sandwich.jar#/asm-license
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/asm-license",,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\LICENSE,11558,.--selenium-server-standalone---2.47.1,"0.92166,
+0.92220,
+0.92207",spdx/Apache-2.0,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\LICENSE-junit.txt,11376,.--selenium-server-standalone---2.47.1,"0.94400,
+0.94025,
+0.93502",spdx/EPL-1.0,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\LICENSE.txt,1509,.--selenium-server-standalone---2.47.1,"0.86182,
+0.85522,
+0.85634",spdx/BSD-3-Clause,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\NOTICE,103,.--selenium-server-standalone---2.47.1,"0.83546,
+0.83545,
+0.83453",Approved/Apache Software Foundation products NOTICE,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\LICENSE,11358,.--selenium-server-standalone---2.47.1,"0.91505,
+0.91229,
+0.91191",spdx/Apache-2.0,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\LICENSE.txt,11560,.--selenium-server-standalone---2.47.1,"0.90896,
+0.90982,
+0.90941",spdx/Apache-2.0,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\NOTICE,176,.--selenium-server-standalone---2.47.1,"0.83268,
+0.83231,
+0.82709",Approved/Apache Software Foundation products NOTICE,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\NOTICE.txt,749,.--selenium-server-standalone---2.47.1,"0.92621,
+0.92562",research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/NOTICE,,,,selenium-server-standalone-
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\com.beust\jcommander\pom.xml,7225,com.beust--jcommander--1.29,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,Cedric Beust,,JCommander,A Java framework to parse command line options with annotations.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\com.google.guava\guava\pom.xml,5666,com.google.guava--guava--18.0,0,,,,,Guava: Google Core Libraries for Java,"
+    Guava is a suite of core and expanded libraries that include
+    utility classes, google's collections, io classes, and much
+    much more.
+
+    Guava has only one code dependency - javax.annotation,
+    per the JSR-305 spec.
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\commons-codec\commons-codec\pom.xml,11609,commons-codec--commons-codec--1.10,0,,,"bayard
+Henri Yandell
+bayard@apache.org
+tobrien
+Tim OBrien
+tobrien@apache.org
+sanders
+Scott Sanders
+sanders@totalsync.com
+rwaldhoff
+Rodney Waldhoff
+rwaldhoff@apache.org
+dlr
+Daniel Rall
+dlr@finemaltcoding.com
+jon
+Jon S. Stevens
+jon@collab.net
+ggregory
+Gary Gregory
+ggregory@apache.org
+dgraham
+David Graham
+dgraham@apache.org
+julius
+Julius Davies
+julius@apache.org
+tn
+Thomas Neidhart
+tn@apache.org
+Christopher O'Brien
+siege@preoccupied.net
+Martin Redington
+Jeffery Dever
+Steve Zimmermann
+steve.zimmermann@heii.com
+Benjamin Walstrum
+ben@walstrum.com
+Oleg Kalnichevski
+oleg@ural.ru
+Dave Dribin
+apache@dave.dribin.org
+Alex Karasulu
+aok123 at bellsouth.net
+Matthew Inger
+mattinger at yahoo.com
+Jochen Wiedmann
+jochen@apache.org
+Sebastian Bazley
+sebb@apache.org
+Matthew Pocock
+turingatemyhamster@gmail.com
+Colm Rice
+colm_rice at hotmail dot com",http://www.garygregory.com,Apache Commons Codec,"
+     The Apache Commons Codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\commons-collections\commons-collections\pom.xml,12505,commons-collections--commons-collections--3.2.1,0,,,"scolebourne
+Stephen Colebourne
+morgand
+Morgan Delagrange
+matth
+Matthew Hawthorne
+geirm
+Geir Magnusson
+craigmcc
+Craig McClanahan
+psteitz
+Phil Steitz
+amamment
+Arun M. Thomas
+rwaldhoff
+Rodney Waldhoff
+bayard
+Henri Yandell
+jcarman
+James Carman
+rdonkin
+Robert Burrell Donkin
+Rafael U. C. Afonso
+Max Rydahl Andersen
+Federico Barbieri
+Arron Bates
+Nicola Ken Barozzi
+Sebastian Bazley
+Matt Benson
+Ola Berg
+Christopher Berry
+Nathan Beyer
+Janek Bogucki
+Chuck Burdick
+Dave Bryson
+Julien Buret
+Jonathan Carlson
+Ram Chidambaram
+Steve Clark
+Eric Crampton
+Dimiter Dimitrov
+Peter Donald
+Steve Downey
+Rich Dougherty
+Tom Dunham
+Stefano Fornari
+Andrew Freeman
+Gerhard Froehlich
+Paul Jack
+Eric Johnson
+Kent Johnson
+Marc Johnson
+Nissim Karpenstein
+Shinobu Kawai
+Mohan Kishore
+Simon Kitching
+Thomas Knych
+Serge Knystautas
+Peter KoBek
+Jordan Krey
+Olaf Krische
+Guilhem Lavaux
+Paul Legato
+David Leppik
+Berin Loritsch
+Hendrik Maryns
+Stefano Mazzocchi
+Brian McCallister
+Steven Melzer
+Leon Messerschmidt
+Mauricio S. Moura
+Kasper Nielsen
+Stanislaw Osinski
+Alban Peignier
+Mike Pettypiece
+Steve Phelps
+Ilkka Priha
+Jonas Van Poucke
+Will Pugh
+Herve Quiroz
+Daniel Rall
+Robert Ribnitz
+Huw Roberts
+Henning P. Schmiedehausen
+Howard Lewis Ship
+Joe Raysa
+Thomas Schapitz
+Jon Schewe
+Andreas Schlosser
+Christian Siefkes
+Michael Smith
+Stephen Smith
+Jan Sorensen
+Jon S. Stevens 
+James Strachan
+Leo Sutic
+Chris Tilden
+Neil O'Toole
+Jeff Turner
+Kazuya Ujihara
+Jeff Varszegi
+Ralph Wagner
+David Weinrich
+Dieter Wimberger
+Serhiy Yevtushenko
+Jason van Zyl",,Commons Collections,Types that extend and augment the Java Collections Framework.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\commons-io\commons-io\pom.xml,10166,commons-io--commons-io--2.4,0,,,"sanders
+Scott Sanders
+sanders@apache.org
+dion
+dIon Gillard
+dion@apache.org
+nicolaken
+Nicola Ken Barozzi
+nicolaken@apache.org
+bayard
+Henri Yandell
+bayard@apache.org
+scolebourne
+Stephen Colebourne
+jeremias
+Jeremias Maerki
+jeremias@apache.org
+matth
+Matthew Hawthorne
+matth@apache.org
+martinc
+Martin Cooper
+martinc@apache.org
+roxspring
+Rob Oxspring
+roxspring@apache.org
+jochen
+Jochen Wiedmann
+jochen.wiedmann@gmail.com
+niallp
+Niall Pemberton
+jukka
+Jukka Zitting
+ggregory
+Gary Gregory
+ggregory@apache.org
+Rahul Akolkar
+Jason Anderson
+Nathan Beyer
+Emmanuel Bourg
+Chris Eldredge
+Magnus Grimsell
+Jim Harrington
+Thomas Ledoux
+Andy Lehane
+Marcelo Liberato
+Alban Peignier
+alban.peignier at free.fr
+Ian Springer
+Masato Tezuka
+James Urie
+Frank W. Zammetti",http://www.garygregory.com,Commons IO,"
+The Commons IO library contains utility classes, stream implementations, file filters, 
+file comparators, endian transformation classes, and much more.
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\commons-logging\commons-logging\pom.xml,18353,commons-logging--commons-logging--1.1.3,0,,,"baliuka
+Juozas Baliuka
+baliuka@apache.org
+morgand
+Morgan Delagrange
+morgand@apache.org
+Apache
+donaldp
+Peter Donald
+donaldp@apache.org
+rdonkin
+Robert Burrell Donkin
+rdonkin@apache.org
+The Apache Software Foundation
+skitching
+Simon Kitching
+skitching@apache.org
+The Apache Software Foundation
+dennisl
+Dennis Lundberg
+dennisl@apache.org
+The Apache Software Foundation
+costin
+Costin Manolache
+costin@apache.org
+The Apache Software Foundation
+craigmcc
+Craig McClanahan
+craigmcc@apache.org
+The Apache Software Foundation
+tn
+Thomas Neidhart
+tn@apache.org
+The Apache Software Foundation
+sanders
+Scott Sanders
+sanders@apache.org
+The Apache Software Foundation
+rsitze
+Richard Sitze
+rsitze@apache.org
+The Apache Software Foundation
+bstansberry
+Brian Stansberry
+rwaldhoff
+Rodney Waldhoff
+rwaldhoff@apache.org
+The Apache Software Foundation
+Matthew P. Del Buono
+Vince Eagen
+vince256 at comcast dot net
+Peter Lawrey
+Berin Loritsch
+bloritsch at apache dot org
+Philippe Mouawad
+Neeme Praks
+neeme at apache dot org",,Commons Logging,"Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems."
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\net.sourceforge.cssparser\cssparser\pom.xml,12356,net.sourceforge.cssparser--cssparser--0.9.16,1,"spdx/LGPL-2.1-or-later
+spdx/LGPL-3.0",http://www.gnu.org/licenses/lgpl.txt,"davidsch
+David Schweinsberg
+davidsch@users.sourceforge.net
+alankrueger
+Alan Krueger
+sdanig
+Daniel Gredler
+sdanig@users.sourceforge.net
+waldbaer
+Johannes Koch
+waldbaer@users.sourceforge.net
+rbri
+Ronald Brill
+rbri@rbri.de
+Ahmed Ashour","http://daniel.gredler.net/
+http://www.wetator.org/",CSS Parser,A CSS parser which implements SAC (the Simple API for CSS).
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\net.sourceforge.htmlunit\htmlunit\pom.xml,35910,net.sourceforge.htmlunit--htmlunit--2.17,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,"mbowler
+Mike Bowler
+mbowler@GargoyleSoftware.com
+Gargoyle Software Inc.
+dktaylor
+David K. Taylor
+bradclarke
+Brad Clarke
+bradclarke@users.sourceforge.net
+mguillem
+Marc Guillemot
+mguillem@users.sourceforge.net
+cerskine
+Chris Erskine
+cerskine@users.sourceforge.net
+sdanig
+Daniel Gredler
+sdanig@users.sourceforge.net
+asashour
+Ahmed Ashour
+asashour@users.sourceforge.net
+sudhan_moghe
+Sudhan Moghe
+sudhan_moghe@users.sourceforge.net
+rbri
+Ronald Brill
+rbri@rbri.de
+Gargoyle Software Inc.
+Noboru Sinohara
+Mike J. Bresnahan
+gudujarlson@sf.net
+Dominique Broeglin
+Alex Nikiforoff
+Barnaby Court
+Andreas Hangler
+Jun Chen
+chen_jun@users.sourceforge.net
+Christian Sell
+cse@dynabean.de
+Darrell DeBoer
+David D. Kilzer
+Ben Curren
+bcurren@esomnie.com
+Mike Williams
+Mike Gallaher
+Dierk Koenig
+Mike Bresnahan
+Sergey Gorelkin
+Chris Eldredge
+Hans Donner
+Michael Ottati
+George Murnock
+Kent Tong
+Alfred Nathaniel
+Bruce Faulkner
+Ray Suliteanu
+Denis N. Antonioli
+Stefan Anzinger
+Lothar Märkle
+Ian Lovejoy
+Paul King
+Vikram Shitole
+Mark van Leeuwen
+Brad Murray
+Julien Henry
+Andre Soereng
+Karel Kolman
+Bruce Chapman
+Kristian Muntau
+Sam Hough
+Deryk Sinotte
+Martin Tamme
+Philip Graf
+Rodney Gitzel
+Matt Ryall
+Rob Di Marco
+Gareth Davis
+David Bylsma
+Dmitri Zoubkov
+Stuart Begg
+Rene Schwietzke
+Ethan Glasser-Camp
+Marco Cova
+Mike Dirolf
+Mirko Friedenhagen
+Richard Eggert
+Tomasz Kalkosinski
+Peter Faller
+Benoit Heinrich
+Amit Manjhi
+Nicolas Belisle
+Amit Khanna
+Nikolai Avteniev
+Kostadin Chikov
+Adam Doupe
+Daniel Wagner-Hall
+James Phillpotts
+Benson Margulies
+Pieter Herroelen
+David Gileadi
+Martin Huber
+Frank Danek
+Andrea Martino
+John J Murdoch
+Guy Burton
+Chuck Dumont
+Sebastian Cato
+Carsten Steul
+Jake Cobb
+David Ostrovsky
+Matthias Brandt","http://www.sphericalimprovement.com/blogs/mbowler/
+http://www.bradclarke.com/
+http://mguillem.wordpress.com/
+http://daniel.gredler.net/
+http://asashour.blogspot.com/
+http://www.wetator.org/
+http://www.GargoyleSoftware.com/",HtmlUnit,A headless browser intended for use in testing web-based applications.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.commons\commons-exec\pom.xml,10994,org.apache.commons--commons-exec--1.3,0,,,"brett
+Brett Porter
+Apache
+trygvis
+Trygve Laugstøl
+Apache
+sgoeschl
+Siegfried Goeschl
+Apache
+sebb
+Sebastian Bazley
+Apache
+ggregory
+Gary Gregory
+ggregory@apache.org
+Apache
+Niklas Gustavsson
+Benjamin Bentmann
+Marco Ferrante
+Jerome Lacoste
+Milos Kleint
+Pablo Hoertner
+Niall Pemberton",http://www.garygregory.com,Apache Commons Exec,Apache Commons Exec is a library to reliably execute external processes from within the JVM.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.commons\commons-lang3\pom.xml,22183,org.apache.commons--commons-lang3--3.4,0,,,"dlr
+Daniel Rall
+dlr@finemaltcoding.com
+CollabNet, Inc.
+scolebourne
+Stephen Colebourne
+scolebourne@joda.org
+SITA ATS Ltd
+bayard
+Henri Yandell
+bayard@apache.org
+scaswell
+Steven Caswell
+stevencaswell@apache.org
+rdonkin
+Robert Burrell Donkin
+rdonkin@apache.org
+ggregory
+Gary D. Gregory
+ggregory@apache.org
+fredrik
+Fredrik Westermarck
+jcarman
+James Carman
+jcarman@apache.org
+Carman Consulting, Inc.
+niallp
+Niall Pemberton
+mbenson
+Matt Benson
+joehni
+Joerg Schaible
+joerg.schaible@gmx.de
+oheger
+Oliver Heger
+oheger@apache.org
+pbenedict
+Paul Benedict
+pbenedict@apache.org
+britter
+Benedikt Ritter
+britter@apache.org
+djones
+Duncan Jones
+djones@apache.org
+C. Scott Ananian
+Chris Audley
+Stephane Bailliez
+Michael Becke
+Benjamin Bentmann
+Ola Berg
+Nathan Beyer
+Stefan Bodewig
+Janek Bogucki
+Mike Bowler
+Sean Brown
+Alexander Day Chaffee
+Al Chou
+Greg Coladonato
+Maarten Coene
+Justin Couch
+Michael Davey
+Norm Deane
+Morgan Delagrange
+Ringo De Smet
+Russel Dittmar
+Steve Downey
+Matthias Eichel
+Christopher Elkins
+Chris Feldhacker
+Roland Foerther
+Pete Gieser
+Jason Gritman
+Matthew Hawthorne
+Michael Heuer
+Chas Honton
+Chris Hyzer
+Paul Jack
+Marc Johnson
+Shaun Kalley
+Tetsuya Kaneuchi
+Nissim Karpenstein
+Ed Korthof
+Holger Krauth
+Rafal Krupinski
+Rafal Krzewski
+David Leppik
+Eli Lindsey
+Sven Ludwig
+Craig R. McClanahan
+Rand McNeely
+Hendrik Maryns
+Dave Meikle
+Nikolay Metchev
+Kasper Nielsen
+Tim O'Brien
+Brian S O'Neill
+Andrew C. Oliver
+Alban Peignier
+Moritz Petersen
+Dmitri Plotnikov
+Neeme Praks
+Eric Pugh
+Stephen Putman
+Travis Reeder
+Antony Riley
+Valentin Rocher
+Scott Sanders
+James Sawle
+Ralph Schaer
+Henning P. Schmiedehausen
+Sean Schofield
+Robert Scholte
+Reuben Sivan
+Ville Skytta
+David M. Sledge
+Michael A. Smith
+Jan Sorensen
+Glen Stampoultzis
+Scott Stanchfield
+Jon S. Stevens
+Sean C. Sullivan
+Ashwin Suresh
+Helge Tesgaard
+Arun Mammen Thomas
+Masato Tezuka
+Daniel Trebbien
+Jeff Varszegi
+Chris Webb
+Mario Winterer
+Stepan Koltsov
+Holger Hoffstatte
+Derek C. Ashmore
+Sebastien Riou
+Allon Mureinik
+Adam Hooper
+Chris Karcher
+Michael Osipov
+Thiago Andrade
+Jonathan Baker
+Mikhail Mazursky
+Fabian Lange
+Michał Kordas",,Apache Commons Lang,"
+  Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.httpcomponents\httpclient\pom.xml,6393,org.apache.httpcomponents--httpclient--4.4.1,0,,,,,Apache HttpClient,"
+   Apache HttpComponents Client
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.httpcomponents\httpcore\pom.xml,4596,org.apache.httpcomponents--httpcore--4.4.1,0,,,,,Apache HttpCore,"
+   Apache HttpComponents Core (blocking I/O)
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.httpcomponents\httpmime\pom.xml,4782,org.apache.httpcomponents--httpmime--4.4.1,0,,,,,Apache HttpClient Mime,"
+   Apache HttpComponents HttpClient - MIME coded entities
+  "
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.apache.james\apache-mime4j\pom.xml,14051,org.apache.james--apache-mime4j--0.6,0,,,,,Apache JAMES Mime4j,Java stream based MIME message parser
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-client\pom.xml,4699,org.eclipse.jetty--jetty-client--7.6.1.v20120215,0,,,,,Jetty :: Asynchronous HTTP Client,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-continuation\pom.xml,2696,org.eclipse.jetty--jetty-continuation--7.6.1.v20120215,0,,,,,Jetty :: Continuation,Asynchronous API
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-http\pom.xml,2566,org.eclipse.jetty--jetty-http--7.6.1.v20120215,0,,,,,Jetty :: Http Utility,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-io\pom.xml,2288,org.eclipse.jetty--jetty-io--9.2.11.v20150529,0,,,,,Jetty :: IO Utility,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-security\pom.xml,2698,org.eclipse.jetty--jetty-security--7.6.1.v20120215,0,,,,,Jetty :: Security,Jetty security infrastructure
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-server\pom.xml,3745,org.eclipse.jetty--jetty-server--7.6.1.v20120215,0,,,,,Jetty :: Server Core,The core jetty server artifact.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-servlet\pom.xml,2656,org.eclipse.jetty--jetty-servlet--7.6.1.v20120215,0,,,,,Jetty :: Servlet Handling,Jetty Servlet Container
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-servlets\pom.xml,3073,org.eclipse.jetty--jetty-servlets--7.6.1.v20120215,0,,,,,Jetty :: Utility Servlets and Filters,Utility Servlets from Jetty
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-util\pom.xml,3434,org.eclipse.jetty--jetty-util--9.2.11.v20150529,0,,,,,Jetty :: Utilities,Utility classes for Jetty
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-webapp\pom.xml,3255,org.eclipse.jetty--jetty-webapp--7.6.1.v20120215,0,,,,,Jetty :: Webapp Application Support,Jetty web application support
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty\jetty-xml\pom.xml,1947,org.eclipse.jetty--jetty-xml--7.6.1.v20120215,0,,,,,Jetty :: XML utilities,The jetty xml utilities.
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty.websocket\websocket-api\pom.xml,2200,org.eclipse.jetty.websocket--websocket-api--9.2.11.v20150529,0,,,,,Jetty :: Websocket :: API,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty.websocket\websocket-client\pom.xml,5112,org.eclipse.jetty.websocket--websocket-client--9.2.11.v20150529,0,,,,,Jetty :: Websocket :: Client,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.eclipse.jetty.websocket\websocket-common\pom.xml,2648,org.eclipse.jetty.websocket--websocket-common--9.2.11.v20150529,0,,,,,Jetty :: Websocket :: Common,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.mortbay.jetty\jsp-api-2.0\pom.xml,2711,org.mortbay.jetty--jsp-api-2.0--6.1.9,0,,,,,JSP 2.0 API dependencies,
+pathSuffix,node_modules\protractor\selenium\selenium-server-standalone-2.47.1.jar#\META-INF\maven\org.seleniumhq.selenium\jetty-repacked\pom.xml,7391,org.seleniumhq.selenium--jetty-repacked--7.6.1,1,spdx/Apache-2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,"krosenvold
+Kristian Rosenvold",,selenium-jetty-repacked,A repacked jetty

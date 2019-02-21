@@ -1,0 +1,27 @@
+resin pro licenses
+iis 7 plugin	
+logging
+Resin Pro License Guide If you purchased a Resin Pro license or would like to evaluate Resin Pro features this page will provide detail on obtaining evaluation license and deploying licenses to Resin Pro.
+
+Requesting Resin Pro License
+Resin Pro License Deployment
+Troubleshooting
+Requesting Resin Pro License
+If you don't have a license file and would like to request one please proceed to request evaluation Resin Professional license. Once you apply, please check your mail-box, the license should already be there.
+
+Resin Pro License Deployment
+The simplest way to deploy a license is to copy it into licenses directory under Resin Home.
+
+Resin Pro is looking for licenses in the following locations
+
+Directory specified with -Dresin.license.dir JVM parameter
+licenses directory in your working directory, i.e. System.getProperty("user.dir")
+licenses directory in Resin Home.
+Troubleshooting
+If something went wrong and Resin Pro can't find license, the first place to check for problems is the log files.
+
+If the message in the log file isn't giving enough detail you can set logging level to a higher value ('finest') and restart Resin with -verbose option.
+
+Copyright c 1998-2012 Caucho Technology, Inc. All rights reserved.
+Resin R is a registered trademark, and Quercustm, Ambertm, and Hessiantm are trademarks of Caucho Technology.
+http://skyltar.ledtec.se/resin-doc/admin/starting-resin-licenses.xtp#ResinProLicenseDeployment

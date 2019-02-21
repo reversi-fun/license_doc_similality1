@@ -1,0 +1,80 @@
+Python Copyright
+
+Historical note: This page describes the Python license used for
+Python versions up to and including Python 1.6a2. CNRI released Python
+1.6b1 and the final Python 1.6 release under a different license,
+which is open source compliant, but not compatible with the GPL (the
+only incompatibility being the inclusion of a choice-of-law
+clause). More recent PSF releases, in particular 2.0.1, 2.1.1, and all
+releases since then, are GPL-compatible.  Most Python sources and
+binaries are distributed under the following copyright. A few files
+have a different copyright owner, but otherwise the notice is similar.
+
+
+  *"final Python 1.6" above links to:
+  http://web.archive.org/web/20070208215509/http://www.python.org/download/releases/1.6/
+
+  *"PSF" above links to:
+  http://web.archive.org/web/20070202204117/http://www.python.org/psf/
+  
+  *"2.0.1, 2.1.1, and all releases since then" links to:
+  http://web.archive.org/web/20070202023003/http://www.python.org/download/
+
+
+The gist of it is that Python is absolutely free, even for commercial
+use (including resale). There is no GNU-like "copyleft" restriction.
+
+A clarification: some very picky lawyers are worried that the notice
+doesn't explicitly grant permission to distribute modified copies
+(even though it grants permission to copy, modify, and
+distribute). This can be considered an oversight in the notice; we
+have no intention to limit distribution of modified copies (that
+otherwise play by the rules). Similarly, the words "without fee" are
+to be read connected to "permission": permission is granted without
+fee. We are in the process of revising the notice to clarify it, but
+this is a slow process.
+
+Another clarification: the limitation of the copyright to 1991-1995 in
+the notice is not a mistake, but rather a deliberate
+decision. Copyright applies regardless of whether it is explicitly
+stated or not.
+
+News: The Open Source Initiative board has voted to certify the Python
+license as Open Source.
+
+  *"Open Source Initiative" above links to: 
+  http://web.archive.org/web/20061128020422/http://www.opensource.org/
+
+And if you had to ask, yes, this license is compatible with the GPL (sez RMS).
+
+  *"GPL" above links to:
+  http://web.archive.org/web/20070202181626/http://www.gnu.org/copyleft/gpl.html
+  
+  *"RMS" above links to:
+  http://web.archive.org/web/20070202204117/http://www.stallman.org/
+
+Copyright 1991-1995 by Stichting Mathematisch Centrum, Amsterdam, The
+Netherlands.
+
+All Rights Reserved Permission to use, copy, modify, and distribute
+this software and its documentation for any purpose and without fee is
+hereby granted, provided that the above copyright notice appear in all
+copies and that both that copyright notice and this permission notice
+appear in supporting documentation, and that the names of Stichting
+Mathematisch Centrum or CWI or Corporation for National Research
+Initiatives or CNRI not be used in advertising or publicity pertaining
+to distribution of the software without specific, written prior
+permission.
+
+While CWI is the initial source for this software, a modified version
+is made available by the Corporation for National Research Initiatives
+(CNRI) at the Internet address http://www.python.org.
+
+STICHTING MATHEMATISCH CENTRUM AND CNRI DISCLAIM ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH
+CENTRUM OR CNRI BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE. 

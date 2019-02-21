@@ -1,0 +1,7 @@
+mx4j.tools.remote.provider.burlap.ClientProvider
+mx4j.tools.remote.provider.burlap.ssl.ClientProvider
+mx4j.tools.remote.provider.hessian.ClientProvider
+mx4j.tools.remote.provider.hessian.ssl.ClientProvider
+mx4j.tools.remote.provider.local.ClientProvider
+mx4j.tools.remote.provider.soap.ClientProvider
+mx4j.tools.remote.provider.soap.ssl.ClientProvider

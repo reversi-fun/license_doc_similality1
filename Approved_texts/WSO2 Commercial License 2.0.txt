@@ -1,0 +1,18 @@
+LICENSING OF DISTRIBUTIONS
+All open source software produced by WSO2, Inc. or any of its projects is licensed according to the terms of Apache License, Version 2. Sub-projects are licensed using Apache-compatible licenses, please see https://www.apache.org/legal/resolved.html@category-a for more information and compatibility.
+
+WSO2 Solutions are licensed according to the WSO2 Commercial License. This license allows you to use the WSO2 Solution, associated documentation, and updates in the context of and within the term of your WSO2 Subscription.
+
+WSO2 Updates for open source software are licensed according to the WSO2 EULA for Updates. This license allows you to use WSO2 Updates within the term of your WSO2 Subscription.
+
+Please check your WSO2 Subscription Agreement and any EULA included with the software you are using for detailed licensing information regarding the use of the software.
+
+Contributor License Agreements
+WSO2, Inc. desires that all contributors of ideas, code, or documentation to the WSO2 projects complete, sign, and submit (via fax) a Contributor License Agreement (CLA).
+
+The purpose of this agreement is to clearly define the terms under which intellectual property has been contributed to WSO2 and thereby allow us to defend the project should there be a legal dispute regarding the software at some future time. A signed CLA is required to be on file before an individual is given commit rights to a WSO2 project.
+
+Contributors retain full rights to use their original contributions for any other purpose outside of WSO2 while providing WSO2, Inc. and its projects the right to distribute and build upon their work.
+
+JProfiler
+All contributors who have signed the above CLA with WSO2 are eligible to attain an open source license key for JProfiler to be used specifically for WSO2 open source project development in Java. JProfiler is all-in-one Java profiler with an intuitive GUI that helps you find performance bottlenecks, pin down memory leaks and resolve threading issues. Download JProfiler and contact us via the email address given on your CLA to request this license key.

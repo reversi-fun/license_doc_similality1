@@ -1,0 +1,30 @@
+FOSS License Exception - DEPRECATED
+Updated January 30, 2018
+
+The MySQL FOSS License Exception has now been deprecated. As of the release of MySQL Community Edition 8.0.4 on January 24, 2018, the MySQL FOSS License Exception no longer applies to new versions of the MySQL Client Libraries (also referred to as MySQL Drivers or MySQL Connectors). It has been replaced by the Universal FOSS Exception, which you can find at httposs.oracle.comlicensesuniversal-foss-exception, along with an exception for included technology under separate license(s). (See the License Information User Manual for each MySQL related download for license information specific to that distribution.) The MySQL FOSS License Exception continues to apply to older versions of the Client Library files in which Oracle has placed notices that the MySQL FOSS License Exception applies, and this description remains here for reference purposes.
+
+What is the FOSS License Exception
+OracleÅfs Free and Open Source Software (FOSS) License Exception (formerly known as the FLOSS License Exception) allows developers of FOSS applications to include Oracle's MySQL Client Libraries (also referred to as MySQL Drivers or MySQL Connectors) with their FOSS applications. MySQL Client Libraries are typically licensed pursuant to version 2 of the General Public License (GPL), but this exception permits distribution of certain MySQL Client Libraries with a developerÅfs FOSS applications licensed under the terms of another FOSS license listed below, even though such other FOSS license may be incompatible with the GPL.
+
+The following terms and conditions describe the circumstances under which OracleÅfs FOSS License Exception applies.
+
+OracleÅfs FOSS License Exception Terms and Conditions
+Definitions.
+
+Derivative Work means a derivative work, as defined under applicable copyright law, formed entirely from the Program and one or more FOSS Applications.
+
+FOSS Application means a free and open source software application distributed subject to a license listed in the section below titled FOSS License List.
+
+FOSS Notice means a notice placed by Oracle or MySQL in a copy of the MySQL Client Libraries stating that such copy of the MySQL Client Libraries may be distributed under Oracle's or MySQLÅfs FOSS (or FLOSS) License Exception.
+
+Independent Work means portions of the Derivative Work that are not derived from the Program and can reasonably be considered independent and separate works.
+
+Program means a copy of OracleÅfs MySQL Client Libraries that contains a FOSS Notice.
+A FOSS application developer (you or your) may distribute a Derivative Work provided that you and the Derivative Work meet all of the following conditions
+
+You obey the GPL in all respects for the Program and all portions (including modifications) of the Program included in the Derivative Work (provided that this condition does not apply to Independent Works);
+The Derivative Work does not include any work licensed under the GPL other than the Program;
+You distribute Independent Works subject to a license listed in the section below titled FOSS License List;
+You distribute Independent Works in object code or executable form with the complete corresponding machine-readable source code on the same medium and under the same FOSS license applying to the object code or executable forms;
+All works that are aggregated with the Program or the Derivative Work on a medium or volume of storage are not derivative works of the Program, Derivative Work or FOSS Application, and must reasonably be considered independent and separate works.
+Oracle reserves all rights not expressly granted in these terms and conditions. If all of the above conditions are not met, then this FOSS License Exception does not apply to you or your Derivative Work.

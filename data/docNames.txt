@@ -412,237 +412,408 @@ spdx/Zlib,58
 spdx/ZPL-1.1,229
 spdx/ZPL-2.0,176
 spdx/ZPL-2.1,161
-FSF/AcademicFreeLicense1.1,877
-FSF/AcademicFreeLicense1.2,877
-FSF/AcademicFreeLicense2.0,877
-FSF/AcademicFreeLicense2.1,877
-FSF/AcademicFreeLicense3.0,877
+ONI/2-clause BSD License,94
+ONI/3-clause BSD License,107
+ONI/Academic Free License 3.0,799
+ONI/Adaptive Public License,3392
+ONI/Apache License 2.0,792
+ONI/Apple Public Source License,1523
+ONI/Artistic License 2.0,651
+ONI/Attribution Assurance License,227
+ONI/Boost Software License,94
+ONI/BSD+Patent,187
+ONI/CeCILL License 2.1,1582
+ONI/CNRI Python license,270
+ONI/Common Development and Distribution License 1.0,1188
+ONI/Common Public Attribution License 1.0,2107
+ONI/Computer Associates Trusted Open Source License 1.1,1413
+ONI/Eclipse Public License 1.0,843
+ONI/Eclipse Public License 2.0,1040
+ONI/eCos License version 2.0,108
+ONI/Educational Community License, Version 2.0,840
+ONI/Eiffel Forum License V2.0,68
+ONI/Entessa Public License,170
+ONI/EU DataGrid Software License,241
+ONI/European Union Public License, Version 1.2,1079
+ONI/Fair License,27
+ONI/Frameworx License,763
+ONI/Free Public License 1.0.0,66
+ONI/GNU Affero General Public License version 3,2585
+ONI/GNU General Public License version 2,1269
+ONI/GNU General Public License version 3,2621
+ONI/GNU Lesser General Public License version 2.1,1919
+ONI/GNU Lesser General Public License version 3,589
+ONI/Historical Permission Notice and Disclaimer,116
+ONI/IBM Public License 1.0,852
+ONI/IPA Font License,707
+ONI/ISC License,55
+ONI/LaTeX Project Public License 1.3c,1295
+ONI/libpng license,56
+ONI/Lucent Public License Version 1.02,884
+ONI/Microsoft Public License,194
+ONI/Microsoft Reciprocal License,222
+ONI/MirOS Licence,236
+ONI/MIT License,78
+ONI/Motosoto License,1486
+ONI/Mozilla Public License 1.0,1345
+ONI/Mozilla Public License 1.1,1731
+ONI/Mozilla Public License 2.0,967
+ONI/Multics License,152
+ONI/NASA Open Source Agreement 1.3,1048
+ONI/Naumen Public License,144
+ONI/NCSA Open Source License,107
+ONI/Nethack General Public License,323
+ONI/Nokia Open Source License,1538
+ONI/Non-Profit Open Software License 3.0,935
+ONI/NTP License,41
+ONI/OCLC Research Public License 2.0,828
+ONI/Open Group Test Suite License,394
+ONI/Open Software License 3.0,799
+ONI/OSET Public License version 2.1,1445
+ONI/PHP License 3.0,221
+ONI/Python License,747
+ONI/Q Public License,323
+ONI/RealNetworks Public Source License V1.0,2328
+ONI/Reciprocal Public License 1.5,2392
+ONI/Ricoh Source Code Public License,1570
+ONI/SIL Open Font License 1.1,340
+ONI/Simple Public License 2.0,172
+ONI/Sleepycat License,367
+ONI/Sun Public License 1.0,1711
+ONI/Sybase Open Watcom Public License 1.0,1582
+ONI/The PostgreSQL License,97
+ONI/Universal Permissive License,133
+ONI/Upstream Compatibility License v1.0,819
+ONI/Vovida Software License v. 1.0,179
+ONI/W3C License,189
+ONI/wxWindows Library License,182
+ONI/X.Net License,97
+ONI/Zero-Clause BSD,66
+ONI/Zope Public License 2.0,176
+FSF/AcademicFreeLicense3.0,803
 FSF/ACDL,701
-FSF/AGPLv1.0,1212
+FSF/AGPLv1.0,1137
 FSF/AGPLv3.0,2650
-FSF/apache1,276
-FSF/apache1.1,260
-FSF/apache2,862
-FSF/apsl1,69
-FSF/apsl2,1616
+FSF/apache1.1,189
+FSF/apache1,203
+FSF/apache2,792
+FSF/apsl1,1490
+FSF/apsl2,1541
 FSF/Arphic,504
-FSF/ArtisticLicense,420
-FSF/ArtisticLicense2,732
-FSF/BerkeleyDB,597
-FSF/bittorrent,2109
-FSF/boost,170
-FSF/CC0,609
-FSF/CDDL,1346
-FSF/CeCILL,1661
-FSF/ClarifiedArtistic,56
-FSF/clearbsd,193
-FSF/CommonPublicLicense10,940
-FSF/Condor,765
+FSF/ArtisticLicense,345
+FSF/ArtisticLicense2,663
+FSF/BerkeleyDB,522
+FSF/bittorrent,2034
+FSF/boost,99
+FSF/CC0,541
+FSF/CDDL,1267
+FSF/CeCILL,1593
+FSF/ClarifiedArtistic,464
+FSF/clearbsd,123
+FSF/CommonPublicLicense10,866
+FSF/Condor,694
 FSF/CPAL,2141
-FSF/CryptixGeneralLicense,174
-FSF/DOR,56
+FSF/CryptixGeneralLicense,104
+FSF/DOR,262
 FSF/dsl,644
-FSF/ecfonts,270
-FSF/ECL2.0,1780
-FSF/eCos11,1796
-FSF/eCos2.0,192
-FSF/Eiffel,143
-FSF/EPL,911
-FSF/EPL2,143
-FSF/EUDataGrid,312
-FSF/EUPL-1.1,1083
-FSF/EUPL-1.2,1126
-FSF/Expat,158
+FSF/ecfonts,199
+FSF/ECL2.0,852
+FSF/eCos11,1675
+FSF/eCos2.0,111
+FSF/Eiffel,72
+FSF/EPL,841
+FSF/EPL2,1056
+FSF/EUDataGrid,242
+FSF/EUPL-1.1,1012
+FSF/EUPL-1.2,972
+FSF/Expat,83
 FSF/FDLv1.1,1779
-FSF/FDLv1.2,1779
-FSF/FDLv1.3,1779
-FSF/FreeArt,879
-FSF/FreeBSD,191
-FSF/freetype,532
+FSF/FreeArt,776
+FSF/FreeBSD,113
+FSF/freetype,462
 FSF/GNUAllPermissive,89
 FSF/GNUGPLv3,2679
-FSF/gnuplot,179
+FSF/gnuplot,105
 FSF/GNUVerbatim,812
-FSF/GPL-PA,1378
+FSF/GPL-PA,1305
 FSF/GPLFonts,2679
 FSF/GPLOther,2679
 FSF/GPLv2,1311
-FSF/HPND,144
-FSF/IBMPL,929
-FSF/ijg,1768
-FSF/iMatix,335
-FSF/imlib,218
-FSF/intel,551
-FSF/IPAFONT,865
-FSF/ISC,130
+FSF/HPND,73
+FSF/IBMPL,858
+FSF/ijg,1695
+FSF/iMatix,262
+FSF/imlib,149
+FSF/intel,478
+FSF/IPAFONT,765
+FSF/ISC,55
 FSF/Jahia,3281
-FSF/josl,3274
-FSF/JSON,184
+FSF/josl,3202
+FSF/JSON,86
 FSF/LGPLv2.1,1984
 FSF/LGPLv3,663
-FSF/Lha,481
-FSF/LPPL-1.2,1063
-FSF/LPPL-1.3a,1340
-FSF/lucent102,943
-FSF/ModifiedBSD,176
-FSF/MPL,1806
-FSF/MPL-2.0,1186
-FSF/ms-pl,266
-FSF/ms-rl,296
-FSF/Ms-SS,341
-FSF/NASA,1161
-FSF/NCSA,182
-FSF/newOpenLDAP,238
-FSF/Nokia,1534
-FSF/NOSL,1881
-FSF/NPL-1.0,2125
-FSF/NPL-1.1,2125
-FSF/OculusRift,1352
-FSF/ODbl,1859
-FSF/oldOpenLDAP,245
+FSF/Lha,405
+FSF/LPPL-1.2,991
+FSF/LPPL-1.3a,1268
+FSF/lucent102,872
+FSF/ModifiedBSD,99
+FSF/MPL-2.0,1115
+FSF/MPL,1730
+FSF/ms-pl,197
+FSF/ms-rl,227
+FSF/Ms-SS,253
+FSF/NASA,1051
+FSF/NCSA,109
+FSF/newOpenLDAP,168
+FSF/Nokia,1460
+FSF/NOSL,1809
+FSF/NPL-1.0,2054
+FSF/NPL-1.1,2054
+FSF/OculusRift,1267
+FSF/ODbl,1781
+FSF/oldOpenLDAP,174
 FSF/OpenContentL,334
 FSF/OpenPublicationL,477
-FSF/OpenPublicL,1578
-FSF/OpenSSL,502
-FSF/OriginalBSD,237
-FSF/OSL-1.0,905
-FSF/OSL-1.1,905
-FSF/OSL-2.0,905
-FSF/OSL-2.1,905
-FSF/OSL-3.0,905
-FSF/Phorum,268
-FSF/PHP-3.01,296
-FSF/PINE,398
-FSF/PPL,1492
-FSF/PublicDomain,150
-FSF/Python,1009
-FSF/Python1.6a2,388
-FSF/Python1.6b1,351
-FSF/Python2.0,351
-FSF/Python2.1,351
-FSF/QPL,403
-FSF/RPL,2579
-FSF/RPSL,2428
-FSF/Ruby,226
-FSF/Scilab,1253
-FSF/Scratch,240
-FSF/SGIFreeB,187
-FSF/SILOFL-1.0,389
-FSF/SILOFL-1.1,389
+FSF/OpenPublicL,1491
+FSF/OpenSSL,433
+FSF/OriginalBSD,156
+FSF/OSL-3.0,828
+FSF/Phorum,199
+FSF/PHP-3.01,226
+FSF/PINE,308
+FSF/PPL,1402
+FSF/PublicDomain,79
+FSF/Python,940
+FSF/Python1.6a2,316
+FSF/Python1.6b1,279
+FSF/Python2.0,279
+FSF/Python2.1,279
+FSF/QPL,333
+FSF/RPL,2482
+FSF/RPSL,2356
+FSF/Ruby,156
+FSF/Scilab,1165
+FSF/Scratch,172
+FSF/SGIFreeB,115
+FSF/SILOFL-1.1,314
 FSF/SISSL,1153
-FSF/SML,325
-FSF/SPL,1786
-FSF/Squeak,829
-FSF/StandardMLofNJ,155
-FSF/SunCommunitySourceLicense,3170
+FSF/SML,251
+FSF/SPL,1715
+FSF/Squeak,753
+FSF/StandardMLofNJ,84
+FSF/SunCommunitySourceLicense,3083
 FSF/SystemC-3.0,23
-FSF/Truecrypt-3.0,1750
-FSF/Unicode,347
-FSF/Unlicense,156
-FSF/UPL,205
+FSF/Truecrypt-3.0,1680
+FSF/Unicode,274
+FSF/Unlicense,88
+FSF/UPL,133
 FSF/UtahPublicLicense,896
-FSF/Vim,1117
-FSF/W3C,296
-FSF/WebM,184
+FSF/Vim,1046
+FSF/W3C,225
+FSF/WebM,109
 FSF/WTFPL-2.0,32
-FSF/X11License,163
-FSF/XFree861.1License,242
-FSF/xinetd,211
-FSF/Yahoo,712
-FSF/Zend,268
+FSF/X11License,94
+FSF/XFree861.1License,172
+FSF/xinetd,142
+FSF/Yahoo,641
+FSF/Zend,197
 FSF/Zimbra,700
-FSF/ZLib,156
+FSF/ZLib,84
 FSF/Zope,297
-FSF/Zope2.0,253
-FSF/Zope2.1,253
+FSF/Zope2.1,176
 Approved/ACDL-1.0,646
+Approved/ACM Software License Agreement,279
+Approved/ANTLR 4 License,116
+Approved/Apache licensed NOTICE,16
+Approved/Apache Portable runtime License,540
+Approved/Apache Software Foundation + OWN products NOTICE(1),42
+Approved/Apache Software Foundation products NOTICE(0),16
+Approved/Apache Software Foundation products NOTICE(1),16
 Approved/Apache Software Foundation products NOTICE,16
 Approved/Apache-1.0,203
+Approved/Apache-1.1 based Ant-Contrib License,179
+Approved/Apache-1.1 by Werken Company,147
+Approved/Apache-1.1 in comments,165
 Approved/Apache-1.1,189
+Approved/Apache-2.0 + BSD 3-Clause,59
 Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice,886
 Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,1826
 Approved/Apache-2.0 + BSD-3-Clause + MIT NOTICE,12
+Approved/Apache-2.0 + CC-BY-2.5 License,1683
+Approved/Apache-2.0 + JCIP-ANNOTATIONS NOTICE,32
+Approved/Apache-2.0 + NIST AES NOTICE,106
+Approved/Apache-2.0 + OWN CREDITS NOTICE,57
+Approved/Apache-2.0 + WTFPL License,828
+Approved/Apache-2.0 based Aerospike Client License,1282
+Approved/Apache-2.0 License(1),792
+Approved/Apache-2.0 licensed NOTICE(1),22
+Approved/Apache-2.0 licensed NOTICE(2),24
+Approved/Apache-2.0 licensed NOTICE(3),24
+Approved/Apache-2.0 licensed NOTICE(4),25
 Approved/Apache-2.0 licensed NOTICE,24
 Approved/Apache-2.0(1),706
 Approved/Apache-2.0(2),792
 Approved/APSL-2.0,1527
+Approved/Arev Fonts License,192
 Approved/Arphic,504
 Approved/ASM=Java_bytecode_manipulation_framework,119
+Approved/Atlassian purchase-licensing,4131
+Approved/Atomikos Source Code Access Agreeement,502
+Approved/BEA JSR 173 RI License,1267
+Approved/BeOpen Python2 NOTICE,772
 Approved/BerkeleyDB,522
 Approved/BitTorrentOSL1.1,2034
+Approved/BSD-2-Clause + author LICENSE(2),99
+Approved/BSD-2-Clause + author LICENSE,96
+Approved/BSD-3-Clause (continued-line) LICENSE(2),113
+Approved/BSD-3-Clause (continued-line) LICENSE,109
+Approved/BSD-3-Clause for Atlassian,104
+Approved/BSD-3-Clause for Ecma International,263
+Approved/BSD-3-Clause for HSQL Development Group,255
+Approved/BSD-3-Clause for ROX.jar license,118
+Approved/BSD-3-Clause for syntevo GmbH, Freilassing, GERMANY,124
+Approved/BYOL and Oversubscription,884
+Approved/bzip2 license,136
+Approved/CC-BY-NC-ND-3.0-US,1068
+Approved/CC-BY-SA-3.0-US,1315
+Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License,160
 Approved/CDDL + GPL-2.0-with-classpath-exception,2605
 Approved/CNRI-DOR,262
+Approved/Commercial Vaadin Add-On License version 3,1208
 Approved/Condor-1.1,664
+Approved/Couchbase Community Edition License Agreement,190
 Approved/Cryptix,104
-Approved/CUP_parser,113
+Approved/CUP Parser Generator License,128
+Approved/Day JCR License,94
+Approved/Day Specification License,532
 Approved/DESIGN_SCIENCE,632
+Approved/DOM4J by MetaStuff,139
+Approved/EDL-1.0,115
 Approved/edl-v10,115
+Approved/Election of GPLv2 for MySQL ConnectorJ,1595
+Approved/EPL-1.0 + Apache-2.0 for Jetty NOTICE,31
 Approved/epl-v10,841
 Approved/Expat,83
+Approved/ExtremeTransactions Development License,450
+Approved/FasterXML_CREDITS_NOTICE,70
 Approved/Free-Art-L-1.3,776
 Approved/FreeBSDDL,113
+Approved/Google Cloud Platform License Agreement,3467
+Approved/Google Cloud Platform Terms,3560
+Approved/GPL-2.0 + BSD-3-Clause for wireshark,1911
+Approved/GPL-2.0 + MIT license NOTICE,13
 Approved/GPL-2.0,1069
 Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,13717
+Approved/GPL-3.0 + Python License NOTICE,20
+Approved/GPL-3.0 + Sencha Licensing Notices,628
+Approved/GPL-3.0 + Sencha Software License Agreement,2668
 Approved/GPL-PA-1.1,1305
+Approved/GSBase Software License, Version 1.0,172
+Approved/Harvard Law School Recording License Agreement,166
 Approved/HESSLA,6939
+Approved/Highsoft Standard License Agreement 9.0,2680
+Approved/HSQLDB=BSD Based License,255
+Approved/HTML Tidy by W3C,131
+Approved/ICU + Third-Party Software Licenses,1491
+Approved/Indiana University Extreme! Lab Software License,171
+Approved/Info-ZIP license,306
 Approved/Intel,478
 Approved/IPA_Font_License,710
 Approved/ISC-Contributors-License,58
 Approved/JabberOSLv1.0,3202
+Approved/Java Specification Participation Agreement,2916
+Approved/JCIP-ANNOTATIONS License,891
+Approved/Joda-money Notes,194
 Approved/JPython-1.1.x,311
 Approved/Jython-1,192
 Approved/Jython-2,112
 Approved/LaTeX_ecfonts,199
+Approved/LGPL-2.1 + EPL-1.0 licensing NOTICE,82
+Approved/LGPL-2.1 based Colt License Agreement Notice,91
+Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE,66
+Approved/LGPL-2.1 for logilab-common NOTICE,70
+Approved/LGPL-3.0 + Apaache-2.0 + BSD-3-Clause for PMD InfoEther,1512
+Approved/LGPLv2 + CERN NOTICE,60
 Approved/LHA-SLA,401
+Approved/LICENSE-JJ2000,160
+Approved/Licensed under LGPL NOTICE,60
 Approved/mecab-ipadic-2.7.0-20070801 Notice,276
+Approved/Microsoft Shared Source License,253
+Approved/MIT + Boost  + SGI-B-1.0 for Mesa License NOTICE,200
+Approved/MIT + CC0-1.0 for jquery License,127
+Approved/MIT + COPYRIGHT LLicense,81
+Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + own license NOTICE,87
+Approved/MIT + own products NOTICE,87
+Approved/MIT for Fedor Indutny,88
+Approved/MIT for Qos ch,81
 Approved/MIT-license comment in js.js,17
 Approved/MIT,82
+Approved/MX4J,162
+Approved/MySQL FOSS License Exception,336
+Approved/NanoXML License,70
+Approved/NVIDIA Free,118
 Approved/Oculus_VR_Rift_SDK_License,1267
+Approved/OGC legal NOTICE,501
+Approved/ontotext LICENSE-GraphDB-Free,3009
 Approved/Open Source License for Oracle Berkeley DB Java Edition,934
 Approved/OpenSSL,433
 Approved/OPL-1.0,1491
+Approved/Oracle Binary Code License Agreement,1556
+Approved/Oracle Technology Network License Agreement,1161
 Approved/OriginalBSD,156
+Approved/PCRE2 LICENCE,260
 Approved/Peer-Production,1402
 Approved/PINE,308
+Approved/PUPL - Paid Use Permissive License,371
+Approved/Python Imaging Library License,98
 Approved/Python-1.6a2,337
 Approved/Python-1.6b1,297
+Approved/QOS SLF4J license,86
+Approved/QuickFIX License,159
+Approved/resin pro licenses NOTICE,144
 Approved/RPL-1.3,2482
+Approved/Ruby,163
 Approved/SCILAB,1165
 Approved/Scratch-1.4,172
 Approved/SimpleM-1.1,251
 Approved/SISSL-1.1,1084
 Approved/Sleepycat,369
 Approved/SmartBear - On PremSoftware Licensing Terms of Use,5759
+Approved/Sonatype END USER LICENSE AGREEMENT,3000
 Approved/Squeak-old,753
+Approved/sRGB Color Space Profile.icm License,63
+Approved/sRGB Profile Licensing Agreement,46
 Approved/StandardML-NJ,87
+Approved/Sun Microsystems Binery Code License,794
 Approved/SunCSLv2.8,3083
 Approved/SystemC_Open_Source_License,2808
+Approved/Tanuki Software license,3856
+Approved/tcp_wrappers_license,72
+Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA,205
+Approved/The CyberNeko Software License, Version 1.0,154
+Approved/TRILEAD-LICENSE,353
 Approved/TrueCrypt-3.0,1680
+Approved/UCB-LB license,156
+Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE,273
+Approved/universal-foss-exception,234
+Approved/UnRar license,116
 Approved/UtahPublicLicense,896
 Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,297
 Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software,268
 Approved/Watcom-1.0,1587
 Approved/WebM,109
+Approved/WSO2 Commercial License 1.0,697
+Approved/WSO2 Commercial License 2.0,184
 Approved/WTFPL-1.0,27
 Approved/WTFPL-2.0,35
 Approved/X11,94
 research/cucumber-sandwich.jar#/asm-license,112
 research/cucumber-sandwich.jar#/cglib-license,792
 research/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,90
-research/cucumber-sandwich.jar#/charts/flash_charts.zip#/charts/AC_RunActiveContent.js,612
-research/cucumber-sandwich.jar#/charts/js.zip#/js/g.bar-min.js,470
-research/cucumber-sandwich.jar#/charts/js.zip#/js/g.pie-min.js,458
-research/cucumber-sandwich.jar#/charts/js.zip#/js/g.raphael-min.js,252
-research/cucumber-sandwich.jar#/charts/js.zip#/js/highcharts.js,4527
-research/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.enumerable.js,197
-research/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.min.js,2834
-research/cucumber-sandwich.jar#/charts/js.zip#/js/jquery.tufte-graph.js,362
-research/cucumber-sandwich.jar#/charts/js.zip#/js/raphael.js,824
 research/cucumber-sandwich.jar#/hamcrest-license,113
 research/cucumber-sandwich.jar#/LICENSE,82
 research/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.TXT,171
-research/cucumber-sandwich.jar#/licenses/javolution.license.TXT,107
 research/cucumber-sandwich.jar#/licenses/thoughtworks.TXT,118
 research/cucumber-sandwich.jar#/NOTICE,18
 research/cucumber-sandwich.jar#/objenesis-license,81
@@ -650,102 +821,55 @@ research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/lib/HdrHistogram-2.1.9.jar#/META-INF/maven/org.hdrhistogram/HdrHistogram/pom.xml,272
-research/elasticsearch-6.2.3/lib/hppc-0.7.1.jar#/META-INF/MANIFEST.MF,13
-research/elasticsearch-6.2.3/lib/hppc-0.7.1.jar#/META-INF/maven/com.carrotsearch/hppc/pom.xml,429
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/LICENSE,30
-research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/MANIFEST.MF,153
-research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml,180
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/META-INF/NOTICE,70
-research/elasticsearch-6.2.3/lib/jackson-dataformat-cbor-2.8.10.jar#/META-INF/MANIFEST.MF,171
-research/elasticsearch-6.2.3/lib/jackson-dataformat-cbor-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/pom.xml,79
-research/elasticsearch-6.2.3/lib/jackson-dataformat-smile-2.8.10.jar#/META-INF/MANIFEST.MF,175
-research/elasticsearch-6.2.3/lib/jackson-dataformat-smile-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/pom.xml,70
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/LICENSE,29
-research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/MANIFEST.MF,210
-research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/pom.xml,214
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/META-INF/NOTICE,70
-research/elasticsearch-6.2.3/lib/jna-4.5.1.jar#/META-INF/MANIFEST.MF,345
 research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/MANIFEST.MF,118
-research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/META-INF/maven/joda-time/joda-time/pom.xml,1165
-research/elasticsearch-6.2.3/lib/jopt-simple-5.0.2.jar#/META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml,323
-research/elasticsearch-6.2.3/lib/jts-1.13.jar#/META-INF/MANIFEST.MF,13
-research/elasticsearch-6.2.3/lib/jts-1.13.jar#/META-INF/maven/com.vividsolutions/jts/pom.xml,210
 research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/MANIFEST.MF,314
-research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/maven/org.apache.logging.log4j/log4j-api/pom.xml,383
 research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/META-INF/NOTICE,18
 research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/MANIFEST.MF,2572
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/maven/org.apache.logging.log4j/log4j-core/pom.xml,667
 research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/META-INF/NOTICE,23
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/META-INF/LICENSE,1826
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/META-INF/LICENSE,1826
 research/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-core-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-core-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-core-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-grouping-7.2.1.jar#/META-INF/LICENSE,1826
 research/elasticsearch-6.2.3/lib/lucene-grouping-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-highlighter-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-join-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-memory-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-misc-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-queries-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-queryparser-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-sandbox-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-spatial-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-spatial-extras-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-spatial-extras-7.2.1.jar#/META-INF/MANIFEST.MF,47
 research/elasticsearch-6.2.3/lib/lucene-spatial-extras-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/META-INF/NOTICE,886
 research/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/lib/securesm-1.2.jar#/META-INF/maven/org.elasticsearch/securesm/pom.xml,91
-research/elasticsearch-6.2.3/lib/snakeyaml-1.17.jar#/META-INF/maven/org.yaml/snakeyaml/pom.xml,580
-research/elasticsearch-6.2.3/lib/spatial4j-0.6.jar#/META-INF/maven/org.locationtech.spatial4j/spatial4j/pom.xml,383
-research/elasticsearch-6.2.3/lib/t-digest-3.0.jar#/META-INF/MANIFEST.MF,13
-research/elasticsearch-6.2.3/lib/t-digest-3.0.jar#/META-INF/maven/com.tdunning/t-digest/pom.xml,198
 research/elasticsearch-6.2.3/LICENSE,792
 research/elasticsearch-6.2.3/modules/aggs-matrix-stats/aggs-matrix-stats-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/ingest-common/ingest-common-6.2.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/ingest-common/jcodings-1.0.12.jar#/META-INF/maven/org.jruby.jcodings/jcodings/pom.xml,98
-research/elasticsearch-6.2.3/modules/ingest-common/joni-2.1.6.jar#/META-INF/maven/org.jruby.joni/joni/pom.xml,142
-research/elasticsearch-6.2.3/modules/lang-expression/antlr4-runtime-4.5.1-1.jar#/META-INF/MANIFEST.MF,191
-research/elasticsearch-6.2.3/modules/lang-expression/antlr4-runtime-4.5.1-1.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml,53
 research/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/META-INF/LICENSE,1826
-research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/META-INF/MANIFEST.MF,46
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/META-INF/NOTICE,886
-research/elasticsearch-6.2.3/modules/lang-mustache/compiler-0.9.3.jar#/META-INF/MANIFEST.MF,13
-research/elasticsearch-6.2.3/modules/lang-mustache/compiler-0.9.3.jar#/META-INF/maven/com.github.spullara.mustache.java/compiler/pom.xml,119
 research/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/lang-painless/antlr4-runtime-4.5.3.jar#/META-INF/MANIFEST.MF,191
-research/elasticsearch-6.2.3/modules/lang-painless/antlr4-runtime-4.5.3.jar#/META-INF/maven/org.antlr/antlr4-runtime/pom.xml,53
 research/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/lang-painless/lang-painless-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/META-INF/LICENSE,792
@@ -753,42 +877,36 @@ research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/META-INF
 research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/MANIFEST.MF,2860
-research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/maven/commons-codec/commons-codec/pom.xml,374
 research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/NOTICE,72
 research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/MANIFEST.MF,156
-research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/maven/commons-logging/commons-logging/pom.xml,574
 research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/META-INF/NOTICE,18
 research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/MANIFEST.MF,57
-research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml,126
 research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/META-INF/NOTICE,17
 research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/MANIFEST.MF,57
-research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml,158
 research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/META-INF/NOTICE,17
 research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/LICENSE,1683
-research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/MANIFEST.MF,64
-research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml,117
-research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/NOTICE,32
+research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/META-INF/NOTICE,30
 research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/MANIFEST.MF,60
-research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml,112
 research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/META-INF/NOTICE,18
 research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/META-INF/LICENSE,792
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-buffer-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-buffer/pom.xml,19
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-4.1.16.Final.jar#/META-INF/MANIFEST.MF,342
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-codec/pom.xml,76
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-codec-http-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-codec-http/pom.xml,32
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-common-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-common/pom.xml,179
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-common-4.1.16.Final.jar#/META-INF/maven/org.jctools/jctools-core/pom.xml,146
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-handler-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-handler/pom.xml,71
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-resolver-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-resolver/pom.xml,19
-research/elasticsearch-6.2.3/modules/transport-netty4/netty-transport-4.1.16.Final.jar#/META-INF/maven/io.netty/netty-transport/pom.xml,25
 research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/META-INF/LICENSE,792
 research/elasticsearch-6.2.3/NOTICE,13717
-research/elasticsearch-6.2.3/README.textile,775
+research/node_modules/protractor/LICENSE,81
+research/node_modules/protractor/node_modules/glob/LICENSE,99
+research/node_modules/protractor/node_modules/glob/test/readme-issue.js,69
+research/node_modules/protractor/node_modules/lodash/LICENSE,89
+research/node_modules/protractor/node_modules/mime-db/LICENSE,85
+research/node_modules/protractor/node_modules/mime-types/LICENSE,85
+research/node_modules/protractor/node_modules/minimatch/LICENSE,82
+research/node_modules/protractor/node_modules/qs/LICENSE,119
+research/node_modules/protractor/node_modules/request/lib/copy.js,15
+research/node_modules/protractor/node_modules/request/LICENSE,706
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/asm-license,119
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/LICENSE,113
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/LICENSE-junit,842
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/LICENSE,792
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/NOTICE,72
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/NOTICE,11
