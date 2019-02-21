@@ -1,14 +1,16 @@
 import os
 import urllib.request
 from bs4 import BeautifulSoup
+import re
 import json
 from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
 import html5lib # for BeautifulSoup parser
 
 encode_detector = UniversalDetector()
-if not os.path.isfile('./config/FSF-licenses-full.json'): 
+license_metaData = {}
+if not os.path.isfile('./config/ONI-licenses-full.json'): 
   try:
-    with urllib.request.urlopen('https://wking.github.io/fsf-api/licenses-full.json') as res:
+    with urllib.request.urlopen('https://opensource.org/licenses/alphabetical') as res:
         body = res.read()
     encode_detector.reset()
     encode_detector.feed( body)
@@ -18,10 +20,12 @@ if not os.path.isfile('./config/FSF-licenses-full.json'):
     else:
         encode_detector.close()
         raw_doc =  body.decode('utf-8', errors='ignore')
-    f = open("./config/FSF-licenses-full.json", "w", encoding='utf-8')
-    f.write(raw_doc)
-    f.close()
-    license_metaData = json.loads(raw_doc)
+    for licLink, licFullName,licShortName in re.findall(r"<li><a href=\"(\/licenses\/[^\"]+)\"\s*>\s*(?:[^\/]+\/)?([^\(\/<]+)(?:\(([^\)<]+)\))?<\/a>",  raw_doc):
+        if len(licShortName) <= 0:
+            licShortName = licLink[10:]
+        license_metaData[licFullName.strip()] = {'id': licShortName , 'url': 'https://opensource.org' + licLink }
+    with open('./config/ONI-licenses-full.json', 'w') as outfile:
+      json.dump(license_metaData, outfile, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
   except urllib.error.HTTPError as err:
     print( 'licenses.json get failed', err)
     exit(1)
@@ -29,18 +33,17 @@ if not os.path.isfile('./config/FSF-licenses-full.json'):
     print( 'licenses.json get failed', err)
     exit(1)
 else:
-    f = open("./config/FSF-licenses-full.json", "r")
+    f = open("./config/ONI-licenses-full.json", "r")
     # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
     license_metaData = json.load(f)
     # ファイルを閉じる
     f.close()
-for licName,licMetaData in license_metaData['licenses'].items():
+
+for licName,licMetaData in license_metaData.items():
     lic_count = 0
-    if (len(licMetaData.get('uris', [])) > 0):
-        for url in licMetaData['uris']:
-            if not url.startswith("https://www.gnu.org/licenses/license-list.html"):
-                req = urllib.request.Request(url)
-                try:
+    url = licMetaData['url']
+    req = urllib.request.Request(url)
+    try:
                     with urllib.request.urlopen(req) as res:
                         body = res.read()
                         contentType = (res.info().get('Content-Type', ''))
@@ -54,25 +57,21 @@ for licName,licMetaData in license_metaData['licenses'].items():
                         raw_doc =  body.decode('utf-8', errors='ignore')
                     try:
                         soup = BeautifulSoup(raw_doc, 'html5lib')
-                        licSuffix = ""
-                        if  url.startswith("https://directory.fsf.org/wiki") or url.startswith("http://directory.fsf.org/wiki"):
-                            raw_doc = soup.find('pre').text
-                            licSuffix = '.txt'
-                        else:
-                            # kill all script and style elements
-                            for script in soup(["script", "style", "noscript","h1", "h2", "h3", "hr", "input", "button", "aside", "form", "label", "a"]):
+                        # kill all script and style elements
+                        for script in soup(["script", "style", "noscript","h1", "h2",  "hr", "em", "input", "button", "aside", "form", "label", "a", "div[class=\"license\"]"]):
                                 script.extract()    # rip it out
-                            raw_doc = soup.get_text()
+                        raw_doc =  re.sub("[\\s\\n]+(?:SPDX short identifier:[^\\n]*)?\\n","\n",soup.find('div', id="page" ).get_text())
+                        licSuffix = ".txt"
                     finally:
                         pass 
                     print(licName + licSuffix ,contentType, url) 
-                    f = open('./FSF_texts/' + licName + licSuffix ,  "w", encoding='utf-8')
+                    f = open('./ONI_texts/' + licName + licSuffix ,  "w", encoding='utf-8')
                     f.write(raw_doc)
                     f.close()
                     lic_count = lic_count  + 1
-                except urllib.error.HTTPError as err:
+    except urllib.error.HTTPError as err:
                     print( licName, url, err.code)
-                except urllib.error.URLError as err:
+    except urllib.error.URLError as err:
                     print( licName, url, err.reason)
     if  lic_count <= 0:
         print(licName, '** no text found **')
