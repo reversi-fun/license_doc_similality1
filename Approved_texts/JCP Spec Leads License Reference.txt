@@ -1,0 +1,60 @@
+Spec Leads License Reference
+
+Sample RI/TCK license options | Specification license templates
+In the PMO, we talk about licenses and business terms at different times. The PMO gave a presentation on 25 June 2008 outlining the differences between these and when they need to be provided in the process. View that presentation here.
+
+Sample RI/TCK Licensing Options
+Here are some of the licensing options currently available to spec leads developing JSRs through the JCP program. 
+ 
+The Java Community Process (JCP) program gives spec leads expanded freedom to choose which technology licenses to use for their specific Reference Implementation (RI) and Technical Compatibility Kit (TCK) needs. 
+ 
+The technology license legally binds developers and users to an agreement designed to protect the compatibility of the Java platform, the intellectual property of the developer, and the ability of the recipient to use the technology. Each Java Specification Request (JSR) comes with a unique set of licensing needs, and no one has created the perfect license for all. 
+ 
+The JCP program requires licenses that encourage the creation of compatible (independent and derived) implementations and discourage others. Here are some of the licenses currently in use, which you can use also. For more information, refer to the jcp.org article, Java Technology Licensing Update and the Spec Lead Guide.
+ 
+
+JRL
+Java Research License
+This simple, lightweight Åginternal developmentÅh license is designed for developers making code base changes or experimenting with code versions prior to distribution. It does not require you to publicly post your source code. ItÅfs primarily for learning and research activities only, not distribution, except among other JRL licensees for the same purpose. When youÅfre ready for distribution, itÅfs time to move to the JRLÅfs Ågsister license,Åh the Java Distribution License. Read more about the JRL license. 
+ 
+JDL
+Java Distribution License
+When a project is compatible and ready for distribution, the JDL is the recommended license of choice for commercial use. It specifies distribution rights and requirements for commercial or internal use. The JDL is recommended for use by the Program Management Office for the majority of projects, unless another license offers unique benefits for your particular requirements. 
+ 
+Read more about the JDL in the article "How to Contribute Code to Mustang" or by going to Eduardo Pelegri-Llopart's Blog. 
+ 
+Apache License
+This open-source community license has stood the test of time and is highly popular throughout the developer community. It offers virtually unrestricted usage and distribution rights, and is written to provide protection from Ågfrivolous lawsuits.Åh Read more about the Apache License. 
+ 
+CDDL
+Common Development and Distribution License 
+The CDDL, which was approved by the Open Source Initiative's (OSI) board of directors in 2005, is based on the well-regarded Mozilla Public License (MPL). Sun, in partnership with members of the open source community, created a license based upon the MPL that is shorter, clearer, has simplified notice requirements, and contains strong protections against patent litigation. 
+ 
+The CDDL was also created to be a reusable license that would be attractive to other open source efforts, so that other projects with similar community and licensing goals would not need to create a new license. Read more detailed information on the CDDL license. 
+ 
+CPL
+Common Public License
+IBM designed this license to allow developers to collaborate and combine code with software under other licenses. It also has provisions to protect developers from marketplace predators. JSR 80, Java USB API, uses the CPL. 
+ 
+OSL
+Open Specification License
+The OSL was created by the spec lead and team members on JSR 87, Java Agent Services. It offers broad distribution freedoms but was written to enforce JSR specification usage and compliance.
+ 
+SISSL
+Sun Industry Standards Source License
+SISSL is similar to the open source Berkeley Software Design, Inc. (BSD) license. It encourages compatibility by requiring only incompatible implementation source code to be publicly posted, allowing privatization of compatible implementations.
+ 
+SCSL
+Sun Community Source License
+SCSL was introduced in 1998, and is being replaced by simpler licenses today. It is now used primarily as an option for the Software Development Kit, and it does require development source code to be publicly posted.
+ 
+SPL
+Sun Public License
+Another option, the Sun Public License (SPL), is similar to the Mozilla license. It requires developers to post the source code for incompatible implementations, derivatives, and enhancements, and update subsequent changes they make to the code, for other developers to use. 
+ 
+The SPL was created by Sun Microsystems after working with the Mozilla organization and seeing how such a license can propel a development communityÅfs momentum.
+
+Specification License Templates
+For all public postings of your JSR, the PMO will create a spec license, which will be used as a click through license for the posting. If you wish to use that license within your specification file, please provide the version number of the specific version of the spec to be posted, (N/A/ if there is none), the date for the posting, and the full corporate name and address of the Spec Lead Member, all before submitting the materials for the stage posting. The PMO should provide the license within 2 business days of receiving your request. Here is the license template for non-final JSRs, the license template for evaluating final JSRs and the license template for implementing final JSRs. 
+  
+Please note that if you choose to provide your own license for any submission, your submission must go through legal review and therefore the PMO cannot guarantee the regular turnaround time for posting your spec. 

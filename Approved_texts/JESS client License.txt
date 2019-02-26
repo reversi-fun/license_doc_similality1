@@ -1,0 +1,153 @@
+﻿http://www.jeplus.org/wiki/doku.php?id=jess:client_lic
+Software Licence
+PLEASE READ CAREFULLY BEFORE DOWNLOADING ANY SOFTWARE FROM THIS WEBSITE:
+
+This licence agreement (Licence) is a legal agreement between you (Licensee or you) and Energy Simulation Solutions Limited of 40 Edward Street, Anstey, Leicester, LE7 7DQ, United Kingdom (Licensor, us or we) for:
+
+JESS Client Version 2.0 computer software (Software); and
+online or electronic documentation (Documentation).
+We licence use of the Software and Documentation to you on the basis of this Licence. We do not sell the Software or Documentation to you. We remain the owners of the Software and Documentation at all times.
+
+The Software uses software libraries that are separate and distinct from the Software (“Libraries”). The Libraries are open source software and their use is governed by the Apache licence (v2.0) (http://www.apache.org/licenses/LICENSE-2.0). You are licensed the use of the Libraries on the basis of the Apache licence (v2.0). When the word “Software” is used in this Licence, it does NOT include the Libraries.
+
+IMPORTANT NOTICE TO ALL USERS:
+
+BY DOWNLOADING THE SOFTWARE FROM THIS WEBSITE YOU AGREE TO THE TERMS OF THIS LICENCE WHICH WILL BIND YOU AND YOUR EMPLOYEES. THE TERMS OF THIS LICENCE INCLUDE, IN PARTICULAR, LIMITATIONS ON LIABILITY IN CONDITION 5.
+IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENCE, WE WILL NOT LICENSE THE SOFTWARE AND DOCUMENTATION TO YOU AND YOU MUST DISCONTINUE THE DOWNLOADING PROCESS NOW BY CLICKING ON THE “I do NOT agree” LINK BELOW. IN THIS CASE THE DOWNLOADING PROCESS WILL TERMINATE.
+You should print a copy of this Licence for future reference.
+
+1.	GRANT AND SCOPE OF LICENCE
+1.1	The Software is still in its developmental stage and as such we expect it still contains inherent errors and omissions. Accordingly, we are making the Software freely available for testing purposes. Provided you agree to abide by the terms of this Licence, we hereby grant to you a non-exclusive, non-transferable licence to use the Software and the Documentation worldwide on the terms of this Licence.
+
+1.2	You may:
+
+a)	download, install and use the Software for your internal business purposes only;
+
+b)	make reasonable copies of the Software for back-up purposes only;
+
+c)	receive and use any free supplementary software code or update of the Software incorporating “patches” and corrections of errors as may be provided by us from time to time; and
+
+d)	use any Documentation in support of the use permitted under condition 1.2.
+
+2.	RESTRICTIONS
+Except as expressly set out in this Licence or as permitted by any local law, you undertake:
+
+a)	not to copy the Software or Documentation except where such copying is incidental to normal use of the Software, or where it is necessary for the purpose of back-up or operational security;
+
+b)	not to rent, lease, sub-license, loan, translate, merge, adapt, vary or modify the Software or Documentation;
+
+c)	not to make alterations to, or modifications of, the whole or any part of the Software, nor permit the Software or any part of it to be combined with, or become incorporated in, any other programs;
+
+d)	not to disassemble, decompile, reverse engineer or create derivative works based on, the whole or any part of the Software nor attempt to do any such thing except to the extent that (by virtue of section 296A of the Copyright, Designs and Patents Act 1988) such actions cannot be prohibited because they are essential for the purpose of achieving inter-operability of the Software with another software program, and provided that the information obtained by you during such activities:
+
+i)	is used only for the purpose of achieving inter-operability of the Software with another software program; and
+
+ii)	is not unnecessarily disclosed or communicated without our prior written consent to any third party; and
+
+iii)	is not used to create any software which is substantially similar to the Software;
+
+e)	to supervise and control use of the Software and ensure that the Software is used by your employees and representatives in accordance with the terms of this Licence;
+
+f)	to include our copyright notice on all entire and partial copies you make of the Software on any medium; and
+
+g)	not to provide or otherwise make available the Software in whole or in part (including but not limited to program listings, object and source program listings, object code and source code), in any form to any person without prior written consent from us
+
+3.	INTELLECTUAL PROPERTY RIGHTS
+3.1	You acknowledge that all intellectual property rights in the Software and the Documentation anywhere in the world belong to us, that rights in the Software are licensed (not sold) to you, and that you have no rights in, or to, the Software or the Documentation other than the right to use them in accordance with the terms of this Licence.
+
+3.2	You acknowledge that you have no right to have access to the Software in source code form or in unlocked coding or with comments.
+
+4.	NO WARRANTY
+4.1	The Software and the Documentation are provided to you on an “as is” basis.
+
+4.2	If you notify us that the Software or Documentation contains an error or omission, we will use reasonable commercial endeavours to correct such error or omission in due course. The use of such reasonable commercial endeavours constitutes your sole and exclusive remedy in relation to such error or omission.
+
+4.3	Notwithstanding the foregoing, we:
+
+a)	do not warrant that your use of the Software will be uninterrupted or error-free; or that the Software, Documentation and/or the information or results obtained by you through use of the Software will meet your requirements; and
+
+b)	do not warrant that any error or omission you inform us of will be corrected or correctable.
+
+4.4	Our obligation in clause 4.2 does not apply:
+
+a)	if the defect or fault in the Software results from you having amended the Software; or
+
+b)	if the defect or fault in the Software results from you having used the Software in contravention of the terms of this Licence.
+
+5.	LIMITATION OF LIABILITY
+5.1	You acknowledge that the Software has not been developed to meet your individual requirements, and that it is therefore your responsibility to ensure that the facilities and functions of the Software as described in the Documentation meet your requirements.
+
+5.2	We shall not under any circumstances whatever be liable to you, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, arising under or in connection with the Licence for:
+
+a)	loss of profits, sales, business, or revenue;
+
+b)	business interruption;
+
+c)	loss of anticipated savings;
+
+d)	loss or corruption of data or information;
+
+e)	loss of business opportunity, goodwill or reputation; or
+
+f)	increased office or management time;
+
+whether the same are direct, indirect or consequential.
+
+5.3	Other than the losses set out in condition 5.2 (for which we are not liable), our maximum aggregate liability under or in connection with this Licence whether in contract, tort (including negligence) or otherwise, shall in all circumstances be limited to £100. This maximum cap does not apply to condition 5.4.
+
+5.4	Nothing in this Licence shall limit or exclude our liability for:
+
+a)	death or personal injury resulting from our negligence;
+
+b)	fraud or fraudulent misrepresentation;
+
+c)	any other liability that cannot be excluded or limited by English law.
+
+5.5	This Licence sets out the full extent of our obligations and liabilities in respect of the supply of the Software and Documentation. Except as expressly stated in this Licence, there are no conditions, warranties, representations or other terms, express or implied, that are binding on us. Any condition, warranty, representation or other term concerning the supply of the Software and Documentation which might otherwise be implied into, or incorporated in, this Licence whether by statute, common law or otherwise, is excluded to the fullest extent permitted by law.
+
+6.	TERMINATION
+6.1	Either of us may terminate this Licence immediately by written notice to the other.
+
+6.2	Upon termination for any reason:
+
+a)	all rights granted to you under this Licence shall cease;
+
+b)	you must immediately cease all activities authorised by this Licence; and
+
+c)	you must immediately delete or remove the Software from all computer equipment in your possession, and immediately destroy or return to us (at the our option) all copies of the Software and Documentation then in your possession, custody or control and, in the case of destruction, certify to us that you have done so.
+
+7.	COMMUNICATIONS BETWEEN US
+7.1	If you need to send us any notice, you can send it to us by e-mail or by pre-paid post to Energy Simulation Solutions Limited, 40 Edward Street, Anstey, Leicester, LE7 7DQ, United Kingdom, email: support@ensims.com.
+
+7.2	If we need to send you or give you any notice, we will do so by e-mail or by pre-paid post to the email or postal address registered against your user account.
+
+7.3	Please note that any notice given by you to us, or by us to you, will be deemed received and properly served immediately when posted on our Websites, 24 hours after an e-mail is sent, or three days after the date of posting of any letter. In proving the service of any notice, it will be sufficient to prove, in the case of a letter, that such letter was properly addressed, stamped and placed in the post and, in the case of an e-mail, that such e-mail was sent to the specified e-mail address of the addressee. The provisions of this clause shall not apply to the service of any proceedings or other documents in any legal action.
+
+8.	EVENTS OUTSIDE OUR CONTROL
+8.1	We will not be liable or responsible for any failure to perform, or delay in performance of, any of our obligations under this Licence that is caused by an Event Outside Our Control. An Event Outside Our Control is defined below in condition 8.2.
+
+8.2	An Event Outside Our Control means any act or event beyond our reasonable control, including without limitation failure of public or private telecommunications networks.
+
+8.3	If an Event Outside Our Control takes place that affects the performance of our obligations under this Licence:
+
+a)	our obligations under this Licence will be suspended and the time for performance of our obligations will be extended for the duration of the Event Outside Our Control; and
+
+b)	we will use our reasonable endeavours to find a solution by which our obligations under this Licence may be performed despite the Event Outside Our Control.
+
+9.	OTHER IMPORTANT TERMS
+9.1	We may transfer our rights and obligations under this Licence to another organisation, but this will not affect your rights or our obligations under this Licence.
+
+9.2	You may only transfer your rights or your obligations under this Licence to another person if we agree in writing.
+
+9.3	This Licence and any document expressly referred to in it constitutes the entire agreement between you and us. You acknowledge that you have not relied on any statement, promise or representation made or given by or on behalf of the us which is not set out in this Licence or any document expressly referred to in it.
+
+9.4	If we fail to insist that you perform any of your obligations under this Licence, or if we do not enforce our rights against you, or if we delay in doing so, that will not mean that we have waived our rights against you and will not mean that you do not have to comply with those obligations. If we do waive a default by you, we will only do so in writing, and that will not mean that we will automatically waive any later default by you.
+
+9.5	Each of the conditions of this Licence operates separately. If any court or competent authority decides that any of them are unlawful or unenforceable, the remaining conditions will remain in full force and effect.
+
+9.6	This Licence, its subject matter and its formation (and any non-contractual disputes or claims) are governed by English law. We both agree to the exclusive jurisdiction of the courts of England and Wales.
+
+Select an option below to proceed:
+
+I do NOT agree
+I agree and would like to proceed to download the software

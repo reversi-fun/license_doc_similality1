@@ -627,12 +627,14 @@ Approved/ANTLR 4 License,116
 Approved/Apache licensed NOTICE,16
 Approved/Apache Portable runtime License,540
 Approved/Apache Software Foundation + OWN products NOTICE(1),42
+Approved/Apache Software Foundation products + W3C NOTICE,73
 Approved/Apache Software Foundation products NOTICE(0),16
 Approved/Apache Software Foundation products NOTICE(1),16
 Approved/Apache Software Foundation products NOTICE,16
 Approved/Apache-1.0,203
 Approved/Apache-1.1 based Ant-Contrib License,179
 Approved/Apache-1.1 by Werken Company,147
+Approved/Apache-1.1 for Intalio ExoLab License,158
 Approved/Apache-1.1 in comments,165
 Approved/Apache-1.1,189
 Approved/Apache-2.0 + BSD 3-Clause,59
@@ -640,8 +642,10 @@ Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + me
 Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,1826
 Approved/Apache-2.0 + BSD-3-Clause + MIT NOTICE,12
 Approved/Apache-2.0 + CC-BY-2.5 License,1683
+Approved/Apache-2.0 + CPL-1.0 + Microsoft + Adobe Patent LICENSE,1785
 Approved/Apache-2.0 + JCIP-ANNOTATIONS NOTICE,32
 Approved/Apache-2.0 + NIST AES NOTICE,106
+Approved/Apache-2.0 + overview,801
 Approved/Apache-2.0 + OWN CREDITS NOTICE,57
 Approved/Apache-2.0 + WTFPL License,828
 Approved/Apache-2.0 based Aerospike Client License,1282
@@ -666,12 +670,20 @@ Approved/BitTorrentOSL1.1,2034
 Approved/BSD-2-Clause + author LICENSE(2),99
 Approved/BSD-2-Clause + author LICENSE,96
 Approved/BSD-3-Clause (continued-line) LICENSE(2),113
+Approved/BSD-3-Clause (continued-line) LICENSE(3),113
 Approved/BSD-3-Clause (continued-line) LICENSE,109
+Approved/BSD-3-Clause + MPL-2.0 Licensed NOTICE,143
+Approved/BSD-3-Clause for asm-License,119
 Approved/BSD-3-Clause for Atlassian,104
 Approved/BSD-3-Clause for Ecma International,263
 Approved/BSD-3-Clause for HSQL Development Group,255
+Approved/BSD-3-Clause for many contributors NOTICE(2),119
+Approved/BSD-3-Clause for many contributors NOTICE(3),120
+Approved/BSD-3-Clause for many contributors NOTICE,120
+Approved/BSD-3-Clause for many contributors postmile NOTICE,134
 Approved/BSD-3-Clause for ROX.jar license,118
 Approved/BSD-3-Clause for syntevo GmbH, Freilassing, GERMANY,124
+Approved/BSD-3-Clause or MIT LICENSE,211
 Approved/BYOL and Oversubscription,884
 Approved/bzip2 license,136
 Approved/CC-BY-NC-ND-3.0-US,1068
@@ -679,8 +691,10 @@ Approved/CC-BY-SA-3.0-US,1315
 Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License,160
 Approved/CDDL + GPL-2.0-with-classpath-exception,2605
 Approved/CNRI-DOR,262
+Approved/com.oreilly.servlet license,295
 Approved/Commercial Vaadin Add-On License version 3,1208
 Approved/Condor-1.1,664
+Approved/Copyright-Only Dedication,114
 Approved/Couchbase Community Edition License Agreement,190
 Approved/Cryptix,104
 Approved/CUP Parser Generator License,128
@@ -698,10 +712,13 @@ Approved/ExtremeTransactions Development License,450
 Approved/FasterXML_CREDITS_NOTICE,70
 Approved/Free-Art-L-1.3,776
 Approved/FreeBSDDL,113
+Approved/FullCalendar Scheduler License,179
 Approved/Google Cloud Platform License Agreement,3467
 Approved/Google Cloud Platform Terms,3560
 Approved/GPL-2.0 + BSD-3-Clause for wireshark,1911
 Approved/GPL-2.0 + MIT license NOTICE,13
+Approved/GPL-2.0 Licenced NOTICE,70
+Approved/GPL-2.0 or MIT,151
 Approved/GPL-2.0,1069
 Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,13717
 Approved/GPL-3.0 + Python License NOTICE,20
@@ -722,9 +739,19 @@ Approved/IPA_Font_License,710
 Approved/ISC-Contributors-License,58
 Approved/JabberOSLv1.0,3202
 Approved/Java Specification Participation Agreement,2916
+Approved/JavaSE10 spec license-4417634,775
+Approved/JavaSE8 spec license-2158700,755
+Approved/JavaSE9 spec license-3903847,659
 Approved/JCIP-ANNOTATIONS License,891
+Approved/JCP Spec Leads License Reference,517
+Approved/JDBM LICENSE v1.0,140
+Approved/Jenkins Project Governance Document,2359
+Approved/JESS client License,852
 Approved/Joda-money Notes,194
 Approved/JPython-1.1.x,311
+Approved/JSR Spec Evaluation License,365
+Approved/JSR Spec Implementation License,764
+Approved/JSR-94 Specification Reference Implementation License Agreement,1458
 Approved/Jython-1,192
 Approved/Jython-2,112
 Approved/LaTeX_ecfonts,199
@@ -738,16 +765,20 @@ Approved/LHA-SLA,401
 Approved/LICENSE-JJ2000,160
 Approved/Licensed under LGPL NOTICE,60
 Approved/mecab-ipadic-2.7.0-20070801 Notice,276
+Approved/Micronode - License,124
 Approved/Microsoft Shared Source License,253
+Approved/MIT + based on NOTICE,89
 Approved/MIT + Boost  + SGI-B-1.0 for Mesa License NOTICE,200
 Approved/MIT + CC0-1.0 for jquery License,127
 Approved/MIT + COPYRIGHT LLicense,81
 Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + own license NOTICE,87
 Approved/MIT + own products NOTICE,87
-Approved/MIT for Fedor Indutny,88
-Approved/MIT for Qos ch,81
-Approved/MIT-license comment in js.js,17
+Approved/MIT by contributers LICENSE(1),88
+Approved/MIT by contributers LICENSE(2),125
+Approved/MIT by contributers LICENSE,81
+Approved/MIT licensed NOTICE,11
+Approved/MIT-license comment in js,17
 Approved/MIT,82
 Approved/MX4J,162
 Approved/MySQL FOSS License Exception,336
@@ -762,6 +793,7 @@ Approved/OPL-1.0,1491
 Approved/Oracle Binary Code License Agreement,1556
 Approved/Oracle Technology Network License Agreement,1161
 Approved/OriginalBSD,156
+Approved/OSGi Specification License, Version 2.0,265
 Approved/PCRE2 LICENCE,260
 Approved/Peer-Production,1402
 Approved/PINE,308
@@ -780,6 +812,7 @@ Approved/SimpleM-1.1,251
 Approved/SISSL-1.1,1084
 Approved/Sleepycat,369
 Approved/SmartBear - On PremSoftware Licensing Terms of Use,5759
+Approved/SNAPTREE LICENSE,126
 Approved/Sonatype END USER LICENSE AGREEMENT,3000
 Approved/Squeak-old,753
 Approved/sRGB Color Space Profile.icm License,63
@@ -792,9 +825,13 @@ Approved/Tanuki Software license,3856
 Approved/tcp_wrappers_license,72
 Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA,205
 Approved/The CyberNeko Software License, Version 1.0,154
+Approved/The H2 License, Version 1.0,2166
+Approved/The P6Spy Software License, Version 1.1,208
 Approved/TRILEAD-LICENSE,353
 Approved/TrueCrypt-3.0,1680
+Approved/ubuntu-font-licence-1.0,342
 Approved/UCB-LB license,156
+Approved/UnboundID LDAP SDK Free Use License,465
 Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE,273
 Approved/universal-foss-exception,234
 Approved/UnRar license,116
@@ -808,6 +845,7 @@ Approved/WSO2 Commercial License 2.0,184
 Approved/WTFPL-1.0,27
 Approved/WTFPL-2.0,35
 Approved/X11,94
+Approved/XMLPULL API IS FREE,32
 research/cucumber-sandwich.jar#/asm-license,112
 research/cucumber-sandwich.jar#/cglib-license,792
 research/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,90
