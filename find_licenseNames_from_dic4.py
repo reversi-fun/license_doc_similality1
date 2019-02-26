@@ -14,10 +14,13 @@ import xml
 import xml.etree.ElementTree as ET 
 # 以下はpackage.json読みこみ用
 import json
+# 以下は、ライセンス名の　名寄せ用
+from classPathMatcher  import ClassPathMatcher # current module
+from programId2license import ProgramId2License # current module
 
 ## カスタマイズ可能項目の設定
 topN = 3 # 最大出力するライセンス名の個数
-similarl_low = 0.5 # model.docvecs.most_similarの類似度の下限
+similarl_low = 0.63 # model.docvecs.most_similarの類似度の下限。 node_modules\escape-string-regexp\readme.mdの類似度より大きな値
 similarl_cutoff = 0.95 # [spdx/BSD-2-Clauseとspdx/BSD-3-Clause-Clear]が候補になった場合、類似度の比率で、カットオフする閾値
 projectArtifactId_pattern = re.compile('[\\/\\\\]((?:(?![_-][vVrR]e?r?v?\\d|\\d\\.|\\.jar|\\.war|\\.zip|META-INF)[\\w\\d\\.#@+_-])+)(?:(?:[_-][vV]e?r?|[_-][rR]e?v?|(?=\\d+\\.))(\\d+(?:\\.(?!jar|war|zip)[\\w\\d+_-]+)*))?(?:\\.jar#?|\\.war#?|\\.zip#?|#)(?=[\\/\\\\])|(?:^|(?:^|[\/\\\\])(node_modules|pkgs|site-packages|Library|lib|vendor)[\/\\\\])((?!META-INF|node_modules|pkgs|site-packages|Library|lib|vendor)(?:(?![_-][vVrR]e?r?v?\\d|\\d\\.)[\\w\\d\\.#@+_-])+)(?:(?:[_-][vV]e?r?|[_-][rR]e?v?|(?=\\d+\\.))(\\d+(?:\\.\\d+)*))?(?=[\\/\\\\])|META-INF\\\\maven\\\\([^\\\\]+)\\\\([^\\\\]+)\\\\(?:[^\\\\]+$)')
 
@@ -59,6 +62,9 @@ if  os.path.isfile(toolDirName + "/config/license_alias.csv"):
 else:
     print("not exist ./config/license_alias.csv")
     exit(1)
+
+classPathMatcher1 = ClassPathMatcher()
+programId2license =  ProgramId2License()
 
 def licName2Short(licNames,licURLs):
     return sorted(list(set(
@@ -256,6 +262,8 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                        "\n".join(projectName),
                        "\n".join(projectDescription)
                        ]) 
+          elif classPathMatcher1.match(filePattern):
+              pass
           elif (os.path.splitext(filename)[1]  not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties']) and  any([licenseName in os.path.basename(filename) for licenseName in ['license','LICENSE', 'licence' , 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty' ,'readme','copy','contribut',  'pom']]):
             raw_doc = open(filename, 'rb').read()
             encode_detector.reset()
@@ -310,4 +318,25 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
       except UnicodeDecodeError:
             print("SKIP " , os.path.splitext(filename))
 
+for filePattern,programId in classPathMatcher1.list():
+      md =  re.search(r'^((?!\-\-).)+\-\-((?:(?!\-\-).)+)\-\-(.*)',programId)
+      if md:
+          projectGroup = md.groups(1)[0]
+          projectArtifactId =md.groups(1)[1]
+          projectVersion = md.groups(1)[2]
+          csvWriter.writerow([
+                       'classPathMach',
+                       filePattern,  #　一つのプログラムに多数のOSSが同梱されている場合と、区別できるよう、inDirName配下の相対パスをwindowsPath形式にした文字列。　
+                       0,  # patternType=classPathMachの場合、ファイルサイズは観ない
+                       projectGroup + '--' + projectArtifactId + '--' + projectVersion, # mavenリポジトリ風に、groupId--artifactID--version
+                       ",\n".join(['{:3.5f}'.format(0.25)]),
+                       ",\n".join(licName2Short(programId2license.licNames( projectGroup, projectArtifactId,  projectVersion )),
+                        '', # license URL欄は空
+                        '', # auther欄は空
+                        '',  # relatedURL欄は空
+                        projectArtifactId # name欄はArtifactId
+                       ])
+      else:
+          print('Error in  classPathMatcher interface ', md,filePattern,programId)
+ 
 outFile.close
