@@ -72,6 +72,8 @@ class ProgramId2License:
                     yield ((program_groupId1, program_artifactId1, program_version1), lic_names)
 
     def save(self, iniFileName):
+        if not os.path.isdir(os.path.dirname(iniFileName)):
+            os.makedirs(os.path.dirname(iniFileName))
         with io.open(iniFileName, "w",  encoding="utf_8_sig", errors='ignore') as f:
             for (program_groupId1, program_artifactId1, program_version1), lic_info_list in self.items():
                 programId_str = program_groupId1 + '--' + \
@@ -106,7 +108,7 @@ class ProgramId2License:
         except KeyError:
             return False
 
-    def licNameWithURL(self,  program_groupId1,program_artifactId1 ,  program_version1):
+    def licNameWithURL1(self,  program_groupId1,program_artifactId1 ,  program_version1):
             license_names = []
             if program_version1 in ['', '?', '*']:
                 program_version1 = '0'
@@ -116,8 +118,9 @@ class ProgramId2License:
                         return self. programId2License_dict[program_artifactId1][program_groupId1][program_version1]
             return []
 
-    def licNames(self,  program_groupId1,program_artifactId1 ,  program_version1):
+    def licNameWithUrls(self,  program_groupId1,program_artifactId1 ,  program_version1):
             license_names = []
+            license_urls = []
             if program_version1 in ['', '?', '*']:
                 program_version1 = '0'
             if program_artifactId1 in self. programId2License_dict:
@@ -125,20 +128,23 @@ class ProgramId2License:
                     if (program_version1 not in ['', '0', '?', '*']) and (program_version1 in self. programId2License_dict[program_artifactId1][program_groupId1]):
                         for licName, licURL in self. programId2License_dict[program_artifactId1][program_groupId1][program_version1]:
                             license_names.append(licName)
+                            license_urls.append(licURL)
                     else:
-                        for near_version, lic_names in self. programId2License_dict[program_artifactId1][program_groupId1].items():
+                        for _, lic_names in self. programId2License_dict[program_artifactId1][program_groupId1].items():
                             for licName, licURL in lic_names:
                                 license_names.append(licName)
+                                license_urls.append(licURL)
                 else:
-                    for near_groupId2, grpInfo in self. programId2License_dict[program_artifactId1].items():
-                        for near_version, lic_names in grpInfo:
+                    for _, grpInfo in self.programId2License_dict[program_artifactId1].items():
+                        for _, lic_names in grpInfo.items():
                             for licName, licURL in lic_names:
                                 license_names.append(licName)
-                license_names = list(set(license_names))
+                                license_urls.append(licURL)
+                license_names = sorted(list(set( license_names)), key=lambda w: (w[0].lower(), w[0]))
+                license_urls = sorted(list(set([url1 for url1 in license_urls if len(url1) > 0])))
             else:
                 pass
-            return license_names
-
+            return (license_names, license_urls)
 
 # self test code
 # THIRD-PARTY.propertiesの内容を正規化したファイル（THIRD-PARTY.properties.updated.txt）を作成する。
@@ -149,7 +155,7 @@ if __name__ == '__main__':
                                                             ('annogen','annogen','0'),('asm.wso2','asm','0'),('xmlpull','xmlpull','0'),
                                                             ('net.jcip', 'jcip-annotations', '0'), ('urbanophile', 'java-getopt', '*'), 
                                                             ('xml-apis', 'xml-apis', '0'), ('xml-apis', 'xmlparserapis', '*'), ('xpp3', 'xpp3_xpath', '0')]:
-        print(projectGroup, projectArtifactId, projectVersion, t.licNames(projectGroup, projectArtifactId, projectVersion))
+        print(projectGroup, projectArtifactId, projectVersion, t.licNameWithUrls(projectGroup, projectArtifactId, projectVersion))
     # licenseの条文の類似性によって分類したライセンスの別名を読み込む
     if os.path.isfile("./config/license_alias.csv"):
         with io.open("./config/license_alias.csv", "r",  encoding="utf_8_sig", errors='ignore') as f:

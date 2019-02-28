@@ -49,6 +49,7 @@ class ClassPathMatcher:
         # print(foundData,  self.programID2FileInfoDict[foundData[0]] )
         return True
 
+    # TODO: listメソッドの出力から、pom.xmlから見つかったprogramIdを除外した方がよい。
     def remainDuplicate(self,fileName,programIdStr):
         pass
 
@@ -74,6 +75,7 @@ if __name__ == '__main__':
     print(r.match('c.zip#\\io.netty.handler.codec.http.ddyyy.class'))
     print(r.match('a.war\\google/gson/com.aclass'))
     print(r.match('a.war\\google/gson/com.aclass'))
+    print(r.match('DbUnitService.war#/WEB-INF/lib/hk2-utils-2.2.0.jar#/org/glassfish/hk2/utilities/reflection/Logger$1.class'))
     print('----list of filepath , programId ---')
     for w in r.list():
         print(w)

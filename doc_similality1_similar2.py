@@ -92,8 +92,13 @@ encode_detector = UniversalDetector()
 def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     docs = {}
     for filename in glob.glob(corpus_dir + '/**', recursive=True):
+        filePattern = (filename[len(corpus_dir)+1:] if filename.startswith(corpus_dir) else filename).replace('/', '\\')
         try:
-          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and all([not filename.endswith(suffix) for suffix in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties', '.MF', 'pom.xml']]) and (prefix != 'research' or  any([licenseName in filename for licenseName in ['license','LICENSE', 'licence' , 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty' ,'readme','copy','contribut',  'pom']])): 
+          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and all([not filename.endswith(suffix) for suffix in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties', '.MF', 'pom.xml']]) \
+             and (prefix != 'research'  \
+                or any([licenseName in filename for licenseName in ['license','LICENSE', 'licence' , 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty' ,'readme','copy','contribut',  'pom']])
+                or re.match(r'(?:legal|license.?)[\\\/].+?[\.](?:md|txt|html)$', filePattern, re.IGNORECASE)
+                ): 
             if '.txt' == filename[-4:]:
                 name = prefix + '/' +  filename[len(corpus_dir) + 1:-4]
             else:
@@ -109,7 +114,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
                 encode_detector.close()
                 raw_doc = raw_doc.decode('utf-8', errors='ignore' )
             parsed_words = gensim.parsing.preprocess_string(raw_doc)
-            if len(parsed_words) > 4:
+            if (len(parsed_words) > 4) or (name.startswith('Approved/-')):
                 docs[name] = parsed_words
                 print('loaded ', name)
                 if pickUp_token.search(raw_doc):
@@ -137,9 +142,9 @@ if not os.path.isfile('./data/doc2vec.model'):
     unfiltered = dictionary1.token2id.keys()
     dictionary1.filter_extremes(no_below=2,  # 二回以下しか出現しない単語は無視し
                             no_above=0.9,  # 全部の文章の90パーセント以上に出現したワードは一般的すぎるワードとして無視
-                            keep_tokens=["evil", "Evil", "FUCK", "fuck", "beer", "copyleft", '(c)', "donation", "ALL", "ANY", "AND", "OR",
+                            keep_tokens=["evil", "Evil", "FUCK", "fuck", "beer", "copyleft", '(c)', "donation", "ALL", "ANY", "AND", "OR", "prease", "see", "base", "initial",
                                            "grant", "grants", "granted", "permitted", "permission", "Permissive", "use", "sublicense", "distribute",
-                                         "GPL", "RMS", "ISC"])
+                                         "GPL", "RMS", "ISC", "X"])
     filtered = dictionary1.token2id.keys()
     filtered_out = set(unfiltered) - set(filtered)
     # 作成した辞書をファイルに保存
@@ -524,26 +529,26 @@ for gruop_seq, related_docs in same_text_groups_names.items(): # 同一条文の
   if len(related_docs) > 1:
       dot.write('    }\n')
 
-for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs): # 関連ドキュメントのグループを出力
-  subgrouped_docs = [docName for docName in related_docs if  (docName not in  grouped_doc_names)]
-  if len(subgrouped_docs) > 1:
-    dot.write('    subgraph cluster_' + str(index) + ' { style=dashed; color=azure3; fontcolor=antiquewhite3;\n')
-    dot.write('        label="' + subgrouped_docs[0]+ ' related groups count=' + str(doc_count) +  '";\n')
-    for docName in  subgrouped_docs:
-            grouped_doc_names[docName] = index
-            notcies_items = license_notices.get(license_alias.get(docName.lower(),''),[]) +  license_notices.get(docName[9:], []) #research/
-            if len(notcies_items) > 0:
-                notcies_text = '\\n' + ','.join(notcies_items)
-            else:
-                notcies_text = ''
-            if  len(pickUp_dict.get(docName, '')) > 0:
-                 doc_color = ',color=magenta, style=filled, fillcolor=lightpink;'
-            elif docName[0:5] != 'spdx/':
-                doc_color = ',color=red'
-            else:
-                doc_color=''
-            dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
-    dot.write('    }\n')
+# for index,(nearName,doc_count, related_docs) in  enumerate(tail_rank_docs): # 関連ドキュメントのグループを出力
+#   subgrouped_docs = [docName for docName in related_docs if  (docName not in  grouped_doc_names)]
+#   if len(subgrouped_docs) > 1:
+#     dot.write('    subgraph cluster_' + str(index) + ' { style=dashed; color=azure3; fontcolor=antiquewhite3;\n')
+#     dot.write('        label="' + subgrouped_docs[0]+ ' related groups count=' + str(doc_count) +  '";\n')
+#     for docName in  subgrouped_docs:
+#             grouped_doc_names[docName] = index
+#             notcies_items = license_notices.get(license_alias.get(docName.lower(),''),[]) +  license_notices.get(docName[9:], []) #research/
+#             if len(notcies_items) > 0:
+#                 notcies_text = '\\n' + ','.join(notcies_items)
+#             else:
+#                 notcies_text = ''
+#             if  len(pickUp_dict.get(docName, '')) > 0:
+#                  doc_color = ',color=magenta, style=filled, fillcolor=lightpink;'
+#             elif docName[0:5] != 'spdx/':
+#                 doc_color = ',color=red'
+#             else:
+#                 doc_color=''
+#             dot.write('   "' + docName + '"  [label="' + docName + notcies_text + '"'  + doc_color + '];\n')
+#     dot.write('    }\n')
 for docName, similar_docs_names  in docs_related_tree.items():
     if (docName not in  grouped_doc_names): #  dot.nodeは、subgraphと排他的に出力。
         notcies_items = license_notices.get(license_alias.get(docName.lower(),''), []) +  license_notices.get(docName[9:], []) #Approved/ research/
