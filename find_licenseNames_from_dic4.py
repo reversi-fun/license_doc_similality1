@@ -110,70 +110,59 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                 # <Element '{http://maven.apache.org/POM/4.0.0}project'
                 xmlDocRoot = xmlDocTree.getroot()
                 # '{http://maven.apache.org/POM/4.0.0}'
-                pomNS = xmlDocRoot.tag[0: -
-                                       7] if len(xmlDocRoot.tag) > 6 else ''
+                pomNS = xmlDocRoot.tag[0: -7] if len(xmlDocRoot.tag) > 6 else ''
                 projectGroupEL = xmlDocRoot.find(pomNS + 'groupId')
-                if projectGroupEL != None:
+                if projectGroupEL and projectGroupEL.text:
                     projectGroup = projectGroupEL.text
                 else:
                     projectGroupEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'groupId')
-                    if projectGroupEL != None:
+                    if projectGroupEL and projectGroupEL.text:
                         projectGroup = projectGroupEL.text
                 projectArtifactIdEL = xmlDocRoot.find(pomNS + 'artifactId')
-                if projectArtifactIdEL != None:
+                if projectArtifactIdEL and projectArtifactIdEL.text:
                     projectArtifactId = projectArtifactIdEL.text
                 else:
                     projectArtifactIdEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'artifactId')
-                    if projectArtifactIdEL != None:
+                    if projectArtifactIdEL and projectArtifactIdEL.text:
                         projectArtifactId = projectArtifactIdEL.text
                 projectVersionEL = xmlDocRoot.find(pomNS + 'version')
-                if projectVersionEL != None:
+                if projectVersionEL and  projectVersionEL.text:
                     projectVersion = projectVersionEL.text
                 else:
                     projectVersionEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'version')
-                    if projectVersionEL != None:
+                    if projectVersionEL and   projectVersionEL.text:
                         projectVersion = projectVersionEL.text
                 for xml_project_license_element in xmlDocRoot.findall(pomNS + 'licenses/' + pomNS + 'license'):
                     project_lic_name_EL = xml_project_license_element.find(
                         pomNS + 'name')
-                    if project_lic_name_EL != None:
+                    if project_lic_name_EL and project_lic_name_EL.text:
                         projectLicenseNames.append(project_lic_name_EL.text)
                     project_lic_url_EL = xml_project_license_element.find(
                         pomNS + 'url')
-                    if project_lic_url_EL != None:
+                    if (project_lic_url_EL) and (project_lic_url_EL.text):
                         projectLicenseURLs.append(project_lic_url_EL.text)
                 for infoKey in ['developers/' + pomNS + 'developer', 'organization',  'contributors/' + pomNS + 'contributor']:
                     for project_authers_EL in xmlDocRoot.findall(pomNS + infoKey):
                         for itemKey in ['id',  'name',  'email', 'organization']:
                             project_auther_EL = project_authers_EL.find(
                                 pomNS + itemKey)
-                            if project_auther_EL != None:
-                                if project_auther_EL.text != None:
-                                    projectAuthers.append(
-                                        project_auther_EL.text)
+                            if project_auther_EL and  project_auther_EL.text:
+                                projectAuthers.append(project_auther_EL.text)
                         for itemKey in ['url']:
-                            project_auther_EL = project_authers_EL.find(
-                                pomNS + itemKey)
-                            if project_auther_EL != None:
-                                if project_auther_EL.text != None:
-                                    projectRelatedURLs.append(
-                                        project_auther_EL.text)
+                            project_auther_EL = project_authers_EL.find(pomNS + itemKey)
+                            if project_auther_EL and  project_auther_EL.text:
+                                projectRelatedURLs.append(project_auther_EL.text)
                 for infoKey in ['name']:
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
-                    if project_description_EL != None:
-                        if project_description_EL.text != None:
-                            if len(project_description_EL.text) > 0:
-                                projectName.append(project_description_EL.text)
+                    if project_description_EL and project_description_EL.text and(len(project_description_EL.text) > 0):
+                        projectName.append(project_description_EL.text)
                 for infoKey in ['description']:
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
-                    if project_description_EL != None:
-                        if project_description_EL.text != None:
-                            if len(project_description_EL.text) > 0:
-                                projectDescription.append(
-                                    project_description_EL.text)
+                    if project_description_EL and project_description_EL.text and (len(project_description_EL.text) > 0):
+                        projectDescription.append(project_description_EL.text)
                 if (len(projectArtifactId) > 0):
                     if len(projectLicenseNames) > 0:
                         # 類似度欄は、確定的であることを示す値. MS-EXCELのフィルターで絞込みし易くする為、len(projectLicenseNames)個は並べない

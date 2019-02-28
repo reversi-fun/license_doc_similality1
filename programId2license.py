@@ -140,8 +140,8 @@ class ProgramId2License:
                             for licName, licURL in lic_names:
                                 license_names.append(licName)
                                 license_urls.append(licURL)
-                license_names = sorted(list(set( license_names)), key=lambda w: (w[0].lower(), w[0]))
-                license_urls = sorted(list(set([url1 for url1 in license_urls if len(url1) > 0])))
+                license_names = sorted(list(set(license_names)), key=lambda w: (w.lower(), w))
+                license_urls = sorted(list(set([str(url1) for url1 in license_urls if url1 and (len(url1) > 0)])))
             else:
                 pass
             return (license_names, license_urls)
