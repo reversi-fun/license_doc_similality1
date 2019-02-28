@@ -621,6 +621,9 @@ FSF/Zimbra,700
 FSF/ZLib,84
 FSF/Zope,297
 FSF/Zope2.1,176
+Approved/-See EXCEPTION NOTICE,4
+Approved/-See java base ADDITIONAL LICENSE NOTICE,5
+Approved/-See java base LICENSE NOTICE,3
 Approved/ACDL-1.0,646
 Approved/ACM Software License Agreement,279
 Approved/ANTLR 4 License,116
@@ -632,9 +635,9 @@ Approved/Apache Software Foundation products NOTICE(0),16
 Approved/Apache Software Foundation products NOTICE(1),16
 Approved/Apache Software Foundation products NOTICE,16
 Approved/Apache-1.0,203
+Approved/Apache-1.1 = The CyberNeko Software License, Version 1.0,163
 Approved/Apache-1.1 based Ant-Contrib License,179
-Approved/Apache-1.1 by Werken Company,147
-Approved/Apache-1.1 for Intalio ExoLab License,158
+Approved/Apache-1.1 for IAIK of Graz University of Technology.md,160
 Approved/Apache-1.1 in comments,165
 Approved/Apache-1.1,189
 Approved/Apache-2.0 + BSD 3-Clause,59
@@ -655,6 +658,7 @@ Approved/Apache-2.0 licensed NOTICE(2),24
 Approved/Apache-2.0 licensed NOTICE(3),24
 Approved/Apache-2.0 licensed NOTICE(4),25
 Approved/Apache-2.0 licensed NOTICE,24
+Approved/Apache-2.0 or Which License Applies to You,125
 Approved/Apache-2.0(1),706
 Approved/Apache-2.0(2),792
 Approved/APSL-2.0,1527
@@ -668,14 +672,19 @@ Approved/BeOpen Python2 NOTICE,772
 Approved/BerkeleyDB,522
 Approved/BitTorrentOSL1.1,2034
 Approved/BSD-2-Clause + author LICENSE(2),99
+Approved/BSD-2-Clause + author LICENSE.md,115
 Approved/BSD-2-Clause + author LICENSE,96
 Approved/BSD-3-Clause (continued-line) LICENSE(2),113
 Approved/BSD-3-Clause (continued-line) LICENSE(3),113
 Approved/BSD-3-Clause (continued-line) LICENSE,109
+Approved/BSD-3-Clause (noSeq) + auther.md,107
+Approved/BSD-3-Clause + auther.md,110
 Approved/BSD-3-Clause + MPL-2.0 Licensed NOTICE,143
+Approved/BSD-3-Clause for Aduna license,115
 Approved/BSD-3-Clause for asm-License,119
 Approved/BSD-3-Clause for Atlassian,104
 Approved/BSD-3-Clause for Ecma International,263
+Approved/BSD-3-Clause for Go Authors,109
 Approved/BSD-3-Clause for HSQL Development Group,255
 Approved/BSD-3-Clause for many contributors NOTICE(2),119
 Approved/BSD-3-Clause for many contributors NOTICE(3),120
@@ -684,6 +693,8 @@ Approved/BSD-3-Clause for many contributors postmile NOTICE,134
 Approved/BSD-3-Clause for ROX.jar license,118
 Approved/BSD-3-Clause for syntevo GmbH, Freilassing, GERMANY,124
 Approved/BSD-3-Clause or MIT LICENSE,211
+Approved/BSD-5-Clause for Intalio ExoLab License,158
+Approved/BSD-5-Clause for Werken Company,147
 Approved/BYOL and Oversubscription,884
 Approved/bzip2 license,136
 Approved/CC-BY-NC-ND-3.0-US,1068
@@ -697,10 +708,12 @@ Approved/Condor-1.1,664
 Approved/Copyright-Only Dedication,114
 Approved/Couchbase Community Edition License Agreement,190
 Approved/Cryptix,104
+Approved/CUP Parser Generator for Java License.md,88
 Approved/CUP Parser Generator License,128
 Approved/Day JCR License,94
 Approved/Day Specification License,532
 Approved/DESIGN_SCIENCE,632
+Approved/Dojo Toolkit License=AFL-2.1 + BSD-3-Clause,871
 Approved/DOM4J by MetaStuff,139
 Approved/EDL-1.0,115
 Approved/edl-v10,115
@@ -719,7 +732,9 @@ Approved/GPL-2.0 + BSD-3-Clause for wireshark,1911
 Approved/GPL-2.0 + MIT license NOTICE,13
 Approved/GPL-2.0 Licenced NOTICE,70
 Approved/GPL-2.0 or MIT,151
+Approved/GPL-2.0 with ClassPath EXCEPTION,1376
 Approved/GPL-2.0,1069
+Approved/GPL-3.0 + IJG CREDIT of FreeType License,1771
 Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,13717
 Approved/GPL-3.0 + Python License NOTICE,20
 Approved/GPL-3.0 + Sencha Licensing Notices,628
@@ -737,6 +752,7 @@ Approved/Info-ZIP license,306
 Approved/Intel,478
 Approved/IPA_Font_License,710
 Approved/ISC-Contributors-License,58
+Approved/ISO-RELAX license,90
 Approved/JabberOSLv1.0,3202
 Approved/Java Specification Participation Agreement,2916
 Approved/JavaSE10 spec license-4417634,775
@@ -755,6 +771,7 @@ Approved/JSR-94 Specification Reference Implementation License Agreement,1458
 Approved/Jython-1,192
 Approved/Jython-2,112
 Approved/LaTeX_ecfonts,199
+Approved/LGPL-2.1 + Apache-2.0,68
 Approved/LGPL-2.1 + EPL-1.0 licensing NOTICE,82
 Approved/LGPL-2.1 based Colt License Agreement Notice,91
 Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE,66
@@ -770,14 +787,16 @@ Approved/Microsoft Shared Source License,253
 Approved/MIT + based on NOTICE,89
 Approved/MIT + Boost  + SGI-B-1.0 for Mesa License NOTICE,200
 Approved/MIT + CC0-1.0 for jquery License,127
-Approved/MIT + COPYRIGHT LLicense,81
+Approved/MIT + COPYRIGHT License,81
 Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + own license NOTICE,87
 Approved/MIT + own products NOTICE,87
+Approved/MIT + X11 LICENSE,84
 Approved/MIT by contributers LICENSE(1),88
 Approved/MIT by contributers LICENSE(2),125
 Approved/MIT by contributers LICENSE,81
 Approved/MIT licensed NOTICE,11
+Approved/MIT liense.md,80
 Approved/MIT-license comment in js,17
 Approved/MIT,82
 Approved/MX4J,162
@@ -794,9 +813,11 @@ Approved/Oracle Binary Code License Agreement,1556
 Approved/Oracle Technology Network License Agreement,1161
 Approved/OriginalBSD,156
 Approved/OSGi Specification License, Version 2.0,265
+Approved/Pako License for Vitaly Puzrin and Andrei Tuputcyn,149
 Approved/PCRE2 LICENCE,260
 Approved/Peer-Production,1402
 Approved/PINE,308
+Approved/PKCS #11 Cryptographic Token Interface License,67
 Approved/PUPL - Paid Use Permissive License,371
 Approved/Python Imaging Library License,98
 Approved/Python-1.6a2,337
@@ -832,6 +853,7 @@ Approved/TrueCrypt-3.0,1680
 Approved/ubuntu-font-licence-1.0,342
 Approved/UCB-LB license,156
 Approved/UnboundID LDAP SDK Free Use License,465
+Approved/UNICODE DATA FILES AND SOFTWARE.md,277
 Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE,273
 Approved/universal-foss-exception,234
 Approved/UnRar license,116

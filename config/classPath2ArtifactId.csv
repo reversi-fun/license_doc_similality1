@@ -102,7 +102,7 @@ mx4j.remote,mx4j--mx4j-remote--2.1.1
 mx4j.tools,mx4j--mx4j-tools--3.0.1
 mx4j.util,mx4j--mx4j-tools--3.0.1
 net.java.dev.jna,net.java.dev.jna--jna--4.4.0
-net.jcip.annotations,net.jcip--jcip-annotation--1.0
+net.jcip.annotations,net.jcip--jcip-annotations--1.0
 net.masterthought.cucumber,net.masterthought--cucumber-reporting--1.1.0
 net.masterthought.cucumber.charts,net.masterthought--cucumber-reporting--1.1.0
 net.masterthought.cucumber.sandwich,net.masterthought--cucumber-sandwich--1.1.0

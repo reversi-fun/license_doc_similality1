@@ -151,7 +151,6 @@ apache xml commons resolver,spdx/Apache-2.0
 apache-1.0,spdx/Apache-1.0
 apache-1.1,spdx/Apache-1.1
 "apache-1.1 = the cyberneko software license, version 1.0","Approved/Apache-1.1 = The CyberNeko Software License, Version 1.0"
-apache-1.1 by werken company,Approved/Apache-1.1 by Werken Company
 apache-2.0,spdx/Apache-2.0
 apache-2.0 # http://rometools.github.io/rome/license.html,spdx/Apache-2.0
 apache-2.0 # https://mvnrepository.com/artifact/org.apache.maven.doxia/doxia-sink-api,spdx/Apache-2.0
@@ -206,6 +205,8 @@ approved/bsd-2-clause + author license(2),spdx/BSD-2-Clause
 approved/bsd-3-clause (continued-line) license,spdx/BSD-3-Clause
 approved/bsd-3-clause (continued-line) license(2),spdx/BSD-3-Clause
 approved/bsd-3-clause (continued-line) license(3),spdx/BSD-3-Clause
+approved/bsd-3-clause (noseq) + auther.md,spdx/BSD-3-Clause
+approved/bsd-3-clause + auther.md,spdx/BSD-3-Clause
 approved/bsd-3-clause for asm-license,Approved/ASM=Java_bytecode_manipulation_framework
 approved/bsd-3-clause for many contributors notice,spdx/BSD-3-Clause
 approved/bsd-3-clause for many contributors notice(2),spdx/BSD-3-Clause
@@ -213,11 +214,13 @@ approved/bsd-3-clause for many contributors notice(3),spdx/BSD-3-Clause
 approved/bsd-3-clause for many contributors postmile notice,spdx/BSD-3-Clause
 approved/cnri-dor,FSF/DOR
 approved/cryptix,FSF/CryptixGeneralLicense
+approved/cup parser generator for java license.md,Approved/CUP Parser Generator License
 approved/edl-v10,Approved/EDL-1.0
 approved/epl-v10,spdx/EPL-1.0
 approved/expat,spdx/MIT
 approved/free-art-l-1.3,FSF/FreeArt
 approved/freebsddl,spdx/BSD-2-Clause-FreeBSD
+approved/gpl-2.0 with classpath exception,spdx/GPL-2.0-with-classpath-exception
 approved/gpl-pa-1.1,FSF/GPL-PA
 approved/hsqldb=bsd based license,Approved/BSD-3-Clause for HSQL Development Group
 approved/intel,spdx/Intel-ACPI
@@ -228,13 +231,14 @@ approved/licensed under lgpl notice,Approved/LGPLv2 + CERN NOTICE
 approved/microsoft shared source license,FSF/Ms-SS
 approved/mit,spdx/MIT
 approved/mit + based on notice,spdx/MIT
-approved/mit + copyright llicense,spdx/MIT
+approved/mit + copyright license,spdx/MIT
 approved/mit + own license notice,Approved/MIT + own license NOTICE
 approved/mit + own products notice,Approved/MIT + own license NOTICE
 approved/mit by contributers license,spdx/MIT
 approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
 approved/mit licensed notice,spdx/MIT
+approved/mit liense.md,spdx/MIT
 approved/oculus_vr_rift_sdk_license,FSF/OculusRift
 approved/openssl,spdx/OpenSSL
 approved/opl-1.0,spdx/OPL-1.0
@@ -370,7 +374,6 @@ bsd 3-clause no nuclear license 2014,spdx/BSD-3-Clause-No-Nuclear-License-2014
 bsd 3-clause no nuclear warranty,spdx/BSD-3-Clause-No-Nuclear-Warranty
 "bsd 4-clause ""original"" or ""old"" license",spdx/BSD-4-Clause
 bsd 4-clause 'original' or 'old' license,spdx/BSD-4-Clause
-Apache-1.1 for Intalio ExoLab License,Approved/Apache-1.1 for Intalio ExoLab License
 bsd licence,spdx/BSD-3-Clause
 bsd licence 3,spdx/BSD-3-Clause
 bsd license,spdx/BSD-3-Clause
@@ -413,6 +416,8 @@ bsd-4 license,spdx/BSD-4-Clause
 bsd-4-clause,spdx/BSD-4-Clause
 bsd-4-clause (university of california-specific),spdx/BSD-4-Clause-UC
 bsd-4-clause-uc,spdx/BSD-4-Clause-UC
+bsd-5-clause for intalio exolab license,Approved/BSD-5-Clause for Intalio ExoLab License
+bsd-5-clause for werken company,Approved/BSD-5-Clause for Werken Company
 bsd-compatible license,spdx/BSD-3-Clause
 bsd-ecmascript,Approved/BSD-3-Clause for Ecma International
 bsd-like,spdx/BSD-3-Clause
@@ -688,6 +693,7 @@ cua-opl-1.0,spdx/CUA-OPL-1.0
 cube,spdx/Cube
 cube license,spdx/Cube
 "cup parser generator copyright notice, license, and disclaimer",Approved/CUP Parser Generator License
+cup parser generator for java license.md,Approved/CUP Parser Generator License
 cup-open-source-license,Approved/CUP Parser Generator License
 curl,spdx/curl
 curl license,spdx/curl
@@ -1135,6 +1141,7 @@ gpl-2,spdx/GPL-2.0
 gpl-2.0,spdx/GPL-2.0
 gpl-2.0 licenced notice,Approved/GPL-2.0 Licenced NOTICE
 gpl-2.0 or mit,Approved/GPL-2.0 or MIT
+gpl-2.0 with classpath exception,Approved/GPL-2.0-with-classpath-exception
 gpl-2.0 with classpath exception + apache software license - version 2.0,Approved/CDDL + GPL-2.0-with-classpath-exception
 gpl-2.0+,spdx/GPL-2.0+
 "gpl-2.0,mysql connector/j",Approved/MySQL FOSS License Exception
@@ -1332,7 +1339,7 @@ http://java.net/projects/javamoney,JSR 354 (Money and Currency API)
 http://java.sun.com/products/java-media/jai/downloads/download-1_1_2_01.html,Approved/CDDL + GPL-2.0-with-classpath-exception
 http://java.sun.com/products/servlet/license,spdx/SISSL-1.2
 http://java.sun.com/spl.html,spdx/SPL-1.0
-http://jaxen.werken.com/,Approved/Apache-1.1 by Werken Company
+http://jaxen.werken.com/,Approved/BSD-5-Clause for Werken Company
 http://jdbc.postgresql.org/license.html,spdx/PostgreSQL
 http://jgrapht.sourceforge.net/lgpl.html,spdx/LGPL-2.1
 http://jmock.org/license.html,spdx/BSD-Source-Code
@@ -1435,7 +1442,7 @@ http://source.icu-project.org/repos/icu/icu/trunk/license.html,spdx/ICU
 http://source.icu-project.org/repos/icu/trunk/icu4j/main/shared/licenses/license,Approved/ICU + Third-Party Software Licenses
 http://sourceforge.net/projects/ant-contrib,Approved/Apache-1.1 based Ant-Contrib License
 http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/licenses/bittorrent?r1=1.1&r2=1.1.1.1&diff_format=s,spdx/BitTorrent-1.0
-http://svn.apache.org/repos/asf/jspwiki/tags/jspwiki_2_9_0_rc1/doc/license.jaxen,Approved/Apache-1.1 by Werken Company
+http://svn.apache.org/repos/asf/jspwiki/tags/jspwiki_2_9_0_rc1/doc/license.jaxen,Approved/BSD-5-Clause for Werken Company
 http://svn.apache.org/viewvc/jakarta/bsf/,spdx/BSD-3-Clause
 http://svn.code.sf.net/p/barbecue/code/tags/barbecue-1.5-beta1/license.txt,spdx/BSD-3-Clause
 http://svnkit.com/license.html,spdx/TMate
@@ -1947,7 +1954,7 @@ https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-ant-contrib.ht
 https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-apache-portable-runtime.html,Approved/Apache Software Foundation products NOTICE
 https://docs.oracle.com/cd/e26854_01/doc.121/e57639/license-slf4j.html,Approved/MIT for Qos ch
 https://docs.oracle.com/cd/e37069_01/html/e37094/gnfar.html,Approved/BSD-3-Clause for Ecma International
-https://docs.oracle.com/cd/e60665_01/big-data-discovery-cloud/bddlg/cl_bsd_jaxen.htm#bddlg-concept_8c539f6f54bf4178b45a1057c503f402,Approved/Apache-1.1 by Werken Company
+https://docs.oracle.com/cd/e60665_01/big-data-discovery-cloud/bddlg/cl_bsd_jaxen.htm#bddlg-concept_8c539f6f54bf4178b45a1057c503f402,Approved/BSD-5-Clause for Werken Company
 https://docs.oracle.com/cloud/latest/big-data-discovery-cloud/bddlg/cl_icu4j_license.htm#bddlg-concept_ab4527297161480dd261ac24135650fe,spdx/ICU
 https://dojotoolkit.org/license.html,Approved/Dojo Toolkit License=AFL-1.1 + BSD-3-Clause
 https://downloads.mysql.com/docs/licenses/connector-j-5.1-com-en.pdf,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
@@ -2044,7 +2051,7 @@ https://github.com/cloudhead/less.js/blob/master/license,spdx/Apache-2.0
 https://github.com/cowboy/node-exit/blob/master/license-mit,spdx/MIT
 https://github.com/dataart/calculationengine/blob/master/license,spdx/Apache-2.0
 https://github.com/dcblake/smp/blob/master/documentation/license.txt,spdx/SMPPL
-https://github.com/debianmaster/docker-hybris/blob/master/licenses/license-texts/the%20werken%20company%20license.txt,Approved/Apache-1.1 by Werken Company
+https://github.com/debianmaster/docker-hybris/blob/master/licenses/license-texts/the%20werken%20company%20license.txt,Approved/BSD-5-Clause for Werken Company
 https://github.com/dom4j/dom4j/blob/master/license,Approved/DOM4J by MetaStuff
 https://github.com/douglascrockford/jslint/blob/master/jslint.js,spdx/JSON
 https://github.com/douglascrockford/json-js/blob/master/json2.js,spdx/JSON
@@ -2708,7 +2715,7 @@ https://www.r-project.org/licenses/lgpl-2,spdx/LGPL-2.0
 https://www.r-project.org/licenses/lgpl-2.1,spdx/LGPL-2.1
 https://www.r-project.org/licenses/lgpl-3,spdx/LGPL-3.0
 https://www.riverbankcomputing.com/software/sip/license,Approved/GPL-3.0 + Python License NOTICE
-https://www.seas.upenn.edu/~pdtb/pdtbapi/license/jaxenlicense,Approved/Apache-1.1 by Werken Company
+https://www.seas.upenn.edu/~pdtb/pdtbapi/license/jaxenlicense,Approved/BSD-5-Clause for Werken Company
 https://www.sencha.com/legal/,Approved/GPL-3.0 + Sencha Licensing Notices
 https://www.slf4j.org/license.html,Approved/MIT for Qos ch
 https://www.smlnj.org/license.html,spdx/SMLNJ
@@ -2786,6 +2793,7 @@ jboss-common-jdbc-wrapper,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
 jboss-common-jdbc-wrapper license,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
 jboss-common-jdbc-wrapper.jar,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
 jboss-common-jdbc-wrapper.jar license,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
+jcip-annotations license,Approved/JCIP-ANNOTATIONS License
 jcp spec leads license reference,Approved/JCP Spec Leads License Reference
 jcr 2.0,Approved/Day Specification License
 jdbm license,Approved/JDBM LICENSE v1.0
@@ -3477,6 +3485,7 @@ research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,spd
 research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-types/license,research/node_modules/protractor/node_modules/mime-db/LICENSE
+research/node_modules/protractor/node_modules/request/license,spdx/Apache-2.0
 research/node_modules/protractor/plugins/console/spec/consolefailerrorconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/consolefailwarningconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/fail_warning_spec.js,research/node_modules/protractor/plugins/console/spec/fail_error_spec.js
@@ -3694,12 +3703,14 @@ spdx/amdplpa,spdx/AMDPLPA
 spdx/aml,spdx/AML
 spdx/ampas,spdx/AMPAS
 spdx/antlr-pd,spdx/ANTLR-PD
+spdx/apache license 2.0,spdx/Apache-2.0
 "spdx/apache license, version 2.0",spdx/Apache-2.0
 spdx/apache-1.0,spdx/Apache-1.0
 spdx/apache-1.1,spdx/Apache-1.1
 spdx/apache-2.0,spdx/Apache-2.0
 spdx/apafml,spdx/APAFML
 spdx/apl-1.0,spdx/APL-1.0
+spdx/aplv2,spdx/Apache-2.0
 spdx/apsl-1.0,spdx/APSL-1.0
 spdx/apsl-1.1,spdx/APSL-1.1
 spdx/apsl-1.2,spdx/APSL-1.2
@@ -4254,7 +4265,7 @@ the sleepycat software product license,FSF/BerkeleyDB
 "the software shall be used for good, not evil. (see license)",FSF/JSON
 the trove library is licensed under the lesser gnu public license,Approved/GPLv2 + CERN NOTICE
 the unlicense,spdx/Unlicense
-the werken company license,Approved/Apache-1.1 by Werken Company
+the werken company license,Approved/BSD-5-Clause for Werken Company
 "the zend engine license, version 2.00",spdx/Zend-2.0
 the zlib/libpng license,spdx/Libpng
 the-json-license,FSF/JSON
@@ -4329,6 +4340,7 @@ vovida software license v1.0,spdx/VSL-1.0
 vsl-1.0,spdx/VSL-1.0
 w3c,spdx/W3C
 w3c document notice and license,spdx/W3C
+w3c document notice and license.dom-documentation,Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation
 w3c license,spdx/W3C
 w3c software and document notice and license,spdx/W3C
 w3c software licensing terms,spdx/W3C
@@ -4337,13 +4349,14 @@ w3c software notice and document license (2015-05-13),spdx/W3C-20150513
 w3c software notice and license,spdx/W3C
 w3c software notice and license (1998-07-20),spdx/W3C-19980720
 w3c software notice and license (2002-12-31),spdx/W3C
+w3c software notice and license.dom-software,Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software
 w3c-19980720,spdx/W3C-19980720
 w3c-20150513,spdx/W3C-20150513
 w3c-software-copyright-notice-and-license,spdx/W3C
 w3c? document notice and license,spdx/W3C
 watcom-1.0,spdx/Watcom-1.0
 wbem services license,spdx/SISSL-1.2
-werken_company,Approved/Apache-1.1 by Werken Company
+werken_company,Approved/BSD-5-Clause for Werken Company
 whereas doug lea desires to utlized certain java software technologies in the util.concurrent technology,Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA
 "with no front-cover texts, and with no back-cover texts.",spdx/GFDL-1.3
 wso2 commercial license,Approved/WSO2 Commercial License 1.0

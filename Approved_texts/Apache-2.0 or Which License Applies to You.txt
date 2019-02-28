@@ -1,0 +1,17 @@
+Which License Applies to You?
+We use a number of different licensing schemes in harmony with our business model. This page explains which license applies to the Atomikos distribution you are using.
+
+Paying subscribers
+Downloads from maven central and signed by Atomikos
+Source code repository access
+All other access
+Paying subscribers
+Paying subscribers enjoy the benefits of our ExtremeTransactions Production License.
+Downloads from maven central and signed by Atomikos
+If you are using a release that is downloadable from maven central and signed by Atomikos then the following license applies: http://www.atomikos.com/licenses/apache-license-2.0.txt
+Source code repository access
+If you are using Atomikos source code directly or indirectly forked from a public repository of the official Atomikos GitHub account (https://github.com/atomikos) then the Apache, version 2 applies: http://www.atomikos.com/licenses/apache-license-2.0.txt
+All other source code repositories (including, but not limited to any Atomikos private repositories) are subject to the terms of our Source Code Access Agreement.
+All other access
+In all other cases, the license included in the download applies. In the absence of such a license (which may be the case for older releases), the ExtremeTransactions Development License applies.
+https://www.atomikos.com/Main/WhichLicenseApplies
