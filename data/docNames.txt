@@ -624,6 +624,7 @@ FSF/Zope2.1,176
 Approved/-See EXCEPTION NOTICE,4
 Approved/-See java base ADDITIONAL LICENSE NOTICE,5
 Approved/-See java base LICENSE NOTICE,3
+Approved/0BSD + 1 provided by Auther Lucent in Python license,79
 Approved/ACDL-1.0,646
 Approved/ACM Software License Agreement,279
 Approved/ANTLR 4 License,116
@@ -645,14 +646,18 @@ Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + me
 Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License,1826
 Approved/Apache-2.0 + BSD-3-Clause + MIT NOTICE,12
 Approved/Apache-2.0 + CC-BY-2.5 License,1683
+Approved/Apache-2.0 + CC-BY-2.5 NOTICE,32
+Approved/Apache-2.0 + CC0-1.0 + MIT licensed NOTICE.xml,27
 Approved/Apache-2.0 + CPL-1.0 + Microsoft + Adobe Patent LICENSE,1785
 Approved/Apache-2.0 + JCIP-ANNOTATIONS NOTICE,32
 Approved/Apache-2.0 + NIST AES NOTICE,106
 Approved/Apache-2.0 + overview,801
 Approved/Apache-2.0 + OWN CREDITS NOTICE,57
+Approved/Apache-2.0 + Python-2.0 + BSD licensed cryptography NOTICE,25
 Approved/Apache-2.0 + WTFPL License,828
 Approved/Apache-2.0 based Aerospike Client License,1282
 Approved/Apache-2.0 License(1),792
+Approved/Apache-2.0 licensed by 3 authers NOTICE,64
 Approved/Apache-2.0 licensed NOTICE(1),22
 Approved/Apache-2.0 licensed NOTICE(2),24
 Approved/Apache-2.0 licensed NOTICE(3),24
@@ -669,6 +674,7 @@ Approved/Atlassian purchase-licensing,4131
 Approved/Atomikos Source Code Access Agreeement,502
 Approved/BEA JSR 173 RI License,1267
 Approved/BeOpen Python2 NOTICE,772
+Approved/BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0,200
 Approved/BerkeleyDB,522
 Approved/BitTorrentOSL1.1,2034
 Approved/BSD-2-Clause + author LICENSE(2),99
@@ -681,6 +687,7 @@ Approved/BSD-3-Clause (noSeq) + auther.md,107
 Approved/BSD-3-Clause + auther.md,110
 Approved/BSD-3-Clause + MPL-2.0 Licensed NOTICE,143
 Approved/BSD-3-Clause for Aduna license,115
+Approved/BSD-3-Clause for any contributors LICENSE,109
 Approved/BSD-3-Clause for asm-License,119
 Approved/BSD-3-Clause for Atlassian,104
 Approved/BSD-3-Clause for Ecma International,263
@@ -701,6 +708,7 @@ Approved/CC-BY-NC-ND-3.0-US,1068
 Approved/CC-BY-SA-3.0-US,1315
 Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License,160
 Approved/CDDL + GPL-2.0-with-classpath-exception,2605
+Approved/CDDL-1.0 + Apache-2.0,4094
 Approved/CNRI-DOR,262
 Approved/com.oreilly.servlet license,295
 Approved/Commercial Vaadin Add-On License version 3,1208
@@ -710,6 +718,7 @@ Approved/Couchbase Community Edition License Agreement,190
 Approved/Cryptix,104
 Approved/CUP Parser Generator for Java License.md,88
 Approved/CUP Parser Generator License,128
+Approved/CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2,82
 Approved/Day JCR License,94
 Approved/Day Specification License,532
 Approved/DESIGN_SCIENCE,632
@@ -729,6 +738,7 @@ Approved/FullCalendar Scheduler License,179
 Approved/Google Cloud Platform License Agreement,3467
 Approved/Google Cloud Platform Terms,3560
 Approved/GPL-2.0 + BSD-3-Clause for wireshark,1911
+Approved/GPL-2.0 + MIT license NOTICE.js,39
 Approved/GPL-2.0 + MIT license NOTICE,13
 Approved/GPL-2.0 Licenced NOTICE,70
 Approved/GPL-2.0 or MIT,151
@@ -751,6 +761,7 @@ Approved/Indiana University Extreme! Lab Software License,171
 Approved/Info-ZIP license,306
 Approved/Intel,478
 Approved/IPA_Font_License,710
+Approved/ISC or 0BSD,64
 Approved/ISC-Contributors-License,58
 Approved/ISO-RELAX license,90
 Approved/JabberOSLv1.0,3202
@@ -761,6 +772,7 @@ Approved/JavaSE9 spec license-3903847,659
 Approved/JCIP-ANNOTATIONS License,891
 Approved/JCP Spec Leads License Reference,517
 Approved/JDBM LICENSE v1.0,140
+Approved/jdom2 License,175
 Approved/Jenkins Project Governance Document,2359
 Approved/JESS client License,852
 Approved/Joda-money Notes,194
@@ -768,6 +780,7 @@ Approved/JPython-1.1.x,311
 Approved/JSR Spec Evaluation License,365
 Approved/JSR Spec Implementation License,764
 Approved/JSR-94 Specification Reference Implementation License Agreement,1458
+Approved/JSR107 Ageement,372
 Approved/Jython-1,192
 Approved/Jython-2,112
 Approved/LaTeX_ecfonts,199
@@ -786,19 +799,26 @@ Approved/Micronode - License,124
 Approved/Microsoft Shared Source License,253
 Approved/MIT + based on NOTICE,89
 Approved/MIT + Boost  + SGI-B-1.0 for Mesa License NOTICE,200
+Approved/MIT + CC0-1.0 at sample LICENSE,147
 Approved/MIT + CC0-1.0 for jquery License,127
+Approved/MIT + copyright LICENSE (2),112
 Approved/MIT + COPYRIGHT License,81
 Approved/MIT + donation for Bouncy Castle License,95
+Approved/MIT + inspired products NOTICE,92
 Approved/MIT + own license NOTICE,87
 Approved/MIT + own products NOTICE,87
+Approved/MIT + Python-2.0 LICENSE,129
 Approved/MIT + X11 LICENSE,84
 Approved/MIT by contributers LICENSE(1),88
 Approved/MIT by contributers LICENSE(2),125
 Approved/MIT by contributers LICENSE,81
+Approved/MIT for 3 Authers LICENSE.md,402
 Approved/MIT licensed NOTICE,11
+Approved/MIT licensed NOTICE.xml,5
 Approved/MIT liense.md,80
 Approved/MIT-license comment in js,17
 Approved/MIT,82
+Approved/MPL-2.0 + EPL-1.0,2157
 Approved/MX4J,162
 Approved/MySQL FOSS License Exception,336
 Approved/NanoXML License,70
@@ -807,7 +827,8 @@ Approved/Oculus_VR_Rift_SDK_License,1267
 Approved/OGC legal NOTICE,501
 Approved/ontotext LICENSE-GraphDB-Free,3009
 Approved/Open Source License for Oracle Berkeley DB Java Edition,934
-Approved/OpenSSL,433
+Approved/OpenSSL + SSLeay by module License,495
+Approved/OpenSSL + SSLeay,433
 Approved/OPL-1.0,1491
 Approved/Oracle Binary Code License Agreement,1556
 Approved/Oracle Technology Network License Agreement,1161
@@ -822,6 +843,7 @@ Approved/PUPL - Paid Use Permissive License,371
 Approved/Python Imaging Library License,98
 Approved/Python-1.6a2,337
 Approved/Python-1.6b1,297
+Approved/Python-3.7.2,189
 Approved/QOS SLF4J license,86
 Approved/QuickFIX License,159
 Approved/resin pro licenses NOTICE,144
@@ -858,6 +880,7 @@ Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE,273
 Approved/universal-foss-exception,234
 Approved/UnRar license,116
 Approved/UtahPublicLicense,896
+Approved/UUencode and UUdecode functions NOTICE,114
 Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,297
 Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software,268
 Approved/Watcom-1.0,1587

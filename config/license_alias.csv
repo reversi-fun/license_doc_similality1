@@ -77,6 +77,7 @@ al2,spdx/Apache-2.0
 aladdin,spdx/Aladdin
 aladdin free public license,spdx/Aladdin
 "aladdin free public license (version 9, september 18, 2000)",spdx/Aladdin
+"all files contained in this jar are licensed under the apache 2.0 license, unless noted differently in their source (see swing2swt).",spdx/Apache-2.0
 "along with this library; if not, write to the free software",spdx/GPL-2.0
 alv2,spdx/Apache-2.0
 amazon digital services license,spdx/ADSL
@@ -98,15 +99,18 @@ antlr-pd,spdx/ANTLR-PD
 antlr4-runtime license,spdx/ANTLR-PD
 any components of the py2app suite may be distributed under,spdx/Python-2.0
 apache,Approved/Apache Software Foundation products NOTICE
+"apache  version 2.0, january 2004",spdx/Apache-2.0
 apache 1.1,spdx/Apache-1.1
 apache 2,spdx/Apache-2.0
 apache 2.,spdx/Apache-2.0
 apache 2.0,spdx/Apache-2.0
+apache 2.0 license,spdx/Apache-2.0
 apache group. this software is provided,spdx/Apache-2.0
 apache james mime4,spdx/Apache-2.0
 apache license,spdx/Apache-2.0
 apache license 1.0,spdx/Apache-1.0
 apache license 1.1,spdx/Apache-1.1
+apache license 2,spdx/Apache-2.0
 apache license 2.0,spdx/Apache-2.0
 apache license v2,spdx/Apache-2.0
 apache license v2.0,spdx/Apache-2.0
@@ -120,6 +124,8 @@ apache license version 2.0,spdx/Apache-2.0
 "apache license, version 1.1",spdx/Apache-1.1
 "apache license, version 2",spdx/Apache-2.0
 "apache license, version 2.0",spdx/Apache-2.0
+"apache license, version 2.0 and common development and distribution license (cddl) version 1.0",Approved/CDDL-1.0 + Apache-2.0
+"apache license, version 2.0 and\ncommon development and distribution license (cddl) version 1.0",Approved/CDDL-1.0 + Apache-2.0
 apache license?1.x,spdx/Apache-1.1
 apache license?2.0,spdx/Apache-2.0
 apache portable runtime,Approved/Apache Software Foundation products NOTICE
@@ -135,9 +141,11 @@ apache software foundation products notice(1),Apache Software Foundation product
 apache software license - version 2,spdx/Apache-2.0
 apache software license - version 2.0,spdx/Apache-2.0
 apache software license - version ?,Approved/Apache Software Foundation products NOTICE
+apache software license 2.0,spdx/Apache-2.0
 apache software license version 1.1,spdx/Apache-1.1
 apache software license version 2,spdx/Apache-2.0
 "apache software license, version 1.1",spdx/Apache-1.1
+"apache software license, version 2.0",spdx/Apache-2.0
 apache software licenses,Approved/Apache Software Foundation products NOTICE
 "apache software licesne, version 1.1",spdx/Apache-1.1
 apache softwarefoundation,Approved/Apache Software Foundation products NOTICE
@@ -182,6 +190,7 @@ apple public source license 2.0,spdx/APSL-2.0
 apple public source license?1.x,spdx/APSL-1.1
 apple public source license?2.0,spdx/APSL-2.0
 "apple's common documentation license, version 1.0",FSF/ACDL
+approved/0bsd + 1 provided by auther lucent in python license,spdx/0BSD
 approved/apache licensed notice,Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation + own products notice(1),Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
@@ -189,6 +198,7 @@ approved/apache software foundation products notice(1),Approved/Apache Software 
 approved/apache software foundation+ own products notice(1),Apache Software Foundation products NOTICE
 approved/apache-1.0,spdx/Apache-1.0
 approved/apache-1.1,spdx/Apache-1.1
+approved/apache-2.0 + cc-by-2.5 notice,Approved/Apache-2.0 + CC-BY-2.5 License
 approved/apache-2.0 + jcip-annotations notice,Approved/Apache-2.0 + CC-BY-2.5 License
 approved/apache-2.0 license(1),spdx/Apache-2.0
 approved/apache-2.0 licensed notice(2),Approved/Apache-2.0 licensed NOTICE
@@ -197,6 +207,7 @@ approved/apache-2.0 licensed notice(4),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0(1),spdx/Apache-2.0
 approved/apache-2.0(2),spdx/Apache-2.0
 approved/arphic,FSF/Arphic
+approved/beopen.com license agreement for python 2.0,spdx/Python-2.0
 approved/berkeleydb,spdx/Sleepycat
 approved/bittorrentosl1.1,spdx/BitTorrent-1.1
 approved/bsd-2-clause + author license,spdx/BSD-2-Clause
@@ -215,6 +226,7 @@ approved/bsd-3-clause for many contributors postmile notice,spdx/BSD-3-Clause
 approved/cnri-dor,FSF/DOR
 approved/cryptix,FSF/CryptixGeneralLicense
 approved/cup parser generator for java license.md,Approved/CUP Parser Generator License
+approved/cwi license agreement for python 0.9.0 through 1.2,spdx/MIT-CMU
 approved/edl-v10,Approved/EDL-1.0
 approved/epl-v10,spdx/EPL-1.0
 approved/expat,spdx/MIT
@@ -232,20 +244,27 @@ approved/microsoft shared source license,FSF/Ms-SS
 approved/mit,spdx/MIT
 approved/mit + based on notice,spdx/MIT
 approved/mit + copyright license,spdx/MIT
+approved/mit + inspired products notice,spdx/MIT
 approved/mit + own license notice,Approved/MIT + own license NOTICE
 approved/mit + own products notice,Approved/MIT + own license NOTICE
 approved/mit by contributers license,spdx/MIT
 approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
+approved/mit for 3 authers license.md,spdx/MIT
 approved/mit licensed notice,spdx/MIT
+approved/mit licensed notice.xml,spdx/MIT
 approved/mit liense.md,spdx/MIT
+approved/mit+ copyright license (2),spdx/MIT
 approved/oculus_vr_rift_sdk_license,FSF/OculusRift
 approved/openssl,spdx/OpenSSL
+approved/openssl + ssleay,spdx/OpenSSL
+approved/openssl + ssleay by module license,spdx/OpenSSL
 approved/opl-1.0,spdx/OPL-1.0
 approved/originalbsd,spdx/BSD-4-Clause
 approved/peer-production,FSF/PPL
 approved/pine,FSF/PINE
 approved/python-1.6b1,spdx/Python-2.0
+approved/python-3.7.2,spdx/Python-2.0
 approved/rpl-1.3,spdx/RPL-1.1
 approved/scilab,FSF/Scilab
 approved/scratch-1.4,FSF/Scratch
@@ -257,6 +276,7 @@ approved/suncslv2.8,FSF/SunCommunitySourceLicense
 approved/truecrypt-3.0,FSF/Truecrypt-3.0
 approved/ucb-lb license,spdx/BSD-4-Clause
 approved/utahpubliclicense,FSF/UtahPublicLicense
+approved/uuencode and uudecode functions notice,spdx/HPND
 approved/w3c software notice and license.dom-software,spdx/W3C
 approved/webm,FSF/WebM
 approved/wtfpl-2.0,spdx/WTFPL
@@ -493,10 +513,14 @@ cc0-1.0,spdx/CC0-1.0
 cddl,spdx/CDDL-1.0
 cddl + gpl-2.0-with-classpath-exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl + gplv2 with classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
+cddl 1.0,spdx/CDDL-1.0
 cddl 1.0 and gpl v2 with classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
+cddl 1.0 license,spdx/CDDL-1.0
 cddl 1.1,spdx/CDDL-1.1
+cddl license,spdx/CDDL-1.0
 cddl or gpl version 2 plus the classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl or gplv2 with exceptions,Approved/CDDL + GPL-2.0-with-classpath-exception
+cddl v1.1 / gpl v2 dual license,Approved/CDDL + GPL-2.0-with-classpath-exception
 "cddl) (collectively, the license",spdx/CDDL-1.0
 cddl+gpl,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl+gpl license,Approved/CDDL + GPL-2.0-with-classpath-exception
@@ -569,6 +593,7 @@ common public license,spdx/CPL-1.0
 common public license (cpl) -- v1.0,spdx/CPL-1.0
 common public license - v 1.0,spdx/CPL-1.0
 common public license 1.0,spdx/CPL-1.0
+common public license v1.0,Approved/CPL-1.0
 common public license version 1.0,spdx/CPL-1.0
 common public license version 1.0 (cpl).,spdx/CPL-1.0
 common public license version 1.0(cpl),spdx/CPL-1.0
@@ -736,6 +761,7 @@ ecl-1.0,spdx/ECL-1.0
 ecl-2.0,spdx/ECL-2.0
 ecl2.0,spdx/ECL-2.0
 eclipse distribution license,Approved/EDL-1.0
+"eclipse distribution license (edl), version 1.0",Approved/EDL-1.0
 eclipse distribution license - v 1.0,Approved/EDL-1.0
 eclipse distribution license 1.0 (bsd),Approved/EDL-1.0
 eclipse distribution license v. 1.0,Approved/EDL-1.0
@@ -745,10 +771,12 @@ eclipse foundation is the initial agreement steward.,spdx/EPL-1.0
 eclipse project,spdx/EPL-1.0
 eclipse public ,spdx/EPL-1.0
 eclipse public license,spdx/EPL-1.0
+"eclipse public license (epl), version 1.0",spdx/EPL-1.0
 eclipse public license - v 1.0,spdx/EPL-1.0
 eclipse public license - version 1.0,spdx/EPL-1.0
 eclipse public license 1.0,spdx/EPL-1.0
 eclipse public license 2.0,spdx/EPL-2.0
+eclipse public license v1.0,spdx/EPL-1.0
 eclipse public license version 1.0,spdx/EPL-1.0
 eclipse public license version 2.0,spdx/EPL-2.0
 "eclipse public license, version 1.0",spdx/EPL-1.0
@@ -791,6 +819,7 @@ entessa,spdx/Entessa
 entessa public license,spdx/Entessa
 entessa public license v1.0,spdx/Entessa
 epl,spdx/EPL-1.0
+epl 1.0 license,spdx/EPL-1.0
 epl-1.0,spdx/EPL-1.0
 epl-2.0,spdx/EPL-2.0
 erlang public license v1.1,spdx/ErlPL-1.1
@@ -1051,6 +1080,7 @@ gnu general public license - version 2 with the class path exception,spdx/GPL-2.
 gnu general public license v1.0 only,spdx/GPL-1.0
 gnu general public license v1.0 or later,spdx/GPL-1.0+
 gnu general public license v2.0 only,spdx/GPL-2.0
+"gnu general public license v2.0 only, with classpath exception",Approved/GPL-2.0 with ClassPath EXCEPTION
 gnu general public license v2.0 or later,spdx/GPL-2.0+
 gnu general public license v2.0 w/autoconf exception,spdx/GPL-2.0-with-autoconf-exception
 gnu general public license v2.0 w/bison exception,spdx/GPL-2.0-with-bison-exception
@@ -1088,6 +1118,7 @@ gnu lesser general public license (lgpl) version 3,spdx/LGPL-3.0
 "gnu lesser general public license (lgpl), version 2.1 or later",spdx/LGPL-2.1+
 gnu lesser general public license 2.1,spdx/LGPL-2.1
 gnu lesser general public license 2.1 or newer,spdx/LGPL-2.1+
+"gnu lesser general public license as published by the free software foundation; either version 2.1 of the license, or (at your option) any later version.",spdx/LGPL-2.1
 gnu lesser general public license v2.1,spdx/LGPL-2.1
 gnu lesser general public license v2.1 only,spdx/LGPL-2.1
 gnu lesser general public license v2.1 or later,spdx/LGPL-2.1-or-later
@@ -1125,6 +1156,7 @@ google-cloud-platform-terms-of-service,Approved/Google Cloud Platform Terms
 gpl,spdx/GPL-2.0
 gpl  all permissive license,spdx/FSFAP
 gpl -pa general public license for computer programs of the public administration version 1.1,FSF/GPL-PA
+gpl 2,spdx/GPL-2.0-only
 gpl and bsd license,spdx/GPL-2.0
 gpl classpath,spdx/GPL-2.0-with-classpath-exception
 gpl classpath exception,spdx/GPL-2.0-with-classpath-exception
@@ -1167,6 +1199,7 @@ gpl2 w/ cpe,spdx/GPL-2.0-with-classpath-exception
 gpl3,spdx/GPL-3.0
 gplv2,spdx/GPL-2.0
 gplv2 (with classpath exception),spdx/GPL-2.0-with-classpath-exception
+gplv2 with classpath exception,Approved/GPL-2.0 with ClassPath EXCEPTION
 gplv2+ce,spdx/GPL-2.0-with-classpath-exception
 gplv2.0,spdx/GPL-2.0
 gplv3,spdx/GPL-3.0
@@ -1176,6 +1209,7 @@ gsbase software license,"Approved/GSBase Software License, Version 1.0"
 "gsbase software license, version 1.0","Approved/GSBase Software License, Version 1.0"
 gsoap public license v1.3b,spdx/gSOAP-1.3b
 gsoap-1.3b,spdx/gSOAP-1.3b
+gwt terms,Approved/Google Cloud Platform Terms
 hacktivismo enhanced-source software license agreement,FSF/HESSLA
 harvard law school recording license agreement,Approved/Harvard Law School Recording License Agreement
 haskell language report license,spdx/HaskellReport
@@ -1956,6 +1990,7 @@ https://docs.oracle.com/cd/e26854_01/doc.121/e57639/license-slf4j.html,Approved/
 https://docs.oracle.com/cd/e37069_01/html/e37094/gnfar.html,Approved/BSD-3-Clause for Ecma International
 https://docs.oracle.com/cd/e60665_01/big-data-discovery-cloud/bddlg/cl_bsd_jaxen.htm#bddlg-concept_8c539f6f54bf4178b45a1057c503f402,Approved/BSD-5-Clause for Werken Company
 https://docs.oracle.com/cloud/latest/big-data-discovery-cloud/bddlg/cl_icu4j_license.htm#bddlg-concept_ab4527297161480dd261ac24135650fe,spdx/ICU
+https://docs.python.org/3/license.html,Approved/Python-3.7.2
 https://dojotoolkit.org/license.html,Approved/Dojo Toolkit License=AFL-1.1 + BSD-3-Clause
 https://downloads.mysql.com/docs/licenses/connector-j-5.1-com-en.pdf,Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE
 https://dst.lbl.gov/acssoftware/colt/,Approved/LGPL-2.1 based Colt License Agreement Notice
@@ -2140,7 +2175,7 @@ https://java.net/projects/javaeetutorial/pages/berkeleylicense,spdx/BSD-3-Clause
 https://javaee.github.io/glassfish/license,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://javaee.github.io/javamail/license,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://javahelp.dev.java.net/license.txt,Approved/CDDL + GPL-2.0-with-classpath-exception
-https://jcp.org/aboutjava/communityprocess/licenses/jsr107/sa-tck-jsr-107-10_22_12.pdf,JSR107_Agreement
+https://jcp.org/aboutjava/communityprocess/licenses/jsr107/sa-tck-jsr-107-10_22_12.pdf,Approved/JSR107 Ageement
 https://jdbc.postgresql.org/about/license.html,spdx/PostgreSQL
 https://jenkins.io/project/governance/#compatibility-matters,Approved/Jenkins Project Governance Document
 https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=license.txt,spdx/BSD-3-Clause-No-Nuclear-Warranty
@@ -2757,6 +2792,7 @@ include\apr_md5.h,spdx/RSA-MD
 includeapr_md5.h,spdx/RSA-MD
 independent jpeg group license,spdx/IJG
 indiana university extreme! lab software license,Approved/Indiana University Extreme! Lab Software License
+indiana university extreme! lab software license 1.1.1,Approved/Indiana University Extreme! Lab Software License
 "indiana university extreme! lab software license, vesion 1.1.1",Approved/Indiana University Extreme! Lab Software License
 info-zip,spdx/Info-ZIP
 info-zip license,spdx/Info-ZIP
@@ -2777,6 +2813,7 @@ ipl-1.0,spdx/IPL-1.0
 isc,spdx/ISC
 isc license,spdx/ISC
 isc license (isc),spdx/ISC
+isc/bsd license,Approved/ISC or 0BSD
 "jabber open source license, version 1.0",FSF/josl
 jabberoslv1.0,FSF/josl
 jahia community source license,FSF/Jahia
@@ -2800,7 +2837,8 @@ jdbm license,Approved/JDBM LICENSE v1.0
 jdbm license v1.0,Approved/JDBM LICENSE v1.0
 jdbm software license,Approved/JDBM LICENSE v1.0
 jdom,Approved/DOM4J by MetaStuff
-jdom license,Approved/DOM4J by MetaStuff
+jdom license,Approved/jdom2 License
+jdom2 license,Approved/jdom2 License
 jenkins,Approved/Jenkins Project Governance Document
 jenkins project governance document,Approved/Jenkins Project Governance Document
 jetty web container copyright and license,Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License
@@ -2819,10 +2857,11 @@ jsr spec evaluation license,Approved/JSR Spec Evaluation License
 jsr spec implementation license,Approved/JSR Spec Implementation License
 jsr-275 specifies java packages,JSR275 Specification License
 jsr-94 specification reference implementation license agreement,Approved/JSR-94 Specification Reference Implementation License Agreement
-jsr107/agreement,JSR107_Agreement
-jsr107_agreement,JSR107_Agreement
+jsr107/agreement,Approved/JSR107 Ageement
+jsr107_agreement,Approved/JSR107 Ageement
 jsr275 specification license,JSR275 Specification License
 jython,spdx/Python-2.0
+jython software license,spdx/Python-2.0
 kindly,spdx/MIT
 lal-1.2,spdx/LAL-1.2
 lal-1.3,spdx/LAL-1.3
@@ -2851,6 +2890,7 @@ lgpl,spdx/LGPL-2.1
 lgpl 2,spdx/LGPL-2.0
 lgpl 2.1,spdx/LGPL-2.1
 lgpl 2.1 license,spdx/LGPL-2.1
+lgpl 3.0 license,spdx/LGPL-3.0-only
 lgpl and bsd,spdx/LGPL-2.1
 lgpl license,spdx/LGPL-2.0
 lgpl license version 3.0,spdx/LGPL-3.0
@@ -2904,7 +2944,7 @@ licence libre du québec – réciprocité version 1.1,spdx/LiLiQ-R-1.1
 "license
        of the ec fonts for latex",FSF/ecfonts
 license based on the mit x consortium license,spdx/X11
-license grant for the tck,JSR107_Agreement
+license grant for the tck,Approved/JSR107 Ageement
 license mobility through software assurance,Approved/BYOL and Oversubscription
 license of imlib2,spdx/Imlib2
 license of lha,FSF/Lha
@@ -2990,6 +3030,7 @@ mit for qos ch,Approved/MIT for Qos ch
 mit license,spdx/MIT
 mit license (mit),spdx/MIT
 mit license / x11 license,spdx/X11
+mit liense.md,spdx/MIT
 mit no attribution,spdx/MIT-0
 mit open source license.,spdx/MIT
 mit' in license,spdx/MIT
@@ -3027,10 +3068,12 @@ mozilla public license 1.1 (mpl 1.1),spdx/MPL-1.1
 mozilla public license 2.0,spdx/MPL-2.0
 mozilla public license 2.0 (no copyleft exception),spdx/MPL-2.0-no-copyleft-exception
 mozilla public license v. 1.1,spdx/MPL-1.1
+mozilla public license version 1.0,spdx/MPL-1.0
 mozilla public license version 1.1,spdx/MPL-1.1
 mozilla public license version 2,spdx/MPL-2.0
 mozilla public license version 2.0,spdx/MPL-2.0
 mozilla public license(mpl) version 1.1,spdx/MPL-1.1
+"mozilla public license, version 2.0",spdx/MPL-2.0
 mozilla public license?1.1,spdx/MPL-1.1
 mozilla public license?2.0,spdx/MPL-2.0
 mozilla-public-license-v1-1,spdx/MPL-1.1
@@ -3038,6 +3081,7 @@ mpich2,spdx/mpich2
 mpich2 license,spdx/mpich2
 mpl,FSF/MPL
 mpl 1.1,spdx/MPL-1.1
+mpl 2.0 or epl 1.0,Approved/MPL-2.0 + EPL-1.0
 mpl v2.0,FSF/MPL-2.0
 mpl-1.0,spdx/MPL-1.0
 mpl-1.1,spdx/MPL-1.1
@@ -3353,7 +3397,9 @@ ps-or-pdf-font-exception-20170817,spdx/PS-or-PDF-font-exception-20170817
 ps/pdf font exception (2017-08-17),spdx/PS-or-PDF-font-exception-20170817
 psf,spdx/Python-2.0
 psf license,spdx/Python-2.0
+psf license agreement,Approved/Python-3.7.2
 psf license agreement for python 3,spdx/Python-2.0
+psf license agreement for python 3.7.2,Approved/Python-3.7.2
 psf shall not be liable to license,spdx/Python-2.0
 psf's license,spdx/Python-2.0
 "psf-based,",spdx/Python-2.0
@@ -3657,7 +3703,7 @@ share/licenses/lgpl-3,spdx/LGPL-3.0
 sil open font license 1.0,spdx/OFL-1.0
 sil open font license 1.1,spdx/OFL-1.1
 "sil open font license, 1.1",spdx/OFL-1.1
-similar to apache license but with the acknowledgment clause removed,spdx/Apache-1.1
+similar to apache license but with the acknowledgment clause removed,Approved/jdom2 License
 simpl-2.0,spdx/SimPL-2.0
 simple logging facade for java (slf4j),Approved/MIT for Qos ch
 simple machines license,ONI/Simple Public License 2.0
@@ -3966,6 +4012,7 @@ spdx/mpich2,spdx/mpich2
 spdx/mpl-1.0,spdx/MPL-1.0
 spdx/mpl-1.1,spdx/MPL-1.1
 spdx/mpl-2.0,spdx/MPL-2.0
+"spdx/mpl-2.0,\nmozilla public license, version 2.0",spdx/MPL-2.0
 spdx/mpl-2.0-no-copyleft-exception,spdx/MPL-2.0
 spdx/ms-pl,spdx/MS-PL
 spdx/ms-rl,spdx/MS-RL
@@ -4129,7 +4176,7 @@ spongy castle licence,Approved/MIT + donation for Bouncy Castle License
 squeak license,FSF/Squeak
 squeak-old,FSF/Squeak
 srgb color space profile.icm,Approved/sRGB Profile Licensing Agreement
-stand-alone tck license agreement,JSR107_Agreement
+stand-alone tck license agreement,Approved/JSR107 Ageement
 standard 3-clause bsd; see 'license.txt' for full license terms,spdx/BSD-3-Clause
 standard license agreement highsoft,Approved/Highsoft Standard License Agreement 9.0
 standard ml of new jersey copyright license,spdx/SMLNJ
@@ -4229,6 +4276,7 @@ the gnu general public license v.2,spdx/GPL-2.0
 "the gnu general public license version 2 or later (the ""gpl"")",spdx/GPL-2.0+
 the gnu general public license version 2 or later (the gpl),spdx/GPL-2.0+
 "the gnu general public license, version 2",spdx/GPL-2.0
+"the gnu general public license, version 3",spdx/GPL-3.0-only
 "the gnu general public license, version 3.0",spdx/GPL-3.0
 "the gnu general purpose license, version 3.0",spdx/GPL-3.0
 "the gnu lesser general public license, version 2.1",spdx/LGPL-2.1
@@ -4246,6 +4294,7 @@ the latex project public license version 1.2,spdx/LPPL-1.2
 the legion of the bouncy castle,Approved/MIT + donation for Bouncy Castle License
 the library general public license,spdx/LGPL-2.0
 the mit license,spdx/MIT
+the mit license (mit),spdx/MIT
 the mozilla public license and netscape public,FSF/MPL
 "the mozilla public license, v. 2.0",spdx/MPL-2.0
 "the mx4j license, version 1.0",Approved/MX4j
@@ -4265,6 +4314,8 @@ the sleepycat software product license,FSF/BerkeleyDB
 "the software shall be used for good, not evil. (see license)",FSF/JSON
 the trove library is licensed under the lesser gnu public license,Approved/GPLv2 + CERN NOTICE
 the unlicense,spdx/Unlicense
+the w3c license,spdx/W3C
+the w3c software license,spdx/W3C
 the werken company license,Approved/BSD-5-Clause for Werken Company
 "the zend engine license, version 2.00",spdx/Zend-2.0
 the zlib/libpng license,spdx/Libpng
@@ -4278,6 +4329,7 @@ this common public license (agreement),spdx/CPL-1.0
 "this file to you under the apache license, version 2",spdx/Apache-2.0
 this is free and unencumbered software released into the public domain,spdx/Unlicense
 this is very similar to the python software foundation license used for python itself,Approved/GPL-3.0 + Python License NOTICE
+"this material is licensed under the apache software license, version 2.0",spdx/Apache-2.0
 "this program is licensed to you under the apache license version 2.0,",spdx/Apache-2.0
 "this stuff is worth it, you can buy me a beer in return",spdx/Beerware
 this work is licensed under a psf compatible license. a copy,spdx/Python-2.0

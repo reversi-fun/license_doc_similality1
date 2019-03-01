@@ -1,0 +1,26 @@
+UUencode and UUdecode functions
+The uu module contains the following notice:
+
+Copyright 1994 by Lance Ellinghouse
+Cathedral City, California Republic, United States of America.
+                       All Rights Reserved
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of Lance Ellinghouse
+not be used in advertising or publicity pertaining to distribution
+of the software without specific, written prior permission.
+LANCE ELLINGHOUSE DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS, IN NO EVENT SHALL LANCE ELLINGHOUSE CENTRUM BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Modified by Jack Jansen, CWI, July 1995:
+- Use binascii module to do the actual line-by-line conversion
+  between ascii and binary. This results in a 1000-fold speedup. The C
+  version is still 5 times faster, though.
+- Arguments more compliant with Python standard
