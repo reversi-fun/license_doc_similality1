@@ -94,7 +94,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     for filename in glob.glob(corpus_dir + '/**', recursive=True):
         filePattern = (filename[len(corpus_dir)+1:] if filename.startswith(corpus_dir) else filename).replace('/', '\\')
         try:
-          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and all([not filename.endswith(suffix) for suffix in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties', '.MF', 'pom.xml']]) \
+          if  os.path.isfile(filename)  and (os.path.getsize(filename) < 2048000) and all([not filename.endswith(suffix) for suffix in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties', '.MF', 'pom.xml','.gif','.png', '.sha1']]) \
              and (prefix != 'research'  \
                 or any([licenseName in filename for licenseName in ['license','LICENSE', 'licence' , 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty' ,'readme','copy','contribut',  'pom']])
                 or re.match(r'(?:legal|license.?)[\\\/].+?[\.](?:md|txt|html)$', filePattern, re.IGNORECASE)
