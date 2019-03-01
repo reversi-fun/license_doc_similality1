@@ -106,63 +106,73 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                 projectRelatedURLs = []
                 projectName = []
                 projectDescription = []
-                xmlDocTree = ET.parse(filename)
+                # xmlDocTree = ET.parse(filename) <-- error "xml.etree.ElementTree.ParseError  not well-formed (invalid token)""
+               #  xmlDocRoot = xmlDocTree.getroot()
+                raw_doc = open(filename, 'rb').read()
+                encode_detector.reset()
+                encode_detector.feed(raw_doc)
+                if encode_detector.done:
+                    encode_detector.close()
+                    raw_doc = str(raw_doc, encoding=encode_detector.result['encoding'], errors='replace') #.decode(encoding='utf-8', errors='replace')
+                else:
+                    encode_detector.close()
+                    raw_doc = str(raw_doc, encoding='utf-8', errors='replace')
+                raw_doc = raw_doc.replace('&oslash;', 'Ø').replace('&nbsp;', ' ')
+                xmlDocRoot = ET.fromstring(raw_doc)
                 # <Element '{http://maven.apache.org/POM/4.0.0}project'
-                xmlDocRoot = xmlDocTree.getroot()
                 # '{http://maven.apache.org/POM/4.0.0}'
                 pomNS = xmlDocRoot.tag[0: -7] if len(xmlDocRoot.tag) > 6 else ''
                 projectGroupEL = xmlDocRoot.find(pomNS + 'groupId')
-                if projectGroupEL and projectGroupEL.text:
-                    projectGroup = projectGroupEL.text
+                if isinstance(projectGroupEL, xml.etree.ElementTree.Element) and isinstance(projectGroupEL.text,str):
+                    projectGroup = re.sub(r'[\s\r\n]+', ' ',projectGroupEL.text).strip()
                 else:
                     projectGroupEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'groupId')
-                    if projectGroupEL and projectGroupEL.text:
-                        projectGroup = projectGroupEL.text
+                    if isinstance(projectGroupEL, xml.etree.ElementTree.Element) and isinstance(projectGroupEL.text,str):
+                        projectGroup = re.sub(r'[\s\r\n]+', ' ',projectGroupEL.text).strip()
                 projectArtifactIdEL = xmlDocRoot.find(pomNS + 'artifactId')
-                if projectArtifactIdEL and projectArtifactIdEL.text:
-                    projectArtifactId = projectArtifactIdEL.text
+                if isinstance(projectArtifactIdEL, xml.etree.ElementTree.Element) and isinstance(projectArtifactIdEL.text,str):
+                    projectArtifactId = re.sub(r'[\s\r\n]+', ' ',projectArtifactIdEL.text).strip()
                 else:
                     projectArtifactIdEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'artifactId')
-                    if projectArtifactIdEL and projectArtifactIdEL.text:
-                        projectArtifactId = projectArtifactIdEL.text
+                    print('parent/artifactId', projectArtifactIdEL)
+                    if isinstance(projectArtifactIdEL, xml.etree.ElementTree.Element) and isinstance(projectArtifactIdEL.text,str):
+                        projectArtifactId = re.sub(r'[\s\r\n]+', ' ',projectArtifactIdEL.text).strip()
                 projectVersionEL = xmlDocRoot.find(pomNS + 'version')
-                if projectVersionEL and  projectVersionEL.text:
-                    projectVersion = projectVersionEL.text
+                if isinstance( projectVersionEL, xml.etree.ElementTree.Element) and isinstance( projectVersionEL.text,str):
+                    projectVersion = re.sub(r'[\s\r\n]+', ' ',projectVersionEL.text).strip()
                 else:
                     projectVersionEL = xmlDocRoot.find(
                         pomNS + 'parent/' + pomNS + 'version')
-                    if projectVersionEL and   projectVersionEL.text:
-                        projectVersion = projectVersionEL.text
+                    if isinstance(projectVersionEL, xml.etree.ElementTree.Element) and isinstance(projectVersionEL.text,str):
+                        projectVersion = re.sub(r'[\s\r\n]+', ' ',projectVersionEL.text).strip()
                 for xml_project_license_element in xmlDocRoot.findall(pomNS + 'licenses/' + pomNS + 'license'):
-                    project_lic_name_EL = xml_project_license_element.find(
-                        pomNS + 'name')
-                    if project_lic_name_EL and project_lic_name_EL.text:
-                        projectLicenseNames.append(project_lic_name_EL.text)
-                    project_lic_url_EL = xml_project_license_element.find(
-                        pomNS + 'url')
-                    if (project_lic_url_EL) and (project_lic_url_EL.text):
-                        projectLicenseURLs.append(project_lic_url_EL.text)
+                    project_lic_name_EL = xml_project_license_element.find(pomNS + 'name')
+                    if isinstance( project_lic_name_EL, xml.etree.ElementTree.Element) and isinstance(project_lic_name_EL.text,str):
+                        projectLicenseNames.append(re.sub(r'[\s\r\n]+', ' ',project_lic_name_EL.text).strip())
+                    project_lic_url_EL = xml_project_license_element.find(pomNS + 'url')
+                    if isinstance(project_lic_url_EL, xml.etree.ElementTree.Element) and isinstance(project_lic_url_EL.text,str):
+                        projectLicenseURLs.append(re.sub(r'[\s\r\n]+', ' ',project_lic_url_EL.text).strip())
                 for infoKey in ['developers/' + pomNS + 'developer', 'organization',  'contributors/' + pomNS + 'contributor']:
                     for project_authers_EL in xmlDocRoot.findall(pomNS + infoKey):
                         for itemKey in ['id',  'name',  'email', 'organization']:
                             project_auther_EL = project_authers_EL.find(
                                 pomNS + itemKey)
-                            if project_auther_EL and  project_auther_EL.text:
-                                projectAuthers.append(project_auther_EL.text)
+                            if isinstance(project_auther_EL, xml.etree.ElementTree.Element) and isinstance(project_auther_EL.text,str):
+                                projectAuthers.append(re.sub(r'[\s\r\n]+', ' ',project_auther_EL.text).strip())
                         for itemKey in ['url']:
                             project_auther_EL = project_authers_EL.find(pomNS + itemKey)
-                            if project_auther_EL and  project_auther_EL.text:
-                                projectRelatedURLs.append(project_auther_EL.text)
+                            if isinstance(project_auther_EL, xml.etree.ElementTree.Element) and isinstance(project_auther_EL.text,str):
+                                projectRelatedURLs.append(re.sub(r'[\s\r\n]+', ' ',project_auther_EL.text).strip())
                 for infoKey in ['name']:
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
-                    if project_description_EL and project_description_EL.text and(len(project_description_EL.text) > 0):
-                        projectName.append(project_description_EL.text)
+                    if isinstance(project_description_EL, xml.etree.ElementTree.Element) and isinstance(project_description_EL.text,str) and(len(project_description_EL.text) > 0):
+                        projectName.append(re.sub(r'[\s\r\n]+', ' ',project_description_EL.text).strip())
                 for infoKey in ['description']:
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
-                    if project_description_EL and project_description_EL.text and (len(project_description_EL.text) > 0):
-                        projectDescription.append(project_description_EL.text)
+                    if isinstance(project_description_EL, xml.etree.ElementTree.Element) and isinstance(project_description_EL.text,str) and (len(project_description_EL.text) > 0):
+                        projectDescription.append(re.sub(r'[\s\r\n]+', ' ',project_description_EL.text).strip())
                 if (len(projectArtifactId) > 0):
                     if len(projectLicenseNames) > 0:
                         # 類似度欄は、確定的であることを示す値. MS-EXCELのフィルターで絞込みし易くする為、len(projectLicenseNames)個は並べない
@@ -214,7 +224,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     encode_detector.close()
                     raw_doc = str(raw_doc, encoding='utf-8', errors='replace')
                 packageInfoDic = json.loads(raw_doc)
-                projectArtifactId = packageInfoDic.get('name', '')
+                projectArtifactId = re.sub(r'[\s\r\n]+', ' ',packageInfoDic.get('name', '')).strip()
                 projectName.append(projectArtifactId)
                 projectVersion = packageInfoDic.get('version', '')
                 for infoKey in ['license', 'licenses']:
@@ -222,24 +232,24 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     if type(curLicenses) == type([]):  # list
                         for licInfo in curLicenses:
                             if isinstance(licInfo, dict):
-                                curLicText = licInfo.get('type', '')
+                                curLicText = re.sub(r'[\s\r\n]+', ' ',licInfo.get('type', '')).strip()
                                 if len(curLicText) > 0:
                                     projectLicenseNames.append(
                                         'spdx/' + curLicText)
                                 curLicText = licInfo.get('url', '')
                                 if len(curLicText) > 0:
-                                    projectLicenseURLs.append(curLicText)
+                                    projectLicenseURLs.append(curLicText.strip())
                             else:
-                                projectLicenseNames.append('spdx/' + licInfo)
+                                projectLicenseNames.append('spdx/' + re.sub(r'[\s\r\n]+', ' ',licInfo).strip())
                     elif isinstance(curLicenses, dict):
-                        curLicText = curLicenses.get('type', '')
+                        curLicText = re.sub(r'[\s\r\n]+', ' ',curLicenses.get('type', '')).strip()
                         if len(curLicText) > 0:
                             projectLicenseNames.append('spdx/' + curLicText)
-                        curLicText = curLicenses.get('url', '')
+                        curLicText = re.sub(r'[\s\r\n]+', ' ',curLicenses.get('url', '')).strip()
                         if len(curLicText) > 0:
                             projectLicenseURLs.append(curLicText)
-                    elif type(curLicenses) == type('') and len(curLicenses) > 0:
-                        projectLicenseNames.append('spdx/' + curLicenses)
+                    elif isinstance(curLicenses,str) and len(curLicenses) > 0:
+                        projectLicenseNames.append('spdx/' + re.sub(r'[\s\r\n]+', ' ',curLicenses).strip())
                 curAuthersText = packageInfoDic.get('homepage', '')
                 if len(curAuthersText) > 0:
                     projectRelatedURLs.append(curAuthersText)
@@ -257,7 +267,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                                 curAuthersText = authersInfo.get('url', '')
                                 if len(curAuthersText) > 0:
                                     projectRelatedURLs.append(curAuthersText)
-                            elif type(authersInfo) == type('') and len(authersInfo) > 0:
+                            elif isinstance(authersInfo,str) and len(authersInfo) > 0:
                                 projectAuthers.append(authersInfo)
                     elif isinstance(curAuthers, dict):
                         curAuthersText = curAuthers.get('name', '')
@@ -269,7 +279,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                         curAuthersText = curAuthers.get('url', '')
                         if len(curAuthersText) > 0:
                             projectRelatedURLs.append(curAuthersText)
-                    elif type(curAuthers) == type('') and len(curAuthers) > 0:
+                    elif isinstance(curAuthers,str) and len(curAuthers) > 0:
                         projectAuthers.append(curAuthers)
                 for infoKey in ['description', 'keywords']:
                     curDescription = packageInfoDic.get(infoKey, '')
@@ -309,7 +319,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     ])
             elif classPathMatcher1.match(filePattern):
                 pass
-            elif (os.path.splitext(filename)[1] not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties']) \
+            elif (os.path.splitext(filename)[1] not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties','gif','.png', '.sha1']) \
                and (any([licenseName in os.path.basename(filename) for licenseName in ['license', 'LICENSE', 'licence', 'LICENCE', 'notice', 'NOTICE', 'nitify', 'NOTIFY',  'Notices', 'THIRD-PARTY', 'ThirdParty', 'readme', 'copy', 'contribut',  'pom']]) \
                  or re.match(r'(?:legal|license.?)[\\\/].+?[\.](?:md|txt|html)$', filePattern, re.IGNORECASE)
                ):
@@ -384,12 +394,12 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                             '',  # relatedURL欄は空
                             projectArtifactId  # name欄はArtifactId
                         ])
-    except xml.etree.ElementTree.ParseError:
-        print("SKIP ", os.path.splitext(filename))
-    except json.JSONDecodeError:
-        print("SKIP ", os.path.splitext(filename))
-    except UnicodeDecodeError:
-        print("SKIP ", os.path.splitext(filename))
+    except xml.etree.ElementTree.ParseError as e:
+        print("SKIP by xml.etree.ElementTree.ParseError ", e, os.path.splitext(filename),raw_doc[0:90])
+    except json.JSONDecodeError as e:
+        print("SKIP by json.JSONDecodeError ", e, os.path.splitext(filename),raw_doc[0:90])
+    except UnicodeDecodeError as e:
+        print("SKIP by UnicodeDecodeError ", e, os.path.splitext(filename),raw_doc[0:9])
 
 programId2license.save('./config/THIRD-PARTY.properties.updates.txt')
 for filePattern, programId in classPathMatcher1.list():
