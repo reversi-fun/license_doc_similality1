@@ -1552,6 +1552,7 @@ http://www.day.com/maven/jsr170/jars/license.txt,Approved/Day Specification Lice
 http://www.day.com/maven/jsr170/licenses/day-spec-license.htm,Approved/Day Specification License
 http://www.dipp.nrw.de/d-fsl/lizenzen/,spdx/D-FSL-1.0
 http://www.dom4j.org/dom4j-1.6.1/license.html,Approved/DOM4J by MetaStuff
+https://github.com/dom4j/dom4j/blob/master/LICENSE,Approved/DOM4J by MetaStuff
 http://www.ece.uvic.ca/~mdadams/jasper/license,spdx/JasPer-2.0
 http://www.eclipse.org/jetty/licenses.html,Approved/EPL-1.0 + Apache-2.0 for Jetty NOTICE
 http://www.eclipse.org/legal/epl-v10.html,spdx/EPL-1.0
@@ -2099,7 +2100,7 @@ https://github.com/fabric3,Approved/ExtremeTransactions Development License
 https://github.com/facebook/react/blob/master/license,spdx/MIT
 https://github.com/gianttreelp/bukkitdependencyloader/blob/master/license.txt,spdx/GPL-3.0
 https://github.com/golang/go/blob/master/license,Approved/BSD-3-Clause for Go Authors
-https://github.com/hunterhacker/jdom/blob/master/license.txt,Approved/DOM4J by MetaStuff
+https://github.com/hunterhacker/jdom/blob/master/license.txt,Approved/jdom2 License
 https://github.com/indutny/elliptic/blob/master/readme.md,Approved/MIT for Fedor Indutny
 https://github.com/isaacs/glob/blob/master/licence,spdx/BSD-3-Clause
 https://github.com/isaacs/nopt/raw/master/license,spdx/ISC
@@ -2245,7 +2246,7 @@ https://pypi.python.org/pypi/logilab-common/1.4.1,Approved/LGPL-2.1 for logilab-
 https://raw.github.com/broofa/node-mime/master/license,spdx/MIT
 https://raw.github.com/broofa/node-uuid/master/license.md,spdx/MIT
 https://raw.github.com/davidchambers/base64.js/master/license,Approved/Apache-2.0 + WTFPL License
-https://raw.github.com/hunterhacker/jdom/master/license.txt,Approved/DOM4J by MetaStuff
+https://raw.github.com/hunterhacker/jdom/master/license.txt,Approved/jdom2 License
 https://raw.github.com/jsr107/jsr107spec/master/license.txt,spdx/Apache-2.0
 https://raw.github.com/junrar/junrar/master/license.txt,Approved/UnRar license
 https://raw.githubusercontent.com/aunkrig/antology/master/license,spdx/Apache-2.0
@@ -2836,7 +2837,7 @@ jcr 2.0,Approved/Day Specification License
 jdbm license,Approved/JDBM LICENSE v1.0
 jdbm license v1.0,Approved/JDBM LICENSE v1.0
 jdbm software license,Approved/JDBM LICENSE v1.0
-jdom,Approved/DOM4J by MetaStuff
+jdom,Approved/jdom2 License
 jdom license,Approved/jdom2 License
 jdom2 license,Approved/jdom2 License
 jenkins,Approved/Jenkins Project Governance Document
