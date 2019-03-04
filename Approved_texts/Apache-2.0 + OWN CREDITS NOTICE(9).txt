@@ -1,0 +1,16 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,
+// Version 2.0, in this case for Maven Plugin Parameter Documenter API
+// ------------------------------------------------------------------
+
+Maven Plugin Parameter Documenter API
+Copyright 2001-2008 The Apache Software Foundation
+
+This product includes/uses software(s) developed by 'Codehaus' (http://www.codehaus.org/)
+  - Default Plexus Container
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils)
+
+This product includes/uses software(s) developed by 'The Codehaus' (http://codehaus.org/)
+  - classworlds (http://classworlds.codehaus.org/)
+
+

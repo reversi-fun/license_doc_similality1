@@ -1,0 +1,12 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,
+// Version 2.0, in this case for Maven Model
+// ------------------------------------------------------------------
+
+Maven Model
+Copyright 2001-2008 The Apache Software Foundation
+
+This product includes/uses software(s) developed by 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils)
+
+

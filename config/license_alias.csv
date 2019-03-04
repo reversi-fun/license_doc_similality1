@@ -200,10 +200,24 @@ approved/apache-1.0,spdx/Apache-1.0
 approved/apache-1.1,spdx/Apache-1.1
 approved/apache-2.0 + cc-by-2.5 notice,Approved/Apache-2.0 + CC-BY-2.5 License
 approved/apache-2.0 + jcip-annotations notice,Approved/Apache-2.0 + CC-BY-2.5 License
+approved/apache-2.0 + jcip-annotations notice(2),Approved/Apache-2.0 + CC-BY-2.5 License
+approved/apache-2.0 + own credits notice(3),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(4),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(5),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(6),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(7),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(8),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 + own credits notice(9),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 approved/apache-2.0 license(1),spdx/Apache-2.0
+approved/apache-2.0 licensed notice(1),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(2),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(3),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(4),Approved/Apache-2.0 licensed NOTICE
+approved/apache-2.0 licensed notice(5),Approved/Apache-2.0 licensed NOTICE
+approved/apache-2.0 licensed notice(6),Approved/Apache-2.0 licensed NOTICE
+approved/apache-2.0 licensed notice(7),Approved/Apache-2.0 licensed NOTICE
+approved/apache-2.0 licensed notice(8),Approved/Apache-2.0 licensed NOTICE
+approved/apache-2.0 licensed notice(9),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0(1),spdx/Apache-2.0
 approved/apache-2.0(2),spdx/Apache-2.0
 approved/arphic,FSF/Arphic
@@ -213,6 +227,7 @@ approved/bittorrentosl1.1,spdx/BitTorrent-1.1
 approved/bsd-2-clause + author license,spdx/BSD-2-Clause
 approved/bsd-2-clause + author license(1),spdx/BSD-2-Clause
 approved/bsd-2-clause + author license(2),spdx/BSD-2-Clause
+approved/bsd-2-clause + author license(3),spdx/BSD-2-Clause
 approved/bsd-3-clause (continued-line) license,spdx/BSD-3-Clause
 approved/bsd-3-clause (continued-line) license(2),spdx/BSD-3-Clause
 approved/bsd-3-clause (continued-line) license(3),spdx/BSD-3-Clause
@@ -244,14 +259,19 @@ approved/microsoft shared source license,FSF/Ms-SS
 approved/mit,spdx/MIT
 approved/mit + based on notice,spdx/MIT
 approved/mit + copyright license,spdx/MIT
+approved/mit + copyright license (2),spdx/MIT
+approved/mit + copyright license (3),spdx/MIT
 approved/mit + inspired products notice,spdx/MIT
 approved/mit + own license notice,Approved/MIT + own license NOTICE
 approved/mit + own products notice,Approved/MIT + own license NOTICE
+approved/mit + related url notice.md,spdx/MIT
 approved/mit by contributers license,spdx/MIT
 approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
 approved/mit for 3 authers license.md,spdx/MIT
 approved/mit licensed notice,spdx/MIT
+approved/mit licensed notice(2),spdx/MIT
+approved/mit licensed notice(2).xml,spdx/MIT
 approved/mit licensed notice.xml,spdx/MIT
 approved/mit liense.md,spdx/MIT
 approved/mit+ copyright license (2),spdx/MIT
@@ -1552,7 +1572,6 @@ http://www.day.com/maven/jsr170/jars/license.txt,Approved/Day Specification Lice
 http://www.day.com/maven/jsr170/licenses/day-spec-license.htm,Approved/Day Specification License
 http://www.dipp.nrw.de/d-fsl/lizenzen/,spdx/D-FSL-1.0
 http://www.dom4j.org/dom4j-1.6.1/license.html,Approved/DOM4J by MetaStuff
-https://github.com/dom4j/dom4j/blob/master/LICENSE,Approved/DOM4J by MetaStuff
 http://www.ece.uvic.ca/~mdadams/jasper/license,spdx/JasPer-2.0
 http://www.eclipse.org/jetty/licenses.html,Approved/EPL-1.0 + Apache-2.0 for Jetty NOTICE
 http://www.eclipse.org/legal/epl-v10.html,spdx/EPL-1.0
@@ -2176,7 +2195,7 @@ https://java.net/projects/javaeetutorial/pages/berkeleylicense,spdx/BSD-3-Clause
 https://javaee.github.io/glassfish/license,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://javaee.github.io/javamail/license,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://javahelp.dev.java.net/license.txt,Approved/CDDL + GPL-2.0-with-classpath-exception
-https://jcp.org/aboutjava/communityprocess/licenses/jsr107/sa-tck-jsr-107-10_22_12.pdf,Approved/JSR107 Ageement
+https://jcp.org/aboutjava/communityprocess/licenses/jsr107/sa-tck-jsr-107-10_22_12.pdf,Approved/JSR107 Agreement
 https://jdbc.postgresql.org/about/license.html,spdx/PostgreSQL
 https://jenkins.io/project/governance/#compatibility-matters,Approved/Jenkins Project Governance Document
 https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=license.txt,spdx/BSD-3-Clause-No-Nuclear-Warranty
@@ -2858,8 +2877,9 @@ jsr spec evaluation license,Approved/JSR Spec Evaluation License
 jsr spec implementation license,Approved/JSR Spec Implementation License
 jsr-275 specifies java packages,JSR275 Specification License
 jsr-94 specification reference implementation license agreement,Approved/JSR-94 Specification Reference Implementation License Agreement
-jsr107/agreement,Approved/JSR107 Ageement
-jsr107_agreement,Approved/JSR107 Ageement
+jsr107 agreement,Approved/JSR107 Agreement
+jsr107/agreement,Approved/JSR107 Agreement
+jsr107_agreement,Approved/JSR107 Agreement
 jsr275 specification license,JSR275 Specification License
 jython,spdx/Python-2.0
 jython software license,spdx/Python-2.0
@@ -2945,7 +2965,7 @@ licence libre du québec – réciprocité version 1.1,spdx/LiLiQ-R-1.1
 "license
        of the ec fonts for latex",FSF/ecfonts
 license based on the mit x consortium license,spdx/X11
-license grant for the tck,Approved/JSR107 Ageement
+license grant for the tck,Approved/JSR107 Agreement
 license mobility through software assurance,Approved/BYOL and Oversubscription
 license of imlib2,spdx/Imlib2
 license of lha,FSF/Lha
@@ -3464,7 +3484,9 @@ research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/meta-inf/license,spdx/
 research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
+research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
 research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
@@ -3516,6 +3538,7 @@ research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/meta-inf
 research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/license,spdx/Apache-2.0
@@ -3551,7 +3574,7 @@ research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/kill.html,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/kill.html
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/license-junit,spdx/EPL-1.0
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,spdx/Apache-2.0
-research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/notice,research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/META-INF/NOTICE
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/services/javax.management.remote.jmxconnectorserverprovider,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/services/javax.management.remote.JMXConnectorProvider
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattributes.xsl,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattribute.xsl
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/remote/resolver/soap/ssl/server-deploy.wsdd,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/remote/resolver/soap/server-deploy.wsdd
@@ -4177,7 +4200,7 @@ spongy castle licence,Approved/MIT + donation for Bouncy Castle License
 squeak license,FSF/Squeak
 squeak-old,FSF/Squeak
 srgb color space profile.icm,Approved/sRGB Profile Licensing Agreement
-stand-alone tck license agreement,Approved/JSR107 Ageement
+stand-alone tck license agreement,Approved/JSR107 Agreement
 standard 3-clause bsd; see 'license.txt' for full license terms,spdx/BSD-3-Clause
 standard license agreement highsoft,Approved/Highsoft Standard License Agreement 9.0
 standard ml of new jersey copyright license,spdx/SMLNJ
