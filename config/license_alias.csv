@@ -425,6 +425,7 @@ bsd 2-clause simplified license,spdx/BSD-2-Clause
 bsd 3,spdx/BSD-3-Clause
 bsd 3-clause,spdx/BSD-3-Clause
 "bsd 3-clause ""new"" or ""revised"" license",spdx/BSD-3-Clause
+"bsd 3-clause ""new"" or ""revised"" license (bsd-3-clause)",spdx/BSD-3-Clause
 bsd 3-clause 'new' or 'revised' license,spdx/BSD-3-Clause
 bsd 3-clause clear license,spdx/BSD-3-Clause-Clear
 bsd 3-clause license,spdx/BSD-3-Clause
