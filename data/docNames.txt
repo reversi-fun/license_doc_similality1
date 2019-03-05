@@ -624,6 +624,7 @@ FSF/Zope2.1,176
 Approved/-See EXCEPTION NOTICE,4
 Approved/-See java base ADDITIONAL LICENSE NOTICE,5
 Approved/-See java base LICENSE NOTICE,3
+Approved/-SEE LICENSE IN COPYING,3
 Approved/0BSD + 1 provided by Auther Lucent in Python license,79
 Approved/ACDL-1.0,646
 Approved/ACM Software License Agreement,279
@@ -639,6 +640,7 @@ Approved/Apache-1.0,203
 Approved/Apache-1.1 = The CyberNeko Software License, Version 1.0,163
 Approved/Apache-1.1 based Ant-Contrib License,179
 Approved/Apache-1.1 for IAIK of Graz University of Technology.md,160
+Approved/Apache-1.1 for Mockrunner,151
 Approved/Apache-1.1 in comments,165
 Approved/Apache-1.1,189
 Approved/Apache-2.0 + BSD 3-Clause,59
@@ -710,9 +712,12 @@ Approved/BSD-3-Clause for Aduna license,115
 Approved/BSD-3-Clause for any contributors LICENSE,109
 Approved/BSD-3-Clause for asm-License,119
 Approved/BSD-3-Clause for Atlassian,104
+Approved/BSD-3-Clause for Ben Fortuna,113
 Approved/BSD-3-Clause for Ecma International,263
 Approved/BSD-3-Clause for Go Authors,109
 Approved/BSD-3-Clause for HSQL Development Group,255
+Approved/BSD-3-Clause for JGraph,158
+Approved/BSD-3-Clause for Kirkk.com,111
 Approved/BSD-3-Clause for many contributors NOTICE(2),119
 Approved/BSD-3-Clause for many contributors NOTICE(3),120
 Approved/BSD-3-Clause for many contributors NOTICE,120
@@ -725,7 +730,9 @@ Approved/BSD-5-Clause for Werken Company,147
 Approved/BYOL and Oversubscription,884
 Approved/bzip2 license,136
 Approved/CC-BY-NC-ND-3.0-US,1068
+Approved/CC-BY-NC-SA-3.0-DE,2602
 Approved/CC-BY-SA-3.0-US,1315
+Approved/CC0-1.0 Universal,542
 Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License,160
 Approved/CDDL + GPL-2.0-with-classpath-exception,2605
 Approved/CDDL-1.0 + Apache-2.0,4094
@@ -749,6 +756,7 @@ Approved/edl-v10,115
 Approved/Election of GPLv2 for MySQL ConnectorJ,1595
 Approved/EPL-1.0 + Apache-2.0 for Jetty NOTICE,31
 Approved/epl-v10,841
+Approved/ERLANG PUBLIC LICENSE Version 1.1,1056
 Approved/Expat,83
 Approved/ExtremeTransactions Development License,450
 Approved/FasterXML_CREDITS_NOTICE,70
@@ -851,6 +859,7 @@ Approved/Oculus_VR_Rift_SDK_License,1267
 Approved/OGC legal NOTICE,501
 Approved/ontotext LICENSE-GraphDB-Free,3009
 Approved/Open Source License for Oracle Berkeley DB Java Edition,934
+Approved/OpenLDAP Public License Version 2.8,168
 Approved/OpenSSL + SSLeay by module License,495
 Approved/OpenSSL + SSLeay,433
 Approved/OPL-1.0,1491
@@ -895,11 +904,13 @@ Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA,205
 Approved/The CyberNeko Software License, Version 1.0,154
 Approved/The H2 License, Version 1.0,2166
 Approved/The P6Spy Software License, Version 1.1,208
+Approved/TMate Open Source License,205
 Approved/TRILEAD-LICENSE,353
 Approved/TrueCrypt-3.0,1680
 Approved/ubuntu-font-licence-1.0,342
 Approved/UCB-LB license,156
 Approved/UnboundID LDAP SDK Free Use License,465
+Approved/Unicode Copyright and Terms of Use,547
 Approved/UNICODE DATA FILES AND SOFTWARE.md,277
 Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE,273
 Approved/universal-foss-exception,234
@@ -907,6 +918,7 @@ Approved/UnRar license,116
 Approved/UtahPublicLicense,896
 Approved/UUencode and UUdecode functions NOTICE,114
 Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,297
+Approved/W3C Software and Document Short Notice,44
 Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software,268
 Approved/Watcom-1.0,1587
 Approved/WebM,109
