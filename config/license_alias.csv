@@ -90,6 +90,7 @@ amd's plpa_map.c license,spdx/AMDPLPA
 amdplpa,spdx/AMDPLPA
 aml,spdx/AML
 ampas,spdx/AMPAS
+anaconda repository end user license agreement,Approved/proprietary - Continuum Analytics
 and distribution license\t except in compliance \t/legal/\t/legal/\t gpl classpath exception\t designates this particular file as subject to the \t gpl version 2 section of the license\t copyright \t cddl or\n,Approved/CDDL + GPL-2.0-with-classpath-exception
 ant-contrib license,Approved/Apache-1.1 based Ant-Contrib License
 antlr 3 license,spdx/ANTLR-PD
@@ -111,6 +112,8 @@ apache 2 license,spdx/Apache-2.0
 apache 2.,spdx/Apache-2.0
 apache 2.0,spdx/Apache-2.0
 apache 2.0 license,spdx/Apache-2.0
+apache 2.0 or bsd 2-clause,"spdx/Apache-1.0,\nspdx/BSD-2-Clause"
+"apache 2.0 or bsd 3-clause, psf 2","spdx/Apache-2.0,\rspdx/BSD-3-Clause,\rspdx/Python-2.0"
 apache group. this software is provided,spdx/Apache-2.0
 apache james mime4,spdx/Apache-2.0
 apache license,spdx/Apache-2.0
@@ -263,10 +266,12 @@ approved/erlang public license version 1.1,spdx/ErlPL-1.1
 approved/expat,spdx/MIT
 approved/free-art-l-1.3,FSF/FreeArt
 approved/freebsddl,spdx/BSD-2-Clause-FreeBSD
+approved/freetype project license,spdx/FTL
 approved/gpl-2.0 with classpath exception,spdx/GPL-2.0-with-classpath-exception
+approved/gpl-3.0,spdx/GPL-3.0-only
 approved/gpl-pa-1.1,FSF/GPL-PA
 approved/hsqldb=bsd based license,Approved/BSD-3-Clause for HSQL Development Group
-approved/intel,spdx/Intel-ACPI
+approved/intel-acpi,spdx/Intel-ACPI
 approved/jabberoslv1.0,FSF/josl
 approved/jcip-annotations license,spdx/CC-BY-2.5
 approved/latex_ecfonts,FSF/ecfonts
@@ -285,6 +290,7 @@ approved/mit by contributers license,spdx/MIT
 approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
 approved/mit for 3 authers license.md,spdx/MIT
+approved/mit for qhull benjamin nortier,spdx/MIT
 approved/mit licensed notice,spdx/MIT
 approved/mit licensed notice(2),spdx/MIT
 approved/mit licensed notice(2).xml,spdx/MIT
@@ -423,10 +429,12 @@ bsd 2-clause netbsd license,spdx/BSD-2-Clause-NetBSD
 bsd 2-clause simplified license,spdx/BSD-2-Clause
 "bsd 2-clause simplified"" license",spdx/BSD-2-Clause
 bsd 3,spdx/BSD-3-Clause
+bsd 3 clause,spdx/BSD-3-Clause
 bsd 3-clause,spdx/BSD-3-Clause
 "bsd 3-clause ""new"" or ""revised"" license",spdx/BSD-3-Clause
 "bsd 3-clause ""new"" or ""revised"" license (bsd-3-clause)",spdx/BSD-3-Clause
 bsd 3-clause 'new' or 'revised' license,spdx/BSD-3-Clause
+bsd 3-clause and bsd with advertising,spdx/BSD-4-Clause
 bsd 3-clause clear license,spdx/BSD-3-Clause-Clear
 bsd 3-clause license,spdx/BSD-3-Clause
 bsd 3-clause license w/nuclear disclaimer,spdx/BSD-3-Clause-No-Nuclear-Warranty
@@ -436,6 +444,7 @@ bsd 3-clause new or revised license (bsd-3-clause),spdx/BSD-3-Clause
 bsd 3-clause no nuclear license,spdx/BSD-3-Clause-No-Nuclear-License
 bsd 3-clause no nuclear license 2014,spdx/BSD-3-Clause-No-Nuclear-License-2014
 bsd 3-clause no nuclear warranty,spdx/BSD-3-Clause-No-Nuclear-Warranty
+"bsd 3-clause, gpl-2.0, zpl-2.0, and elementtree",Approved/BSD-3-Clause for LXML ElementTree
 "bsd 4-clause ""original"" or ""old"" license",spdx/BSD-4-Clause
 bsd 4-clause 'original' or 'old' license,spdx/BSD-4-Clause
 bsd licence,spdx/BSD-3-Clause
@@ -461,6 +470,7 @@ bsd-1-clause,spdx/BSD-1-Clause
 bsd-2 license,spdx/BSD-2-Clause
 bsd-2-clause,spdx/BSD-2-Clause
 bsd-2-clause plus patent license,spdx/BSD-2-Clause-Patent
+"bsd-2-clause, psf2",Approved/Jython-1
 bsd-2-clause-freebsd,spdx/BSD-2-Clause-FreeBSD
 bsd-2-clause-netbsd,spdx/BSD-2-Clause-NetBSD
 bsd-2-clause-patent,spdx/BSD-2-Clause-Patent
@@ -498,6 +508,7 @@ bsd_3_clause,spdx/BSD-3-Clause
 bsl-1.0,spdx/BSL-1.0
 "but the special requirements of the gnu affero general public license, section ",spdx/GPL-3.0
 byol - bring your own license,Approved/BYOL and Oversubscription
+bzip2,spdx/bzip2-1.0.6
 bzip2 and libbzip2 license v1.0.5,spdx/bzip2-1.0.5
 bzip2 and libbzip2 license v1.0.6,spdx/bzip2-1.0.6
 bzip2-1.0.5,spdx/bzip2-1.0.5
@@ -1247,24 +1258,29 @@ gpl,spdx/GPL-2.0
 gpl  all permissive license,spdx/FSFAP
 gpl -pa general public license for computer programs of the public administration version 1.1,FSF/GPL-PA
 gpl 2,spdx/GPL-2.0-only
+gpl 2.0,spdx/GPL-2.0
 gpl 3,spdx/GPL-3.0-only
 "gpl 3,",spdx/GPL-3.0-only
 gpl and bsd license,spdx/GPL-2.0
+gpl and lgpl,"spdx/GPL-2.0,\rspdx/LGPL-2.1"
 gpl classpath,spdx/GPL-2.0-with-classpath-exception
 gpl classpath exception,spdx/GPL-2.0-with-classpath-exception
 gpl for computer programs of the public administration,FSF/GPL-PA
 gpl v2,spdx/GPL-2.0-only
+gpl v2+,spdx/GPL-2.0-or-later
 gpl v3,spdx/GPL-3.0-only
 gpl version 2,spdx/GPL-2.0
 gpl version 2 license,spdx/GPL-2.0
 gpl version 2 or to extend the choice of,Approved/CDDL + GPL-2.0-with-classpath-exception
 gpl version 2 plus the classpath exception,spdx/GPL-2.0-with-classpath-exception
+"gpl, lgpl, fdl, custom","spdx/GPL-2.0,\rspdx/LGPL-2.1,\rFSF/FDLv1.1,\r?Custom?"
 gpl-1.0,spdx/GPL-1.0
 gpl-1.0+,spdx/GPL-1.0+
 gpl-1.0-only,spdx/GPL-1.0-only
 gpl-1.0-or-later,spdx/GPL-1.0-or-later
 gpl-2,spdx/GPL-2.0
 gpl-2.0,spdx/GPL-2.0
+gpl-2.0 and freetype,Approved/FreeType Project LICENSE
 gpl-2.0 licenced notice,Approved/GPL-2.0 Licenced NOTICE
 gpl-2.0 or mit,Approved/GPL-2.0 or MIT
 gpl-2.0 with classpath exception,Approved/GPL-2.0-with-classpath-exception
@@ -1292,6 +1308,7 @@ gpl. this version ensures that w3c software licensing terms are no more restrict
 gpl2,spdx/GPL-2.0
 gpl2 w/ cpe,spdx/GPL-2.0-with-classpath-exception
 gpl3,spdx/GPL-3.0
+"gpl3+, partial:gccrle, partial:lgpl2+","spdx/GPL-3.0,\rspdx/GCC-exception-3.1,\rspdx/LGPL-2.0-or-later"
 gplv2,spdx/GPL-2.0
 gplv2 (with classpath exception),spdx/GPL-2.0-with-classpath-exception
 gplv2 with classpath exception,Approved/GPL-2.0 with ClassPath EXCEPTION
@@ -1310,6 +1327,7 @@ hacktivismo enhanced-source software license agreement,FSF/HESSLA
 harvard law school recording license agreement,Approved/Harvard Law School Recording License Agreement
 haskell language report license,spdx/HaskellReport
 haskellreport,spdx/HaskellReport
+hdf5,Approved/BSD-3-Clause for LBNL HDF5
 highsoft standard terms and conditions,Approved/Highsoft Standard License Agreement 9.0
 historic permission notice and disclaimer,spdx/HPND
 historical permission notice and disclaimer,spdx/HPND
@@ -1397,6 +1415,7 @@ http://creativecommons.org/licenses/lgpl/2.1/,spdx/LGPL-2.1
 http://creativecommons.org/licenses/publicdomain,spdx/CC-BY-1.0
 http://creativecommons.org/publicdomain/zero/1.0/,spdx/CC0-1.0
 http://creativecommons.org/publicdomain/zero/1.0/legalcode,spdx/CC0-1.0
+http://curlba.sh/jhartog/mihail/blob/62a806ad05b25079fd2a7a49916e39a936b9532f/lib/python2.7/site-packages/scipy/linalg/src/lapack_deprecations/license,Approved/BSD-3-Clause and infringement of third partys rights
 http://data.norge.no/nlod/en/1.0,spdx/NLOD-1.0
 http://db4j.org/pupl/pupl,Approved/PUPL - Paid Use Permissive License
 http://dev.perl.org/licenses/artistic.html,spdx/Artistic-1.0-Perl
@@ -1409,6 +1428,8 @@ http://directory.fsf.org/wiki/license:bittorrentosl1.1,spdx/BitTorrent-1.1
 http://directory.fsf.org/wiki/license:bsd_4clause,spdx/BSD-4-Clause
 http://doc.qt.nokia.com/3.3/license.html,spdx/QPL-1.0
 http://doc.trolltech.com/3.0/license.html,spdx/QPL-1.0
+http://docutils.sourceforge.net/copying.txt,Approved/Python docutils COPYING
+http://docutils.sourceforge.net/licenses/,Approved/Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0
 http://dorepository.org/download.html,spdx/CNRI-Python
 http://download.oracle.com/otn-pub/java/licenses/bsd.txt,spdx/BSD-3-Clause-No-Nuclear-License
 http://download.oracle.com/otn-pub/java/licenses/bsd.txt?authparam=1467140197_43d516ce1776bd08a58235a7785be1cc,spdx/BSD-3-Clause-No-Nuclear-License
@@ -1863,6 +1884,7 @@ http://www.postgresql.org/about/licence/,spdx/PostgreSQL
 http://www.publicsource.apple.com/apsl/,spdx/APSL-1.2
 http://www.python.org/download/releases/1.6.1/download_win/,spdx/CNRI-Python-GPL-Compatible
 http://www.pythonware.com/products/pil/license.htm,Approved/Python Imaging Library License
+http://www.qhull.org/copying.txt,Approved/Qhull COPYING Agreement
 http://www.quickfixengine.org/quickfix/doc/html/license.html,Approved/QuickFIX License
 http://www.quickfixj.org/documentation/license.html,Approved/QuickFIX License
 http://www.rosenlaw.com/afl3.0.htm,spdx/AFL-3.0
@@ -1879,7 +1901,7 @@ http://www.scala-lang.org/node/146,Approved/Apache-2.0 + BSD 3-Clause
 http://www.sdisw.com/openssl.htm,spdx/OpenSSL
 http://www.sencha.com/license,Approved/GPL-3.0 + Sencha Licensing Notices
 http://www.sendmail.com/pdfs/open_source/sendmail_license.pdf,spdx/Sendmail
-http://www.simplemachines.org/about/smf/license.php,ONI/Simple Public License 2.0
+http://www.simplemachines.org/about/smf/license.php,OSI/Simple Public License 2.0
 http://www.smlnj.org//license.html,spdx/SMLNJ
 http://www.spdx.org/licenses/apache-2.0,spdx/Apache-2.0
 http://www.spdx.org/licenses/gpl-3.0+,spdx/GPL-3.0+
@@ -2057,7 +2079,7 @@ https://directory.fsf.org/wiki/license:ruby,spdx/Ruby
 https://directory.fsf.org/wiki/license:scratch,FSF/Scratch
 https://directory.fsf.org/wiki/license:sgifreebv2,spdx/SGI-B-2.0
 https://directory.fsf.org/wiki/license:sil_open_font_license_1.1,spdx/OFL-1.1
-https://directory.fsf.org/wiki/license:simplem,ONI/Simple Public License 2.0
+https://directory.fsf.org/wiki/license:simplem,OSI/Simple Public License 2.0
 https://directory.fsf.org/wiki/license:splv1.0,spdx/SPL-1.0
 https://directory.fsf.org/wiki/license:squeak-old,FSF/Squeak
 https://directory.fsf.org/wiki/license:standardmlofnj,spdx/StandardML-NJ
@@ -2086,6 +2108,7 @@ https://directory.fsf.org/wiki?title=license:zopeplv2.1,spdx/ZPL-2.1
 https://docs.adobe.com/docs/en/spec/jcr/2.0/index.html,Approved/Day JCR License
 https://docs.adobe.com/docs/en/spec/jcr/2.0/license.html,Approved/Day Specification License
 https://docs.adobe.com/docs/en/spec/jcr/2.0/license.html#day-jcr-license,Approved/Day JCR License
+https://docs.anaconda.com/anaconda-repository/2.23/admin/eula/,Approved/proprietary - Continuum Analytics
 https://docs.ldap.com/ldap-sdk/docs/license-unboundid-ldapsdk.txt,Approved/UnboundID LDAP SDK Free Use License
 https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-ant-contrib.html,Approved/Apache-1.1 based Ant-Contrib License
 https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-apache-portable-runtime.html,Approved/Apache Software Foundation products NOTICE
@@ -2174,16 +2197,19 @@ https://fedoraproject.org/wiki/licensing:mit?rd=licensing/mit#standard_ml_of_new
 https://fedoraproject.org/wiki/licensing:mx4j?rd=licensing/mx4j,Approved/MX4j
 https://fedoraproject.org/wiki/licensing:unrar?rd=licensing/unrar,Approved/UnRar license
 https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/,spdx/LiLiQ-P-1.1
+https://freetype-py.readthedocs.io/en/latest/license.html,Approved/Freetype-py Python bindings License
 https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10,spdx/GPL-2.0-with-GCC-exception
 https://ghostscript.com/doc/8.54/public.htm,spdx/Aladdin
 https://git.bitsensor.io/common/protobuf/blob/master/license.md,FSF/PublicDomain
 https://git.bitsensor.io/plugins/java/blob/master/license.md,spdx/MIT
 https://git.enlightenment.org/legacy/imlib2.git/tree/copying,spdx/Imlib2
+https://git.savannah.gnu.org/cgit/freetype/freetype2.git/plain/docs/ftl.txt,Approved/FreeType Project LICENSE
 https://github.com/aerospike/aerospike-client-java/blob/master/license.md,Approved/Apache-2.0 based Aerospike Client License
 https://github.com/amplab/tachyon/blob/master/license,spdx/Apache-2.0
 https://github.com/antlr/antlr4/blob/master/license.txt,spdx/ANTLR-PD
 https://github.com/asimonov-im/bzip2/blob/master/license,spdx/bzip2-1.0.6
 https://github.com/bagder/curl/blob/master/copying,spdx/curl
+https://github.com/bjnortier/qhull/blob/master/license,Approved/MIT for qhull benjamin Nortier
 https://github.com/brianfrankcooper/ycsb/wiki/license,spdx/Apache-2.0
 https://github.com/cloudhead/less.js/blob/master/license,spdx/Apache-2.0
 https://github.com/coverity/coverity-security-library/tree/develop/coverity-escapers#main_authors,Approved/BSD-3-Clause for Coverity
@@ -2226,6 +2252,7 @@ https://github.com/jshint/jshint/blob/master/license,spdx/MIT
 https://github.com/jsoverson/grunt-env/blob/master/license-apache2,spdx/Apache-2.0
 https://github.com/kohsuke/args4j/blob/master/args4j/license.txt,spdx/MIT
 https://github.com/liquigraph/liquigraph/raw/master/license,spdx/Apache-2.0
+https://github.com/lxml/lxml/blob/master/licenses.txt,Approved/BSD-3-Clause for LXML ElementTree
 https://github.com/mapbox/node-pre-gyp/blob/master/license,spdx/BSD-3-Clause
 https://github.com/microsoft/azure-spring-boot-starters/blob/master/license,spdx/MIT
 https://github.com/microsoft/typescript/blob/master/license.txt,spdx/Apache-2.0
@@ -2244,6 +2271,7 @@ https://github.com/reactive-extensions/rxjs/blob/v${project.version}/license.txt
 https://github.com/robbiehanson/cocoahttpserver/blob/master/license.txt,spdx/BSD-Source-Code
 https://github.com/rtyley/spongycastle/blob/spongy-master/license.html,Approved/MIT + donation for Bouncy Castle License
 https://github.com/scala-js/scala-js/blob/master/license,spdx/BSD-3-Clause
+https://github.com/scipy/scipy/blob/master/scipy/linalg/src/lapack_deprecations/license,Approved/BSD-3-Clause and infringement of third partys rights
 https://github.com/seleniumhq/selenium/blob/master/license,spdx/Apache-2.0
 https://github.com/shama/gaze/blob/master/license-mit,spdx/MIT
 https://github.com/shutterstock/node-common-errors/raw/master/readme.md,spdx/MIT
@@ -2347,6 +2375,7 @@ https://opensource.org/licenses/wxwindows,spdx/WXwindows
 https://opensource.org/licenses/xnet,spdx/Xnet
 https://opensource.org/licenses/zlib,spdx/Zlib
 https://opensource.org/licenses/zlib-license.php,spdx/zlib-acknowledgement
+https://opensource.org/search/node/proprietary+-+intel,Approved/proprietary - Intel
 https://oss.oracle.com/licenses/cddl+gpl-1.1,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://oss.oracle.com/licenses/upl/,spdx/UPL-1.0
 https://pypi.python.org/pypi/logilab-common/1.4.1,Approved/LGPL-2.1 for logilab-common NOTICE
@@ -2858,6 +2887,7 @@ https://www.r-project.org/licenses/gpl-3,spdx/GPL-3.0
 https://www.r-project.org/licenses/lgpl-2,spdx/LGPL-2.0
 https://www.r-project.org/licenses/lgpl-2.1,spdx/LGPL-2.1
 https://www.r-project.org/licenses/lgpl-3,spdx/LGPL-3.0
+https://www.riverbankcomputing.com/commercial/license-faq,Approved/Commercial + GPL-2.0 + GPL-3.0 for PyQt.txt
 https://www.riverbankcomputing.com/software/sip/license,Approved/GPL-3.0 + Python License NOTICE
 https://www.seas.upenn.edu/~pdtb/pdtbapi/license/jaxenlicense,Approved/BSD-5-Clause for Werken Company
 https://www.sencha.com/legal/,Approved/GPL-3.0 + Sencha Licensing Notices
@@ -2865,6 +2895,7 @@ https://www.slf4j.org/license.html,Approved/MIT for Qos ch
 https://www.smlnj.org/license.html,spdx/SMLNJ
 https://www.socialtext.net/open/cpal_license_in_wikitext,spdx/CPAL-1.0
 https://www.sonatype.com/usage/master-eula,Approved/Sonatype END USER LICENSE AGREEMENT
+https://www.sqlite.org/copyright.html,Approved/SQLite Is Public Domain
 https://www.triemax.com/products/jalopy/manual/license-jdbm.html,Approved/JDBM LICENSE v1.0
 https://www.ubuntu.com/legal/font-licence=approved/ubuntu-font-licence-1.0,Approved/ubuntu-font-licence-1.0
 https://www.w3.org/consortium/legal/2002/copyright-software-20021231.html,spdx/W3C
@@ -2910,6 +2941,7 @@ informal license,FSF/informal
 intel,spdx/Intel
 intel acpi software license agreement,spdx/Intel-ACPI
 intel open source license,spdx/Intel-ACPI
+intel proprietary,Approved/Intel Simplified Software License
 intel-acpi,spdx/Intel-ACPI
 interbase public license v1.0,spdx/Interbase-1.0
 interbase-1.0,spdx/Interbase-1.0
@@ -3016,6 +3048,7 @@ lgpl license version 3.0,spdx/LGPL-3.0
 lgpl or gpl-2.0,spdx/LGPL-2.1
 lgpl v.3,spdx/LGPL-3.0-only
 lgpl+bsd,spdx/LGPL-2.1
+"lgpl, mit","spdx/LGPL-2.1,\rspdx/MIT"
 "lgpl, v2.1 or later",spdx/LGPL-2.1+
 "lgpl, version 2.1",spdx/LGPL-2.1
 "lgpl,version 2.1",spdx/LGPL-2.1
@@ -3033,7 +3066,9 @@ lgpl-3.0,spdx/LGPL-3.0
 lgpl-3.0+,spdx/LGPL-3.0+
 lgpl-3.0-only,spdx/LGPL-3.0-only
 lgpl-3.0-or-later,spdx/LGPL-3.0-or-later
+lgpl2,spdx/LGPL-2.1
 lgpl2.1,spdx/LGPL-2.1
+lgpl3,spdx/LGPL-3.0
 lgpl3.0,spdx/LGPL-3.0
 lgpl_v2_1,spdx/LGPL-2.1
 lgpllr,spdx/LGPLLR
@@ -3146,6 +3181,7 @@ mit,spdx/MIT
 mit + cc0-1.0 for jquery license,Approved/MIT + CC0-1.0 for jquery License
 mit + donation for bouncy castle license,Approved/MIT + donation for Bouncy Castle License
 mit +no-false-attribs license,spdx/MITNFA
+mit for qhull benjamin nortier,Approved/MIT for qhull benjamin Nortier
 mit for qos ch,Approved/MIT for Qos ch
 mit license,spdx/MIT
 mit license (also x11),spdx/MIT
@@ -3157,6 +3193,7 @@ mit no attribution,spdx/MIT-0
 mit open source license.,spdx/MIT
 mit' in license,spdx/MIT
 "mit(self.contact_link, license",spdx/MIT
+"mit, bsd","spdx/BSD-3-Clause,\rspdx/MIT"
 "mit, see license",spdx/MIT
 mit-0,spdx/MIT-0
 mit-advertising,spdx/MIT-advertising
@@ -3167,6 +3204,7 @@ mit-license,spdx/MIT
 mit-style,spdx/MIT
 mit-style license,spdx/MIT
 mit/x derivate,spdx/X11
+mit/x derivate (http://curl.haxx.se/docs/copyright.html),spdx/curl
 mit/x derivative license,spdx/X11
 mit/x11,spdx/X11
 mit/x11 license,spdx/X11
@@ -3177,6 +3215,7 @@ mitnfa,spdx/MITNFA
 modified bsd,spdx/BSD-3-Clause
 modified bsd (3-clause) license,spdx/BSD-3-Clause
 modified bsd license,spdx/BSD-3-Clause
+modified bsd license (3-clause),spdx/BSD-3-Clause
 modified bsd telnetd license,spdx/BSD-3-Clause
 modifiedbsd,spdx/BSD-3-Clause
 monetary api for the java,JSR 354 (Money and Currency API)
@@ -3216,6 +3255,7 @@ mpl-2.0,spdx/MPL-2.0
 mpl-2.0-no-copyleft-exception,spdx/MPL-2.0-no-copyleft-exception
 mplv2,spdx/MPL-2.0
 mplv2.0,spdx/MPL-2.0
+"mplv2.0, mit","spdx/MPL-2.0,\rspdx/MIT"
 ms-pl,spdx/MS-PL
 ms-rl,spdx/MS-RL
 mstor license,Approved/BSD-3-Clause for Ben Fortuna
@@ -3333,84 +3373,6 @@ oldap-2.6,spdx/OLDAP-2.6
 oldap-2.7,spdx/OLDAP-2.7
 oldap-2.8,spdx/OLDAP-2.8
 oml,spdx/OML
-oni/2-clause bsd license,spdx/BSD-2-Clause
-oni/3-clause bsd license,spdx/BSD-3-Clause
-oni/academic free license 3.0,spdx/AFL-3.0
-oni/adaptive public license,spdx/APL-1.0
-oni/apache license 2.0,spdx/Apache-2.0
-oni/apple public source license,spdx/APSL-2.0
-oni/artistic license 2.0,spdx/Artistic-2.0
-oni/attribution assurance license,spdx/AAL
-oni/boost software license,spdx/BSL-1.0
-oni/bsd+patent,spdx/BSD-2-Clause-Patent
-oni/cecill license 2.1,spdx/CECILL-2.1
-oni/cnri python license,spdx/CNRI-Python
-oni/common development and distribution license 1.0,spdx/CDDL-1.0
-oni/common public attribution license 1.0,spdx/CPAL-1.0
-oni/computer associates trusted open source license 1.1,spdx/CATOSL-1.1
-oni/eclipse public license 1.0,spdx/EPL-1.0
-oni/eclipse public license 2.0,spdx/EPL-2.0
-oni/ecos license version 2.0,spdx/eCos-2.0
-"oni/educational community license, version 2.0",spdx/ECL-2.0
-oni/eiffel forum license v2.0,spdx/EFL-2.0
-oni/entessa public license,spdx/Entessa
-oni/eu datagrid software license,spdx/EUDatagrid
-"oni/european union public license, version 1.2",spdx/EUPL-1.2
-oni/fair license,spdx/Fair
-oni/frameworx license,spdx/Frameworx-1.0
-oni/free public license 1.0.0,spdx/0BSD
-oni/gnu affero general public license version 3,spdx/AGPL-3.0-only
-oni/gnu general public license version 2,spdx/GPL-2.0-only
-oni/gnu general public license version 3,spdx/GPL-3.0-only
-oni/gnu lesser general public license version 2.1,spdx/LGPL-2.1-only
-oni/gnu lesser general public license version 3,spdx/LGPL-3.0-only
-oni/historical permission notice and disclaimer,spdx/HPND
-oni/ibm public license 1.0,spdx/IPL-1.0
-oni/ipa font license,spdx/IPA
-oni/isc license,spdx/ISC
-oni/latex project public license 1.3c,spdx/LPPL-1.3c
-oni/libpng license,spdx/Zlib
-oni/lucent public license version 1.02,spdx/LPL-1.02
-oni/microsoft public license,spdx/MS-PL
-oni/microsoft reciprocal license,spdx/MS-RL
-oni/miros licence,spdx/MirOS
-oni/mit license,spdx/MIT
-oni/motosoto license,spdx/Motosoto
-oni/mozilla public license 1.0,spdx/MPL-1.0
-oni/mozilla public license 1.1,spdx/MPL-1.1
-oni/mozilla public license 2.0,spdx/MPL-2.0
-oni/multics license,spdx/Multics
-oni/nasa open source agreement 1.3,spdx/NASA-1.3
-oni/naumen public license,spdx/Naumen
-oni/ncsa open source license,spdx/NCSA
-oni/nethack general public license,spdx/NGPL
-oni/nokia open source license,spdx/Nokia
-oni/non-profit open software license 3.0,spdx/NPOSL-3.0
-oni/ntp license,spdx/NTP
-oni/oclc research public license 2.0,spdx/OCLC-2.0
-oni/open group test suite license,spdx/OGTSL
-oni/open software license 3.0,spdx/AFL-3.0
-oni/oset public license version 2.1,spdx/OPL-2.1
-oni/php license 3.0,spdx/PHP-3.0
-oni/python license,spdx/Python-2.0
-oni/q public license,spdx/QPL-1.0
-oni/realnetworks public source license v1.0,spdx/RPSL-1.0
-oni/reciprocal public license 1.5,spdx/RPL-1.5
-oni/ricoh source code public license,spdx/RSCPL
-oni/sil open font license 1.1,spdx/OFL-1.1
-oni/simple public license 2.0,spdx/SimPL-2.0
-oni/sleepycat license,spdx/Sleepycat
-oni/sun public license 1.0,spdx/SPL-1.0
-oni/sybase open watcom public license 1.0,spdx/Watcom-1.0
-oni/the postgresql license,spdx/PostgreSQL
-oni/universal permissive license,spdx/UPL-1.0
-oni/upstream compatibility license v1.0,spdx/UCL-1.0
-oni/vovida software license v. 1.0,spdx/VSL-1.0
-oni/w3c license,spdx/W3C
-oni/wxwindows library license,spdx/WXwindows
-oni/x.net license,spdx/Xnet
-oni/zero-clause bsd,spdx/0BSD
-oni/zope public license 2.0,spdx/ZPL-2.0
 open cascade exception 1.0,spdx/OCCT-exception-1.0
 open cascade technology public license,spdx/OCCT-PL
 "open content license, version 1.0",FSF/OpenContentL
@@ -3484,6 +3446,84 @@ osi approved :: mit license,spdx/MIT
 osi approved :: numpy license,spdx/BSD-3-Clause
 osi approved :: python software foundation license,spdx/Python-2.0
 osi approved :: zope public license,spdx/ZPL-2.0
+osi/2-clause bsd license,spdx/BSD-2-Clause
+osi/3-clause bsd license,spdx/BSD-3-Clause
+osi/academic free license 3.0,spdx/AFL-3.0
+osi/adaptive public license,spdx/APL-1.0
+osi/apache license 2.0,spdx/Apache-2.0
+osi/apple public source license,spdx/APSL-2.0
+osi/artistic license 2.0,spdx/Artistic-2.0
+osi/attribution assurance license,spdx/AAL
+osi/boost software license,spdx/BSL-1.0
+osi/bsd+patent,spdx/BSD-2-Clause-Patent
+osi/cecill license 2.1,spdx/CECILL-2.1
+osi/cnri python license,spdx/CNRI-Python
+osi/common development and distribution license 1.0,spdx/CDDL-1.0
+osi/common public attribution license 1.0,spdx/CPAL-1.0
+osi/computer associates trusted open source license 1.1,spdx/CATOSL-1.1
+osi/eclipse public license 1.0,spdx/EPL-1.0
+osi/eclipse public license 2.0,spdx/EPL-2.0
+osi/ecos license version 2.0,spdx/eCos-2.0
+"osi/educational community license, version 2.0",spdx/ECL-2.0
+osi/eiffel forum license v2.0,spdx/EFL-2.0
+osi/entessa public license,spdx/Entessa
+osi/eu datagrid software license,spdx/EUDatagrid
+"osi/european union public license, version 1.2",spdx/EUPL-1.2
+osi/fair license,spdx/Fair
+osi/frameworx license,spdx/Frameworx-1.0
+osi/free public license 1.0.0,spdx/0BSD
+osi/gnu affero general public license version 3,spdx/AGPL-3.0-only
+osi/gnu general public license version 2,spdx/GPL-2.0-only
+osi/gnu general public license version 3,spdx/GPL-3.0-only
+osi/gnu lesser general public license version 2.1,spdx/LGPL-2.1-only
+osi/gnu lesser general public license version 3,spdx/LGPL-3.0-only
+osi/historical permission notice and disclaimer,spdx/HPND
+osi/ibm public license 1.0,spdx/IPL-1.0
+osi/ipa font license,spdx/IPA
+osi/isc license,spdx/ISC
+osi/latex project public license 1.3c,spdx/LPPL-1.3c
+osi/libpng license,spdx/Zlib
+osi/lucent public license version 1.02,spdx/LPL-1.02
+osi/microsoft public license,spdx/MS-PL
+osi/microsoft reciprocal license,spdx/MS-RL
+osi/miros licence,spdx/MirOS
+osi/mit license,spdx/MIT
+osi/motosoto license,spdx/Motosoto
+osi/mozilla public license 1.0,spdx/MPL-1.0
+osi/mozilla public license 1.1,spdx/MPL-1.1
+osi/mozilla public license 2.0,spdx/MPL-2.0
+osi/multics license,spdx/Multics
+osi/nasa open source agreement 1.3,spdx/NASA-1.3
+osi/naumen public license,spdx/Naumen
+osi/ncsa open source license,spdx/NCSA
+osi/nethack general public license,spdx/NGPL
+osi/nokia open source license,spdx/Nokia
+osi/non-profit open software license 3.0,spdx/NPOSL-3.0
+osi/ntp license,spdx/NTP
+osi/oclc research public license 2.0,spdx/OCLC-2.0
+osi/open group test suite license,spdx/OGTSL
+osi/open software license 3.0,spdx/AFL-3.0
+osi/oset public license version 2.1,spdx/OPL-2.1
+osi/php license 3.0,spdx/PHP-3.0
+osi/python license,spdx/Python-2.0
+osi/q public license,spdx/QPL-1.0
+osi/realnetworks public source license v1.0,spdx/RPSL-1.0
+osi/reciprocal public license 1.5,spdx/RPL-1.5
+osi/ricoh source code public license,spdx/RSCPL
+osi/sil open font license 1.1,spdx/OFL-1.1
+osi/simple public license 2.0,spdx/SimPL-2.0
+osi/sleepycat license,spdx/Sleepycat
+osi/sun public license 1.0,spdx/SPL-1.0
+osi/sybase open watcom public license 1.0,spdx/Watcom-1.0
+osi/the postgresql license,spdx/PostgreSQL
+osi/universal permissive license,spdx/UPL-1.0
+osi/upstream compatibility license v1.0,spdx/UCL-1.0
+osi/vovida software license v. 1.0,spdx/VSL-1.0
+osi/w3c license,spdx/W3C
+osi/wxwindows library license,spdx/WXwindows
+osi/x.net license,spdx/Xnet
+osi/zero-clause bsd,spdx/0BSD
+osi/zope public license 2.0,spdx/ZPL-2.0
 osl-1.0,spdx/OSL-1.0
 osl-1.1,spdx/OSL-1.1
 osl-2.0,spdx/OSL-2.0
@@ -3508,6 +3548,7 @@ php license v3.01,spdx/PHP-3.01
 "php license, version 3.01",spdx/PHP-3.01
 php-3.0,spdx/PHP-3.0
 php-3.01,spdx/PHP-3.01
+pil,Approved/Python Imaging Library License
 pil license,Approved/Python Imaging Library License
 pine license and legal notices,FSF/PINE
 plan 9 license,spdx/LPL-1.02
@@ -3521,11 +3562,15 @@ postgresql license,spdx/PostgreSQL
 ppl,FSF/PPL
 prior bsd license,spdx/BSD-3-Clause
 product license - mysql connector/j 5.1,Approved/Election of GPLv2 for MySQL ConnectorJ
+"proprietary - continuum analytics, inc.",Approved/proprietary - Continuum Analytics
+proprietary - intel,Approved/Intel Simplified Software License
 provided by oracle in the gpl version 2 section of the license,spdx/GPL-2.0-with-classpath-exception
 provided without support or warranty,Approved/provided without support or warranty
 ps-or-pdf-font-exception-20170817,spdx/PS-or-PDF-font-exception-20170817
 ps/pdf font exception (2017-08-17),spdx/PS-or-PDF-font-exception-20170817
 psf,spdx/Python-2.0
+psf 2,spdx/Python-2.0
+psf 2.0,spdx/Python-2.0
 psf license,spdx/Python-2.0
 psf license agreement,Approved/Python-3.7.2
 psf license agreement for python 3,spdx/Python-2.0
@@ -3541,18 +3586,25 @@ psutils,spdx/psutils
 psutils license,spdx/psutils
 public,FSF/PublicDomain
 public domain,FSF/PublicDomain
+public domain dedictation and bsd 2-clause and psf 2.1.1 and gpl 3.0,Approved/Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0
 "public domain, per creative commons cc0",spdx/CC0-1.0
 "public domain, sun microsoystems",FSF/PublicDomain
+public-domain,FSF/PublicDomain
+public-domain (http://www.sqlite.org/copyright.html),Approved/SQLite Is Public Domain
 publicdomain,FSF/PublicDomain
 pupl,Approved/PUPL - Paid Use Permissive License
 python copyright (for python 1.6a2 and earlier versions),FSF/Python1.6a2
+python imaging library,Approved/Python Imaging Library License
+python imaging library (pil),Approved/Python Imaging Library License
 python imaging library license,Approved/Python Imaging Library License
 python license,spdx/Python-2.0
 python license 2.0,spdx/Python-2.0
+python software foundation,Approved/Python-3.7.2
 python software foundation (psf) license,spdx/Python-2.0
 python software foundation license version 2,spdx/Python-2.0
 python software foundation license?2.0.1; 2.1.1 and newer,spdx/Python-2.0
 python software foundation open source license,spdx/Python-2.0
+python software foundation or mit,"Approved/Python-3.7.2,\rspdx/MIT"
 python-2.0,spdx/Python-2.0
 python-3.0,spdx/Python-2.0
 python1.6a2,FSF/Python1.6a2
@@ -3562,7 +3614,9 @@ q public license,spdx/QPL-1.0
 q public license 1.0,spdx/QPL-1.0
 q public license version 1.0,spdx/QPL-1.0
 qhull,spdx/Qhull
+qhull copying agreement,Approved/Qhull COPYING Agreement
 qhull license,spdx/Qhull
+qhull license (bsd-like),Approved/Qhull COPYING Agreement
 qpl-1.0,spdx/QPL-1.0
 qplv1.0,spdx/QPL-1.0
 qt gpl exception 1.0,spdx/Qt-GPL-exception-1.0
@@ -3842,7 +3896,7 @@ sil open font license 1.1,spdx/OFL-1.1
 similar to apache license but with the acknowledgment clause removed,Approved/jdom2 License
 simpl-2.0,spdx/SimPL-2.0
 simple logging facade for java (slf4j),Approved/MIT for Qos ch
-simple machines license,ONI/Simple Public License 2.0
+simple machines license,OSI/Simple Public License 2.0
 simple public license 2.0,spdx/SimPL-2.0
 simplified bsd,spdx/BSD-2-Clause
 simplified bsd license,spdx/BSD-2-Clause
@@ -4315,6 +4369,7 @@ spencer-94,spdx/Spencer-94
 spencer-99,spdx/Spencer-99
 spl-1.0,spdx/SPL-1.0
 spongy castle licence,Approved/MIT + donation for Bouncy Castle License
+sqlite is public domain,Approved/SQLite Is Public Domain
 squeak license,FSF/Squeak
 squeak-old,FSF/Squeak
 srgb color space profile.icm,Approved/sRGB Profile Licensing Agreement
@@ -4358,6 +4413,7 @@ systemc_open_source_license,FSF/SystemC-3.0
 tanuki software license,Approved/Tanuki Software license
 tavmjong bah,Approved/Arev Fonts License
 tcl,spdx/TCL
+tcl/tk,spdx/TCL
 tcl/tk license,spdx/TCL
 tcp wrappers license,spdx/TCP-wrappers
 tcp-wrappers,spdx/TCP-wrappers
@@ -4630,8 +4686,10 @@ zlib,spdx/Zlib
 zlib acknowledgement,spdx/zlib-acknowledgement
 zlib license,spdx/Zlib
 zlib-acknowledgement,spdx/zlib-acknowledgement
+zlib/libpng,spdx/libpng
 zlib/libpng license,spdx/Zlib
 zlib/libpng license with acknowledgement,spdx/zlib-acknowledgement
+zope public,spdx/ZPL-2.1
 zope public license,spdx/ZPL-2.1
 zope public license 1.1,spdx/ZPL-1.1
 zope public license 2.0,spdx/ZPL-2.0
@@ -4643,6 +4701,7 @@ zope public license version 2.1,spdx/ZPL-2.1
 "zope public license, versions 2.1",spdx/ZPL-2.1
 zope public license?1.0,spdx/ZPL-1.1
 zope public license?2.0,spdx/ZPL-2.0
+zpl 2.1,spdx/ZPL-2.1
 zpl-1.1,spdx/ZPL-1.1
 zpl-2.0,spdx/ZPL-2.0
 zpl-2.1,spdx/ZPL-2.1

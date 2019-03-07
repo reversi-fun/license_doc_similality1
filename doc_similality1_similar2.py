@@ -13,16 +13,14 @@ from gensim import corpora, similarities
 import re
 import json
 from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
+from licenses_names import load_license_alias  # current module
+from licenses_names import save_license_alias  # current module
+from licenses_names import licenseSortOrder  # current module
 
 # licenseの条文の類似性によって分類したライセンスの別名を読み込む
-if  os.path.isfile("./config/license_alias.csv"):
-    with  io.open("./config/license_alias.csv", "r",  encoding="utf_8_sig") as f:
-        f.readline()
-        reader = csv.reader(f)
-        license_alias = {}
-        for aliasName, shortName in  reader:
-            license_alias[aliasName.lower()] = shortName
-        reader = None
+license_alias =  load_license_alias()
+if  license_alias:
+    pass
 else:
     license_alias = {}
 
@@ -72,15 +70,15 @@ for licName,licMetaData in license_metaData['licenses'].items():
         for spdxId in licMetaData['identifiers']['spdx']:
              license_notices['spdx/' + spdxId] = license_notices.get('spdx/' + spdxId, []) + licMetaData.get('tags', [])
 
-# ONIのlicenseの分類情報を読み込み
-f = open("./config/ONI-licenses-full.json", "r",  encoding="utf-8")
+# OSIのlicenseの分類情報を読み込み
+f = open("./config/OSI-licenses-full.json", "r",  encoding="utf-8")
 # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
 license_metaData = json.load(f)
 # ファイルを閉じる
 f.close()
 for licName,licMetaData in license_metaData.items():
-    license_notices['ONI/' + licName] = ['OsiApproved']
-    license_alias[('ONI/' + licName).lower()] = 'spdx/' + licMetaData['id']
+    license_notices['OSI/' + licName] = ['OsiApproved']
+    license_alias[('OSI/' + licName).lower()] = 'spdx/' + licMetaData['id']
     if len(license_alias.get(licName.lower(),'')) <= 0:
         license_alias[licName.lower()] = 'spdx/' + licMetaData['id']
 
@@ -126,7 +124,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
     return docs
 
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp_token,pickUp_dict)
-preprocessed_docs.update(corpus_load('./ONI_texts', 'ONI',pickUp_token,pickUp_dict))
+preprocessed_docs.update(corpus_load('./OSI_texts', 'OSI',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./FSF_texts', 'FSF',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Approved_texts', 'Approved',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./own_texts', 'research',pickUp_token,pickUp_dict))
@@ -406,8 +404,6 @@ for cur_groups_name, cur_groups_seq_num in same_text_groups_seq.items(): # 番�
       same_text_groups_names[cur_groups_seq_num].append(cur_groups_name)
       grouped_doc_names[cur_groups_name] = 0 - cur_groups_seq_num
 
-# license name spaceのソート順
-licenseSortOrder={'spdx': 1, 'ONI': 2, 'FSF': 3, 'Approved': 4 , 'research': 5, '': 6}
 for cur_seq_num, cur_group_names in  same_text_groups_names.items():
     cur_group_names = sorted(cur_group_names, key=lambda item: ([v for k,v in licenseSortOrder.items() if  (k + '/') in item][0], item))
     same_text_groups_names[cur_seq_num] =  cur_group_names
@@ -415,11 +411,7 @@ for cur_seq_num, cur_group_names in  same_text_groups_names.items():
         for licName in  cur_group_names[1:]:
             license_alias[licName.lower()] = cur_group_names[0]
 
-with open("./config/license_alias_updated.csv", 'w', encoding="utf_8_sig") as f:
-    writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
-    writer.writerow(['aliasNames', 'shortName'])
-    for aliasName, shortName in sorted(license_alias.items()):
-        writer.writerow([aliasName.lower(), shortName])
+save_license_alias(license_alias)
 
 # 単段の関係が多段の関係から導出できる冗長な関係を削除する
 for nearName, docs_similar in docs_similar_tree.items():

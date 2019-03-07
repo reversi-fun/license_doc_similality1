@@ -18,7 +18,12 @@ import xml.etree.ElementTree as ET
 import json
 # 以下は、ライセンス名の　名寄せ用
 from classPathMatcher import ClassPathMatcher  # current module
-from programId2license import ProgramId2License  # current module
+from licenses_names import ProgramId2License  # current module
+from licenses_names import load_license_alias  # current module
+from licenses_names import licName2Short  # current module
+
+# license name spaceのソート順を、licenses_namesでの標準とは変える
+licenseSortOrder = {'spdx': 1, 'OSI': 1,  'FSF': 1, 'Approved': 3, 'research': 4, '': 5}
 
 # カスタマイズ可能項目の設定
 topN = 3  # 最大出力するライセンス名の個数
@@ -26,7 +31,9 @@ topN = 3  # 最大出力するライセンス名の個数
 similarl_low = 0.63
 # [spdx/BSD-2-Clauseとspdx/BSD-3-Clause-Clear]が候補になった場合、類似度の比率で、カットオフする閾値
 similarl_cutoff = 0.95
-projectArtifactId_pattern = re.compile('[\\/\\\\]((?:(?![_-][vVrR]e?r?v?\\d|\\d\\.|\\.jar|\\.war|\\.zip|META-INF)[\\w\\d\\.#@+_-])+)(?:(?:[_-][vV]e?r?|[_-][rR]e?v?|(?=\\d+\\.))(\\d+(?:\\.(?!jar|war|zip)[\\w\\d+_-]+)*))?(?:\\.jar#?|\\.war#?|\\.zip#?|#)(?=[\\/\\\\])|(?:^|(?:^|[\/\\\\])(node_modules|pkgs|site-packages|Library|lib|vendor)[\/\\\\])((?!META-INF|node_modules|pkgs|site-packages|Library|lib|vendor)(?:(?![_-][vVrR]e?r?v?\\d|\\d\\.)[\\w\\d\\.#@+_-])+)(?:(?:[_-][vV]e?r?|[_-][rR]e?v?|(?=\\d+\\.))(\\d+(?:\\.\\d+)*))?(?=[\\/\\\\])|META-INF\\\\maven\\\\([^\\\\]+)\\\\([^\\\\]+)\\\\(?:[^\\\\]+$)')
+projectArtifactId_pattern = re.compile(r'[\/\\]((?:(?![_-][VR]e?r?v?\d|\d\.|\.jar|\.war|\.zip|META-INF)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+(?:(?!\.(?:jar|war|zip))[\w\d\.@+_-]+)*))?(?:\.jar#?|\.war#?|\.zip#?|#)(?=[\/\\])|(?:^|(?:^|[\/\\])(node_modules|pkgs|site-packages|(?:Library|lib)(?:share|common)?|vendor)[\/\\])(?!(?:node_modules|pkgs|site-packages|Library|lib|vendor)[\\\/])((?:(?![_-](?:[VR]e?r?v?)?\d)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+[\w\d\.#@+_-]*))?(?=[\/\\])|META-INF\\maven\\([^\\]+)\\([^\\]+)\\(?:[^\\]+$)', re.IGNORECASE)
+#  注意：上記正規表現は「Lib\site-packages\bokeh\LICENSE.txt」に対して”site-packages”とマッチしないように
+# 「pkgs\icu-58.2-h3fcc66b_1\Library\share\icu\58.2\LICENSE」に対して、"share"がマッチしないように
 
 # 引数or実行環境の取得
 if len(sys.argv) <= 2:
@@ -45,10 +52,6 @@ elif os.path.isdir(toolFileName):
 else:
     toolDirName = os.path.dirname(toolFileName)
 
-# license name spaceのソート順
-licenseSortOrder = {'spdx': 1, 'ONI': 1,
-                    'FSF': 1, 'Approved': 3, 'research': 4, '': 5}
-
 print("input dir=" + inDirName)
 print("output file(license names for FilePath pattern)=" + outputFileName)
 
@@ -56,30 +59,15 @@ if not os.path.exists(outputDirName):
     os.makedirs(outputDirName)
 
 # licenseの条文の類似性によって分類したライセンスの別名を読み込む
-if os.path.isfile(toolDirName + "/config/license_alias.csv"):
-    with io.open(toolDirName + "/config/license_alias.csv", "r",  encoding="utf_8_sig", errors='ignore') as f:
-        f.readline()
-        reader = csv.reader(f)
-        license_alias = {}
-        for aliasName, shortName in reader:
-            # TODO: aliasNameとshortNamealiasとは、1対多、または、多対多に、対応つけるよう、1セル内の複数行を読めたほうが良い。
-            license_alias[aliasName.lower()] = shortName
-        reader = None
+license_alias = load_license_alias()
+if license_alias:
+    pass
 else:
     print("not exist ./config/license_alias.csv")
     exit(1)
 
 classPathMatcher1 = ClassPathMatcher()
 programId2license = ProgramId2License()
-
-
-def licName2Short(licNames, licURLs):
-    return sorted(list(set(
-        [license_alias.get(aliasName.lower(), aliasName) for aliasName in licNames if aliasName] +
-        [license_alias[aliasName.lower()] for aliasName in licURLs if aliasName and len(aliasName) > 0 and (aliasName.lower() in license_alias)]
-    )),
-        key=lambda item: (licenseSortOrder[(list(filter(lambda x: (x + '/') in item, licenseSortOrder)) + [''])[0]], item))
-
 
 outFile = open(outputFileName, "w", newline="\n", encoding="utf-8")
 csvWriter = csv.writer(outFile, doublequote=True, quotechar='"')
@@ -89,6 +77,7 @@ model = gensim.models.doc2vec.Doc2Vec.load(
     os.path.join(toolDirName, 'data/doc2vec.model'))
 # ファイル毎のライセンス名を探して、csv出力する。
 csvWriter.writerow(['identificationType', 'fileIdentifier', 'fileSize', 'ArtifactId', 'similarity(s)',
+                    'RawLicenseName(s)',
                     'licenseName(s)', 'licenseURL(s)', 'auther(s)', 'relatedURL(s)', 'name', 'description'])
 # encodingの検出ツールを使う。
 encode_detector = UniversalDetector()
@@ -96,16 +85,18 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
     try:
         if os.path.isfile(filename) and (os.path.getsize(filename) < 2048000):
             filePattern = (filename[len(inDirName)+1:] if filename.startswith(inDirName) else filename).replace('/', '\\')
+            projectGroup = '?' # 不明なグループId
+            projectArtifactId = '' # 著作物の識別名
+            projectVersion = '' # 著作物のバージョン
+            projectLicenseRawNames  = [] # 生のライセンス名
+            similaritys = [0] # ライセンス条文の類似度、または、確かさ
+            projectLicenseNames = [] # 不確かなライセンス名、名前空間つきで名寄せしたライセンス名
+            projectLicenseURLs = []
+            projectAuthers = []
+            projectRelatedURLs = []
+            projectName = []
+            projectDescription = []
             if filename.endswith('pom.xml') or filename.endswith('.pom'):
-                projectGroup = '?'
-                projectArtifactId = ''
-                projectVersion = ''
-                projectLicenseNames = []
-                projectLicenseURLs = []
-                projectAuthers = []
-                projectRelatedURLs = []
-                projectName = []
-                projectDescription = []
                 # xmlDocTree = ET.parse(filename) <-- error "xml.etree.ElementTree.ParseError  not well-formed (invalid token)""
                #  xmlDocRoot = xmlDocTree.getroot()
                 raw_doc = open(filename, 'rb').read()
@@ -150,7 +141,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                 for xml_project_license_element in xmlDocRoot.findall(pomNS + 'licenses/' + pomNS + 'license'):
                     project_lic_name_EL = xml_project_license_element.find(pomNS + 'name')
                     if isinstance( project_lic_name_EL, xml.etree.ElementTree.Element) and isinstance(project_lic_name_EL.text,str):
-                        projectLicenseNames.append(re.sub(r'[\s\r\n]+', ' ',project_lic_name_EL.text).strip())
+                       projectLicenseRawNames.append(re.sub(r'[\s\r\n]+', ' ',project_lic_name_EL.text).strip())
                     project_lic_url_EL = xml_project_license_element.find(pomNS + 'url')
                     if isinstance(project_lic_url_EL, xml.etree.ElementTree.Element) and isinstance(project_lic_url_EL.text,str):
                         projectLicenseURLs.append(re.sub(r'[\s\r\n]+', ' ',project_lic_url_EL.text).strip())
@@ -169,49 +160,27 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
                     if isinstance(project_description_EL, xml.etree.ElementTree.Element) and isinstance(project_description_EL.text,str) and(len(project_description_EL.text) > 0):
                         projectName.append(re.sub(r'[\s\r\n]+', ' ',project_description_EL.text).strip())
+                if len(projectName) <= 0:
+                       projectName.append(projectArtifactId) 
                 for infoKey in ['description']:
                     project_description_EL = xmlDocRoot.find(pomNS + infoKey)
                     if isinstance(project_description_EL, xml.etree.ElementTree.Element) and isinstance(project_description_EL.text,str) and (len(project_description_EL.text) > 0):
                         projectDescription.append(re.sub(r'[\s\r\n]+', ' ',project_description_EL.text).strip())
                 if (len(projectArtifactId) > 0):
-                    if len(projectLicenseNames) > 0:
+                    if len(projectLicenseRawNames) > 0:
+                        projectLicenseNames  = licName2Short(license_alias,projectLicenseRawNames,projectLicenseURLs)
                         # 類似度欄は、確定的であることを示す値. MS-EXCELのフィルターで絞込みし易くする為、len(projectLicenseNames)個は並べない
                         similaritys = [1]
                     else:
                         projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
                             projectGroup, projectArtifactId,  projectVersion)
-                        if len(projectLicenseNames) > 0:
+                        if len(projectLicenseNames) > 0: # projectArtifactIdからライセンス名の推定が出来た場合
                             # programIDが確かで、Mavenリポジトリから調べたlicenseNameにつき、npmより大きな確度とする
                             similaritys = [0.5]
                         else:
                             similaritys = [0]
-                    csvWriter.writerow([
-                        'pathSuffix',
-                        filePattern,  # 　一つのプログラムに多数のOSSが同梱されている場合と、区別できるよう、inDirName配下の相対パスをwindowsPath形式にした文字列。　
-                        # patternType=fileNameの場合、ファイルサイズの一致でverify可能にする
-                        os.path.getsize(filename),
-                        projectGroup + '--' + projectArtifactId + '--' + \
-                        projectVersion,  # mavenリポジトリ風に、groupId--artifactID--version
-                        ",\n".join(['{:3.5f}'.format(similal1)
-                                    for similal1 in similaritys]),
-                        ",\n".join(licName2Short(
-                            projectLicenseNames, projectLicenseURLs)),
-                        ",\n".join(projectLicenseURLs),  # license URL欄
-                        ",\n".join(projectAuthers),  # オリジナルBSD等で重要な原権利者名
-                        ",\n".join(projectRelatedURLs),
-                        "\n".join(projectName),
-                        "\n".join(projectDescription)
-                    ])
             elif filename.endswith('package.json'):
                 projectGroup = '.'  # npmリポジトリでのグループID
-                projectArtifactId = ''
-                projectVersion = ''
-                projectLicenseNames = []
-                projectLicenseURLs = []
-                projectAuthers = []
-                projectRelatedURLs = []
-                projectName = []
-                projectDescription = []
                 # package.json読み込み
                 raw_doc = open(filename, 'rb').read()
                 encode_detector.reset()
@@ -234,22 +203,21 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                             if isinstance(licInfo, dict):
                                 curLicText = re.sub(r'[\s\r\n]+', ' ',licInfo.get('type', '')).strip()
                                 if len(curLicText) > 0:
-                                    projectLicenseNames.append(
-                                        'spdx/' + curLicText)
+                                    projectLicenseRawNames.append(curLicText)
                                 curLicText = licInfo.get('url', '')
                                 if len(curLicText) > 0:
                                     projectLicenseURLs.append(curLicText.strip())
                             else:
-                                projectLicenseNames.append('spdx/' + re.sub(r'[\s\r\n]+', ' ',licInfo).strip())
+                                projectLicenseRawNames.append(re.sub(r'[\s\r\n]+', ' ',licInfo).strip())
                     elif isinstance(curLicenses, dict):
                         curLicText = re.sub(r'[\s\r\n]+', ' ',curLicenses.get('type', '')).strip()
                         if len(curLicText) > 0:
-                            projectLicenseNames.append('spdx/' + curLicText)
+                            projectLicenseRawNames.append(curLicText)
                         curLicText = re.sub(r'[\s\r\n]+', ' ',curLicenses.get('url', '')).strip()
                         if len(curLicText) > 0:
                             projectLicenseURLs.append(curLicText)
                     elif isinstance(curLicenses,str) and len(curLicenses) > 0:
-                        projectLicenseNames.append('spdx/' + re.sub(r'[\s\r\n]+', ' ',curLicenses).strip())
+                       projectLicenseRawNames.append(re.sub(r'[\s\r\n]+', ' ',curLicenses).strip())
                 curAuthersText = packageInfoDic.get('homepage', '')
                 if len(curAuthersText) > 0:
                     projectRelatedURLs.append(curAuthersText)
@@ -289,34 +257,53 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     elif len(curDescription) > 0:
                         projectDescription.append(curDescription)
                 if (len(projectArtifactId) > 0):
-                    if len(projectLicenseNames) > 0:
+                    if len(projectLicenseRawNames) > 0:
+                        projectLicenseNames  = licName2Short(license_alias,projectLicenseRawNames,projectLicenseURLs)
                         # 類似度欄は、確定的であることを示す値. MS-EXCELのフィルターで絞込みし易くする為、len(projectLicenseNames)個は並べない
                         similaritys = [1]
                     else:
                         projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
                             projectGroup, projectArtifactId,  projectVersion)
-                        if len(projectLicenseNames) > 0:
-                            # programIDが確かだが、異なるかもしれないバージョンのlicenseNameを索引している為、0.5を下回る確度
-                            similaritys = [0.4]
+                        if len(projectLicenseNames) > 0: # projectArtifactIdからライセンス名の推定が出来た場合
+                            # programIDが確かで、Mavenリポジトリから調べたlicenseNameにつき、npmより大きな確度とする
+                            similaritys = [0.5]
                         else:
                             similaritys = [0]
-                    csvWriter.writerow([
-                        'pathSuffix',
-                        filePattern,  # 　一つのプログラムに多数のOSSが同梱されている場合と、区別できるよう、inDirName配下の相対パスをwindowsPath形式にした文字列。　
-                        # patternType=fileNameの場合、ファイルサイズの一致でverify可能にする
-                        os.path.getsize(filename),
-                        projectGroup + '--' + projectArtifactId + '--' + \
-                        projectVersion,  # mavenリポジトリ風に、groupId--artifactID--version
-                        ",\n".join(['{:3.5f}'.format(similal1)
-                                    for similal1 in similaritys]),
-                        ",\n".join(licName2Short(
-                            projectLicenseNames, projectLicenseURLs)),
-                        ",\n".join(projectLicenseURLs),  # license URL欄
-                        ",\n".join(projectAuthers),  # オリジナルBSD等で重要な原権利者名
-                        ",\n".join(projectRelatedURLs),
-                        "\n".join(projectName),
-                        "\n".join(projectDescription)
-                    ])
+            elif filename.endswith('index.json'):
+                projectGroup = '_pypi_'  # PiPyリポジトリでのグループID
+                # package.json読み込み
+                raw_doc = open(filename, 'rb').read()
+                encode_detector.reset()
+                encode_detector.feed(raw_doc)
+                if encode_detector.done:
+                    encode_detector.close()
+                    raw_doc = str(raw_doc, encoding=encode_detector.result['encoding'], errors='replace').encode(
+                        'utf-8', 'replace')
+                else:
+                    encode_detector.close()
+                    raw_doc = str(raw_doc, encoding='utf-8', errors='replace')
+                packageInfoDic = json.loads(raw_doc)
+                if isinstance(packageInfoDic, dict ):
+                    projectArtifactId = re.sub(r'[\s\r\n]+', ' ',packageInfoDic.get('name', '')).strip()
+                    projectName.append(projectArtifactId)
+                    projectVersion  =  re.sub(r'[\s\r\n]+', ' ',packageInfoDic.get('version', '?')).strip() + '-' + re.sub(r'[\s\r\n]+', ' ',packageInfoDic.get('build', '')).strip()
+                    if len(packageInfoDic.get('license', '')) > 0:
+                        projectLicenseRawNames.append(re.sub(r'[\s\r\n]+', ' ',packageInfoDic.get('license', '')).strip())   
+                    if (len(projectArtifactId) > 0):
+                        if len(projectLicenseRawNames) > 0:
+                            projectLicenseNames  = licName2Short(license_alias,projectLicenseRawNames,projectLicenseURLs)
+                            # 類似度欄は、確定的であることを示す値. MS-EXCELのフィルターで絞込みし易くする為、len(projectLicenseNames)個は並べない
+                            similaritys = [1]
+                        else:
+                            projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
+                                projectGroup, projectArtifactId,  projectVersion)
+                            if len(projectLicenseNames) > 0: # projectArtifactIdからライセンス名の推定が出来た場合
+                                # programIDが確かで、Mavenリポジトリから調べたlicenseNameにつき、npmより大きな確度とする
+                                similaritys = [0.5]
+                            else:
+                                similaritys = [0]
+                else:
+                    print('error document format',type(packageInfoDic),filename)  
             elif classPathMatcher1.match(filePattern):
                 pass
             elif (os.path.splitext(filename)[1] not in ['.bin', '.class', '.exe', '.dll', '.zip', '.jar', '.tz', '.properties','gif','.png', '.sha1']) \
@@ -344,17 +331,22 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                         similarl_licenses = sorted([[licName, similal1] for licName, similal1 in similarl_licenses if similal1 >= ccutoff_similarl], key=lambda item: (
                             licenseSortOrder[list(filter(lambda x: (x + '/') in item[0], licenseSortOrder))[0]], -item[1]))[0:topN]
                     if len(similarl_licenses) > 0:
-                        projectGroup = '?'
-                        projectArtifactId = ''
-                        projectVersion = ''
+                        projectLicenseNames = [
+                                licName for licName, similal1 in similarl_licenses]
+                        projectLicenseURLs = []  # license URL欄は空
+                        similaritys = [similal1 for licName,
+                                           similal1 in similarl_licenses]
                         for mached in re.finditer(projectArtifactId_pattern, filePattern):
                             if mached.group(1) != None:
                                 projectArtifactId = mached.group(1)
+                                projectName.append(projectArtifactId)
                                 projectVersion = mached.group(2) if (
                                     mached.group(2) != None) else ''
                             elif mached.group(4) != None:
                                 if mached.group(3) == 'node_modules':
                                     projectGroup = '.'
+                                elif mached.group(3) in ['pkgs', 'site-packages']:
+                                    projectGroup = '_pypi_'
                                 else:
                                     projectGroup = '?'
                                 projectArtifactId = mached.group(4)
@@ -364,36 +356,26 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                             elif mached.group(6) != None:
                                 projectGroup = mached.group(6)
                                 projectArtifactId = mached.group(7)
-                        if len(similarl_licenses):
-                            projectLicenseNames = [
-                                licName for licName, similal1 in similarl_licenses]
-                            projectLicenseURLs = []  # license URL欄は空
-                            similaritys = [similal1 for licName,
-                                           similal1 in similarl_licenses]
-                        else:
-                            projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
-                                projectGroup, projectArtifactId,  projectVersion)
-                            if len(projectLicenseNames) > 0:
-                                # (programIDの確度(0.5))× (licenseの確度(0.5))を表示する
-                                similaritys = [0.25]
-                            else:
-                                similaritys = [0]
-                        csvWriter.writerow([
-                            'pathSuffix',
-                            filePattern,  # 　一つのプログラムに多数のOSSが同梱されている場合と、区別できるよう、inDirName配下の相対パスをwindowsPath形式にした文字列。　
-                            # patternType=fileNameの場合、ファイルサイズの一致でverify可能にする
-                            os.path.getsize(filename),
-                            projectGroup + '--' + projectArtifactId + '--' + \
-                            projectVersion,  # mavenリポジトリ風に、groupId--artifactID--version
-                            ",\n".join(['{:3.5f}'.format(similal1)
-                                        for similal1 in similaritys]),
-                            ",\n".join(licName2Short(
-                                projectLicenseNames, projectLicenseURLs)),
-                            ",\n".join(projectLicenseURLs),  # license URL欄
-                            '',  # auther欄は空
-                            '',  # relatedURL欄は空
-                            projectArtifactId  # name欄はArtifactId
-                        ])
+                        projectName.append(projectArtifactId)
+            if len(projectArtifactId) > 0:
+                projectLicenseNames = licName2Short(license_alias,projectLicenseNames, projectLicenseURLs)
+                csvWriter.writerow([
+                        'pathSuffix',
+                        filePattern,  # 　一つのプログラムに多数のOSSが同梱されている場合と、区別できるよう、inDirName配下の相対パスをwindowsPath形式にした文字列。　
+                        # patternType=fileNameの場合、ファイルサイズの一致でverify可能にする
+                        os.path.getsize(filename),
+                        projectGroup + '--' + projectArtifactId + '--' + \
+                        projectVersion,  # mavenリポジトリ風に、groupId--artifactID--version
+                        ",\n".join(['{:3.5f}'.format(similal1)
+                                    for similal1 in similaritys]),
+                        ",\n".join(projectLicenseRawNames ), # 生のライセンス名
+                        ",\n".join(projectLicenseNames), # URLから逆変換したライセンス名など、不確かなライセンス名
+                        ",\n".join(projectLicenseURLs),  # license URL欄
+                        ",\n".join(projectAuthers),  # オリジナルBSD等で重要な原権利者名
+                        ",\n".join(projectRelatedURLs),
+                        "\n".join(projectName),
+                        "\n".join(projectDescription)
+                    ])
     except xml.etree.ElementTree.ParseError as e:
         print("SKIP by xml.etree.ElementTree.ParseError ", e, os.path.splitext(filename),raw_doc[0:90])
     except json.JSONDecodeError as e:
@@ -423,7 +405,8 @@ for filePattern, programId in classPathMatcher1.list():
                 projectVersion,  # mavenリポジトリ風に、groupId--artifactID--version
             ",\n".join(['{:3.5f}'.format(similal1)
                         for similal1 in similaritys]),
-            ",\n".join(licName2Short(
+            '',  # 確からしいライセンス名の欄は空
+            ",\n".join(licName2Short(license_alias,
                 projectLicenseNames, projectLicenseURLs)),
             ",\n".join(projectLicenseURLs),  # license URL欄
             '',  # auther欄は空

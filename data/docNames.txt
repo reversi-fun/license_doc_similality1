@@ -412,84 +412,84 @@ spdx/Zlib,58
 spdx/ZPL-1.1,229
 spdx/ZPL-2.0,176
 spdx/ZPL-2.1,161
-ONI/2-clause BSD License,94
-ONI/3-clause BSD License,107
-ONI/Academic Free License 3.0,799
-ONI/Adaptive Public License,3392
-ONI/Apache License 2.0,792
-ONI/Apple Public Source License,1523
-ONI/Artistic License 2.0,651
-ONI/Attribution Assurance License,227
-ONI/Boost Software License,94
-ONI/BSD+Patent,187
-ONI/CeCILL License 2.1,1582
-ONI/CNRI Python license,270
-ONI/Common Development and Distribution License 1.0,1188
-ONI/Common Public Attribution License 1.0,2107
-ONI/Computer Associates Trusted Open Source License 1.1,1413
-ONI/Eclipse Public License 1.0,843
-ONI/Eclipse Public License 2.0,1040
-ONI/eCos License version 2.0,108
-ONI/Educational Community License, Version 2.0,840
-ONI/Eiffel Forum License V2.0,68
-ONI/Entessa Public License,170
-ONI/EU DataGrid Software License,241
-ONI/European Union Public License, Version 1.2,1079
-ONI/Fair License,27
-ONI/Frameworx License,763
-ONI/Free Public License 1.0.0,66
-ONI/GNU Affero General Public License version 3,2585
-ONI/GNU General Public License version 2,1269
-ONI/GNU General Public License version 3,2621
-ONI/GNU Lesser General Public License version 2.1,1919
-ONI/GNU Lesser General Public License version 3,589
-ONI/Historical Permission Notice and Disclaimer,116
-ONI/IBM Public License 1.0,852
-ONI/IPA Font License,707
-ONI/ISC License,55
-ONI/LaTeX Project Public License 1.3c,1295
-ONI/libpng license,56
-ONI/Lucent Public License Version 1.02,884
-ONI/Microsoft Public License,194
-ONI/Microsoft Reciprocal License,222
-ONI/MirOS Licence,236
-ONI/MIT License,78
-ONI/Motosoto License,1486
-ONI/Mozilla Public License 1.0,1345
-ONI/Mozilla Public License 1.1,1731
-ONI/Mozilla Public License 2.0,967
-ONI/Multics License,152
-ONI/NASA Open Source Agreement 1.3,1048
-ONI/Naumen Public License,144
-ONI/NCSA Open Source License,107
-ONI/Nethack General Public License,323
-ONI/Nokia Open Source License,1538
-ONI/Non-Profit Open Software License 3.0,935
-ONI/NTP License,41
-ONI/OCLC Research Public License 2.0,828
-ONI/Open Group Test Suite License,394
-ONI/Open Software License 3.0,799
-ONI/OSET Public License version 2.1,1445
-ONI/PHP License 3.0,221
-ONI/Python License,747
-ONI/Q Public License,323
-ONI/RealNetworks Public Source License V1.0,2328
-ONI/Reciprocal Public License 1.5,2392
-ONI/Ricoh Source Code Public License,1570
-ONI/SIL Open Font License 1.1,340
-ONI/Simple Public License 2.0,172
-ONI/Sleepycat License,367
-ONI/Sun Public License 1.0,1711
-ONI/Sybase Open Watcom Public License 1.0,1582
-ONI/The PostgreSQL License,97
-ONI/Universal Permissive License,133
-ONI/Upstream Compatibility License v1.0,819
-ONI/Vovida Software License v. 1.0,179
-ONI/W3C License,189
-ONI/wxWindows Library License,182
-ONI/X.Net License,97
-ONI/Zero-Clause BSD,66
-ONI/Zope Public License 2.0,176
+OSI/2-clause BSD License,94
+OSI/3-clause BSD License,107
+OSI/Academic Free License 3.0,799
+OSI/Adaptive Public License,3392
+OSI/Apache License 2.0,792
+OSI/Apple Public Source License,1523
+OSI/Artistic License 2.0,651
+OSI/Attribution Assurance License,227
+OSI/Boost Software License,94
+OSI/BSD+Patent,187
+OSI/CeCILL License 2.1,1582
+OSI/CNRI Python license,270
+OSI/Common Development and Distribution License 1.0,1188
+OSI/Common Public Attribution License 1.0,2107
+OSI/Computer Associates Trusted Open Source License 1.1,1413
+OSI/Eclipse Public License 1.0,843
+OSI/Eclipse Public License 2.0,1040
+OSI/eCos License version 2.0,108
+OSI/Educational Community License, Version 2.0,840
+OSI/Eiffel Forum License V2.0,68
+OSI/Entessa Public License,170
+OSI/EU DataGrid Software License,241
+OSI/European Union Public License, Version 1.2,1079
+OSI/Fair License,27
+OSI/Frameworx License,763
+OSI/Free Public License 1.0.0,66
+OSI/GNU Affero General Public License version 3,2585
+OSI/GNU General Public License version 2,1269
+OSI/GNU General Public License version 3,2621
+OSI/GNU Lesser General Public License version 2.1,1919
+OSI/GNU Lesser General Public License version 3,589
+OSI/Historical Permission Notice and Disclaimer,116
+OSI/IBM Public License 1.0,852
+OSI/IPA Font License,707
+OSI/ISC License,55
+OSI/LaTeX Project Public License 1.3c,1295
+OSI/libpng license,56
+OSI/Lucent Public License Version 1.02,884
+OSI/Microsoft Public License,194
+OSI/Microsoft Reciprocal License,222
+OSI/MirOS Licence,236
+OSI/MIT License,78
+OSI/Motosoto License,1486
+OSI/Mozilla Public License 1.0,1345
+OSI/Mozilla Public License 1.1,1731
+OSI/Mozilla Public License 2.0,967
+OSI/Multics License,152
+OSI/NASA Open Source Agreement 1.3,1048
+OSI/Naumen Public License,144
+OSI/NCSA Open Source License,107
+OSI/Nethack General Public License,323
+OSI/Nokia Open Source License,1538
+OSI/Non-Profit Open Software License 3.0,935
+OSI/NTP License,41
+OSI/OCLC Research Public License 2.0,828
+OSI/Open Group Test Suite License,394
+OSI/Open Software License 3.0,799
+OSI/OSET Public License version 2.1,1445
+OSI/PHP License 3.0,221
+OSI/Python License,747
+OSI/Q Public License,323
+OSI/RealNetworks Public Source License V1.0,2328
+OSI/Reciprocal Public License 1.5,2392
+OSI/Ricoh Source Code Public License,1570
+OSI/SIL Open Font License 1.1,340
+OSI/Simple Public License 2.0,172
+OSI/Sleepycat License,367
+OSI/Sun Public License 1.0,1711
+OSI/Sybase Open Watcom Public License 1.0,1582
+OSI/The PostgreSQL License,97
+OSI/Universal Permissive License,133
+OSI/Upstream Compatibility License v1.0,819
+OSI/Vovida Software License v. 1.0,179
+OSI/W3C License,189
+OSI/wxWindows Library License,182
+OSI/X.Net License,97
+OSI/Zero-Clause BSD,66
+OSI/Zope Public License 2.0,176
 FSF/AcademicFreeLicense3.0,803
 FSF/ACDL,701
 FSF/AGPLv1.0,1137
@@ -701,23 +701,29 @@ Approved/BSD-2-Clause + author LICENSE(2),99
 Approved/BSD-2-Clause + author LICENSE(3),99
 Approved/BSD-2-Clause + author LICENSE.md,115
 Approved/BSD-2-Clause + author LICENSE,96
+Approved/BSD-2-Clause FreeBSD license,98
 Approved/BSD-3-Clause (continued-line) LICENSE(2),113
 Approved/BSD-3-Clause (continued-line) LICENSE(3),113
 Approved/BSD-3-Clause (continued-line) LICENSE,109
 Approved/BSD-3-Clause (noSeq) + auther.md,107
 Approved/BSD-3-Clause + auther.md,110
 Approved/BSD-3-Clause + MIT LICENSE,210
+Approved/BSD-3-Clause + MIT NOTICE,134
 Approved/BSD-3-Clause + MPL-2.0 Licensed NOTICE,143
+Approved/BSD-3-Clause and infringement of third partys rights,162
 Approved/BSD-3-Clause for Aduna license,115
 Approved/BSD-3-Clause for any contributors LICENSE,109
 Approved/BSD-3-Clause for asm-License,119
 Approved/BSD-3-Clause for Atlassian,104
 Approved/BSD-3-Clause for Ben Fortuna,113
 Approved/BSD-3-Clause for Ecma International,263
+Approved/BSD-3-Clause for enthought,108
 Approved/BSD-3-Clause for Go Authors,109
 Approved/BSD-3-Clause for HSQL Development Group,255
 Approved/BSD-3-Clause for JGraph,158
 Approved/BSD-3-Clause for Kirkk.com,111
+Approved/BSD-3-Clause for LBNL HDF5,385
+Approved/BSD-3-Clause for LXML ElementTree,150
 Approved/BSD-3-Clause for many contributors NOTICE(2),119
 Approved/BSD-3-Clause for many contributors NOTICE(3),120
 Approved/BSD-3-Clause for many contributors NOTICE,120
@@ -762,6 +768,8 @@ Approved/ExtremeTransactions Development License,450
 Approved/FasterXML_CREDITS_NOTICE,70
 Approved/Free-Art-L-1.3,776
 Approved/FreeBSDDL,113
+Approved/FreeType Project LICENSE,462
+Approved/Freetype-py Python bindings License,115
 Approved/FullCalendar Scheduler License,179
 Approved/Google Cloud Platform License Agreement,3467
 Approved/Google Cloud Platform Terms,3560
@@ -771,12 +779,14 @@ Approved/GPL-2.0 + MIT license NOTICE,13
 Approved/GPL-2.0 Licenced NOTICE,70
 Approved/GPL-2.0 or MIT,151
 Approved/GPL-2.0 with ClassPath EXCEPTION,1376
+Approved/GPL-2.0(2),1266
 Approved/GPL-2.0,1069
 Approved/GPL-3.0 + IJG CREDIT of FreeType License,1771
 Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,13717
 Approved/GPL-3.0 + Python License NOTICE,20
 Approved/GPL-3.0 + Sencha Licensing Notices,628
 Approved/GPL-3.0 + Sencha Software License Agreement,2668
+Approved/GPL-3.0,2609
 Approved/GPL-PA-1.1,1305
 Approved/GSBase Software License, Version 1.0,172
 Approved/Harvard Law School Recording License Agreement,166
@@ -787,7 +797,8 @@ Approved/HTML Tidy by W3C,131
 Approved/ICU + Third-Party Software Licenses,1491
 Approved/Indiana University Extreme! Lab Software License,171
 Approved/Info-ZIP license,306
-Approved/Intel,478
+Approved/Intel Simplified Software License,351
+Approved/Intel-ACPI,478
 Approved/IPA_Font_License,710
 Approved/ISC or 0BSD,64
 Approved/ISC-Contributors-License,58
@@ -834,6 +845,7 @@ Approved/MIT + copyright LICENSE (3),87
 Approved/MIT + COPYRIGHT License,81
 Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + inspired products NOTICE,92
+Approved/MIT + MPL-2.0 LICENSE,164
 Approved/MIT + own license NOTICE,87
 Approved/MIT + own products NOTICE,87
 Approved/MIT + Python-2.0 LICENSE,129
@@ -842,7 +854,9 @@ Approved/MIT + X11 LICENSE,84
 Approved/MIT by contributers LICENSE(1),88
 Approved/MIT by contributers LICENSE(2),125
 Approved/MIT by contributers LICENSE,81
+Approved/MIT by Twisted contributers,185
 Approved/MIT for 3 Authers LICENSE.md,402
+Approved/MIT for qhull benjamin Nortier,83
 Approved/MIT licensed NOTICE(2),20
 Approved/MIT licensed NOTICE(2).xml,16
 Approved/MIT licensed NOTICE,11
@@ -872,11 +886,19 @@ Approved/PCRE2 LICENCE,260
 Approved/Peer-Production,1402
 Approved/PINE,308
 Approved/PKCS #11 Cryptographic Token Interface License,67
+Approved/proprietary - Continuum Analytics,995
+Approved/Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0,410
 Approved/PUPL - Paid Use Permissive License,371
+Approved/Python docutils COPYING,474
 Approved/Python Imaging Library License,98
 Approved/Python-1.6a2,337
 Approved/Python-1.6b1,297
+Approved/Python-2-1-1,934
+Approved/Python-2-2,939
+Approved/Python-2-3,951
+Approved/Python-2.0 + Apache-2.0 + BSD-3-Clause-LBNL + Qhull COPYING Agreement + BSD-2-Clause + BSD-3-Clause + MIT,697
 Approved/Python-3.7.2,189
+Approved/Qhull COPYING Agreement,109
 Approved/QOS SLF4J license,86
 Approved/QuickFIX License,159
 Approved/resin pro licenses NOTICE,144
