@@ -195,8 +195,8 @@ licenseSortOrder={'spdx': 1, 'OSI': 2, 'FSF': 3, 'Approved': 4 , 'research': 5, 
 def licName2Short(license_alias, licNames, licURLs):
     return sorted(list(set(
         [license_alias.get(aliasName.lower(), aliasName).replace('\\n', '\r').replace('\\r', '\r') for aliasName in licNames if aliasName] +
-        [license_alias[aliasName.lower].replace('\\n', '\n').replace('\\r', '\n')
-         for aliasName in licURLs if aliasName and len(aliasName) > 0 and (aliasName.lower() in license_alias)]
+        [license_alias[aliasName.lower()].replace('\\n', '\n').replace('\\r', '\n')
+         for aliasName in licURLs if aliasName and (len(aliasName) > 0) and (aliasName.lower() in license_alias)]
     )),
         key=lambda item: (licenseSortOrder[(list(filter(lambda x: (x + '/') in item, licenseSortOrder)) + [''])[0]], item))
 

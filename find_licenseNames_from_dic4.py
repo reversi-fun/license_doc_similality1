@@ -31,7 +31,7 @@ topN = 3  # 最大出力するライセンス名の個数
 similarl_low = 0.63
 # [spdx/BSD-2-Clauseとspdx/BSD-3-Clause-Clear]が候補になった場合、類似度の比率で、カットオフする閾値
 similarl_cutoff = 0.95
-projectArtifactId_pattern = re.compile(r'[\/\\]((?:(?![_-][VR]e?r?v?\d|\d\.|\.jar|\.war|\.zip|META-INF)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+(?:(?!\.(?:jar|war|zip))[\w\d\.@+_-]+)*))?(?:\.jar#?|\.war#?|\.zip#?|#)(?=[\/\\])|(?:^|(?:^|[\/\\])(node_modules|pkgs|site-packages|(?:Library|lib)(?:share|common)?|vendor)[\/\\])(?!(?:node_modules|pkgs|site-packages|Library|lib|vendor)[\\\/])((?:(?![_-](?:[VR]e?r?v?)?\d)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+[\w\d\.#@+_-]*))?(?=[\/\\])|META-INF\\maven\\([^\\]+)\\([^\\]+)\\(?:[^\\]+$)', re.IGNORECASE)
+projectArtifactId_pattern = re.compile(r'[\/\\]((?:(?![_-][VR]e?r?v?\d|\d\.|\.jar|\.war|\.zip|META-INF)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+(?:(?!\.(?:jar|war|zip))[\w\d\.@+_-]+)*))?(?:\.jar#?|\.war#?|\.zip#?|#)(?=[\/\\])|(?:^|(?:^|[\/\\])(node_modules|pkgs|site-packages|vendor|plugins|(?:Library|lib)(?:share|common)?)[\/\\])(?!(?:node_modules|pkgs|site-packages|Library|lib|vendor|plugins|legal|licenses?)[\\\/])((?:(?![_-](?:[VR]e?r?v?)?\d)[\w\d\.#@+_-])+)(?:(?:[_-](?:[V]e?r?|[R]e?v?|(?=\d)))(\d+[\w\d\.#@+_-]*))?(?=[\/\\])|META-INF\\maven\\([^\\]+)\\([^\\]+)\\(?:[^\\]+$)|(?:(?:^|[\\\/])(?:legal|licenses?)[\\\/](?:(?:license[_-]?)?((?:(?!(?:[_-]license)?\.md$).)+)(?:[_-]license)?(?:\.md$)|([^\\\/]+)))', re.IGNORECASE)
 #  注意：上記正規表現は「Lib\site-packages\bokeh\LICENSE.txt」に対して”site-packages”とマッチしないように
 # 「pkgs\icu-58.2-h3fcc66b_1\Library\share\icu\58.2\LICENSE」に対して、"share"がマッチしないように
 
@@ -265,8 +265,8 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                         projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
                             projectGroup, projectArtifactId,  projectVersion)
                         if len(projectLicenseNames) > 0: # projectArtifactIdからライセンス名の推定が出来た場合
-                            # programIDが確かで、Mavenリポジトリから調べたlicenseNameにつき、npmより大きな確度とする
-                            similaritys = [0.5]
+                            # programIDが確かでも、package.jsonに無かったlicenseNameの調べ方は確立していないので、mavenより小さな確度とする
+                            similaritys = [0.4]
                         else:
                             similaritys = [0]
             elif filename.endswith('index.json'):
@@ -298,8 +298,8 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                             projectLicenseNames, projectLicenseURLs = programId2license.licNameWithUrls(
                                 projectGroup, projectArtifactId,  projectVersion)
                             if len(projectLicenseNames) > 0: # projectArtifactIdからライセンス名の推定が出来た場合
-                                # programIDが確かで、Mavenリポジトリから調べたlicenseNameにつき、npmより大きな確度とする
-                                similaritys = [0.5]
+                                # programIDが確かでも、package.jsonに無かったlicenseNameの調べ方は確立していないので、mavenより小さな確度とする
+                                similaritys = [0.4]
                             else:
                                 similaritys = [0]
                 else:
@@ -336,6 +336,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                         projectLicenseURLs = []  # license URL欄は空
                         similaritys = [similal1 for licName,
                                            similal1 in similarl_licenses]
+                        projectArtifactId = '?' # similarl_licensesが在る為、何かの著作物であると見なす
                         for mached in re.finditer(projectArtifactId_pattern, filePattern):
                             if mached.group(1) != None:
                                 projectArtifactId = mached.group(1)
@@ -343,19 +344,23 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                                 projectVersion = mached.group(2) if (
                                     mached.group(2) != None) else ''
                             elif mached.group(4) != None:
+                                projectArtifactId = mached.group(4)
                                 if mached.group(3) == 'node_modules':
                                     projectGroup = '.'
                                 elif mached.group(3) in ['pkgs', 'site-packages']:
                                     projectGroup = '_pypi_'
                                 else:
                                     projectGroup = '?'
-                                projectArtifactId = mached.group(4)
                                 # maven用のpom.xmlに転記した場合にsyntax errorにならないバージョン
                                 projectVersion = mached.group(5) if (
                                     mached.group(5) != None) else '0'
                             elif mached.group(6) != None:
                                 projectGroup = mached.group(6)
                                 projectArtifactId = mached.group(7)
+                            elif mached.group(8) != None:
+                                projectArtifactId = mached.group(8)
+                            elif mached.group(9) != None:
+                                projectArtifactId = mached.group(9)
                         projectName.append(projectArtifactId)
             if len(projectArtifactId) > 0:
                 projectLicenseNames = licName2Short(license_alias,projectLicenseNames, projectLicenseURLs)
