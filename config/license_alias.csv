@@ -202,7 +202,6 @@ apple public source license 2.0,spdx/APSL-2.0
 apple public source license?1.x,spdx/APSL-1.1
 apple public source license?2.0,spdx/APSL-2.0
 "apple's common documentation license, version 1.0",FSF/ACDL
-approved/0bsd + 1 provided by auther lucent in python license,spdx/0BSD
 approved/apache licensed notice,Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation + own products notice(1),Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
@@ -282,19 +281,18 @@ approved/mit + based on notice,spdx/MIT
 approved/mit + copyright license,spdx/MIT
 approved/mit + copyright license (2),spdx/MIT
 approved/mit + copyright license (3),spdx/MIT
-approved/mit + inspired products notice,spdx/MIT
-approved/mit + own license notice,Approved/MIT + own license NOTICE
-approved/mit + own products notice,Approved/MIT + own license NOTICE
-approved/mit + related url notice.md,spdx/MIT
+approved/mit + inspired products notice,Approved/MIT licensed NOTICE
+approved/mit + own products license,Approved/MIT + own license
+approved/mit + related url notice.md,Approved/MIT + inspired products NOTICE
 approved/mit by contributers license,spdx/MIT
 approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
 approved/mit for 3 authers license.md,spdx/MIT
 approved/mit for qhull benjamin nortier,spdx/MIT
-approved/mit licensed notice,spdx/MIT
-approved/mit licensed notice(2),spdx/MIT
-approved/mit licensed notice(2).xml,spdx/MIT
-approved/mit licensed notice.xml,spdx/MIT
+approved/mit licensed notice,Approved/MIT + inspired products NOTICE
+approved/mit licensed notice(2),Approved/MIT + inspired products NOTICE
+approved/mit licensed notice(2).xml,Approved/MIT + inspired products NOTICE
+approved/mit licensed notice.xml,Approved/MIT + inspired products NOTICE
 approved/mit liense.md,spdx/MIT
 approved/mit+ copyright license (2),spdx/MIT
 approved/oculus_vr_rift_sdk_license,FSF/OculusRift
@@ -2801,6 +2799,7 @@ https://www.apache.org/licenses/license-2.0.txt,spdx/Apache-2.0
 https://www.atlassian.com/licensing/purchase-licensing,Approved/Atlassian purchase-licensing
 https://www.atomikos.com/main/extremetransactionsdevelopmentlicense,Approved/ExtremeTransactions Development License
 https://www.atomikos.com/main/whichlicenseapplies,Approved/ExtremeTransactions Development License
+https://www.boost.org/license_1_0.txt,spdx/BSL-1.0
 https://www.bouncycastle.org/licence.html,Approved/MIT + donation for Bouncy Castle License
 https://www.calculate-linux.org/packages/licenses/bea.ri.jsr173,Approved/Java Specification Participation Agreement
 https://www.couchbase.com/esla-11132015,Approved/Couchbase Community Edition License Agreement
@@ -3640,6 +3639,73 @@ red hat ecos public license v1.1,spdx/RHeCos-1.1
 remote network interaction; use with the gnu general public license.,spdx/AGPL-3.0
 request evaluation resin professional license,Approved/resin pro licenses NOTICE
 requesting resin pro license,Approved/resin pro licenses NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.base/license,Approved/GPL-2.0 with ClassPath EXCEPTION
+research/adapt-openjdk-11.0.2#/legal/java.compiler/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.datatransfer/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.desktop/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.instrument/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.logging/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.management.rmi/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.management/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.naming/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.net.http/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.prefs/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.rmi/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.scripting/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.se/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.security.jgss/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.security.sasl/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.smartcardio/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.sql.rowset/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.sql/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.transaction.xa/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.xml.crypto/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/java.xml/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.accessibility/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.attach/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.charsets/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.compiler/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.crypto.cryptoki/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.crypto.ec/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.crypto.mscapi/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.dynalink/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.editpad/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.hotspot.agent/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.httpserver/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.internal.ed/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.internal.jvmstat/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.internal.le/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.internal.opt/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jartool/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.javadoc/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jcmd/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jconsole/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jdeps/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jdi/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jdwp.agent/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jfr/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jlink/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jshell/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jsobject/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.jstatd/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.localedata/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.management.agent/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.management.jfr/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.management/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.naming.dns/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.naming.rmi/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.net/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.pack/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.rmic/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.scripting.nashorn.shell/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.scripting.nashorn/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.sctp/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.security.auth/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.security.jgss/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.unsupported.desktop/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.unsupported/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.xml.dom/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/adapt-openjdk-11.0.2#/legal/jdk.zipfs/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/cucumber-sandwich.jar#/cglib-license,spdx/Apache-2.0
 research/cucumber-sandwich.jar#/hamcrest-license,spdx/BSD-3-Clause
 research/cucumber-sandwich.jar#/license,spdx/MIT

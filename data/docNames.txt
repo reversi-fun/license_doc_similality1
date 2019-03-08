@@ -846,8 +846,8 @@ Approved/MIT + COPYRIGHT License,81
 Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + inspired products NOTICE,92
 Approved/MIT + MPL-2.0 LICENSE,164
-Approved/MIT + own license NOTICE,87
-Approved/MIT + own products NOTICE,87
+Approved/MIT + own license,87
+Approved/MIT + own products license,87
 Approved/MIT + Python-2.0 LICENSE,129
 Approved/MIT + related URL NOTICE.md,100
 Approved/MIT + X11 LICENSE,84
@@ -951,6 +951,74 @@ Approved/WTFPL-2.0 + MIT License,136
 Approved/WTFPL-2.0,35
 Approved/X11,94
 Approved/XMLPULL API IS FREE,32
+research/Adapt-openJdk-11.0.2#/legal/java.base/ADDITIONAL_LICENSE_INFO,158
+research/Adapt-openJdk-11.0.2#/legal/java.base/LICENSE,1376
+research/Adapt-openJdk-11.0.2#/legal/java.compiler/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.desktop/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.instrument/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.logging/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.management/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.naming/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.net.http/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.prefs/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.rmi/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.scripting/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.se/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.sql/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.xml/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.attach/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.compiler/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.crypto.mscapi/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.editpad/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jartool/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jdi/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jlink/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jshell/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.management/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.net/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.pack/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.rmic/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.scripting.nashorn/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.scripting.nashorn.shell/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO,5
+research/Adapt-openJdk-11.0.2#/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO,5
 research/cucumber-sandwich.jar#/asm-license,112
 research/cucumber-sandwich.jar#/cglib-license,792
 research/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,90
