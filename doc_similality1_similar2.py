@@ -211,7 +211,7 @@ if not os.path.isfile('./data/doc2vec.model'):
             tags =  [docname, doc_alias]
         if docname in  license_notices:
             tags.extend(license_notices[docname])
-        training_docs.append(TaggedDocument(words=doc, tags=( [docname] )))
+        training_docs.append(TaggedDocument(words=doc, tags=tags))
     model.build_vocab(training_docs)
     # model = models.Doc2Vec(training_docs, dm=0, vector_size=300, window=15, alpha=.025,  min_alpha=.025, min_count=1, sample=1e-6)
     # model = gensim.models.Doc2Vec(training_docs, dm=0)
