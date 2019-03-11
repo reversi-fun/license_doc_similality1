@@ -1,9 +1,12 @@
 ﻿aliasNames,shortName
 (bsd-2-clause or mit or apache-2.0),Approved/Apache-2.0 + BSD-2-Clause + MIT NOTICE
 (bsd-2-clause or mit),Approved/BSD-2-Clause + MIT NOTICE
+(mit and cc-by-3.0),"spdx/MIT,\nspdx/CC-BY-3.0"
+(mit or apache-2.0),"spdx/Apache-2.0,\nspdx/MIT"
 (mit),spdx/MIT
 (mit-style) netcdf c library license,spdx/NetCDF
 (mit-style) netcdf c library license.,spdx/NetCDF
+(wtfpl or mit),"spdx/WTFPL-2.0,\nspdx/MIT"
 /net/sf/jasperreports/fonts/dejavu/license,Approved/Arev Fonts License
 0bsd,spdx/0BSD
 2-clause bsd license,spdx/BSD-2-Clause
@@ -174,6 +177,7 @@ apache-2.0 # http://rometools.github.io/rome/license.html,spdx/Apache-2.0
 apache-2.0 # https://mvnrepository.com/artifact/org.apache.maven.doxia/doxia-sink-api,spdx/Apache-2.0
 apache-2.0 + bsd 3-clause,Approved/Apache-2.0 + BSD 3-Clause
 apache-2.0 + cc-by-2.5 license,Approved/Apache-2.0 + CC-BY-2.5 License
+apache-2.0 + cpl-1.0 + microsoft + adobe patent license,Approved/Apache-2.0 + CPL-1.0 + Microsoft + Adobe Patent LICENSE
 apache-2.0 + jcip-annotations notice,Approved/Apache-2.0 + CC-BY-2.5 License
 apache-2.0 based aerospike client license,Approved/Apache-2.0 based Aerospike Client License
 apache-2.0 or atomikos multiple licensing scheme https://www.atomikos.com/main/whichlicenseapplies,Approved/Atomikos Source Code Access Agreeement
@@ -207,6 +211,9 @@ approved/apache licensed notice,Approved/Apache Software Foundation products NOT
 approved/apache software foundation + own products notice(1),Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(1),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(2),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(3),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(4),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation+ own products notice(1),Apache Software Foundation products NOTICE
 approved/apache-1.0,spdx/Apache-1.0
 approved/apache-1.1,spdx/Apache-1.1
@@ -260,6 +267,7 @@ approved/cnri-dor,FSF/DOR
 approved/cryptix,FSF/CryptixGeneralLicense
 approved/cup parser generator for java license.md,Approved/CUP Parser Generator License
 approved/cwi license agreement for python 0.9.0 through 1.2,spdx/MIT-CMU
+approved/dom4j by metastuff(2),Approved/DOM4J by MetaStuff
 approved/edl-v10,Approved/EDL-1.0
 approved/epl-v10,spdx/EPL-1.0
 approved/erlang public license version 1.1,spdx/ErlPL-1.1
@@ -272,8 +280,12 @@ approved/gpl-3.0,spdx/GPL-3.0-only
 approved/gpl-pa-1.1,FSF/GPL-PA
 approved/hsqldb=bsd based license,Approved/BSD-3-Clause for HSQL Development Group
 approved/intel-acpi,spdx/Intel-ACPI
+approved/isc-authers-license,spdx/ISC
+approved/isc-contributors-license,spdx/ISC
 approved/jabberoslv1.0,FSF/josl
 approved/jcip-annotations license,spdx/CC-BY-2.5
+approved/jdom license,Approved/jdom LICENSE(2)
+approved/jdom license(2),Approved/jdom License
 approved/latex_ecfonts,FSF/ecfonts
 approved/licensed under lgpl notice,Approved/LGPLv2 + CERN NOTICE
 approved/microsoft shared source license,FSF/Ms-SS
@@ -483,6 +495,7 @@ bsd-3-clause for aduna license,Approved/BSD-3-Clause for Aduna license
 bsd-3-clause for ecma international,Approved/BSD-3-Clause for Ecma International
 bsd-3-clause for go authors,Approved/BSD-3-Clause for Go Authors
 bsd-3-clause for hsql development group,Approved/BSD-3-Clause for HSQL Development Group
+bsd-3-clause or mit,"spdx/BSD-3-Clause,\nspdx/MIT"
 bsd-3-clause-attribution,spdx/BSD-3-Clause-Attribution
 bsd-3-clause-clear,spdx/BSD-3-Clause-Clear
 bsd-3-clause-lbnl,spdx/BSD-3-Clause-LBNL
@@ -2981,8 +2994,6 @@ jdbm license v1.0,Approved/JDBM LICENSE v1.0
 jdbm software license,Approved/JDBM LICENSE v1.0
 jdom,Approved/jdom License
 jdom license,Approved/jdom License
-jdom License,Approved/jdom License
-Approved/jdom LICENSE(2),Approved/jdom License
 jenkins,Approved/Jenkins Project Governance Document
 jenkins project governance document,Approved/Jenkins Project Governance Document
 jetty web container copyright and license,Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License
@@ -3724,7 +3735,7 @@ research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/no
 research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE(2)
+research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
 research/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
@@ -3788,7 +3799,8 @@ research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar
 research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
-research/node_modules/protractor/node_modules/mime-types/license,research/node_modules/protractor/node_modules/mime-db/LICENSE
+research/node_modules/protractor/node_modules/mime-db/license,spdx/MIT
+research/node_modules/protractor/node_modules/mime-types/license,spdx/MIT
 research/node_modules/protractor/node_modules/request/license,spdx/Apache-2.0
 research/node_modules/protractor/plugins/console/spec/consolefailerrorconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/consolefailwarningconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
@@ -3888,19 +3900,20 @@ research/node_modules/protractor/testapp/nghint/index.html,research/node_modules
 research/node_modules/protractor/testapp/nghint/nonghint.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/node_modules/protractor/testapp/nghint/notag.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/node_modules/protractor/testapp/nghint/unused.html,research/node_modules/protractor/testapp/accessibility/index.html
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/mergedoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/conf/additions/_readme,Approved/_See other file
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.eclipse.team.svn.m2e_4.0.0.i20160226-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit18_6.0.4.i20161211-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/license,Approved/_See Java LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/notice,Approved/Apache Software Foundation products NOTICE(3)
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/notice,Approved/Apache Software Foundation products NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,Approved/Apache Software Foundation products NOTICE(3)
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,Approved/Apache Software Foundation products NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/license,Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,Approved/Apache Software Foundation products NOTICE(3)
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,Approved/Apache Software Foundation products NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.10.0.20181127-2120/about_files/slf4j-simple-license,research/node_modules/protractor/node_modules/minimatch/LICENSE

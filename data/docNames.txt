@@ -807,6 +807,7 @@ Approved/Intel Simplified Software License,351
 Approved/Intel-ACPI,478
 Approved/IPA_Font_License,710
 Approved/ISC or 0BSD,64
+Approved/ISC-Authers-LICENSE,60
 Approved/ISC-Contributors-License,58
 Approved/ISO-RELAX license,90
 Approved/JabberOSLv1.0,3202

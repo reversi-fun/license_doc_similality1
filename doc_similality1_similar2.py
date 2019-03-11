@@ -204,6 +204,13 @@ if not os.path.isfile('./data/doc2vec.model'):
     # training
     training_docs = []
     for docname, doc in preprocessed_docs.items():
+        doc_alias = license_alias.get(docName.lower(),docName)
+        if doc_alias == docName:
+            tags =  [docname]
+        else:
+            tags =  [docname, doc_alias]
+        if docname in  license_notices:
+            tags.extend(license_notices[docname])
         training_docs.append(TaggedDocument(words=doc, tags=( [docname] )))
     model.build_vocab(training_docs)
     # model = models.Doc2Vec(training_docs, dm=0, vector_size=300, window=15, alpha=.025,  min_alpha=.025, min_count=1, sample=1e-6)
