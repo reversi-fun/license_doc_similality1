@@ -201,8 +201,8 @@ def licName2Short(license_alias, licNames, licURLs):
         key=lambda item: (licenseSortOrder[(list(filter(lambda x: (x + '/') in item, licenseSortOrder)) + [''])[0]], item))
 
 # self test code
-# THIRD-PARTY.propertiesの内容を正規化したファイル（THIRD-PARTY.properties.updated.txt）を作成する。
-# THIRD-PARTY.properties.updated.txtにヘッダコメントを追加して、THIRD-PARTY.propertiesに上書きすればよい。
+# THIRD-PARTY.propertiesの内容を正規化したファイル（THIRD-PARTY.properties.updates.txt）を作成する。
+# THIRD-PARTY.properties.updates.txtにヘッダコメントを追加して、THIRD-PARTY.propertiesに上書きすればよい。
 if __name__ == '__main__':
     t = ProgramId2License()
     for projectGroup, projectArtifactId, projectVersion in [('org.bouncycastle', 'bcmail-jdk14', ''),
@@ -235,4 +235,4 @@ if __name__ == '__main__':
                 key=lambda w: (w[0].lower(), w[0]))
             t.replace_license_info2_programId(
                 program_groupId1,  program_artifactId1, program_version1,  nomalized_license_names)
-    t.save('./config/THIRD-PARTY.properties.updated.txt')
+    t.save('./config/THIRD-PARTY.properties.updates.txt')

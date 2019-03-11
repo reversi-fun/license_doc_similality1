@@ -635,12 +635,15 @@ Approved/Apache Software Foundation + OWN products NOTICE(1),42
 Approved/Apache Software Foundation products + W3C NOTICE,73
 Approved/Apache Software Foundation products NOTICE(0),16
 Approved/Apache Software Foundation products NOTICE(1),16
+Approved/Apache Software Foundation products NOTICE(2),23
+Approved/Apache Software Foundation products NOTICE(3),22
 Approved/Apache Software Foundation products NOTICE,16
 Approved/Apache-1.0,203
 Approved/Apache-1.1 = The CyberNeko Software License, Version 1.0,163
 Approved/Apache-1.1 based Ant-Contrib License,179
 Approved/Apache-1.1 for IAIK of Graz University of Technology.md,160
 Approved/Apache-1.1 for Mockrunner,151
+Approved/Apache-1.1 in comments(2),194
 Approved/Apache-1.1 in comments,165
 Approved/Apache-1.1,189
 Approved/Apache-2.0 + BSD 3-Clause,59
@@ -666,6 +669,7 @@ Approved/Apache-2.0 + OWN CREDITS NOTICE(9),58
 Approved/Apache-2.0 + OWN CREDITS NOTICE,57
 Approved/Apache-2.0 + OWN product NOTICE,37
 Approved/Apache-2.0 + Python-2.0 + BSD licensed cryptography NOTICE,25
+Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE,1059
 Approved/Apache-2.0 + WTFPL License,828
 Approved/Apache-2.0 based Aerospike Client License,1282
 Approved/Apache-2.0 License(1),792
@@ -756,7 +760,9 @@ Approved/Day JCR License,94
 Approved/Day Specification License,532
 Approved/DESIGN_SCIENCE,632
 Approved/Dojo Toolkit License=AFL-2.1 + BSD-3-Clause,871
+Approved/DOM4J by MetaStuff(2),138
 Approved/DOM4J by MetaStuff,139
+Approved/Eclipse Foundation Software User Agreement.html,625
 Approved/EDL-1.0,115
 Approved/edl-v10,115
 Approved/Election of GPLv2 for MySQL ConnectorJ,1595
@@ -811,7 +817,8 @@ Approved/JavaSE9 spec license-3903847,659
 Approved/JCIP-ANNOTATIONS License,891
 Approved/JCP Spec Leads License Reference,517
 Approved/JDBM LICENSE v1.0,140
-Approved/jdom2 License,175
+Approved/jdom LICENSE(2),179
+Approved/jdom License,175
 Approved/Jenkins Project Governance Document,2359
 Approved/JESS client License,852
 Approved/Joda-money Notes,194
@@ -842,6 +849,7 @@ Approved/MIT + CC0-1.0 at sample LICENSE,147
 Approved/MIT + CC0-1.0 for jquery License,127
 Approved/MIT + copyright LICENSE (2),112
 Approved/MIT + copyright LICENSE (3),87
+Approved/MIT + copyright LICENSE (4),85
 Approved/MIT + COPYRIGHT License,81
 Approved/MIT + donation for Bouncy Castle License,95
 Approved/MIT + inspired products NOTICE,92
@@ -926,6 +934,8 @@ Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA,205
 Approved/The CyberNeko Software License, Version 1.0,154
 Approved/The H2 License, Version 1.0,2166
 Approved/The P6Spy Software License, Version 1.1,208
+Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc,7909
+Approved/Thired_Party_licenses_for_JavaSE8_LGPL-2.1 + Apache-2.0 +CUP Parser Generator + Arev Fonts + W3C + etc,11208
 Approved/TMate Open Source License,205
 Approved/TRILEAD-LICENSE,353
 Approved/TrueCrypt-3.0,1680
@@ -951,6 +961,9 @@ Approved/WTFPL-2.0 + MIT License,136
 Approved/WTFPL-2.0,35
 Approved/X11,94
 Approved/XMLPULL API IS FREE,32
+Approved/_See ADDITIONAL_LICENSE_INFO,158
+Approved/_See Java LICENSE,5
+Approved/_See other file,15
 research/Adapt-openJdk-11.0.2#/legal/java.base/ADDITIONAL_LICENSE_INFO,158
 research/Adapt-openJdk-11.0.2#/legal/java.base/LICENSE,1376
 research/Adapt-openJdk-11.0.2#/legal/java.compiler/ADDITIONAL_LICENSE_INFO,5
@@ -1025,7 +1038,6 @@ research/cucumber-sandwich.jar#/charts/codemirror.zip#/CodeMirror-2.33/LICENSE,9
 research/cucumber-sandwich.jar#/hamcrest-license,113
 research/cucumber-sandwich.jar#/LICENSE,82
 research/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.TXT,171
-research/cucumber-sandwich.jar#/licenses/thoughtworks.TXT,118
 research/cucumber-sandwich.jar#/NOTICE,18
 research/cucumber-sandwich.jar#/objenesis-license,81
 research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/META-INF/LICENSE,792
@@ -1121,3 +1133,35 @@ research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/LICENSE,792
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/NOTICE,72
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/NOTICE,11
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/CheckStyle/eclipse/features/net.sf.eclipsecs_8.12.0.201808161509/license.html,1776
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/EclipseRunner/eclipse/features/com.eclipserunner.feature_1.3.4/LICENSE,91
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/MergeDoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/conf/additions/_readme,15
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/QuickJUnit/eclipse/plugins/org.mockito_1.8.5/mockito-license,82
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn.m2e_4.0.0.I20160226-1700/license.html,625
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/Subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit18_6.0.4.I20161211-1700/license.html,625
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/features/org.sonatype.m2e.mavenarchiver.feature_0.17.2.201606141937-signed-20160830073346/license.html,880
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/THIRDPARTYLICENSEREADME-JAVAFX,7909
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/LICENSE,5
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/THIRDPARTYLICENSEREADME-JAVAFX,7909
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/LICENSE,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE,22
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/LICENSE,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/NOTICE,22
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/DOM-LICENSE.html,209
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/LICENSE,1059
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/NOTICE,29
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/SAX-LICENSE.html,205
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/THE_APACHE_SOFTWARE_LICENSE__VERSION_2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/LICENSE,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/NOTICE,22
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.commons.discovery_0.2.0.v201004190315/about_files/LICENSE,194
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/dom4j-LICENSE,138
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/jdom-LICENSE,179
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/LICENSE-1.1,189
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/LICENSE-2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/LICENSE-2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.10.0.20181127-2120/about_files/slf4j-simple-LICENSE,81
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/about_files/LICENSE-2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/LICENSE-2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/LICENSE-2.0,792
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/LICENSE-2.0,792
