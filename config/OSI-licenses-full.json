@@ -216,8 +216,8 @@
     "url": "https://opensource.org/licenses/OSL-3.0"
   },
   "OSET Public License version 2.1": {
-    "id": "OPL-2.1",
-    "url": "https://opensource.org/licenses/OPL-2.1"
+    "id": "OSET-PL-2.1",
+    "url": "https://www.osetfoundation.org/public-license"
   },
   "PHP License 3.0": {
     "id": "PHP-3.0",
@@ -276,7 +276,7 @@
     "url": "https://opensource.org/licenses/NCSA"
   },
   "Universal Permissive License": {
-    "id": "UPL",
+    "id": "UPL-1.0",
     "url": "https://opensource.org/licenses/UPL"
   },
   "Upstream Compatibility License v1.0": {

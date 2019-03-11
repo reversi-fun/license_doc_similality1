@@ -227,6 +227,7 @@ approved/apache-2.0 + own credits notice(6),Approved/Apache-2.0 + OWN CREDITS NO
 approved/apache-2.0 + own credits notice(7),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 approved/apache-2.0 + own credits notice(8),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 approved/apache-2.0 + own credits notice(9),Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
+approved/apache-2.0 january 2004 for cglib-license,spdx/Apache-2.0
 approved/apache-2.0 license(1),spdx/Apache-2.0
 approved/apache-2.0 licensed notice(1),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(10),Approved/Apache-2.0 licensed NOTICE
@@ -240,7 +241,6 @@ approved/apache-2.0 licensed notice(7),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(8),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(9),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0(1),spdx/Apache-2.0
-approved/apache-2.0(2),spdx/Apache-2.0
 approved/arphic,FSF/Arphic
 approved/beopen.com license agreement for python 2.0,spdx/Python-2.0
 approved/berkeleydb,spdx/Sleepycat
@@ -303,12 +303,18 @@ approved/mit by contributers license(1),spdx/MIT
 approved/mit by contributers license(2),spdx/MIT
 approved/mit for 3 authers license.md,spdx/MIT
 approved/mit for qhull benjamin nortier,spdx/MIT
+approved/mit license,spdx/MIT
+approved/mit license(1).md,spdx/MIT
+approved/mit license(2).md,spdx/MIT
+approved/mit license.md,spdx/MIT
 approved/mit licensed notice,Approved/MIT + inspired products NOTICE
 approved/mit licensed notice(2),Approved/MIT + inspired products NOTICE
+approved/mit licensed notice(2).txt,Approved/MIT licensed NOTICE
 approved/mit licensed notice(2).xml,Approved/MIT + inspired products NOTICE
 approved/mit licensed notice.xml,Approved/MIT + inspired products NOTICE
 approved/mit liense.md,spdx/MIT
 approved/mit+ copyright license (2),spdx/MIT
+approved/mit-license comment in js,spdx/MIT
 approved/oculus_vr_rift_sdk_license,FSF/OculusRift
 approved/openldap public license version 2.8,spdx/OLDAP-2.7
 approved/openssl,spdx/OpenSSL
@@ -325,9 +331,11 @@ approved/sax-pd,spdx/SAX-PD
 approved/scilab,FSF/Scilab
 approved/scratch-1.4,FSF/Scratch
 approved/simplem-1.1,FSF/SML
+approved/sissl-1.1,spdx/SISSL
 approved/sleepycat,spdx/Sleepycat
 approved/squeak-old,FSF/Squeak
 approved/standardml-nj,spdx/SMLNJ
+approved/storage networking industry association public license version 1.1,spdx/SNIA
 approved/suncslv2.8,FSF/SunCommunitySourceLicense
 approved/tmate open source license,spdx/TMate
 approved/truecrypt-3.0,FSF/Truecrypt-3.0
@@ -586,14 +594,14 @@ cc0 1.0 universal license,Approved/CC0-1.0 Universal
 "cc0 1.0,lgpl 2.1,public domain",spdx/LGPL-2.1-only
 "cc0,public",FSF/PublicDomain
 cc0-1.0,spdx/CC0-1.0
-cddl,spdx/CDDL-1.0
+cddl,spdx/CDDL-1.1
 cddl + gpl-2.0-with-classpath-exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl + gplv2 with classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl 1.0,spdx/CDDL-1.0
 cddl 1.0 and gpl v2 with classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl 1.0 license,spdx/CDDL-1.0
 cddl 1.1,spdx/CDDL-1.1
-cddl license,spdx/CDDL-1.0
+cddl license,spdx/CDDL-1.1
 cddl or gpl 2 with classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl or gpl version 2 plus the classpath exception,Approved/CDDL + GPL-2.0-with-classpath-exception
 cddl or gplv2 with exceptions,Approved/CDDL + GPL-2.0-with-classpath-exception
@@ -667,6 +675,7 @@ common development and distribution license (cddl) plus gpl,Approved/CDDL + GPL-
 common development and distribution license (cddl) v1.0,spdx/CDDL-1.0
 common development and distribution license (cddl) version 1.0,spdx/CDDL-1.0
 "common development and distribution license (cddl), version 1.0",spdx/CDDL-1.0
+"common development and distribution license (cddl), version 1.1",spdx/CDDL-1.1
 common development and distribution license 1.0,spdx/CDDL-1.0
 common development and distribution license 1.1,spdx/CDDL-1.1
 common public attribution license 1.0,spdx/CPAL-1.0
@@ -1006,7 +1015,7 @@ fsf/cc-by-nd-4.0,spdx/CC-BY-ND-4.0
 fsf/cc0,spdx/CC0-1.0
 fsf/ccby,spdx/CC-BY-4.0
 fsf/ccbysa,spdx/CC-BY-SA-4.0
-fsf/cddl,spdx/CDDL-1.0
+fsf/cddl,spdx/CDDL-1.1
 fsf/cecill,spdx/CECILL-2.0
 fsf/cecill-b,spdx/CECILL-B
 fsf/cecill-c,spdx/CECILL-C
@@ -1086,6 +1095,7 @@ fsf/ruby,spdx/Ruby
 fsf/sgifreeb,spdx/SGI-B-2.0
 fsf/silofl-1.0,spdx/OFL-1.0
 fsf/silofl-1.1,spdx/OFL-1.1
+fsf/sissl,spdx/SISSL
 fsf/spl,spdx/SPL-1.0
 fsf/standardmlofnj,spdx/SMLNJ
 fsf/unlicense,spdx/Unlicense
@@ -1348,7 +1358,7 @@ hpnd,spdx/HPND
 hrefabout_fileslicense_cddl,spdx/CDDL-1.0
 hreflicensesapache-license-version-2-0,spdx/Apache-2.0
 hreflicensescommon-development-and-distribution-license-v1-0,spdx/CDDL-1.0
-hreflicensescup-open-source-license,spdx/SMLNJ
+hreflicensescup-open-source-license,Approved/CUP Parser Generator License
 hreflicenseseclipse-public-license-v1-0,spdx/EPL-1.0
 hreflicensesgnu-lesser-general-public-license-version-2-0,spdx/LGPL-2.0-only
 hreflicensesgnu-lesser-general-public-license-version-2-1,spdx/LGPL-2.1-only
@@ -1915,6 +1925,7 @@ http://www.sencha.com/license,Approved/GPL-3.0 + Sencha Licensing Notices
 http://www.sendmail.com/pdfs/open_source/sendmail_license.pdf,spdx/Sendmail
 http://www.simplemachines.org/about/smf/license.php,OSI/Simple Public License 2.0
 http://www.smlnj.org//license.html,spdx/SMLNJ
+http://www.snia.org/smi/developers/open_source/,spdx/SNIA
 http://www.spdx.org/licenses/apache-2.0,spdx/Apache-2.0
 http://www.spdx.org/licenses/gpl-3.0+,spdx/GPL-3.0-or-later
 http://www.srgb.com/usingsrgb.html,Approved/sRGB Profile Licensing Agreement
@@ -3199,9 +3210,10 @@ mit license,spdx/MIT
 mit license (also x11),spdx/MIT
 mit license (mit),spdx/MIT
 mit license / x11 license,spdx/X11
+mit license.md,spdx/MIT
 mit liense.md,spdx/MIT
 mit like,spdx/MIT
-mit no attribution,spdx/MIT-0
+mit no attribution,spdx/MITNFA
 mit open source license.,spdx/MIT
 mit' in license,spdx/MIT
 "mit(self.contact_link, license",spdx/MIT
@@ -3515,7 +3527,7 @@ osi/ntp license,spdx/NTP
 osi/oclc research public license 2.0,spdx/OCLC-2.0
 osi/open group test suite license,spdx/OGTSL
 osi/open software license 3.0,spdx/AFL-3.0
-osi/oset public license version 2.1,spdx/OPL-2.1
+osi/oset public license version 2.1,spdx/OSET-PL-2.1
 osi/php license 3.0,spdx/PHP-3.0
 osi/python license,spdx/Python-2.0
 osi/q public license,spdx/QPL-1.0
@@ -3528,7 +3540,7 @@ osi/sleepycat license,spdx/Sleepycat
 osi/sun public license 1.0,spdx/SPL-1.0
 osi/sybase open watcom public license 1.0,spdx/Watcom-1.0
 osi/the postgresql license,spdx/PostgreSQL
-osi/universal permissive license,spdx/UPL
+osi/universal permissive license,spdx/UPL-1.0
 osi/upstream compatibility license v1.0,spdx/UCL-1.0
 osi/vovida software license v. 1.0,spdx/VSL-1.0
 osi/w3c license,spdx/W3C
@@ -3720,21 +3732,20 @@ research/adapt-openjdk-11.0.2#/legal/jdk.unsupported.desktop/additional_license_
 research/adapt-openjdk-11.0.2#/legal/jdk.unsupported/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.xml.dom/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.zipfs/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
-research/cucumber-sandwich.jar#/cglib-license,spdx/Apache-2.0
 research/cucumber-sandwich.jar#/hamcrest-license,spdx/BSD-3-Clause
 research/cucumber-sandwich.jar#/license,spdx/MIT
 research/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.txt,Approved/Indiana University Extreme! Lab Software License
-research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
-research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
@@ -3766,42 +3777,41 @@ research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/meta-inf/license,Ap
 research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
-research/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/aggs-matrix-stats/aggs-matrix-stats-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/ingest-common/ingest-common-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/aggs-matrix-stats/aggs-matrix-stats-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/ingest-common/ingest-common-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
-research/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/lang-painless/lang-painless-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/lang-painless/lang-painless-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
-research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
-research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
 research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/meta-inf/license,Approved/Apache-2.0 + CC-BY-2.5 License
-research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
-research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
-research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-db/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-types/license,spdx/MIT
-research/node_modules/protractor/node_modules/request/license,spdx/Apache-2.0
 research/node_modules/protractor/plugins/console/spec/consolefailerrorconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/consolefailwarningconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/fail_warning_spec.js,research/node_modules/protractor/plugins/console/spec/fail_error_spec.js
@@ -3819,7 +3829,7 @@ research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/install.rdf,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/install.rdf
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/kill.html,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/kill.html
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/license-junit,spdx/EPL-1.0
-research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,spdx/Apache-2.0
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/services/javax.management.remote.jmxconnectorserverprovider,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/services/javax.management.remote.JMXConnectorProvider
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattributes.xsl,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattribute.xsl
@@ -3906,21 +3916,19 @@ research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/s
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/license,Approved/_See Java LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/notice,Approved/Apache Software Foundation products NOTICE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,Approved/Apache Software Foundation products NOTICE
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/license,Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,Approved/Apache Software Foundation products NOTICE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.10.0.20181127-2120/about_files/slf4j-simple-license,research/node_modules/protractor/node_modules/minimatch/LICENSE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/license-2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
 reseller agreement 4.0 between highsoft as and reseller,Approved/Highsoft Standard License Agreement 9.0
 resin pro license deployment,Approved/resin pro licenses NOTICE
 resin pro licenses,Approved/resin pro licenses NOTICE
@@ -4042,12 +4050,9 @@ spdx/amdplpa,spdx/AMDPLPA
 spdx/aml,spdx/AML
 spdx/ampas,spdx/AMPAS
 spdx/antlr-pd,spdx/ANTLR-PD
-spdx/apache license 2.0,spdx/Apache-2.0
-"spdx/apache license, version 2.0",spdx/Apache-2.0
 spdx/apache-1.0,spdx/Apache-1.0
 spdx/apache-1.1,spdx/Apache-1.1
 spdx/apache-2.0,spdx/Apache-2.0
-spdx/apache2,spdx/Apache-2.0
 spdx/apafml,spdx/APAFML
 spdx/apl-1.0,spdx/APL-1.0
 spdx/aplv2,spdx/Apache-2.0
@@ -4428,7 +4433,6 @@ spdx/unicode-dfs-2015,spdx/Unicode-DFS-2015
 spdx/unicode-dfs-2016,spdx/Unicode-DFS-2016
 spdx/unicode-tou,spdx/Unicode-TOU
 spdx/unlicense,spdx/Unlicense
-spdx/upl,spdx/UPL-1.0
 spdx/upl-1.0,spdx/UPL-1.0
 spdx/vim,spdx/Vim
 spdx/vostrom,spdx/VOSTROM
@@ -4483,6 +4487,7 @@ standard ml of new jersey license,spdx/SMLNJ
 standard pil license,Approved/Python Imaging Library License
 standardml-nj,spdx/SMLNJ
 standardmlofnj,spdx/StandardML-NJ
+storage networking industry association public license version 1.1,spdx/SNIA
 streaming api for xml (jsr-173) specification reference implementation license agreement,Approved/Java Specification Participation Agreement
 sugarcrm public license v1.1.3,spdx/SugarCRM-1.1.3
 sugarcrm-1.1.3,spdx/SugarCRM-1.1.3

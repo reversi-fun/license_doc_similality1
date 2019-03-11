@@ -672,6 +672,7 @@ Approved/Apache-2.0 + Python-2.0 + BSD licensed cryptography NOTICE,25
 Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE,1059
 Approved/Apache-2.0 + WTFPL License,828
 Approved/Apache-2.0 based Aerospike Client License,1282
+Approved/Apache-2.0 January 2004 for cglib-license,792
 Approved/Apache-2.0 License(1),792
 Approved/Apache-2.0 licensed by 3 authers NOTICE(2),64
 Approved/Apache-2.0 licensed by 3 authers NOTICE,64
@@ -689,7 +690,6 @@ Approved/Apache-2.0 licensed NOTICE(9),30
 Approved/Apache-2.0 licensed NOTICE,24
 Approved/Apache-2.0 or Which License Applies to You,125
 Approved/Apache-2.0(1),706
-Approved/Apache-2.0(2),792
 Approved/APSL-2.0,1527
 Approved/Arev Fonts License,192
 Approved/Arphic,504
@@ -866,11 +866,13 @@ Approved/MIT by contributers LICENSE,81
 Approved/MIT by Twisted contributers,185
 Approved/MIT for 3 Authers LICENSE.md,402
 Approved/MIT for qhull benjamin Nortier,83
+Approved/MIT License(2).md,80
+Approved/MIT License.md,84
+Approved/MIT LICENSE,83
 Approved/MIT licensed NOTICE(2),20
 Approved/MIT licensed NOTICE(2).xml,16
 Approved/MIT licensed NOTICE,11
 Approved/MIT licensed NOTICE.xml,5
-Approved/MIT liense.md,80
 Approved/MIT-license comment in js,17
 Approved/MIT,82
 Approved/MPL-2.0 + EPL-1.0,2157
@@ -926,6 +928,7 @@ Approved/Squeak-old,753
 Approved/sRGB Color Space Profile.icm License,63
 Approved/sRGB Profile Licensing Agreement,46
 Approved/StandardML-NJ,87
+Approved/STORAGE NETWORKING INDUSTRY ASSOCIATION PUBLIC LICENSE Version 1.1,1630
 Approved/Sun Microsystems Binery Code License,794
 Approved/SunCSLv2.8,3083
 Approved/SystemC_Open_Source_License,2808
