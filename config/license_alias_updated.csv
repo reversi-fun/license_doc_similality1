@@ -3467,7 +3467,7 @@ osi/apple public source license,spdx/APSL-2.0
 osi/artistic license 2.0,spdx/Artistic-2.0
 osi/attribution assurance license,spdx/AAL
 osi/boost software license,spdx/BSL-1.0
-osi/bsd+patent,spdx/BSD-2-Clause-Patent
+osi/bsd+patent,spdx/BSDplusPatent
 osi/cecill license 2.1,spdx/CECILL-2.1
 osi/cnri python license,spdx/CNRI-Python
 osi/common development and distribution license 1.0,spdx/CDDL-1.0
@@ -3528,7 +3528,7 @@ osi/sleepycat license,spdx/Sleepycat
 osi/sun public license 1.0,spdx/SPL-1.0
 osi/sybase open watcom public license 1.0,spdx/Watcom-1.0
 osi/the postgresql license,spdx/PostgreSQL
-osi/universal permissive license,spdx/UPL-1.0
+osi/universal permissive license,spdx/UPL
 osi/upstream compatibility license v1.0,spdx/UCL-1.0
 osi/vovida software license v. 1.0,spdx/VSL-1.0
 osi/w3c license,spdx/W3C
@@ -3901,7 +3901,6 @@ research/node_modules/protractor/testapp/nghint/nonghint.html,research/node_modu
 research/node_modules/protractor/testapp/nghint/notag.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/node_modules/protractor/testapp/nghint/unused.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/mergedoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/conf/additions/_readme,Approved/_See other file
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/quickjunit/eclipse/plugins/org.mockito_1.8.5/mockito-license,spdx/MIT
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.eclipse.team.svn.m2e_4.0.0.i20160226-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit18_6.0.4.i20161211-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
