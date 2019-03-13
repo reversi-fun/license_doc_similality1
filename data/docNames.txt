@@ -957,6 +957,10 @@ Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation,297
 Approved/W3C Software and Document Short Notice,44
 Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software,268
 Approved/Watcom-1.0,1587
+Approved/WebM Additional IP Rights Grant,107
+Approved/WebM Bitstream Specification License,97
+Approved/WebM Software License,114
+Approved/WebM VP8 Patent Cross-License,1217
 Approved/WebM,109
 Approved/WSO2 Commercial License 1.0,697
 Approved/WSO2 Commercial License 2.0,184

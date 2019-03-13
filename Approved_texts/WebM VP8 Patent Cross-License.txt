@@ -1,0 +1,97 @@
+Agreement: VP8 Patent Cross-License
+Background
+1. Goal
+Google wishes to establish VP8 as a widely-deployed video format on the Internet. To assist companies and developers in the adoption and use of VP8, Google is making available this royalty-free patent cross-license for VP8 technology (hereinafter, the "VP8 Patent Cross-License Agreement").
+
+Google has obtained rights from 11 major technology companies and their Affiliates identified on the page at Primary Licensors, MPEG LA, and MPEG LA's Affiliates (hereinafter, collectively, the "Primary Licensors") to license any patent claims they may have that cover VP8 technology on a free and worldwide basis. Google is also willing to license, for free and on a worldwide basis, any patent claims it may have that cover the VP8 technology. Because Google is offering this license to You for free, as a condition of granting the license, Google requires that You grant back to Google, to the Primary Licensors and to all others who enter into the VP8 Patent Cross-License Agreement, a free and worldwide license under any patent(s) You or Your Affiliates, if any, own or can freely license that are necessary for the implementation of the VP8 Format.
+
+2. How to Become a VP8 Licensee
+You may obtain the worldwide and royalty-free license to the subject VP8 patents by agreeing to all of the terms and conditions exactly as set forth below in Sections 3-17. You must express Your agreement in one of two ways: (i) by clicking on the button at the end of this document and providing all of the required information; or (ii) by signing a paper copy of this agreement (the printable form is available here) and sending the signed original VP8 Patent Cross-License Agreement to:
+
+Patent Licensing Team
+1600 Amphitheatre Parkway
+Mountain View, CA 94043
+
+Signed agreements may also be scanned and emailed in PDF form to patentlicensing@google.com with the following email subject line: "VP8 Patent Cross-License Agreement - [Your name]". "[Your name]" can be your corporate/organization name or your individual name, depending on who is entering into this Agreement.
+
+Agreement
+3. License Grant by Google
+Subject to the terms and conditions of this VP8 Patent Cross-License Agreement, Google grants to You a non-assignable and non-transferrable, non-sublicenseable, worldwide, royalty-free, nonexclusive license under the VP8 Patent Claims to make, use, sell (including the licensing of software), offer for sale (including the offer of a software license) and import (collectively, "Exploit") Licensed Products in the Licensed Field of Use.
+
+4. Release from Past Infringement
+Subject to the terms and conditions of this VP8 Patent Cross-License Agreement, Google, on behalf of itself, its Affiliates, and the Primary Licensors, releases You from claims of infringement of the VP8 Patent Claims for the Exploitation of Licensed Products in the Licensed Field of Use that occurred prior to the date You entered into this VP8 Patent Cross-License Agreement, but only to the extent such Exploitation would have been licensed hereunder had it occurred on or after that date.
+
+5. Required Grant of a Reciprocal Release and License by You
+Subject to the terms and conditions of this VP8 Patent Cross-License Agreement, You, on behalf of Yourself and Your Affiliates (if any), grant to the Primary Licensors, to Google and its Affiliates, to each of their respective direct and indirect vendors, suppliers, licensors, contractors, resellers, distributors, customers, licensees, lessees and end users, in their capacity as such, and to all other VP8 Licensees (all of the foregoing, the "Reciprocal Licensees"): (i) a non-assignable and non-transferrable, non-sublicenseable, worldwide, royalty-free, nonexclusive license to Exploit Licensed Products in the Licensed Field of Use under those patent claims, if any, now or hereafter owned or licensable by You or Your Affiliates that must necessarily be infringed by the act of Exploiting Licensed Products in the Licensed Field of Use, and (ii) a worldwide, royalty-free release from any claims of infringement for any prior activities that would have been licensed hereunder had those activities occurred on or after the date You entered into this VP8 Patent Cross-License Agreement. The foregoing license and release, or the corresponding license and release granted to You by any other VP8 Licensee, may be referred to as the "Reciprocal Release and License" granted by You or such other VP8 Licensee, respectively.
+
+Notwithstanding the above, any patent claim owned or licensable by You or Your Affiliate shall be excluded from the Reciprocal Release and License if You or Your Affiliate would have a payment obligation to a third party (other than Your Affiliate, or an employee or contractor of You or Your Affiliate) with respect to that patent claim in connection with Your grant of the Reciprocal Release and License.
+
+You represent and warrant that: (i) You have the full right and power on behalf of Yourself and Your Affiliates to grant the foregoing release and license; and (ii) Your Affiliates are and will be bound by the obligations of this agreement.
+
+6. Affiliates
+If a Person ceases to be an Affiliate of Yours on a given date, the Reciprocal Release and License granted from such Person (as Your Affiliate) hereunder as of that date shall continue. Furthermore, if such Person, following that date, owns or controls any patent(s) containing a claim that is subject to the Reciprocal Release and License, You will ensure that such Person expressly agrees to be bound by the terms and conditions of this agreement (including but not limited to Section 10) as they relate to such patent(s).
+
+7. Term
+The term of this VP8 Patent Cross-License Agreement shall be from the date You enter into this agreement until expiration of the last to expire of any patent containing: (i) a VP8 Patent Claim; or (ii) a claim covered by any Reciprocal Release and License ("Term").
+
+8. Defensive Termination
+The license granted to You by Google under Section 3, and the license granted to You by all other VP8 Licensees and their Affiliates as part of the Reciprocal Release and License, shall immediately terminate upon initiation of litigation (including but not limited to cross-claims and counterclaims or other legal, equitable or administrative proceedings, e.g., before the U.S. International Trade Commission or comparable bodies in foreign countries) by You or Your Affiliate, if any, whether directly or indirectly through an exclusive licensee, transferee, assignee, agent or otherwise, or by any other Person if You or Your Affiliate have a direct financial interest in such litigation, against any Reciprocal Licensee, alleging that any implementation of the VP8 Format or any Licensed Product or combination of Licensed Products in the Licensed Field of Use constitutes direct or contributory infringement, or inducement of infringement, of any patent claim that must necessarily be infringed by the Exploitation of Licensed Products in the Licensed Field of Use. Accordingly, the license granted by You and Your Affiliates to a given VP8 Licensee as part of the Reciprocal Release and License shall immediately terminate if such VP8 Licensee's rights become subject to termination under the provisions of this Section 8 in the VP8 Patent Cross-License Agreement entered into by that VP8 Licensee.
+
+After termination of the licenses granted to You pursuant to the immediately preceding paragraph of this Section 8, You may not utilize the procedures of Section 2 to again become a VP8 Licensee. However, following final resolution of the litigation that resulted in such termination, upon written application to Google, Google may, in its sole discretion, permit You to again enter into this VP8 Patent Cross-License Agreement.
+
+9. Confirmation of Reciprocal License
+At any time, Google or any Primary Licensor (excluding MPEG LA and its Affiliates) may request that You confirm, in writing, Your and Your Affiliates' grant of the Reciprocal Release and License. If You do not provide such confirmation, in writing and within ninety (90) days of receipt of such request, then the license and release granted to You and Your Affiliates under Section 3 and 4 shall terminate immediately upon expiration of the 90-day period.
+
+10. Assignment of Patents
+The licenses granted under this agreement will remain in full force and effect regardless of any subsequent transfer of any rights in or to any patent containing a claim that is licensed hereunder. You and Your Affiliates agree not to assign or transfer any of Your or Your Affiliates' patents containing a claim that is subject to the Reciprocal Release and License, in whole or in part, unless such assignment or transfer is made subject to the terms of this agreement and each assignee or transferee of any such patent expressly agrees to be bound by the terms and conditions of this agreement as they relate to those patents (including but not limited to this Section 10, which will similarly apply to subsequent assignments or transfers by such assignee or transferee).
+
+11. Enforcement
+Google shall have the right (but no obligation) to enforce the terms or conditions of any VP8 Patent Cross-License Agreement against You, Your Affiliates, and/or any other VP8 Licensees.
+
+12. Limitation of Liability
+EXCEPT FOR THE REPRESENTATIONS AND WARRANTIES PROVIDED IN SECTIONS 5 AND 13, ALL RELEASES AND LICENSES GRANTED HEREIN ARE GRANTED "AS IS" AND NO PARTY TO THIS AGREEMENT MAKES, AND SUCH PARTIES DISCLAIM TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. IN PARTICULAR, BUT WITHOUT LIMITATION, ALL PARTIES DISCLAIM ANY REPRESENTATIONS AND WARRANTIES CONCERNING VALIDITY OF THE LICENSED PATENTS, THAT SUCH PATENTS WILL BE MAINTAINED IN FORCE OR ENFORCED, OR THAT THE PRACTICE WITHIN THE SCOPE OF ANY SUCH PATENTS DOES NOT INFRINGE ANY OTHER PATENT OR OTHER INTELLECTUAL PROPERTY RIGHTS OF ANY PERSON.
+
+IN NO EVENT SHALL GOOGLE, YOU, THE VP8 LICENSEES, OR ANY AFFILIATES OF ANY OF THE AFOREMENTIONED PERSONS (EACH, A "CROSS-LICENSOR") BE LIABLE UNDER THIS AGREEMENT TO ANY OTHER CROSS-LICENSOR FOR INDIRECT DAMAGES OF ANY KIND, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, BASED UPON, ARISING OUT OF, OR IN CONNECTION WITH THIS AGREEMENT.
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, GOOGLE'S AND ITS AFFILIATES' AGGREGATE LIABILITY TO YOU AND YOUR AFFILIATES OR TO ANY OTHER PERSON CLAIMING THROUGH YOU OR YOUR AFFILIATES, FOR ALL CLAIMS BASED UPON, ARISING OUT OF, OR IN CONNECTION WITH THIS AGREEMENT WILL BE LIMITED TO $1,000.00. MULTIPLE CLAIMS WILL NOT INCREASE THIS LIMIT.
+
+ALL PARTIES UNDERSTAND AND ACKNOWLEDGE THAT THE EXPLOITATION OF LICENSED PRODUCTS MAY REQUIRE INTELLECTUAL PROPERTY RIGHTS OWNED OR CONTROLLED BY THIRD PARTIES IN ADDITION TO THE RIGHTS GRANTED HEREIN, AND ALL PARTIES EXPRESSLY ASSUME THAT RISK.
+
+13. Representations and Warranties
+You represent and warrant that, in anticipation of entering into this agreement, neither You nor any of Your Affiliates have assigned, transferred or exclusively licensed a patent claim which, but for such assignment, transfer or exclusive license, would be subject to this agreement.
+
+14. Choice of Law
+This agreement shall be construed in accordance with the laws of the State of New York as such laws apply to contracts entered into and fully performed in the State of New York (excluding New York's choice of law rules). With respect any dispute relating to this agreement, Google and You consent to personal jurisdiction in, and the exclusive venue of, the courts located in New York County, New York.
+
+15. Publicity
+Upon Your agreement to the terms and conditions set forth herein, Google may publicly disclose the fact that You are a party to this agreement. Google may make such public disclosure via the WebM Project website or otherwise.
+
+16. No Effect on Other Agreements
+This VP8 Patent Cross-License Agreement sets forth the entire agreement and supersedes any and all prior and contemporaneous communications and understandings, oral or written, between Google and You relating to the subject matter hereof; provided, however, that this VP8 Patent Cross-License Agreement does not supersede the agreements between Google and the Primary Licensors under which Google has obtained rights to license their VP8-related patent claims. No amendment of this agreement shall be effective unless such amendment is in writing and specifically references this agreement, and is signed by both parties hereto.
+
+17. Definitions
+As used herein, the following terms have the meanings set forth below:
+
+"Affiliate" means, with respect to any Person, any other Person that, at any time during the Term, directly or indirectly Controls, is Controlled by or is under common Control with the first Person. The term "Control" and its cognates, "Controls" and "Controlled by," as used in this definition, means: (a) ownership of, or power to control the voting of, more than 50% of the outstanding shares representing the right to vote for directors or other managing officers of such Person; or (b) for an Person which does not have outstanding shares, more than 50% of the legal or beneficial ownership interest representing the right to make decisions for such Person; or (c) possession of the documented power to direct or cause the direction of the management and policies of such Person, whether by contract, or otherwise. A Person shall be deemed to be an Affiliate only for so long as such "Control" exists.
+
+"Exploit" and its cognates have the meaning ascribed to it in Section 3 above.
+
+"Google" means Google Inc.
+
+"Licensed Field of Use" means (and is limited to) encoding, decoding, transcoding, and/or playing VP8 Video. For the avoidance of doubt, any other function that might be performed, used or enabled by a Licensed Product (such as encoding, decoding, transcoding or playing video in any format other than the VP8 Format) is beyond the Licensed Field of Use; accordingly, Exploitation of a Licensed Product would fall outside of the Licensed Field of Use (and therefore would not be covered by any of the licenses or releases granted under this VP8 Patent Cross- License Agreement) to the extent of such other function.
+
+"Licensed Products" means the portion of any product, hardware component, device, integrated circuit, software, firmware, method, system, and process, in whatever form or combination, that implements, uses, is a component or element that enables or is used by, or is a VP8 Codec(s).
+
+"Person," means an individual, corporation, partnership, limited liability company, or other entity that can exercise independent legal standing.
+
+"You," "Your" and "Yourself" mean the Person (other than Google) entering into this agreement.
+
+"VP8 Licensee" means any Person (other than Google) who enters into this VP8 Patent Cross-License Agreement before or during the Term of this agreement.
+
+"VP8 Patent Claims" means, subject to the exclusion in the following sentence, any and all patent claims that, at any time during the Term, are licensable or sublicenseable by the Primary Licensors or Google or its Affiliates and are necessarily infringed in connection with the Exploitation of: (a) VP8 Video, a VP8 Codec or a combination of VP8 Codecs; or (b) the encoder source code contained in the VP8 Codec SDK release designated as libvpx 0.9.7-p1. Notwithstanding the above, a patent claim will not be considered a VP8 Patent Claim if the Primary Licensors or Google or its Affiliates would have a payment obligation to a third party (other than a Primary Licensor, a Google Affiliate, or an employee or contractor of a Primary Licensor or of Google or its Affiliate) with respect to such patent claim in connection with Google's grant of a license or release under this agreement.
+
+"VP8 Codec" means the portion or portions of any product that encodes, transcodes, decodes or plays VP8 Video.
+
+"VP8 Format" means the video compression format disclosed in the IETF VP8 Data Format and Decoding Guide RFC 6386, including the decoder source code attached thereto and all other annexes and attachments thereto, as submitted in November 2011.
+
+"VP8 Video" means a video signal that complies with the VP8 Format.

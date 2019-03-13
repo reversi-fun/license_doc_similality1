@@ -1344,6 +1344,7 @@ gsbase software license,"Approved/GSBase Software License, Version 1.0"
 gsoap public license v1.3b,spdx/gSOAP-1.3b
 gsoap-1.3b,spdx/gSOAP-1.3b
 gwt terms,Approved/Google Cloud Platform Terms
+Google Cloud Platform License Agreement,Approved/Google Cloud Platform Terms
 hacktivismo enhanced-source software license agreement,FSF/HESSLA
 "hapi is dual licensed (mpl, gpl)",Approved/GPL-2.0 + MPL-1.1
 harvard law school recording license agreement,Approved/Harvard Law School Recording License Agreement
@@ -2321,6 +2322,7 @@ https://glassfish.dev.java.net/public/cddl+gpl.html,Approved/CDDL + GPL-2.0-with
 https://glassfish.dev.java.net/public/cddl+gpl_1_1.html,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://glassfish.dev.java.net/public/cddlv1.0.html,spdx/CDDL-1.0
 https://glassfish.java.net/nonav/public/cddl+gpl.html,Approved/CDDL + GPL-2.0-with-classpath-exception
+https://glassfish.java.net/public/cddl+gpl_1_1.html,Approved/CDDL + GPL-2.0-with-classpath-exception
 https://gleclaire.github.io/findbugs-maven-plugin/license.html,spdx/Apache-2.0
 https://hapifhir.github.io/hapi-hl7v2/license.html,Approved/GPL-2.0 + MPL-1.1
 https://helixcommunity.org/content/rpsl,spdx/RPSL-1.0
@@ -2924,7 +2926,11 @@ https://www.triemax.com/products/jalopy/manual/license-jdbm.html,Approved/JDBM L
 https://www.ubuntu.com/legal/font-licence=approved/ubuntu-font-licence-1.0,Approved/ubuntu-font-licence-1.0
 https://www.w3.org/consortium/legal/2002/copyright-software-20021231.html,spdx/W3C
 https://www.w3.org/consortium/legal/2015/copyright-software-and-document,spdx/W3C-20150513
+https://www.webmproject.org/cross-license/vp8/agreement/,Approved/WebM VP8 Patent Cross-License
 https://www.webmproject.org/license/,FSF/WebM
+https://www.webmproject.org/license/additional/,Approved/WebM Additional IP Rights Grant
+https://www.webmproject.org/license/bitstream/,Approved/WebM Bitstream Specification License
+https://www.webmproject.org/license/software/,Approved/WebM Software License
 https://www.zimbra.com/legal/zimbra-public-license-1-4/,spdx/Zimbra-1.4
 https://xerces.apache.org/xml-commons/licenses.html,spdx/Apache-2.0
 i2p gpl+java exception,spdx/i2p-gpl-java-exception
