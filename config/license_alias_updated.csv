@@ -1,11 +1,19 @@
 ﻿aliasNames,shortName
+(bsd or mit or apache2),"spdx/Apacche-2.0,\nspdx/BSD-3-Clause,\nspdx/MIT"
 (bsd-2-clause or mit or apache-2.0),Approved/Apache-2.0 + BSD-2-Clause + MIT NOTICE
 (bsd-2-clause or mit),Approved/BSD-2-Clause + MIT NOTICE
+(bsd-3-clause or gpl-2.0),"spdx/GPL-2.0,\nspdx/BSD-3-Clause"
+(gpl-2.0 or mit),"spdx/GPL-2.0,\nspdx/MIT"
+(mit and apache-2.0),"spdx/Apache-2.0,\nspdx/MIT"
 (mit and cc-by-3.0),"spdx/MIT,\nspdx/CC-BY-3.0"
+(mit and json),"spdx/JSON,\nspdx/MIT"
+(mit and zlib),"spdx/zlib,\nspdx/MIT"
 (mit or apache-2.0),"spdx/Apache-2.0,\nspdx/MIT"
+(mit or gpl-3.0),"spdx/GPL-3.0,\nspdx/MIT"
 (mit),spdx/MIT
 (mit-style) netcdf c library license,spdx/NetCDF
 (mit-style) netcdf c library license.,spdx/NetCDF
+(ofl-1.1 and mit),"spdx/OFL-1.1,\nspdx/MIT"
 (wtfpl or mit),"spdx/WTFPL-2.0,\nspdx/MIT"
 /net/sf/jasperreports/fonts/dejavu/license,Approved/Arev Fonts License
 0bsd,spdx/0BSD
@@ -150,6 +158,7 @@ apache software foundation (asf) under one,Approved/Apache Software Foundation p
 apache software foundation products notice,Approved/Apache Software Foundation products NOTICE
 apache software foundation products notice(0),Apache Software Foundation products NOTICE
 apache software foundation products notice(1),Apache Software Foundation products NOTICE
+apache software license,spdx/Apache-2.0
 apache software license - version 2,spdx/Apache-2.0
 apache software license - version 2.0,spdx/Apache-2.0
 apache software license - version ?,Approved/Apache Software Foundation products NOTICE
@@ -470,7 +479,9 @@ bsd 4-clause 'original' or 'old' license,spdx/BSD-4-Clause
 bsd licence,spdx/BSD-3-Clause
 bsd licence 3,spdx/BSD-3-Clause
 bsd license,spdx/BSD-3-Clause
+bsd license 2-clause,spdx/BSD-2-Clause
 "bsd license,postgresql",spdx/PostgreSQL
+bsd like,Approved/BSD like
 bsd new license,spdx/BSD-3-Clause
 "bsd or apache license, version 2.0",Approved/Apache-2.0 + BSD-3-Closuer
 "bsd or the apache software license, version 2.0",Approved/Apache-2.0 + BSD-3-Closuer
@@ -484,6 +495,7 @@ bsd style modified by coverity,Approved/BSD-3-Clause for Coverity
 bsd with attribution,spdx/BSD-3-Clause-Attribution
 bsd zero clause license,spdx/0BSD
 bsd(newer_gpl_w/cpe),spdx/GPL-2.0-with-classpath-exception
+bsd*,Approved/BSD like
 bsd+patent,spdx/BSDplusPatent
 "bsd, see license",spdx/BSD-3-Clause
 bsd-1-clause,spdx/BSD-1-Clause
@@ -499,6 +511,7 @@ bsd-3 clause,spdx/BSD-3-Clause
 bsd-3 license,spdx/BSD-3-Clause
 bsd-3-clause,spdx/BSD-3-Clause
 bsd-3-clause ,spdx/BSD-3-Clause
+bsd-3-clause and mit,Approved/BSD-3-Clause or MIT LICENSE
 bsd-3-clause for aduna license,Approved/BSD-3-Clause for Aduna license
 bsd-3-clause for ecma international,Approved/BSD-3-Clause for Ecma International
 bsd-3-clause for go authors,Approved/BSD-3-Clause for Go Authors
@@ -667,6 +680,7 @@ colt,Approved/LGPL-2.1 based Colt License Agreement Notice
 colt license agreement,Approved/LGPL-2.1 based Colt License Agreement Notice
 com.oreilly.servlet license,Approved/com.oreilly.servlet license
 commercial vaadin add-on license version 3,Approved/Commercial Vaadin Add-On License version 3
+"commercial, gpl-2.0, gpl-3.0",Approved/Commercial + GPL-2.0 + GPL-3.0
 common development and distribution license,spdx/CDDL-1.0
 common development and distribution license (cddl - version 1.1),spdx/CDDL-1.1
 "common development and distribution license (cddl - version 1.1),",spdx/CDDL-1.1
@@ -815,6 +829,7 @@ cup parser generator for java license.md,Approved/CUP Parser Generator License
 cup-open-source-license,Approved/CUP Parser Generator License
 curl,spdx/curl
 curl license,spdx/curl
+custom free software license,Approved/Custom free software license
 cval3,Approved/Commercial Vaadin Add-On License version 3
 d-fsl-1.0,spdx/D-FSL-1.0
 day jcr license,Approved/Day JCR License
@@ -1219,8 +1234,10 @@ gnu general public license?v2,spdx/GPL-2.0-or-later
 gnu general public license?v3,spdx/GPL-3.0-or-later
 gnu gpl,spdx/GPL-2.0-or-later
 gnu gpl v. 2 with classpath exception,Approved/GPL-2.0 with ClassPath EXCEPTION
+gnu gplv2,spdx/GPL-2.0-only
 gnu javamail exception,spdx/gnu-javamail-exception
-gnu lesser general public,spdx/LGPL-2.0-onlyr
+gnu lesser general public,spdx/LGPL-2.1-or-later
+gnu lesser general public licence,spdx/LGPL-2.1-or-later
 gnu lesser general public license,spdx/LGPL-2.1-or-later
 gnu lesser general public license (gpl),spdx/GPL-2.0-or-later
 gnu lesser general public license (lgpl),spdx/LGPL-2.1-or-later
@@ -3207,20 +3224,27 @@ miros,spdx/MirOS
 miros licence,spdx/MirOS
 miros license,spdx/MirOS
 mit,spdx/MIT
+mit (http://mootools.net/license.txt),spdx/MIT
 mit + cc0-1.0 for jquery license,Approved/MIT + CC0-1.0 for jquery License
 mit + donation for bouncy castle license,Approved/MIT + donation for Bouncy Castle License
+mit +no-false-attribs,spdx/MITNFA
 mit +no-false-attribs license,spdx/MITNFA
+mit / http://rem.mit-license.org,spdx/MIT
 mit for qhull benjamin nortier,Approved/MIT for qhull benjamin Nortier
 mit for qos ch,Approved/MIT for Qos ch
 mit license,spdx/MIT
 mit license (also x11),spdx/MIT
 mit license (mit),spdx/MIT
 mit license / x11 license,spdx/X11
+"mit license, http://www.opensource.org/licenses/mit",spdx/MIT
 mit license.md,spdx/MIT
+mit licensed. http://www.opensource.org/licenses/mit-license.php,spdx/MIT
 mit liense.md,spdx/MIT
 mit like,spdx/MIT
 mit no attribution,spdx/MITNFA
 mit open source license.,spdx/MIT
+mit or gpl-2.0,"spdx/GPL-2.0,\nspdx/MIT"
+mit or gplv3,"spdx/GPL-3.0,\nspdx/MIT"
 mit' in license,spdx/MIT
 "mit(self.contact_link, license",spdx/MIT
 "mit, bsd","spdx/BSD-3-Clause,\rspdx/MIT"
@@ -3247,6 +3271,7 @@ modified bsd (3-clause) license,spdx/BSD-3-Clause
 modified bsd license,spdx/BSD-3-Clause
 modified bsd license (3-clause),spdx/BSD-3-Clause
 modified bsd telnetd license,spdx/BSD-3-Clause
+modified mit / bsd,"spdx/BSD-3-Clause,\nspdx/MIT"
 modifiedbsd,spdx/BSD-3-Clause
 monetary api for the java,JSR 354 (Money and Currency API)
 motosoto,spdx/Motosoto
@@ -3376,6 +3401,7 @@ odc-by-1.0,spdx/ODC-By-1.0
 of the common development and distribution license is contained in,spdx/CDDL-1.0
 ofl-1.0,spdx/OFL-1.0
 ofl-1.1,spdx/OFL-1.1
+ofl-1.1 and mit,"spdx/OFL-1.1,\nspdx/MIT"
 ogc copyright,Approved/OGC legal NOTICE
 ogc legal notice,Approved/OGC legal NOTICE
 ogl-uk-1.0,spdx/OGL-UK-1.0
@@ -3631,6 +3657,7 @@ python license,spdx/Python-2.0
 python license 2.0,spdx/Python-2.0
 python software foundation,Approved/Python-3.7.2
 python software foundation (psf) license,spdx/Python-2.0
+python software foundation license,spdx/Python-2.0
 python software foundation license version 2,spdx/Python-2.0
 python software foundation license?2.0.1; 2.1.1 and newer,spdx/Python-2.0
 python software foundation open source license,spdx/Python-2.0
@@ -3979,6 +4006,8 @@ scipy license (bsd style),spdx/BSD-3-Clause
 scratch 1.4 license,FSF/Scratch
 secure messaging protocol public license,spdx/SMPPL
 see license in copying.txt,Approved/-SEE LICENSE IN COPYING
+see license in license,Approved/_SEE LICENSE IN LICENSE
+see license in license.md,Approved/_SEE LICENSE IN LICENSE
 sencha licensing,Approved/GPL-3.0 + Sencha Licensing Notices
 sendmail,spdx/Sendmail
 sendmail license,spdx/Sendmail
@@ -4010,6 +4039,7 @@ share/licenses/lgpl-3,spdx/LGPL-3.0-only
 sil open font license 1.0,spdx/OFL-1.0
 sil open font license 1.1,spdx/OFL-1.1
 "sil open font license, 1.1",spdx/OFL-1.1
+similar to apache license but with the acknowledgment clause removed,Approved/jdom License
 simpl-2.0,spdx/SimPL-2.0
 simple logging facade for java (slf4j),Approved/MIT for Qos ch
 simple machines license,OSI/Simple Public License 2.0
@@ -4748,6 +4778,8 @@ wso2 update manager end-user license agreement 1.0,Approved/WSO2 Commercial Lice
 wsuipa,spdx/Wsuipa
 wsuipa license,spdx/Wsuipa
 wtfpl,spdx/WTFPL
+wtfpl or isc,"spdx/ISC,\n,spdx/WTFPL"
+wtfpl or mit,"spdx/MIT,\n,spdx/WTFPL"
 "wtfpl, version 2",spdx/WTFPL
 www.highcharts.com/license,Approved/Highsoft Standard License Agreement 9.0
 wxwidgets library license,spdx/wxWindows
