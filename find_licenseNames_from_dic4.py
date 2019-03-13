@@ -329,7 +329,7 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                         ccutoff_similarl = max(
                             [similal1 for licName, similal1 in similarl_licenses]) * similarl_cutoff
                         similarl_licenses = sorted([[licName, similal1] for licName, similal1 in similarl_licenses if similal1 >= ccutoff_similarl], key=lambda item: (
-                            licenseSortOrder[list(filter(lambda x: (x + '/') in item[0], licenseSortOrder))[0]], -item[1]))[0:topN]
+                            licenseSortOrder[(list(filter(lambda x: (x + '/') in item[0], licenseSortOrder)) + [''])[0]], -item[1]))[0:topN]
                     if len(similarl_licenses) > 0:
                         projectLicenseNames = [
                                 licName for licName, similal1 in similarl_licenses]
