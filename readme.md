@@ -1,7 +1,22 @@
 # OSS license document clustering tool
 
-1. setups
-1.1 requirements
+1. feature（特徴的な機能)
+  SPDX(Software Package Data Exchange)の他、OSIやFSF、そして独自に収集したライセンス・ドキュメントをPythonのgensimという、機械学習で文書間の類似性を測るライブラリを用いて、未知のライセンス・ドキュメントに似た公知のライセンス名を発見できます。
+ 
+ 例えば、下図から、幾つかのことが解かります。
+ 
+ * 「"Approved/CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2"という古いPythonのライセンスは、spdx/MIT-CMUに類似する対戦す条文である」ということが解かるでしょう。
+ 
+ 　さらに、spdx/MIT-CMUがGPLライセンスと共存できないライセンスであるので、古いPlthonのライセンスもまたGPLライセンスと共存できないということを推定できます。
+
+* 「"Approved/NVIDIA Free"というライセンスは、spdx/CrystalStackerとFSF/HPNDとに似たライセンス」であると解かるでしょう。
+
+　しかしながら、その赤いマークは、"Approved/NVIDIA Free"というライセンスには”patent”という単語が含まれていることを示し、どちらとも異なる新種のライセンスドキュメントだったので、独自に採取したライセンス・ドキュメントなのです。
+
+![license symilalty graf](file:///data/license-documents-similalties1.png)
+
+2. setups
+2.1 requirements
   * OS: Windows7 or Windows10
   * install Graphviz version 2.38 or later(for windows). (It run in generate_model1.bat only)
   * install Anaconda3
@@ -13,29 +28,29 @@
   * update Python3 modules:
      * itemgetter, csv,fileinput,glob,io,json,urllib,xml
 
-1.2 update data
+2.2 update data
     * download ./license-list-data-master from https://github.com/spdx/license-list-data
     * download ./FSF_texts  from https://www.gnu.org/licenses/license-list.html by using https://wking.github.io/fsf-api/ via get_fsf_license_text.py.
        ` Python ./get_fsf_license_text.py`
     * download ./OSI_texts from https://opensource.org by using get_OSI_license_text.py.
        ` Python ./get_OSI_license_text.py `
 
-2. commands
-2.1　ディレクトリからライセンス一覧を作成するコマンド
+3. commands
+3.1　ディレクトリからライセンス一覧を作成するコマンド
       ` FindAllLicensesInfo.bat many-oss-mixed_liceses_directory output-directory`
 
-2.2　一つのファイル中のライセンス名を調べるコマンド
+3.2　一つのファイル中のライセンス名を調べるコマンド
       `whatLicenseName　one-oss-license-text-file-name`
 
-2.3 ライセンスの標本ファイルの追加後、機械学習データを更新するコマンド
+3.3 ライセンスの標本ファイルの追加後、機械学習データを更新するコマンド
       ` cd <this tools directory>`
       ` generate_model1.bat`
 
-3. sample run
-3.1 one oss-license text files similal license Names listing.
+4. sample run
+4.1 one oss-license text files similal license Names listing.
  
       `>whatLicenseName.bat own_texts\node_modules\protractor\node_modules\minimatch\LICENSE" `
-      `
+      
 ### doc2vec most_similar 32
     0.78657 research/node_modules/protractor/node_modules/minimatch/LICENSE
     0.78231 OSI/MIT License
@@ -69,9 +84,9 @@
     0.69962 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/EclipseRunner/eclipse/features/com.eclipserunner.feature_1.3.4/LICENSE
     0.69898 Approved/MIT + own products license
     0.69796 research/node_modules/protractor/node_modules/lodash/LICENSE
-    `
+    
 -----------------------------------------------------------------------------
-    `
+    
 ### lda most_similar 316
     1.00000 spdx/Adobe-2006
     1.00000 spdx/Bison-exception-2.2
@@ -106,9 +121,9 @@
     1.00000 spdx/MPL-2.0
     1.00000 spdx/MS-RL
     --- End of similal license names ---
-`
 
-3.2 many one oss-licenses concatinated text files similal license Names listing.
+
+4.2 many one oss-licenses concatinated text files similal license Names listing.
       ` whatLicenseName.bat own_texts\elasticsearch-6.2.3\NOTICE.txt`
 
 #      doc2vec most_similar 32
@@ -132,6 +147,11 @@
       0.90385 Approved/MIT for 3 Authers LICENSE.md
 
       In above case  `lda most_similar' is better.
+
+4.3 ディレクトリから一括してライセンス名を抽出する
+    下記コマンドで、ライセンス情報が入っていたファイル毎にライセンス名が入った、output-directory\\filePattern2License.csvを得ることができる。
+
+     FindAllLicensesInfo.bat research-directory output-directory
 
 
 
