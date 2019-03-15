@@ -789,7 +789,7 @@ Approved/GPL-2.0(2),1266
 Approved/GPL-2.0,1069
 Approved/GPL-3.0 + CC-by-nc-nd-4.0 + Commercial License.md,57
 Approved/GPL-3.0 + IJG CREDIT of FreeType License,1771
-Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE,13717
+Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab + HdrHistogram Licensed NOTICE,13717
 Approved/GPL-3.0 + Python License NOTICE,20
 Approved/GPL-3.0 + Sencha Licensing Notices,628
 Approved/GPL-3.0 + Sencha Software License Agreement,2668

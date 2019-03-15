@@ -3841,7 +3841,7 @@ research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/meta-inf/license
 research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
 research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab-ipadic-2.7.0-20070801 + HdrHistogram Licensed NOTICE
+research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab + HdrHistogram Licensed NOTICE
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-db/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-types/license,spdx/MIT

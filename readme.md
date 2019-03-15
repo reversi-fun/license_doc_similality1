@@ -1,22 +1,38 @@
 # OSS license document clustering tool
 
 1. feature（特徴的な機能)
+
   SPDX(Software Package Data Exchange)の他、OSIやFSF、そして独自に収集したライセンス・ドキュメントをPythonのgensimという、機械学習で文書間の類似性を測るライブラリを用いて、未知のライセンス・ドキュメントに似た公知のライセンス名を発見できます。
  
- 例えば、下図から、幾つかのことが解かります。
- 
- * 「"Approved/CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2"という古いPythonのライセンスは、spdx/MIT-CMUに類似する対戦す条文である」ということが解かるでしょう。
- 
- 　さらに、spdx/MIT-CMUがGPLライセンスと共存できないライセンスであるので、古いPlthonのライセンスもまたGPLライセンスと共存できないということを推定できます。
+ * 例えば、下図から、幾つかのことが解かります。
 
-* 「"Approved/NVIDIA Free"というライセンスは、spdx/CrystalStackerとFSF/HPNDとに似たライセンス」であると解かるでしょう。
+  * 「"Approved/CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2"という古いPythonのライセンスは、spdx/MIT-CMUに類似する対戦す条文である」ということが解かるでしょう。
+  さらに、spdx/MIT-CMUがGPLライセンスと共存できないライセンスであるので、古いPlthonのライセンスもまたGPLライセンスと共存できないということを推定できます。
 
-　しかしながら、その赤いマークは、"Approved/NVIDIA Free"というライセンスには”patent”という単語が含まれていることを示し、どちらとも異なる新種のライセンスドキュメントだったので、独自に採取したライセンス・ドキュメントなのです。
+  * 「"Approved/NVIDIA Free"というライセンスは、spdx/CrystalStackerとFSF/HPNDとに似たライセンス」であると解かるでしょう。
+  しかしながら、その赤いマークは、"Approved/NVIDIA Free"というライセンスには”patent”という単語が含まれていることを示し、どちらとも異なる新種のライセンスドキュメントだったので、独自に採取したライセンス・ドキュメントなのです。
+  spdxは、沢山のライセンス・ドキュメントを収集していますが、公式団体にとって未認知なドキュメントは、類似性や名称を分類して、本ツールのApprovedフォルダ（./Approved_texts）に蓄積しています。
 
-![license symilalty graf](file:///data/license-documents-similalties1.png)
+  * 「"research/elasticsearch-6.2.3/lib/lucene-core-7.2.1.jar#/META-INF/NOTICE"というファイルは、調査用のresearchディレクトリ（./own_texts）に格納して、類似度を分析した結果、spdxに類似するライセンスが無く、本ツールで分類済みの"Approved/mecab-ipadic-2.7.0-20070801 Notice"という、Noticeと同文であることを発見できています。
+
+![license symilalty graf](data/license-documents-similalties1.png)
+
+
+ * 別の例として、下図の系譜を観て解かる事もあります。
+
+  * Oracle社のJava VMやAdopt-openJDKのライセンスは、ポピュラーですが、spdxが認知しているライセンスとの類似性が無い｛"Approved/JSRSpec Evaluation License", "Approved/Day Specification License", "Approved/JSR Spec Implementation License", "Approved/Java Specification Participation Agreement"｝の他、Google社がライセンスしている｛"Approved/WebM Bitstream Specification License", "Approved/WebM Additional IP Rights Grant"｝等、同じ系譜ながら、さまざまな派生ドキュメントがあります。
+
+   * FSF/Squeakというライセンス・ドキュメントに、数百個の単語が追加された”OSI/Apple Public Source License”や”OSI/Sybase Open Watcom Public License 1.0”、”spdx/Watcom-1.0”、"FSF/RPSL"は、類似性があります。
+  しかしながら、FSFが見解を示している"libre"や"non-free"という分類に一貫性が無いことまでは、発見できたでしょう。
+  それが、FSFの見解に漏れがあるのかは、人たる貴方が確認する必要があり、本ツールの機械学習を少々強化しても、自動的には判別できないこともあります。
+
+![license relations](data/license-documents-similalties2.png)
+
 
 2. setups
+
 2.1 requirements
+
   * OS: Windows7 or Windows10
   * install Graphviz version 2.38 or later(for windows). (It run in generate_model1.bat only)
   * install Anaconda3
@@ -29,6 +45,7 @@
      * itemgetter, csv,fileinput,glob,io,json,urllib,xml
 
 2.2 update data
+
     * download ./license-list-data-master from https://github.com/spdx/license-list-data
     * download ./FSF_texts  from https://www.gnu.org/licenses/license-list.html by using https://wking.github.io/fsf-api/ via get_fsf_license_text.py.
        ` Python ./get_fsf_license_text.py`
@@ -36,6 +53,7 @@
        ` Python ./get_OSI_license_text.py `
 
 3. commands
+
 3.1　ディレクトリからライセンス一覧を作成するコマンド
       ` FindAllLicensesInfo.bat many-oss-mixed_liceses_directory output-directory`
 
@@ -47,6 +65,7 @@
       ` generate_model1.bat`
 
 4. sample run
+
 4.1 one oss-license text files similal license Names listing.
  
       `>whatLicenseName.bat own_texts\node_modules\protractor\node_modules\minimatch\LICENSE" `
