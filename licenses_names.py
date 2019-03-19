@@ -154,15 +154,10 @@ class ProgramId2License:
 
 def load_license_alias():
     license_alias = {}
-    toolFileName = sys.argv[0]
-    if len(toolFileName) <= 0:
-        toolDirName = os.path.dirname(os.getcwd())
-    elif os.path.isdir(toolFileName):
-        toolDirName = toolFileName
-    else:
-        toolDirName = os.path.dirname(toolFileName)
-    if os.path.isfile(toolDirName + "/config/license_alias.csv"):
-        with io.open(toolDirName + "/config/license_alias.csv", "r",  encoding="utf_8_sig", errors='ignore') as f:
+    toolDirName = os.path.dirname(__file__)
+    if os.path.isfile(os.path.join(toolDirName , "config/license_alias.csv")):
+        print('loading ' + os.path.join(toolDirName , "config/license_alias.csv"))
+        with io.open(os.path.join(toolDirName , "config/license_alias.csv"), "r",  encoding="utf_8_sig", errors='ignore') as f:
             f.readline()
             reader = csv.reader(f)
             for aliasName, shortName in reader:
@@ -176,14 +171,8 @@ def load_license_alias():
     return license_alias
 
 def save_license_alias(license_alias):  
-    toolFileName = sys.argv[0]
-    if len(toolFileName) <= 0:
-        toolDirName = os.path.dirname(os.getcwd())
-    elif os.path.isdir(toolFileName):
-        toolDirName = toolFileName
-    else:
-        toolDirName = os.path.dirname(toolFileName)
-    with open( toolDirName + "/config/license_alias_updated.csv", 'w', encoding="utf_8_sig") as f:
+    toolDirName = os.path.dirname(__file__)
+    with open( os.path.join(toolDirName , "config/license_alias_updated.csv"), 'w', encoding="utf_8_sig") as f:
         writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく
         writer.writerow(['aliasNames', 'shortName'])
         for aliasName, shortName in sorted(license_alias.items()):

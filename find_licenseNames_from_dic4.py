@@ -23,7 +23,7 @@ from licenses_names import load_license_alias  # current module
 from licenses_names import licName2Short  # current module
 
 # license name spaceのソート順を、licenses_namesでの標準とは変える
-licenseSortOrder = {'spdx': 1, 'OSI': 1,  'FSF': 1, 'Approved': 3, 'research': 4, '': 5}
+licenseSortOrder = {'spdx': 1, 'OSI': 1,  'FSF': 1, 'Approved': 3, 'Considered': 3, 'research': 4, '': 5}
 
 # カスタマイズ可能項目の設定
 topN = 3  # 最大出力するライセンス名の個数

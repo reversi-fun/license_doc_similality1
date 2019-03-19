@@ -127,8 +127,9 @@ preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp
 preprocessed_docs.update(corpus_load('./OSI_texts', 'OSI',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./FSF_texts', 'FSF',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Approved_texts', 'Approved',pickUp_token,pickUp_dict))
+preprocessed_docs.update(corpus_load('./Considered_texts', 'Considered',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./own_texts', 'research',pickUp_token,pickUp_dict))
-f = open('data/docNames.txt', 'w')
+f = open('data/docNames.txt', 'w',  encoding="utf-8")
 for docName, doc in preprocessed_docs.items():
     f.write("{},{}\n".format(docName, len(doc)))
 f.close()
@@ -476,7 +477,7 @@ for docName, near_doc_name in docs_related_tree.items():
 
 print('root_rank_docs size=', len(root_rank_docs))
 
-dot = open('data/lic_graph.dot', 'w')
+dot = open('data/lic_graph.dot', 'w',  encoding="utf-8")
 dot.write('digraph LicenseGraph {\n')
 dot.write('  newrank = true;\n')
 dot.write('  ratio = "auto" ;\n')
