@@ -1,0 +1,73 @@
+﻿License FAQ
+Here we use the term proprietary application to mean any application that is distributed under the terms of a license that is not compatible with the relevant version of the GPL and has been developed using a copy of any sofware licensed under the Riverbank Commercial License. Although we refer to PyQt specifically the same answers apply to all software licensed under the Riverbank Commercial License.
+
+Q.	
+Why don't you license PyQt under the LGPL rather than the GPL like The Qt Company does with Qt?
+
+A.	
+Riverbank Computing derives all its income from commercial sales of PyQt. If we were sure that this income would not be significantly reduced by switching to the LGPL then we would do so. However it is not a decision that can be reversed once made.
+
+Q.	
+Can I use either the LGPL or the commercial version of Qt with the commercial version of PyQt?
+
+A.	
+Yes. Note that some parts of Qt (Qt Charts, Qt Data Visualization and Qt Purchasing for example) are not available under the LGPL.
+
+Q.	
+What are the implications of using the GPL version of PyQt?
+
+A.	
+To understand your obligations when using GPL code with your application see the GPL FAQ.
+
+Q.	
+So what are my obligations if I use the commercial version of PyQt?
+
+A.	
+In summary, you may only distribute PyQt in binary form either statically linked with your application, as extension modules able to be imported by your application (and no other, including the standard Python interpreter), or so that you may fulfil your obligations under the LGPL if you are using the LGPL version of Qt.
+
+Q.	
+Are commercial licenses tied to named developers?
+
+A.	
+No, a commercial license covers a number of developers. We only require that the total number of developers at any time does not exceed the number covered by your license.
+
+Q.	
+Can I develop my proprietary application using the GPL version of PyQt?
+
+A.	
+Yes, so long as you have purchased the commercial version of PyQt before you distribute your proprietary application for the first time. (Note that this is different to the terms of the Qt commercial license.)
+
+Q.	
+Can my proprietary application allow users to write Python code that configures or enhances the application?
+
+A.	
+Yes. (Note that earlier versions of the Riverbank Commercial License did not allow this.)
+
+If you are using the commercial version of Qt, or planning to use it, please contact The Qt Company (http://www.qt.io/contact-us/). This is due to a restriction in the Qt commercial license on creating applications that pass on functionality which makes it possible for others to create software with the licensed Qt libraries.
+
+Q.	
+Can my proprietary application be used with the copy of the GPL version of PyQt that the user already has installed (as part of their Linux distribution for example)?
+
+A.	
+Yes, so long as you meet the following conditions:
+
+you are using the LGPL version of Qt
+your proprietary application has been developed with the commercial version of PyQt
+your commercial PyQt license covers the version of PyQt that the user has installed.
+Q.	
+Can I distribute my own copy of the GPL version of PyQt with my proprietary application?
+
+A.	
+Yes, so long as you meet the following conditions:
+
+the GPL version of PyQt is packaged and installed separately from your proprietary application
+you meet all of the obligations of the GPL regarding your PyQt package
+you are using the LGPL version of Qt
+your proprietary application has been developed with the commercial version of PyQt
+your commercial PyQt license covers the version of PyQt that you are distributing.
+Q.	
+I have a GPL application and I'd like to sell a proprietary version of it, can I?
+
+A.	
+Yes, so long as you own the copyright to the source code and are therefore allowed to re-license it. You must purchase appropriate commercial PyQt licenses before you start to sell it.
+

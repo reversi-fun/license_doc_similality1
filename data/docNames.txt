@@ -672,6 +672,7 @@ Approved/Apache-2.0 + Python-2.0 + BSD licensed cryptography NOTICE,25
 Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE,1059
 Approved/Apache-2.0 + WTFPL License,828
 Approved/Apache-2.0 based Aerospike Client License,1282
+Approved/Apache-2.0 for cglib-license,792
 Approved/Apache-2.0 January 2004 for cglib-license,792
 Approved/Apache-2.0 License(1),792
 Approved/Apache-2.0 licensed by 3 authers NOTICE(2),64
@@ -735,8 +736,6 @@ Approved/BSD-3-Clause for many contributors postmile NOTICE,134
 Approved/BSD-3-Clause for ROX.jar license,118
 Approved/BSD-3-Clause for syntevo GmbH, Freilassing, GERMANY,124
 Approved/BSD-3-Clause or MIT LICENSE,211
-Approved/BSD-5-Clause for Intalio ExoLab License,158
-Approved/BSD-5-Clause for Werken Company,147
 Approved/BYOL and Oversubscription,884
 Approved/bzip2 license,136
 Approved/CC-BY-NC-ND-3.0-US,1068
@@ -748,6 +747,7 @@ Approved/CDDL + GPL-2.0-with-classpath-exception,2605
 Approved/CDDL-1.0 + Apache-2.0,4094
 Approved/CNRI-DOR,262
 Approved/com.oreilly.servlet license,295
+Approved/Commercial + GPL-2.0 + GPL-3.0 for PyQt NOTICE,280
 Approved/Commercial Vaadin Add-On License version 3,1208
 Approved/Condor-1.1,664
 Approved/Copyright-Only Dedication,114
@@ -763,6 +763,7 @@ Approved/Dojo Toolkit License=AFL-2.1 + BSD-3-Clause,871
 Approved/DOM4J by MetaStuff(2),138
 Approved/DOM4J by MetaStuff,139
 Approved/Eclipse Foundation Software User Agreement.html,625
+Approved/Ecma text copyright license,156
 Approved/EDL-1.0,115
 Approved/edl-v10,115
 Approved/Election of GPLv2 for MySQL ConnectorJ,1595
@@ -786,6 +787,8 @@ Approved/GPL-2.0 Licenced NOTICE,70
 Approved/GPL-2.0 or MIT,151
 Approved/GPL-2.0 with ClassPath EXCEPTION,1376
 Approved/GPL-2.0(2),1266
+Approved/GPL-2.0-with-autoconf-exception,241
+Approved/GPL-2.0-with-bison-exception,59
 Approved/GPL-2.0,1069
 Approved/GPL-3.0 + CC-by-nc-nd-4.0 + Commercial License.md,57
 Approved/GPL-3.0 + IJG CREDIT of FreeType License,1771
@@ -825,10 +828,12 @@ Approved/Jenkins Project Governance Document,2359
 Approved/JESS client License,852
 Approved/Joda-money Notes,194
 Approved/JPython-1.1.x,311
+Approved/JSR 232 Specification License,965
 Approved/JSR Spec Evaluation License,365
 Approved/JSR Spec Implementation License,764
 Approved/JSR-94 Specification Reference Implementation License Agreement,1458
 Approved/JSR107 Agreement,372
+Approved/JSR275 Specification License,703
 Approved/Jython-1,192
 Approved/Jython-2,112
 Approved/LaTeX_ecfonts,199
@@ -840,6 +845,7 @@ Approved/LGPL-2.1 for logilab-common NOTICE,70
 Approved/LGPL-3.0 + Apaache-2.0 + BSD-3-Clause for PMD InfoEther,1512
 Approved/LGPLv2 + CERN NOTICE,60
 Approved/LHA-SLA,401
+Approved/license template for implementing final JSRs,768
 Approved/LICENSE-JJ2000,160
 Approved/Licensed under LGPL NOTICE,60
 Approved/mecab-ipadic-2.7.0-20070801 Notice,276
@@ -898,6 +904,8 @@ Approved/PCRE2 LICENCE,260
 Approved/Peer-Production,1402
 Approved/PINE,308
 Approved/PKCS #11 Cryptographic Token Interface License,67
+Approved/Plexus for Intalio ExoLab License,158
+Approved/Plexus for Werken Company,147
 Approved/proprietary - Continuum Analytics,995
 Approved/Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0,410
 Approved/PUPL - Paid Use Permissive License,371
@@ -919,6 +927,7 @@ Approved/Ruby,163
 Approved/SAX-PD,75
 Approved/SCILAB,1165
 Approved/Scratch-1.4,172
+Approved/Sencha Licensing Notices,674
 Approved/SimpleM-1.1,251
 Approved/SISSL-1.1,1084
 Approved/Sleepycat,369
@@ -973,6 +982,13 @@ Approved/XMLPULL API IS FREE,32
 Approved/_See ADDITIONAL_LICENSE_INFO,158
 Approved/_See Java LICENSE,5
 Approved/_See other file,15
+Considered/BSD-3-Clause for SUN,137
+Considered/Celtx Public License,1812
+Considered/LPRAB-1.0,54
+Considered/OPEN GAME LICENSE Version 1.0a,511
+Considered/Plexus for JCharts Variant,146
+Considered/PUBLIQUE BARMIC LICENSE Version 4 NOTICE,79
+Considered/SLIB LICENSE NOTICE,125
 research/Adapt-openJdk-11.0.2#/legal/java.base/ADDITIONAL_LICENSE_INFO,158
 research/Adapt-openJdk-11.0.2#/legal/java.base/LICENSE,1376
 research/Adapt-openJdk-11.0.2#/legal/java.compiler/ADDITIONAL_LICENSE_INFO,5

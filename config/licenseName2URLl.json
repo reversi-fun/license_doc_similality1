@@ -1,0 +1,2951 @@
+﻿{
+    "Approved/": [],
+    "Approved/-SEE LICENSE IN COPYING": [],
+    "Approved/-See EXCEPTION NOTICE": [],
+    "Approved/-See java base ADDITIONAL LICENSE NOTICE": [],
+    "Approved/-See java base LICENSE NOTICE": [],
+    "Approved/0BSD + 1 provided by Auther Lucent in Python license": [],
+    "Approved/ACDL-1.0": [],
+    "Approved/ACM Software License Agreement": [
+        "https://www.acm.org/publications/policies/software-copyright-notice"
+    ],
+    "Approved/ANTLR 4 License": [],
+    "Approved/APSL-2.0": [],
+    "Approved/ASM=Java_bytecode_manipulation_framework": [],
+    "Approved/Apache Portable runtime License": [],
+    "Approved/Apache Software Foundation + OWN products NOTICE(1)": [
+        "https://apr.apache.org/",
+        "http://www.apache.org/licenses/",
+        "https://www.apache.org/licenses/"
+    ],
+    "Approved/Apache Software Foundation products + W3C NOTICE": [],
+    "Approved/Apache Software Foundation products NOTICE": [],
+    "Approved/Apache Software Foundation products NOTICE(0)": [],
+    "Approved/Apache Software Foundation products NOTICE(1)": [],
+    "Approved/Apache Software Foundation products NOTICE(2)": [],
+    "Approved/Apache Software Foundation products NOTICE(3)": [],
+    "Approved/Apache licensed NOTICE": [],
+    "Approved/Apache-1.0": [],
+    "Approved/Apache-1.1": [],
+    "Approved/Apache-1.1 = The CyberNeko Software License, Version 1.0": [
+        "https://support.ca.com/cadocs/0/ca%20clarity%20ppm%2013%200%2000%20%20on%20demand%20-enu/bookshelf_files/html/od--releasenotes/index.htm?toc.htm?1905722.html"
+    ],
+    "Approved/Apache-1.1 based Ant-Contrib License": [
+        "http://sourceforge.net/projects/ant-contrib"
+    ],
+    "Approved/Apache-1.1 for IAIK of Graz University of Technology.md": [],
+    "Approved/Apache-1.1 for Mockrunner": [],
+    "Approved/Apache-1.1 in comments": [],
+    "Approved/Apache-1.1 in comments(2)": [],
+    "Approved/Apache-2.0 + BSD 3-Clause": [
+        "http://www.scala-lang.org/license/",
+        "http://www.scala-lang.org/node/146",
+        "http://www.scala-lang.org/license.html",
+        "http://www.scala-lang.org/downloads/license.html"
+    ],
+    "Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice": [],
+    "Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License": [],
+    "Approved/Apache-2.0 + BSD-2-Clause + MIT NOTICE": [],
+    "Approved/Apache-2.0 + BSD-3-Clause + MIT NOTICE": [],
+    "Approved/Apache-2.0 + BSD-3-Closuer": [],
+    "Approved/Apache-2.0 + CC-BY-2.5 License": [
+        "https://github.com/stephenc/jcip-annotations"
+    ],
+    "Approved/Apache-2.0 + CC-BY-2.5 NOTICE": [],
+    "Approved/Apache-2.0 + CC0-1.0": [],
+    "Approved/Apache-2.0 + CC0-1.0 + MIT licensed NOTICE.xml": [],
+    "Approved/Apache-2.0 + CPL-1.0 + Microsoft + Adobe Patent LICENSE": [],
+    "Approved/Apache-2.0 + JCIP-ANNOTATIONS NOTICE": [],
+    "Approved/Apache-2.0 + JCIP-ANNOTATIONS NOTICE(2)": [],
+    "Approved/Apache-2.0 + NIST AES NOTICE": [
+        "https://tls.mbed.org/aes-source-code"
+    ],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(2)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(3)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(4)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(5)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(6)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(7)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(8)": [],
+    "Approved/Apache-2.0 + OWN CREDITS NOTICE(9)": [],
+    "Approved/Apache-2.0 + OWN product NOTICE": [],
+    "Approved/Apache-2.0 + Python-2.0 + BSD licensed cryptography NOTICE": [],
+    "Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE": [],
+    "Approved/Apache-2.0 + WTFPL License": [],
+    "Approved/Apache-2.0 + overview": [],
+    "Approved/Apache-2.0 January 2004 for cglib-license": [],
+    "Approved/Apache-2.0 License(1)": [],
+    "Approved/Apache-2.0 based Aerospike Client License": [],
+    "Approved/Apache-2.0 for cglib-license": [],
+    "Approved/Apache-2.0 licensed NOTICE": [],
+    "Approved/Apache-2.0 licensed NOTICE(1)": [],
+    "Approved/Apache-2.0 licensed NOTICE(10)": [],
+    "Approved/Apache-2.0 licensed NOTICE(11)": [],
+    "Approved/Apache-2.0 licensed NOTICE(2)": [],
+    "Approved/Apache-2.0 licensed NOTICE(3)": [],
+    "Approved/Apache-2.0 licensed NOTICE(4)": [],
+    "Approved/Apache-2.0 licensed NOTICE(5)": [],
+    "Approved/Apache-2.0 licensed NOTICE(6)": [],
+    "Approved/Apache-2.0 licensed NOTICE(7)": [],
+    "Approved/Apache-2.0 licensed NOTICE(8)": [],
+    "Approved/Apache-2.0 licensed NOTICE(9)": [],
+    "Approved/Apache-2.0 licensed by 3 authers NOTICE": [],
+    "Approved/Apache-2.0 licensed by 3 authers NOTICE(2)": [],
+    "Approved/Apache-2.0 or Which License Applies to You": [],
+    "Approved/Apache-2.0(1)": [],
+    "Approved/Arev Fonts License": [],
+    "Approved/Arphic": [],
+    "Approved/Atlassian purchase-licensing": [
+        "https://www.atlassian.com/licensing/purchase-licensing",
+        "https://maven.atlassian.com/public/licenses/license.txt"
+    ],
+    "Approved/Atlassianpurchase-licensing": [],
+    "Approved/Atomikos Source Code Access Agreeement": [],
+    "Approved/BEA JSR 173 RI License": [],
+    "Approved/BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0": [],
+    "Approved/BSD like": [],
+    "Approved/BSD-2-Clause + MIT NOTICE": [],
+    "Approved/BSD-2-Clause + author LICENSE": [],
+    "Approved/BSD-2-Clause + author LICENSE(2)": [],
+    "Approved/BSD-2-Clause + author LICENSE(3)": [],
+    "Approved/BSD-2-Clause + author LICENSE.md": [],
+    "Approved/BSD-2-Clause FreeBSD license": [],
+    "Approved/BSD-3-Clause (continued-line) LICENSE": [],
+    "Approved/BSD-3-Clause (continued-line) LICENSE(2)": [],
+    "Approved/BSD-3-Clause (continued-line) LICENSE(3)": [],
+    "Approved/BSD-3-Clause (noSeq) + auther.md": [],
+    "Approved/BSD-3-Clause + MIT LICENSE": [],
+    "Approved/BSD-3-Clause + MIT NOTICE": [],
+    "Approved/BSD-3-Clause + MPL-2.0 Licensed NOTICE": [],
+    "Approved/BSD-3-Clause + auther.md": [],
+    "Approved/BSD-3-Clause and infringement of third partys rights": [],
+    "Approved/BSD-3-Clause for Aduna license": [],
+    "Approved/BSD-3-Clause for Atlassian": [],
+    "Approved/BSD-3-Clause for Ben Fortuna": [],
+    "Approved/BSD-3-Clause for Coverity": [
+        "https://github.com/coverity/coverity-security-library/tree/develop/coverity-escapers#main_authors"
+    ],
+    "Approved/BSD-3-Clause for Ecma International": [
+        "http://www.ecma-international.org/publications/index.html",
+        "https://www.ecma-international.org/memento/ecma%20copyright%20faq.htm"
+    ],
+    "Approved/BSD-3-Clause for Go Authors": [],
+    "Approved/BSD-3-Clause for HSQL Development Group": [
+        "http://h2database.com/html/license.html",
+        "http://www.h2database.com/html/license.html"
+    ],
+    "Approved/BSD-3-Clause for JAMon": [],
+    "Approved/BSD-3-Clause for JGraph": [],
+    "Approved/BSD-3-Clause for Jgraph": [],
+    "Approved/BSD-3-Clause for Kirkk.com": [
+        "http://www.kirkk.com/main/zip/license.txt"
+    ],
+    "Approved/BSD-3-Clause for LBNL HDF5": [],
+    "Approved/BSD-3-Clause for LXML ElementTree": [],
+    "Approved/BSD-3-Clause for ROX.jar license": [
+        "http://rox-xmlrpc.sourceforge.net/license.html"
+    ],
+    "Approved/BSD-3-Clause for any contributors LICENSE": [],
+    "Approved/BSD-3-Clause for asm-License": [],
+    "Approved/BSD-3-Clause for enthought": [],
+    "Approved/BSD-3-Clause for many contributors NOTICE": [],
+    "Approved/BSD-3-Clause for many contributors NOTICE(2)": [],
+    "Approved/BSD-3-Clause for many contributors NOTICE(3)": [],
+    "Approved/BSD-3-Clause for many contributors postmile NOTICE": [],
+    "Approved/BSD-3-Clause for syntevo GmbH, Freilassing, GERMANY": [],
+    "Approved/BSD-3-Clause or MIT LICENSE": [],
+    "Approved/BYOL and Oversubscription": [
+        "https://aws.amazon.com/jp/windows/resources/licensing/"
+    ],
+    "Approved/BeOpen Python2 NOTICE": [],
+    "Approved/BerkeleyDB": [],
+    "Approved/BitTorrentOSL1.1": [],
+    "Approved/CC-BY-NC-ND-3.0-US": [],
+    "Approved/CC-BY-NC-ND-4.0": [],
+    "Approved/CC-BY-NC-SA-3.0-DE": [],
+    "Approved/CC-BY-SA-3.0-US": [],
+    "Approved/CC0-1.0 Universal": [],
+    "Approved/CDDL + GPL-2.0-with-classpath-exception": [
+        "http://www.sun.com/cddl",
+        "http://www.sun.com/cddl/cddl.html",
+        "http://netbeans.org/cddl-gplv2.html",
+        "http://glassfish.java.net/public/cddl",
+        "https://glassfish.dev.java.net/public/cddl",
+        "http://www.netbeans.org/about/legal/spl.html",
+        "https://glassfish.dev.java.net/nonav/public/cddl",
+        "https://glassfish.dev.java.net/public/cddl+gpl.html",
+        "https://glassfish.java.net/public/cddl+gpl_1_1.html",
+        "https://netbeans.org/about/legal/license-change.html",
+        "https://glassfish.java.net/nonav/public/cddl+gpl.html",
+        "https://glassfish.dev.java.net/public/cddl+gpl_1_1.html",
+        "http://glassfish.java.net/nonav/public/cddl+gpl_1_1.html",
+        "https://glassfish.dev.java.net/nonav/public/cddl+gpl.html",
+        "http://java.sun.com/products/java-media/jai/downloads/download-1_1_2_01.html"
+    ],
+    "Approved/CDDL + GPL-2.0-with-classpath-exception + Apache-2.0 for Jetty Web Container Copyright and License": [],
+    "Approved/CDDL-1.0 + Apache-2.0": [],
+    "Approved/CNRI-DOR": [],
+    "Approved/CPL-1.0": [],
+    "Approved/CUP Parser Generator License": [
+        "https://vaadin.com/download/release/8.0/8.0.7/licenses/cup-open-source-license.txt"
+    ],
+    "Approved/CUP Parser Generator for Java License.md": [],
+    "Approved/CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2": [],
+    "Approved/Commercial + GPL-2.0 + GPL-3.0": [],
+    "Approved/Commercial + GPL-2.0 + GPL-3.0 for PyQt NOTICE": [],
+    "Approved/Commercial + GPL-2.0 + GPL-3.0 for PyQt NOTICE.txt": [
+        "https://www.riverbankcomputing.com/commercial/license-faq"
+    ],
+    "Approved/Commercial SAA Teacher Trainer ECC Materials License Agreement ": [],
+    "Approved/Commercial Vaadin Add-On License version 3": [
+        "https://vaadin.com/license/cval-3",
+        "https://vaadin.com/license/cval-3.0"
+    ],
+    "Approved/Condor-1.1": [],
+    "Approved/Copyright-Only Dedication": [],
+    "Approved/Couchbase Community Edition License Agreement": [
+        "http://www.couchbase.com/agreement/community",
+        "https://www.couchbase.com/licensing-and-support-faq"
+    ],
+    "Approved/Cryptix": [],
+    "Approved/Custom free software license": [],
+    "Approved/DESIGN_SCIENCE": [],
+    "Approved/DOM4J by MetaStuff": [
+        "http://www.dom4j.org/dom4j-1.6.1/license.html"
+    ],
+    "Approved/DOM4J by MetaStuff(2)": [],
+    "Approved/Day JCR License": [
+        "https://docs.adobe.com/docs/en/spec/jcr/2.0/index.html",
+        "https://docs.adobe.com/docs/en/spec/jcr/2.0/license.html#day-jcr-license"
+    ],
+    "Approved/Day Specification License": [
+        "https://docs.adobe.com/docs/en/spec/jcr/2.0/license.html"
+    ],
+    "Approved/Dojo Toolkit License=AFL-1.1 + BSD-3-Clause": [
+        "https://dojotoolkit.org/license.html"
+    ],
+    "Approved/Dojo Toolkit License=AFL-2.1 + BSD-3-Clause": [],
+    "Approved/EDL-1.0": [
+        "https://eclipse.org/org/documents/edl-v10.php",
+        "http://www.eclipse.org/org/documents/edl-v10.php"
+    ],
+    "Approved/EPL-1.0 + Apache-2.0 for Jetty NOTICE": [
+        "http://www.eclipse.org/jetty/licenses.html",
+        "https://www.maplesoft.com/support/help/maple/view.aspx?path=license/jetty"
+    ],
+    "Approved/ERLANG PUBLIC LICENSE Version 1.1": [],
+    "Approved/Eclipse Foundation Software User Agreement.html": [],
+    "Approved/Ecma text copyright license": [],
+    "Approved/Election of GPLv2 for MySQL ConnectorJ": [
+        "https://dev.mysql.com/downloads/connector/j/",
+        "http://snurran.sics.se/hops/mysql-connector-java-5.1.29/docs/connector-j.html#preface"
+    ],
+    "Approved/Expat": [],
+    "Approved/ExtremeTransactions Development License": [
+        "https://github.com/fabric3"
+    ],
+    "Approved/FasterXML_CREDITS_NOTICE": [],
+    "Approved/Free-Art-L-1.3": [],
+    "Approved/FreeBSDDL": [],
+    "Approved/FreeType Project LICENSE": [],
+    "Approved/Freetype-py Python bindings License": [
+        "https://freetype-py.readthedocs.io/en/latest/license.html"
+    ],
+    "Approved/FullCalendar Scheduler License": [],
+    "Approved/GPL-2.0": [],
+    "Approved/GPL-2.0 + BSD-3-Clause for wireshark": [
+        "https://github.com/wireshark/wireshark"
+    ],
+    "Approved/GPL-2.0 + MIT license NOTICE": [],
+    "Approved/GPL-2.0 + MIT license NOTICE.js": [],
+    "Approved/GPL-2.0 + MPL-1.1": [
+        "https://hapifhir.github.io/hapi-hl7v2/license.html"
+    ],
+    "Approved/GPL-2.0 Licenced NOTICE": [],
+    "Approved/GPL-2.0 or MIT": [],
+    "Approved/GPL-2.0 with ClassPath EXCEPTION": [],
+    "Approved/GPL-2.0(2)": [],
+    "Approved/GPL-2.0-with-autoconf-exception": [],
+    "Approved/GPL-2.0-with-bison-exception": [],
+    "Approved/GPL-2.0-with-classpath-exception": [],
+    "Approved/GPL-3.0": [],
+    "Approved/GPL-3.0 + CC-by-nc-nd-4.0 + Commercial License.md": [],
+    "Approved/GPL-3.0 + IJG CREDIT of FreeType License": [],
+    "Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab + HdrHistogram Licensed NOTICE": [],
+    "Approved/GPL-3.0 + Python License NOTICE": [
+        "https://www.riverbankcomputing.com/software/sip/license"
+    ],
+    "Approved/GPL-3.0 + Sencha Licensing Notices": [
+        "http://www.sencha.com/license",
+        "https://www.sencha.com/legal/"
+    ],
+    "Approved/GPL-3.0 + Sencha Software License Agreement": [],
+    "Approved/GPL-3.0-with-classpath-exception": [],
+    "Approved/GPL-PA-1.1": [],
+    "Approved/GPLv2 + CERN NOTICE": [
+        "http://repository.jboss.org/licenses/trove.txt"
+    ],
+    "Approved/GSBase Software License, Version 1.0": [
+        "http://gsbase.sourceforge.net/license.html"
+    ],
+    "Approved/GSBaseSoftware License, Version 1.0": [],
+    "Approved/Google Cloud Platform License Agreement": [],
+    "Approved/Google Cloud Platform Terms": [
+        "https://cloud.google.com/terms/",
+        "http://code.google.com/appengine/terms.html",
+        "http://code.google.com/webtoolkit/terms.html"
+    ],
+    "Approved/HESSLA": [],
+    "Approved/HSQLDB=BSD Based License": [],
+    "Approved/HTML Tidy by W3C": [
+        "http://api.html-tidy.org/tidy/tidylib_api_5.2.0/license.html"
+    ],
+    "Approved/Harvard Law School Recording License Agreement": [
+        "https://hls.harvard.edu/content/uploads/2014/07/recordinglicenseagreement2011.pdf",
+        "http://hls.harvard.edu/dept/communications/harvard-law-school-recording-license-agreement/"
+    ],
+    "Approved/Highsoft Standard License Agreement 9.0": [],
+    "Approved/ICU + Third-Party Software Licenses": [],
+    "Approved/IPA_Font_License": [],
+    "Approved/ISC or 0BSD": [],
+    "Approved/ISC-Authers-LICENSE": [],
+    "Approved/ISC-Contributors-License": [],
+    "Approved/ISO-RELAX license": [],
+    "Approved/Indiana University Extreme! Lab Software License": [
+        "http://www.extreme.indiana.edu/license.txt"
+    ],
+    "Approved/Info-ZIP license": [],
+    "Approved/Intel Simplified Software License": [],
+    "Approved/Intel-ACPI": [],
+    "Approved/JCIP-ANNOTATIONS License": [],
+    "Approved/JCP Spec Leads License Reference": [],
+    "Approved/JDBM LICENSE v1.0": [
+        "https://www.triemax.com/products/jalopy/manual/license-jdbm.html"
+    ],
+    "Approved/JESS client License": [],
+    "Approved/JPython-1.1.x": [],
+    "Approved/JSR 232 Specification License": [],
+    "Approved/JSR 354 (Money and Currency API)": [],
+    "Approved/JSR Spec Evaluation License": [],
+    "Approved/JSR Spec Implementation License": [],
+    "Approved/JSR-94 Specification Reference Implementation License Agreement": [],
+    "Approved/JSR107 Agreement": [],
+    "Approved/JSR275 Specification License": [],
+    "Approved/JabberOSLv1.0": [],
+    "Approved/Java Specification Participation Agreement": [
+        "http://dev2dev.bea.com/xml/stax.html",
+        "https://www.jcp.org/en/jsr/detail?id=173",
+        "https://www.calculate-linux.org/packages/licenses/bea.ri.jsr173"
+    ],
+    "Approved/JavaSE10 spec license-4417634": [],
+    "Approved/JavaSE8 spec license-2158700": [],
+    "Approved/JavaSE9 spec license-3903847": [],
+    "Approved/Jenkins Project Governance Document": [
+        "https://jenkins.io/project/governance/#compatibility-matters"
+    ],
+    "Approved/Joda-money Notes": [],
+    "Approved/Jython-1": [],
+    "Approved/Jython-2": [],
+    "Approved/LGPL-2.1 + Apache-2.0": [],
+    "Approved/LGPL-2.1 + EPL-1.0 licensing NOTICE": [],
+    "Approved/LGPL-2.1 based Colt License Agreement Notice": [
+        "https://www.novell.com/documentation/filr-3/filr-inst/data/bk8tuq9.html"
+    ],
+    "Approved/LGPL-2.1 for jboss-common-jdbc-wrapper NOTICE": [
+        "https://downloads.mysql.com/docs/licenses/connector-j-5.1-com-en.pdf"
+    ],
+    "Approved/LGPL-2.1 for logilab-common NOTICE": [
+        "https://pypi.python.org/pypi/logilab-common/1.4.1"
+    ],
+    "Approved/LGPL-3.0 + Apaache-2.0 + BSD-3-Clause for PMD InfoEther": [
+        "http://pmd.sourceforge.net/license.html"
+    ],
+    "Approved/LGPLv2 + CERN NOTICE": [],
+    "Approved/LHA-SLA": [],
+    "Approved/LICENSE-JJ2000": [
+        "https://code.google.com/archive/p/jj2000/"
+    ],
+    "Approved/LaTeX_ecfonts": [],
+    "Approved/Licensed under LGPL NOTICE": [],
+    "Approved/MIT": [],
+    "Approved/MIT + Boost  + SGI-B-1.0 for Mesa License NOTICE": [
+        "https://www.mesa3d.org/license.html"
+    ],
+    "Approved/MIT + CC0-1.0 at sample LICENSE": [],
+    "Approved/MIT + CC0-1.0 for jquery License": [],
+    "Approved/MIT + COPYRIGHT License": [],
+    "Approved/MIT + MPL-2.0 LICENSE": [],
+    "Approved/MIT + Python-2.0 LICENSE": [],
+    "Approved/MIT + X11 LICENSE": [],
+    "Approved/MIT + based on NOTICE": [],
+    "Approved/MIT + copyright LICENSE (2)": [],
+    "Approved/MIT + copyright LICENSE (3)": [],
+    "Approved/MIT + copyright LICENSE (4)": [],
+    "Approved/MIT + donation for Bouncy Castle License": [
+        "http://www.bouncycastle.org/licence.html",
+        "https://www.bouncycastle.org/licence.html",
+        "http://www.ganymed.ethz.ch/ssh2/license.txt"
+    ],
+    "Approved/MIT + inspired products NOTICE": [],
+    "Approved/MIT + own license": [],
+    "Approved/MIT + own products license": [],
+    "Approved/MIT + related URL NOTICE.md": [],
+    "Approved/MIT LICENSE": [],
+    "Approved/MIT License(2).md": [],
+    "Approved/MIT License.md": [],
+    "Approved/MIT by Twisted contributers": [],
+    "Approved/MIT by contributers LICENSE": [],
+    "Approved/MIT by contributers LICENSE(1)": [],
+    "Approved/MIT by contributers LICENSE(2)": [],
+    "Approved/MIT for 3 Authers LICENSE.md": [],
+    "Approved/MIT for Fedor Indutny": [],
+    "Approved/MIT for Qos ch": [
+        "https://www.slf4j.org/license.html"
+    ],
+    "Approved/MIT for qhull benjamin Nortier": [],
+    "Approved/MIT licensed NOTICE": [],
+    "Approved/MIT licensed NOTICE(2)": [],
+    "Approved/MIT licensed NOTICE(2).xml": [],
+    "Approved/MIT licensed NOTICE.xml": [],
+    "Approved/MIT-license comment in js": [],
+    "Approved/MPL-2.0 + EPL-1.0": [],
+    "Approved/MX4J": [],
+    "Approved/MX4j": [],
+    "Approved/Micronode - License": [],
+    "Approved/Microsoft Shared Source License": [],
+    "Approved/MySQL FOSS License Exception": [
+        "https://www.mysql.com/about/legal/licensing/foss-exception/"
+    ],
+    "Approved/NVIDIA Free": [],
+    "Approved/NanoXML License": [
+        "https://searchcode.com/codesearch/view/22241344/",
+        "https://ja.scribd.com/document/356491130/nanoxml-license-txt",
+        "http://snurran.sics.se/hops/mysql-connector-java-5.1.29/docs/connector-j.html#license-nanoxml"
+    ],
+    "Approved/OGC legal NOTICE": [
+        "http://www.opengeospatial.org/ogc/legal"
+    ],
+    "Approved/OPL-1.0": [],
+    "Approved/OSGi Specification License, Version 2.0": [],
+    "Approved/Oculus_VR_Rift_SDK_License": [],
+    "Approved/Open Source License for Oracle Berkeley DB Java Edition": [],
+    "Approved/OpenLDAP Public License Version 2.8": [],
+    "Approved/OpenSSL + SSLeay": [],
+    "Approved/OpenSSL + SSLeay by module License": [],
+    "Approved/Oracle Binary Code License Agreement": [
+        "http://repository.jboss.com/licenses/sun-jaf.txt"
+    ],
+    "Approved/Oracle Technology Network License Agreement": [
+        "http://www.oracle.com/technetwork/licenses/distribution-license-152002.html"
+    ],
+    "Approved/OriginalBSD": [],
+    "Approved/PCRE2 LICENCE": [
+        "https://www.pcre.org/licence.txt"
+    ],
+    "Approved/PINE": [],
+    "Approved/PKCS #11 Cryptographic Token Interface License": [],
+    "Approved/PUPL - Paid Use Permissive License": [
+        "http://db4j.org/pupl/pupl"
+    ],
+    "Approved/Pako License for Vitaly Puzrin and Andrei Tuputcyn": [],
+    "Approved/Peer-Production": [],
+    "Approved/Plexus for Intalio ExoLab License": [],
+    "Approved/Plexus for Werken Company": [],
+    "Approved/Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0": [
+        "http://docutils.sourceforge.net/licenses/"
+    ],
+    "Approved/Python Imaging Library License": [
+        "http://www.pythonware.com/products/pil/license.htm"
+    ],
+    "Approved/Python docutils COPYING": [],
+    "Approved/Python-1.6a2": [],
+    "Approved/Python-1.6b1": [],
+    "Approved/Python-2-1-1": [],
+    "Approved/Python-2-2": [],
+    "Approved/Python-2-3": [],
+    "Approved/Python-2.0 + Apache-2.0 + BSD-3-Clause-LBNL + Qhull COPYING Agreement + BSD-2-Clause + BSD-3-Clause + MIT": [],
+    "Approved/Python-3.7.2": [],
+    "Approved/Python-3.7.2,\\rspdx/MIT": [],
+    "Approved/QOS SLF4J license": [],
+    "Approved/Qhull COPYING Agreement": [],
+    "Approved/QuickFIX License": [
+        "http://www.quickfixj.org/documentation/license.html",
+        "http://www.quickfixengine.org/quickfix/doc/html/license.html"
+    ],
+    "Approved/RPL-1.3": [],
+    "Approved/Ruby": [],
+    "Approved/SAX-PD": [],
+    "Approved/SCILAB": [],
+    "Approved/SISSL-1.1": [],
+    "Approved/SNAPTREE LICENSE": [],
+    "Approved/SQLite Is Public Domain": [
+        "https://www.sqlite.org/copyright.html"
+    ],
+    "Approved/STORAGE NETWORKING INDUSTRY ASSOCIATION PUBLIC LICENSE Version 1.1": [],
+    "Approved/Scratch-1.4": [],
+    "Approved/Sencha Licensing Notices": [
+        "http://www.extjs.com/license"
+    ],
+    "Approved/SimpleM-1.1": [],
+    "Approved/Sleepycat": [],
+    "Approved/SmartBear - On PremSoftware Licensing Terms of Use": [],
+    "Approved/Sonatype END USER LICENSE AGREEMENT": [
+        "https://www.sonatype.com/usage/master-eula",
+        "http://links.sonatype.com/products/corp/pom/eula"
+    ],
+    "Approved/Squeak-old": [],
+    "Approved/StandardML-NJ": [],
+    "Approved/Sun Microsystems Binery Code License": [],
+    "Approved/SunCSLv2.8": [],
+    "Approved/SystemC_Open_Source_License": [],
+    "Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA": [
+        "http://gee.cs.oswego.edu/dl/cpjslides/util.pdf",
+        "http://repository.jboss.org/licenses/oswego.txt"
+    ],
+    "Approved/TMate Open Source License": [],
+    "Approved/TRILEAD-LICENSE": [],
+    "Approved/Tanuki Software license": [
+        "http://wrapper.tanukisoftware.org/doc/english/license.html"
+    ],
+    "Approved/The CyberNeko Software License, Version 1.0": [],
+    "Approved/The H2 License, Version 1.0": [],
+    "Approved/The P6Spy Software License, Version 1.1": [],
+    "Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc": [],
+    "Approved/Thired_Party_licenses_for_JavaSE8_LGPL-2.1 + Apache-2.0 +CUP Parser Generator + Arev Fonts + W3C + etc": [],
+    "Approved/TrueCrypt-3.0": [],
+    "Approved/UCB-LB license": [],
+    "Approved/UNICODE DATA FILES AND SOFTWARE.md": [],
+    "Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE": [],
+    "Approved/UUencode and UUdecode functions NOTICE": [],
+    "Approved/UnRar license": [
+        "https://fedoraproject.org/wiki/licensing:unrar?rd=licensing/unrar",
+        "https://raw.github.com/junrar/junrar/master/license.txt"
+    ],
+    "Approved/UnboundID LDAP SDK Free Use License": [],
+    "Approved/Unicode Copyright and Terms of Use": [],
+    "Approved/UtahPublicLicense": [],
+    "Approved/W3C DOCUMENT NOTICE AND LICENSE.dom-documentation": [],
+    "Approved/W3C SOFTWARE NOTICE AND LICENSE.dom-software": [],
+    "Approved/W3C Software and Document Short Notice": [],
+    "Approved/WSO2 Commercial License 1.0": [
+        "https://wso2.com/licenses"
+    ],
+    "Approved/WSO2 Commercial License 2.0": [],
+    "Approved/WTFPL-1.0": [],
+    "Approved/WTFPL-2.0": [],
+    "Approved/WTFPL-2.0 + MIT License": [],
+    "Approved/Watcom-1.0": [],
+    "Approved/WebM": [],
+    "Approved/WebM Additional IP Rights Grant": [
+        "https://www.webmproject.org/license/additional/"
+    ],
+    "Approved/WebM Bitstream Specification License": [
+        "https://www.webmproject.org/license/bitstream/"
+    ],
+    "Approved/WebM Software License": [
+        "https://www.webmproject.org/license/software/"
+    ],
+    "Approved/WebM VP8 Patent Cross-License": [
+        "https://www.webmproject.org/cross-license/vp8/agreement/"
+    ],
+    "Approved/X11": [],
+    "Approved/XMLPULL API IS FREE": [],
+    "Approved/_SEE LICENSE IN LICENSE": [],
+    "Approved/_See ADDITIONAL_LICENSE_INFO": [],
+    "Approved/_See Java LICENSE": [],
+    "Approved/_See other file": [],
+    "Approved/bzip2 license": [],
+    "Approved/com.oreilly.servlet license": [],
+    "Approved/edl-v10": [],
+    "Approved/epl-v10": [],
+    "Approved/jdom LICENSE(2)": [],
+    "Approved/jdom License": [],
+    "Approved/license template for implementing final JSRs": [],
+    "Approved/mecab-ipadic-2.7.0-20070801 Notice": [],
+    "Approved/ontotext LICENSE-GraphDB-Free": [],
+    "Approved/proprietary - Continuum Analytics": [
+        "https://docs.anaconda.com/anaconda-repository/2.23/admin/eula/"
+    ],
+    "Approved/proprietary - Intel": [
+        "https://opensource.org/search/node/proprietary+-+intel"
+    ],
+    "Approved/provided without support or warranty": [],
+    "Approved/resin pro licenses NOTICE": [
+        "http://www.caucho.com/resin-4.0/admin/starting-resin-licenses.xtp#requestingresinprolicense"
+    ],
+    "Approved/sRGB Color Space Profile.icm License": [],
+    "Approved/sRGB Profile Licensing Agreement": [],
+    "Approved/tcp_wrappers_license": [],
+    "Approved/ubuntu-font-licence-1.0": [
+        "https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt?_ga=2.218276304.816375073.1550828426-1715464236.1550828426=approved/ubuntu-font-licence-1.0"
+    ],
+    "Approved/universal-foss-exception": [],
+    "Considered/": [],
+    "Considered/BSD-3-Clause for SUN": [],
+    "Considered/Celtx Public License": [],
+    "Considered/LICENCE PUBLIQUE BARMIC Version 4": [],
+    "Considered/LPRAB-1.0": [],
+    "Considered/OPEN GAME LICENSE Version 1.0a": [
+        "https://ja.scribd.com/document/322288712/14-oglv1-0a"
+    ],
+    "Considered/PUBLIQUE BARMIC LICENSE Version 4 NOTICE": [],
+    "Considered/Plexus for JCharts Variant": [],
+    "Considered/SLIB LICENSE NOTICE": [],
+    "FSF/": [],
+    "FSF/ACDL": [
+        "https://www.gnu.org/licenses/license-list.html#ACDL",
+        "https://www.gnu.org/licenses/license-list.html#acdl",
+        "http://fedoraproject.org/wiki/Licensing/Common_Documentation_License"
+    ],
+    "FSF/AGPLv1.0": [],
+    "FSF/AGPLv3.0": [],
+    "FSF/ATTPublicLicense": [
+        "https://www.gnu.org/licenses/license-list.html#ATTPublicLicense",
+        "https://www.gnu.org/licenses/license-list.html#attpubliclicense"
+    ],
+    "FSF/AcademicFreeLicense3.0": [],
+    "FSF/Arphic": [
+        "https://www.gnu.org/licenses/license-list.html#Arphic",
+        "https://www.gnu.org/licenses/license-list.html#arphic",
+        "http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-truetype/LICENSE"
+    ],
+    "FSF/ArtisticLicense": [],
+    "FSF/ArtisticLicense2": [],
+    "FSF/BerkeleyDB": [],
+    "FSF/CC0": [],
+    "FSF/CDDL": [],
+    "FSF/CPAL": [],
+    "FSF/CeCILL": [],
+    "FSF/ClarifiedArtistic": [],
+    "FSF/CommonPublicLicense10": [],
+    "FSF/Condor": [],
+    "FSF/CryptixGeneralLicense": [
+        "https://www.gnu.org/licenses/license-list.html#CryptixGeneralLicense",
+        "https://www.gnu.org/licenses/license-list.html#cryptixgenerallicense",
+        "http://directory.fsf.org/wiki/License:CryptixGL"
+    ],
+    "FSF/DOR": [
+        "https://www.gnu.org/licenses/license-list.html#DOR",
+        "https://www.gnu.org/licenses/license-list.html#dor"
+    ],
+    "FSF/ECL2.0": [],
+    "FSF/EPL": [],
+    "FSF/EPL2": [],
+    "FSF/EUDataGrid": [],
+    "FSF/EUPL-1.1": [],
+    "FSF/EUPL-1.2": [],
+    "FSF/Eiffel": [],
+    "FSF/Expat": [],
+    "FSF/FDLv1.1": [],
+    "FSF/FreeArt": [
+        "https://www.gnu.org/licenses/license-list.html#FreeArt",
+        "https://www.gnu.org/licenses/license-list.html#freeart",
+        "https://directory.fsf.org/wiki/License:Free-Art-L-v1.3"
+    ],
+    "FSF/FreeBSD": [],
+    "FSF/GNUAllPermissive": [],
+    "FSF/GNUGPLv3": [],
+    "FSF/GNUVerbatim": [
+        "https://www.gnu.org/licenses/license-list.html#GNUVerbatim",
+        "https://www.gnu.org/licenses/license-list.html#gnuverbatim",
+        "https://www.gnu.org/licenses/licenses.html#VerbatimCopying",
+        "https://www.gnu.org/licenses/licenses.html#verbatimcopying"
+    ],
+    "FSF/GPL-PA": [
+        "https://www.gnu.org/licenses/license-list.html#GPL-PA",
+        "https://www.gnu.org/licenses/license-list.html#gpl-pa",
+        "http://directory.fsf.org/wiki/License:GPL-PA"
+    ],
+    "FSF/GPLFonts": [],
+    "FSF/GPLOther": [],
+    "FSF/GPLv2": [],
+    "FSF/HESSLA": [
+        "https://www.gnu.org/licenses/license-list.html#HESSLA",
+        "https://www.gnu.org/licenses/license-list.html#hessla"
+    ],
+    "FSF/HPND": [],
+    "FSF/IBMPL": [],
+    "FSF/IPAFONT": [],
+    "FSF/ISC": [],
+    "FSF/JSON": [],
+    "FSF/Jahia": [
+        "https://www.gnu.org/licenses/license-list.html#Jahia",
+        "https://www.gnu.org/licenses/license-list.html#jahia",
+        "http://web.archive.org/web/20050317081359/http://www.jahia.org/jahia/page145.html"
+    ],
+    "FSF/LGPLv2.1": [],
+    "FSF/LGPLv3": [],
+    "FSF/LPPL-1.2": [],
+    "FSF/LPPL-1.3a": [],
+    "FSF/Lha": [
+        "https://www.gnu.org/licenses/license-list.html#Lha",
+        "https://www.gnu.org/licenses/license-list.html#lha",
+        "http://directory.fsf.org/wiki/License:Lha",
+        "http://directory.fsf.org/wiki/license:lha",
+        "https://directory.fsf.org/wiki/license:lha",
+        "http://www2m.biglobe.ne.jp/~dolphin/lha/lha.htm",
+        "http://packages.debian.org/changelogs/pool/non-free/l/lha/current/copyright"
+    ],
+    "FSF/MPL": [],
+    "FSF/MPL-2.0": [],
+    "FSF/ModifiedBSD": [],
+    "FSF/Ms-SS": [
+        "https://www.gnu.org/licenses/license-list.html#Ms-SS",
+        "https://www.gnu.org/licenses/license-list.html#ms-ss",
+        "http://directory.fsf.org/wiki/License:Ms-SS"
+    ],
+    "FSF/NASA": [],
+    "FSF/NCSA": [],
+    "FSF/NOSL": [],
+    "FSF/NPL-1.0": [],
+    "FSF/NPL-1.1": [],
+    "FSF/Nokia": [],
+    "FSF/ODbl": [],
+    "FSF/OSL-3.0": [],
+    "FSF/OculusRift": [
+        "https://www.gnu.org/licenses/license-list.html#OculusRift",
+        "https://www.gnu.org/licenses/license-list.html#oculusrift",
+        "http://directory.fsf.org/wiki/License:Oculus_VR_Rift_SDK_License",
+        "http://www.oculusvr.com/licenses/license-3.1"
+    ],
+    "FSF/OpenContentL": [
+        "https://www.gnu.org/licenses/license-list.html#OpenContentL",
+        "https://www.gnu.org/licenses/license-list.html#opencontentl",
+        "https://web.archive.org/web/19981206111937/http://www.opencontent.org/opl.shtml"
+    ],
+    "FSF/OpenPublicL": [],
+    "FSF/OpenPublicationL": [
+        "https://www.gnu.org/licenses/license-list.html#OpenPublicationL",
+        "https://www.gnu.org/licenses/license-list.html#openpublicationl",
+        "http://opencontent.org/openpub/"
+    ],
+    "FSF/OpenSSL": [],
+    "FSF/OriginalBSD": [],
+    "FSF/PHP-3.01": [],
+    "FSF/PINE": [
+        "https://www.gnu.org/licenses/license-list.html#PINE",
+        "https://www.gnu.org/licenses/license-list.html#pine",
+        "http://directory.fsf.org/wiki/License:PINE",
+        "http://www.washington.edu/pine/overview/legal.html"
+    ],
+    "FSF/PPL": [
+        "https://www.gnu.org/licenses/license-list.html#PPL",
+        "https://www.gnu.org/licenses/license-list.html#ppl",
+        "http://directory.fsf.org/wiki/License:PPL"
+    ],
+    "FSF/PerlLicense": [
+        "https://www.gnu.org/licenses/license-list.html#PerlLicense",
+        "https://www.gnu.org/licenses/license-list.html#perllicense"
+    ],
+    "FSF/Phorum": [
+        "https://www.gnu.org/licenses/license-list.html#Phorum",
+        "https://www.gnu.org/licenses/license-list.html#phorum",
+        "http://directory.fsf.org/wiki/License:Phorum2.0",
+        "http://directory.fsf.org/wiki/license:phorum2.0",
+        "https://directory.fsf.org/wiki/license:phorum2.0",
+        "http://www.phorum.org/license.txt"
+    ],
+    "FSF/Plan9": [
+        "https://www.gnu.org/licenses/license-list.html#Plan9",
+        "https://www.gnu.org/licenses/license-list.html#plan9"
+    ],
+    "FSF/PublicDomain": [
+        "http://www.gnu.org/licenses/license-list.html#publicdomain",
+        "https://www.gnu.org/licenses/license-list.html#PublicDomain",
+        "https://www.gnu.org/licenses/license-list.html#publicdomain",
+        "http://directory.fsf.org/wiki/License:PublicDomain",
+        "http://en.wikipedia.org/wiki/public_domain"
+    ],
+    "FSF/Python": [],
+    "FSF/Python1.6a2": [
+        "https://www.gnu.org/licenses/license-list.html#Python1.6a2",
+        "https://www.gnu.org/licenses/license-list.html#python1.6a2",
+        "http://directory.fsf.org/wiki?title=License:Python1.6a2",
+        "http://directory.fsf.org/wiki?title=license:python1.6a2",
+        "https://directory.fsf.org/wiki?title=license:python1.6a2",
+        "http://web.archive.org/web/20070202204117/http://www.python.org/doc/copyright.html"
+    ],
+    "FSF/Python1.6b1": [],
+    "FSF/Python2.0": [],
+    "FSF/Python2.1": [],
+    "FSF/QPL": [],
+    "FSF/RPL": [],
+    "FSF/RPSL": [],
+    "FSF/Ruby": [],
+    "FSF/SGIFreeB": [],
+    "FSF/SILOFL-1.1": [],
+    "FSF/SISSL": [],
+    "FSF/SML": [
+        "https://www.gnu.org/licenses/license-list.html#SML",
+        "https://www.gnu.org/licenses/license-list.html#sml",
+        "http://directory.fsf.org/wiki/License:SimpleM"
+    ],
+    "FSF/SPL": [],
+    "FSF/Scilab": [
+        "https://www.gnu.org/licenses/license-list.html#Scilab",
+        "https://www.gnu.org/licenses/license-list.html#scilab",
+        "http://directory.fsf.org/wiki/License:Scilab-old",
+        "http://directory.fsf.org/wiki/license:scilab-old"
+    ],
+    "FSF/Scratch": [
+        "https://www.gnu.org/licenses/license-list.html#Scratch",
+        "https://www.gnu.org/licenses/license-list.html#scratch",
+        "http://directory.fsf.org/wiki/License:Scratch",
+        "http://directory.fsf.org/wiki/license:scratch",
+        "https://directory.fsf.org/wiki/license:scratch"
+    ],
+    "FSF/Squeak": [
+        "https://www.gnu.org/licenses/license-list.html#Squeak",
+        "https://www.gnu.org/licenses/license-list.html#squeak",
+        "http://directory.fsf.org/wiki/License:Squeak-old",
+        "http://directory.fsf.org/wiki/license:squeak-old",
+        "https://directory.fsf.org/wiki/license:squeak-old",
+        "http://web.archive.org/web/20051105030615/http://www.squeak.org/squeaklicense/"
+    ],
+    "FSF/StandardMLofNJ": [],
+    "FSF/SunCommunitySourceLicense": [
+        "https://www.gnu.org/licenses/license-list.html#SunCommunitySourceLicense",
+        "https://www.gnu.org/licenses/license-list.html#suncommunitysourcelicense",
+        "http://directory.fsf.org/wiki/License:SunCSLv2.8"
+    ],
+    "FSF/SunSolarisSourceCode": [
+        "https://www.gnu.org/licenses/license-list.html#SunSolarisSourceCode",
+        "https://www.gnu.org/licenses/license-list.html#sunsolarissourcecode"
+    ],
+    "FSF/SystemC-3.0": [
+        "https://www.gnu.org/licenses/license-list.html#SystemC-3.0",
+        "https://www.gnu.org/licenses/license-list.html#systemc-3.0",
+        "http://www.accellera.org/about/policies/SystemC_Open_Source_License.pdf",
+        "http://www.accellera.org/about/policies/systemc_open_source_license.pdf",
+        "http://www.accellera.org/images/about/policies/systemc_open_source_license.pdf"
+    ],
+    "FSF/Truecrypt-3.0": [
+        "https://www.gnu.org/licenses/license-list.html#Truecrypt-3.0",
+        "https://www.gnu.org/licenses/license-list.html#truecrypt-3.0",
+        "http://directory.fsf.org/wiki/License:TrueCrypt"
+    ],
+    "FSF/UPL": [],
+    "FSF/Unicode": [
+        "https://www.gnu.org/licenses/license-list.html#Unicode",
+        "https://www.gnu.org/licenses/license-list.html#unicode",
+        "http://directory.fsf.org/wiki/License:Unicode",
+        "http://directory.fsf.org/wiki/license:unicode"
+    ],
+    "FSF/Unlicense": [],
+    "FSF/UtahPublicLicense": [
+        "https://www.gnu.org/licenses/license-list.html#UtahPublicLicense",
+        "https://www.gnu.org/licenses/license-list.html#utahpubliclicense",
+        "http://www.cs.utah.edu/~gk/teem/txt/LICENSE.txt"
+    ],
+    "FSF/Vim": [],
+    "FSF/W3C": [],
+    "FSF/WTFPL-2.0": [],
+    "FSF/WebM": [
+        "https://www.gnu.org/licenses/license-list.html#WebM",
+        "https://www.gnu.org/licenses/license-list.html#webm",
+        "http://directory.fsf.org/wiki/License:WebM",
+        "https://www.webmproject.org/license/"
+    ],
+    "FSF/X11License": [],
+    "FSF/XFree861.1License": [],
+    "FSF/YaST": [
+        "https://www.gnu.org/licenses/license-list.html#YaST",
+        "https://www.gnu.org/licenses/license-list.html#yast"
+    ],
+    "FSF/Yahoo": [],
+    "FSF/ZLib": [],
+    "FSF/Zend": [],
+    "FSF/Zimbra": [],
+    "FSF/Zope": [],
+    "FSF/Zope2.1": [],
+    "FSF/apache1": [],
+    "FSF/apache1.1": [],
+    "FSF/apache2": [],
+    "FSF/apsl1": [],
+    "FSF/apsl2": [],
+    "FSF/bittorrent": [],
+    "FSF/boost": [],
+    "FSF/clearbsd": [],
+    "FSF/dsl": [
+        "https://www.gnu.org/licenses/dsl.html",
+        "https://www.gnu.org/licenses/license-list.html#dsl"
+    ],
+    "FSF/eCos11": [],
+    "FSF/eCos2.0": [],
+    "FSF/ecfonts": [
+        "https://www.gnu.org/licenses/license-list.html#ecfonts",
+        "http://directory.fsf.org/wiki/License:LaTeX_ecfonts"
+    ],
+    "FSF/freetype": [],
+    "FSF/gnuplot": [],
+    "FSF/iMatix": [],
+    "FSF/ijg": [],
+    "FSF/imlib": [],
+    "FSF/informal": [
+        "https://www.gnu.org/licenses/license-list.html#informal"
+    ],
+    "FSF/intel": [],
+    "FSF/josl": [
+        "https://www.gnu.org/licenses/license-list.html#josl",
+        "http://directory.fsf.org/wiki/License:JabberOSLv1.0"
+    ],
+    "FSF/ksh93": [
+        "https://www.gnu.org/licenses/license-list.html#ksh93"
+    ],
+    "FSF/lucent102": [],
+    "FSF/ms-pl": [],
+    "FSF/ms-rl": [],
+    "FSF/newOpenLDAP": [],
+    "FSF/oldOpenLDAP": [],
+    "FSF/xinetd": [],
+    "JSR 354 (Money and Currency API)": [],
+    "JSR275 Specification License": [],
+    "MPL-2.0 + EPL-1.0": [],
+    "MySQL open source software": [
+        "https://www.mysql.com/about/legal/licensing/oem/"
+    ],
+    "NetscapeJavaScript": [],
+    "OSI/": [],
+    "OSI/2-clause BSD License": [],
+    "OSI/3-clause BSD License": [],
+    "OSI/Academic Free License 3.0": [],
+    "OSI/Adaptive Public License": [],
+    "OSI/Apache License 2.0": [],
+    "OSI/Apple Public Source License": [],
+    "OSI/Artistic License 2.0": [],
+    "OSI/Attribution Assurance License": [],
+    "OSI/BSD+Patent": [],
+    "OSI/Boost Software License": [],
+    "OSI/CNRI Python license": [],
+    "OSI/CeCILL License 2.1": [],
+    "OSI/Common Development and Distribution License 1.0": [],
+    "OSI/Common Public Attribution License 1.0": [],
+    "OSI/Computer Associates Trusted Open Source License 1.1": [],
+    "OSI/EU DataGrid Software License": [],
+    "OSI/Eclipse Public License 1.0": [],
+    "OSI/Eclipse Public License 2.0": [],
+    "OSI/Educational Community License, Version 2.0": [],
+    "OSI/Eiffel Forum License V2.0": [],
+    "OSI/Entessa Public License": [],
+    "OSI/European Union Public License, Version 1.2": [],
+    "OSI/Fair License": [],
+    "OSI/Frameworx License": [],
+    "OSI/Free Public License 1.0.0": [],
+    "OSI/GNU Affero General Public License version 3": [],
+    "OSI/GNU General Public License version 2": [],
+    "OSI/GNU General Public License version 3": [],
+    "OSI/GNU Lesser General Public License version 2.1": [],
+    "OSI/GNU Lesser General Public License version 3": [],
+    "OSI/Historical Permission Notice and Disclaimer": [],
+    "OSI/IBM Public License 1.0": [],
+    "OSI/IPA Font License": [],
+    "OSI/ISC License": [],
+    "OSI/LaTeX Project Public License 1.3c": [],
+    "OSI/Lucent Public License Version 1.02": [],
+    "OSI/MIT License": [],
+    "OSI/Microsoft Public License": [],
+    "OSI/Microsoft Reciprocal License": [],
+    "OSI/MirOS Licence": [],
+    "OSI/Motosoto License": [],
+    "OSI/Mozilla Public License 1.0": [],
+    "OSI/Mozilla Public License 1.1": [],
+    "OSI/Mozilla Public License 2.0": [],
+    "OSI/Multics License": [],
+    "OSI/NASA Open Source Agreement 1.3": [],
+    "OSI/NCSA Open Source License": [],
+    "OSI/NTP License": [],
+    "OSI/Naumen Public License": [],
+    "OSI/Nethack General Public License": [],
+    "OSI/Nokia Open Source License": [],
+    "OSI/Non-Profit Open Software License 3.0": [],
+    "OSI/OCLC Research Public License 2.0": [],
+    "OSI/OSET Public License version 2.1": [],
+    "OSI/Open Group Test Suite License": [],
+    "OSI/Open Software License 3.0": [],
+    "OSI/PHP License 3.0": [],
+    "OSI/Python License": [],
+    "OSI/Q Public License": [],
+    "OSI/RealNetworks Public Source License V1.0": [],
+    "OSI/Reciprocal Public License 1.5": [],
+    "OSI/Ricoh Source Code Public License": [],
+    "OSI/SIL Open Font License 1.1": [],
+    "OSI/Simple Public License 2.0": [],
+    "OSI/Sleepycat License": [],
+    "OSI/Sun Public License 1.0": [],
+    "OSI/Sybase Open Watcom Public License 1.0": [],
+    "OSI/The PostgreSQL License": [],
+    "OSI/Universal Permissive License": [],
+    "OSI/Upstream Compatibility License v1.0": [],
+    "OSI/Vovida Software License v. 1.0": [],
+    "OSI/W3C License": [],
+    "OSI/X.Net License": [],
+    "OSI/Zero-Clause BSD": [],
+    "OSI/Zope Public License 2.0": [],
+    "OSI/eCos License version 2.0": [],
+    "OSI/libpng license": [],
+    "OSI/wxWindows Library License": [],
+    "research/cucumber-sandwich.jar#/cglib-license": [],
+    "research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js": [],
+    "research/node_modules/protractor/plugins/console/spec/fail_error_spec.js": [],
+    "research/node_modules/protractor/plugins/console/spec/fail_spec.js": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/services/javax.management.remote.JMXConnectorProvider": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/com/sun/jna/platform/win32/COM/tlb/imp/TlbFunctionStub.template": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/com/thoughtworks/selenium/webdriven/sizzle.js": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/RemoteRunner.hta": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/TestRunner.hta": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/continue.png": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/pause.png": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/cert8.db": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/readystate@openqa.org/chrome.manifest": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/readystate@openqa.org/chrome/readystate.jar#/content/readystate.js": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/readystate@openqa.org/install.rdf": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/install.rdf": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/kill.html": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattribute.xsl": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/remote/resolver/soap/server-deploy.wsdd": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_cyrillic": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_english": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_german": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_hebrew": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_polish": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_romanian": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_approx_russian": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_exact_common": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_hebrew_common": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_rules_english": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/ash_rules_german": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/gen_rules_italian": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/apache/commons/codec/language/bm/gen_rules_portuguese": [],
+    "research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/org/eclipse/jdt/internal/compiler/parser/part1.rsc": [],
+    "research/node_modules/protractor/testapp/accessibility/index.html": [],
+    "research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE": [],
+    "spdx/": [],
+    "spdx/0BSD": [
+        "https://opensource.org/licenses/0BSD",
+        "https://opensource.org/licenses/0bsd",
+        "https://opensource.org/licenses/FPL-1.0.0",
+        "https://opensource.org/licenses/fpl-1.0.0",
+        "http://landley.net/toybox/license.html"
+    ],
+    "spdx/389-exception": [],
+    "spdx/AAL": [
+        "https://opensource.org/licenses/AAL",
+        "https://opensource.org/licenses/aal",
+        "http://www.opensource.org/licenses/attribution"
+    ],
+    "spdx/ADSL": [
+        "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense"
+    ],
+    "spdx/AFL-1.1": [
+        "http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php"
+    ],
+    "spdx/AFL-1.2": [
+        "http://wayback.archive.org/web/20021204204652/http://www.opensource.org/licenses/academic.php"
+    ],
+    "spdx/AFL-2.0": [
+        "http://wayback.archive.org/web/20060924134533/http://www.opensource.org/licenses/afl-2.0.txt"
+    ],
+    "spdx/AFL-2.1": [],
+    "spdx/AFL-3.0": [
+        "https://opensource.org/licenses/AFL-3.0",
+        "https://opensource.org/licenses/OSL-3.0",
+        "https://opensource.org/licenses/afl-3.0",
+        "https://opensource.org/licenses/osl-3.0",
+        "http://opensource.org/licenses/academic.php",
+        "https://www.gnu.org/licenses/license-list.html#OSL",
+        "https://www.gnu.org/licenses/license-list.html#osl",
+        "https://www.gnu.org/licenses/license-list.html#AcademicFreeLicense",
+        "https://www.gnu.org/licenses/license-list.html#academicfreelicense",
+        "http://directory.fsf.org/wiki/License:AFLv3",
+        "http://directory.fsf.org/wiki/License:OSLv3.0",
+        "http://www.opensource.org/licenses/OSL-3.0",
+        "http://www.opensource.org/licenses/afl-3.0",
+        "http://www.opensource.org/licenses/osl-3.0",
+        "https://web.archive.org/web/20120101081418/http://rosenlaw.com:80/OSL3.0.htm",
+        "https://web.archive.org/web/20120101081418/http://rosenlaw.com:80/osl3.0.htm"
+    ],
+    "spdx/AGPL-1.0": [],
+    "spdx/AGPL-1.0-only": [
+        "http://www.gnu.org/licenses/licenses.html#agpl",
+        "http://www.gnu.org/licenses/why-affero-gpl.html",
+        "https://www.gnu.org/licenses/license-list.html#AGPLv1.0",
+        "https://www.gnu.org/licenses/license-list.html#agplv1.0",
+        "http://directory.fsf.org/wiki/License:AGPLv1",
+        "http://www.affero.org/oagf.html",
+        "http://www.affero.org/oagpl.html"
+    ],
+    "spdx/AGPL-1.0-or-later": [],
+    "spdx/AGPL-3.0": [],
+    "spdx/AGPL-3.0-only": [
+        "https://opensource.org/licenses/AGPL-3.0",
+        "https://opensource.org/licenses/agpl-3.0",
+        "http://www.gnu.org/licenses/agpl.txt",
+        "https://www.gnu.org/licenses/agpl.html",
+        "http://www.gnu.org/licenses/agpl-3.0.txt",
+        "http://www.gnu.org/licenses/agpl-3.0.html",
+        "https://www.gnu.org/licenses/agpl-3.0.html",
+        "https://www.gnu.org/licenses/agpl-3.0-standalone.html",
+        "https://www.gnu.org/licenses/license-list.html#AGPLv3.0",
+        "https://www.gnu.org/licenses/license-list.html#agplv3.0",
+        "https://api.github.com/licenses/agpl-3.0",
+        "http://www.opensource.org/licenses/AGPL-3.0",
+        "http://www.opensource.org/licenses/agpl-3.0"
+    ],
+    "spdx/AGPL-3.0-or-later": [],
+    "spdx/AMDPLPA": [
+        "https://fedoraproject.org/wiki/Licensing/AMD_plpa_map_License"
+    ],
+    "spdx/AML": [
+        "https://fedoraproject.org/wiki/Licensing/Apple_MIT_License"
+    ],
+    "spdx/AMPAS": [
+        "https://fedoraproject.org/wiki/Licensing/BSD#AMPASBSD"
+    ],
+    "spdx/ANTLR-PD": [
+        "http://antlr.org/license.html",
+        "http://www.antlr.org/license.html",
+        "http://www.antlr2.org/license.html"
+    ],
+    "spdx/APAFML": [
+        "https://fedoraproject.org/wiki/Licensing/AdobePostscriptAFM"
+    ],
+    "spdx/APL-1.0": [
+        "https://opensource.org/licenses/APL-1.0",
+        "https://opensource.org/licenses/apl-1.0",
+        "http://www.opensource.org/licenses/APL-1.0",
+        "http://www.opensource.org/licenses/apl-1.0"
+    ],
+    "spdx/APSL-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#apsl1",
+        "https://directory.fsf.org/wiki/License:APSL-1.0",
+        "https://fedoraproject.org/wiki/Licensing/Apple_Public_Source_License_1.0"
+    ],
+    "spdx/APSL-1.1": [
+        "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE"
+    ],
+    "spdx/APSL-1.2": [],
+    "spdx/APSL-2.0": [
+        "https://opensource.org/licenses/APSL-2.0",
+        "https://opensource.org/licenses/apsl-2.0",
+        "https://www.gnu.org/licenses/license-list.html#apsl2",
+        "http://directory.fsf.org/wiki/License:APSLv2.0"
+    ],
+    "spdx/Abstyles": [
+        "https://fedoraproject.org/wiki/Licensing/Abstyles"
+    ],
+    "spdx/Adobe-2006": [
+        "https://fedoraproject.org/wiki/Licensing/AdobeLicense"
+    ],
+    "spdx/Adobe-Glyph": [
+        "https://fedoraproject.org/wiki/Licensing/MIT#AdobeGlyph"
+    ],
+    "spdx/Afmparse": [
+        "https://fedoraproject.org/wiki/Licensing/Afmparse"
+    ],
+    "spdx/Aladdin": [
+        "https://www.gnu.org/licenses/license-list.html#Aladdin",
+        "https://www.gnu.org/licenses/license-list.html#aladdin",
+        "http://pages.cs.wisc.edu/~ghost/doc/AFPL/6.01/Public.htm"
+    ],
+    "spdx/Apacche-2.0,\\nspdx/BSD-3-Clause,\\nspdx/MIT": [],
+    "spdx/Apache-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#apache1",
+        "http://directory.fsf.org/wiki/License:Apache1.0",
+        "http://directory.fsf.org/wiki/license:apache1.0",
+        "https://directory.fsf.org/wiki/license:apache1.0",
+        "http://www.apache.org/licenses/LICENSE-1.0"
+    ],
+    "spdx/Apache-1.0,\\nspdx/BSD-2-Clause": [],
+    "spdx/Apache-1.1": [
+        "http://opensource.org/licenses/Apache-1.1",
+        "http://opensource.org/licenses/apache-1.1",
+        "https://opensource.org/licenses/apachepl-1.1",
+        "https://www.gnu.org/licenses/license-list.html#apache1.1",
+        "http://directory.fsf.org/wiki/License:Apache1.1",
+        "http://directory.fsf.org/wiki/license:apache1.1",
+        "https://directory.fsf.org/wiki/license:apache1.1",
+        "http://apache.org/licenses/LICENSE-1.1"
+    ],
+    "spdx/Apache-2.0": [
+        "http://opensource.org/licenses/apache-2.0",
+        "https://opensource.org/licenses/Apache-2.0",
+        "https://opensource.org/licenses/apache-2.0",
+        "http://opensource.org/licenses/apache2.0.php",
+        "https://www.gnu.org/licenses/license-list.html#apache2",
+        "http://directory.fsf.org/wiki/License:Apache2.0",
+        "http://directory.fsf.org/wiki/license:apache2.0",
+        "http://jakarta.apache.org/bsf",
+        "http://rmock.sourceforge.net/",
+        "https://aws.amazon.com/apache2.0",
+        "http://www.ehcache.org/about/license",
+        "https://james.apache.org/license.html",
+        "http://rmock.sourceforge.net/license.html",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "https://api.github.com/licenses/apache-2.0",
+        "http://freemarker.org/docs/app_license.html",
+        "http://www.opensource.org/licenses/Apache-2.0",
+        "http://www.opensource.org/licenses/apache-2.0",
+        "http://www.opensource.org/licenses/apache2.0.php",
+        "http://repository.jboss.org/licenses/apache-2.0.txt",
+        "https://xerces.apache.org/xml-commons/licenses.html",
+        "https://github.com/brianfrankcooper/ycsb/wiki/license",
+        "http://www.mojohaus.org/cobertura-maven-plugin/license.html",
+        "https://gleclaire.github.io/findbugs-maven-plugin/license.html",
+        "https://github.com/reactive-extensions/rxjs/blob/master/license.txt"
+    ],
+    "spdx/Apache-2.0,\\nspdx/MIT": [],
+    "spdx/Apache-2.0,\\rspdx/BSD-3-Clause,\\rspdx/Python-2.0": [],
+    "spdx/Artistic-1.0": [
+        "http://opensource.org/licenses/Artistic-1.0",
+        "http://opensource.org/licenses/artistic-1.0",
+        "https://opensource.org/licenses/artistic-1.0",
+        "https://opensource.org/licenses/artistic-license-1.0",
+        "https://www.gnu.org/licenses/license-list.html#ArtisticLicense",
+        "https://www.gnu.org/licenses/license-list.html#artisticlicense",
+        "http://directory.fsf.org/wiki/License:Artistic_v1.0",
+        "http://directory.fsf.org/wiki/license:artistic_v1.0",
+        "https://directory.fsf.org/wiki/license:artistic_v1.0"
+    ],
+    "spdx/Artistic-1.0-Perl": [
+        "http://dev.perl.org/licenses/artistic.html"
+    ],
+    "spdx/Artistic-1.0-cl8": [],
+    "spdx/Artistic-2.0": [
+        "https://opensource.org/licenses/Artistic-2.0",
+        "https://opensource.org/licenses/artistic-2.0",
+        "https://www.gnu.org/licenses/license-list.html#ArtisticLicense2",
+        "https://www.gnu.org/licenses/license-list.html#artisticlicense2",
+        "http://directory.fsf.org/wiki/License:ArtisticLicense2.0",
+        "http://www.perlfoundation.org/artistic_license_2_0",
+        "http://www.opensource.org/licenses/artistic-license-2.0",
+        "http://www.opensource.org/licenses/artistic-license-2.0.php"
+    ],
+    "spdx/Autoconf-exception-2.0": [],
+    "spdx/Autoconf-exception-3.0": [],
+    "spdx/BSD-1-Clause": [
+        "https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823"
+    ],
+    "spdx/BSD-2-Clause": [
+        "http://opensource.org/licenses/bsd-2-clause",
+        "https://opensource.org/licenses/BSD-2-Clause",
+        "https://opensource.org/licenses/bsd-2-clause",
+        "http://jodd.org/license.html",
+        "https://api.github.com/licenses/bsd-2-clause",
+        "http://www.opensource.org/licenses/bsd-license",
+        "http://www.opensource.org/licenses/BSD-2-Clause",
+        "http://www.opensource.org/licenses/bsd-2-clause",
+        "http://www.opensource.org/licenses/bsd-license.php",
+        "http://www.opensource.org/licenses/bsd-license.html"
+    ],
+    "spdx/BSD-2-Clause-FreeBSD": [
+        "https://www.gnu.org/licenses/license-list.html#FreeBSD",
+        "https://www.gnu.org/licenses/license-list.html#freebsd",
+        "https://www.gnu.org/licenses/license-list.html#FreeBSDDL",
+        "https://www.gnu.org/licenses/license-list.html#freebsddl",
+        "http://directory.fsf.org/wiki?title=License:FreeBSD",
+        "http://www.linfo.org/bsdlicense.html",
+        "http://www.freebsd.org/copyright/freebsd-license.html",
+        "https://www.freebsd.org/copyright/freebsd-license.html"
+    ],
+    "spdx/BSD-2-Clause-NetBSD": [
+        "http://www.netbsd.org/about/redistribution.html#default"
+    ],
+    "spdx/BSD-2-Clause-Patent": [],
+    "spdx/BSD-3-Clause": [
+        "http://opensource.org/licenses/bsd-3-clause",
+        "https://opensource.org/licenses/BSD-3-Clause",
+        "https://opensource.org/licenses/bsd-3-clause",
+        "http://opensource.org/licenses/bsd-license.php",
+        "https://opensource.org/licenses/bsd-license.php",
+        "https://www.gnu.org/licenses/license-list.html#ModifiedBSD",
+        "https://www.gnu.org/licenses/license-list.html#modifiedbsd",
+        "http://directory.fsf.org/wiki/License:BSD_3Clause",
+        "http://asm.ow2.org/license.html",
+        "http://unkrig.de/w/new_bsd_license",
+        "http://www.gwtproject.org/terms.html",
+        "http://about.validator.nu/htmlparser/",
+        "http://asm.objectweb.org/license.html",
+        "http://x-stream.github.io/license.html",
+        "http://jung.sourceforge.net/license.txt",
+        "http://www.webkit.org/coding/bsd-license.html",
+        "http://www.abego-software.de/legal/apl-v10.html",
+        "http://www.opensource.org/licenses/BSD-3-Clause",
+        "http://www.opensource.org/licenses/bsd-3-clause",
+        "https://github.com/drewfish/node-tick-processor",
+        "http://telnetd.sourceforge.net/license.html#license+text",
+        "http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html",
+        "https://raw.githubusercontent.com/vaadin/vaadin-deps/master/licenses/licenses/new-bsd-license.txt"
+    ],
+    "spdx/BSD-3-Clause,\\nspdx/MIT": [],
+    "spdx/BSD-3-Clause,\\rspdx/MIT": [],
+    "spdx/BSD-3-Clause-Attribution": [
+        "https://fedoraproject.org/wiki/Licensing/BSD_with_Attribution"
+    ],
+    "spdx/BSD-3-Clause-Clear": [
+        "https://www.gnu.org/licenses/license-list.html#clearbsd",
+        "http://directory.fsf.org/wiki/License:ClearBSD"
+    ],
+    "spdx/BSD-3-Clause-LBNL": [
+        "https://fedoraproject.org/wiki/Licensing/LBNLBSD"
+    ],
+    "spdx/BSD-3-Clause-No-Nuclear-License": [
+        "http://download.oracle.com/otn-pub/java/licenses/bsd.txt",
+        "https://github.com/orbeon/msv/blob/master/msv/license.txt"
+    ],
+    "spdx/BSD-3-Clause-No-Nuclear-License-2014": [
+        "https://java.net/projects/javaeetutorial/pages/BerkeleyLicense",
+        "https://java.net/projects/javaeetutorial/pages/berkeleylicense"
+    ],
+    "spdx/BSD-3-Clause-No-Nuclear-Warranty": [],
+    "spdx/BSD-4-Clause": [
+        "https://www.gnu.org/licenses/license-list.html#OriginalBSD",
+        "https://www.gnu.org/licenses/license-list.html#originalbsd",
+        "http://directory.fsf.org/wiki/License:BSD_4Clause"
+    ],
+    "spdx/BSD-4-Clause-UC": [
+        "http://www.freebsd.org/copyright/license.html"
+    ],
+    "spdx/BSD-Protection": [
+        "https://fedoraproject.org/wiki/Licensing/BSD_Protection_License"
+    ],
+    "spdx/BSD-Source-Code": [
+        "http://jmock.org/license.html",
+        "https://github.com/robbiehanson/CocoaHTTPServer/blob/master/LICENSE.txt"
+    ],
+    "spdx/BSDplusPatent": [
+        "https://opensource.org/licenses/BSDplusPatent",
+        "https://opensource.org/licenses/bsdpluspatent"
+    ],
+    "spdx/BSL-1.0": [
+        "https://opensource.org/licenses/BSL-1.0",
+        "https://opensource.org/licenses/bsl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#boost",
+        "http://directory.fsf.org/wiki/License:Boost1.0",
+        "http://directory.fsf.org/wiki/license:boost1.0",
+        "http://www.boost.org/LICENSE_1_0.txt",
+        "http://www.opensource.org/licenses/BSL-1.0",
+        "http://www.opensource.org/licenses/bsl-1.0"
+    ],
+    "spdx/Bahyph": [
+        "https://fedoraproject.org/wiki/Licensing/Bahyph"
+    ],
+    "spdx/Barr": [
+        "https://fedoraproject.org/wiki/Licensing/Barr"
+    ],
+    "spdx/Beerware": [
+        "https://people.freebsd.org/~phk/",
+        "https://fedoraproject.org/wiki/Licensing/Beerware"
+    ],
+    "spdx/Bison-exception-2.2": [],
+    "spdx/BitTorrent-1.0": [
+        "http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/licenses/BitTorrent?r1=1.1&r2=1.1.1.1&diff_format=s"
+    ],
+    "spdx/BitTorrent-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#bittorrent",
+        "http://directory.fsf.org/wiki/License:BitTorrentOSL1.1"
+    ],
+    "spdx/Bootloader-exception": [],
+    "spdx/Borceux": [
+        "https://fedoraproject.org/wiki/Licensing/Borceux"
+    ],
+    "spdx/CATOSL-1.1": [
+        "http://opensource.org/licenses/CATOSL-1.1",
+        "http://opensource.org/licenses/catosl-1.1",
+        "https://opensource.org/licenses/CATOSL-1.1",
+        "https://opensource.org/licenses/catosl-1.1"
+    ],
+    "spdx/CC-BY-1.0": [],
+    "spdx/CC-BY-2.0": [],
+    "spdx/CC-BY-2.5": [],
+    "spdx/CC-BY-3.0": [],
+    "spdx/CC-BY-4.0": [
+        "https://www.gnu.org/licenses/license-list.html#ccby"
+    ],
+    "spdx/CC-BY-NC-1.0": [],
+    "spdx/CC-BY-NC-2.0": [],
+    "spdx/CC-BY-NC-2.5": [],
+    "spdx/CC-BY-NC-3.0": [],
+    "spdx/CC-BY-NC-4.0": [
+        "https://www.gnu.org/licenses/license-list.html#CC-BY-NC",
+        "https://www.gnu.org/licenses/license-list.html#cc-by-nc"
+    ],
+    "spdx/CC-BY-NC-ND-1.0": [],
+    "spdx/CC-BY-NC-ND-2.0": [],
+    "spdx/CC-BY-NC-ND-2.5": [],
+    "spdx/CC-BY-NC-ND-3.0": [],
+    "spdx/CC-BY-NC-ND-4.0": [],
+    "spdx/CC-BY-NC-SA-1.0": [],
+    "spdx/CC-BY-NC-SA-2.0": [],
+    "spdx/CC-BY-NC-SA-2.5": [],
+    "spdx/CC-BY-NC-SA-3.0": [],
+    "spdx/CC-BY-NC-SA-4.0": [],
+    "spdx/CC-BY-ND-1.0": [],
+    "spdx/CC-BY-ND-2.0": [],
+    "spdx/CC-BY-ND-2.5": [],
+    "spdx/CC-BY-ND-3.0": [],
+    "spdx/CC-BY-ND-4.0": [
+        "https://www.gnu.org/licenses/license-list.html",
+        "https://www.gnu.org/licenses/license-list.html#ccbynd",
+        "https://www.gnu.org/licenses/license-list.html#CC-BY-ND",
+        "https://www.gnu.org/licenses/license-list.html#cc-by-nd"
+    ],
+    "spdx/CC-BY-SA-1.0": [],
+    "spdx/CC-BY-SA-2.0": [],
+    "spdx/CC-BY-SA-2.5": [],
+    "spdx/CC-BY-SA-3.0": [],
+    "spdx/CC-BY-SA-4.0": [
+        "https://www.gnu.org/licenses/license-list.html#ccbysa"
+    ],
+    "spdx/CC0-1.0": [
+        "https://opensource.org/faq#cc-zero",
+        "https://www.gnu.org/licenses/license-list.html#CC0",
+        "https://www.gnu.org/licenses/license-list.html#cc0",
+        "http://directory.fsf.org/wiki/License:CC0",
+        "http://repository.jboss.org/licenses/cc0-1.0.txt"
+    ],
+    "spdx/CDDL-1.0": [
+        "https://opensource.org/licenses/CDDL-1.0",
+        "https://opensource.org/licenses/cddl-1.0",
+        "http://www.opensource.org/licenses/cddl1",
+        "http://www.opensource.org/licenses/cddl-1.0",
+        "http://www.opensource.org/licenses/cddl1.txt",
+        "http://repository.jboss.org/licenses/cddl.txt",
+        "https://glassfish.dev.java.net/public/cddlv1.0.html"
+    ],
+    "spdx/CDDL-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#CDDL",
+        "https://www.gnu.org/licenses/license-list.html#cddl",
+        "http://directory.fsf.org/wiki/License:CDDLv1.0",
+        "https://javaee.github.io/glassfish/LICENSE",
+        "http://www.opensource.org/licenses/cddl1.php",
+        "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+        "http://glassfish.java.net/public/cddl+gpl_1_1.html"
+    ],
+    "spdx/CDLA-Permissive-1.0": [
+        "https://cdla.io/permissive-1-0"
+    ],
+    "spdx/CDLA-Sharing-1.0": [
+        "https://cdla.io/sharing-1-0"
+    ],
+    "spdx/CECILL-1.0": [
+        "http://www.cecill.info/licences/Licence_CeCILL_V1-fr.html"
+    ],
+    "spdx/CECILL-1.1": [
+        "http://www.cecill.info/licences/Licence_CeCILL_V1.1-US.html"
+    ],
+    "spdx/CECILL-2.0": [
+        "https://www.gnu.org/licenses/license-list.html#CeCILL",
+        "https://www.gnu.org/licenses/license-list.html#cecill",
+        "https://directory.fsf.org/wiki/License:CeCILLv2",
+        "http://www.cecill.info/licences/Licence_CeCILL_V2-en.html"
+    ],
+    "spdx/CECILL-2.1": [
+        "https://opensource.org/licenses/CECILL-2.1",
+        "https://opensource.org/licenses/cecill-2.1",
+        "http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html"
+    ],
+    "spdx/CECILL-B": [
+        "https://www.gnu.org/licenses/license-list.html#CeCILL-B",
+        "https://www.gnu.org/licenses/license-list.html#cecill-b",
+        "http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html"
+    ],
+    "spdx/CECILL-C": [
+        "https://www.gnu.org/licenses/license-list.html#CeCILL-C",
+        "https://www.gnu.org/licenses/license-list.html#cecill-c",
+        "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html"
+    ],
+    "spdx/CLISP-exception-2.0": [],
+    "spdx/CNRI-Jython": [
+        "http://www.jython.org/license.html"
+    ],
+    "spdx/CNRI-Python": [
+        "https://opensource.org/licenses/CNRI-Python",
+        "https://opensource.org/licenses/cnri-python",
+        "http://dorepository.org/download.html",
+        "http://www.opensource.org/licenses/CNRI-Python",
+        "http://www.opensource.org/licenses/cnri-python"
+    ],
+    "spdx/CNRI-Python-GPL-Compatible": [],
+    "spdx/CPAL-1.0": [
+        "https://opensource.org/licenses/CPAL-1.0",
+        "https://opensource.org/licenses/cpal-1.0",
+        "https://www.gnu.org/licenses/license-list.html#CPAL",
+        "https://www.gnu.org/licenses/license-list.html#cpal",
+        "http://www.opensource.org/licenses/CPAL-1.0",
+        "http://www.opensource.org/licenses/cpal-1.0",
+        "https://www.socialtext.net/open/cpal_license_in_wikitext"
+    ],
+    "spdx/CPL-1.0": [
+        "http://opensource.org/licenses/CPL-1.0",
+        "http://opensource.org/licenses/cpl-1.0",
+        "https://opensource.org/licenses/cpl1.0",
+        "https://opensource.org/licenses/cpl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#CommonPublicLicense10",
+        "https://www.gnu.org/licenses/license-list.html#commonpubliclicense10",
+        "http://directory.fsf.org/wiki/License:CPLv1.0",
+        "http://www.opensource.org/licenses/cpl1.0",
+        "https://www.eclipse.org/legal/cpl-v10.html",
+        "http://htmlparser.sourceforge.net/cpl1.0.txt",
+        "http://www.opensource.org/licenses/cpl1.0.txt",
+        "https://www.ibm.com/developerworks/library/os-cpl.html",
+        "http://www-128.ibm.com/developerworks/library/os-cpl.html",
+        "http://oss.software.ibm.com/developerworks/opensource/cplv1.0.htm",
+        "https://www.ibm.com/developerworks/library/os-cplfaq/os-cplfaq-pdf.pdf"
+    ],
+    "spdx/CPOL-1.02": [
+        "https://www.gnu.org/licenses/license-list.html#cpol",
+        "http://www.codeproject.com/info/cpol10.aspx"
+    ],
+    "spdx/CUA-OPL-1.0": [
+        "http://opensource.org/licenses/CUA-OPL-1.0",
+        "http://opensource.org/licenses/cua-opl-1.0",
+        "https://opensource.org/licenses/cua-opl-1.0"
+    ],
+    "spdx/Caldera": [
+        "http://www.lemis.com/grog/UNIX/ancient-source-all.pdf"
+    ],
+    "spdx/ClArtistic": [
+        "https://www.gnu.org/licenses/license-list.html#ClarifiedArtistic",
+        "https://www.gnu.org/licenses/license-list.html#clarifiedartistic",
+        "http://www.ncftp.com/ncftp/doc/LICENSE.txt",
+        "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/"
+    ],
+    "spdx/Classpath-exception-2.0": [],
+    "spdx/Condor-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#Condor",
+        "https://www.gnu.org/licenses/license-list.html#condor",
+        "http://directory.fsf.org/wiki?title=License:Condor1.1",
+        "http://directory.fsf.org/wiki?title=license:condor1.1",
+        "https://directory.fsf.org/wiki?title=license:condor1.1",
+        "http://research.cs.wisc.edu/condor/license.html#condor",
+        "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor"
+    ],
+    "spdx/Crossword": [
+        "https://fedoraproject.org/wiki/Licensing/Crossword"
+    ],
+    "spdx/CrystalStacker": [
+        "https://fedoraproject.org/wiki/Licensing:CrystalStacker?rd=Licensing/CrystalStacker"
+    ],
+    "spdx/Cube": [
+        "https://fedoraproject.org/wiki/Licensing/Cube"
+    ],
+    "spdx/D-FSL-1.0": [
+        "http://www.dipp.nrw.de/d-fsl/lizenzen/",
+        "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl",
+        "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/de/D-FSL-1_0_de.txt",
+        "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/de/d-fsl-1_0_de.txt",
+        "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/en/D-FSL-1_0_en.txt",
+        "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/en/d-fsl-1_0_en.txt",
+        "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/german-free-software-license",
+        "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/deutsche-freie-software-lizenz",
+        "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_de.txt/at_download/file",
+        "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_en.txt/at_download/file"
+    ],
+    "spdx/DOC": [],
+    "spdx/DSDP": [
+        "https://fedoraproject.org/wiki/Licensing/DSDP"
+    ],
+    "spdx/DigiRule-FOSS-exception": [],
+    "spdx/Dotseqn": [
+        "https://fedoraproject.org/wiki/Licensing/Dotseqn"
+    ],
+    "spdx/ECL-1.0": [
+        "http://opensource.org/licenses/ECL-1.0",
+        "http://opensource.org/licenses/ecl-1.0",
+        "https://opensource.org/licenses/ecl-1.0"
+    ],
+    "spdx/ECL-2.0": [
+        "http://opensource.org/licenses/ECL-2.0",
+        "http://opensource.org/licenses/ecl-2.0",
+        "https://opensource.org/licenses/ECL-2.0",
+        "https://opensource.org/licenses/ecl-2.0",
+        "https://www.gnu.org/licenses/license-list.html#ECL2.0",
+        "https://www.gnu.org/licenses/license-list.html#ecl2.0",
+        "http://directory.fsf.org/wiki/License:ECL2.0",
+        "http://www.opensource.org/licenses/ecl2.txt",
+        "http://maven.kuali.org/external/org/opensource/ecl/2.0/ecl-2.0.txt"
+    ],
+    "spdx/EFL-1.0": [
+        "http://opensource.org/licenses/EFL-1.0",
+        "http://opensource.org/licenses/efl-1.0",
+        "http://www.eiffel-nice.org/license/forum.txt"
+    ],
+    "spdx/EFL-2.0": [
+        "http://opensource.org/licenses/EFL-2.0",
+        "http://opensource.org/licenses/efl-2.0",
+        "https://opensource.org/licenses/EFL-2.0",
+        "https://opensource.org/licenses/efl-2.0",
+        "https://www.gnu.org/licenses/license-list.html#Eiffel",
+        "https://www.gnu.org/licenses/license-list.html#eiffel",
+        "https://www.gnu.org/licenses/eiffel-forum-license-2.html",
+        "http://directory.fsf.org/wiki/License:EFLv2",
+        "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html"
+    ],
+    "spdx/EPL-1.0": [
+        "http://opensource.org/licenses/epl-1.0",
+        "https://opensource.org/licenses/EPL-1.0",
+        "https://opensource.org/licenses/epl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#EPL",
+        "https://www.gnu.org/licenses/license-list.html#epl",
+        "http://directory.fsf.org/wiki/License:EPLv1.0",
+        "http://eclipse.org/legal/epl-v10.html",
+        "https://api.github.com/licenses/epl-1.0",
+        "http://www.eclipse.org/legal/epl-v10.html",
+        "http://www.opensource.org/licenses/EPL-1.0",
+        "http://www.opensource.org/licenses/epl-1.0",
+        "https://www.eclipse.org/legal/epl-v10.html",
+        "http://www.opensource.org/licenses/eclipse-1.0",
+        "http://www.eclipse.org/org/documents/epl-v10.php",
+        "http://www.eclipse.org/org/documents/epl-v10.html"
+    ],
+    "spdx/EPL-2.0": [
+        "https://opensource.org/licenses/EPL-2.0",
+        "https://opensource.org/licenses/epl-2.0",
+        "https://www.gnu.org/licenses/license-list.html#EPL2",
+        "https://www.gnu.org/licenses/license-list.html#epl2",
+        "https://www.eclipse.org/legal/epl-2.0",
+        "https://www.eclipse.org/legal/epl-2.0/",
+        "http://www.eclipse.org/legal/epl-v20.html",
+        "https://www.opensource.org/licenses/EPL-2.0",
+        "https://www.opensource.org/licenses/epl-2.0"
+    ],
+    "spdx/EUDatagrid": [
+        "https://opensource.org/licenses/EUDatagrid",
+        "https://opensource.org/licenses/eudatagrid",
+        "https://www.gnu.org/licenses/license-list.html#EUDataGrid",
+        "https://www.gnu.org/licenses/license-list.html#eudatagrid",
+        "http://directory.fsf.org/wiki/License:EUDataGrid",
+        "http://www.opensource.org/licenses/EUDatagrid",
+        "http://www.opensource.org/licenses/eudatagrid",
+        "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html"
+    ],
+    "spdx/EUPL-1.0": [
+        "http://ec.europa.eu/idabc/en/document/7330.html",
+        "http://ec.europa.eu/idabc/servlets/Doc027f.pdf?id=31096"
+    ],
+    "spdx/EUPL-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#eupl",
+        "https://www.gnu.org/licenses/license-list.html#EUPL-1.1",
+        "https://www.gnu.org/licenses/license-list.html#eupl-1.1",
+        "http://directory.fsf.org/wiki/License:EUPLv1.1",
+        "http://joinup.ec.europa.eu/software/page/eupl",
+        "https://joinup.ec.europa.eu/software/page/eupl",
+        "https://joinup.ec.europa.eu/software/page/eupl/licence-eupl",
+        "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl1.1.-licence-en_0.pdf"
+    ],
+    "spdx/EUPL-1.2": [
+        "https://opensource.org/licenses/EUPL-1.1",
+        "https://opensource.org/licenses/eupl-1.1",
+        "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
+        "https://www.gnu.org/licenses/license-list.html#eupl-1.2",
+        "http://directory.fsf.org/wiki/License:EUPLv1.2",
+        "http://www.opensource.org/licenses/EUPL-1.1",
+        "http://www.opensource.org/licenses/eupl-1.1",
+        "https://joinup.ec.europa.eu/page/eupl-text-11-12",
+        "http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017D0863",
+        "https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt",
+        "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf"
+    ],
+    "spdx/Entessa": [
+        "http://opensource.org/licenses/Entessa",
+        "http://opensource.org/licenses/entessa",
+        "https://opensource.org/licenses/Entessa",
+        "https://opensource.org/licenses/entessa"
+    ],
+    "spdx/ErlPL-1.1": [
+        "http://www.erlang.org/EPLICENSE"
+    ],
+    "spdx/Eurosym": [
+        "https://fedoraproject.org/wiki/Licensing/Eurosym"
+    ],
+    "spdx/FLTK-exception": [],
+    "spdx/FSFAP": [
+        "https://www.gnu.org/licenses/license-list.html#GNUAllPermissive",
+        "https://www.gnu.org/licenses/license-list.html#gnuallpermissive",
+        "http://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html",
+        "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html"
+    ],
+    "spdx/FSFUL": [
+        "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
+    ],
+    "spdx/FSFULLR": [
+        "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License#License_Retention_Variant"
+    ],
+    "spdx/FTL": [
+        "https://www.gnu.org/licenses/license-list.html#freetype",
+        "http://directory.fsf.org/wiki/License:FreeType",
+        "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT"
+    ],
+    "spdx/Fair": [
+        "https://opensource.org/licenses/Fair",
+        "https://opensource.org/licenses/fair",
+        "http://fairlicense.org/",
+        "http://www.opensource.org/licenses/Fair",
+        "http://www.opensource.org/licenses/fair"
+    ],
+    "spdx/Fawkes-Runtime-exception": [],
+    "spdx/Font-exception-2.0": [],
+    "spdx/Frameworx-1.0": [
+        "https://opensource.org/licenses/Frameworx-1.0",
+        "https://opensource.org/licenses/frameworx-1.0",
+        "http://www.opensource.org/licenses/Frameworx-1.0",
+        "http://www.opensource.org/licenses/frameworx-1.0"
+    ],
+    "spdx/FreeImage": [
+        "http://freeimage.sourceforge.net/freeimage-license.txt"
+    ],
+    "spdx/GCC-exception-2.0": [],
+    "spdx/GCC-exception-3.1": [],
+    "spdx/GFDL-1.1": [],
+    "spdx/GFDL-1.1-only": [
+        "https://www.gnu.org/licenses/fdl.html",
+        "http://www.gnu.org/licenses/old-licenses/fdl-1.1.txt"
+    ],
+    "spdx/GFDL-1.1-or-later": [],
+    "spdx/GFDL-1.2-only": [
+        "http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
+    ],
+    "spdx/GFDL-1.2-or-later": [],
+    "spdx/GFDL-1.3-only": [
+        "http://www.gnu.org/licenses/fdl-1.3.txt",
+        "https://www.gnu.org/licenses/license-list.html#FDL",
+        "https://www.gnu.org/licenses/license-list.html#fdl",
+        "https://www.gnu.org/licenses/license-list.html#FDLOther",
+        "https://www.gnu.org/licenses/license-list.html#fdlother"
+    ],
+    "spdx/GFDL-1.3-or-later": [],
+    "spdx/GL2PS": [
+        "http://www.geuz.org/gl2ps/COPYING.GL2PS"
+    ],
+    "spdx/GPL-1.0-only": [
+        "http://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
+    ],
+    "spdx/GPL-1.0-or-later": [],
+    "spdx/GPL-2.0": [],
+    "spdx/GPL-2.0+ WITH eCos-exception-2.0": [
+        "https://www.gnu.org/licenses/license-list.html#eCos2.0",
+        "https://www.gnu.org/licenses/license-list.html#ecos2.0",
+        "http://directory.fsf.org/wiki/License:ECos2.0"
+    ],
+    "spdx/GPL-2.0,\\nspdx/BSD-3-Clause": [],
+    "spdx/GPL-2.0,\\nspdx/MIT": [],
+    "spdx/GPL-2.0,\\rspdx/LGPL-2.1": [],
+    "spdx/GPL-2.0,\\rspdx/LGPL-2.1,\\rFSF/FDLv1.1,\\r?Custom?": [],
+    "spdx/GPL-2.0-only": [
+        "https://opensource.org/licenses/GPL-2.0",
+        "https://opensource.org/licenses/gpl-2.0",
+        "https://opensource.org/licenses/gpl-license",
+        "http://www.gnu.org/licenses",
+        "http://www.gnu.org/licenses/gpl.txt",
+        "http://www.gnu.org/copyleft/gpl.html",
+        "http://www.gnu.org/licenses/gpl.html",
+        "https://www.gnu.org/licenses/gpl.txt",
+        "http://www.gnu.org/licenses/gpl-2.0.txt",
+        "http://www.gnu.org/licenses/gpl-2.0.html",
+        "https://www.gnu.org/licenses/gpl-2.0.txt",
+        "http://www.gnu.org/licenses/licenses.html",
+        "https://www.gnu.org/licenses/gpl-2.0.html",
+        "http://www.gnu.org/licenses/gpl-2.0-standalone.html",
+        "http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+        "https://www.gnu.org/licenses/license-list.html#GPLv2",
+        "https://www.gnu.org/licenses/license-list.html#gplv2",
+        "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+        "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+        "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+        "https://api.github.com/licenses/gpl-2.0",
+        "http://www.opensource.org/licenses/GPL-2.0",
+        "http://www.opensource.org/licenses/gpl-2.0"
+    ],
+    "spdx/GPL-2.0-or-later": [],
+    "spdx/GPL-2.0-with-GCC-exception": [
+        "https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10"
+    ],
+    "spdx/GPL-2.0-with-autoconf-exception": [
+        "http://ac-archive.sourceforge.net/doc/copyright.html"
+    ],
+    "spdx/GPL-2.0-with-bison-exception": [
+        "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141"
+    ],
+    "spdx/GPL-2.0-with-classpath-exception": [
+        "http://www.gnu.org/software/classpath/license.html",
+        "https://www.gnu.org/software/classpath/license.html",
+        "http://openjdk.java.net/legal/gplv2+ce.html",
+        "http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+    ],
+    "spdx/GPL-2.0-with-font-exception": [
+        "http://www.gnu.org/licenses/gpl-faq.html#FontException",
+        "http://www.gnu.org/licenses/gpl-faq.html#fontexception",
+        "https://www.gnu.org/licenses/gpl-faq.html#fontexception"
+    ],
+    "spdx/GPL-3.0,\\nspdx/MIT": [],
+    "spdx/GPL-3.0,\\rspdx/GCC-exception-3.1,\\rspdx/LGPL-2.0-or-later": [],
+    "spdx/GPL-3.0-only": [
+        "https://opensource.org/licenses/GPL-3.0",
+        "https://opensource.org/licenses/gpl-3.0",
+        "http://www.gnu.org/licenses/",
+        "https://www.gnu.org/licenses/gpl.html",
+        "http://www.gnu.org/licenses/gpl-3.0.txt",
+        "http://www.gnu.org/licenses/gpl-3.0.html",
+        "https://www.gnu.org/licenses/gpl-3.0.txt",
+        "https://www.gnu.org/licenses/gpl-3.0.html",
+        "http://www.gnu.org/licenses/gpl-3.0.en.html",
+        "https://www.gnu.org/licenses/gpl-3.0.en.html",
+        "http://www.gnu.org/licenses/gpl-3.0-standalone.html",
+        "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+        "https://www.gnu.org/licenses/license-list.html#gnugpl",
+        "https://www.gnu.org/licenses/license-list.html#GNUGPLv3",
+        "https://www.gnu.org/licenses/license-list.html#GPLFonts",
+        "https://www.gnu.org/licenses/license-list.html#GPLOther",
+        "https://www.gnu.org/licenses/license-list.html#gnugplv3",
+        "https://www.gnu.org/licenses/license-list.html#gplfonts",
+        "https://www.gnu.org/licenses/license-list.html#gplother",
+        "https://api.github.com/licenses/gpl-3.0",
+        "http://www.opensource.org/licenses/GPL-3.0",
+        "http://www.opensource.org/licenses/gpl-3.0"
+    ],
+    "spdx/GPL-3.0-or-later": [],
+    "spdx/GPL-3.0-with-GCC-exception": [
+        "http://www.gnu.org/licenses/gcc-exception-3.1.html"
+    ],
+    "spdx/GPL-3.0-with-autoconf-exception": [
+        "http://www.gnu.org/licenses/autoconf-exception-3.0.html"
+    ],
+    "spdx/Giftware": [
+        "http://liballeg.org/license.html#allegro-4-the-giftware-license"
+    ],
+    "spdx/Glide": [
+        "http://www.users.on.net/~triforce/glidexp/COPYING.txt",
+        "http://www.users.on.net/~triforce/glidexp/copying.txt"
+    ],
+    "spdx/Glulxe": [
+        "https://fedoraproject.org/wiki/Licensing/Glulxe"
+    ],
+    "spdx/HPND": [
+        "https://opensource.org/licenses/HPND",
+        "https://opensource.org/licenses/hpnd",
+        "https://www.gnu.org/licenses/license-list.html#HPND",
+        "https://www.gnu.org/licenses/license-list.html#hpnd",
+        "http://directory.fsf.org/wiki/License:Historical_Permission_Notice_and_Disclaimer",
+        "http://www.opensource.org/licenses/HPND",
+        "http://www.opensource.org/licenses/hpnd"
+    ],
+    "spdx/HaskellReport": [
+        "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License"
+    ],
+    "spdx/IBM-pibs": [],
+    "spdx/ICU": [
+        "http://userguide.icu-project.org/icufaq#toc-how-is-the-icu-licensed"
+    ],
+    "spdx/IJG": [
+        "https://www.gnu.org/licenses/license-list.html#ijg",
+        "http://directory.fsf.org/wiki?title=License:JPEG",
+        "http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2"
+    ],
+    "spdx/IPA": [
+        "https://opensource.org/licenses/IPA",
+        "https://opensource.org/licenses/ipa",
+        "https://www.gnu.org/licenses/license-list.html#IPAFONT",
+        "https://www.gnu.org/licenses/license-list.html#ipafont",
+        "http://directory.fsf.org/wiki/License:IPA_Font_License",
+        "http://www.opensource.org/licenses/IPA",
+        "http://www.opensource.org/licenses/ipa"
+    ],
+    "spdx/IPL-1.0": [
+        "https://opensource.org/licenses/IPL-1.0",
+        "https://opensource.org/licenses/ipl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#IBMPL",
+        "https://www.gnu.org/licenses/license-list.html#ibmpl",
+        "http://directory.fsf.org/wiki/License:IBMPLv1.0",
+        "http://www.opensource.org/licenses/IPL-1.0",
+        "http://www.opensource.org/licenses/ipl-1.0"
+    ],
+    "spdx/ISC": [
+        "https://opensource.org/licenses/ISC",
+        "https://opensource.org/licenses/isc",
+        "https://opensource.org/licenses/isc-license",
+        "https://opensource.org/licenses/isc-license.txt",
+        "https://www.gnu.org/licenses/license-list.html#ISC",
+        "https://www.gnu.org/licenses/license-list.html#isc",
+        "http://directory.fsf.org/wiki/License:ISC",
+        "http://io7m.com/license/isc.txt",
+        "http://www.opensource.org/licenses/ISC",
+        "http://www.opensource.org/licenses/isc",
+        "http://www.isc.org/downloads/software-support-policy/isc-license/",
+        "https://www.isc.org/downloads/software-support-policy/isc-license/"
+    ],
+    "spdx/ISC,\\n,spdx/WTFPL": [],
+    "spdx/ImageMagick": [
+        "http://www.imagemagick.org/script/license.php"
+    ],
+    "spdx/Imlib2": [
+        "https://www.gnu.org/licenses/license-list.html#imlib",
+        "http://directory.fsf.org/wiki/License:Imlib2",
+        "http://directory.fsf.org/wiki/license:imlib2",
+        "https://directory.fsf.org/wiki/license:imlib2",
+        "https://git.enlightenment.org/legacy/imlib2.git/tree/COPYING"
+    ],
+    "spdx/Info-ZIP": [
+        "http://www.info-zip.org/license.html"
+    ],
+    "spdx/Intel": [
+        "http://opensource.org/licenses/Intel",
+        "http://opensource.org/licenses/intel"
+    ],
+    "spdx/Intel-ACPI": [
+        "https://opensource.org/licenses/intel",
+        "https://www.gnu.org/licenses/license-list.html#intel",
+        "http://directory.fsf.org/wiki/License:IntelACPI",
+        "http://www.opensource.org/licenses/intel-open-source-license.html",
+        "https://fedoraproject.org/wiki/Licensing/Intel_ACPI_Software_License_Agreement"
+    ],
+    "spdx/Interbase-1.0": [
+        "https://web.archive.org/web/20060319014854/http://info.borland.com/devsupport/interbase/opensource/IPL.html",
+        "https://web.archive.org/web/20060319014854/http://info.borland.com/devsupport/interbase/opensource/ipl.html"
+    ],
+    "spdx/JSON": [
+        "https://www.gnu.org/licenses/license-list.html#JSON",
+        "https://www.gnu.org/licenses/license-list.html#json",
+        "http://directory.fsf.org/wiki/License:JSON",
+        "http://json.org/license.html",
+        "http://www.json.org/license.html",
+        "https://www.json.org/license.html",
+        "https://wiki.debian.org/qa.debian.org/jsonevil",
+        "https://github.com/douglascrockford/jslint/blob/master/jslint.js",
+        "https://github.com/douglascrockford/json-js/blob/master/json2.js"
+    ],
+    "spdx/JSON,\\nspdx/MIT": [],
+    "spdx/JasPer-2.0": [
+        "http://www.ece.uvic.ca/~mdadams/jasper/LICENSE"
+    ],
+    "spdx/LAL-1.2": [
+        "http://artlibre.org/licence/lal/licence-art-libre-12/"
+    ],
+    "spdx/LAL-1.3": [
+        "http://artlibre.org/"
+    ],
+    "spdx/LGPL-2.0-only": [
+        "https://www.gnu.org/licenses/lgpl.txt",
+        "https://www.gnu.org/licenses/lgpl-2.0.html",
+        "http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html",
+        "http://www.fsf.org/licensing/licenses/lgpl.txt",
+        "http://www.webkit.org/coding/lgpl-license.html"
+    ],
+    "spdx/LGPL-2.0-or-later": [],
+    "spdx/LGPL-2.1,\\rspdx/MIT": [],
+    "spdx/LGPL-2.1-only": [
+        "https://opensource.org/licenses/LGPL-2.1",
+        "https://opensource.org/licenses/lgpl-2.1",
+        "https://opensource.org/licenses/lgpl-license",
+        "http://www.gnu.org/licenses/lgpl-2.1.txt",
+        "http://www.gnu.org/licenses/lgpl-2.1.html",
+        "https://www.gnu.org/licenses/lgpl-2.1.html",
+        "http://www.gnu.org/licenses/lgpl-2.1-standalone.html",
+        "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+        "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+        "https://www.gnu.org/licenses/license-list.html#LGPLv2.1",
+        "https://www.gnu.org/licenses/license-list.html#lgplv2.1",
+        "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+        "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+        "https://api.github.com/licenses/lgpl-2.1",
+        "http://www.opensource.org/licenses/LGPL-2.1",
+        "http://www.opensource.org/licenses/lgpl-2.1",
+        "http://repository.jboss.com/licenses/lgpl.txt",
+        "http://www.opensource.org/licenses/lgpl-2.1.php",
+        "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+    ],
+    "spdx/LGPL-2.1-or-later": [],
+    "spdx/LGPL-3.0-only": [
+        "https://opensource.org/licenses/LGPL-3.0",
+        "https://opensource.org/licenses/lgpl-3.0",
+        "http://www.gnu.org/licenses/lgpl.txt",
+        "http://www.gnu.org/licenses/lgpl.html",
+        "https://www.gnu.org/licenses/lgpl.html",
+        "http://www.gnu.org/copyleft/lesser.html",
+        "http://www.gnu.org/licenses/lgpl-3.0.txt",
+        "http://www.gnu.org/licenses/lgpl-3.0.html",
+        "http://www.gnu.org/licenses/lgpl-3.0.en.html",
+        "https://www.gnu.org/licenses/lgpl-3.0.en.html",
+        "https://www.gnu.org/licenses/license-list.html#lgpl",
+        "http://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+        "https://www.gnu.org/licenses/license-list.html#LGPLv3",
+        "https://www.gnu.org/licenses/license-list.html#lgplv3",
+        "https://api.github.com/licenses/lgpl-3.0",
+        "http://www.opensource.org/licenses/LGPL-3.0",
+        "http://www.opensource.org/licenses/lgpl-3.0",
+        "http://htmlparser.sourceforge.net/lgpl3.0.txt",
+        "http://www.opensource.org/licenses/lgpl-license.php"
+    ],
+    "spdx/LGPL-3.0-or-later": [],
+    "spdx/LGPLLR": [],
+    "spdx/LLVM-exception": [],
+    "spdx/LPL-1.0": [
+        "http://opensource.org/licenses/LPL-1.0",
+        "http://opensource.org/licenses/lpl-1.0",
+        "https://opensource.org/licenses/lpl-1.0",
+        "https://opensource.org/licenses/lucent1.02.php"
+    ],
+    "spdx/LPL-1.02": [
+        "https://opensource.org/licenses/LPL-1.02",
+        "https://opensource.org/licenses/lpl-1.02",
+        "https://www.gnu.org/licenses/license-list.html#lucent102",
+        "http://directory.fsf.org/wiki/License:LucentPLv1.02",
+        "http://www.opensource.org/licenses/LPL-1.02",
+        "http://www.opensource.org/licenses/lpl-1.02"
+    ],
+    "spdx/LPPL-1.0": [
+        "http://www.latex-project.org/lppl/lppl-1-0.txt"
+    ],
+    "spdx/LPPL-1.1": [
+        "http://www.latex-project.org/lppl/lppl-1-1.txt"
+    ],
+    "spdx/LPPL-1.2": [
+        "https://www.gnu.org/licenses/license-list.html#LPPL-1.2",
+        "https://www.gnu.org/licenses/license-list.html#lppl-1.2",
+        "http://directory.fsf.org/wiki/License:LPPLv1.2",
+        "http://www.latex-project.org/lppl/lppl-1-2.txt"
+    ],
+    "spdx/LPPL-1.3a": [
+        "https://www.gnu.org/licenses/license-list.html#LPPL-1.3a",
+        "https://www.gnu.org/licenses/license-list.html#lppl-1.3a",
+        "http://directory.fsf.org/wiki/License:LPPLv1.3a",
+        "http://www.latex-project.org/lppl/lppl-1-3a.txt"
+    ],
+    "spdx/LPPL-1.3c": [
+        "https://opensource.org/licenses/LPPL-1.3c",
+        "https://opensource.org/licenses/lppl-1.3c",
+        "http://www.opensource.org/licenses/LPPL-1.3c",
+        "http://www.opensource.org/licenses/lppl-1.3c",
+        "http://www.latex-project.org/lppl/lppl-1-3c.txt"
+    ],
+    "spdx/LZMA-exception": [],
+    "spdx/Latex2e": [
+        "https://fedoraproject.org/wiki/Licensing/Latex2e"
+    ],
+    "spdx/Leptonica": [
+        "https://fedoraproject.org/wiki/Licensing/Leptonica"
+    ],
+    "spdx/LiLiQ-P-1.1": [
+        "http://opensource.org/licenses/LiLiQ-P-1.1",
+        "http://opensource.org/licenses/liliq-p-1.1",
+        "https://opensource.org/licenses/liliq-p-1.1",
+        "https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/"
+    ],
+    "spdx/LiLiQ-R-1.1": [
+        "http://opensource.org/licenses/LiLiQ-R-1.1",
+        "http://opensource.org/licenses/liliq-r-1.1",
+        "https://opensource.org/licenses/liliq-r-1.1",
+        "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
+    ],
+    "spdx/LiLiQ-Rplus-1.1": [
+        "http://opensource.org/licenses/LiLiQ-Rplus-1.1",
+        "http://opensource.org/licenses/liliq-rplus-1.1",
+        "https://opensource.org/licenses/liliq-rplus-1.1",
+        "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-forte-liliq-r-v1-1/"
+    ],
+    "spdx/Libpng": [
+        "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt"
+    ],
+    "spdx/Libtool-exception": [],
+    "spdx/Linux-OpenIB": [
+        "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/infiniband/core/sa.h"
+    ],
+    "spdx/Linux-syscall-note": [],
+    "spdx/MIT": [
+        "http://opensource.org/licenses/mit",
+        "https://opensource.org/licenses/MIT",
+        "https://opensource.org/licenses/mit",
+        "http://opensource.org/licenses/mit-license.php",
+        "https://opensource.org/licenses/mit-license.php",
+        "https://www.gnu.org/licenses/license-list.html#Expat",
+        "https://www.gnu.org/licenses/license-list.html#expat",
+        "http://directory.fsf.org/wiki/License:Expat",
+        "http://directory.fsf.org/wiki/license:expat",
+        "https://directory.fsf.org/wiki/license:expat",
+        "http://jsoup.com/license",
+        "http://jsoup.org/license",
+        "https://ionicabizau.net/",
+        "https://jsoup.org/license",
+        "http://vorb.de/license/mit.html",
+        "https://api.github.com/licenses/mit",
+        "http://www.opensource.org/licenses/MIT",
+        "http://www.opensource.org/licenses/mit",
+        "http://en.wikipedia.org/wiki/mit_license",
+        "https://tldrlegal.com/license/mit-license",
+        "http://www.opensource.org/licenses/mit-license",
+        "http://www.opensource.org/licenses/mit-license.php",
+        "http://morphadorner.northwestern.edu/morphadorner/licenses/thirdparty/isorelax.html"
+    ],
+    "spdx/MIT,\\n,spdx/WTFPL": [],
+    "spdx/MIT,\\nspdx/CC-BY-3.0": [],
+    "spdx/MIT-0": [
+        "https://github.com/aws/mit-0",
+        "https://romanrm.net/mit-zero",
+        "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE"
+    ],
+    "spdx/MIT-CMU": [
+        "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style"
+    ],
+    "spdx/MIT-advertising": [
+        "https://fedoraproject.org/wiki/Licensing/MIT_With_Advertising"
+    ],
+    "spdx/MIT-enna": [
+        "https://fedoraproject.org/wiki/Licensing/MIT#enna"
+    ],
+    "spdx/MIT-feh": [
+        "https://fedoraproject.org/wiki/Licensing/MIT#feh"
+    ],
+    "spdx/MITNFA": [
+        "https://fedoraproject.org/wiki/Licensing/MITNFA"
+    ],
+    "spdx/MPL-1.0": [
+        "http://opensource.org/licenses/MPL-1.0",
+        "http://opensource.org/licenses/mpl-1.0",
+        "https://opensource.org/licenses/MPL-1.0",
+        "https://opensource.org/licenses/mpl-1.0",
+        "https://opensource.org/licenses/mozilla1.0",
+        "http://www.mozilla.org/MPL/MPL-1.0.html"
+    ],
+    "spdx/MPL-1.1": [
+        "https://opensource.org/licenses/MPL-1.1",
+        "https://opensource.org/licenses/mpl-1.1",
+        "https://www.gnu.org/licenses/license-list.html#MPL",
+        "https://www.gnu.org/licenses/license-list.html#mpl",
+        "http://directory.fsf.org/wiki/License:MPLv1.1",
+        "http://www.mozilla.org/MPL/MPL-1.1.html",
+        "http://www.opensource.org/licenses/MPL-1.1",
+        "http://www.opensource.org/licenses/mpl-1.1",
+        "http://www.opensource.org/licenses/mozilla1.1"
+    ],
+    "spdx/MPL-2.0": [
+        "http://opensource.org/licenses/MPL-2.0",
+        "http://opensource.org/licenses/mpl-2.0",
+        "https://opensource.org/licenses/MPL-2.0",
+        "https://opensource.org/licenses/mpl-2.0",
+        "https://www.gnu.org/licenses/license-list.html#MPL-2.0",
+        "https://www.gnu.org/licenses/license-list.html#mpl-2.0",
+        "http://directory.fsf.org/wiki/License:MPLv2.0",
+        "http://www.mozilla.org/MPL/2.0/",
+        "https://api.github.com/licenses/mpl-2.0"
+    ],
+    "spdx/MPL-2.0,\\rspdx/MIT": [],
+    "spdx/MPL-2.0-no-copyleft-exception": [],
+    "spdx/MS-PL": [
+        "https://opensource.org/licenses/MS-PL",
+        "https://opensource.org/licenses/ms-pl",
+        "https://www.gnu.org/licenses/license-list.html#ms-pl",
+        "http://directory.fsf.org/wiki/License:MsPL",
+        "http://www.opensource.org/licenses/MS-PL",
+        "http://www.opensource.org/licenses/ms-pl"
+    ],
+    "spdx/MS-RL": [
+        "https://opensource.org/licenses/MS-RL",
+        "https://opensource.org/licenses/ms-rl",
+        "https://www.gnu.org/licenses/license-list.html#ms-rl",
+        "http://directory.fsf.org/wiki/License:MsRL",
+        "http://www.opensource.org/licenses/MS-RL",
+        "http://www.opensource.org/licenses/ms-rl"
+    ],
+    "spdx/MTLL": [
+        "https://fedoraproject.org/wiki/Licensing/Matrix_Template_Library_License"
+    ],
+    "spdx/MakeIndex": [
+        "https://fedoraproject.org/wiki/Licensing/MakeIndex"
+    ],
+    "spdx/MirOS": [
+        "https://opensource.org/licenses/MirOS",
+        "https://opensource.org/licenses/miros",
+        "http://www.opensource.org/licenses/MirOS",
+        "http://www.opensource.org/licenses/miros"
+    ],
+    "spdx/Motosoto": [
+        "https://opensource.org/licenses/Motosoto",
+        "https://opensource.org/licenses/motosoto",
+        "http://www.opensource.org/licenses/Motosoto",
+        "http://www.opensource.org/licenses/motosoto"
+    ],
+    "spdx/Multics": [
+        "https://opensource.org/licenses/Multics",
+        "https://opensource.org/licenses/multics",
+        "http://www.opensource.org/licenses/Multics",
+        "http://www.opensource.org/licenses/multics"
+    ],
+    "spdx/Mup": [
+        "https://fedoraproject.org/wiki/Licensing/Mup"
+    ],
+    "spdx/NASA-1.3": [
+        "https://opensource.org/licenses/NASA-1.3",
+        "https://opensource.org/licenses/nasa-1.3",
+        "https://www.gnu.org/licenses/license-list.html#NASA",
+        "https://www.gnu.org/licenses/license-list.html#nasa",
+        "http://directory.fsf.org/wiki/License:NASA-OSA_v1.3",
+        "http://ti.arc.nasa.gov/opensource/nosa/",
+        "https://ti.arc.nasa.gov/opensource/nosa/",
+        "http://www.opensource.org/licenses/NASA-1.3",
+        "http://www.opensource.org/licenses/nasa-1.3"
+    ],
+    "spdx/NBPL-1.0": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=37b4b3f6cc4bf34e1d3dec61e69914b9819d8894"
+    ],
+    "spdx/NCSA": [
+        "https://opensource.org/licenses/NCSA",
+        "https://opensource.org/licenses/ncsa",
+        "https://www.gnu.org/licenses/license-list.html#NCSA",
+        "https://www.gnu.org/licenses/license-list.html#ncsa",
+        "http://directory.fsf.org/wiki/License:IllinoisNCSA",
+        "http://www.opensource.org/licenses/NCSA",
+        "http://www.opensource.org/licenses/ncsa"
+    ],
+    "spdx/NGPL": [
+        "https://opensource.org/licenses/NGPL",
+        "https://opensource.org/licenses/ngpl",
+        "http://www.opensource.org/licenses/NGPL",
+        "http://www.opensource.org/licenses/ngpl"
+    ],
+    "spdx/NLOD-1.0": [
+        "http://data.norge.no/nlod/en/1.0"
+    ],
+    "spdx/NLPL": [
+        "https://fedoraproject.org/wiki/Licensing/NLPL"
+    ],
+    "spdx/NONE": [
+        "https://www.gnu.org/licenses/license-list.html#NoLicense",
+        "https://www.gnu.org/licenses/license-list.html#nolicense"
+    ],
+    "spdx/NOSL": [
+        "https://www.gnu.org/licenses/license-list.html#NOSL",
+        "https://www.gnu.org/licenses/license-list.html#nosl",
+        "http://directory.fsf.org/wiki/License:NOSLv1.0",
+        "http://bits.netizen.com.au/licenses/NOSL/nosl.txt",
+        "http://bits.netizen.com.au/licenses/nosl/nosl.txt"
+    ],
+    "spdx/NPL-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#NPL",
+        "https://www.gnu.org/licenses/license-list.html#npl",
+        "http://directory.fsf.org/wiki?title=License:NPLv1.1",
+        "http://www.mozilla.org/MPL/NPL/1.0/",
+        "http://www.mozilla.org/MPL/NPL/1.1/"
+    ],
+    "spdx/NPL-1.1": [],
+    "spdx/NPOSL-3.0": [
+        "https://opensource.org/licenses/NPOSL-3.0",
+        "https://opensource.org/licenses/nposl-3.0",
+        "http://www.opensource.org/licenses/NOSL3.0",
+        "http://www.opensource.org/licenses/nosl3.0"
+    ],
+    "spdx/NRL": [
+        "http://web.mit.edu/network/isakmp/nrllicense.html"
+    ],
+    "spdx/NTP": [
+        "https://opensource.org/licenses/NTP",
+        "https://opensource.org/licenses/ntp",
+        "http://www.opensource.org/licenses/NTP",
+        "http://www.opensource.org/licenses/ntp"
+    ],
+    "spdx/Naumen": [
+        "https://opensource.org/licenses/Naumen",
+        "https://opensource.org/licenses/naumen",
+        "http://www.opensource.org/licenses/Naumen",
+        "http://www.opensource.org/licenses/naumen"
+    ],
+    "spdx/Net-SNMP": [
+        "http://net-snmp.sourceforge.net/about/license.html"
+    ],
+    "spdx/NetCDF": [
+        "http://www.unidata.ucar.edu/software/netcdf/copyright.html"
+    ],
+    "spdx/Newsletr": [
+        "https://fedoraproject.org/wiki/Licensing/Newsletr"
+    ],
+    "spdx/Nokia": [
+        "https://opensource.org/licenses/Nokia",
+        "https://opensource.org/licenses/nokia",
+        "https://www.gnu.org/licenses/license-list.html#Nokia",
+        "https://www.gnu.org/licenses/license-list.html#nokia",
+        "http://directory.fsf.org/wiki/License:NokOSv1.0a",
+        "http://www.opensource.org/licenses/nokia"
+    ],
+    "spdx/Nokia-Qt-exception-1.1": [],
+    "spdx/Noweb": [
+        "https://fedoraproject.org/wiki/Licensing/Noweb"
+    ],
+    "spdx/Nunit": [
+        "https://www.gnu.org/licenses/license-list.html#ZLib",
+        "https://www.gnu.org/licenses/license-list.html#zlib",
+        "http://directory.fsf.org/wiki/License:Zlib",
+        "http://directory.fsf.org/wiki/license:zlib",
+        "https://fedoraproject.org/wiki/Licensing/Nunit"
+    ],
+    "spdx/OCCT-PL": [
+        "http://www.opencascade.com/content/occt-public-license"
+    ],
+    "spdx/OCCT-exception-1.0": [],
+    "spdx/OCLC-2.0": [
+        "https://opensource.org/licenses/OCLC-2.0",
+        "https://opensource.org/licenses/oclc-2.0",
+        "http://www.opensource.org/licenses/OCLC-2.0",
+        "http://www.opensource.org/licenses/oclc-2.0"
+    ],
+    "spdx/OCaml-LGPL-linking-exception": [],
+    "spdx/ODC-By-1.0": [],
+    "spdx/ODbL-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#ODbl",
+        "https://www.gnu.org/licenses/license-list.html#odbl",
+        "https://www.gnu.org/licenses/license-list.en.html#odbl",
+        "http://directory.fsf.org/wiki/License:ODbl"
+    ],
+    "spdx/OFL-1.0": [],
+    "spdx/OFL-1.1": [
+        "https://opensource.org/licenses/OFL-1.1",
+        "https://opensource.org/licenses/ofl-1.1",
+        "https://www.gnu.org/licenses/license-list.html#SILOFL",
+        "https://www.gnu.org/licenses/license-list.html#silofl",
+        "http://directory.fsf.org/wiki/SIL_Open_Font_License_1.1",
+        "http://www.opensource.org/licenses/OFL-1.1",
+        "http://www.opensource.org/licenses/ofl-1.1"
+    ],
+    "spdx/OFL-1.1,\\nspdx/MIT": [],
+    "spdx/OGL-UK-1.0": [
+        "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"
+    ],
+    "spdx/OGL-UK-2.0": [
+        "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+    ],
+    "spdx/OGL-UK-3.0": [
+        "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    ],
+    "spdx/OGTSL": [
+        "https://opensource.org/licenses/OGTSL",
+        "https://opensource.org/licenses/ogtsl",
+        "http://www.opensource.org/licenses/OGTSL",
+        "http://www.opensource.org/licenses/ogtsl",
+        "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt"
+    ],
+    "spdx/OLDAP-1.1": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=42b0383c50c299977b5893ee695cf4e486fb0dc7",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=806557a5ad59804ef3a44d5abfbe91d706b0791f"
+    ],
+    "spdx/OLDAP-1.2": [],
+    "spdx/OLDAP-1.3": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=e5f8117f0ce088d0bd7a8e18ddf37eaa40eb09b1"
+    ],
+    "spdx/OLDAP-1.4": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=c9f95c2f3f2ffb5e0ae55fe7388af75547660941"
+    ],
+    "spdx/OLDAP-2.0": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b6d68acd14e51ca3aab4428bf26522aa74873f0e",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cbf50f4e1185a21abd4c0a54d3f4341fe28f36ea"
+    ],
+    "spdx/OLDAP-2.0.1": [],
+    "spdx/OLDAP-2.1": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b0d176738e96a0d3b9f85cb51e140a86f21be715"
+    ],
+    "spdx/OLDAP-2.2": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=470b0c18ec67621c85881b2733057fecf4a1acc3",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=4bc786f34b50aa301be6f5600f58a980070f481e"
+    ],
+    "spdx/OLDAP-2.2.1": [],
+    "spdx/OLDAP-2.2.2": [
+        "https://www.gnu.org/licenses/license-list.html#oldOpenLDAP",
+        "https://www.gnu.org/licenses/license-list.html#oldopenldap",
+        "http://directory.fsf.org/wiki/License:OpenLDAPv2.3",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=d32cf54a32d581ab475d23c810b0a7fbaf8d63c3",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=df2cc1e21eb7c160695f5b7cffd6296c151ba188"
+    ],
+    "spdx/OLDAP-2.3": [],
+    "spdx/OLDAP-2.4": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cd1284c4a91a8a380d904eee68d1583f989ed386"
+    ],
+    "spdx/OLDAP-2.5": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=6852b9d90022e8593c98205413380536b1b5a7cf"
+    ],
+    "spdx/OLDAP-2.6": [
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=1cae062821881f41b73012ba816434897abf4205"
+    ],
+    "spdx/OLDAP-2.7": [
+        "https://www.gnu.org/licenses/license-list.html#newOpenLDAP",
+        "https://www.gnu.org/licenses/license-list.html#newopenldap",
+        "http://directory.fsf.org/wiki/License:OpenLDAPv2.7",
+        "http://www.openldap.org/software/release/license.html",
+        "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=47c2415c1df81556eeb39be6cad458ef87c534a2"
+    ],
+    "spdx/OLDAP-2.8": [],
+    "spdx/OML": [
+        "https://fedoraproject.org/wiki/Licensing/Open_Market_License"
+    ],
+    "spdx/OPL-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#OpenPublicL",
+        "https://www.gnu.org/licenses/license-list.html#openpublicl",
+        "http://directory.fsf.org/wiki/License:OpenPLv1.0",
+        "https://fedoraproject.org/wiki/Licensing/Open_Public_License"
+    ],
+    "spdx/OSET-PL-2.1": [
+        "http://opensource.org/licenses/OPL-2.1",
+        "http://opensource.org/licenses/opl-2.1",
+        "https://opensource.org/licenses/opl-2.1",
+        "http://www.osetfoundation.org/public-license",
+        "https://www.osetfoundation.org/public-license"
+    ],
+    "spdx/OSL-1.0": [
+        "http://opensource.org/licenses/OSL-1.0",
+        "http://opensource.org/licenses/osl-1.0",
+        "https://opensource.org/licenses/osl-1.0"
+    ],
+    "spdx/OSL-1.1": [
+        "https://fedoraproject.org/wiki/Licensing/OSL1.1"
+    ],
+    "spdx/OSL-2.0": [
+        "http://opensource.org/licenses/OSL-2.1",
+        "http://opensource.org/licenses/osl-2.1",
+        "https://opensource.org/licenses/osl-2.1",
+        "http://web.archive.org/web/20050212003940/http://www.rosenlaw.com/osl21.htm",
+        "http://web.archive.org/web/20041020171434/http://www.rosenlaw.com/osl2.0.html"
+    ],
+    "spdx/OSL-2.1": [],
+    "spdx/OSL-3.0": [],
+    "spdx/OpenJDK-assembly-exception-1.0": [],
+    "spdx/OpenSSL": [
+        "https://www.gnu.org/licenses/license-list.html#OpenSSL",
+        "https://www.gnu.org/licenses/license-list.html#openssl",
+        "http://directory.fsf.org/wiki/License:OpenSSL",
+        "http://www.sdisw.com/openssl.htm",
+        "http://www.openssl.org/source/license.html"
+    ],
+    "spdx/PDDL-1.0": [],
+    "spdx/PHP-3.0": [
+        "https://opensource.org/licenses/PHP-3.0",
+        "https://opensource.org/licenses/php-3.0",
+        "https://www.gnu.org/licenses/license-list.html#PHP-3.01",
+        "https://www.gnu.org/licenses/license-list.html#php-3.01",
+        "http://directory.fsf.org/wiki/License:PHPv3.01",
+        "http://www.php.net/license/3_0.txt",
+        "http://www.php.net/license/3_01.txt",
+        "http://www.opensource.org/licenses/PHP-3.0",
+        "http://www.opensource.org/licenses/php-3.0"
+    ],
+    "spdx/PHP-3.01": [],
+    "spdx/PS-or-PDF-font-exception-20170817": [],
+    "spdx/Plexus": [
+        "https://fedoraproject.org/wiki/Licensing/Plexus_Classworlds_License"
+    ],
+    "spdx/PostgreSQL": [
+        "https://opensource.org/licenses/PostgreSQL",
+        "https://opensource.org/licenses/postgresql",
+        "http://www.postgresql.org/about/licence",
+        "http://www.postgresql.org/about/licence/",
+        "https://www.postgresql.org/about/licence/",
+        "http://www.opensource.org/licenses/PostgreSQL",
+        "http://www.opensource.org/licenses/postgresql",
+        "https://jdbc.postgresql.org/about/license.html",
+        "https://tldrlegal.com/license/postgresql-license-(postgresql)"
+    ],
+    "spdx/Python-2.0": [
+        "https://opensource.org/licenses/Python-2.0",
+        "https://opensource.org/licenses/python-2.0",
+        "https://www.gnu.org/licenses/license-list.html#Python",
+        "https://www.gnu.org/licenses/license-list.html#python",
+        "https://www.gnu.org/licenses/license-list.html#PythonOld",
+        "https://www.gnu.org/licenses/license-list.html#pythonold",
+        "http://directory.fsf.org/wiki/License:Python1.6b1",
+        "http://directory.fsf.org/wiki/license:python1.6b1",
+        "https://directory.fsf.org/wiki/license:python1.6b1",
+        "http://directory.fsf.org/wiki?title=License:Python2.0.1",
+        "http://directory.fsf.org/wiki?title=license:python2.0.1",
+        "https://directory.fsf.org/wiki?title=license:python2.0.1",
+        "https://docs.python.org/3/license.html",
+        "http://www.opensource.org/licenses/Python-2.0",
+        "http://www.opensource.org/licenses/python-2.0",
+        "https://www.python.org/download/releases/3.4.0/license/"
+    ],
+    "spdx/QPL-1.0": [
+        "https://opensource.org/licenses/QPL-1.0",
+        "https://opensource.org/licenses/qpl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#QPL",
+        "https://www.gnu.org/licenses/license-list.html#qpl",
+        "http://directory.fsf.org/wiki/License:QPLv1.0",
+        "http://www.opensource.org/licenses/QPL-1.0",
+        "http://www.opensource.org/licenses/qpl-1.0"
+    ],
+    "spdx/Qhull": [
+        "https://fedoraproject.org/wiki/Licensing/Qhull"
+    ],
+    "spdx/Qt-GPL-exception-1.0": [],
+    "spdx/Qt-LGPL-exception-1.1": [],
+    "spdx/Qwt-exception-1.0": [],
+    "spdx/RHeCos-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#eCos11",
+        "https://www.gnu.org/licenses/license-list.html#ecos11",
+        "http://directory.fsf.org/wiki/License:ECosPLv1.1",
+        "http://ecos.sourceware.org/old-license.html"
+    ],
+    "spdx/RPL-1.1": [
+        "http://opensource.org/licenses/RPL-1.1",
+        "http://opensource.org/licenses/rpl-1.1",
+        "https://opensource.org/licenses/rpl-1.1",
+        "https://www.gnu.org/licenses/license-list.html#RPL",
+        "https://www.gnu.org/licenses/license-list.html#rpl",
+        "http://directory.fsf.org/wiki/License:ReciprocalPLv1.3"
+    ],
+    "spdx/RPL-1.5": [
+        "https://opensource.org/licenses/RPL-1.5",
+        "https://opensource.org/licenses/rpl-1.5",
+        "http://www.opensource.org/licenses/RPL-1.5",
+        "http://www.opensource.org/licenses/rpl-1.5"
+    ],
+    "spdx/RPSL-1.0": [
+        "https://opensource.org/licenses/RPSL-1.0",
+        "https://opensource.org/licenses/rpsl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#RPSL",
+        "https://www.gnu.org/licenses/license-list.html#rpsl",
+        "http://directory.fsf.org/wiki/License:RPSLv1.0",
+        "http://www.opensource.org/licenses/RPSL-1.0",
+        "http://www.opensource.org/licenses/rpsl-1.0"
+    ],
+    "spdx/RSA-MD": [
+        "http://www.faqs.org/rfcs/rfc1321.html",
+        "http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5"
+    ],
+    "spdx/RSCPL": [
+        "https://opensource.org/licenses/RSCPL",
+        "https://opensource.org/licenses/rscpl",
+        "http://www.opensource.org/licenses/RSCPL",
+        "http://www.opensource.org/licenses/rscpl",
+        "http://wayback.archive.org/web/20060715140826/http://www.risource.org/RPL/RPL-1.0A.shtml",
+        "http://wayback.archive.org/web/20060715140826/http://www.risource.org/rpl/rpl-1.0a.shtml"
+    ],
+    "spdx/Rdisc": [
+        "https://fedoraproject.org/wiki/Licensing/Rdisc_License"
+    ],
+    "spdx/Ruby": [
+        "https://www.gnu.org/licenses/license-list.html#Ruby",
+        "https://www.gnu.org/licenses/license-list.html#ruby",
+        "http://directory.fsf.org/wiki/License:Ruby",
+        "http://directory.fsf.org/wiki/license:ruby",
+        "https://directory.fsf.org/wiki/license:ruby",
+        "http://www.ruby-lang.org/en/LICENSE.txt",
+        "http://www.ruby-lang.org/en/license.txt",
+        "http://www.ruby-lang.org/en/about/license.txt"
+    ],
+    "spdx/SAX-PD": [
+        "http://www.saxproject.org/",
+        "http://www.saxproject.org/copying.html"
+    ],
+    "spdx/SCEA": [],
+    "spdx/SGI-B-1.0": [],
+    "spdx/SGI-B-1.1": [],
+    "spdx/SGI-B-2.0": [
+        "https://www.gnu.org/licenses/license-list.html#SGIFreeB",
+        "https://www.gnu.org/licenses/license-list.html#sgifreeb",
+        "http://directory.fsf.org/wiki/License:SGIFreeBv2"
+    ],
+    "spdx/SISSL": [],
+    "spdx/SISSL-1.1": [
+        "http://opensource.org/licenses/SISSL",
+        "http://opensource.org/licenses/sissl",
+        "https://opensource.org/licenses/sisslpl",
+        "https://www.gnu.org/licenses/license-list.html#SISSL",
+        "https://www.gnu.org/licenses/license-list.html#sissl",
+        "http://www.openoffice.org/licenses/sissl_license.html"
+    ],
+    "spdx/SISSL-1.2": [
+        "http://java.sun.com/products/servlet/license",
+        "http://wbemservices.sourceforge.net/sissl_1-2.html",
+        "http://gridscheduler.sourceforge.net/Gridengine_SISSL_license.html"
+    ],
+    "spdx/SMLNJ": [
+        "https://www.gnu.org/licenses/license-list.html#StandardMLofNJ",
+        "https://www.gnu.org/licenses/license-list.html#standardmlofnj",
+        "http://directory.fsf.org/wiki/License:StandardMLofNJ",
+        "http://www.smlnj.org//license.html",
+        "https://www.smlnj.org/license.html"
+    ],
+    "spdx/SMPPL": [
+        "https://github.com/dcblake/SMP/blob/master/Documentation/License.txt"
+    ],
+    "spdx/SNIA": [
+        "https://fedoraproject.org/wiki/Licensing/SNIA_Public_License"
+    ],
+    "spdx/SPL-1.0": [
+        "https://opensource.org/licenses/SPL-1.0",
+        "https://opensource.org/licenses/spl-1.0",
+        "https://www.gnu.org/licenses/license-list.html#SPL",
+        "https://www.gnu.org/licenses/license-list.html#spl",
+        "http://directory.fsf.org/wiki/License:SPLv1.0",
+        "http://java.sun.com/spl.html",
+        "http://www.opensource.org/licenses/SPL-1.0",
+        "http://www.opensource.org/licenses/spl-1.0"
+    ],
+    "spdx/SWL": [
+        "https://fedoraproject.org/wiki/Licensing/SWL"
+    ],
+    "spdx/Saxpath": [
+        "https://fedoraproject.org/wiki/Licensing/Saxpath_License"
+    ],
+    "spdx/Sendmail": [
+        "http://www.sendmail.com/pdfs/open_source/sendmail_license.pdf",
+        "https://web.archive.org/web/20160322142305/https://www.sendmail.com/pdfs/open_source/sendmail_license.pdf"
+    ],
+    "spdx/Sendmail-8.23": [
+        "https://www.proofpoint.com/sites/default/files/sendmail-license.pdf",
+        "https://web.archive.org/web/20181003101040/https://www.proofpoint.com/sites/default/files/sendmail-license.pdf"
+    ],
+    "spdx/SimPL-2.0": [
+        "https://opensource.org/licenses/SimPL-2.0",
+        "https://opensource.org/licenses/simpl-2.0",
+        "http://www.opensource.org/licenses/SimPL-2.0",
+        "http://www.opensource.org/licenses/simpl-2.0",
+        "http://www.simplemachines.org/about/smf/license.php"
+    ],
+    "spdx/Sleepycat": [
+        "https://opensource.org/licenses/Sleepycat",
+        "https://opensource.org/licenses/sleepycat",
+        "https://www.gnu.org/licenses/license-list.html#BerkeleyDB",
+        "https://www.gnu.org/licenses/license-list.html#berkeleydb",
+        "http://directory.fsf.org/wiki/License:Sleepycat",
+        "http://directory.fsf.org/wiki/license:sleepycat",
+        "http://www.opensource.org/licenses/Sleepycat",
+        "http://www.opensource.org/licenses/sleepycat",
+        "http://www.oracle.com/technetwork/database/berkeleydb/downloads/jeoslicense-086837.html"
+    ],
+    "spdx/Spencer-86": [],
+    "spdx/Spencer-94": [
+        "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License"
+    ],
+    "spdx/Spencer-99": [
+        "http://www.opensource.apple.com/source/tcl/tcl-5/tcl/generic/regfronts.c"
+    ],
+    "spdx/SugarCRM-1.1.3": [
+        "http://www.sugarcrm.com/crm/spl"
+    ],
+    "spdx/TCL": [
+        "https://fedoraproject.org/wiki/Licensing/TCL"
+    ],
+    "spdx/TCP-wrappers": [
+        "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
+    ],
+    "spdx/TMate": [
+        "http://svnkit.com/license.html",
+        "https://svnkit.com/license.html",
+        "https://svnkit.com/license.html?"
+    ],
+    "spdx/TORQUE-1.1": [
+        "https://fedoraproject.org/wiki/Licensing/TORQUEv1.1"
+    ],
+    "spdx/TOSL": [
+        "https://fedoraproject.org/wiki/Licensing/TOSL"
+    ],
+    "spdx/TU-Berlin-1.0": [
+        "https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT"
+    ],
+    "spdx/TU-Berlin-2.0": [
+        "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt",
+        "https://github.com/corsixth/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt"
+    ],
+    "spdx/UCL-1.0": [
+        "https://opensource.org/licenses/UCL-1.0"
+    ],
+    "spdx/UPL-1.0": [
+        "http://opensource.org/licenses/UPL",
+        "http://opensource.org/licenses/upl",
+        "https://opensource.org/licenses/UPL",
+        "https://opensource.org/licenses/upl",
+        "https://www.gnu.org/licenses/license-list.html#UPL",
+        "https://www.gnu.org/licenses/license-list.html#upl",
+        "http://directory.fsf.org/wiki/License:Universal_Permissive_License",
+        "https://oss.oracle.com/licenses/upl/"
+    ],
+    "spdx/Unicode-DFS-2015": [
+        "https://web.archive.org/web/20151224134844/http://unicode.org/copyright.html"
+    ],
+    "spdx/Unicode-DFS-2016": [
+        "https://directory.fsf.org/wiki/license:unicode",
+        "http://www.unicode.org/copyright.html#exhibit1"
+    ],
+    "spdx/Unicode-TOU": [
+        "http://www.unicode.org/copyright.html",
+        "http://www.unicode.org/copyright.html#license"
+    ],
+    "spdx/Unlicense": [
+        "https://www.gnu.org/licenses/license-list.html#Unlicense",
+        "https://www.gnu.org/licenses/license-list.html#unlicense",
+        "https://directory.fsf.org/wiki/license:unlicense",
+        "http://directory.fsf.org/wiki/License:TheUnlicense"
+    ],
+    "spdx/VOSTROM": [
+        "https://fedoraproject.org/wiki/Licensing/VOSTROM"
+    ],
+    "spdx/VSL-1.0": [
+        "https://opensource.org/licenses/VSL-1.0",
+        "https://opensource.org/licenses/vsl-1.0",
+        "http://www.opensource.org/licenses/VSL-1.0",
+        "http://www.opensource.org/licenses/vsl-1.0"
+    ],
+    "spdx/Vim": [
+        "http://www.gnu.org/licenses/vim-license.txt",
+        "https://www.gnu.org/licenses/license-list.html#Vim",
+        "https://www.gnu.org/licenses/license-list.html#vim",
+        "http://directory.fsf.org/wiki/License:Vim7.2",
+        "http://directory.fsf.org/wiki/license:vim7.2",
+        "https://directory.fsf.org/wiki/license:vim7.2",
+        "http://vimdoc.sourceforge.net/htmldoc/uganda.html"
+    ],
+    "spdx/W3C": [
+        "https://opensource.org/licenses/W3C",
+        "https://opensource.org/licenses/w3c",
+        "https://www.gnu.org/licenses/license-list.html#W3C",
+        "https://www.gnu.org/licenses/license-list.html#w3c",
+        "http://directory.fsf.org/wiki/License:W3C_31Dec2002",
+        "http://www.w3.org/consortium/legal/",
+        "http://www.opensource.org/licenses/W3C",
+        "http://www.opensource.org/licenses/w3c",
+        "http://www.w3.org/consortium/legal/copyright-software-19980720",
+        "http://www.w3.org/consortium/legal/copyright-documents-19990405",
+        "http://www.w3.org/consortium/legal/2002/copyright-software-20021231",
+        "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
+        "http://www.w3.org/consortium/legal/2002/copyright-software-20021231.html",
+        "https://www.w3.org/consortium/legal/2002/copyright-software-20021231.html"
+    ],
+    "spdx/W3C-19980720": [
+        "http://www.w3.org/Consortium/Legal/copyright-software-19980720.html",
+        "http://www.w3.org/consortium/legal/copyright-software-19980720.html"
+    ],
+    "spdx/W3C-20150513": [
+        "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+        "https://www.w3.org/consortium/legal/2015/copyright-software-and-document"
+    ],
+    "spdx/WTFPL": [
+        "https://www.gnu.org/licenses/license-list.html#WTFPL",
+        "https://www.gnu.org/licenses/license-list.html#wtfpl",
+        "https://api.github.com/licenses/wtfpl"
+    ],
+    "spdx/WTFPL-2.0,\\nspdx/MIT": [],
+    "spdx/Watcom-1.0": [
+        "https://opensource.org/licenses/Watcom-1.0",
+        "https://opensource.org/licenses/watcom-1.0",
+        "https://www.gnu.org/licenses/license-list.html#Watcom",
+        "https://www.gnu.org/licenses/license-list.html#watcom",
+        "http://openwatcom.org/",
+        "http://www.opensource.org/licenses/Watcom-1.0",
+        "http://www.opensource.org/licenses/watcom-1.0"
+    ],
+    "spdx/Wsuipa": [
+        "https://fedoraproject.org/wiki/Licensing/Wsuipa"
+    ],
+    "spdx/WxWindows-exception-3.1": [],
+    "spdx/X11": [
+        "http://www.gnu.org/licenses/license-list.html#x11license",
+        "https://www.gnu.org/licenses/license-list.html#X11License",
+        "https://www.gnu.org/licenses/license-list.html#x11license",
+        "http://directory.fsf.org/wiki/License:X11",
+        "http://directory.fsf.org/wiki/license:x11",
+        "https://directory.fsf.org/wiki/license:x11",
+        "http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3",
+        "https://github.com/vasi/kdelibs/blob/master/doc/common/x11-license.html"
+    ],
+    "spdx/XFree86-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#XFree861.1License",
+        "https://www.gnu.org/licenses/license-list.html#xfree861.1license",
+        "http://directory.fsf.org/wiki/License:XFree86_1.1",
+        "http://www.xfree86.org/current/LICENSE4.html"
+    ],
+    "spdx/XSkat": [
+        "https://fedoraproject.org/wiki/Licensing/XSkat_License"
+    ],
+    "spdx/Xerox": [
+        "https://fedoraproject.org/wiki/Licensing/Xerox"
+    ],
+    "spdx/Xnet": [
+        "http://opensource.org/licenses/Xnet",
+        "http://opensource.org/licenses/xnet",
+        "https://opensource.org/licenses/Xnet",
+        "https://opensource.org/licenses/xnet"
+    ],
+    "spdx/YPL-1.0": [
+        "https://www.gnu.org/licenses/license-list.html#Yahoo",
+        "https://www.gnu.org/licenses/license-list.html#yahoo",
+        "https://www.gnu.org/licenses/license-list.html#Zimbra",
+        "https://www.gnu.org/licenses/license-list.html#zimbra",
+        "http://directory.fsf.org/wiki/License:YPLv1.1",
+        "http://www.zimbra.com/license/zimbra-public-license-1-3.html",
+        "http://web.archive.org/web/20100302225219/http://www.zimbra.com/license/zimbra-public-license-1-3.html"
+    ],
+    "spdx/YPL-1.1": [],
+    "spdx/ZPL-1.1": [
+        "https://www.gnu.org/licenses/license-list.html#Zope",
+        "https://www.gnu.org/licenses/license-list.html#zope",
+        "http://old.zope.org/Resources/License/ZPL-1.1",
+        "http://web.archive.org/web/20000816090640/http://www.zope.org/Resources/ZPL",
+        "http://web.archive.org/web/20000816090640/http://www.zope.org/resources/zpl"
+    ],
+    "spdx/ZPL-2.0": [
+        "http://opensource.org/licenses/ZPL-2.0",
+        "http://opensource.org/licenses/zpl-2.0",
+        "https://opensource.org/licenses/ZPL-2.0",
+        "https://opensource.org/licenses/zpl-2.0",
+        "http://old.zope.org/Resources/License/ZPL-2.0"
+    ],
+    "spdx/ZPL-2.1": [
+        "https://www.gnu.org/licenses/license-list.html#Zope2.0",
+        "https://www.gnu.org/licenses/license-list.html#zope2.0",
+        "http://directory.fsf.org/wiki?title=License:ZopePLv2.1",
+        "http://old.zope.org/Resources/ZPL/"
+    ],
+    "spdx/Zed": [
+        "https://fedoraproject.org/wiki/Licensing/Zed"
+    ],
+    "spdx/Zend-2.0": [
+        "https://www.gnu.org/licenses/license-list.html#Zend",
+        "https://www.gnu.org/licenses/license-list.html#zend",
+        "http://directory.fsf.org/wiki/License:ZELv2.0",
+        "https://web.archive.org/web/20130517195954/http://www.zend.com/license/2_00.txt"
+    ],
+    "spdx/Zimbra-1.3": [],
+    "spdx/Zimbra-1.4": [
+        "http://www.zimbra.com/legal/zimbra-public-license-1-4",
+        "https://www.zimbra.com/legal/zimbra-public-license-1-4/"
+    ],
+    "spdx/Zlib": [
+        "https://opensource.org/licenses/Zlib",
+        "https://opensource.org/licenses/zlib",
+        "https://directory.fsf.org/wiki/license:zlib",
+        "http://zlib.net/zlib_license.html",
+        "http://www.zlib.net/zlib_license.html",
+        "http://www.opensource.org/licenses/Zlib",
+        "http://www.opensource.org/licenses/zlib",
+        "http://www.opensource.org/licenses/zlib-license"
+    ],
+    "spdx/bzip2-1.0.5": [
+        "https://spdx.org/licenses/bzip2-1.0.5.html#licensetext",
+        "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
+    ],
+    "spdx/bzip2-1.0.6": [
+        "https://spdx.org/licenses/bzip2-1.0.6.html#licensetext",
+        "https://github.com/asimonov-im/bzip2/blob/master/LICENSE"
+    ],
+    "spdx/copyleft-next-0.3.0": [
+        "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.0"
+    ],
+    "spdx/copyleft-next-0.3.1": [
+        "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.1"
+    ],
+    "spdx/curl": [
+        "https://spdx.org/licenses/curl.html#licensetext",
+        "https://github.com/bagder/curl/blob/master/COPYING"
+    ],
+    "spdx/deprecated_AGPL-1.0": [],
+    "spdx/deprecated_AGPL-3.0": [],
+    "spdx/deprecated_GFDL-1.1": [],
+    "spdx/deprecated_GFDL-1.2": [],
+    "spdx/deprecated_GFDL-1.3": [],
+    "spdx/deprecated_GPL-1.0": [],
+    "spdx/deprecated_GPL-1.0+": [],
+    "spdx/deprecated_GPL-2.0": [],
+    "spdx/deprecated_GPL-2.0+": [],
+    "spdx/deprecated_GPL-2.0-with-GCC-exception": [],
+    "spdx/deprecated_GPL-2.0-with-autoconf-exception": [],
+    "spdx/deprecated_GPL-2.0-with-bison-exception": [],
+    "spdx/deprecated_GPL-2.0-with-classpath-exception": [],
+    "spdx/deprecated_GPL-2.0-with-font-exception": [],
+    "spdx/deprecated_GPL-3.0": [],
+    "spdx/deprecated_GPL-3.0+": [],
+    "spdx/deprecated_GPL-3.0-with-GCC-exception": [],
+    "spdx/deprecated_GPL-3.0-with-autoconf-exception": [],
+    "spdx/deprecated_LGPL-2.0": [],
+    "spdx/deprecated_LGPL-2.0+": [],
+    "spdx/deprecated_LGPL-2.1": [],
+    "spdx/deprecated_LGPL-2.1+": [],
+    "spdx/deprecated_LGPL-3.0": [],
+    "spdx/deprecated_LGPL-3.0+": [],
+    "spdx/deprecated_Nunit": [],
+    "spdx/deprecated_StandardML-NJ": [],
+    "spdx/deprecated_eCos-2.0": [],
+    "spdx/deprecated_wxWindows": [],
+    "spdx/diffmark": [
+        "https://spdx.org/licenses/diffmark.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/diffmark",
+        "https://fedoraproject.org/wiki/Licensing/diffmark"
+    ],
+    "spdx/dvipdfm": [
+        "https://spdx.org/licenses/dvipdfm.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/dvipdfm",
+        "https://fedoraproject.org/wiki/Licensing/dvipdfm"
+    ],
+    "spdx/eCos-2.0": [
+        "https://opensource.org/licenses/eCos-2.0",
+        "https://opensource.org/licenses/ecos-2.0",
+        "http://www.gnu.org/licenses/ecos-license.html"
+    ],
+    "spdx/eCos-exception-2.0": [],
+    "spdx/eGenix": [
+        "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf",
+        "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0"
+    ],
+    "spdx/freertos-exception-2.0": [],
+    "spdx/gSOAP-1.3b": [
+        "http://www.cs.fsu.edu/~engelen/license.html"
+    ],
+    "spdx/gnu-javamail-exception": [],
+    "spdx/gnuplot": [
+        "https://spdx.org/licenses/gnuplot.html#licensetext",
+        "https://www.gnu.org/licenses/license-list.html#gnuplot",
+        "http://directory.fsf.org/wiki/License:Gnuplot",
+        "http://directory.fsf.org/wiki/license:gnuplot",
+        "https://directory.fsf.org/wiki/license:gnuplot",
+        "https://fedoraproject.org/wiki/Licensing/Gnuplot",
+        "http://gnuplot.cvs.sourceforge.net/gnuplot/gnuplot/copyright"
+    ],
+    "spdx/i2p-gpl-java-exception": [],
+    "spdx/iMatix": [
+        "https://www.gnu.org/licenses/license-list.html#iMatix",
+        "https://www.gnu.org/licenses/license-list.html#imatix",
+        "http://directory.fsf.org/wiki?title=License:SFL"
+    ],
+    "spdx/libtiff": [
+        "https://spdx.org/licenses/libtiff.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/libtiff",
+        "https://fedoraproject.org/wiki/Licensing/libtiff"
+    ],
+    "spdx/mif-exception": [],
+    "spdx/mpich2": [
+        "https://spdx.org/licenses/mpich2.html#licensetext",
+        "https://fedoraproject.org/wiki/Licensing/MIT"
+    ],
+    "spdx/openvpn-openssl-exception": [],
+    "spdx/psfrag": [
+        "https://spdx.org/licenses/psfrag.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/psfrag",
+        "https://fedoraproject.org/wiki/Licensing/psfrag"
+    ],
+    "spdx/psutils": [
+        "https://spdx.org/licenses/psutils.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/psutils",
+        "https://fedoraproject.org/wiki/Licensing/psutils"
+    ],
+    "spdx/u-boot-exception-2.0": [],
+    "spdx/wxWindows": [
+        "https://opensource.org/licenses/WXwindows",
+        "https://opensource.org/licenses/wxwindows",
+        "http://www.opensource.org/licenses/WXwindows",
+        "http://www.opensource.org/licenses/wxwindows",
+        "https://tldrlegal.com/license/wxwindows-library-license-(wxwindows)#fulltext"
+    ],
+    "spdx/xinetd": [
+        "https://spdx.org/licenses/xinetd.html#licensetext",
+        "https://www.gnu.org/licenses/license-list.html#xinetd",
+        "http://directory.fsf.org/wiki/License:Xinetd",
+        "http://directory.fsf.org/wiki/license:xinetd",
+        "https://directory.fsf.org/wiki/license:xinetd",
+        "https://fedoraproject.org/wiki/Licensing/Xinetd_License"
+    ],
+    "spdx/xpp": [
+        "https://spdx.org/licenses/xpp.html#licensetext",
+        "https://fedoraproject.org/wiki/licensing/xpp",
+        "https://fedoraproject.org/wiki/Licensing/xpp"
+    ],
+    "spdx/zlib,\\nspdx/MIT": [],
+    "spdx/zlib-acknowledgement": [
+        "https://spdx.org/licenses/zlib-acknowledgement.html#licensetext",
+        "https://opensource.org/licenses/zlib-license.php",
+        "https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement"
+    ]
+}

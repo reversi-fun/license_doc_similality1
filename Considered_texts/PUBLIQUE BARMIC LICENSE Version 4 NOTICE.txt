@@ -1,0 +1,19 @@
+﻿                      LICENCE PUBLIQUE BARMIC
+                      Version 4, Juin 2016
+
+ La copie et la distribution de copies exactes de cette licence sont
+ autorisées, et toute modification est permise à condition de changer
+ le nom de la licence.
+
+         CONDITIONS DE COPIE, DISTRIBUTON ET MODIFICATION
+                   DE LA LICENCE PUBLIQUE BARMIC
+
+  0. Le ou les auteurs et contributeurs de tous les fichiers inclus dans le dépôt
+     avec cette licence (le fichier LICENCE inclu) ne s'intéresse pas à ce que
+     vous en faite. Donc faites-en ce que vous voulais !
+  1. Si vous rencontrez un contributeur et que vous trouvez le projet cool,
+     n'hésitez pas à le (ou la) remercier :)
+
+Note : Cette licence est librement inspirée de 2 licences préexistantes :
+ - Licence Publique Rien À Branler <http://sam.zoy.org/lprab/>
+ - BEER-WARE LICENSE <http://people.freebsd.org/~phk/>
