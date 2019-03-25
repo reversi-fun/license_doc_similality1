@@ -1,0 +1,89 @@
+
+			      XCIN çæ¬å®£å
+
+
+XCIN æ¯ä¸åèªç±è»é«ï¼åå«ä¸»ç¨å¼èå¤ä¾ç¨å¼ç¢¼å©é¨åãä¸»ç¨å¼é¨åä¸»è¦ç± 
+XCIN
+å°çµææ°å¯«èç¶­è­·ï¼æ¨å¯ä»¥å¨ GNU General Public License (è«è¦ COPYING ä¸æ)
+çè¦ç¯ä¸æ£ä½ãä¿®æ¹ãä½¿ç¨ XCIN 
+ä¸»ç¨å¼åå§ç¢¼ãè³æ¼å¤ä¾ç¨å¼ç¢¼é¨åï¼å¶åå§ä½è
+ä¸¦é XCIN 
+å°çµï¼éäºç¨å¼ç¢¼æ¯ç´æ¥å¼ç¨èªå¶ä»çèªç±è»é«å¥ä»¶ï¼ç¶éä¿®æ¹å¾ä»¥é©å
+XCIN ä½¿ç¨ãå®ååèªæèªå·±ççæ¬å®£åï¼ä¸å¶çæ¬å®£åå§å®¹äº¦åæè XCIN 
+ä¸»ç¨å¼
+ç¢¼ä¸åæ£ä½èä½¿ç¨ãæå¦ææ¨æ³è¦åå¥æ£ä½ãä¿®æ¹ãä½¿ç¨éäºå¤ä¾ç¨å¼ç¢¼çè
+©±ï¼è«æ¨
+èªè¡ä¸è¼å®åçåå§çæ¬ï¼ä¸¦éµç§å¶åæççæ¬å®£åèè¦ç¯ãéé¡å¤ä¾ç¨å¼ç
+¢¼åæ¬:
+
+1. IMdkit: (ftp://xcin.linux.org.tw/pub/xcin/misc/IMdkit.tar.gz)
+   a. src/lib/IMdkit/ åå¶åºä¸æææªæ¡ã
+   b. src/xim_IC.c: ç´æ¥ä¿®æ¹èª IMdkit çç¯ä¾ç¨å¼ã
+   c. src/include/IC.h: ç´æ¥ä¿®æ¹èª IMdkit çç¯ä¾ç¨å¼ã
+
+2. siod: (http://people.delphi.com/gjc/siod.html,
+	  ftp://xcin.linux.org.tw/pub/xcin/misc/siod.tar.gz)
+   src/lib/siod/ åå¶åºä¸æææªæ¡ã
+
+èé¤äºä¸è¿°çå¤ä¾ç¨å¼ç¢¼ä»¥å¤èï¼åå±¬ XCIN ä¸»ç¨å¼ç¢¼ã
+
+å¦å¤ï¼ src/include/module.h è src/include/xcintool.h å®ç¾©äº XCIN çè¼¸å¥æ³
+æ¨¡çµèç¸éå·¥å·å½å¼çæºéä»é¢èè³æçµæ§ï¼å®åé¤äºå¯ä»¥å¨ GNU General 
+Public
+License çè¦ç¯ä¸æ£ä½ãä¿®æ¹ãä½¿ç¨ä»¥å¤ï¼å¦ææ¨é¡æçº XCIN 
+æ°å¯«æ°çè¼¸å¥æ³æ¨¡çµï¼
+æ¨å¯ä»¥ä»¥ä»»ä½å½¢å¼èªç±å¼ç¨éå©åæªçå§å®¹ï¼èä¸æå½±é¿æ¨çç¨å¼åæççæ
+¬å®£åã
+è©³è¦å®åéé ­ççæ¬è²æã
+
+æåå¸æ XCIN 
+çæ£ä½ï¼è½ä½¿å®æçºæç¨çç¨å¼ï¼ä½æ²æä»»ä½ä¿è­ï¼å¦ææ¨ä¸å¹¸å çº
+ä½¿ç¨ XCIN 
+é æä»»ä½å½¢å¼çæå¤±ï¼æåä¸è² ä»»ä½æ³å¾è²¬ä»»ãç¸éçæ¢æç´°ç¯ï¼è«æ¨å
+è GNU General Public License, COPYING ä¸æçå§å®¹ã
+
+
+============================================================================
+
+   Copyright (C) 1999 XCIN Team, Taiwan
+
+XCIN is a free software. It contains the "main program" and the "external
+source" parts. The "main program" part is mainly maintained by the XCIN
+Team. You can redistribute, modify, and use the source code of XCIN "main
+program" part under the guideline of GNU General Public License (see the
+document COPYING for details). For the "external source" part, it is not
+originally written by the XCIN Team. These source codes are adopted directly
+from other free (Freedom) software packages and are modified such that they
+are suitable for XCIN usage. They have their own license and copyright, and
+their license announcements also permit to be redistributed and used with
+the XCIN "main program". Hence if you want to redistribute, modify, or use
+these "external source" respectively, please download their original versions
+and follow their original license announcement and guideline. These "external
+source" includes
+
+1. IMdkit: (ftp://xcin.linux.org.tw/pub/xcin/misc/IMdkit.tar.gz)
+   a. src/lib/IMdkit/ and all the files and directories below.
+   b. src/xim_IC.c: which is modified from the IMdkit example program.
+   c. src/include/IC.h: which is modified from the IMdkit example program.
+
+2. siod: (http://people.delphi.com/gjc/siod.html,
+          ftp://xcin.linux.org.tw/pub/xcin/misc/siod.tar.gz)
+   src/lib/siod/ and all the files and directories below.
+
+Besides the "external source" mentioned above, all the others are belong
+the XCIN "main program".
+
+Besides, the two header files src/include/module.h and src/include/xcintool.h
+define the interface and data structers of IM (Input Method) module of XCIN
+and some other related tool functions. They can be redistributed, modified,
+and used under the terms of GNU General Public License, and in addition if
+you want to write new IM modules for XCIN, you can freely adopt the contents
+of the two files in any form, and the adoption will not affect the original
+license terms of your program. Please see the license notes in the head of
+them for details.
+
+XCIN is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY. If unfortranatly you get any loss by using XCIN, we will not
+take any responsability in law. For detailed guideline, please check the
+GNU General Public License, the document "COPYING".
+

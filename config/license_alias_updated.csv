@@ -115,7 +115,7 @@ antlr v4 license,spdx/ANTLR-PD
 antlr-pd,spdx/ANTLR-PD
 antlr4-runtime license,spdx/ANTLR-PD
 any components of the py2app suite may be distributed under,spdx/Python-2.0
-apache,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache,Approved/Apache Software Foundation products NOTICE
 "apache  version 2.0, january 2004",spdx/Apache-2.0
 apache 1.1,spdx/Apache-1.1
 apache 2,spdx/Apache-2.0
@@ -148,29 +148,29 @@ apache license version 2.0,spdx/Apache-2.0
 "apache license, version 2.0 and\ncommon development and distribution license (cddl) version 1.0",Approved/CDDL-1.0 + Apache-2.0
 apache license?1.x,spdx/Apache-1.1
 apache license?2.0,spdx/Apache-2.0
-apache portable runtime,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache portable runtime subcomponent,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache portable runtime subcomponents license,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache portable runtime,Approved/Apache Software Foundation products NOTICE
+apache portable runtime subcomponent,Approved/Apache Software Foundation products NOTICE
+apache portable runtime subcomponents license,Approved/Apache Software Foundation products NOTICE
 apache public license 2.0,spdx/Apache-2.0
-apache root pom) provides repositories. unfortunately,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache software foundation,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache software foundation (asf) under one,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache software foundation products notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache software foundation products notice(0),Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache software foundation products notice(1),Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache root pom) provides repositories. unfortunately,Approved/Apache Software Foundation products NOTICE
+apache software foundation,Approved/Apache Software Foundation products NOTICE
+apache software foundation (asf) under one,Approved/Apache Software Foundation products NOTICE
+apache software foundation products notice,Approved/Apache Software Foundation products NOTICE
+apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
+apache software foundation products notice(1),Approved/Apache Software Foundation products NOTICE
 apache software license,spdx/Apache-2.0
 apache software license - version 2,spdx/Apache-2.0
 apache software license - version 2.0,spdx/Apache-2.0
-apache software license - version ?,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache software license - version ?,Approved/Apache Software Foundation products NOTICE
 apache software license 2.0,spdx/Apache-2.0
 apache software license v2.0,spdx/Apache-2.0
 apache software license version 1.1,spdx/Apache-1.1
 apache software license version 2,spdx/Apache-2.0
 "apache software license, version 1.1",spdx/Apache-1.1
 "apache software license, version 2.0",spdx/Apache-2.0
-apache software licenses,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache software licenses,Approved/Apache Software Foundation products NOTICE
 "apache software licesne, version 1.1",spdx/Apache-1.1
-apache softwarefoundation,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache softwarefoundation,Approved/Apache Software Foundation products NOTICE
 apache v2,spdx/Apache-2.0
 apache v2 license,spdx/Apache-2.0
 apache v2.0,spdx/Apache-2.0
@@ -193,9 +193,9 @@ apache-2.0 or atomikos multiple licensing scheme https://www.atomikos.com/main/w
 "apache-2.0,bsd",Approved/Apache-2.0 + BSD 3-Clause
 "apache-2.0,bsd,public",Approved/Apache-2.0 + BSD-3-Closuer
 "apache-2.0,cc0,public",Approved/Apache-2.0 + CC0-1.0
-apache-style,Approved/Apache Software Foundation + OWN products NOTICE(1)
-apache-style license,Approved/Apache Software Foundation + OWN products NOTICE(1)
-"apache-style,",Approved/Apache Software Foundation + OWN products NOTICE(1)
+apache-style,Approved/Apache Software Foundation products NOTICE
+apache-style license,Approved/Apache Software Foundation products NOTICE
+"apache-style,",Approved/Apache Software Foundation products NOTICE
 apache2,spdx/Apache-2.0
 apache_v2,spdx/Apache-2.0
 apachev2,spdx/Apache-2.0
@@ -216,15 +216,14 @@ apple public source license?1.x,spdx/APSL-1.1
 apple public source license?2.0,spdx/APSL-2.0
 "apple's common documentation license, version 1.0",FSF/ACDL
 approved/0bsd + 1 provided by auther lucent in python license,Approved/0BSD + 1 provided by Auther Lucent in Python license
-approved/apache licensed notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation + own products notice(1),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice(0),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice(1),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice(2),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice(3),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation products notice(4),Approved/Apache Software Foundation + OWN products NOTICE(1)
-approved/apache software foundation+ own products notice(1),Approved/Apache Software Foundation + OWN products NOTICE(1)
+approved/apache licensed notice,Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice,Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(1),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(2),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(3),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(4),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation+ own products notice(1),Approved/Apache Software Foundation products NOTICE
 approved/apache-1.0,spdx/Apache-1.0
 approved/apache-1.1,spdx/Apache-1.1
 approved/apache-2.0 + cc-by-2.5 notice,Approved/Apache-2.0 + CC-BY-2.5 License
@@ -252,7 +251,9 @@ approved/apache-2.0 licensed notice(7),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(8),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0 licensed notice(9),Approved/Apache-2.0 licensed NOTICE
 approved/apache-2.0(1),spdx/Apache-2.0
+approved/apsl-2.0,spdx/APSL-2.0
 approved/arphic,FSF/Arphic
+approved/bea jsr 173 ri license,calculate-Linux/bea.ri.jsr173
 approved/beopen.com license agreement for python 2.0,spdx/Python-2.0
 approved/berkeleydb,spdx/Sleepycat
 approved/bittorrentosl1.1,spdx/BitTorrent-1.1
@@ -266,6 +267,8 @@ approved/bsd-3-clause (continued-line) license(3),spdx/BSD-3-Clause
 approved/bsd-3-clause (noseq) + auther.md,spdx/BSD-3-Clause
 approved/bsd-3-clause + auther.md,spdx/BSD-3-Clause
 approved/bsd-3-clause for asm-license,Approved/ASM=Java_bytecode_manipulation_framework
+approved/bsd-3-clause for go authors,FSF/WebM
+approved/bsd-3-clause for kirkk.com,spdx/BSD-3-Clause
 approved/bsd-3-clause for many contributors notice,spdx/BSD-3-Clause
 approved/bsd-3-clause for many contributors notice(2),spdx/BSD-3-Clause
 approved/bsd-3-clause for many contributors notice(3),spdx/BSD-3-Clause
@@ -278,7 +281,8 @@ approved/cnri-dor,FSF/DOR
 approved/cryptix,FSF/CryptixGeneralLicense
 approved/cup parser generator for java license.md,Approved/CUP Parser Generator License
 approved/cwi license agreement for python 0.9.0 through 1.2,spdx/MIT-CMU
-approved/dom4j by metastuff(2),Approved/DOM4J by MetaStuff
+approved/dom4j by metastuff,calculate-Linux/dom4j
+approved/dom4j by metastuff(2),calculate-Linux/dom4j
 approved/edl-v10,Approved/EDL-1.0
 approved/epl-v10,spdx/EPL-1.0
 approved/erlang public license version 1.1,spdx/ErlPL-1.1
@@ -286,18 +290,27 @@ approved/expat,spdx/MIT
 approved/free-art-l-1.3,FSF/FreeArt
 approved/freebsddl,spdx/BSD-2-Clause-FreeBSD
 approved/freetype project license,spdx/FTL
-approved/gpl-2.0 with classpath exception,spdx/GPL-2.0-with-classpath-exception
+approved/gpl-2.0,spdx/GPL-2.0-only
+approved/gpl-2.0 with classpath exception,calculate-Linux/GPL-2-with-classpath-exception
+approved/gpl-2.0(2),spdx/GPL-2.0-only
 approved/gpl-3.0,spdx/GPL-3.0-only
 approved/gpl-pa-1.1,FSF/GPL-PA
 approved/hsqldb=bsd based license,Approved/BSD-3-Clause for HSQL Development Group
 approved/intel-acpi,spdx/Intel-ACPI
+approved/ipa_font_license,spdx/IPA
 approved/isc-authers-license,spdx/ISC
 approved/isc-contributors-license,spdx/ISC
 approved/jabberoslv1.0,FSF/josl
+approved/javase10 spec license-4417634,calculate-Linux/oracle-java-documentation-11
+approved/javase8 spec license-2158700,calculate-Linux/oracle-java-documentation-8
+approved/javase9 spec license-3903847,calculate-Linux/oracle-java-documentation-9
 approved/jcip-annotations license,spdx/CC-BY-2.5
 approved/jdom license,Approved/jdom LICENSE(2)
 approved/jdom license(2),Approved/jdom License
+approved/jpython-1.1.x,calculate-Linux/JPython
+approved/jsr spec evaluation license,Approved/JSR 349 Bbean Validation 1.1 Final Release Spec Evaluation License
 approved/latex_ecfonts,FSF/ecfonts
+approved/lgpl-2.1 based colt license agreement notice,calculate-Linux/colt
 approved/licensed under lgpl notice,Approved/LGPLv2 + CERN NOTICE
 approved/microsoft shared source license,FSF/Ms-SS
 approved/mit,spdx/MIT
@@ -333,11 +346,17 @@ approved/openssl + ssleay,spdx/OpenSSL
 approved/openssl + ssleay by module license,spdx/OpenSSL
 approved/opl-1.0,spdx/OPL-1.0
 approved/originalbsd,spdx/BSD-4-Clause
+"approved/osgi specification license, version 2.0",calculate-Linux/OSGi-Specification-2.0
 approved/peer-production,FSF/PPL
 approved/pine,FSF/PINE
+approved/plexus for werkencompany,calculate-Linux/Werken-1.1.1.1
+approved/python-1.6a2,FSF/Python1.6a2
 approved/python-1.6b1,spdx/Python-2.0
+approved/python-2-1-1,spdx/Python-2.0
+approved/python-2-3,calculate-Linux/PSF-2.3
 approved/python-3.7.2,spdx/Python-2.0
 approved/rpl-1.3,spdx/RPL-1.1
+approved/ruby,calculate-Linux/Ruby-BSD
 approved/sax-pd,spdx/SAX-PD
 approved/scilab,FSF/Scilab
 approved/scratch-1.4,FSF/Scratch
@@ -348,17 +367,21 @@ approved/squeak-old,FSF/Squeak
 approved/standardml-nj,spdx/SMLNJ
 approved/storage networking industry association public license version 1.1,spdx/SNIA
 approved/suncslv2.8,FSF/SunCommunitySourceLicense
+approved/tcp_wrappers_license,spdx/TCP-wrappers
+"approved/the h2 license, version 1.0",Approved/MPL-2.0 + EPL-1.0
 approved/tmate open source license,spdx/TMate
 approved/truecrypt-3.0,FSF/Truecrypt-3.0
+approved/ubuntu-font-licence-1.0,calculate-Linux/UbuntuFontLicense-1.0
 approved/ucb-lb license,spdx/BSD-4-Clause
 approved/unicode copyright and terms of use,spdx/Unicode-TOU
 approved/utahpubliclicense,FSF/UtahPublicLicense
 approved/uuencode and uudecode functions notice,spdx/HPND
 approved/w3c software notice and license.dom-software,spdx/W3C
+approved/watcom-1.0,spdx/Watcom-1.0
 approved/webm,FSF/WebM
 approved/wtfpl-2.0,spdx/WTFPL
 approved/x11,spdx/X11
-apr apache portability runtime library,Approved/Apache Software Foundation + OWN products NOTICE(1)
+apr apache portability runtime library,Approved/Apache Software Foundation products NOTICE
 apsl-1.0,spdx/APSL-1.0
 apsl-1.1,spdx/APSL-1.1
 apsl-1.2,spdx/APSL-1.2
@@ -385,7 +408,7 @@ artisticlicense2,spdx/Artistic-2.0
 as published by the free software foundation,spdx/GFDL-1.3-only
 as published by the free software foundation; either,spdx/GPL-2.0-only
 asf 2.0,spdx/Apache-2.0
-asf license,Approved/Apache Software Foundation + OWN products NOTICE(1)
+asf license,Approved/Apache Software Foundation products NOTICE
 asl,spdx/Apache-2.0
 asl 2.0,spdx/Apache-2.0
 asl or a similar license,spdx/Apache-2.0
@@ -548,6 +571,125 @@ bzip2 and libbzip2 license v1.0.6,spdx/bzip2-1.0.6
 bzip2-1.0.5,spdx/bzip2-1.0.5
 bzip2-1.0.6,spdx/bzip2-1.0.6
 c3p0 jdbc library license,Approved/LGPL-2.1 + EPL-1.0 licensing NOTICE
+calculate-linux/afl-2.1,spdx/AFL-2.0
+calculate-linux/afl-3.0,spdx/AFL-3.0
+calculate-linux/agpl-3,spdx/AGPL-3.0-only
+calculate-linux/ampas,spdx/AMPAS
+calculate-linux/apache-1.0,spdx/Apache-1.0
+calculate-linux/apache-2.0,spdx/Apache-2.0
+calculate-linux/apple,FSF/Squeak
+calculate-linux/apsl-2,spdx/APSL-2.0
+calculate-linux/arphic,FSF/Arphic
+calculate-linux/artistic,spdx/Artistic-1.0-Perl
+calculate-linux/artistic-2,spdx/Artistic-2.0
+calculate-linux/beer-ware,spdx/Beerware
+calculate-linux/boost-1.0,spdx/BSL-1.0
+calculate-linux/bsd,spdx/BSD-3-Clause
+calculate-linux/capybara-eula,calculate-Linux/2dboy-EULA
+calculate-linux/cc-by-2.0,spdx/CC-BY-2.0
+calculate-linux/cc-by-2.5,spdx/CC-BY-2.5
+calculate-linux/cc-by-3.0,spdx/CC-BY-3.0
+calculate-linux/cc-by-nc-4.0,spdx/CC-BY-NC-4.0
+calculate-linux/cc-by-nc-nd-2.0,spdx/CC-BY-NC-ND-2.0
+calculate-linux/cc-by-nc-nd-2.5,spdx/CC-BY-NC-ND-2.5
+calculate-linux/cc-by-nc-nd-3.0,spdx/CC-BY-NC-ND-3.0
+calculate-linux/cc-by-nc-sa-2.5,spdx/CC-BY-NC-SA-2.5
+calculate-linux/cc-by-nc-sa-3.0,spdx/CC-BY-NC-SA-3.0
+calculate-linux/cc-by-nc-sa-4.0,spdx/CC-BY-NC-SA-4.0
+calculate-linux/cc-by-nd-3.0,spdx/CC-BY-ND-3.0
+calculate-linux/cc-by-sa-1.0,spdx/CC-BY-SA-1.0
+calculate-linux/cc-by-sa-2.0,spdx/CC-BY-SA-2.0
+calculate-linux/cc-by-sa-2.5,spdx/CC-BY-SA-2.5
+calculate-linux/cc-by-sa-3.0,spdx/CC-BY-SA-3.0
+calculate-linux/cc-by-sa-4.0,spdx/CC-BY-SA-4.0
+calculate-linux/cc0-1.0,spdx/CC0-1.0
+calculate-linux/cddl,spdx/CDDL-1.0
+calculate-linux/cddl-schily,spdx/CDDL-1.1
+calculate-linux/cecill-2,spdx/CECILL-2.0
+calculate-linux/cecill-b,spdx/CECILL-B
+calculate-linux/cecill-c,spdx/CECILL-C
+calculate-linux/clear-bsd,spdx/BSD-3-Clause-Clear
+calculate-linux/cpal-1.0,spdx/CPAL-1.0
+calculate-linux/cpl-0.5,spdx/CPL-1.0
+calculate-linux/cpl-1.0,spdx/CPL-1.0
+calculate-linux/cpol,spdx/CPOL-1.02
+calculate-linux/crossover-3,calculate-Linux/CROSSOVER-2
+calculate-linux/epl-1.0,spdx/EPL-1.0
+calculate-linux/epl-2.0,spdx/EPL-2.0
+calculate-linux/erlpl-1.1,spdx/ErlPL-1.1
+calculate-linux/eupl-1.1,spdx/EUPL-1.1
+calculate-linux/fastcgi,spdx/OML
+calculate-linux/fdl-1.1,spdx/GFDL-1.1-only
+calculate-linux/fdl-1.2,spdx/GFDL-1.2-only
+calculate-linux/fdl-1.2+,calculate-Linux/FDL-1.1+
+calculate-linux/fdl-1.3,spdx/GFDL-1.3-only
+calculate-linux/fdl-1.3+,calculate-Linux/FDL-1.1+
+calculate-linux/fipl-1.0,spdx/FreeImage
+calculate-linux/flex,spdx/BSD-4-Clause-UC
+calculate-linux/gpl-1,spdx/GPL-1.0-only
+calculate-linux/gpl-2,spdx/GPL-2.0-only
+calculate-linux/gpl-2+,calculate-Linux/GPL-1+
+calculate-linux/gpl-3,spdx/GPL-3.0-only
+calculate-linux/gpl-3+,calculate-Linux/GPL-1+
+calculate-linux/gpl-3-with-openssl-exception,calculate-Linux/GPL-3-with-font-exception
+calculate-linux/gsm,spdx/TU-Berlin-2.0
+calculate-linux/iasl,spdx/Intel-ACPI
+calculate-linux/ibm,spdx/IPL-1.0
+calculate-linux/icu,spdx/ICU
+calculate-linux/ijg,spdx/IJG
+calculate-linux/imagemagick,spdx/ImageMagick
+calculate-linux/interbase-1.0,spdx/Interbase-1.0
+calculate-linux/ipw2200-fw,calculate-Linux/ipw2100-fw
+calculate-linux/isc,spdx/ISC
+calculate-linux/jasper2.0,spdx/JasPer-2.0
+calculate-linux/knights-demo,calculate-Linux/MAJESTY-DEMO
+calculate-linux/lgpl-2,spdx/LGPL-2.0-only
+calculate-linux/lgpl-2.1,spdx/LGPL-2.1-only
+calculate-linux/lgpl-2.1+,calculate-Linux/LGPL-2+
+calculate-linux/lgpl-3,spdx/LGPL-3.0-only
+calculate-linux/lgpl-3+,calculate-Linux/LGPL-2+
+calculate-linux/libpng,spdx/Libpng
+calculate-linux/lppl-1.2,spdx/LPPL-1.1
+calculate-linux/lppl-1.3b,spdx/LPPL-1.3c
+calculate-linux/lppl-1.3c,spdx/LPPL-1.3c
+calculate-linux/makeindex,spdx/MakeIndex
+calculate-linux/man-pages-posix-2013,calculate-Linux/man-pages-posix
+calculate-linux/mit,spdx/MIT
+calculate-linux/mpl-1.0,spdx/MPL-1.0
+calculate-linux/mpl-1.1,spdx/NPL-1.0
+calculate-linux/mpl-2.0,spdx/MPL-2.0
+calculate-linux/nethack,spdx/NGPL
+calculate-linux/nosa,spdx/NASA-1.3
+calculate-linux/npl-1.1,spdx/NPL-1.0
+calculate-linux/ofl-1.1,spdx/OFL-1.1
+calculate-linux/osl-2.0,spdx/OSL-2.0
+calculate-linux/osl-2.1,spdx/OSL-2.0
+calculate-linux/php-3.01,calculate-Linux/PHP-3
+calculate-linux/psf-2.2,calculate-Linux/PSF-2
+calculate-linux/psf-2.3,Approved/Python-2-3
+calculate-linux/psutils,spdx/psutils
+calculate-linux/python,spdx/Python-2.0
+calculate-linux/qpl,spdx/QPL-1.0
+calculate-linux/qpl-1.0,spdx/QPL-1.0
+calculate-linux/queen,calculate-Linux/drascula
+calculate-linux/rdisc,spdx/Rdisc
+calculate-linux/regexp-uoft,spdx/Spencer-86
+calculate-linux/snia,spdx/SNIA
+calculate-linux/sun-bcla-jsapi,calculate-Linux/sun-bcla-jms
+calculate-linux/sun-bcla-jta,calculate-Linux/sun-bcla-jms
+calculate-linux/tcp_wrappers_license,spdx/TCP-wrappers
+calculate-linux/telegram,calculate-Linux/GPL-3-with-font-exception
+calculate-linux/torque-2.5,spdx/TORQUE-1.1
+calculate-linux/truecrypt-3.0,FSF/Truecrypt-3.0
+calculate-linux/unicode,spdx/Unicode-TOU
+calculate-linux/unlicense,spdx/Unlicense
+calculate-linux/vostrom,spdx/VOSTROM
+calculate-linux/watcom-1.0,spdx/Watcom-1.0
+calculate-linux/webstorm_academic,calculate-Linux/PyCharm_Academic
+calculate-linux/webstorm_classroom,calculate-Linux/PyCharm_Classroom
+calculate-linux/webstorm_personal,calculate-Linux/WebStorm
+calculate-linux/wxwinll-3.1,calculate-Linux/wxWinLL-3
+calculate-linux/zpl,spdx/ZPL-2.1
 caldera,spdx/Caldera
 caldera license,spdx/Caldera
 catosl-1.1,spdx/CATOSL-1.1
@@ -710,6 +852,7 @@ computer associates trusted open source license 1.1,spdx/CATOSL-1.1
 condor public license,spdx/Condor-1.1
 condor public license v1.1,spdx/Condor-1.1
 condor-1.1,spdx/Condor-1.1
+considered/open game license version 1.0a,calculate-Linux/OGL-1.0a
 contents of this file are subject to the mozilla public license,spdx/MPL-1.1
 copyleft-next 0.3.0,spdx/copyleft-next-0.3.0
 copyleft-next 0.3.1,spdx/copyleft-next-0.3.1
@@ -1044,7 +1187,7 @@ fsf/cpol,spdx/CPOL-1.02
 fsf/ecl2.0,spdx/ECL-2.0
 fsf/ecos11,spdx/RHeCos-1.1
 fsf/ecos2.0,spdx/GPL-2.0+ WITH eCos-exception-2.0
-fsf/eiffel,spdx/EFL-2.0
+fsf/eiffel,spdx/EFL-1.0
 fsf/epl,spdx/EPL-1.0
 fsf/epl2,spdx/EPL-2.0
 fsf/eudatagrid,spdx/EUDatagrid
@@ -1073,7 +1216,7 @@ fsf/isc,spdx/ISC
 fsf/json,spdx/JSON
 fsf/lgplv2.1,spdx/LGPL-2.1-only
 fsf/lgplv3,spdx/LGPL-3.0-only
-fsf/lppl-1.2,spdx/LPPL-1.2
+fsf/lppl-1.2,spdx/LPPL-1.1
 fsf/lppl-1.3a,spdx/LPPL-1.3a
 fsf/lucent102,spdx/LPL-1.02
 fsf/modifiedbsd,spdx/BSD-3-Clause
@@ -1791,7 +1934,7 @@ http://www.affero.org/oagpl.html,spdx/AGPL-1.0-only
 http://www.antlr.org/license.html,spdx/ANTLR-PD
 http://www.antlr2.org/license.html,spdx/ANTLR-PD
 http://www.apache.org/license/license-2.0.txt,spdx/Apache-2.0
-http://www.apache.org/licenses/,Approved/Apache Software Foundation + OWN products NOTICE(1)
+http://www.apache.org/licenses/,Approved/Apache Software Foundation products NOTICE
 http://www.apache.org/licenses/license-1.0,spdx/Apache-1.0
 http://www.apache.org/licenses/license-1.1,spdx/Apache-1.1
 http://www.apache.org/licenses/license-1.1.txt,spdx/Apache-1.1
@@ -2143,7 +2286,7 @@ https://api.github.com/licenses/lgpl-3.0,spdx/LGPL-3.0-only
 https://api.github.com/licenses/mit,spdx/MIT
 https://api.github.com/licenses/mpl-2.0,spdx/MPL-2.0
 https://api.github.com/licenses/wtfpl,spdx/WTFPL
-https://apr.apache.org/,Approved/Apache Software Foundation + OWN products NOTICE(1)
+https://apr.apache.org/,Approved/Apache Software Foundation products NOTICE
 https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt?_ga=2.218276304.816375073.1550828426-1715464236.1550828426=approved/ubuntu-font-licence-1.0,Approved/ubuntu-font-licence-1.0
 https://aws.amazon.com/apache2.0,spdx/Apache-2.0
 https://aws.amazon.com/jp/windows/resources/licensing/,Approved/BYOL and Oversubscription
@@ -2303,7 +2446,7 @@ https://docs.anaconda.com/anaconda-repository/2.23/admin/eula/,Approved/propriet
 https://docs.jboss.org/cdi/spec/1.1.edr1/html/license.html,Approved/JSR Spec Evaluation License
 https://docs.ldap.com/ldap-sdk/docs/license-unboundid-ldapsdk.txt,Approved/UnboundID LDAP SDK Free Use License
 https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-ant-contrib.html,Approved/Apache-1.1 based Ant-Contrib License
-https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-apache-portable-runtime.html,Approved/Apache Software Foundation + OWN products NOTICE(1)
+https://docs.oracle.com/cd/e17952_01/mysql-monitor-2.3-en/license-apache-portable-runtime.html,Approved/Apache Software Foundation products NOTICE
 https://docs.oracle.com/cd/e26854_01/doc.121/e57639/license-slf4j.html,Approved/MIT for Qos ch
 https://docs.oracle.com/cd/e37069_01/html/e37094/gnfar.html,Approved/BSD-3-Clause for Ecma International
 https://docs.oracle.com/cd/e60665_01/big-data-discovery-cloud/bddlg/cl_bsd_jaxen.htm#bddlg-concept_8c539f6f54bf4178b45a1057c503f402,Approved/Plexus for Werken Company
@@ -2519,6 +2662,7 @@ https://javahelp.dev.java.net/license.txt,Approved/CDDL + GPL-2.0-with-classpath
 https://jcp.org/aboutjava/communityprocess/jspa1.pdf,Approved/Java Specification Participation Agreement
 https://jcp.org/aboutjava/communityprocess/licenses/jsr107/sa-tck-jsr-107-10_22_12.pdf,Approved/JSR107 Agreement
 https://jcp.org/aboutjava/communityprocess/speclead/final-license.txt,Approved/license template for implementing final JSRs
+https://jcp.org/aboutjava/communityprocess/speclead/pre-final-license.txt,Approved/license template for implementing final JSRs
 https://jdbc.postgresql.org/about/license.html,spdx/PostgreSQL
 https://jenkins.io/project/governance/#compatibility-matters,Approved/Jenkins Project Governance Document
 https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=license.txt,spdx/BSD-3-Clause-No-Nuclear-License
@@ -3067,7 +3211,7 @@ https://wrapper.tanukisoftware.com/doc/english/licenseoverview.html,Approved/Tan
 https://wso2.com/licenses,Approved/WSO2 Commercial License 1.0
 https://www.acm.org/publications/policies/software-copyright-notice,Approved/ACM Software License Agreement
 https://www.apache.org/license-1.1,spdx/Apache-1.1
-https://www.apache.org/licenses/,Approved/Apache Software Foundation + OWN products NOTICE(1)
+https://www.apache.org/licenses/,Approved/Apache Software Foundation products NOTICE
 https://www.apache.org/licenses/license-2.0,spdx/Apache-2.0
 https://www.apache.org/licenses/license-2.0.txt,spdx/Apache-2.0
 https://www.atlassian.com/licensing/purchase-licensing,Approved/Atlassian purchase-licensing
@@ -3075,7 +3219,742 @@ https://www.atomikos.com/main/extremetransactionsdevelopmentlicense,Approved/Ext
 https://www.atomikos.com/main/whichlicenseapplies,Approved/ExtremeTransactions Development License
 https://www.boost.org/license_1_0.txt,spdx/BSL-1.0
 https://www.bouncycastle.org/licence.html,Approved/MIT + donation for Bouncy Castle License
-https://www.calculate-linux.org/packages/licenses/bea.ri.jsr173,Approved/Java Specification Participation Agreement
+https://www.calculate-linux.org/packages/licenses/2dboy-eula,calculate-Linux/2dboy-EULA
+https://www.calculate-linux.org/packages/licenses/9base,calculate-Linux/9base
+https://www.calculate-linux.org/packages/licenses/9wm,calculate-Linux/9wm
+https://www.calculate-linux.org/packages/licenses/abyss,calculate-Linux/abyss
+https://www.calculate-linux.org/packages/licenses/ace,calculate-Linux/ACE
+https://www.calculate-linux.org/packages/licenses/aczoom,calculate-Linux/aczoom
+https://www.calculate-linux.org/packages/licenses/adobe,calculate-Linux/Adobe
+https://www.calculate-linux.org/packages/licenses/adobeflash-11.x,calculate-Linux/AdobeFlash-11.x
+https://www.calculate-linux.org/packages/licenses/adobeps,calculate-Linux/AdobePS
+https://www.calculate-linux.org/packages/licenses/adom,calculate-Linux/adom
+https://www.calculate-linux.org/packages/licenses/afl-2.1,calculate-Linux/AFL-2.1
+https://www.calculate-linux.org/packages/licenses/afl-3.0,calculate-Linux/AFL-3.0
+https://www.calculate-linux.org/packages/licenses/agpl-3,calculate-Linux/AGPL-3
+https://www.calculate-linux.org/packages/licenses/agpl-3+,calculate-Linux/AGPL-3+
+https://www.calculate-linux.org/packages/licenses/agrep,calculate-Linux/AGREP
+https://www.calculate-linux.org/packages/licenses/aiffwriter.m,calculate-Linux/AIFFWriter.m
+https://www.calculate-linux.org/packages/licenses/aladdin,calculate-Linux/Aladdin
+https://www.calculate-linux.org/packages/licenses/alasir,calculate-Linux/Alasir
+https://www.calculate-linux.org/packages/licenses/all-rights-reserved,calculate-Linux/all-rights-reserved
+https://www.calculate-linux.org/packages/licenses/allegro,calculate-Linux/Allegro
+https://www.calculate-linux.org/packages/licenses/almworks-1.2,calculate-Linux/ALMWorks-1.2
+https://www.calculate-linux.org/packages/licenses/alternate,calculate-Linux/alternate
+https://www.calculate-linux.org/packages/licenses/amazon,calculate-Linux/Amazon
+https://www.calculate-linux.org/packages/licenses/amd-gpu-pro-eula,calculate-Linux/AMD-GPU-PRO-EULA
+https://www.calculate-linux.org/packages/licenses/amiwm,calculate-Linux/amiwm
+https://www.calculate-linux.org/packages/licenses/ampas,calculate-Linux/AMPAS
+https://www.calculate-linux.org/packages/licenses/android,calculate-Linux/android
+https://www.calculate-linux.org/packages/licenses/anydesk-tos,calculate-Linux/AnyDesk-TOS
+https://www.calculate-linux.org/packages/licenses/apache-1.0,calculate-Linux/Apache-1.0
+https://www.calculate-linux.org/packages/licenses/apache-1.1,calculate-Linux/Apache-1.1
+https://www.calculate-linux.org/packages/licenses/apache-2.0,calculate-Linux/Apache-2.0
+https://www.calculate-linux.org/packages/licenses/ape,calculate-Linux/ApE
+https://www.calculate-linux.org/packages/licenses/apl-1.0,calculate-Linux/APL-1.0
+https://www.calculate-linux.org/packages/licenses/apple,calculate-Linux/Apple
+https://www.calculate-linux.org/packages/licenses/apsl-2,calculate-Linux/APSL-2
+https://www.calculate-linux.org/packages/licenses/aquafont,calculate-Linux/aquafont
+https://www.calculate-linux.org/packages/licenses/arb,calculate-Linux/arb
+https://www.calculate-linux.org/packages/licenses/ariadne,calculate-Linux/ARIADNE
+https://www.calculate-linux.org/packages/licenses/arj,calculate-Linux/arj
+https://www.calculate-linux.org/packages/licenses/arkkra,calculate-Linux/Arkkra
+https://www.calculate-linux.org/packages/licenses/arphic,calculate-Linux/Arphic
+https://www.calculate-linux.org/packages/licenses/artistic,calculate-Linux/Artistic
+https://www.calculate-linux.org/packages/licenses/artistic-2,calculate-Linux/Artistic-2
+https://www.calculate-linux.org/packages/licenses/arxfatalis-eula-jowood,calculate-Linux/ArxFatalis-EULA-JoWooD
+https://www.calculate-linux.org/packages/licenses/arxfatalisdemo,calculate-Linux/ArxFatalisDemo
+https://www.calculate-linux.org/packages/licenses/asrp,calculate-Linux/ASRP
+https://www.calculate-linux.org/packages/licenses/astrolog,calculate-Linux/astrolog
+https://www.calculate-linux.org/packages/licenses/atmel,calculate-Linux/Atmel
+https://www.calculate-linux.org/packages/licenses/atok,calculate-Linux/ATOK
+https://www.calculate-linux.org/packages/licenses/avago,calculate-Linux/Avago
+https://www.calculate-linux.org/packages/licenses/avasys,calculate-Linux/AVASYS
+https://www.calculate-linux.org/packages/licenses/avp,calculate-Linux/AvP
+https://www.calculate-linux.org/packages/licenses/azara,calculate-Linux/AZARA
+https://www.calculate-linux.org/packages/licenses/baekmuk,calculate-Linux/BAEKMUK
+https://www.calculate-linux.org/packages/licenses/bakoma,calculate-Linux/bakoma
+https://www.calculate-linux.org/packages/licenses/bass,calculate-Linux/bass
+https://www.calculate-linux.org/packages/licenses/battalion,calculate-Linux/battalion
+https://www.calculate-linux.org/packages/licenses/baudline,calculate-Linux/baudline
+https://www.calculate-linux.org/packages/licenses/bcs,calculate-Linux/BCS
+https://www.calculate-linux.org/packages/licenses/bea.ri.jsr173,calculate-Linux/bea.ri.jsr173
+https://www.calculate-linux.org/packages/licenses/beer-ware,calculate-Linux/BEER-WARE
+https://www.calculate-linux.org/packages/licenses/bertini,calculate-Linux/bertini
+https://www.calculate-linux.org/packages/licenses/bestcrypt,calculate-Linux/bestcrypt
+https://www.calculate-linux.org/packages/licenses/bf1942-lnxded,calculate-Linux/bf1942-lnxded
+https://www.calculate-linux.org/packages/licenses/bh-luxi,calculate-Linux/bh-luxi
+https://www.calculate-linux.org/packages/licenses/bigelowholmes,calculate-Linux/BigelowHolmes
+https://www.calculate-linux.org/packages/licenses/bitstreamcyberbit,calculate-Linux/BitstreamCyberbit
+https://www.calculate-linux.org/packages/licenses/bitstreamvera,calculate-Linux/BitstreamVera
+https://www.calculate-linux.org/packages/licenses/bl,calculate-Linux/BL
+https://www.calculate-linux.org/packages/licenses/blackshades,calculate-Linux/blackshades
+https://www.calculate-linux.org/packages/licenses/blat,calculate-Linux/blat
+https://www.calculate-linux.org/packages/licenses/bluez-firmware,calculate-Linux/bluez-firmware
+https://www.calculate-linux.org/packages/licenses/boehm-gc,calculate-Linux/boehm-gc
+https://www.calculate-linux.org/packages/licenses/bonnie,calculate-Linux/bonnie
+https://www.calculate-linux.org/packages/licenses/boost-1.0,calculate-Linux/Boost-1.0
+https://www.calculate-linux.org/packages/licenses/broadcom,calculate-Linux/Broadcom
+https://www.calculate-linux.org/packages/licenses/bsd,calculate-Linux/BSD
+https://www.calculate-linux.org/packages/licenses/bsd-1,calculate-Linux/BSD-1
+https://www.calculate-linux.org/packages/licenses/bsd-2,calculate-Linux/BSD-2
+https://www.calculate-linux.org/packages/licenses/bsd-4,calculate-Linux/BSD-4
+https://www.calculate-linux.org/packages/licenses/bsd-with-attribution,calculate-Linux/BSD-with-attribution
+https://www.calculate-linux.org/packages/licenses/buddy,calculate-Linux/buddy
+https://www.calculate-linux.org/packages/licenses/bufexplorer.vim,calculate-Linux/bufexplorer.vim
+https://www.calculate-linux.org/packages/licenses/buildlic,calculate-Linux/BUILDLIC
+https://www.calculate-linux.org/packages/licenses/bzip2,calculate-Linux/BZIP2
+https://www.calculate-linux.org/packages/licenses/c3,calculate-Linux/C3
+https://www.calculate-linux.org/packages/licenses/cadsoft-2,calculate-Linux/cadsoft-2
+https://www.calculate-linux.org/packages/licenses/canfep,calculate-Linux/canfep
+https://www.calculate-linux.org/packages/licenses/canon-ij,calculate-Linux/Canon-IJ
+https://www.calculate-linux.org/packages/licenses/canon-ufr-ii,calculate-Linux/Canon-UFR-II
+https://www.calculate-linux.org/packages/licenses/caosl,calculate-Linux/CAOSL
+https://www.calculate-linux.org/packages/licenses/caps,calculate-Linux/CAPS
+https://www.calculate-linux.org/packages/licenses/capybara-eula,calculate-Linux/CAPYBARA-EULA
+https://www.calculate-linux.org/packages/licenses/cara,calculate-Linux/CARA
+https://www.calculate-linux.org/packages/licenses/caver,calculate-Linux/CAVER
+https://www.calculate-linux.org/packages/licenses/cc-by-2.0,calculate-Linux/CC-BY-2.0
+https://www.calculate-linux.org/packages/licenses/cc-by-2.5,calculate-Linux/CC-BY-2.5
+https://www.calculate-linux.org/packages/licenses/cc-by-3.0,calculate-Linux/CC-BY-3.0
+https://www.calculate-linux.org/packages/licenses/cc-by-4.0,calculate-Linux/CC-BY-4.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-4.0,calculate-Linux/CC-BY-NC-4.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-nd-2.0,calculate-Linux/CC-BY-NC-ND-2.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-nd-2.5,calculate-Linux/CC-BY-NC-ND-2.5
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-nd-3.0,calculate-Linux/CC-BY-NC-ND-3.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-sa-2.5,calculate-Linux/CC-BY-NC-SA-2.5
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-sa-3.0,calculate-Linux/CC-BY-NC-SA-3.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nc-sa-4.0,calculate-Linux/CC-BY-NC-SA-4.0
+https://www.calculate-linux.org/packages/licenses/cc-by-nd-3.0,calculate-Linux/CC-BY-ND-3.0
+https://www.calculate-linux.org/packages/licenses/cc-by-sa-1.0,calculate-Linux/CC-BY-SA-1.0
+https://www.calculate-linux.org/packages/licenses/cc-by-sa-2.0,calculate-Linux/CC-BY-SA-2.0
+https://www.calculate-linux.org/packages/licenses/cc-by-sa-2.5,calculate-Linux/CC-BY-SA-2.5
+https://www.calculate-linux.org/packages/licenses/cc-by-sa-3.0,calculate-Linux/CC-BY-SA-3.0
+https://www.calculate-linux.org/packages/licenses/cc-by-sa-4.0,calculate-Linux/CC-BY-SA-4.0
+https://www.calculate-linux.org/packages/licenses/cc-pd,calculate-Linux/CC-PD
+https://www.calculate-linux.org/packages/licenses/cc-sa-1.0,calculate-Linux/CC-SA-1.0
+https://www.calculate-linux.org/packages/licenses/cc-sampling-plus-1.0,calculate-Linux/CC-Sampling-Plus-1.0
+https://www.calculate-linux.org/packages/licenses/cc0-1.0,calculate-Linux/CC0-1.0
+https://www.calculate-linux.org/packages/licenses/ccpn,calculate-Linux/CCPN
+https://www.calculate-linux.org/packages/licenses/cctbx-2.0,calculate-Linux/cctbx-2.0
+https://www.calculate-linux.org/packages/licenses/cddl,calculate-Linux/CDDL
+https://www.calculate-linux.org/packages/licenses/cddl-schily,calculate-Linux/CDDL-Schily
+https://www.calculate-linux.org/packages/licenses/cdf,calculate-Linux/CDF
+https://www.calculate-linux.org/packages/licenses/cecill-2,calculate-Linux/CeCILL-2
+https://www.calculate-linux.org/packages/licenses/cecill-b,calculate-Linux/CeCILL-B
+https://www.calculate-linux.org/packages/licenses/cecill-c,calculate-Linux/CeCILL-C
+https://www.calculate-linux.org/packages/licenses/cenon,calculate-Linux/Cenon
+https://www.calculate-linux.org/packages/licenses/charm,calculate-Linux/charm
+https://www.calculate-linux.org/packages/licenses/circlemud,calculate-Linux/circlemud
+https://www.calculate-linux.org/packages/licenses/clarified-artistic,calculate-Linux/Clarified-Artistic
+https://www.calculate-linux.org/packages/licenses/clear-bsd,calculate-Linux/Clear-BSD
+https://www.calculate-linux.org/packages/licenses/clonk-trademark,calculate-Linux/CLONK-trademark
+https://www.calculate-linux.org/packages/licenses/clustalw,calculate-Linux/clustalw
+https://www.calculate-linux.org/packages/licenses/cmake,calculate-Linux/CMake
+https://www.calculate-linux.org/packages/licenses/cnri,calculate-Linux/CNRI
+https://www.calculate-linux.org/packages/licenses/cnri-quixote-2.4,calculate-Linux/CNRI-QUIXOTE-2.4
+https://www.calculate-linux.org/packages/licenses/cns,calculate-Linux/cns
+https://www.calculate-linux.org/packages/licenses/cockroach,calculate-Linux/Cockroach
+https://www.calculate-linux.org/packages/licenses/codehaus-classworlds,calculate-Linux/codehaus-classworlds
+https://www.calculate-linux.org/packages/licenses/coherent-graphics,calculate-Linux/Coherent-Graphics
+https://www.calculate-linux.org/packages/licenses/colt,calculate-Linux/colt
+https://www.calculate-linux.org/packages/licenses/comi,calculate-Linux/comi
+https://www.calculate-linux.org/packages/licenses/cpal-1.0,calculate-Linux/CPAL-1.0
+https://www.calculate-linux.org/packages/licenses/cpl-0.5,calculate-Linux/CPL-0.5
+https://www.calculate-linux.org/packages/licenses/cpl-1.0,calculate-Linux/CPL-1.0
+https://www.calculate-linux.org/packages/licenses/cpol,calculate-Linux/CPOL
+https://www.calculate-linux.org/packages/licenses/cracklib,calculate-Linux/CRACKLIB
+https://www.calculate-linux.org/packages/licenses/crafty,calculate-Linux/crafty
+https://www.calculate-linux.org/packages/licenses/crossover-2,calculate-Linux/CROSSOVER-2
+https://www.calculate-linux.org/packages/licenses/crossover-3,calculate-Linux/CROSSOVER-3
+https://www.calculate-linux.org/packages/licenses/crypt-idea,calculate-Linux/Crypt-IDEA
+https://www.calculate-linux.org/packages/licenses/csl-2.0,calculate-Linux/CSL-2.0
+https://www.calculate-linux.org/packages/licenses/cudpp,calculate-Linux/CUDPP
+https://www.calculate-linux.org/packages/licenses/d1x,calculate-Linux/D1X
+https://www.calculate-linux.org/packages/licenses/dcc,calculate-Linux/DCC
+https://www.calculate-linux.org/packages/licenses/dell,calculate-Linux/Dell
+https://www.calculate-linux.org/packages/licenses/des,calculate-Linux/DES
+https://www.calculate-linux.org/packages/licenses/descent-data,calculate-Linux/descent-data
+https://www.calculate-linux.org/packages/licenses/dgen-sdl,calculate-Linux/dgen-sdl
+https://www.calculate-linux.org/packages/licenses/digium,calculate-Linux/Digium
+https://www.calculate-linux.org/packages/licenses/dina,calculate-Linux/Dina
+https://www.calculate-linux.org/packages/licenses/distributed.net,calculate-Linux/distributed.net
+https://www.calculate-linux.org/packages/licenses/docbook,calculate-Linux/docbook
+https://www.calculate-linux.org/packages/licenses/dom4j,calculate-Linux/dom4j
+https://www.calculate-linux.org/packages/licenses/doom3,calculate-Linux/DOOM3
+https://www.calculate-linux.org/packages/licenses/drascula,calculate-Linux/drascula
+https://www.calculate-linux.org/packages/licenses/dreamweb,calculate-Linux/Dreamweb
+https://www.calculate-linux.org/packages/licenses/dropbox,calculate-Linux/dropbox
+https://www.calculate-linux.org/packages/licenses/duke3d,calculate-Linux/DUKE3D
+https://www.calculate-linux.org/packages/licenses/dumb-0.9.2,calculate-Linux/DUMB-0.9.2
+https://www.calculate-linux.org/packages/licenses/dxx-rebirth,calculate-Linux/DXX-Rebirth
+https://www.calculate-linux.org/packages/licenses/eapl,calculate-Linux/EAPL
+https://www.calculate-linux.org/packages/licenses/ecl-2.0,calculate-Linux/ECL-2.0
+https://www.calculate-linux.org/packages/licenses/egenixpublic-1.1,calculate-Linux/eGenixPublic-1.1
+https://www.calculate-linux.org/packages/licenses/egressor,calculate-Linux/egressor
+https://www.calculate-linux.org/packages/licenses/elastic,calculate-Linux/Elastic
+https://www.calculate-linux.org/packages/licenses/elementtree,calculate-Linux/ElementTree
+https://www.calculate-linux.org/packages/licenses/elm,calculate-Linux/Elm
+https://www.calculate-linux.org/packages/licenses/emacs,calculate-Linux/Emacs
+https://www.calculate-linux.org/packages/licenses/epinions,calculate-Linux/Epinions
+https://www.calculate-linux.org/packages/licenses/epl-1.0,calculate-Linux/EPL-1.0
+https://www.calculate-linux.org/packages/licenses/epl-2.0,calculate-Linux/EPL-2.0
+https://www.calculate-linux.org/packages/licenses/epson,calculate-Linux/EPSON
+https://www.calculate-linux.org/packages/licenses/erlpl-1.1,calculate-Linux/ErlPL-1.1
+https://www.calculate-linux.org/packages/licenses/eschalon-book-1-demo,calculate-Linux/eschalon-book-1-demo
+https://www.calculate-linux.org/packages/licenses/eternal_lands,calculate-Linux/eternal_lands
+https://www.calculate-linux.org/packages/licenses/etqw,calculate-Linux/ETQW
+https://www.calculate-linux.org/packages/licenses/eupl-1.1,calculate-Linux/EUPL-1.1
+https://www.calculate-linux.org/packages/licenses/exljbris-free,calculate-Linux/exljbris-free
+https://www.calculate-linux.org/packages/licenses/exolab,calculate-Linux/Exolab
+https://www.calculate-linux.org/packages/licenses/f.lux,calculate-Linux/f.lux
+https://www.calculate-linux.org/packages/licenses/fah-eula-2014,calculate-Linux/FAH-EULA-2014
+https://www.calculate-linux.org/packages/licenses/fah-special-permission,calculate-Linux/FAH-special-permission
+https://www.calculate-linux.org/packages/licenses/fairuse,calculate-Linux/fairuse
+https://www.calculate-linux.org/packages/licenses/fasta,calculate-Linux/fasta
+https://www.calculate-linux.org/packages/licenses/fastcgi,calculate-Linux/FastCGI
+https://www.calculate-linux.org/packages/licenses/fdl-1.1,calculate-Linux/FDL-1.1
+https://www.calculate-linux.org/packages/licenses/fdl-1.1+,calculate-Linux/FDL-1.1+
+https://www.calculate-linux.org/packages/licenses/fdl-1.2,calculate-Linux/FDL-1.2
+https://www.calculate-linux.org/packages/licenses/fdl-1.2+,calculate-Linux/FDL-1.2+
+https://www.calculate-linux.org/packages/licenses/fdl-1.3,calculate-Linux/FDL-1.3
+https://www.calculate-linux.org/packages/licenses/fdl-1.3+,calculate-Linux/FDL-1.3+
+https://www.calculate-linux.org/packages/licenses/feh,calculate-Linux/feh
+https://www.calculate-linux.org/packages/licenses/festival,calculate-Linux/FESTIVAL
+https://www.calculate-linux.org/packages/licenses/ffsl,calculate-Linux/FFSL
+https://www.calculate-linux.org/packages/licenses/file-mmagic,calculate-Linux/File-MMagic
+https://www.calculate-linux.org/packages/licenses/finchtv,calculate-Linux/finchtv
+https://www.calculate-linux.org/packages/licenses/fipl-1.0,calculate-Linux/FIPL-1.0
+https://www.calculate-linux.org/packages/licenses/flashpix,calculate-Linux/Flashpix
+https://www.calculate-linux.org/packages/licenses/flex,calculate-Linux/FLEX
+https://www.calculate-linux.org/packages/licenses/flexmock,calculate-Linux/flexmock
+https://www.calculate-linux.org/packages/licenses/fltk,calculate-Linux/FLTK
+https://www.calculate-linux.org/packages/licenses/fmdrv,calculate-Linux/fmdrv
+https://www.calculate-linux.org/packages/licenses/fmod,calculate-Linux/fmod
+https://www.calculate-linux.org/packages/licenses/foiltex,calculate-Linux/FoilTeX
+https://www.calculate-linux.org/packages/licenses/fping,calculate-Linux/fping
+https://www.calculate-linux.org/packages/licenses/fraunhoferfdk,calculate-Linux/FraunhoferFDK
+https://www.calculate-linux.org/packages/licenses/free-noncomm,calculate-Linux/free-noncomm
+https://www.calculate-linux.org/packages/licenses/freeart,calculate-Linux/FreeArt
+https://www.calculate-linux.org/packages/licenses/freedist,calculate-Linux/freedist
+https://www.calculate-linux.org/packages/licenses/freetts,calculate-Linux/freetts
+https://www.calculate-linux.org/packages/licenses/frozenbyte-eula,calculate-Linux/frozenbyte-eula
+https://www.calculate-linux.org/packages/licenses/ftdi,calculate-Linux/FTDI
+https://www.calculate-linux.org/packages/licenses/ftl,calculate-Linux/FTL
+https://www.calculate-linux.org/packages/licenses/fvwm,calculate-Linux/FVWM
+https://www.calculate-linux.org/packages/licenses/galaxyhack,calculate-Linux/galaxyhack
+https://www.calculate-linux.org/packages/licenses/gamefront,calculate-Linux/GameFront
+https://www.calculate-linux.org/packages/licenses/gameplay-group-eula,calculate-Linux/Gameplay-Group-EULA
+https://www.calculate-linux.org/packages/licenses/gcc-runtime-library-exception-3.1,calculate-Linux/gcc-runtime-library-exception-3.1
+https://www.calculate-linux.org/packages/licenses/gd,calculate-Linux/gd
+https://www.calculate-linux.org/packages/licenses/gdls,calculate-Linux/GDLS
+https://www.calculate-linux.org/packages/licenses/geant4,calculate-Linux/geant4
+https://www.calculate-linux.org/packages/licenses/geekbench,calculate-Linux/geekbench
+https://www.calculate-linux.org/packages/licenses/genymotion,calculate-Linux/genymotion
+https://www.calculate-linux.org/packages/licenses/geogebra,calculate-Linux/Geogebra
+https://www.calculate-linux.org/packages/licenses/gfl,calculate-Linux/GFL
+https://www.calculate-linux.org/packages/licenses/gimps,calculate-Linux/GIMPS
+https://www.calculate-linux.org/packages/licenses/glulxe,calculate-Linux/Glulxe
+https://www.calculate-linux.org/packages/licenses/glut,calculate-Linux/glut
+https://www.calculate-linux.org/packages/licenses/gmap,calculate-Linux/gmap
+https://www.calculate-linux.org/packages/licenses/gnuplot,calculate-Linux/gnuplot
+https://www.calculate-linux.org/packages/licenses/gog-eula,calculate-Linux/GOG-EULA
+https://www.calculate-linux.org/packages/licenses/google-chrome,calculate-Linux/google-chrome
+https://www.calculate-linux.org/packages/licenses/google-tos,calculate-Linux/Google-TOS
+https://www.calculate-linux.org/packages/licenses/gpl-1,calculate-Linux/GPL-1
+https://www.calculate-linux.org/packages/licenses/gpl-1+,calculate-Linux/GPL-1+
+https://www.calculate-linux.org/packages/licenses/gpl-2,calculate-Linux/GPL-2
+https://www.calculate-linux.org/packages/licenses/gpl-2+,calculate-Linux/GPL-2+
+https://www.calculate-linux.org/packages/licenses/gpl-2+-with-openssl-exception,calculate-Linux/GPL-2+-with-openssl-exception
+https://www.calculate-linux.org/packages/licenses/gpl-2-with-classpath-exception,calculate-Linux/GPL-2-with-classpath-exception
+https://www.calculate-linux.org/packages/licenses/gpl-2-with-exceptions,calculate-Linux/GPL-2-with-exceptions
+https://www.calculate-linux.org/packages/licenses/gpl-2-with-font-exception,calculate-Linux/GPL-2-with-font-exception
+https://www.calculate-linux.org/packages/licenses/gpl-2-with-linking-exception,calculate-Linux/GPL-2-with-linking-exception
+https://www.calculate-linux.org/packages/licenses/gpl-2-with-mysql-floss-exception,calculate-Linux/GPL-2-with-MySQL-FLOSS-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3,calculate-Linux/GPL-3
+https://www.calculate-linux.org/packages/licenses/gpl-3+,calculate-Linux/GPL-3+
+https://www.calculate-linux.org/packages/licenses/gpl-3+-with-cuda-exception,calculate-Linux/GPL-3+-with-cuda-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3+-with-cuda-openssl-exception,calculate-Linux/GPL-3+-with-cuda-openssl-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3+-with-opencl-exception,calculate-Linux/GPL-3+-with-opencl-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3+-with-opencl-openssl-exception,calculate-Linux/GPL-3+-with-opencl-openssl-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3-with-font-exception,calculate-Linux/GPL-3-with-font-exception
+https://www.calculate-linux.org/packages/licenses/gpl-3-with-openssl-exception,calculate-Linux/GPL-3-with-openssl-exception
+https://www.calculate-linux.org/packages/licenses/grass-ipafonts,calculate-Linux/grass-ipafonts
+https://www.calculate-linux.org/packages/licenses/gsm,calculate-Linux/gsm
+https://www.calculate-linux.org/packages/licenses/gsoap,calculate-Linux/gSOAP
+https://www.calculate-linux.org/packages/licenses/guild,calculate-Linux/guild
+https://www.calculate-linux.org/packages/licenses/gwnum,calculate-Linux/gwnum
+https://www.calculate-linux.org/packages/licenses/happybunny,calculate-Linux/HappyBunny
+https://www.calculate-linux.org/packages/licenses/hauppauge-firmware,calculate-Linux/Hauppauge-Firmware
+https://www.calculate-linux.org/packages/licenses/hidapi,calculate-Linux/HIDAPI
+https://www.calculate-linux.org/packages/licenses/hkscs-2001,calculate-Linux/HKSCS-2001
+https://www.calculate-linux.org/packages/licenses/hp-proliant-essentials,calculate-Linux/hp-proliant-essentials
+https://www.calculate-linux.org/packages/licenses/hpe,calculate-Linux/hpe
+https://www.calculate-linux.org/packages/licenses/hpl,calculate-Linux/HPL
+https://www.calculate-linux.org/packages/licenses/hplip-plugin,calculate-Linux/hplip-plugin
+https://www.calculate-linux.org/packages/licenses/hpnd,calculate-Linux/HPND
+https://www.calculate-linux.org/packages/licenses/hrp,calculate-Linux/HRP
+https://www.calculate-linux.org/packages/licenses/hsl,calculate-Linux/HSL
+https://www.calculate-linux.org/packages/licenses/html-tidy,calculate-Linux/HTML-Tidy
+https://www.calculate-linux.org/packages/licenses/htmlc,calculate-Linux/htmlc
+https://www.calculate-linux.org/packages/licenses/hugo,calculate-Linux/Hugo
+https://www.calculate-linux.org/packages/licenses/hylafaxplus,calculate-Linux/hylafaxplus
+https://www.calculate-linux.org/packages/licenses/hyperspec,calculate-Linux/HyperSpec
+https://www.calculate-linux.org/packages/licenses/iasl,calculate-Linux/iASL
+https://www.calculate-linux.org/packages/licenses/ibm,calculate-Linux/IBM
+https://www.calculate-linux.org/packages/licenses/icaclient,calculate-Linux/icaclient
+https://www.calculate-linux.org/packages/licenses/icu,calculate-Linux/icu
+https://www.calculate-linux.org/packages/licenses/idea,calculate-Linux/IDEA
+https://www.calculate-linux.org/packages/licenses/idea_academic,calculate-Linux/IDEA_Academic
+https://www.calculate-linux.org/packages/licenses/idea_classroom,calculate-Linux/IDEA_Classroom
+https://www.calculate-linux.org/packages/licenses/idea_opensource,calculate-Linux/IDEA_OpenSource
+https://www.calculate-linux.org/packages/licenses/idea_personal,calculate-Linux/IDEA_Personal
+https://www.calculate-linux.org/packages/licenses/idpl,calculate-Linux/IDPL
+https://www.calculate-linux.org/packages/licenses/ijg,calculate-Linux/IJG
+https://www.calculate-linux.org/packages/licenses/imagemagick,calculate-Linux/imagemagick
+https://www.calculate-linux.org/packages/licenses/info-zip,calculate-Linux/Info-ZIP
+https://www.calculate-linux.org/packages/licenses/inform,calculate-Linux/Inform
+https://www.calculate-linux.org/packages/licenses/informix-jdbc,calculate-Linux/informix-jdbc
+https://www.calculate-linux.org/packages/licenses/inmon-sflow,calculate-Linux/inmon-sflow
+https://www.calculate-linux.org/packages/licenses/inner-net,calculate-Linux/inner-net
+https://www.calculate-linux.org/packages/licenses/intel-sdp,calculate-Linux/Intel-SDP
+https://www.calculate-linux.org/packages/licenses/intel-ucode,calculate-Linux/intel-ucode
+https://www.calculate-linux.org/packages/licenses/interbase-1.0,calculate-Linux/Interbase-1.0
+https://www.calculate-linux.org/packages/licenses/introversion,calculate-Linux/Introversion
+https://www.calculate-linux.org/packages/licenses/ipadic,calculate-Linux/ipadic
+https://www.calculate-linux.org/packages/licenses/ipafont,calculate-Linux/IPAfont
+https://www.calculate-linux.org/packages/licenses/ipw2100-fw,calculate-Linux/ipw2100-fw
+https://www.calculate-linux.org/packages/licenses/ipw2200-fw,calculate-Linux/ipw2200-fw
+https://www.calculate-linux.org/packages/licenses/ipw3945,calculate-Linux/ipw3945
+https://www.calculate-linux.org/packages/licenses/ipx-utils,calculate-Linux/ipx-utils
+https://www.calculate-linux.org/packages/licenses/isc,calculate-Linux/ISC
+https://www.calculate-linux.org/packages/licenses/isoc-rfc,calculate-Linux/ISOC-rfc
+https://www.calculate-linux.org/packages/licenses/ispell,calculate-Linux/Ispell
+https://www.calculate-linux.org/packages/licenses/its4,calculate-Linux/ITS4
+https://www.calculate-linux.org/packages/licenses/iupac-inchi,calculate-Linux/IUPAC-InChi
+https://www.calculate-linux.org/packages/licenses/jardinains,calculate-Linux/jardinains
+https://www.calculate-linux.org/packages/licenses/jasper2.0,calculate-Linux/JasPer2.0
+https://www.calculate-linux.org/packages/licenses/jdom,calculate-Linux/JDOM
+https://www.calculate-linux.org/packages/licenses/jfontain,calculate-Linux/jfontain
+https://www.calculate-linux.org/packages/licenses/jlex,calculate-Linux/jlex
+https://www.calculate-linux.org/packages/licenses/jnic,calculate-Linux/JNIC
+https://www.calculate-linux.org/packages/licenses/jove,calculate-Linux/JOVE
+https://www.calculate-linux.org/packages/licenses/jprs,calculate-Linux/JPRS
+https://www.calculate-linux.org/packages/licenses/jpython,calculate-Linux/JPython
+https://www.calculate-linux.org/packages/licenses/julius,calculate-Linux/julius
+https://www.calculate-linux.org/packages/licenses/kermit,calculate-Linux/Kermit
+https://www.calculate-linux.org/packages/licenses/keynote,calculate-Linux/keynote
+https://www.calculate-linux.org/packages/licenses/knights-demo,calculate-Linux/knights-demo
+https://www.calculate-linux.org/packages/licenses/kryoflux-mame,calculate-Linux/Kryoflux-MAME
+https://www.calculate-linux.org/packages/licenses/kvirc,calculate-Linux/kvirc
+https://www.calculate-linux.org/packages/licenses/kyocera-mita-ppds,calculate-Linux/kyocera-mita-ppds
+https://www.calculate-linux.org/packages/licenses/la_opt_base_license,calculate-Linux/LA_OPT_BASE_LICENSE
+https://www.calculate-linux.org/packages/licenses/lablgtk-examples,calculate-Linux/lablgtk-examples
+https://www.calculate-linux.org/packages/licenses/lambdamoo,calculate-Linux/LambdaMOO
+https://www.calculate-linux.org/packages/licenses/lastpass,calculate-Linux/LastPass
+https://www.calculate-linux.org/packages/licenses/latex-calendar,calculate-Linux/LaTeX-Calendar
+https://www.calculate-linux.org/packages/licenses/lcc,calculate-Linux/lcc
+https://www.calculate-linux.org/packages/licenses/ldp-1,calculate-Linux/LDP-1
+https://www.calculate-linux.org/packages/licenses/ldp-1a,calculate-Linux/LDP-1a
+https://www.calculate-linux.org/packages/licenses/legends,calculate-Linux/Legends
+https://www.calculate-linux.org/packages/licenses/levee,calculate-Linux/levee
+https://www.calculate-linux.org/packages/licenses/lgpl-2,calculate-Linux/LGPL-2
+https://www.calculate-linux.org/packages/licenses/lgpl-2+,calculate-Linux/LGPL-2+
+https://www.calculate-linux.org/packages/licenses/lgpl-2-with-linking-exception,calculate-Linux/LGPL-2-with-linking-exception
+https://www.calculate-linux.org/packages/licenses/lgpl-2.1,calculate-Linux/LGPL-2.1
+https://www.calculate-linux.org/packages/licenses/lgpl-2.1+,calculate-Linux/LGPL-2.1+
+https://www.calculate-linux.org/packages/licenses/lgpl-2.1-with-linking-exception,calculate-Linux/LGPL-2.1-with-linking-exception
+https://www.calculate-linux.org/packages/licenses/lgpl-3,calculate-Linux/LGPL-3
+https://www.calculate-linux.org/packages/licenses/lgpl-3+,calculate-Linux/LGPL-3+
+https://www.calculate-linux.org/packages/licenses/lgpl-3-with-linking-exception,calculate-Linux/LGPL-3-with-linking-exception
+https://www.calculate-linux.org/packages/licenses/lgrind-jacobson,calculate-Linux/LGrind-Jacobson
+https://www.calculate-linux.org/packages/licenses/lha,calculate-Linux/lha
+https://www.calculate-linux.org/packages/licenses/libgcc,calculate-Linux/libgcc
+https://www.calculate-linux.org/packages/licenses/libgloss,calculate-Linux/LIBGLOSS
+https://www.calculate-linux.org/packages/licenses/libmng,calculate-Linux/libmng
+https://www.calculate-linux.org/packages/licenses/libpng,calculate-Linux/libpng
+https://www.calculate-linux.org/packages/licenses/libstdc++,calculate-Linux/libstdc++
+https://www.calculate-linux.org/packages/licenses/libtiff,calculate-Linux/libtiff
+https://www.calculate-linux.org/packages/licenses/license-bitstream,calculate-Linux/LICENSE-BITSTREAM
+https://www.calculate-linux.org/packages/licenses/linux-firmware,calculate-Linux/linux-firmware
+https://www.calculate-linux.org/packages/licenses/llvm-grant,calculate-Linux/LLVM-Grant
+https://www.calculate-linux.org/packages/licenses/logmein,calculate-Linux/LogMeIn
+https://www.calculate-linux.org/packages/licenses/logmein-2013,calculate-Linux/LogMeIn-2013
+https://www.calculate-linux.org/packages/licenses/loki-eula,calculate-Linux/LOKI-EULA
+https://www.calculate-linux.org/packages/licenses/lotw,calculate-Linux/LOTW
+https://www.calculate-linux.org/packages/licenses/lppl-1.2,calculate-Linux/LPPL-1.2
+https://www.calculate-linux.org/packages/licenses/lppl-1.3,calculate-Linux/LPPL-1.3
+https://www.calculate-linux.org/packages/licenses/lppl-1.3b,calculate-Linux/LPPL-1.3b
+https://www.calculate-linux.org/packages/licenses/lppl-1.3c,calculate-Linux/LPPL-1.3c
+https://www.calculate-linux.org/packages/licenses/lrctf,calculate-Linux/LRCTF
+https://www.calculate-linux.org/packages/licenses/lsi,calculate-Linux/LSI
+https://www.calculate-linux.org/packages/licenses/lsi-tw_cli,calculate-Linux/LSI-tw_cli
+https://www.calculate-linux.org/packages/licenses/lsof,calculate-Linux/lsof
+https://www.calculate-linux.org/packages/licenses/lure,calculate-Linux/lure
+https://www.calculate-linux.org/packages/licenses/mac,calculate-Linux/mac
+https://www.calculate-linux.org/packages/licenses/magentamgopen,calculate-Linux/MagentaMgOpen
+https://www.calculate-linux.org/packages/licenses/magickwand,calculate-Linux/MagickWand
+https://www.calculate-linux.org/packages/licenses/mail-sendmail,calculate-Linux/Mail-Sendmail
+https://www.calculate-linux.org/packages/licenses/majesty-demo,calculate-Linux/MAJESTY-DEMO
+https://www.calculate-linux.org/packages/licenses/makeindex,calculate-Linux/MakeIndex
+https://www.calculate-linux.org/packages/licenses/makemkv-eula,calculate-Linux/MakeMKV-EULA
+https://www.calculate-linux.org/packages/licenses/man-pages,calculate-Linux/man-pages
+https://www.calculate-linux.org/packages/licenses/man-pages-posix,calculate-Linux/man-pages-posix
+https://www.calculate-linux.org/packages/licenses/man-pages-posix-2013,calculate-Linux/man-pages-posix-2013
+https://www.calculate-linux.org/packages/licenses/manifest.gz,calculate-Linux/Manifest.gz
+https://www.calculate-linux.org/packages/licenses/mapm,calculate-Linux/mapm
+https://www.calculate-linux.org/packages/licenses/mapm-4.9.5,calculate-Linux/mapm-4.9.5
+https://www.calculate-linux.org/packages/licenses/marginalhacks,calculate-Linux/marginalhacks
+https://www.calculate-linux.org/packages/licenses/markwardt,calculate-Linux/Markwardt
+https://www.calculate-linux.org/packages/licenses/master-pdf-editor,calculate-Linux/master-pdf-editor
+https://www.calculate-linux.org/packages/licenses/matplotlib,calculate-Linux/matplotlib
+https://www.calculate-linux.org/packages/licenses/maui,calculate-Linux/maui
+https://www.calculate-linux.org/packages/licenses/maxmind2,calculate-Linux/MaxMind2
+https://www.calculate-linux.org/packages/licenses/mbrola,calculate-Linux/MBROLA
+https://www.calculate-linux.org/packages/licenses/mekanix,calculate-Linux/mekanix
+https://www.calculate-linux.org/packages/licenses/meme,calculate-Linux/meme
+https://www.calculate-linux.org/packages/licenses/mendeley-terms,calculate-Linux/Mendeley-terms
+https://www.calculate-linux.org/packages/licenses/metapackage,calculate-Linux/metapackage
+https://www.calculate-linux.org/packages/licenses/microchip-pk2,calculate-Linux/MicroChip-PK2
+https://www.calculate-linux.org/packages/licenses/microchip-sdcc,calculate-Linux/MicroChip-SDCC
+https://www.calculate-linux.org/packages/licenses/microsemi,calculate-Linux/Microsemi
+https://www.calculate-linux.org/packages/licenses/midisport,calculate-Linux/Midisport
+https://www.calculate-linux.org/packages/licenses/milo,calculate-Linux/MILO
+https://www.calculate-linux.org/packages/licenses/mindterm,calculate-Linux/mindterm
+https://www.calculate-linux.org/packages/licenses/mini-xml,calculate-Linux/Mini-XML
+https://www.calculate-linux.org/packages/licenses/minpack,calculate-Linux/minpack
+https://www.calculate-linux.org/packages/licenses/mit,calculate-Linux/MIT
+https://www.calculate-linux.org/packages/licenses/mit-with-advertising,calculate-Linux/MIT-with-advertising
+https://www.calculate-linux.org/packages/licenses/mit_plus,calculate-Linux/MIT_Plus
+https://www.calculate-linux.org/packages/licenses/mm,calculate-Linux/mm
+https://www.calculate-linux.org/packages/licenses/mmix,calculate-Linux/mmix
+https://www.calculate-linux.org/packages/licenses/modeller,calculate-Linux/modeller
+https://www.calculate-linux.org/packages/licenses/mojang,calculate-Linux/Mojang
+https://www.calculate-linux.org/packages/licenses/molden,calculate-Linux/MOLDEN
+https://www.calculate-linux.org/packages/licenses/molmol,calculate-Linux/molmol
+https://www.calculate-linux.org/packages/licenses/molscript,calculate-Linux/molscript
+https://www.calculate-linux.org/packages/licenses/moria,calculate-Linux/Moria
+https://www.calculate-linux.org/packages/licenses/mozart,calculate-Linux/Mozart
+https://www.calculate-linux.org/packages/licenses/mpeg-4,calculate-Linux/MPEG-4
+https://www.calculate-linux.org/packages/licenses/mpeg2enc,calculate-Linux/mpeg2enc
+https://www.calculate-linux.org/packages/licenses/mpg123-el,calculate-Linux/mpg123-el
+https://www.calculate-linux.org/packages/licenses/mpich2,calculate-Linux/mpich2
+https://www.calculate-linux.org/packages/licenses/mpl-1.0,calculate-Linux/MPL-1.0
+https://www.calculate-linux.org/packages/licenses/mpl-1.1,calculate-Linux/MPL-1.1
+https://www.calculate-linux.org/packages/licenses/mpl-2.0,calculate-Linux/MPL-2.0
+https://www.calculate-linux.org/packages/licenses/mplus-fonts,calculate-Linux/mplus-fonts
+https://www.calculate-linux.org/packages/licenses/ms-pl,calculate-Linux/Ms-PL
+https://www.calculate-linux.org/packages/licenses/mserv,calculate-Linux/mserv
+https://www.calculate-linux.org/packages/licenses/msms,calculate-Linux/MSMS
+https://www.calculate-linux.org/packages/licenses/msttfeula,calculate-Linux/MSttfEULA
+https://www.calculate-linux.org/packages/licenses/mta-0.5,calculate-Linux/MTA-0.5
+https://www.calculate-linux.org/packages/licenses/myspell-en_ca-kevinatkinson,calculate-Linux/myspell-en_CA-KevinAtkinson
+https://www.calculate-linux.org/packages/licenses/myspell-ru_ru-alexanderlebedev,calculate-Linux/myspell-ru_RU-AlexanderLebedev
+https://www.calculate-linux.org/packages/licenses/namd,calculate-Linux/namd
+https://www.calculate-linux.org/packages/licenses/nauty,calculate-Linux/nauty
+https://www.calculate-linux.org/packages/licenses/ncsa-hdf,calculate-Linux/NCSA-HDF
+https://www.calculate-linux.org/packages/licenses/nessus-eula,calculate-Linux/Nessus-EULA
+https://www.calculate-linux.org/packages/licenses/netcat,calculate-Linux/netcat
+https://www.calculate-linux.org/packages/licenses/nethack,calculate-Linux/nethack
+https://www.calculate-linux.org/packages/licenses/netlogo,calculate-Linux/netlogo
+https://www.calculate-linux.org/packages/licenses/netperf,calculate-Linux/netperf
+https://www.calculate-linux.org/packages/licenses/newlib,calculate-Linux/NEWLIB
+https://www.calculate-linux.org/packages/licenses/newrelic,calculate-Linux/newrelic
+https://www.calculate-linux.org/packages/licenses/ngrep,calculate-Linux/ngrep
+https://www.calculate-linux.org/packages/licenses/no-source-code,calculate-Linux/no-source-code
+https://www.calculate-linux.org/packages/licenses/nokia-qt-lgpl-exception-1.1,calculate-Linux/Nokia-Qt-LGPL-Exception-1.1
+https://www.calculate-linux.org/packages/licenses/nomachine,calculate-Linux/nomachine
+https://www.calculate-linux.org/packages/licenses/nosa,calculate-Linux/NOSA
+https://www.calculate-linux.org/packages/licenses/npl-1.1,calculate-Linux/NPL-1.1
+https://www.calculate-linux.org/packages/licenses/nvidia-codec-sdk,calculate-Linux/NVIDIA-CODEC-SDK
+https://www.calculate-linux.org/packages/licenses/nvidia-cuda,calculate-Linux/NVIDIA-CUDA
+https://www.calculate-linux.org/packages/licenses/nvidia-cudnn,calculate-Linux/NVIDIA-cuDNN
+https://www.calculate-linux.org/packages/licenses/nvidia-r1,calculate-Linux/NVIDIA-r1
+https://www.calculate-linux.org/packages/licenses/nvidia-r2,calculate-Linux/NVIDIA-r2
+https://www.calculate-linux.org/packages/licenses/nwn-eula,calculate-Linux/NWN-EULA
+https://www.calculate-linux.org/packages/licenses/oal-1.0.1,calculate-Linux/OAL-1.0.1
+https://www.calculate-linux.org/packages/licenses/oasis-open,calculate-Linux/OASIS-Open
+https://www.calculate-linux.org/packages/licenses/odesk,calculate-Linux/ODESK
+https://www.calculate-linux.org/packages/licenses/offis,calculate-Linux/OFFIS
+https://www.calculate-linux.org/packages/licenses/ofl,calculate-Linux/OFL
+https://www.calculate-linux.org/packages/licenses/ofl-1.1,calculate-Linux/OFL-1.1
+https://www.calculate-linux.org/packages/licenses/ogl-1.0a,calculate-Linux/OGL-1.0a
+https://www.calculate-linux.org/packages/licenses/old-mit,calculate-Linux/Old-MIT
+https://www.calculate-linux.org/packages/licenses/olivia,calculate-Linux/olivia
+https://www.calculate-linux.org/packages/licenses/open-cascade-lgpl-2.1-exception-1.0,calculate-Linux/Open-CASCADE-LGPL-2.1-Exception-1.0
+https://www.calculate-linux.org/packages/licenses/openafs-krb5-a,calculate-Linux/openafs-krb5-a
+https://www.calculate-linux.org/packages/licenses/opendylan,calculate-Linux/Opendylan
+https://www.calculate-linux.org/packages/licenses/openknights,calculate-Linux/openknights
+https://www.calculate-linux.org/packages/licenses/openldap,calculate-Linux/OPENLDAP
+https://www.calculate-linux.org/packages/licenses/openpbs,calculate-Linux/openpbs
+https://www.calculate-linux.org/packages/licenses/openssl,calculate-Linux/openssl
+https://www.calculate-linux.org/packages/licenses/openwall,calculate-Linux/Openwall
+https://www.calculate-linux.org/packages/licenses/opera-12,calculate-Linux/OPERA-12
+https://www.calculate-linux.org/packages/licenses/opera-2014,calculate-Linux/OPERA-2014
+https://www.calculate-linux.org/packages/licenses/opl,calculate-Linux/OPL
+https://www.calculate-linux.org/packages/licenses/oracle-bcla-javase,calculate-Linux/Oracle-BCLA-JavaSE
+https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-11,calculate-Linux/oracle-java-documentation-11
+https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-8,calculate-Linux/oracle-java-documentation-8
+https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-9,calculate-Linux/oracle-java-documentation-9
+https://www.calculate-linux.org/packages/licenses/osgi-specification-2.0,calculate-Linux/OSGi-Specification-2.0
+https://www.calculate-linux.org/packages/licenses/osl-1.1,calculate-Linux/OSL-1.1
+https://www.calculate-linux.org/packages/licenses/osl-2.0,calculate-Linux/OSL-2.0
+https://www.calculate-linux.org/packages/licenses/osl-2.1,calculate-Linux/OSL-2.1
+https://www.calculate-linux.org/packages/licenses/otn,calculate-Linux/OTN
+https://www.calculate-linux.org/packages/licenses/otter,calculate-Linux/otter
+https://www.calculate-linux.org/packages/licenses/papers-please,calculate-Linux/PAPERS-PLEASE
+https://www.calculate-linux.org/packages/licenses/paraview,calculate-Linux/paraview
+https://www.calculate-linux.org/packages/licenses/pcre,calculate-Linux/PCRE
+https://www.calculate-linux.org/packages/licenses/pdb,calculate-Linux/PDB
+https://www.calculate-linux.org/packages/licenses/pel,calculate-Linux/PEL
+https://www.calculate-linux.org/packages/licenses/penguzzle,calculate-Linux/penguzzle
+https://www.calculate-linux.org/packages/licenses/perforce,calculate-Linux/perforce
+https://www.calculate-linux.org/packages/licenses/perldl,calculate-Linux/PerlDL
+https://www.calculate-linux.org/packages/licenses/photopc,calculate-Linux/photopc
+https://www.calculate-linux.org/packages/licenses/php-2.02,calculate-Linux/PHP-2.02
+https://www.calculate-linux.org/packages/licenses/php-3,calculate-Linux/PHP-3
+https://www.calculate-linux.org/packages/licenses/php-3.01,calculate-Linux/PHP-3.01
+https://www.calculate-linux.org/packages/licenses/phrack,calculate-Linux/phrack
+https://www.calculate-linux.org/packages/licenses/phrap,calculate-Linux/phrap
+https://www.calculate-linux.org/packages/licenses/pkcrack,calculate-Linux/pkcrack
+https://www.calculate-linux.org/packages/licenses/plan9,calculate-Linux/PLAN9
+https://www.calculate-linux.org/packages/licenses/plex,calculate-Linux/Plex
+https://www.calculate-linux.org/packages/licenses/pmd,calculate-Linux/pmd
+https://www.calculate-linux.org/packages/licenses/pngcrush,calculate-Linux/pngcrush
+https://www.calculate-linux.org/packages/licenses/pngnq,calculate-Linux/pngnq
+https://www.calculate-linux.org/packages/licenses/pompom,calculate-Linux/POMPOM
+https://www.calculate-linux.org/packages/licenses/postal2,calculate-Linux/postal2
+https://www.calculate-linux.org/packages/licenses/postgresql,calculate-Linux/POSTGRESQL
+https://www.calculate-linux.org/packages/licenses/primate-plunge,calculate-Linux/Primate-Plunge
+https://www.calculate-linux.org/packages/licenses/princeton,calculate-Linux/Princeton
+https://www.calculate-linux.org/packages/licenses/procheck,calculate-Linux/procheck
+https://www.calculate-linux.org/packages/licenses/prog-express,calculate-Linux/prog-express
+https://www.calculate-linux.org/packages/licenses/protonmail-bridge-eula,calculate-Linux/protonmail-bridge-EULA
+https://www.calculate-linux.org/packages/licenses/psf-2,calculate-Linux/PSF-2
+https://www.calculate-linux.org/packages/licenses/psf-2.2,calculate-Linux/PSF-2.2
+https://www.calculate-linux.org/packages/licenses/psf-2.3,calculate-Linux/PSF-2.3
+https://www.calculate-linux.org/packages/licenses/psf-2.4,calculate-Linux/PSF-2.4
+https://www.calculate-linux.org/packages/licenses/psipred,calculate-Linux/psipred
+https://www.calculate-linux.org/packages/licenses/pstt,calculate-Linux/PSTT
+https://www.calculate-linux.org/packages/licenses/psutils,calculate-Linux/psutils
+https://www.calculate-linux.org/packages/licenses/public-domain,calculate-Linux/public-domain
+https://www.calculate-linux.org/packages/licenses/puel,calculate-Linux/PUEL
+https://www.calculate-linux.org/packages/licenses/pycharm,calculate-Linux/PyCharm
+https://www.calculate-linux.org/packages/licenses/pycharm_academic,calculate-Linux/PyCharm_Academic
+https://www.calculate-linux.org/packages/licenses/pycharm_classroom,calculate-Linux/PyCharm_Classroom
+https://www.calculate-linux.org/packages/licenses/pycharm_opensource,calculate-Linux/PyCharm_OpenSource
+https://www.calculate-linux.org/packages/licenses/pycharm_preview,calculate-Linux/PyCharm_Preview
+https://www.calculate-linux.org/packages/licenses/pymol,calculate-Linux/pymol
+https://www.calculate-linux.org/packages/licenses/python,calculate-Linux/PYTHON
+https://www.calculate-linux.org/packages/licenses/q2eula,calculate-Linux/Q2EULA
+https://www.calculate-linux.org/packages/licenses/q3aeula,calculate-Linux/Q3AEULA
+https://www.calculate-linux.org/packages/licenses/q3aeula-20000111,calculate-Linux/Q3AEULA-20000111
+https://www.calculate-linux.org/packages/licenses/qeradiant,calculate-Linux/qeradiant
+https://www.calculate-linux.org/packages/licenses/qlogic-fibre-channel-firmware,calculate-Linux/qlogic-fibre-channel-firmware
+https://www.calculate-linux.org/packages/licenses/qmail-nelson,calculate-Linux/qmail-nelson
+https://www.calculate-linux.org/packages/licenses/qpage,calculate-Linux/qpage
+https://www.calculate-linux.org/packages/licenses/qpl,calculate-Linux/QPL
+https://www.calculate-linux.org/packages/licenses/qpl-1.0,calculate-Linux/QPL-1.0
+https://www.calculate-linux.org/packages/licenses/qpopper,calculate-Linux/qpopper
+https://www.calculate-linux.org/packages/licenses/quake1-demodata,calculate-Linux/quake1-demodata
+https://www.calculate-linux.org/packages/licenses/quake1-killer,calculate-Linux/quake1-killer
+https://www.calculate-linux.org/packages/licenses/quake1-teamfortress,calculate-Linux/quake1-teamfortress
+https://www.calculate-linux.org/packages/licenses/quake1-textures,calculate-Linux/quake1-textures
+https://www.calculate-linux.org/packages/licenses/quake2-demodata,calculate-Linux/quake2-demodata
+https://www.calculate-linux.org/packages/licenses/quake4,calculate-Linux/QUAKE4
+https://www.calculate-linux.org/packages/licenses/quartus-prime-megacore,calculate-Linux/Quartus-prime-megacore
+https://www.calculate-linux.org/packages/licenses/queen,calculate-Linux/queen
+https://www.calculate-linux.org/packages/licenses/qwt,calculate-Linux/qwt
+https://www.calculate-linux.org/packages/licenses/rar,calculate-Linux/RAR
+https://www.calculate-linux.org/packages/licenses/raslic,calculate-Linux/RASLIC
+https://www.calculate-linux.org/packages/licenses/raspberrypi-videocore-bin,calculate-Linux/raspberrypi-videocore-bin
+https://www.calculate-linux.org/packages/licenses/rc,calculate-Linux/rc
+https://www.calculate-linux.org/packages/licenses/rdisc,calculate-Linux/rdisc
+https://www.calculate-linux.org/packages/licenses/regexp-uoft,calculate-Linux/regexp-UofT
+https://www.calculate-linux.org/packages/licenses/repoze,calculate-Linux/repoze
+https://www.calculate-linux.org/packages/licenses/resounding,calculate-Linux/Resounding
+https://www.calculate-linux.org/packages/licenses/richardson,calculate-Linux/richardson
+https://www.calculate-linux.org/packages/licenses/rosetta,calculate-Linux/rosetta
+https://www.calculate-linux.org/packages/licenses/rsa,calculate-Linux/RSA
+https://www.calculate-linux.org/packages/licenses/rtcw,calculate-Linux/RTCW
+https://www.calculate-linux.org/packages/licenses/rtcw-eteula,calculate-Linux/RTCW-ETEULA
+https://www.calculate-linux.org/packages/licenses/ruby,calculate-Linux/Ruby
+https://www.calculate-linux.org/packages/licenses/ruby-bsd,calculate-Linux/Ruby-BSD
+https://www.calculate-linux.org/packages/licenses/runescape-eula,calculate-Linux/RuneScape-EULA
+https://www.calculate-linux.org/packages/licenses/rwpng,calculate-Linux/rwpng
+https://www.calculate-linux.org/packages/licenses/scanlogd,calculate-Linux/scanlogd
+https://www.calculate-linux.org/packages/licenses/sdrplay,calculate-Linux/SDRplay
+https://www.calculate-linux.org/packages/licenses/selfhtml,calculate-Linux/selfhtml
+https://www.calculate-linux.org/packages/licenses/sendmail,calculate-Linux/Sendmail
+https://www.calculate-linux.org/packages/licenses/sendmail-open-source,calculate-Linux/Sendmail-Open-Source
+https://www.calculate-linux.org/packages/licenses/sfi-scla,calculate-Linux/SFI-SCLA
+https://www.calculate-linux.org/packages/licenses/sgb2ns,calculate-Linux/sgb2ns
+https://www.calculate-linux.org/packages/licenses/sgi-b-2.0,calculate-Linux/SGI-B-2.0
+https://www.calculate-linux.org/packages/licenses/sgmlug,calculate-Linux/SGMLUG
+https://www.calculate-linux.org/packages/licenses/shmux,calculate-Linux/shmux
+https://www.calculate-linux.org/packages/licenses/shorten,calculate-Linux/shorten
+https://www.calculate-linux.org/packages/licenses/shrimp,calculate-Linux/shrimp
+https://www.calculate-linux.org/packages/licenses/sift,calculate-Linux/SIFT
+https://www.calculate-linux.org/packages/licenses/sip,calculate-Linux/SIP
+https://www.calculate-linux.org/packages/licenses/sir-tech,calculate-Linux/SIR-TECH
+https://www.calculate-linux.org/packages/licenses/sixxs,calculate-Linux/SixXS
+https://www.calculate-linux.org/packages/licenses/sj-labs,calculate-Linux/SJ-Labs
+https://www.calculate-linux.org/packages/licenses/skype-tos,calculate-Linux/Skype-TOS
+https://www.calculate-linux.org/packages/licenses/sleepycat,calculate-Linux/Sleepycat
+https://www.calculate-linux.org/packages/licenses/smail,calculate-Linux/SMAIL
+https://www.calculate-linux.org/packages/licenses/smartlabs,calculate-Linux/SmartLabs
+https://www.calculate-linux.org/packages/licenses/snd,calculate-Linux/Snd
+https://www.calculate-linux.org/packages/licenses/snes9x,calculate-Linux/Snes9x
+https://www.calculate-linux.org/packages/licenses/snia,calculate-Linux/SNIA
+https://www.calculate-linux.org/packages/licenses/sofa,calculate-Linux/SOFA
+https://www.calculate-linux.org/packages/licenses/soltys,calculate-Linux/Soltys
+https://www.calculate-linux.org/packages/licenses/sourcetrail,calculate-Linux/Sourcetrail
+https://www.calculate-linux.org/packages/licenses/sparky,calculate-Linux/sparky
+https://www.calculate-linux.org/packages/licenses/speedtouch-usb-firmware,calculate-Linux/SpeedTouch-USB-Firmware
+https://www.calculate-linux.org/packages/licenses/spideroak,calculate-Linux/spideroak
+https://www.calculate-linux.org/packages/licenses/spotify,calculate-Linux/Spotify
+https://www.calculate-linux.org/packages/licenses/spread-1.0,calculate-Linux/Spread-1.0
+https://www.calculate-linux.org/packages/licenses/sps,calculate-Linux/SPS
+https://www.calculate-linux.org/packages/licenses/ssleay,calculate-Linux/SSLeay
+https://www.calculate-linux.org/packages/licenses/sspl-1,calculate-Linux/SSPL-1
+https://www.calculate-linux.org/packages/licenses/stanford,calculate-Linux/Stanford
+https://www.calculate-linux.org/packages/licenses/stardock-images,calculate-Linux/stardock-images
+https://www.calculate-linux.org/packages/licenses/staruml-eula,calculate-Linux/StarUML-EULA
+https://www.calculate-linux.org/packages/licenses/steam,calculate-Linux/Steam
+https://www.calculate-linux.org/packages/licenses/stride,calculate-Linux/STRIDE
+https://www.calculate-linux.org/packages/licenses/stuffit,calculate-Linux/Stuffit
+https://www.calculate-linux.org/packages/licenses/sublime,calculate-Linux/Sublime
+https://www.calculate-linux.org/packages/licenses/subversion,calculate-Linux/Subversion
+https://www.calculate-linux.org/packages/licenses/sun-bcla-j2me,calculate-Linux/sun-bcla-j2me
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jai,calculate-Linux/sun-bcla-jai
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jmi,calculate-Linux/sun-bcla-jmi
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jms,calculate-Linux/sun-bcla-jms
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jsapi,calculate-Linux/sun-bcla-jsapi
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jta,calculate-Linux/sun-bcla-jta
+https://www.calculate-linux.org/packages/licenses/sun-bcla-jvmstat,calculate-Linux/sun-bcla-jvmstat
+https://www.calculate-linux.org/packages/licenses/sun-iiop,calculate-Linux/sun-iiop
+https://www.calculate-linux.org/packages/licenses/sun-jdl,calculate-Linux/sun-jdl
+https://www.calculate-linux.org/packages/licenses/sun-jlfgr,calculate-Linux/sun-jlfgr
+https://www.calculate-linux.org/packages/licenses/sun-jrl,calculate-Linux/sun-jrl
+https://www.calculate-linux.org/packages/licenses/sun-jsr67,calculate-Linux/sun-jsr67
+https://www.calculate-linux.org/packages/licenses/supermicro,calculate-Linux/supermicro
+https://www.calculate-linux.org/packages/licenses/surf,calculate-Linux/SURF
+https://www.calculate-linux.org/packages/licenses/sus4-copyright,calculate-Linux/sus4-copyright
+https://www.calculate-linux.org/packages/licenses/svfl,calculate-Linux/SVFL
+https://www.calculate-linux.org/packages/licenses/swiss-prot,calculate-Linux/swiss-prot
+https://www.calculate-linux.org/packages/licenses/sword-sparvg2004,calculate-Linux/sword-sparvg2004
+https://www.calculate-linux.org/packages/licenses/symlinks,calculate-Linux/symlinks
+https://www.calculate-linux.org/packages/licenses/szip,calculate-Linux/szip
+https://www.calculate-linux.org/packages/licenses/tablelist,calculate-Linux/tablelist
+https://www.calculate-linux.org/packages/licenses/tads2,calculate-Linux/TADS2
+https://www.calculate-linux.org/packages/licenses/tads3,calculate-Linux/TADS3
+https://www.calculate-linux.org/packages/licenses/tanuki-community,calculate-Linux/tanuki-community
+https://www.calculate-linux.org/packages/licenses/tarsnap,calculate-Linux/tarsnap
+https://www.calculate-linux.org/packages/licenses/tcltk,calculate-Linux/tcltk
+https://www.calculate-linux.org/packages/licenses/tcp_wrappers_license,calculate-Linux/tcp_wrappers_license
+https://www.calculate-linux.org/packages/licenses/teamspeak3,calculate-Linux/teamspeak3
+https://www.calculate-linux.org/packages/licenses/teamviewer,calculate-Linux/TeamViewer
+https://www.calculate-linux.org/packages/licenses/telegram,calculate-Linux/telegram
+https://www.calculate-linux.org/packages/licenses/tex,calculate-Linux/TeX
+https://www.calculate-linux.org/packages/licenses/tex-other-free,calculate-Linux/TeX-other-free
+https://www.calculate-linux.org/packages/licenses/texinfo-manual,calculate-Linux/Texinfo-manual
+https://www.calculate-linux.org/packages/licenses/the-click-license,calculate-Linux/the-Click-license
+https://www.calculate-linux.org/packages/licenses/thinktanks,calculate-Linux/THINKTANKS
+https://www.calculate-linux.org/packages/licenses/tik,calculate-Linux/TIK
+https://www.calculate-linux.org/packages/licenses/time-format,calculate-Linux/Time-Format
+https://www.calculate-linux.org/packages/licenses/time-modules,calculate-Linux/Time-modules
+https://www.calculate-linux.org/packages/licenses/tinker,calculate-Linux/Tinker
+https://www.calculate-linux.org/packages/licenses/tkmoo,calculate-Linux/tkMOO
+https://www.calculate-linux.org/packages/licenses/tm-align,calculate-Linux/tm-align
+https://www.calculate-linux.org/packages/licenses/torque-2.5,calculate-Linux/torque-2.5
+https://www.calculate-linux.org/packages/licenses/totd,calculate-Linux/totd
+https://www.calculate-linux.org/packages/licenses/toyoda,calculate-Linux/Toyoda
+https://www.calculate-linux.org/packages/licenses/transmission-openssl-exception,calculate-Linux/Transmission-OpenSSL-exception
+https://www.calculate-linux.org/packages/licenses/trf,calculate-Linux/trf
+https://www.calculate-linux.org/packages/licenses/truecrypt-3.0,calculate-Linux/truecrypt-3.0
+https://www.calculate-linux.org/packages/licenses/tsm,calculate-Linux/tsm
+https://www.calculate-linux.org/packages/licenses/ttf2pt1,calculate-Linux/ttf2pt1
+https://www.calculate-linux.org/packages/licenses/tumbolia,calculate-Linux/tumbolia
+https://www.calculate-linux.org/packages/licenses/ubiquiti,calculate-Linux/ubiquiti
+https://www.calculate-linux.org/packages/licenses/ubuntufontlicense-1.0,calculate-Linux/UbuntuFontLicense-1.0
+https://www.calculate-linux.org/packages/licenses/ucar-bsd,calculate-Linux/UCAR-BSD
+https://www.calculate-linux.org/packages/licenses/ucar-unidata,calculate-Linux/UCAR-Unidata
+https://www.calculate-linux.org/packages/licenses/unafold,calculate-Linux/unafold
+https://www.calculate-linux.org/packages/licenses/uni_indiana,calculate-Linux/uni_indiana
+https://www.calculate-linux.org/packages/licenses/unicode,calculate-Linux/unicode
+https://www.calculate-linux.org/packages/licenses/unicode_fonts_for_ancient_scripts,calculate-Linux/Unicode_Fonts_for_Ancient_Scripts
+https://www.calculate-linux.org/packages/licenses/unlicense,calculate-Linux/Unlicense
+https://www.calculate-linux.org/packages/licenses/unrar,calculate-Linux/unRAR
+https://www.calculate-linux.org/packages/licenses/unreal-tournament-strikeforce,calculate-Linux/unreal-tournament-strikeforce
+https://www.calculate-linux.org/packages/licenses/uoi-ncsa,calculate-Linux/UoI-NCSA
+https://www.calculate-linux.org/packages/licenses/upx-exception,calculate-Linux/UPX-exception
+https://www.calculate-linux.org/packages/licenses/urbanterror-4.2-maps,calculate-Linux/urbanterror-4.2-maps
+https://www.calculate-linux.org/packages/licenses/uri,calculate-Linux/URI
+https://www.calculate-linux.org/packages/licenses/urt,calculate-Linux/URT
+https://www.calculate-linux.org/packages/licenses/ut2003,calculate-Linux/ut2003
+https://www.calculate-linux.org/packages/licenses/ut2003-demo,calculate-Linux/ut2003-demo
+https://www.calculate-linux.org/packages/licenses/valvesdk,calculate-Linux/ValveSDK
+https://www.calculate-linux.org/packages/licenses/ventrilo,calculate-Linux/ventrilo
+https://www.calculate-linux.org/packages/licenses/vgba,calculate-Linux/VGBA
+https://www.calculate-linux.org/packages/licenses/vienna-rna,calculate-Linux/vienna-rna
+https://www.calculate-linux.org/packages/licenses/vigra,calculate-Linux/VIGRA
+https://www.calculate-linux.org/packages/licenses/vim,calculate-Linux/vim
+https://www.calculate-linux.org/packages/licenses/vim.org,calculate-Linux/vim.org
+https://www.calculate-linux.org/packages/licenses/vivaldi,calculate-Linux/Vivaldi
+https://www.calculate-linux.org/packages/licenses/vlgothic,calculate-Linux/vlgothic
+https://www.calculate-linux.org/packages/licenses/vmd,calculate-Linux/vmd
+https://www.calculate-linux.org/packages/licenses/volano,calculate-Linux/Volano
+https://www.calculate-linux.org/packages/licenses/vostrom,calculate-Linux/VOSTROM
+https://www.calculate-linux.org/packages/licenses/vtk,calculate-Linux/VTK
+https://www.calculate-linux.org/packages/licenses/w3c,calculate-Linux/W3C
+https://www.calculate-linux.org/packages/licenses/w3c-document,calculate-Linux/W3C-document
+https://www.calculate-linux.org/packages/licenses/w3m,calculate-Linux/w3m
+https://www.calculate-linux.org/packages/licenses/watcom-1.0,calculate-Linux/Watcom-1.0
+https://www.calculate-linux.org/packages/licenses/webstorm,calculate-Linux/WebStorm
+https://www.calculate-linux.org/packages/licenses/webstorm_academic,calculate-Linux/WebStorm_Academic
+https://www.calculate-linux.org/packages/licenses/webstorm_classroom,calculate-Linux/WebStorm_Classroom
+https://www.calculate-linux.org/packages/licenses/webstorm_opensource,calculate-Linux/WebStorm_OpenSource
+https://www.calculate-linux.org/packages/licenses/webstorm_personal,calculate-Linux/WebStorm_personal
+https://www.calculate-linux.org/packages/licenses/werken-1.1.1.1,calculate-Linux/Werken-1.1.1.1
+https://www.calculate-linux.org/packages/licenses/whitehead-mit,calculate-Linux/Whitehead-MIT
+https://www.calculate-linux.org/packages/licenses/wolframcdfplayer,calculate-Linux/WolframCDFPlayer
+https://www.calculate-linux.org/packages/licenses/worklog-assistant,calculate-Linux/worklog-assistant
+https://www.calculate-linux.org/packages/licenses/worldofpadman,calculate-Linux/worldofpadman
+https://www.calculate-linux.org/packages/licenses/wps-eula,calculate-Linux/WPS-EULA
+https://www.calculate-linux.org/packages/licenses/wri-eula,calculate-Linux/WRI-EULA
+https://www.calculate-linux.org/packages/licenses/wtfpl-2,calculate-Linux/WTFPL-2
+https://www.calculate-linux.org/packages/licenses/wxwinfdl-3,calculate-Linux/wxWinFDL-3
+https://www.calculate-linux.org/packages/licenses/wxwinll-3,calculate-Linux/wxWinLL-3
+https://www.calculate-linux.org/packages/licenses/wxwinll-3.1,calculate-Linux/wxWinLL-3.1
+https://www.calculate-linux.org/packages/licenses/x2x,calculate-Linux/x2x
+https://www.calculate-linux.org/packages/licenses/xanim,calculate-Linux/XAnim
+https://www.calculate-linux.org/packages/licenses/xbatt,calculate-Linux/xbatt
+https://www.calculate-linux.org/packages/licenses/xbattle,calculate-Linux/xbattle
+https://www.calculate-linux.org/packages/licenses/xboing,calculate-Linux/xboing
+https://www.calculate-linux.org/packages/licenses/xc,calculate-Linux/XC
+https://www.calculate-linux.org/packages/licenses/xc-radley,calculate-Linux/xc-radley
+https://www.calculate-linux.org/packages/licenses/xcin,calculate-Linux/XCIN
+https://www.calculate-linux.org/packages/licenses/xdebug,calculate-Linux/Xdebug
+https://www.calculate-linux.org/packages/licenses/xearth,calculate-Linux/xearth
+https://www.calculate-linux.org/packages/licenses/xephem,calculate-Linux/XEphem
+https://www.calculate-linux.org/packages/licenses/xgraph,calculate-Linux/xgraph
+https://www.calculate-linux.org/packages/licenses/xmame,calculate-Linux/XMAME
+https://www.calculate-linux.org/packages/licenses/xmlformat,calculate-Linux/xmlformat
+https://www.calculate-linux.org/packages/licenses/xref.lisp,calculate-Linux/xref.lisp
+https://www.calculate-linux.org/packages/licenses/xrick,calculate-Linux/xrick
+https://www.calculate-linux.org/packages/licenses/xtrs,calculate-Linux/xtrs
+https://www.calculate-linux.org/packages/licenses/xv,calculate-Linux/xv
+https://www.calculate-linux.org/packages/licenses/xvt,calculate-Linux/xvt
+https://www.calculate-linux.org/packages/licenses/yahoo-patent-license-1.2,calculate-Linux/yahoo-patent-license-1.2
+https://www.calculate-linux.org/packages/licenses/yatex,calculate-Linux/YaTeX
+https://www.calculate-linux.org/packages/licenses/ydsla,calculate-Linux/YDSLA
+https://www.calculate-linux.org/packages/licenses/yuuji,calculate-Linux/yuuji
+https://www.calculate-linux.org/packages/licenses/zchaff,calculate-Linux/zchaff
+https://www.calculate-linux.org/packages/licenses/zend-2.0,calculate-Linux/Zend-2.0
+https://www.calculate-linux.org/packages/licenses/zi-labone,calculate-Linux/zi-labone
+https://www.calculate-linux.org/packages/licenses/zlib,calculate-Linux/ZLIB
+https://www.calculate-linux.org/packages/licenses/zpl,calculate-Linux/ZPL
+https://www.calculate-linux.org/packages/licenses/zsh,calculate-Linux/ZSH
 https://www.couchbase.com/esla-11132015,Approved/Couchbase Community Edition License Agreement
 https://www.couchbase.com/licensing-and-support-faq,Approved/Couchbase Community Edition License Agreement
 https://www.cs.princeton.edu/~appel/modern/java/cup/#license,Approved/CUP Parser Generator License
@@ -3897,7 +4776,7 @@ osi/eclipse public license 1.0,spdx/EPL-1.0
 osi/eclipse public license 2.0,spdx/EPL-2.0
 osi/ecos license version 2.0,spdx/eCos-2.0
 "osi/educational community license, version 2.0",spdx/ECL-2.0
-osi/eiffel forum license v2.0,spdx/EFL-2.0
+osi/eiffel forum license v2.0,spdx/EFL-1.0
 osi/entessa public license,spdx/Entessa
 osi/eu datagrid software license,spdx/EUDatagrid
 "osi/european union public license, version 1.2",spdx/EUPL-1.2
@@ -4076,7 +4955,7 @@ remote network interaction; use with the gnu general public license.,spdx/AGPL-3
 request evaluation resin professional license,Approved/resin pro licenses NOTICE
 requesting resin pro license,Approved/resin pro licenses NOTICE
 research/adapt-openjdk-11.0.2#/legal/java.base/additional_license_info,Approved/_See ADDITIONAL_LICENSE_INFO
-research/adapt-openjdk-11.0.2#/legal/java.base/license,spdx/GPL-2.0-with-classpath-exception
+research/adapt-openjdk-11.0.2#/legal/java.base/license,calculate-Linux/GPL-2-with-classpath-exception
 research/adapt-openjdk-11.0.2#/legal/java.compiler/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/java.datatransfer/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/java.desktop/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
@@ -4143,21 +5022,22 @@ research/adapt-openjdk-11.0.2#/legal/jdk.unsupported.desktop/additional_license_
 research/adapt-openjdk-11.0.2#/legal/jdk.unsupported/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.xml.dom/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.zipfs/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/cucumber-sandwich.jar#/cglib-license,spdx/Apache-2.0
 research/cucumber-sandwich.jar#/hamcrest-license,spdx/BSD-3-Clause
 research/cucumber-sandwich.jar#/license,spdx/MIT
 research/cucumber-sandwich.jar#/licenses/extreme.indiana.edu.license.txt,Approved/Indiana University Extreme! Lab Software License
-research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/elasticsearch-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/elasticsearch-cli-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/elasticsearch-core-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/elasticsearch-launchers-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-core-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/license,Approved/Apache-2.0 licensed NOTICE
 research/elasticsearch-6.2.3/lib/jackson-dataformat-yaml-2.8.10.jar#/meta-inf/notice,Approved/FasterXML_CREDITS_NOTICE
-research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
+research/elasticsearch-6.2.3/lib/joda-time-2.9.9.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/log4j-api-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/log4j-core-2.9.1.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/lib/lucene-analyzers-common-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
 research/elasticsearch-6.2.3/lib/lucene-backward-codecs-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
@@ -4188,41 +5068,42 @@ research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/meta-inf/license,Ap
 research/elasticsearch-6.2.3/lib/lucene-spatial3d-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/lib/lucene-suggest-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
-research/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/aggs-matrix-stats/aggs-matrix-stats-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/ingest-common/ingest-common-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/lib/plugin-classloader-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/lib/plugin-cli-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/aggs-matrix-stats/aggs-matrix-stats-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/analysis-common/analysis-common-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/ingest-common/ingest-common-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/lang-expression/lang-expression-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/meta-inf/license,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + Python-3 + ICU + LGPL-2.1 + CC-BY-SA-4.0 License
 research/elasticsearch-6.2.3/modules/lang-expression/lucene-expressions-7.2.1.jar#/meta-inf/notice,Approved/Apache-2.0 + BSD-2-Clause + BSD-3-Clause + LGPL-2.1 + CC-BY-SA-4.0 + mecab Notice
-research/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/lang-painless/lang-painless-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/lang-mustache/lang-mustache-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/lang-painless/elasticsearch-scripting-painless-spi-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/lang-painless/lang-painless-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/mapper-extras/mapper-extras-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/parent-join/parent-join-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/percolator/percolator-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/rank-eval/rank-eval-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/reindex/commons-codec-1.10.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
-research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
-research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
+research/elasticsearch-6.2.3/modules/reindex/commons-logging-1.1.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/elasticsearch-rest-client-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpasyncclient-4.1.2.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
+research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpclient-4.5.2.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
 research/elasticsearch-6.2.3/modules/reindex/httpcore-4.4.5.jar#/meta-inf/license,Approved/Apache-2.0 + CC-BY-2.5 License
-research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/notice,Approved/Apache Software Foundation + OWN products NOTICE(1)
-research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
-research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/reindex/httpcore-nio-4.4.5.jar#/meta-inf/notice,Approved/Apache Software Foundation products NOTICE
+research/elasticsearch-6.2.3/modules/reindex/reindex-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
+research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab + HdrHistogram Licensed NOTICE
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-db/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-types/license,spdx/MIT
+research/node_modules/protractor/node_modules/minimatch/license,spdx/MIT
 research/node_modules/protractor/plugins/console/spec/consolefailerrorconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/consolefailwarningconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/fail_warning_spec.js,research/node_modules/protractor/plugins/console/spec/fail_error_spec.js
@@ -4240,7 +5121,7 @@ research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/install.rdf,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/install.rdf
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/kill.html,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/kill.html
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/license-junit,spdx/EPL-1.0
-research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,research/cucumber-sandwich.jar#/cglib-license
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,spdx/Apache-2.0
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/services/javax.management.remote.jmxconnectorserverprovider,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/META-INF/services/javax.management.remote.JMXConnectorProvider
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattributes.xsl,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/mx4j/tools/adaptor/http/xsl/setattribute.xsl
@@ -4322,24 +5203,26 @@ research/node_modules/protractor/testapp/nghint/nonghint.html,research/node_modu
 research/node_modules/protractor/testapp/nghint/notag.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/node_modules/protractor/testapp/nghint/unused.html,research/node_modules/protractor/testapp/accessibility/index.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/mergedoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/conf/additions/_readme,Approved/_See other file
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/quickjunit/eclipse/plugins/org.mockito_1.8.5/mockito-license,spdx/MIT
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.eclipse.team.svn.m2e_4.0.0.i20160226-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/dropins/subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit18_6.0.4.i20161211-1700/license.html,Approved/Eclipse Foundation Software User Agreement.html
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/license,Approved/_See Java LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/license,Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/license-2.0,research/cucumber-sandwich.jar#/cglib-license
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.10.0.20181127-2120/about_files/slf4j-simple-license,spdx/MIT
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
 reseller agreement 4.0 between highsoft as and reseller,Approved/Highsoft Standard License Agreement 9.0
 resin pro license deployment,Approved/resin pro licenses NOTICE
 resin pro licenses,Approved/resin pro licenses NOTICE
@@ -4598,7 +5481,7 @@ spdx/ecl-2.0,spdx/ECL-2.0
 spdx/ecos-2.0,spdx/eCos-2.0
 spdx/ecos-exception-2.0,spdx/eCos-exception-2.0
 spdx/efl-1.0,spdx/EFL-1.0
-spdx/efl-2.0,spdx/EFL-2.0
+spdx/efl-2.0,spdx/EFL-1.0
 spdx/egenix,spdx/eGenix
 spdx/entessa,spdx/Entessa
 spdx/epl-1.0,spdx/EPL-1.0
@@ -4706,7 +5589,7 @@ spdx/lpl-1.0,spdx/LPL-1.0
 spdx/lpl-1.02,spdx/LPL-1.02
 spdx/lppl-1.0,spdx/LPPL-1.0
 spdx/lppl-1.1,spdx/LPPL-1.1
-spdx/lppl-1.2,spdx/LPPL-1.2
+spdx/lppl-1.2,spdx/LPPL-1.1
 spdx/lppl-1.3a,spdx/LPPL-1.3a
 spdx/lppl-1.3c,spdx/LPPL-1.3c
 spdx/lzma-exception,spdx/LZMA-exception
@@ -4771,13 +5654,13 @@ spdx/oldap-1.4,spdx/OLDAP-1.4
 spdx/oldap-2.0,spdx/OLDAP-2.0
 spdx/oldap-2.0.1,spdx/OLDAP-2.0
 spdx/oldap-2.1,spdx/OLDAP-2.1
-spdx/oldap-2.2,spdx/OLDAP-2.2
-spdx/oldap-2.2.1,spdx/OLDAP-2.2
+spdx/oldap-2.2,spdx/OLDAP-2.1
+spdx/oldap-2.2.1,spdx/OLDAP-2.1
 spdx/oldap-2.2.2,spdx/OLDAP-2.2.2
 spdx/oldap-2.3,spdx/OLDAP-2.2.2
 spdx/oldap-2.4,spdx/OLDAP-2.4
-spdx/oldap-2.5,spdx/OLDAP-2.5
-spdx/oldap-2.6,spdx/OLDAP-2.6
+spdx/oldap-2.5,spdx/OLDAP-2.4
+spdx/oldap-2.6,spdx/OLDAP-2.4
 spdx/oldap-2.7,spdx/OLDAP-2.7
 spdx/oldap-2.8,spdx/OLDAP-2.7
 spdx/oml,spdx/OML
@@ -4942,7 +5825,7 @@ technische universitaet berlin license 1.0,spdx/TU-Berlin-1.0
 technische universitaet berlin license 2.0,spdx/TU-Berlin-2.0
 technology license from sun microssytems inc to doug lea,Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA
 "technology license from sun microsystems, inc. to doug lea",Approved/TECHNOLOGY LICENSE FROM SUN Microssytems Inc TO DOUG LEA
-terms of the apache license,Approved/Apache Software Foundation + OWN products NOTICE(1)
+terms of the apache license,Approved/Apache Software Foundation products NOTICE
 terms of the bsd 3-clause license,spdx/BSD-3-Clause
 terms of the bsd license,spdx/BSD-3-Clause
 terms of the gnu general public license (gpl) version 3,spdx/GPL-3.0-only

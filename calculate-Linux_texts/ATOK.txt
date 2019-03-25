@@ -1,0 +1,4 @@
+ATOK for Linux is copyrighted by Justsystem Corporation.
+Please read /opt/atokx2/doc/information/license.html before
+using it.
+

@@ -2,6 +2,7 @@
 # http://tadaoyamaoka.hatenablog.com/entry/2017/04/29/122128 学習済みモデルを使用して文の類似度を測る
 #  http://stmind.hatenablog.com/?page=1384701545
 import os,io
+import math
 import csv
 import glob
 import gensim
@@ -82,6 +83,15 @@ for licName,licMetaData in license_metaData.items():
     if len(license_alias.get(licName.lower(),'')) <= 0:
         license_alias[licName.lower()] = 'spdx/' + licMetaData['id']
 
+# calculate-Linux-のlicenseの分類情報を読み込み
+f = open("./config/calculate-Linux-licenses-full.json", "r",  encoding="utf_8_sig")
+# jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+license_metaData = json.load(f)
+# ファイルを閉じる
+f.close()
+for licName,licMetaData in license_metaData.items():
+    license_alias[(licMetaData['url']).lower()] = 'calculate-Linux/' + licName
+        
 pickUp_token = re.compile(r'[^w][Pp]atent')
 pickUp_dict = {}
 # Loding a corpus, remove the line break, convert to lower case
@@ -126,6 +136,7 @@ def corpus_load(corpus_dir,prefix,pickUp_token,pickUp_dict):
 preprocessed_docs = corpus_load('./license-list-data-master/text', 'spdx',pickUp_token,pickUp_dict)
 preprocessed_docs.update(corpus_load('./OSI_texts', 'OSI',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./FSF_texts', 'FSF',pickUp_token,pickUp_dict))
+preprocessed_docs.update(corpus_load('./calculate-Linux_texts', 'calculate-Linux',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Approved_texts', 'Approved',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./Considered_texts', 'Considered',pickUp_token,pickUp_dict))
 preprocessed_docs.update(corpus_load('./own_texts', 'research',pickUp_token,pickUp_dict))
@@ -267,7 +278,7 @@ print('Approved_texts', model.docvecs.most_similar([new_doc_vec3], topn=14))
 # 選択条件における類似度の下限は、上記出力のsimilarlの値を参考とする
 similarl_lower = 0.5 # 類似していると見なす閾値
 similarl_extend = 0.35 # 孤立しそうなdocumentについて、類似していると見なす閾値
-similarl_upper = 0.98 # 同一条文と見なす閾値
+similarl_upper = 0.95 # 同一条文と見なす閾値
 
 docs_similar_tree = {} # 該当ドキュメントに類似した、短いドキュメント
 same_text_groups_seq = {} # 同一条文と見なすドキュメントのグループ番号
@@ -307,7 +318,8 @@ for docName, doc in preprocessed_docs.items():
     similarl_count = 0
     for index, (nearName , similarl) in enumerate(similar_docs_top):
         if nearName in preprocessed_docs:
-            if  (similarl > similarl_upper) and (-1 <= len(doc) - len(preprocessed_docs[nearName]) <= 1) : # 同一条文である
+            similarl_upper_words = math.ceil((1.0 - similarl_upper) * (len(doc) + len(preprocessed_docs[nearName])) / 2 / 8)  #1words in 100words
+            if  (similarl > similarl_upper) and ((0 - similarl_upper_words) <= (len(doc) - len(preprocessed_docs[nearName])) <= similarl_upper_words) : # 同一条文である
                 same_text_groups_seq_num  += 1
                 cur_groups_seq_num = min([same_text_groups_seq.get(docName,same_text_groups_seq_num ), same_text_groups_seq.get(nearName,same_text_groups_seq_num )])
                 same_text_groups_seq[docName] = cur_groups_seq_num

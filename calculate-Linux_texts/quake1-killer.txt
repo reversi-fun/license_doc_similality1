@@ -1,0 +1,24 @@
+Author(s): Howard Roy
+Email    : howard@mortimer.com
+
+ââââââââââââââââââââââââââââââââââ
+ââââââââââ
+â  Copyright and Distribution Permissions  â
+ââââââââââââââââââââââââââââââââââ
+ââââââââââ
+
+â  Authors MAY use these modifications as a basis for other
+publicly available work.  Please send me any modifications
+you make!
+
+â  If you have used part of this patch (code, model or sound) in
+your own patch, please give credits to the authors who have made
+them - including myself. Thank you.
+
+â  You may distribute this Quake modification in any electronic
+format as long as this description file remains intact and unmodified
+and is retained along with all of the files in the archive.
+
+â  This patch can NOT be distribute on ANY product PRODUCED or even
+RELATED to a lame company called Actura.
+

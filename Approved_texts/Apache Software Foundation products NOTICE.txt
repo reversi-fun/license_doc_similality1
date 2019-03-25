@@ -1,6 +1,17 @@
-Apache <productsName>
-Copyright 2010-2016 The Apache Software Foundation
+﻿Apache <product>
+Copyright 2002-2014 The Apache Software Foundation
 
 This product includes software developed at
 The Apache Software Foundation (http://www.apache.org/).
 
+src
+contains test data from http
+Copyright (C) 2002 <auther>
+
+===============================================================================
+
+The content of package <filename> has been translated
+from the original php source code available at http
+with permission from the original authors.
+Original source copyright:
+Copyright (c) 2008 Alexander Beider & Stephen P. Morse.

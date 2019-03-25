@@ -179,7 +179,7 @@ def save_license_alias(license_alias):
             writer.writerow([aliasName.lower(), shortName])
 
 # license name spaceのソート順
-licenseSortOrder={'spdx': 1, 'OSI': 2, 'FSF': 3, 'Approved': 4 , 'research': 5, '': 6}
+licenseSortOrder={'spdx': 1, 'OSI': 2, 'FSF': 3, 'calculate-Linux':4, 'Approved': 5 , 'Considered':6, 'research': 7, '': 8}
 
 def licName2Short(license_alias, licNames, licURLs):
     return sorted(list(set(

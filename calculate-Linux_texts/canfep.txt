@@ -1,0 +1,13 @@
+èä½æ¨©
+------
+
+å¤§ãããã­ã°ã©ã ã§ãããã¾ããã®ã§ï¼ç®ããªãç¼ããªãå¥½ãã«ãã¦ä¸ãã
+ï¼
+ãã®ãããç§ã¯ï¼ãªã«ããã£ã¦ãè²¬ä»»ã¯åãã¾ããï¼
+
+---
+
+Gentoo license note: Above terms in Japanese (from 00readme) state:
+- You are allowed to do whatever you want with the program.
+- The author will not take any responsibity for any result.
+

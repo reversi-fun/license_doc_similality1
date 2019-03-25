@@ -1,0 +1,16 @@
+This  program is  free  software and  comes  with absolutely  NO
+WARRANTY.   The  author  is  not responsible  for  any  possible
+defects  caused by this  software.  You  can freely  modify this
+program  for  your convenience.   But  if  you  want to  publish
+modified program,  please tell me before  announcement.  Take it
+easy to write me comments and bug-reports.
+						yuuji@gentei.org
+
+ãã®ãã­ã°ã©ã ã¯ããªã¼ã½ããã¦ã§ã¢ã¨ãã¦éå¸ãã¾ãããã®ãã­ã°ã©
+ã ã®å©ç¨ã«ãã£ã¦çãããããªãçµæã«å¯¾ãã¦ãä½èã¯è²¬ä»»ãè² ãã¾ã
+ããã³ã¡ã³ãããã°ã¬ãã¼ãã¯ãããã«æ­è¿ãã¾ãã®ã§å¾¡æ°è»½ã«å¾¡é£çµ¡
+ãã ãããã¾ããã­ã°ã©ã ã«å¯¾ããåäººçãªä¿®æ­£ã¯èªç±ã«ãã¦é ãã¦æ§
+ãã¾ãããããããå¬éãããå ´åã¯ç§ã¾ã§å¾¡é£çµ¡ãã ãããé£çµ¡ã¯ä»¥
+ä¸ã®ã¢ãã¬ã¹ã¾ã§ãé¡ããã¾ã(2011/1ç¾å¨)ã
+						yuuji@gentei.org
+

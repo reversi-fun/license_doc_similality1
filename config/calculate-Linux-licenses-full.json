@@ -1,0 +1,2210 @@
+﻿{
+    "2dboy-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/2dboy-EULA"
+    },
+    "9base": {
+        "url": "https://www.calculate-linux.org/packages/licenses/9base"
+    },
+    "9wm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/9wm"
+    },
+    "ACE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ACE"
+    },
+    "AFL-2.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AFL-2.1"
+    },
+    "AFL-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AFL-3.0"
+    },
+    "AGPL-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AGPL-3"
+    },
+    "AGPL-3+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AGPL-3+"
+    },
+    "AGREP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AGREP"
+    },
+    "AIFFWriter.m": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AIFFWriter.m"
+    },
+    "ALMWorks-1.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ALMWorks-1.2"
+    },
+    "AMD-GPU-PRO-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AMD-GPU-PRO-EULA"
+    },
+    "AMPAS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AMPAS"
+    },
+    "APL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/APL-1.0"
+    },
+    "APSL-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/APSL-2"
+    },
+    "ARIADNE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ARIADNE"
+    },
+    "ASRP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ASRP"
+    },
+    "ATOK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ATOK"
+    },
+    "AVASYS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AVASYS"
+    },
+    "AZARA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AZARA"
+    },
+    "Adobe": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Adobe"
+    },
+    "AdobeFlash-11.x": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AdobeFlash-11.x"
+    },
+    "AdobePS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AdobePS"
+    },
+    "Aladdin": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Aladdin"
+    },
+    "Alasir": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Alasir"
+    },
+    "Allegro": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Allegro"
+    },
+    "Amazon": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Amazon"
+    },
+    "AnyDesk-TOS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AnyDesk-TOS"
+    },
+    "ApE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ApE"
+    },
+    "Apache-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Apache-1.0"
+    },
+    "Apache-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Apache-1.1"
+    },
+    "Apache-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Apache-2.0"
+    },
+    "Apple": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Apple"
+    },
+    "Arkkra": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Arkkra"
+    },
+    "Arphic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Arphic"
+    },
+    "Artistic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Artistic"
+    },
+    "Artistic-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Artistic-2"
+    },
+    "ArxFatalis-EULA-JoWooD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ArxFatalis-EULA-JoWooD"
+    },
+    "ArxFatalisDemo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ArxFatalisDemo"
+    },
+    "Atmel": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Atmel"
+    },
+    "AvP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/AvP"
+    },
+    "Avago": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Avago"
+    },
+    "BAEKMUK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BAEKMUK"
+    },
+    "BCS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BCS"
+    },
+    "BEER-WARE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BEER-WARE"
+    },
+    "BL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BL"
+    },
+    "BSD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BSD"
+    },
+    "BSD-1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BSD-1"
+    },
+    "BSD-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BSD-2"
+    },
+    "BSD-4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BSD-4"
+    },
+    "BSD-with-attribution": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BSD-with-attribution"
+    },
+    "BUILDLIC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BUILDLIC"
+    },
+    "BZIP2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BZIP2"
+    },
+    "BigelowHolmes": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BigelowHolmes"
+    },
+    "BitstreamCyberbit": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BitstreamCyberbit"
+    },
+    "BitstreamVera": {
+        "url": "https://www.calculate-linux.org/packages/licenses/BitstreamVera"
+    },
+    "Boost-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Boost-1.0"
+    },
+    "Broadcom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Broadcom"
+    },
+    "C3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/C3"
+    },
+    "CAOSL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CAOSL"
+    },
+    "CAPS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CAPS"
+    },
+    "CAPYBARA-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CAPYBARA-EULA"
+    },
+    "CARA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CARA"
+    },
+    "CAVER": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CAVER"
+    },
+    "CC-BY-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-2.0"
+    },
+    "CC-BY-2.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-2.5"
+    },
+    "CC-BY-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-3.0"
+    },
+    "CC-BY-4.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-4.0"
+    },
+    "CC-BY-NC-4.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-4.0"
+    },
+    "CC-BY-NC-ND-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-ND-2.0"
+    },
+    "CC-BY-NC-ND-2.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-ND-2.5"
+    },
+    "CC-BY-NC-ND-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-ND-3.0"
+    },
+    "CC-BY-NC-SA-2.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-SA-2.5"
+    },
+    "CC-BY-NC-SA-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-SA-3.0"
+    },
+    "CC-BY-NC-SA-4.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-NC-SA-4.0"
+    },
+    "CC-BY-ND-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-ND-3.0"
+    },
+    "CC-BY-SA-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-SA-1.0"
+    },
+    "CC-BY-SA-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-SA-2.0"
+    },
+    "CC-BY-SA-2.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-SA-2.5"
+    },
+    "CC-BY-SA-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-SA-3.0"
+    },
+    "CC-BY-SA-4.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-BY-SA-4.0"
+    },
+    "CC-PD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-PD"
+    },
+    "CC-SA-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-SA-1.0"
+    },
+    "CC-Sampling-Plus-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC-Sampling-Plus-1.0"
+    },
+    "CC0-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CC0-1.0"
+    },
+    "CCPN": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CCPN"
+    },
+    "CDDL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CDDL"
+    },
+    "CDDL-Schily": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CDDL-Schily"
+    },
+    "CDF": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CDF"
+    },
+    "CLONK-trademark": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CLONK-trademark"
+    },
+    "CMake": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CMake"
+    },
+    "CNRI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CNRI"
+    },
+    "CNRI-QUIXOTE-2.4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CNRI-QUIXOTE-2.4"
+    },
+    "CPAL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CPAL-1.0"
+    },
+    "CPL-0.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CPL-0.5"
+    },
+    "CPL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CPL-1.0"
+    },
+    "CPOL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CPOL"
+    },
+    "CRACKLIB": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CRACKLIB"
+    },
+    "CROSSOVER-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CROSSOVER-2"
+    },
+    "CROSSOVER-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CROSSOVER-3"
+    },
+    "CSL-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CSL-2.0"
+    },
+    "CUDPP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CUDPP"
+    },
+    "Canon-IJ": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Canon-IJ"
+    },
+    "Canon-UFR-II": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Canon-UFR-II"
+    },
+    "CeCILL-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CeCILL-2"
+    },
+    "CeCILL-B": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CeCILL-B"
+    },
+    "CeCILL-C": {
+        "url": "https://www.calculate-linux.org/packages/licenses/CeCILL-C"
+    },
+    "Cenon": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Cenon"
+    },
+    "Clarified-Artistic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Clarified-Artistic"
+    },
+    "Clear-BSD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Clear-BSD"
+    },
+    "Cockroach": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Cockroach"
+    },
+    "Coherent-Graphics": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Coherent-Graphics"
+    },
+    "Crypt-IDEA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Crypt-IDEA"
+    },
+    "D1X": {
+        "url": "https://www.calculate-linux.org/packages/licenses/D1X"
+    },
+    "DCC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DCC"
+    },
+    "DES": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DES"
+    },
+    "DOOM3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DOOM3"
+    },
+    "DUKE3D": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DUKE3D"
+    },
+    "DUMB-0.9.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DUMB-0.9.2"
+    },
+    "DXX-Rebirth": {
+        "url": "https://www.calculate-linux.org/packages/licenses/DXX-Rebirth"
+    },
+    "Dell": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Dell"
+    },
+    "Digium": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Digium"
+    },
+    "Dina": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Dina"
+    },
+    "Dreamweb": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Dreamweb"
+    },
+    "EAPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/EAPL"
+    },
+    "ECL-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ECL-2.0"
+    },
+    "EPL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/EPL-1.0"
+    },
+    "EPL-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/EPL-2.0"
+    },
+    "EPSON": {
+        "url": "https://www.calculate-linux.org/packages/licenses/EPSON"
+    },
+    "ETQW": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ETQW"
+    },
+    "EUPL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/EUPL-1.1"
+    },
+    "Elastic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Elastic"
+    },
+    "ElementTree": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ElementTree"
+    },
+    "Elm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Elm"
+    },
+    "Emacs": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Emacs"
+    },
+    "Epinions": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Epinions"
+    },
+    "ErlPL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ErlPL-1.1"
+    },
+    "Exolab": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Exolab"
+    },
+    "FAH-EULA-2014": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FAH-EULA-2014"
+    },
+    "FAH-special-permission": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FAH-special-permission"
+    },
+    "FDL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.1"
+    },
+    "FDL-1.1+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.1+"
+    },
+    "FDL-1.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.2"
+    },
+    "FDL-1.2+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.2+"
+    },
+    "FDL-1.3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.3"
+    },
+    "FDL-1.3+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FDL-1.3+"
+    },
+    "FESTIVAL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FESTIVAL"
+    },
+    "FFSL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FFSL"
+    },
+    "FIPL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FIPL-1.0"
+    },
+    "FLEX": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FLEX"
+    },
+    "FLTK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FLTK"
+    },
+    "FTDI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FTDI"
+    },
+    "FTL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FTL"
+    },
+    "FVWM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FVWM"
+    },
+    "FastCGI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FastCGI"
+    },
+    "File-MMagic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/File-MMagic"
+    },
+    "Flashpix": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Flashpix"
+    },
+    "FoilTeX": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FoilTeX"
+    },
+    "FraunhoferFDK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FraunhoferFDK"
+    },
+    "FreeArt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/FreeArt"
+    },
+    "GDLS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GDLS"
+    },
+    "GFL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GFL"
+    },
+    "GIMPS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GIMPS"
+    },
+    "GOG-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GOG-EULA"
+    },
+    "GPL-1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-1"
+    },
+    "GPL-1+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-1+"
+    },
+    "GPL-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2"
+    },
+    "GPL-2+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2+"
+    },
+    "GPL-2+-with-openssl-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2+-with-openssl-exception"
+    },
+    "GPL-2-with-MySQL-FLOSS-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2-with-MySQL-FLOSS-exception"
+    },
+    "GPL-2-with-classpath-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2-with-classpath-exception"
+    },
+    "GPL-2-with-exceptions": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2-with-exceptions"
+    },
+    "GPL-2-with-font-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2-with-font-exception"
+    },
+    "GPL-2-with-linking-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-2-with-linking-exception"
+    },
+    "GPL-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3"
+    },
+    "GPL-3+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3+"
+    },
+    "GPL-3+-with-cuda-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3+-with-cuda-exception"
+    },
+    "GPL-3+-with-cuda-openssl-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3+-with-cuda-openssl-exception"
+    },
+    "GPL-3+-with-opencl-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3+-with-opencl-exception"
+    },
+    "GPL-3+-with-opencl-openssl-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3+-with-opencl-openssl-exception"
+    },
+    "GPL-3-with-font-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3-with-font-exception"
+    },
+    "GPL-3-with-openssl-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GPL-3-with-openssl-exception"
+    },
+    "GameFront": {
+        "url": "https://www.calculate-linux.org/packages/licenses/GameFront"
+    },
+    "Gameplay-Group-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Gameplay-Group-EULA"
+    },
+    "Geogebra": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Geogebra"
+    },
+    "Glulxe": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Glulxe"
+    },
+    "Google-TOS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Google-TOS"
+    },
+    "HIDAPI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HIDAPI"
+    },
+    "HKSCS-2001": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HKSCS-2001"
+    },
+    "HPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HPL"
+    },
+    "HPND": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HPND"
+    },
+    "HRP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HRP"
+    },
+    "HSL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HSL"
+    },
+    "HTML-Tidy": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HTML-Tidy"
+    },
+    "HappyBunny": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HappyBunny"
+    },
+    "Hauppauge-Firmware": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Hauppauge-Firmware"
+    },
+    "Hugo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Hugo"
+    },
+    "HyperSpec": {
+        "url": "https://www.calculate-linux.org/packages/licenses/HyperSpec"
+    },
+    "IBM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IBM"
+    },
+    "IDEA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDEA"
+    },
+    "IDEA_Academic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDEA_Academic"
+    },
+    "IDEA_Classroom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDEA_Classroom"
+    },
+    "IDEA_OpenSource": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDEA_OpenSource"
+    },
+    "IDEA_Personal": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDEA_Personal"
+    },
+    "IDPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IDPL"
+    },
+    "IJG": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IJG"
+    },
+    "IPAfont": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IPAfont"
+    },
+    "ISC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ISC"
+    },
+    "ISOC-rfc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ISOC-rfc"
+    },
+    "ITS4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ITS4"
+    },
+    "IUPAC-InChi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/IUPAC-InChi"
+    },
+    "Info-ZIP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Info-ZIP"
+    },
+    "Inform": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Inform"
+    },
+    "Intel-SDP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Intel-SDP"
+    },
+    "Interbase-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Interbase-1.0"
+    },
+    "Introversion": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Introversion"
+    },
+    "Ispell": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Ispell"
+    },
+    "JDOM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JDOM"
+    },
+    "JNIC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JNIC"
+    },
+    "JOVE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JOVE"
+    },
+    "JPRS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JPRS"
+    },
+    "JPython": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JPython"
+    },
+    "JasPer2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/JasPer2.0"
+    },
+    "Kermit": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Kermit"
+    },
+    "Kryoflux-MAME": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Kryoflux-MAME"
+    },
+    "LA_OPT_BASE_LICENSE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LA_OPT_BASE_LICENSE"
+    },
+    "LDP-1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LDP-1"
+    },
+    "LDP-1a": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LDP-1a"
+    },
+    "LGPL-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2"
+    },
+    "LGPL-2+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2+"
+    },
+    "LGPL-2-with-linking-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2-with-linking-exception"
+    },
+    "LGPL-2.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2.1"
+    },
+    "LGPL-2.1+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2.1+"
+    },
+    "LGPL-2.1-with-linking-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-2.1-with-linking-exception"
+    },
+    "LGPL-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-3"
+    },
+    "LGPL-3+": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-3+"
+    },
+    "LGPL-3-with-linking-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGPL-3-with-linking-exception"
+    },
+    "LGrind-Jacobson": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LGrind-Jacobson"
+    },
+    "LIBGLOSS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LIBGLOSS"
+    },
+    "LICENSE-BITSTREAM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LICENSE-BITSTREAM"
+    },
+    "LLVM-Grant": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LLVM-Grant"
+    },
+    "LOKI-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LOKI-EULA"
+    },
+    "LOTW": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LOTW"
+    },
+    "LPPL-1.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LPPL-1.2"
+    },
+    "LPPL-1.3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LPPL-1.3"
+    },
+    "LPPL-1.3b": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LPPL-1.3b"
+    },
+    "LPPL-1.3c": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LPPL-1.3c"
+    },
+    "LRCTF": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LRCTF"
+    },
+    "LSI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LSI"
+    },
+    "LSI-tw_cli": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LSI-tw_cli"
+    },
+    "LaTeX-Calendar": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LaTeX-Calendar"
+    },
+    "LambdaMOO": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LambdaMOO"
+    },
+    "LastPass": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LastPass"
+    },
+    "Legends": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Legends"
+    },
+    "LogMeIn": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LogMeIn"
+    },
+    "LogMeIn-2013": {
+        "url": "https://www.calculate-linux.org/packages/licenses/LogMeIn-2013"
+    },
+    "MAJESTY-DEMO": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MAJESTY-DEMO"
+    },
+    "MBROLA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MBROLA"
+    },
+    "MILO": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MILO"
+    },
+    "MIT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MIT"
+    },
+    "MIT-with-advertising": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MIT-with-advertising"
+    },
+    "MIT_Plus": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MIT_Plus"
+    },
+    "MOLDEN": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MOLDEN"
+    },
+    "MPEG-4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MPEG-4"
+    },
+    "MPL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MPL-1.0"
+    },
+    "MPL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MPL-1.1"
+    },
+    "MPL-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MPL-2.0"
+    },
+    "MSMS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MSMS"
+    },
+    "MSttfEULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MSttfEULA"
+    },
+    "MTA-0.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MTA-0.5"
+    },
+    "MagentaMgOpen": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MagentaMgOpen"
+    },
+    "MagickWand": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MagickWand"
+    },
+    "Mail-Sendmail": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Mail-Sendmail"
+    },
+    "MakeIndex": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MakeIndex"
+    },
+    "MakeMKV-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MakeMKV-EULA"
+    },
+    "Manifest.gz": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Manifest.gz"
+    },
+    "Markwardt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Markwardt"
+    },
+    "MaxMind2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MaxMind2"
+    },
+    "Mendeley-terms": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Mendeley-terms"
+    },
+    "MicroChip-PK2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MicroChip-PK2"
+    },
+    "MicroChip-SDCC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/MicroChip-SDCC"
+    },
+    "Microsemi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Microsemi"
+    },
+    "Midisport": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Midisport"
+    },
+    "Mini-XML": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Mini-XML"
+    },
+    "Mojang": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Mojang"
+    },
+    "Moria": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Moria"
+    },
+    "Mozart": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Mozart"
+    },
+    "Ms-PL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Ms-PL"
+    },
+    "NCSA-HDF": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NCSA-HDF"
+    },
+    "NEWLIB": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NEWLIB"
+    },
+    "NOSA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NOSA"
+    },
+    "NPL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NPL-1.1"
+    },
+    "NVIDIA-CODEC-SDK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NVIDIA-CODEC-SDK"
+    },
+    "NVIDIA-CUDA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NVIDIA-CUDA"
+    },
+    "NVIDIA-cuDNN": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NVIDIA-cuDNN"
+    },
+    "NVIDIA-r1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NVIDIA-r1"
+    },
+    "NVIDIA-r2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NVIDIA-r2"
+    },
+    "NWN-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/NWN-EULA"
+    },
+    "Nessus-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Nessus-EULA"
+    },
+    "Nokia-Qt-LGPL-Exception-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Nokia-Qt-LGPL-Exception-1.1"
+    },
+    "OAL-1.0.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OAL-1.0.1"
+    },
+    "OASIS-Open": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OASIS-Open"
+    },
+    "ODESK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ODESK"
+    },
+    "OFFIS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OFFIS"
+    },
+    "OFL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OFL"
+    },
+    "OFL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OFL-1.1"
+    },
+    "OGL-1.0a": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OGL-1.0a"
+    },
+    "OPENLDAP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OPENLDAP"
+    },
+    "OPERA-12": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OPERA-12"
+    },
+    "OPERA-2014": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OPERA-2014"
+    },
+    "OPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OPL"
+    },
+    "OSGi-Specification-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OSGi-Specification-2.0"
+    },
+    "OSL-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OSL-1.1"
+    },
+    "OSL-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OSL-2.0"
+    },
+    "OSL-2.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OSL-2.1"
+    },
+    "OTN": {
+        "url": "https://www.calculate-linux.org/packages/licenses/OTN"
+    },
+    "Old-MIT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Old-MIT"
+    },
+    "Open-CASCADE-LGPL-2.1-Exception-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Open-CASCADE-LGPL-2.1-Exception-1.0"
+    },
+    "Opendylan": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Opendylan"
+    },
+    "Openwall": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Openwall"
+    },
+    "Oracle-BCLA-JavaSE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Oracle-BCLA-JavaSE"
+    },
+    "PAPERS-PLEASE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PAPERS-PLEASE"
+    },
+    "PCRE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PCRE"
+    },
+    "PDB": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PDB"
+    },
+    "PEL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PEL"
+    },
+    "PHP-2.02": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PHP-2.02"
+    },
+    "PHP-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PHP-3"
+    },
+    "PHP-3.01": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PHP-3.01"
+    },
+    "PLAN9": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PLAN9"
+    },
+    "POMPOM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/POMPOM"
+    },
+    "POSTGRESQL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/POSTGRESQL"
+    },
+    "PSF-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PSF-2"
+    },
+    "PSF-2.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PSF-2.2"
+    },
+    "PSF-2.3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PSF-2.3"
+    },
+    "PSF-2.4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PSF-2.4"
+    },
+    "PSTT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PSTT"
+    },
+    "PUEL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PUEL"
+    },
+    "PYTHON": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PYTHON"
+    },
+    "PerlDL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PerlDL"
+    },
+    "Plex": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Plex"
+    },
+    "Primate-Plunge": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Primate-Plunge"
+    },
+    "Princeton": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Princeton"
+    },
+    "PyCharm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PyCharm"
+    },
+    "PyCharm_Academic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PyCharm_Academic"
+    },
+    "PyCharm_Classroom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PyCharm_Classroom"
+    },
+    "PyCharm_OpenSource": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PyCharm_OpenSource"
+    },
+    "PyCharm_Preview": {
+        "url": "https://www.calculate-linux.org/packages/licenses/PyCharm_Preview"
+    },
+    "Q2EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Q2EULA"
+    },
+    "Q3AEULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Q3AEULA"
+    },
+    "Q3AEULA-20000111": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Q3AEULA-20000111"
+    },
+    "QPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/QPL"
+    },
+    "QPL-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/QPL-1.0"
+    },
+    "QUAKE4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/QUAKE4"
+    },
+    "Quartus-prime-megacore": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Quartus-prime-megacore"
+    },
+    "RAR": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RAR"
+    },
+    "RASLIC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RASLIC"
+    },
+    "RSA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RSA"
+    },
+    "RTCW": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RTCW"
+    },
+    "RTCW-ETEULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RTCW-ETEULA"
+    },
+    "Resounding": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Resounding"
+    },
+    "Ruby": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Ruby"
+    },
+    "Ruby-BSD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Ruby-BSD"
+    },
+    "RuneScape-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/RuneScape-EULA"
+    },
+    "SDRplay": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SDRplay"
+    },
+    "SFI-SCLA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SFI-SCLA"
+    },
+    "SGI-B-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SGI-B-2.0"
+    },
+    "SGMLUG": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SGMLUG"
+    },
+    "SIFT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SIFT"
+    },
+    "SIP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SIP"
+    },
+    "SIR-TECH": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SIR-TECH"
+    },
+    "SJ-Labs": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SJ-Labs"
+    },
+    "SMAIL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SMAIL"
+    },
+    "SNIA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SNIA"
+    },
+    "SOFA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SOFA"
+    },
+    "SPS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SPS"
+    },
+    "SSLeay": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SSLeay"
+    },
+    "SSPL-1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SSPL-1"
+    },
+    "STRIDE": {
+        "url": "https://www.calculate-linux.org/packages/licenses/STRIDE"
+    },
+    "SURF": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SURF"
+    },
+    "SVFL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SVFL"
+    },
+    "Sendmail": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Sendmail"
+    },
+    "Sendmail-Open-Source": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Sendmail-Open-Source"
+    },
+    "SixXS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SixXS"
+    },
+    "Skype-TOS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Skype-TOS"
+    },
+    "Sleepycat": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Sleepycat"
+    },
+    "SmartLabs": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SmartLabs"
+    },
+    "Snd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Snd"
+    },
+    "Snes9x": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Snes9x"
+    },
+    "Soltys": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Soltys"
+    },
+    "Sourcetrail": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Sourcetrail"
+    },
+    "SpeedTouch-USB-Firmware": {
+        "url": "https://www.calculate-linux.org/packages/licenses/SpeedTouch-USB-Firmware"
+    },
+    "Spotify": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Spotify"
+    },
+    "Spread-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Spread-1.0"
+    },
+    "Stanford": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Stanford"
+    },
+    "StarUML-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/StarUML-EULA"
+    },
+    "Steam": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Steam"
+    },
+    "Stuffit": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Stuffit"
+    },
+    "Sublime": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Sublime"
+    },
+    "Subversion": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Subversion"
+    },
+    "TADS2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TADS2"
+    },
+    "TADS3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TADS3"
+    },
+    "THINKTANKS": {
+        "url": "https://www.calculate-linux.org/packages/licenses/THINKTANKS"
+    },
+    "TIK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TIK"
+    },
+    "TeX": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TeX"
+    },
+    "TeX-other-free": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TeX-other-free"
+    },
+    "TeamViewer": {
+        "url": "https://www.calculate-linux.org/packages/licenses/TeamViewer"
+    },
+    "Texinfo-manual": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Texinfo-manual"
+    },
+    "Time-Format": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Time-Format"
+    },
+    "Time-modules": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Time-modules"
+    },
+    "Tinker": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Tinker"
+    },
+    "Toyoda": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Toyoda"
+    },
+    "Transmission-OpenSSL-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Transmission-OpenSSL-exception"
+    },
+    "UCAR-BSD": {
+        "url": "https://www.calculate-linux.org/packages/licenses/UCAR-BSD"
+    },
+    "UCAR-Unidata": {
+        "url": "https://www.calculate-linux.org/packages/licenses/UCAR-Unidata"
+    },
+    "UPX-exception": {
+        "url": "https://www.calculate-linux.org/packages/licenses/UPX-exception"
+    },
+    "URI": {
+        "url": "https://www.calculate-linux.org/packages/licenses/URI"
+    },
+    "URT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/URT"
+    },
+    "UbuntuFontLicense-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/UbuntuFontLicense-1.0"
+    },
+    "Unicode_Fonts_for_Ancient_Scripts": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Unicode_Fonts_for_Ancient_Scripts"
+    },
+    "Unlicense": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Unlicense"
+    },
+    "UoI-NCSA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/UoI-NCSA"
+    },
+    "VGBA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/VGBA"
+    },
+    "VIGRA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/VIGRA"
+    },
+    "VOSTROM": {
+        "url": "https://www.calculate-linux.org/packages/licenses/VOSTROM"
+    },
+    "VTK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/VTK"
+    },
+    "ValveSDK": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ValveSDK"
+    },
+    "Vivaldi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Vivaldi"
+    },
+    "Volano": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Volano"
+    },
+    "W3C": {
+        "url": "https://www.calculate-linux.org/packages/licenses/W3C"
+    },
+    "W3C-document": {
+        "url": "https://www.calculate-linux.org/packages/licenses/W3C-document"
+    },
+    "WPS-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WPS-EULA"
+    },
+    "WRI-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WRI-EULA"
+    },
+    "WTFPL-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WTFPL-2"
+    },
+    "Watcom-1.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Watcom-1.0"
+    },
+    "WebStorm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WebStorm"
+    },
+    "WebStorm_Academic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WebStorm_Academic"
+    },
+    "WebStorm_Classroom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WebStorm_Classroom"
+    },
+    "WebStorm_OpenSource": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WebStorm_OpenSource"
+    },
+    "WebStorm_personal": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WebStorm_personal"
+    },
+    "Werken-1.1.1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Werken-1.1.1.1"
+    },
+    "Whitehead-MIT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Whitehead-MIT"
+    },
+    "WolframCDFPlayer": {
+        "url": "https://www.calculate-linux.org/packages/licenses/WolframCDFPlayer"
+    },
+    "XAnim": {
+        "url": "https://www.calculate-linux.org/packages/licenses/XAnim"
+    },
+    "XC": {
+        "url": "https://www.calculate-linux.org/packages/licenses/XC"
+    },
+    "XCIN": {
+        "url": "https://www.calculate-linux.org/packages/licenses/XCIN"
+    },
+    "XEphem": {
+        "url": "https://www.calculate-linux.org/packages/licenses/XEphem"
+    },
+    "XMAME": {
+        "url": "https://www.calculate-linux.org/packages/licenses/XMAME"
+    },
+    "Xdebug": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Xdebug"
+    },
+    "YDSLA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/YDSLA"
+    },
+    "YaTeX": {
+        "url": "https://www.calculate-linux.org/packages/licenses/YaTeX"
+    },
+    "ZLIB": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ZLIB"
+    },
+    "ZPL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ZPL"
+    },
+    "ZSH": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ZSH"
+    },
+    "Zend-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/Zend-2.0"
+    },
+    "abyss": {
+        "url": "https://www.calculate-linux.org/packages/licenses/abyss"
+    },
+    "aczoom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/aczoom"
+    },
+    "adom": {
+        "url": "https://www.calculate-linux.org/packages/licenses/adom"
+    },
+    "all-rights-reserved": {
+        "url": "https://www.calculate-linux.org/packages/licenses/all-rights-reserved"
+    },
+    "alternate": {
+        "url": "https://www.calculate-linux.org/packages/licenses/alternate"
+    },
+    "amiwm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/amiwm"
+    },
+    "android": {
+        "url": "https://www.calculate-linux.org/packages/licenses/android"
+    },
+    "aquafont": {
+        "url": "https://www.calculate-linux.org/packages/licenses/aquafont"
+    },
+    "arb": {
+        "url": "https://www.calculate-linux.org/packages/licenses/arb"
+    },
+    "arj": {
+        "url": "https://www.calculate-linux.org/packages/licenses/arj"
+    },
+    "astrolog": {
+        "url": "https://www.calculate-linux.org/packages/licenses/astrolog"
+    },
+    "bakoma": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bakoma"
+    },
+    "bass": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bass"
+    },
+    "battalion": {
+        "url": "https://www.calculate-linux.org/packages/licenses/battalion"
+    },
+    "baudline": {
+        "url": "https://www.calculate-linux.org/packages/licenses/baudline"
+    },
+    "bea.ri.jsr173": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bea.ri.jsr173"
+    },
+    "bertini": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bertini"
+    },
+    "bestcrypt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bestcrypt"
+    },
+    "bf1942-lnxded": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bf1942-lnxded"
+    },
+    "bh-luxi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bh-luxi"
+    },
+    "blackshades": {
+        "url": "https://www.calculate-linux.org/packages/licenses/blackshades"
+    },
+    "blat": {
+        "url": "https://www.calculate-linux.org/packages/licenses/blat"
+    },
+    "bluez-firmware": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bluez-firmware"
+    },
+    "boehm-gc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/boehm-gc"
+    },
+    "bonnie": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bonnie"
+    },
+    "buddy": {
+        "url": "https://www.calculate-linux.org/packages/licenses/buddy"
+    },
+    "bufexplorer.vim": {
+        "url": "https://www.calculate-linux.org/packages/licenses/bufexplorer.vim"
+    },
+    "cadsoft-2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/cadsoft-2"
+    },
+    "canfep": {
+        "url": "https://www.calculate-linux.org/packages/licenses/canfep"
+    },
+    "cctbx-2.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/cctbx-2.0"
+    },
+    "charm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/charm"
+    },
+    "circlemud": {
+        "url": "https://www.calculate-linux.org/packages/licenses/circlemud"
+    },
+    "clustalw": {
+        "url": "https://www.calculate-linux.org/packages/licenses/clustalw"
+    },
+    "cns": {
+        "url": "https://www.calculate-linux.org/packages/licenses/cns"
+    },
+    "codehaus-classworlds": {
+        "url": "https://www.calculate-linux.org/packages/licenses/codehaus-classworlds"
+    },
+    "colt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/colt"
+    },
+    "comi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/comi"
+    },
+    "crafty": {
+        "url": "https://www.calculate-linux.org/packages/licenses/crafty"
+    },
+    "descent-data": {
+        "url": "https://www.calculate-linux.org/packages/licenses/descent-data"
+    },
+    "dgen-sdl": {
+        "url": "https://www.calculate-linux.org/packages/licenses/dgen-sdl"
+    },
+    "distributed.net": {
+        "url": "https://www.calculate-linux.org/packages/licenses/distributed.net"
+    },
+    "docbook": {
+        "url": "https://www.calculate-linux.org/packages/licenses/docbook"
+    },
+    "dom4j": {
+        "url": "https://www.calculate-linux.org/packages/licenses/dom4j"
+    },
+    "drascula": {
+        "url": "https://www.calculate-linux.org/packages/licenses/drascula"
+    },
+    "dropbox": {
+        "url": "https://www.calculate-linux.org/packages/licenses/dropbox"
+    },
+    "eGenixPublic-1.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/eGenixPublic-1.1"
+    },
+    "egressor": {
+        "url": "https://www.calculate-linux.org/packages/licenses/egressor"
+    },
+    "eschalon-book-1-demo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/eschalon-book-1-demo"
+    },
+    "eternal_lands": {
+        "url": "https://www.calculate-linux.org/packages/licenses/eternal_lands"
+    },
+    "exljbris-free": {
+        "url": "https://www.calculate-linux.org/packages/licenses/exljbris-free"
+    },
+    "f.lux": {
+        "url": "https://www.calculate-linux.org/packages/licenses/f.lux"
+    },
+    "fairuse": {
+        "url": "https://www.calculate-linux.org/packages/licenses/fairuse"
+    },
+    "fasta": {
+        "url": "https://www.calculate-linux.org/packages/licenses/fasta"
+    },
+    "feh": {
+        "url": "https://www.calculate-linux.org/packages/licenses/feh"
+    },
+    "finchtv": {
+        "url": "https://www.calculate-linux.org/packages/licenses/finchtv"
+    },
+    "flexmock": {
+        "url": "https://www.calculate-linux.org/packages/licenses/flexmock"
+    },
+    "fmdrv": {
+        "url": "https://www.calculate-linux.org/packages/licenses/fmdrv"
+    },
+    "fmod": {
+        "url": "https://www.calculate-linux.org/packages/licenses/fmod"
+    },
+    "fping": {
+        "url": "https://www.calculate-linux.org/packages/licenses/fping"
+    },
+    "free-noncomm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/free-noncomm"
+    },
+    "freedist": {
+        "url": "https://www.calculate-linux.org/packages/licenses/freedist"
+    },
+    "freetts": {
+        "url": "https://www.calculate-linux.org/packages/licenses/freetts"
+    },
+    "frozenbyte-eula": {
+        "url": "https://www.calculate-linux.org/packages/licenses/frozenbyte-eula"
+    },
+    "gSOAP": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gSOAP"
+    },
+    "galaxyhack": {
+        "url": "https://www.calculate-linux.org/packages/licenses/galaxyhack"
+    },
+    "gcc-runtime-library-exception-3.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gcc-runtime-library-exception-3.1"
+    },
+    "gd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gd"
+    },
+    "geant4": {
+        "url": "https://www.calculate-linux.org/packages/licenses/geant4"
+    },
+    "geekbench": {
+        "url": "https://www.calculate-linux.org/packages/licenses/geekbench"
+    },
+    "genymotion": {
+        "url": "https://www.calculate-linux.org/packages/licenses/genymotion"
+    },
+    "glut": {
+        "url": "https://www.calculate-linux.org/packages/licenses/glut"
+    },
+    "gmap": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gmap"
+    },
+    "gnuplot": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gnuplot"
+    },
+    "google-chrome": {
+        "url": "https://www.calculate-linux.org/packages/licenses/google-chrome"
+    },
+    "grass-ipafonts": {
+        "url": "https://www.calculate-linux.org/packages/licenses/grass-ipafonts"
+    },
+    "gsm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gsm"
+    },
+    "guild": {
+        "url": "https://www.calculate-linux.org/packages/licenses/guild"
+    },
+    "gwnum": {
+        "url": "https://www.calculate-linux.org/packages/licenses/gwnum"
+    },
+    "hp-proliant-essentials": {
+        "url": "https://www.calculate-linux.org/packages/licenses/hp-proliant-essentials"
+    },
+    "hpe": {
+        "url": "https://www.calculate-linux.org/packages/licenses/hpe"
+    },
+    "hplip-plugin": {
+        "url": "https://www.calculate-linux.org/packages/licenses/hplip-plugin"
+    },
+    "htmlc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/htmlc"
+    },
+    "hylafaxplus": {
+        "url": "https://www.calculate-linux.org/packages/licenses/hylafaxplus"
+    },
+    "iASL": {
+        "url": "https://www.calculate-linux.org/packages/licenses/iASL"
+    },
+    "icaclient": {
+        "url": "https://www.calculate-linux.org/packages/licenses/icaclient"
+    },
+    "icu": {
+        "url": "https://www.calculate-linux.org/packages/licenses/icu"
+    },
+    "imagemagick": {
+        "url": "https://www.calculate-linux.org/packages/licenses/imagemagick"
+    },
+    "informix-jdbc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/informix-jdbc"
+    },
+    "inmon-sflow": {
+        "url": "https://www.calculate-linux.org/packages/licenses/inmon-sflow"
+    },
+    "inner-net": {
+        "url": "https://www.calculate-linux.org/packages/licenses/inner-net"
+    },
+    "intel-ucode": {
+        "url": "https://www.calculate-linux.org/packages/licenses/intel-ucode"
+    },
+    "ipadic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ipadic"
+    },
+    "ipw2100-fw": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ipw2100-fw"
+    },
+    "ipw2200-fw": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ipw2200-fw"
+    },
+    "ipw3945": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ipw3945"
+    },
+    "ipx-utils": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ipx-utils"
+    },
+    "jardinains": {
+        "url": "https://www.calculate-linux.org/packages/licenses/jardinains"
+    },
+    "jfontain": {
+        "url": "https://www.calculate-linux.org/packages/licenses/jfontain"
+    },
+    "jlex": {
+        "url": "https://www.calculate-linux.org/packages/licenses/jlex"
+    },
+    "julius": {
+        "url": "https://www.calculate-linux.org/packages/licenses/julius"
+    },
+    "keynote": {
+        "url": "https://www.calculate-linux.org/packages/licenses/keynote"
+    },
+    "knights-demo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/knights-demo"
+    },
+    "kvirc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/kvirc"
+    },
+    "kyocera-mita-ppds": {
+        "url": "https://www.calculate-linux.org/packages/licenses/kyocera-mita-ppds"
+    },
+    "lablgtk-examples": {
+        "url": "https://www.calculate-linux.org/packages/licenses/lablgtk-examples"
+    },
+    "lcc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/lcc"
+    },
+    "levee": {
+        "url": "https://www.calculate-linux.org/packages/licenses/levee"
+    },
+    "lha": {
+        "url": "https://www.calculate-linux.org/packages/licenses/lha"
+    },
+    "libgcc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/libgcc"
+    },
+    "libmng": {
+        "url": "https://www.calculate-linux.org/packages/licenses/libmng"
+    },
+    "libpng": {
+        "url": "https://www.calculate-linux.org/packages/licenses/libpng"
+    },
+    "libstdc++": {
+        "url": "https://www.calculate-linux.org/packages/licenses/libstdc++"
+    },
+    "libtiff": {
+        "url": "https://www.calculate-linux.org/packages/licenses/libtiff"
+    },
+    "linux-firmware": {
+        "url": "https://www.calculate-linux.org/packages/licenses/linux-firmware"
+    },
+    "lsof": {
+        "url": "https://www.calculate-linux.org/packages/licenses/lsof"
+    },
+    "lure": {
+        "url": "https://www.calculate-linux.org/packages/licenses/lure"
+    },
+    "mac": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mac"
+    },
+    "man-pages": {
+        "url": "https://www.calculate-linux.org/packages/licenses/man-pages"
+    },
+    "man-pages-posix": {
+        "url": "https://www.calculate-linux.org/packages/licenses/man-pages-posix"
+    },
+    "man-pages-posix-2013": {
+        "url": "https://www.calculate-linux.org/packages/licenses/man-pages-posix-2013"
+    },
+    "mapm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mapm"
+    },
+    "mapm-4.9.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mapm-4.9.5"
+    },
+    "marginalhacks": {
+        "url": "https://www.calculate-linux.org/packages/licenses/marginalhacks"
+    },
+    "master-pdf-editor": {
+        "url": "https://www.calculate-linux.org/packages/licenses/master-pdf-editor"
+    },
+    "matplotlib": {
+        "url": "https://www.calculate-linux.org/packages/licenses/matplotlib"
+    },
+    "maui": {
+        "url": "https://www.calculate-linux.org/packages/licenses/maui"
+    },
+    "mekanix": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mekanix"
+    },
+    "meme": {
+        "url": "https://www.calculate-linux.org/packages/licenses/meme"
+    },
+    "metapackage": {
+        "url": "https://www.calculate-linux.org/packages/licenses/metapackage"
+    },
+    "mindterm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mindterm"
+    },
+    "minpack": {
+        "url": "https://www.calculate-linux.org/packages/licenses/minpack"
+    },
+    "mm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mm"
+    },
+    "mmix": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mmix"
+    },
+    "modeller": {
+        "url": "https://www.calculate-linux.org/packages/licenses/modeller"
+    },
+    "molmol": {
+        "url": "https://www.calculate-linux.org/packages/licenses/molmol"
+    },
+    "molscript": {
+        "url": "https://www.calculate-linux.org/packages/licenses/molscript"
+    },
+    "mpeg2enc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mpeg2enc"
+    },
+    "mpg123-el": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mpg123-el"
+    },
+    "mpich2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mpich2"
+    },
+    "mplus-fonts": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mplus-fonts"
+    },
+    "mserv": {
+        "url": "https://www.calculate-linux.org/packages/licenses/mserv"
+    },
+    "myspell-en_CA-KevinAtkinson": {
+        "url": "https://www.calculate-linux.org/packages/licenses/myspell-en_CA-KevinAtkinson"
+    },
+    "myspell-ru_RU-AlexanderLebedev": {
+        "url": "https://www.calculate-linux.org/packages/licenses/myspell-ru_RU-AlexanderLebedev"
+    },
+    "namd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/namd"
+    },
+    "nauty": {
+        "url": "https://www.calculate-linux.org/packages/licenses/nauty"
+    },
+    "netcat": {
+        "url": "https://www.calculate-linux.org/packages/licenses/netcat"
+    },
+    "nethack": {
+        "url": "https://www.calculate-linux.org/packages/licenses/nethack"
+    },
+    "netlogo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/netlogo"
+    },
+    "netperf": {
+        "url": "https://www.calculate-linux.org/packages/licenses/netperf"
+    },
+    "newrelic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/newrelic"
+    },
+    "ngrep": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ngrep"
+    },
+    "no-source-code": {
+        "url": "https://www.calculate-linux.org/packages/licenses/no-source-code"
+    },
+    "nomachine": {
+        "url": "https://www.calculate-linux.org/packages/licenses/nomachine"
+    },
+    "olivia": {
+        "url": "https://www.calculate-linux.org/packages/licenses/olivia"
+    },
+    "openafs-krb5-a": {
+        "url": "https://www.calculate-linux.org/packages/licenses/openafs-krb5-a"
+    },
+    "openknights": {
+        "url": "https://www.calculate-linux.org/packages/licenses/openknights"
+    },
+    "openpbs": {
+        "url": "https://www.calculate-linux.org/packages/licenses/openpbs"
+    },
+    "openssl": {
+        "url": "https://www.calculate-linux.org/packages/licenses/openssl"
+    },
+    "oracle-java-documentation-11": {
+        "url": "https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-11"
+    },
+    "oracle-java-documentation-8": {
+        "url": "https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-8"
+    },
+    "oracle-java-documentation-9": {
+        "url": "https://www.calculate-linux.org/packages/licenses/oracle-java-documentation-9"
+    },
+    "otter": {
+        "url": "https://www.calculate-linux.org/packages/licenses/otter"
+    },
+    "paraview": {
+        "url": "https://www.calculate-linux.org/packages/licenses/paraview"
+    },
+    "penguzzle": {
+        "url": "https://www.calculate-linux.org/packages/licenses/penguzzle"
+    },
+    "perforce": {
+        "url": "https://www.calculate-linux.org/packages/licenses/perforce"
+    },
+    "photopc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/photopc"
+    },
+    "phrack": {
+        "url": "https://www.calculate-linux.org/packages/licenses/phrack"
+    },
+    "phrap": {
+        "url": "https://www.calculate-linux.org/packages/licenses/phrap"
+    },
+    "pkcrack": {
+        "url": "https://www.calculate-linux.org/packages/licenses/pkcrack"
+    },
+    "pmd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/pmd"
+    },
+    "pngcrush": {
+        "url": "https://www.calculate-linux.org/packages/licenses/pngcrush"
+    },
+    "pngnq": {
+        "url": "https://www.calculate-linux.org/packages/licenses/pngnq"
+    },
+    "postal2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/postal2"
+    },
+    "procheck": {
+        "url": "https://www.calculate-linux.org/packages/licenses/procheck"
+    },
+    "prog-express": {
+        "url": "https://www.calculate-linux.org/packages/licenses/prog-express"
+    },
+    "protonmail-bridge-EULA": {
+        "url": "https://www.calculate-linux.org/packages/licenses/protonmail-bridge-EULA"
+    },
+    "psipred": {
+        "url": "https://www.calculate-linux.org/packages/licenses/psipred"
+    },
+    "psutils": {
+        "url": "https://www.calculate-linux.org/packages/licenses/psutils"
+    },
+    "public-domain": {
+        "url": "https://www.calculate-linux.org/packages/licenses/public-domain"
+    },
+    "pymol": {
+        "url": "https://www.calculate-linux.org/packages/licenses/pymol"
+    },
+    "qeradiant": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qeradiant"
+    },
+    "qlogic-fibre-channel-firmware": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qlogic-fibre-channel-firmware"
+    },
+    "qmail-nelson": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qmail-nelson"
+    },
+    "qpage": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qpage"
+    },
+    "qpopper": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qpopper"
+    },
+    "quake1-demodata": {
+        "url": "https://www.calculate-linux.org/packages/licenses/quake1-demodata"
+    },
+    "quake1-killer": {
+        "url": "https://www.calculate-linux.org/packages/licenses/quake1-killer"
+    },
+    "quake1-teamfortress": {
+        "url": "https://www.calculate-linux.org/packages/licenses/quake1-teamfortress"
+    },
+    "quake1-textures": {
+        "url": "https://www.calculate-linux.org/packages/licenses/quake1-textures"
+    },
+    "quake2-demodata": {
+        "url": "https://www.calculate-linux.org/packages/licenses/quake2-demodata"
+    },
+    "queen": {
+        "url": "https://www.calculate-linux.org/packages/licenses/queen"
+    },
+    "qwt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/qwt"
+    },
+    "raspberrypi-videocore-bin": {
+        "url": "https://www.calculate-linux.org/packages/licenses/raspberrypi-videocore-bin"
+    },
+    "rc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/rc"
+    },
+    "rdisc": {
+        "url": "https://www.calculate-linux.org/packages/licenses/rdisc"
+    },
+    "regexp-UofT": {
+        "url": "https://www.calculate-linux.org/packages/licenses/regexp-UofT"
+    },
+    "repoze": {
+        "url": "https://www.calculate-linux.org/packages/licenses/repoze"
+    },
+    "richardson": {
+        "url": "https://www.calculate-linux.org/packages/licenses/richardson"
+    },
+    "rosetta": {
+        "url": "https://www.calculate-linux.org/packages/licenses/rosetta"
+    },
+    "rwpng": {
+        "url": "https://www.calculate-linux.org/packages/licenses/rwpng"
+    },
+    "scanlogd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/scanlogd"
+    },
+    "selfhtml": {
+        "url": "https://www.calculate-linux.org/packages/licenses/selfhtml"
+    },
+    "sgb2ns": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sgb2ns"
+    },
+    "shmux": {
+        "url": "https://www.calculate-linux.org/packages/licenses/shmux"
+    },
+    "shorten": {
+        "url": "https://www.calculate-linux.org/packages/licenses/shorten"
+    },
+    "shrimp": {
+        "url": "https://www.calculate-linux.org/packages/licenses/shrimp"
+    },
+    "sparky": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sparky"
+    },
+    "spideroak": {
+        "url": "https://www.calculate-linux.org/packages/licenses/spideroak"
+    },
+    "stardock-images": {
+        "url": "https://www.calculate-linux.org/packages/licenses/stardock-images"
+    },
+    "sun-bcla-j2me": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-j2me"
+    },
+    "sun-bcla-jai": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jai"
+    },
+    "sun-bcla-jmi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jmi"
+    },
+    "sun-bcla-jms": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jms"
+    },
+    "sun-bcla-jsapi": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jsapi"
+    },
+    "sun-bcla-jta": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jta"
+    },
+    "sun-bcla-jvmstat": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-bcla-jvmstat"
+    },
+    "sun-iiop": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-iiop"
+    },
+    "sun-jdl": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-jdl"
+    },
+    "sun-jlfgr": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-jlfgr"
+    },
+    "sun-jrl": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-jrl"
+    },
+    "sun-jsr67": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sun-jsr67"
+    },
+    "supermicro": {
+        "url": "https://www.calculate-linux.org/packages/licenses/supermicro"
+    },
+    "sus4-copyright": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sus4-copyright"
+    },
+    "swiss-prot": {
+        "url": "https://www.calculate-linux.org/packages/licenses/swiss-prot"
+    },
+    "sword-sparvg2004": {
+        "url": "https://www.calculate-linux.org/packages/licenses/sword-sparvg2004"
+    },
+    "symlinks": {
+        "url": "https://www.calculate-linux.org/packages/licenses/symlinks"
+    },
+    "szip": {
+        "url": "https://www.calculate-linux.org/packages/licenses/szip"
+    },
+    "tablelist": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tablelist"
+    },
+    "tanuki-community": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tanuki-community"
+    },
+    "tarsnap": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tarsnap"
+    },
+    "tcltk": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tcltk"
+    },
+    "tcp_wrappers_license": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tcp_wrappers_license"
+    },
+    "teamspeak3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/teamspeak3"
+    },
+    "telegram": {
+        "url": "https://www.calculate-linux.org/packages/licenses/telegram"
+    },
+    "the-Click-license": {
+        "url": "https://www.calculate-linux.org/packages/licenses/the-Click-license"
+    },
+    "tkMOO": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tkMOO"
+    },
+    "tm-align": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tm-align"
+    },
+    "torque-2.5": {
+        "url": "https://www.calculate-linux.org/packages/licenses/torque-2.5"
+    },
+    "totd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/totd"
+    },
+    "trf": {
+        "url": "https://www.calculate-linux.org/packages/licenses/trf"
+    },
+    "truecrypt-3.0": {
+        "url": "https://www.calculate-linux.org/packages/licenses/truecrypt-3.0"
+    },
+    "tsm": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tsm"
+    },
+    "ttf2pt1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ttf2pt1"
+    },
+    "tumbolia": {
+        "url": "https://www.calculate-linux.org/packages/licenses/tumbolia"
+    },
+    "ubiquiti": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ubiquiti"
+    },
+    "unRAR": {
+        "url": "https://www.calculate-linux.org/packages/licenses/unRAR"
+    },
+    "unafold": {
+        "url": "https://www.calculate-linux.org/packages/licenses/unafold"
+    },
+    "uni_indiana": {
+        "url": "https://www.calculate-linux.org/packages/licenses/uni_indiana"
+    },
+    "unicode": {
+        "url": "https://www.calculate-linux.org/packages/licenses/unicode"
+    },
+    "unreal-tournament-strikeforce": {
+        "url": "https://www.calculate-linux.org/packages/licenses/unreal-tournament-strikeforce"
+    },
+    "urbanterror-4.2-maps": {
+        "url": "https://www.calculate-linux.org/packages/licenses/urbanterror-4.2-maps"
+    },
+    "ut2003": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ut2003"
+    },
+    "ut2003-demo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ut2003-demo"
+    },
+    "ventrilo": {
+        "url": "https://www.calculate-linux.org/packages/licenses/ventrilo"
+    },
+    "vienna-rna": {
+        "url": "https://www.calculate-linux.org/packages/licenses/vienna-rna"
+    },
+    "vim": {
+        "url": "https://www.calculate-linux.org/packages/licenses/vim"
+    },
+    "vim.org": {
+        "url": "https://www.calculate-linux.org/packages/licenses/vim.org"
+    },
+    "vlgothic": {
+        "url": "https://www.calculate-linux.org/packages/licenses/vlgothic"
+    },
+    "vmd": {
+        "url": "https://www.calculate-linux.org/packages/licenses/vmd"
+    },
+    "w3m": {
+        "url": "https://www.calculate-linux.org/packages/licenses/w3m"
+    },
+    "worklog-assistant": {
+        "url": "https://www.calculate-linux.org/packages/licenses/worklog-assistant"
+    },
+    "worldofpadman": {
+        "url": "https://www.calculate-linux.org/packages/licenses/worldofpadman"
+    },
+    "wxWinFDL-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/wxWinFDL-3"
+    },
+    "wxWinLL-3": {
+        "url": "https://www.calculate-linux.org/packages/licenses/wxWinLL-3"
+    },
+    "wxWinLL-3.1": {
+        "url": "https://www.calculate-linux.org/packages/licenses/wxWinLL-3.1"
+    },
+    "x2x": {
+        "url": "https://www.calculate-linux.org/packages/licenses/x2x"
+    },
+    "xbatt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xbatt"
+    },
+    "xbattle": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xbattle"
+    },
+    "xboing": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xboing"
+    },
+    "xc-radley": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xc-radley"
+    },
+    "xearth": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xearth"
+    },
+    "xgraph": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xgraph"
+    },
+    "xmlformat": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xmlformat"
+    },
+    "xref.lisp": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xref.lisp"
+    },
+    "xrick": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xrick"
+    },
+    "xtrs": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xtrs"
+    },
+    "xv": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xv"
+    },
+    "xvt": {
+        "url": "https://www.calculate-linux.org/packages/licenses/xvt"
+    },
+    "yahoo-patent-license-1.2": {
+        "url": "https://www.calculate-linux.org/packages/licenses/yahoo-patent-license-1.2"
+    },
+    "yuuji": {
+        "url": "https://www.calculate-linux.org/packages/licenses/yuuji"
+    },
+    "zchaff": {
+        "url": "https://www.calculate-linux.org/packages/licenses/zchaff"
+    },
+    "zi-labone": {
+        "url": "https://www.calculate-linux.org/packages/licenses/zi-labone"
+    }
+}

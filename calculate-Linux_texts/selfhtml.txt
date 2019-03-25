@@ -1,0 +1,70 @@
+http://selfhtml.teamone.de/editorial/copyright.htm
+
+
+Urheberrecht
+
+Die Texte von SELFHTML sind durch das Urheberrecht geschÃ¼tzt. Das Verwenden von
+Texten aus SELFHTML auf eigenen Webseiten oder in anderen Medien verletzt das
+Urheberrecht und wird bei Entdecken zunÃ¤chst persÃ¶nlich durch den Autor
+abgemahnt (kostenlos). Sollte das nichts bewirken, wird anwaltlich abgemahnt
+(kostenpflichtig). Sollte auch das nichts bewirken, werden gerichtliche
+Schritte eingeleitet.  Da SELFHTML auch als Buch erscheint, entstehen im Falle
+von Textklau auÃerdem RechtsansprÃ¼che des Buchverlags.
+
+Web-Anwender werden dazu ermutigt, entdeckte VerstÃ¶Ãe an die SELFHTML Redaktion
+(Mail-Adresse siehe Seitenende) zu melden. Sie helfen dadurch, die QualitÃ¤t von
+SELFHTML zu sichern und das Rechtsbewusstsein von Leuten zu schÃ¤rfen, die
+meinen, es sei alles erlaubt, wenn man nur wisse, wie Copy&Paste funktioniert.
+
+Einzelne Dinge aus SELFHTML dÃ¼rfen allerdings durchaus kopiert und Ã¼bernommen
+werden. Einzelheiten dazu finden Sie auf der Seite[1]HÃ¤ufig gestellten Fragen
+zu SELFHTML.
+
+
+Weitergabe und WiederverÃ¶ffentlichung
+
+Das Kopieren und Weitergeben des Dokuments ist erlaubt. Bedingung ist, dass das
+Dokument stets in vollstÃ¤ndiger Form (mit allen Dateien) und in unverÃ¤nderter
+Form kopiert und weitergegeben wird. Die Anzahl erlaubter Kopien ist
+unbegrenzt.
+
+Das VerÃ¶ffentlichen im Web, in Intranets, in Online-Diensten, Mailboxen oder
+Ã¤hnlichen Medien ist erlaubt. Ebenfalls erlaubt ist das VerÃ¶ffentlichen auf
+DatentrÃ¤gern wie CD-ROMs oder DVDs, auch wenn diese DatentrÃ¤ger kommerziell
+orientiert sind. Bei kommerziellen DatentrÃ¤gern besteht jedoch die
+EinschrÃ¤nkung, dass SELFHTML dort nur Teil einer Sammlung sein darf (z.B.
+"alles fÃ¼r die eigene Homepage" - mit Software, Dokumentation usw.), nicht
+jedoch der zentrale vertriebene Inhalt. Bei nicht-kommerziellen DatentrÃ¤gern
+(z.B. SchÃ¼ler-Distributionen zum Selbstkostenpreis) darf SELFHTML dagegen auch
+zentraler DatentrÃ¤gerinhalt sein.
+
+Bedingung bei allen VerÃ¶ffentlichungen ist, dass das Dokument stets in
+vollstÃ¤ndiger Form (mit allen Dateien) und in unverÃ¤nderter Form verÃ¶ffentlicht
+wird. Nicht erlaubt ist das Einbetten in fremde Framesets. Ebenfalls nicht
+erlaubt ist das EinfÃ¼gen von Fremdwerbung in SELFHTML, z.B. Banner-Werbung.
+
+Das Ãndern des Dokuments ist generell nicht erlaubt. Das gilt sowohl fÃ¼r den
+Inhalt als auch fÃ¼r das Dateiformat. Auch das Entfernen unliebsamer Passagen
+ist nicht erlaubt. Einzige Ausnahme: siehe [2]SELFHTML anpassen. Weitere
+Ausnahmen wie z.B. Ãnderungen aufgrund juristischer Probleme sind mit der
+SELFHTML Redaktion (Mail-Adresse siehe Seitenende) abzuklÃ¤ren.
+
+Bei VerÃ¶ffentlichung von SELFHTML auf CD-ROM oder vergleichbaren DatentrÃ¤gern
+ist es eine feine Geste, dem Autor ein Belegexemplar zukommen zu lassen. Senden
+Sie dieses per Post an: TeamOne, z.Hd. Stefan MÃ¼nz, Aidenbachstr. 32, D-81379
+MÃ¼nchen.
+
+
+Ausnahmen
+
+Was im vorangehenden Unterabschnitt Weitergabe und WiederverÃ¶ffentlichung
+erlaubt wird, gilt nicht, wenn die Umgebung (z.B. der Ã¼brige Inhalt der CD-ROM
+oder der Ã¼brige Inhalt des Web-Angebots) illegale, volksverhetzende oder
+rassistische Inhalte hat. Namentlich verboten ist das Zusammenbringen von
+SELFHTML mit nazistischen Inhalten, kinderpornografischen Inhalten oder
+fundamentalistisch-religiÃ¶sen Inhalten.
+
+
+[1] http://selfhtml.teamone.de/editorial/selfhtmlfaq.htm
+[2] http://selfhtml.teamone.de/editorial/hinweise.htm#anpassen
+
