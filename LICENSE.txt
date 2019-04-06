@@ -1,0 +1,27 @@
+COPYRIGHT(C) 2019 reversi-fun.
+
+This software(license_doc_similality) licensed under "I was tired license".
+This license likes (WTFPL-2.0 + MPL-2.0 - Bison-exception-2.2).
+-------------------------------------------------
+
+You may believe that I have the copyright of this software and 
+the editorial-right in the data contained in this software.
+
+I was tired.
+So don't expect anything from me!
+
+I am expecting a "wise person" to tell me that I
+ should stop publishing my obsolete code.
+
+However, the "bad guys" betraying you may argue that:
+  -- I have no right.
+  -- My(bad guys) deliverables are my own deliverables.
+  -- The deliverables you generate using this software 
+     are also my(bad guys) deliverables.
+
+If you want to follow the "bad guys" someday, 
+On your deliverables created using this software,
+You will need to show the next CREDIT:
+  -- "Powered by <this software name>"
+
+Rather, I hope you promote the emergence of "wise person".
