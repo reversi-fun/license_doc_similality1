@@ -9,6 +9,10 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
+      "args": [
+        "own_texts",
+        "lic-info4"
+      ],
       "console": "integratedTerminal"
     },
     {

@@ -22,9 +22,8 @@ from licenses_names import ProgramId2License  # current module
 from licenses_names import load_license_alias  # current module
 from licenses_names import licName2Short  # current module
 
-# license name spaceのソート順を、licenses_namesでの標準とは変える
-#licenseSortOrder={'spdx': 1, 'OSI': 2, 'FSF': 3, 'calculate-Linux':4, 'Approved': 5 , 'Considered':6, 'research': 7, '': 8}
-licenseSortOrder = {'spdx': 1, 'OSI': 1,  'FSF': 1, 'calculate-Linux':4,  'Approved': 5, 'Considered': 6, 'research': 7, '': 8}
+# license naOme spaceのソート順を、licenses_namesでの標準とは変える
+licenseSortOrder = {'spdx': 1, 'OSI': 1, 'FSF': 1, 'calculate-Linux':4, 'Approved': 5 , 'Considered':6, 'research': 7, '': 8}
 
 # カスタマイズ可能項目の設定
 topN = 3  # 最大出力するライセンス名の個数
@@ -85,6 +84,7 @@ encode_detector = UniversalDetector()
 for filename in glob.glob(inDirName + "/**/*",  recursive=True):
     try:
         if os.path.isfile(filename) and (os.path.getsize(filename) < 2048000):
+            print(filename)
             filePattern = (filename[len(inDirName)+1:] if filename.startswith(inDirName) else filename).replace('/', '\\')
             projectGroup = '?' # 不明なグループId
             projectArtifactId = '' # 著作物の識別名
@@ -322,15 +322,17 @@ for filename in glob.glob(inDirName + "/**/*",  recursive=True):
                     encode_detector.close()
                     raw_doc = str(raw_doc, encoding='utf-8', errors='replace')
                 doc3 = gensim.parsing.preprocess_string(raw_doc)
+                raw_doc = None
                 if len(doc3) > 4:
                     new_doc_vec3 = model.infer_vector(doc3)
+                    doc3 = None
                     similarl_licenses = [[licName, similal1] for licName, similal1 in model.docvecs.most_similar(
                         [new_doc_vec3]) if (similal1 >= similarl_low)]
                     if len(similarl_licenses) > 1:
                         ccutoff_similarl = max(
                             [similal1 for licName, similal1 in similarl_licenses]) * similarl_cutoff
                         similarl_licenses = sorted([[licName, similal1] for licName, similal1 in similarl_licenses if similal1 >= ccutoff_similarl], key=lambda item: (
-                            licenseSortOrder[(list(filter(lambda x: (x + '/') in item[0], licenseSortOrder)) + [''])[0]], -item[1]))[0:topN]
+                            licenseSortOrder[(list(filter(lambda x: item[0].startswith(x + '/'), licenseSortOrder)) + [''])[0]], -item[1]))[0:topN]
                     if len(similarl_licenses) > 0:
                         projectLicenseNames = [
                                 licName for licName, similal1 in similarl_licenses]

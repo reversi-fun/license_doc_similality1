@@ -340,10 +340,10 @@ for docName, doc in preprocessed_docs.items():
                 else:
                     docs_similar_tree[docName].append((nearName,similarl,  len(doc) - len(preprocessed_docs[nearName]) )) # 先祖的ライセンスとして登録
         else:
-            print('WARNNING : most_similarで、 preprocessed_docsに含まれないドキュメント名が見つかった ' +  nearName)
+            print('WARNNING : most_similarで、 preprocessed_docsに含まれないドキュメント名が見つかった ' +  nearName + ' -- for --\t' + docName)
     if  similarl_count <= 0: # 先祖的or子孫的ライセンスが一つも見つかっていない場合、条件を緩めて登録
        for index, (nearName , similarl) in enumerate(similar_docs_top):
-         if  (similarl_lower > similarl > similarl_extend ) : # 多重登録を避ける為の除外条件
+         if  (similarl_lower > similarl > similarl_extend ) and (nearName in preprocessed_docs): # 多重登録を避ける為の除外条件
                 if  ( len(doc) <= len(preprocessed_docs[nearName]) ): 
                     if nearName not in docs_similar_tree:
                        docs_similar_tree[nearName] = []
@@ -425,7 +425,7 @@ for cur_groups_name, cur_groups_seq_num in same_text_groups_seq.items(): # 番�
       grouped_doc_names[cur_groups_name] = 0 - cur_groups_seq_num
 
 for cur_seq_num, cur_group_names in  same_text_groups_names.items():
-    cur_group_names = sorted(cur_group_names, key=lambda item: ([v for k,v in licenseSortOrder.items() if  (k + '/') in item][0], item))
+    cur_group_names = sorted(cur_group_names, key=lambda item: ([v for k,v in licenseSortOrder.items() if item.startswith(k + '/')][0], item))
     same_text_groups_names[cur_seq_num] =  cur_group_names
     if  len(cur_group_names) > 1:
         for licName in  cur_group_names[1:]:
