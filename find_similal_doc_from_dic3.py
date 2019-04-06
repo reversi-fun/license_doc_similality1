@@ -7,6 +7,7 @@ import gensim
 # from gensim import models
 import fileinput
 from chardet.universaldetector import UniversalDetector  # https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function
+from licenses_names import load_license_alias  # current module
 
 topN = 32
 similarl_low = 0.5
@@ -20,6 +21,14 @@ elif os.path.isdir(toolFileName):
 else:
     toolDirName = os.path.dirname(toolFileName)
 print(toolDirName , sys.argv[1])
+# licenseの条文の類似性によって分類したライセンスの別名を読み込む
+license_alias = load_license_alias()
+if license_alias:
+    pass
+else:
+    print("not exist ./config/license_alias.csv")
+    exit(1)
+
 # encodingの検出ツールを使う。
 encode_detector = UniversalDetector()
 encode_detector.reset()
@@ -41,7 +50,11 @@ new_doc_vec3 = model.infer_vector(doc3)
 similarl_docs = sorted(model.docvecs.most_similar([new_doc_vec3], topn=topN),  key=lambda item: -item[1])
 print('doc2vec most_similar',len(similarl_docs))
 for docName,similarl in similarl_docs:
-    print('{:3.5f}'.format(similarl), docName)
+        licName2 = license_alias.get(docName.lower(), docName)
+        if licName2 !=  docName:
+            print('{:3.5f}'.format(similarl), licName2, docName)
+        else:
+            print('{:3.5f}'.format(similarl), docName)
 
 # # 上記では類似documentが見つからなかった場合に備え、類似単語を含むドキュメントも列挙する
 dictionary1 = gensim.corpora.Dictionary.load(os.path.join(toolDirName,'data/id2word2.dict'))
@@ -54,7 +67,15 @@ lda_sims3 = sorted([( docIndex,similarl) for  docIndex,similarl in  enumerate(ld
 # 単語の頻度のみで類似を観るldaは、緩いので、件数を絞る。
 print('lda most_similar',len(lda_sims3))
 for docIndex,similarl in lda_sims3[0:topN]:
-    print('{:3.5f}'.format(similarl), model.docvecs.index_to_doctag(docIndex))
-    #issue 2091//  File "F:\Anaconda3\lib\site-packages\gensim\models\keyedvectors.py", line 1517, in index_to_doctag
-    #issue 2091// return self.ffset2doctag[candidate_offset]
-    #issue 2091// AttributeError: 'Doc2VecKeyedVectors' object has no attribute 'ffset2doctag'
+    try:
+        licName1 = model.docvecs.index_to_doctag(docIndex)
+        licName2 = license_alias.get(licName1.lower(), licName1)
+        if licName2 !=  docName:
+            print('{:3.5f}'.format(similarl), licName2, licName1)
+        else:
+            print('{:3.5f}'.format(similarl), licName1)
+        #issue 2091//  File "Anaconda3\lib\site-packages\gensim\models\keyedvectors.py", line 1517, in index_to_doctag
+        #issue 2091// return self.ffset2doctag[candidate_offset]
+        #issue 2091// AttributeError: 'Doc2VecKeyedVectors' object has no attribute 'ffset2doctag'
+    except AttributeError as e:
+        pass
