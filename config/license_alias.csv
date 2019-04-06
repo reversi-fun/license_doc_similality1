@@ -156,8 +156,6 @@ apache root pom) provides repositories. unfortunately,Approved/Apache Software F
 apache software foundation,Approved/Apache Software Foundation products NOTICE
 apache software foundation (asf) under one,Approved/Apache Software Foundation products NOTICE
 apache software foundation products notice,Approved/Apache Software Foundation products NOTICE
-apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
-apache software foundation products notice(1),Approved/Apache Software Foundation products NOTICE
 apache software license,spdx/Apache-2.0
 apache software license - version 2,spdx/Apache-2.0
 apache software license - version 2.0,spdx/Apache-2.0
@@ -220,9 +218,15 @@ approved/apache licensed notice,Approved/Apache Software Foundation products NOT
 approved/apache software foundation products notice,Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(0),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(1),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(10),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(2),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(3),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation products notice(4),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(5),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(6),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(7),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(8),Approved/Apache Software Foundation products NOTICE
+approved/apache software foundation products notice(9),Approved/Apache Software Foundation products NOTICE
 approved/apache software foundation+ own products notice(1),Approved/Apache Software Foundation products NOTICE
 approved/apache-1.0,spdx/Apache-1.0
 approved/apache-1.1,spdx/Apache-1.1
@@ -281,8 +285,8 @@ approved/cnri-dor,FSF/DOR
 approved/cryptix,FSF/CryptixGeneralLicense
 approved/cup parser generator for java license.md,Approved/CUP Parser Generator License
 approved/cwi license agreement for python 0.9.0 through 1.2,spdx/MIT-CMU
-approved/dom4j by metastuff,calculate-Linux/dom4j
-approved/dom4j by metastuff(2),calculate-Linux/dom4j
+approved/dom4j by metastuff,calculate-Linux/Exolab
+approved/dom4j by metastuff(2),calculate-Linux/Exolab
 approved/edl-v10,Approved/EDL-1.0
 approved/epl-v10,spdx/EPL-1.0
 approved/erlang public license version 1.1,spdx/ErlPL-1.1
@@ -309,8 +313,10 @@ approved/jdom license,Approved/jdom LICENSE(2)
 approved/jdom license(2),Approved/jdom License
 approved/jpython-1.1.x,calculate-Linux/JPython
 approved/jsr spec evaluation license,Approved/JSR 349 Bbean Validation 1.1 Final Release Spec Evaluation License
+approved/jsr spec implementation license,calculate-Linux/sun-jsr67
 approved/latex_ecfonts,FSF/ecfonts
 approved/lgpl-2.1 based colt license agreement notice,calculate-Linux/colt
+approved/license template for implementing final jsrs,calculate-Linux/sun-jsr67
 approved/licensed under lgpl notice,Approved/LGPLv2 + CERN NOTICE
 approved/microsoft shared source license,FSF/Ms-SS
 approved/mit,spdx/MIT
@@ -589,6 +595,7 @@ calculate-linux/capybara-eula,calculate-Linux/2dboy-EULA
 calculate-linux/cc-by-2.0,spdx/CC-BY-2.0
 calculate-linux/cc-by-2.5,spdx/CC-BY-2.5
 calculate-linux/cc-by-3.0,spdx/CC-BY-3.0
+calculate-linux/cc-by-4.0,spdx/CC-BY-4.0
 calculate-linux/cc-by-nc-4.0,spdx/CC-BY-NC-4.0
 calculate-linux/cc-by-nc-nd-2.0,spdx/CC-BY-NC-ND-2.0
 calculate-linux/cc-by-nc-nd-2.5,spdx/CC-BY-NC-ND-2.5
@@ -608,12 +615,14 @@ calculate-linux/cddl-schily,spdx/CDDL-1.1
 calculate-linux/cecill-2,spdx/CECILL-2.0
 calculate-linux/cecill-b,spdx/CECILL-B
 calculate-linux/cecill-c,spdx/CECILL-C
+calculate-linux/clarified-artistic,spdx/ClArtistic
 calculate-linux/clear-bsd,spdx/BSD-3-Clause-Clear
 calculate-linux/cpal-1.0,spdx/CPAL-1.0
 calculate-linux/cpl-0.5,spdx/CPL-1.0
 calculate-linux/cpl-1.0,spdx/CPL-1.0
 calculate-linux/cpol,spdx/CPOL-1.02
 calculate-linux/crossover-3,calculate-Linux/CROSSOVER-2
+calculate-linux/dom4j,calculate-Linux/Exolab
 calculate-linux/epl-1.0,spdx/EPL-1.0
 calculate-linux/epl-2.0,spdx/EPL-2.0
 calculate-linux/erlpl-1.1,spdx/ErlPL-1.1
@@ -626,9 +635,11 @@ calculate-linux/fdl-1.3,spdx/GFDL-1.3-only
 calculate-linux/fdl-1.3+,calculate-Linux/FDL-1.1+
 calculate-linux/fipl-1.0,spdx/FreeImage
 calculate-linux/flex,spdx/BSD-4-Clause-UC
+calculate-linux/gnuplot,spdx/gnuplot
 calculate-linux/gpl-1,spdx/GPL-1.0-only
 calculate-linux/gpl-2,spdx/GPL-2.0-only
 calculate-linux/gpl-2+,calculate-Linux/GPL-1+
+calculate-linux/gpl-2-with-linking-exception,calculate-Linux/GPL-2-with-font-exception
 calculate-linux/gpl-3,spdx/GPL-3.0-only
 calculate-linux/gpl-3+,calculate-Linux/GPL-1+
 calculate-linux/gpl-3-with-openssl-exception,calculate-Linux/GPL-3-with-font-exception
@@ -659,12 +670,18 @@ calculate-linux/mpl-1.0,spdx/MPL-1.0
 calculate-linux/mpl-1.1,spdx/NPL-1.0
 calculate-linux/mpl-2.0,spdx/MPL-2.0
 calculate-linux/nethack,spdx/NGPL
+calculate-linux/nokia-qt-lgpl-exception-1.1,spdx/Nokia-Qt-exception-1.1
 calculate-linux/nosa,spdx/NASA-1.3
 calculate-linux/npl-1.1,spdx/NPL-1.0
 calculate-linux/ofl-1.1,spdx/OFL-1.1
+calculate-linux/open-cascade-lgpl-2.1-exception-1.0,spdx/OCCT-exception-1.0
+calculate-linux/openldap,spdx/OLDAP-2.7
+calculate-linux/osl-1.1,spdx/OSL-1.1
 calculate-linux/osl-2.0,spdx/OSL-2.0
 calculate-linux/osl-2.1,spdx/OSL-2.0
-calculate-linux/php-3.01,calculate-Linux/PHP-3
+calculate-linux/php-3,spdx/PHP-3.0
+calculate-linux/php-3.01,spdx/PHP-3.0
+calculate-linux/postgresql,spdx/PostgreSQL
 calculate-linux/psf-2.2,calculate-Linux/PSF-2
 calculate-linux/psf-2.3,Approved/Python-2-3
 calculate-linux/psutils,spdx/psutils
@@ -674,6 +691,8 @@ calculate-linux/qpl-1.0,spdx/QPL-1.0
 calculate-linux/queen,calculate-Linux/drascula
 calculate-linux/rdisc,spdx/Rdisc
 calculate-linux/regexp-uoft,spdx/Spencer-86
+calculate-linux/sendmail,spdx/Sendmail
+calculate-linux/sgi-b-2.0,spdx/SGI-B-2.0
 calculate-linux/snia,spdx/SNIA
 calculate-linux/sun-bcla-jsapi,calculate-Linux/sun-bcla-jms
 calculate-linux/sun-bcla-jta,calculate-Linux/sun-bcla-jms
@@ -689,6 +708,8 @@ calculate-linux/webstorm_academic,calculate-Linux/PyCharm_Academic
 calculate-linux/webstorm_classroom,calculate-Linux/PyCharm_Classroom
 calculate-linux/webstorm_personal,calculate-Linux/WebStorm
 calculate-linux/wxwinll-3.1,calculate-Linux/wxWinLL-3
+calculate-linux/zend-2.0,spdx/Zend-2.0
+calculate-linux/zlib,spdx/Zlib
 calculate-linux/zpl,spdx/ZPL-2.1
 caldera,spdx/Caldera
 caldera license,spdx/Caldera
@@ -5100,14 +5121,18 @@ research/elasticsearch-6.2.3/modules/repository-url/repository-url-6.2.3.jar#/me
 research/elasticsearch-6.2.3/modules/transport-netty4/transport-netty4-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/modules/tribe/tribe-6.2.3.jar#/meta-inf/license,spdx/Apache-2.0
 research/elasticsearch-6.2.3/notice,Approved/GPL-3.0 + LGPL-2.1 + MPL-2.0 + CC0-1.0 + Unicode + ICU + BSD-2-Clause + ANTLR-PD + Apache-2.0 + EPL-1.0 + EDL-1.0 + CPL-1.0 + MIT + mecab + HdrHistogram Licensed NOTICE
+research/node_modules/protractor/node_modules/glob/license,spdx/BSD-2-Clause
 research/node_modules/protractor/node_modules/lodash/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-db/license,spdx/MIT
 research/node_modules/protractor/node_modules/mime-types/license,spdx/MIT
 research/node_modules/protractor/node_modules/minimatch/license,spdx/MIT
+research/node_modules/protractor/node_modules/qs/license,spdx/BSD-3-Clause
+research/node_modules/protractor/node_modules/request/license,spdx/Apache-2.0
 research/node_modules/protractor/plugins/console/spec/consolefailerrorconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/consolefailwarningconfig.js,research/node_modules/protractor/plugins/console/spec/consoleFailConfig.js
 research/node_modules/protractor/plugins/console/spec/fail_warning_spec.js,research/node_modules/protractor/plugins/console/spec/fail_error_spec.js
 research/node_modules/protractor/plugins/console/spec/pass_spec.js,research/node_modules/protractor/plugins/console/spec/fail_spec.js
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/asm-license,Approved/ASM=Java_bytecode_manipulation_framework
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/com/sun/jna/platform/win32/com/tlb/imp/tlbpropertygetstub.template,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/com/sun/jna/platform/win32/COM/tlb/imp/TlbFunctionStub.template
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/pause_disabled.png,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/pause.png
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/step_disabled.png,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/core/icons/continue.png
@@ -5120,6 +5145,7 @@ research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/readystate@openqa.org/install.rdf,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/readystate@openqa.org/install.rdf
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/install.rdf,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/install.rdf
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customprofiledircustffchrome/extensions/{538f0036-f358-4f84-a764-89fb437166b4}/kill.html,research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/customProfileDirCUSTFF/extensions/{538F0036-F358-4f84-A764-89FB437166B4}/kill.html
+research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/license,spdx/BSD-3-Clause
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/license-junit,spdx/EPL-1.0
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/license,spdx/Apache-2.0
 research/node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar#/meta-inf/notice,Approved/Apache-2.0 + OWN CREDITS NOTICE(2)
@@ -5210,12 +5236,15 @@ research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/jre/t
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/license,Approved/_See Java LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/jre/thirdpartylicensereadme-javafx,Approved/Thired_Party_licenses_for_JAVAFX8_LGPL-2.1 + APSL +ICU + etc
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/license,spdx/Apache-2.0
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/notice,Approved/Apache Software Foundation products NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/about_files/notice,Approved/Apache Software Foundation products NOTICE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/license,Approved/Apache-2.0 + W3C + SAX if Free + etc LICENSE
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.ant_1.10.5.v20180808-0324/about_files/the_apache_software_license__version_2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/license,spdx/Apache-2.0
-research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/about_files/NOTICE
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.apache.axis_1.4.0.v201411182030/about_files/notice,Approved/Apache Software Foundation products NOTICE
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/dom4j-license,calculate-Linux/Exolab
+research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/jdom-license,Approved/jdom LICENSE(2)
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.archetype.common_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.indexer_1.10.0.20181127-2120/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.10.0.20181127-2120/about_files/slf4j-simple-license,spdx/MIT
@@ -5223,6 +5252,527 @@ research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/o
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.build_3.10.200.v20181008-0641/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
 research/pleiades-2018-12-java-win-64bit-jre_20181224/pleiades/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.200.v20180827-1309/about_files/license-2.0,spdx/Apache-2.0
+research/scancode-toolkit/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/src/extractcode_7z/bin/7zip.notice,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/src/extractcode_7z/bin/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/src/extractcode_7z/bin/unrar.license,Approved/UnRar license
+research/scancode-toolkit/plugins/extractcode-7z-manylinux1_x86_64/license,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-manylinux1_x86_64/src/extractcode_7z/bin/7zip.notice,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-manylinux1_x86_64/src/extractcode_7z/bin/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/plugins/extractcode-7z-manylinux1_x86_64/src/extractcode_7z/bin/unrar.license,Approved/UnRar license
+research/scancode-toolkit/plugins/extractcode-7z-win32/src/extractcode_7z/bin/7zip.notice,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-win32/src/extractcode_7z/bin/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/plugins/extractcode-7z-win32/src/extractcode_7z/bin/unrar.license,Approved/UnRar license
+research/scancode-toolkit/plugins/extractcode-7z-win_amd64/license,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-win_amd64/src/extractcode_7z/bin/7zip.notice,research/scancode-toolkit/plugins/extractcode-7z-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-7z-win_amd64/src/extractcode_7z/bin/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/plugins/extractcode-7z-win_amd64/src/extractcode_7z/bin/unrar.license,Approved/UnRar license
+research/scancode-toolkit/plugins/extractcode-libarchive-manylinux1_x86_64/license,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-libarchive-manylinux1_x86_64/src/extractcode_libarchive/lib/libarchive.notice,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/src/extractcode_libarchive/lib/libarchive.NOTICE
+research/scancode-toolkit/plugins/extractcode-libarchive-win32/license,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/libarchive.notice,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/src/extractcode_libarchive/lib/libarchive.NOTICE
+research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/libbz2-2.license,spdx/bzip2-1.0.6
+research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/libiconv.license,spdx/LGPL-2.0-only
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/license,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/src/extractcode_libarchive/lib/libarchive.notice,research/scancode-toolkit/plugins/extractcode-libarchive-macosx_10_9_intel/src/extractcode_libarchive/lib/libarchive.NOTICE
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/src/extractcode_libarchive/lib/libbz2-2.license,spdx/bzip2-1.0.6
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/src/extractcode_libarchive/lib/libiconv.license,spdx/LGPL-2.0-only
+research/scancode-toolkit/plugins/extractcode-libarchive-win_amd64/src/extractcode_libarchive/lib/zlib.license,research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/zlib.LICENSE
+research/scancode-toolkit/plugins/scancode-ignore-binaries/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/plugins/typecode-libmagic-manylinux1_x86_64/license,research/scancode-toolkit/plugins/typecode-libmagic-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/typecode-libmagic-win32/license,research/scancode-toolkit/plugins/typecode-libmagic-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/typecode-libmagic-win32/src/typecode_libmagic/lib/zlib.license,research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/zlib.LICENSE
+research/scancode-toolkit/plugins/typecode-libmagic-win_amd64/license,research/scancode-toolkit/plugins/typecode-libmagic-macosx_10_9_intel/LICENSE
+research/scancode-toolkit/plugins/typecode-libmagic-win_amd64/src/typecode_libmagic/lib/libgnurx.notice,research/scancode-toolkit/plugins/typecode-libmagic-win32/src/typecode_libmagic/lib/libgnurx.NOTICE
+research/scancode-toolkit/plugins/typecode-libmagic-win_amd64/src/typecode_libmagic/lib/zlib.license,research/scancode-toolkit/plugins/extractcode-libarchive-win32/src/extractcode_libarchive/lib/zlib.LICENSE
+research/scancode-toolkit/samples/jgroups/license,spdx/LGPL-2.1-only
+research/scancode-toolkit/samples/zlib/dotzlib/license_1_0,spdx/BSL-1.0
+research/scancode-toolkit/src/licensedcode/data/cc0-1.0.license,research/scancode-toolkit/cc0-1.0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/abstyles.license,spdx/Abstyles
+research/scancode-toolkit/src/licensedcode/data/licenses/acdl-1.0.license,Approved/ACDL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ace-tao.license,spdx/DOC
+research/scancode-toolkit/src/licensedcode/data/licenses/adapt-1.0.license,spdx/APL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/adobe-acrobat-reader-eula.license,calculate-Linux/Adobe
+research/scancode-toolkit/src/licensedcode/data/licenses/afl-1.1.license,spdx/AFL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/afl-2.1.license,spdx/AFL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/afl-3.0.license,spdx/AFL-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/afpl-8.0.license,spdx/Aladdin
+research/scancode-toolkit/src/licensedcode/data/licenses/agpl-1.0.license,spdx/AGPL-1.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/agpl-3.0.license,spdx/AGPL-3.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/allegro-4.license,spdx/Giftware
+research/scancode-toolkit/src/licensedcode/data/licenses/aop-pd.license,Approved/Copyright-Only Dedication
+research/scancode-toolkit/src/licensedcode/data/licenses/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/apache-exception-llvm.license,spdx/LLVM-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/apple-excl.license,research/scancode-toolkit/src/licensedcode/data/licenses/aml.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/apple-runtime-library-exception.license,research/scancode-toolkit/src/licensedcode/data/licenses/apache-2.0-runtime-library-exception.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/apsl-1.0.license,spdx/APSL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/apsl-1.1.license,spdx/APSL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/apsl-2.0.license,spdx/APSL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/artistic-1.0-cl8.license,spdx/Artistic-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/artistic-1.0.license,spdx/Artistic-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/artistic-2.0.license,spdx/Artistic-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/artistic-clarified.license,spdx/ClArtistic
+research/scancode-toolkit/src/licensedcode/data/licenses/artistic-perl-1.0.license,spdx/Artistic-1.0-Perl
+research/scancode-toolkit/src/licensedcode/data/licenses/autoconf-exception-2.0.license,spdx/Autoconf-exception-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/autoconf-exception-3.0.license,spdx/Autoconf-exception-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/bahyph.license,spdx/Bahyph
+research/scancode-toolkit/src/licensedcode/data/licenses/barr-tex.license,spdx/Barr
+research/scancode-toolkit/src/licensedcode/data/licenses/beerware.license,spdx/Beerware
+research/scancode-toolkit/src/licensedcode/data/licenses/bittorrent-1.0.license,spdx/BitTorrent-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/bittorrent-1.1.license,spdx/BitTorrent-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/bittorrent-1.2.license,spdx/BitTorrent-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/boost-1.0.license,spdx/BSL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/bootloader-exception.license,spdx/Bootloader-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/borceux.license,spdx/Borceux
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-2-clause-freebsd.license,spdx/BSD-2-Clause-FreeBSD
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-ack.license,spdx/BSD-3-Clause-Attribution
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-axis.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-axis-nomod.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-new.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-new-nomod.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-protection.license,spdx/BSD-Protection
+research/scancode-toolkit/src/licensedcode/data/licenses/bsd-source-code.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-axis-nomod.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/bsla.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-original-uc-1990.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/bzip2-libbzip-1.0.5.license,spdx/bzip2-1.0.6
+research/scancode-toolkit/src/licensedcode/data/licenses/ca-tosl-1.1.license,spdx/CATOSL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/caldera.license,spdx/Caldera
+research/scancode-toolkit/src/licensedcode/data/licenses/can-ogl-nova-scotia-1.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/can-ogl-british-columbia-2.0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/can-ogl-ontario-1.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/can-ogl-alberta-2.1.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-1.0.license,spdx/CC-BY-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-2.0.license,spdx/CC-BY-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-2.5.license,spdx/CC-BY-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-3.0.license,spdx/CC-BY-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-4.0.license,spdx/CC-BY-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-1.0.license,spdx/CC-BY-NC-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-2.0.license,spdx/CC-BY-NC-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-2.5.license,spdx/CC-BY-NC-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-3.0.license,spdx/CC-BY-NC-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-4.0.license,spdx/CC-BY-NC-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-nd-1.0.license,spdx/CC-BY-NC-ND-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-nd-2.0.license,spdx/CC-BY-NC-ND-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-nd-2.5.license,spdx/CC-BY-NC-ND-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-nd-3.0.license,spdx/CC-BY-NC-ND-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-nd-4.0.license,spdx/CC-BY-NC-ND-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-sa-1.0.license,spdx/CC-BY-NC-SA-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-sa-2.0.license,spdx/CC-BY-NC-SA-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-sa-2.5.license,spdx/CC-BY-NC-SA-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-sa-3.0.license,spdx/CC-BY-NC-SA-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nc-sa-4.0.license,spdx/CC-BY-NC-SA-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nd-1.0.license,spdx/CC-BY-ND-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nd-2.0.license,spdx/CC-BY-ND-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nd-2.5.license,spdx/CC-BY-ND-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nd-3.0.license,spdx/CC-BY-ND-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-nd-4.0.license,spdx/CC-BY-ND-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-sa-1.0.license,spdx/CC-BY-SA-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-sa-2.0.license,spdx/CC-BY-SA-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-sa-2.5.license,spdx/CC-BY-SA-2.5
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-sa-3.0.license,spdx/CC-BY-SA-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-by-sa-4.0.license,spdx/CC-BY-SA-4.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cc-pd.license,Approved/Copyright-Only Dedication
+research/scancode-toolkit/src/licensedcode/data/licenses/cc0-1.0.license,spdx/CC0-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cddl-1.1.license,spdx/CDDL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/cdla-permissive-1.0.license,spdx/CDLA-Permissive-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cdla-sharing-1.0.license,spdx/CDLA-Sharing-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cecill-1.1.license,spdx/CECILL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/cecill-2.0.license,spdx/CECILL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cecill-2.1.license,spdx/CECILL-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/classpath-exception-2.0.license,spdx/Classpath-exception-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cnri-jython.license,spdx/CNRI-Jython
+research/scancode-toolkit/src/licensedcode/data/licenses/cnri-python-1.6.1.license,spdx/CNRI-Python-GPL-Compatible
+research/scancode-toolkit/src/licensedcode/data/licenses/cnri-python-1.6.license,spdx/Python-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cockroach.license,calculate-Linux/Cockroach
+research/scancode-toolkit/src/licensedcode/data/licenses/com-oreilly-servlet.license,Approved/com.oreilly.servlet license
+research/scancode-toolkit/src/licensedcode/data/licenses/commercial-option.license,research/scancode-toolkit/src/licensedcode/data/licenses/commercial-license.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/compuphase-linking-exception.license,research/scancode-toolkit/src/licensedcode/data/licenses/apache-2.0-linking-exception.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/copyleft-next-0.3.0.license,spdx/copyleft-next-0.3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/copyleft-next-0.3.1.license,spdx/copyleft-next-0.3.1
+research/scancode-toolkit/src/licensedcode/data/licenses/cpal-1.0.license,spdx/CPAL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cpl-0.5.license,spdx/CPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cpol-1.02.license,spdx/CPOL-1.02
+research/scancode-toolkit/src/licensedcode/data/licenses/crossword.license,spdx/Crossword
+research/scancode-toolkit/src/licensedcode/data/licenses/crystal-stacker.license,spdx/CrystalStacker
+research/scancode-toolkit/src/licensedcode/data/licenses/cua-opl-1.0.license,spdx/CUA-OPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/cube.license,spdx/Cube
+research/scancode-toolkit/src/licensedcode/data/licenses/digirule-foss-exception.license,spdx/DigiRule-FOSS-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/dotseqn.license,spdx/Dotseqn
+research/scancode-toolkit/src/licensedcode/data/licenses/dsdp.license,spdx/DSDP
+research/scancode-toolkit/src/licensedcode/data/licenses/dvipdfm.license,spdx/dvipdfm
+research/scancode-toolkit/src/licensedcode/data/licenses/ecl-1.0.license,spdx/ECL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ecl-2.0.license,spdx/ECL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ecosrh-1.1.license,spdx/RHeCos-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/efl-1.0.license,spdx/EFL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/efl-2.0.license,spdx/EFL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/egenix-1.1.0.license,spdx/eGenix
+research/scancode-toolkit/src/licensedcode/data/licenses/elastic-license-2018.license,calculate-Linux/Elastic
+research/scancode-toolkit/src/licensedcode/data/licenses/entessa-1.0.license,spdx/Entessa
+research/scancode-toolkit/src/licensedcode/data/licenses/epl-1.0.license,spdx/EPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/epl-2.0.license,spdx/EPL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/erlangpl-1.1.license,spdx/ErlPL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/eu-datagrid.license,spdx/EUDatagrid
+research/scancode-toolkit/src/licensedcode/data/licenses/eupl-1.0.license,spdx/EUPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/eupl-1.1.license,spdx/EUPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/fair.license,spdx/Fair
+research/scancode-toolkit/src/licensedcode/data/licenses/fastcgi-devkit.license,spdx/OML
+research/scancode-toolkit/src/licensedcode/data/licenses/fawkes-runtime-exception.license,spdx/Fawkes-Runtime-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/fltk-exception-lgpl-2.0.license,spdx/FLTK-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/font-exception-gpl.license,spdx/Font-exception-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/frameworx-1.0.license,spdx/Frameworx-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/fraunhofer-fdk-aac-codec.license,calculate-Linux/FraunhoferFDK
+research/scancode-toolkit/src/licensedcode/data/licenses/freeimage-1.0.license,spdx/FreeImage
+research/scancode-toolkit/src/licensedcode/data/licenses/freetype.license,spdx/FTL
+research/scancode-toolkit/src/licensedcode/data/licenses/ftdi.license,calculate-Linux/FTDI
+research/scancode-toolkit/src/licensedcode/data/licenses/gcc-exception-3.1.license,calculate-Linux/gcc-runtime-library-exception-3.1
+research/scancode-toolkit/src/licensedcode/data/licenses/gfdl-1.1.license,spdx/GFDL-1.1-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gfdl-1.2.license,spdx/GFDL-1.2-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gfdl-1.3.license,spdx/GFDL-1.3-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gl2ps.license,spdx/GL2PS
+research/scancode-toolkit/src/licensedcode/data/licenses/glide.license,spdx/Glide
+research/scancode-toolkit/src/licensedcode/data/licenses/gnu-javamail-exception.license,spdx/gnu-javamail-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/gnuplot.license,spdx/gnuplot
+research/scancode-toolkit/src/licensedcode/data/licenses/google-patent-license-webm.license,Approved/WebM Additional IP Rights Grant
+research/scancode-toolkit/src/licensedcode/data/licenses/gpl-1.0.license,spdx/GPL-1.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-guile.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-autoopts.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0.license,spdx/GPL-2.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gpl-3.0.license,spdx/GPL-3.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/gsoap-1.3b.license,spdx/gSOAP-1.3b
+research/scancode-toolkit/src/licensedcode/data/licenses/gust-font-1.0.license,calculate-Linux/GFL
+research/scancode-toolkit/src/licensedcode/data/licenses/haskell-report.license,spdx/HaskellReport
+research/scancode-toolkit/src/licensedcode/data/licenses/hp-enterprise-eula.license,calculate-Linux/hpe
+research/scancode-toolkit/src/licensedcode/data/licenses/hp-netperf.license,calculate-Linux/netperf
+research/scancode-toolkit/src/licensedcode/data/licenses/hp-proliant-essentials.license,calculate-Linux/hp-proliant-essentials
+research/scancode-toolkit/src/licensedcode/data/licenses/i2p-gpl-java-exception.license,spdx/i2p-gpl-java-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/ibm-pibs.license,spdx/IBM-pibs
+research/scancode-toolkit/src/licensedcode/data/licenses/ibmpl-1.0.license,spdx/IPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/imlib2.license,spdx/Imlib2
+research/scancode-toolkit/src/licensedcode/data/licenses/indiana-extreme.license,Approved/Indiana University Extreme! Lab Software License
+research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2001-01.license,calculate-Linux/Info-ZIP
+research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2003-05.license,research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2002-02.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2004-05.license,research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2002-02.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/info-zip-2007-03.license,Approved/Info-ZIP license
+research/scancode-toolkit/src/licensedcode/data/licenses/info-zip.license,calculate-Linux/Info-ZIP
+research/scancode-toolkit/src/licensedcode/data/licenses/initial-developer-public.license,calculate-Linux/IDPL
+research/scancode-toolkit/src/licensedcode/data/licenses/intel-acpi.license,spdx/Intel-ACPI
+research/scancode-toolkit/src/licensedcode/data/licenses/intel-firmware.license,calculate-Linux/ipw2100-fw
+research/scancode-toolkit/src/licensedcode/data/licenses/intel-mcu-2018.license,research/scancode-toolkit/src/licensedcode/data/licenses/intel-bcl.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/interbase-1.0.license,spdx/Interbase-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ipa-font.license,spdx/IPA
+research/scancode-toolkit/src/licensedcode/data/licenses/isc.license,spdx/ISC
+research/scancode-toolkit/src/licensedcode/data/licenses/jasper-2.0.license,spdx/JasPer-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/jdom.license,Approved/jdom LICENSE(2)
+research/scancode-toolkit/src/licensedcode/data/licenses/jprs-oscl-1.1.license,calculate-Linux/JPRS
+research/scancode-toolkit/src/licensedcode/data/licenses/jpython-1.1.license,spdx/CNRI-Jython
+research/scancode-toolkit/src/licensedcode/data/licenses/latex2e.license,spdx/Latex2e
+research/scancode-toolkit/src/licensedcode/data/licenses/leptonica.license,spdx/Leptonica
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.0-plus-gcc.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-gcc.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.0.license,spdx/LGPL-2.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-digia-qt.license,spdx/Nokia-Qt-exception-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-nokia-qt-1.1.license,spdx/Nokia-Qt-exception-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.0-plus.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-qt-company-2017.license,research/scancode-toolkit/src/licensedcode/data/licenses/digia-qt-exception-lgpl-2.1.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-3.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.0-plus.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-3.0.license,spdx/LGPL-3.0-only
+research/scancode-toolkit/src/licensedcode/data/licenses/lgpllr.license,spdx/LGPLLR
+research/scancode-toolkit/src/licensedcode/data/licenses/libtool-exception-2.0.license,spdx/Libtool-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/libtool-exception.license,spdx/Libtool-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/linking-exception-2.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/iolib-exception-2.0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/linking-exception-2.1-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-plus-linking.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/linking-exception-lgpl-2.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/independent-module-linking-exception.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/linux-syscall-exception-gpl.license,spdx/Linux-syscall-note
+research/scancode-toolkit/src/licensedcode/data/licenses/llvm-exception.license,spdx/LLVM-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/lppl-1.0.license,spdx/LPPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/lppl-1.1.license,spdx/LPPL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/lppl-1.2.license,spdx/LPPL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/lppl-1.3a.license,spdx/LPPL-1.3a
+research/scancode-toolkit/src/licensedcode/data/licenses/lppl-1.3c.license,spdx/LPPL-1.3c
+research/scancode-toolkit/src/licensedcode/data/licenses/lsi-proprietary-eula.license,calculate-Linux/LSI-tw_cli
+research/scancode-toolkit/src/licensedcode/data/licenses/lucent-pl-1.0.license,spdx/LPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/lyubinskiy-popup-window.license,research/scancode-toolkit/src/licensedcode/data/licenses/lyubinskiy-dropdown.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/makeindex.license,spdx/MakeIndex
+research/scancode-toolkit/src/licensedcode/data/licenses/mame.license,calculate-Linux/XMAME
+research/scancode-toolkit/src/licensedcode/data/licenses/mentalis.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-axis-nomod.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/mif-exception.license,spdx/mif-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/minpack.license,calculate-Linux/minpack
+research/scancode-toolkit/src/licensedcode/data/licenses/mit-no-false-attribs.license,spdx/MITNFA
+research/scancode-toolkit/src/licensedcode/data/licenses/mit-readme.license,research/scancode-toolkit/src/licensedcode/data/licenses/mit-0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/mit.license,spdx/MIT
+research/scancode-toolkit/src/licensedcode/data/licenses/mpeg-ssg.license,calculate-Linux/mpeg2enc
+research/scancode-toolkit/src/licensedcode/data/licenses/mpich.license,calculate-Linux/mpich2
+research/scancode-toolkit/src/licensedcode/data/licenses/mpl-1.0.license,spdx/MPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/mpl-1.1.license,spdx/MPL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/mpl-2.0.license,spdx/MPL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ms-pl.license,spdx/MS-PL
+research/scancode-toolkit/src/licensedcode/data/licenses/ms-rl.license,spdx/MS-RL
+research/scancode-toolkit/src/licensedcode/data/licenses/ms-ttf-eula.license,calculate-Linux/MSttfEULA
+research/scancode-toolkit/src/licensedcode/data/licenses/ms-visual-2010-runtime.license,research/scancode-toolkit/src/licensedcode/data/licenses/ms-visual-2008-runtime.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/mtll.license,spdx/MTLL
+research/scancode-toolkit/src/licensedcode/data/licenses/mup.license,spdx/Mup
+research/scancode-toolkit/src/licensedcode/data/licenses/mx4j.license,Approved/MX4J
+research/scancode-toolkit/src/licensedcode/data/licenses/nasa-1.3.license,spdx/NASA-1.3
+research/scancode-toolkit/src/licensedcode/data/licenses/naumen.license,spdx/Naumen
+research/scancode-toolkit/src/licensedcode/data/licenses/nbpl-1.0.license,spdx/NBPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/netcdf.license,spdx/NetCDF
+research/scancode-toolkit/src/licensedcode/data/licenses/ngpl.license,spdx/NGPL
+research/scancode-toolkit/src/licensedcode/data/licenses/nlod-1.0.license,spdx/NLOD-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/nlpl.license,spdx/NLPL
+research/scancode-toolkit/src/licensedcode/data/licenses/nokia-qt-exception-1.1.license,spdx/Nokia-Qt-exception-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/nokos-1.0a.license,spdx/Nokia
+research/scancode-toolkit/src/licensedcode/data/licenses/nosl-1.0.license,spdx/NOSL
+research/scancode-toolkit/src/licensedcode/data/licenses/nosl-3.0.license,spdx/NPOSL-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/noweb.license,spdx/Noweb
+research/scancode-toolkit/src/licensedcode/data/licenses/npl-1.0.license,spdx/NPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/nrl.license,spdx/NRL
+research/scancode-toolkit/src/licensedcode/data/licenses/ntpl.license,research/scancode-toolkit/src/licensedcode/data/licenses/mit-old-style-no-advert.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/ocaml-lgpl-linking-exception.license,spdx/OCaml-LGPL-linking-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/occt-exception-1.0.license,spdx/OCCT-exception-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/occt-pl.license,spdx/OCCT-PL
+research/scancode-toolkit/src/licensedcode/data/licenses/oclc-2.0.license,spdx/OCLC-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/odbl-1.0.license,spdx/ODbL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/odc-1.0.license,spdx/ODC-By-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/odc-by-1.0.license,spdx/ODC-By-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ofl-1.0.license,spdx/OFL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ofl-1.1.license,spdx/OFL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/ogl-uk-1.0.license,spdx/OGL-UK-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ogl-uk-2.0.license,spdx/OGL-UK-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ogl-uk-3.0.license,spdx/OGL-UK-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/open-public.license,spdx/OPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/opengroup.license,spdx/OGTSL
+research/scancode-toolkit/src/licensedcode/data/licenses/openjdk-assembly-exception-1.0.license,spdx/OpenJDK-assembly-exception-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-1.1.license,spdx/OLDAP-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-1.2.license,spdx/OLDAP-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-1.3.license,spdx/OLDAP-1.3
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-1.4.license,spdx/OLDAP-1.4
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.0.1.license,spdx/OLDAP-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.0.license,spdx/OLDAP-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.1.license,spdx/OLDAP-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.2.1.license,spdx/OLDAP-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.2.2.license,spdx/OLDAP-2.2.2
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.2.license,spdx/OLDAP-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.3.license,spdx/OLDAP-2.2.2
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.4.license,spdx/OLDAP-2.4
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.5.license,spdx/OLDAP-2.4
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.6.license,spdx/OLDAP-2.4
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.7.license,spdx/OLDAP-2.7
+research/scancode-toolkit/src/licensedcode/data/licenses/openldap-2.8.license,spdx/OLDAP-2.7
+research/scancode-toolkit/src/licensedcode/data/licenses/openpbs-2.3.license,calculate-Linux/openpbs
+research/scancode-toolkit/src/licensedcode/data/licenses/openssl-exception-agpl-3.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/agpl-3.0-openssl.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/openssl-exception-gpl-2.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-plus-openssl.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/openssl-exception-lgpl-3.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/openssl-exception-lgpl-2.0-plus.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/openvpn-openssl-exception.license,spdx/openvpn-openssl-exception
+research/scancode-toolkit/src/licensedcode/data/licenses/oracle-bcl-javase-javafx-2012.license,Approved/Oracle Binary Code License Agreement
+research/scancode-toolkit/src/licensedcode/data/licenses/oracle-bcl-javase-platform-javafx-2013.license,Approved/Oracle Binary Code License Agreement
+research/scancode-toolkit/src/licensedcode/data/licenses/oracle-bcl-javase-platform-javafx-2017.license,Approved/Oracle Binary Code License Agreement
+research/scancode-toolkit/src/licensedcode/data/licenses/oset-pl-2.1.license,spdx/OSET-PL-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/osetpl-2.1.license,spdx/OSET-PL-2.1
+research/scancode-toolkit/src/licensedcode/data/licenses/osgi-spec-2.0.license,calculate-Linux/OSGi-Specification-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/osl-1.0.license,spdx/OSL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/osl-1.1.license,spdx/OSL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/osl-2.0.license,spdx/OSL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/osl-2.1.license,spdx/OSL-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/osl-3.0.license,spdx/AFL-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/pddl-1.0.license,spdx/PDDL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/phorum-2.0.license,FSF/Phorum
+research/scancode-toolkit/src/licensedcode/data/licenses/php-2.0.2.license,calculate-Linux/PHP-2.02
+research/scancode-toolkit/src/licensedcode/data/licenses/php-3.0.license,spdx/PHP-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/php-3.01.license,spdx/PHP-3.0
+research/scancode-toolkit/src/licensedcode/data/licenses/pine.license,FSF/PINE
+research/scancode-toolkit/src/licensedcode/data/licenses/proguard-exception-2.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-proguard.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/ps-or-pdf-font-exception-20170817.license,spdx/PS-or-PDF-font-exception-20170817
+research/scancode-toolkit/src/licensedcode/data/licenses/psf-3.7.2.license,calculate-Linux/PSF-2
+research/scancode-toolkit/src/licensedcode/data/licenses/psfrag.license,spdx/psfrag
+research/scancode-toolkit/src/licensedcode/data/licenses/psutils.license,spdx/psutils
+research/scancode-toolkit/src/licensedcode/data/licenses/python.license,spdx/Python-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/qhull.license,spdx/Qhull
+research/scancode-toolkit/src/licensedcode/data/licenses/qpl-1.0.license,spdx/QPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/qpopper.license,calculate-Linux/qpopper
+research/scancode-toolkit/src/licensedcode/data/licenses/qt-company-exception-lgpl-2.1.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-nokia-qt-1.0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/qt-lgpl-exception-1.1.license,spdx/Nokia-Qt-exception-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/qwt-1.0.license,calculate-Linux/qwt
+research/scancode-toolkit/src/licensedcode/data/licenses/qwt-exception-1.0.license,spdx/Qwt-exception-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/rar-winrar-eula.license,calculate-Linux/RAR
+research/scancode-toolkit/src/licensedcode/data/licenses/rdisc.license,spdx/Rdisc
+research/scancode-toolkit/src/licensedcode/data/licenses/red-hat-attribution.license,research/scancode-toolkit/src/licensedcode/data/licenses/ralf-corsepius.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/ricoh-1.0.license,spdx/RSCPL
+research/scancode-toolkit/src/licensedcode/data/licenses/riverbank-sip.license,calculate-Linux/SIP
+research/scancode-toolkit/src/licensedcode/data/licenses/rpl-1.1.license,spdx/RPL-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/rpsl-1.0.license,spdx/RPSL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/rsa-md5.license,research/scancode-toolkit/src/licensedcode/data/licenses/rsa-md4.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/ruby.license,spdx/Ruby
+research/scancode-toolkit/src/licensedcode/data/licenses/sane-exception-2.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/guile-exception-2.0.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/sax-pd.license,spdx/SAX-PD
+research/scancode-toolkit/src/licensedcode/data/licenses/saxpath.license,spdx/Saxpath
+research/scancode-toolkit/src/licensedcode/data/licenses/scea-1.0.license,spdx/SCEA
+research/scancode-toolkit/src/licensedcode/data/licenses/sencha-commercial-3.17.license,Approved/GPL-3.0 + Sencha Software License Agreement
+research/scancode-toolkit/src/licensedcode/data/licenses/sendmail-8.23.license,spdx/Sendmail-8.23
+research/scancode-toolkit/src/licensedcode/data/licenses/sendmail.license,spdx/Sendmail
+research/scancode-toolkit/src/licensedcode/data/licenses/sfl-license.license,spdx/iMatix
+research/scancode-toolkit/src/licensedcode/data/licenses/sgi-freeb-2.0.license,spdx/SGI-B-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/smail-gpl.license,calculate-Linux/SMAIL
+research/scancode-toolkit/src/licensedcode/data/licenses/smartlabs-freeware.license,calculate-Linux/SmartLabs
+research/scancode-toolkit/src/licensedcode/data/licenses/smppl.license,spdx/SMPPL
+research/scancode-toolkit/src/licensedcode/data/licenses/snia.license,spdx/SNIA
+research/scancode-toolkit/src/licensedcode/data/licenses/spell-checker-exception-lgpl-2.1-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-2.1-spell-checker.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/spl-1.0.license,spdx/SPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/squeak.license,FSF/Squeak
+research/scancode-toolkit/src/licensedcode/data/licenses/srgb.license,Approved/sRGB Profile Licensing Agreement
+research/scancode-toolkit/src/licensedcode/data/licenses/stax.license,calculate-Linux/bea.ri.jsr173
+research/scancode-toolkit/src/licensedcode/data/licenses/sun-bcl-11-06.license,calculate-Linux/sun-bcla-jms
+research/scancode-toolkit/src/licensedcode/data/licenses/sun-bsd-no-nuclear.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-3-clause-no-nuclear-warranty.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/sun-iiop.license,calculate-Linux/sun-iiop
+research/scancode-toolkit/src/licensedcode/data/licenses/swl.license,spdx/SWL
+research/scancode-toolkit/src/licensedcode/data/licenses/sybase.license,spdx/Watcom-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/tanuki-community-sla-1.0.license,calculate-Linux/tanuki-community
+research/scancode-toolkit/src/licensedcode/data/licenses/tanuki-community-sla-1.2.license,research/scancode-toolkit/src/licensedcode/data/licenses/tanuki-community-sla-1.1.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/tanuki-community-sla-1.3.license,Approved/Tanuki Software license
+research/scancode-toolkit/src/licensedcode/data/licenses/tcl.license,spdx/TCL
+research/scancode-toolkit/src/licensedcode/data/licenses/tcp-wrappers.license,spdx/TCP-wrappers
+research/scancode-toolkit/src/licensedcode/data/licenses/torque-1.1.license,spdx/TORQUE-1.1
+research/scancode-toolkit/src/licensedcode/data/licenses/tosl.license,spdx/TOSL
+research/scancode-toolkit/src/licensedcode/data/licenses/treeview-distributor.license,research/scancode-toolkit/src/licensedcode/data/licenses/treeview-developer.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/ubuntu-font-1.0.license,calculate-Linux/UbuntuFontLicense-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ucl-1.0.license,OSI/Upstream Compatibility License v1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/unicode-dfs-2015.license,spdx/Unicode-DFS-2015
+research/scancode-toolkit/src/licensedcode/data/licenses/unicode-dfs-2016.license,spdx/Unicode-DFS-2016
+research/scancode-toolkit/src/licensedcode/data/licenses/unicode-icu-58.license,Approved/ICU + Third-Party Software Licenses
+research/scancode-toolkit/src/licensedcode/data/licenses/unicode-tou.license,spdx/Unicode-TOU
+research/scancode-toolkit/src/licensedcode/data/licenses/unicode.license,Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE
+research/scancode-toolkit/src/licensedcode/data/licenses/unlicense.license,spdx/Unlicense
+research/scancode-toolkit/src/licensedcode/data/licenses/unrar.license,calculate-Linux/unRAR
+research/scancode-toolkit/src/licensedcode/data/licenses/uofu-rfpl.license,FSF/UtahPublicLicense
+research/scancode-toolkit/src/licensedcode/data/licenses/upl-1.0.license,spdx/UPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/verbatim-manual.license,calculate-Linux/man-pages
+research/scancode-toolkit/src/licensedcode/data/licenses/vostrom.license,spdx/VOSTROM
+research/scancode-toolkit/src/licensedcode/data/licenses/vpl-1.2.license,research/scancode-toolkit/src/licensedcode/data/licenses/vpl-1.1.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/w3c-software-19980720.license,spdx/W3C-19980720
+research/scancode-toolkit/src/licensedcode/data/licenses/westhawk.license,research/scancode-toolkit/src/licensedcode/data/licenses/libpbm.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/wsuipa.license,spdx/Wsuipa
+research/scancode-toolkit/src/licensedcode/data/licenses/wtfpl-1.0.license,Approved/WTFPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/wxwindows-exception-3.1.license,spdx/WxWindows-exception-3.1
+research/scancode-toolkit/src/licensedcode/data/licenses/x11.license,research/scancode-toolkit/src/licensedcode/data/licenses/slf4j-2005.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/xinetd.license,spdx/xinetd
+research/scancode-toolkit/src/licensedcode/data/licenses/xskat.license,spdx/XSkat
+research/scancode-toolkit/src/licensedcode/data/licenses/ypl-1.0.license,spdx/YPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/ypl-1.1.license,spdx/YPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/zend-2.0.license,spdx/Zend-2.0
+research/scancode-toolkit/src/licensedcode/data/licenses/zeromq-exception-lgpl-3.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-3.0-zeromq.LICENSE
+research/scancode-toolkit/src/licensedcode/data/licenses/zimbra-1.3.license,spdx/YPL-1.0
+research/scancode-toolkit/src/licensedcode/data/licenses/zimbra-1.4.license,spdx/Zimbra-1.4
+research/scancode-toolkit/src/licensedcode/data/licenses/zlib.license,spdx/Zlib
+research/scancode-toolkit/src/licensedcode/data/licenses/zpl-1.1.license,spdx/ZPL-1.1
+research/scancode-toolkit/src/licensedcode/data/non-english/licenses/lal-1.2.license,spdx/LAL-1.2
+research/scancode-toolkit/src/licensedcode/data/non-english/licenses/lal-1.3.license,spdx/LAL-1.3
+research/scancode-toolkit/src/licensedcode/data/non-english/licenses/liliq-p-1.1.license,spdx/LiLiQ-P-1.1
+research/scancode-toolkit/src/licensedcode/data/non-english/licenses/liliq-r-1.1.license,spdx/LiLiQ-R-1.1
+research/scancode-toolkit/src/licensedcode/data/non-english/licenses/liliq-rplus-1.1.license,spdx/LiLiQ-Rplus-1.1
+research/scancode-toolkit/src/licensedcode/python.license,research/scancode-toolkit/src/extractcode/PSF.LICENSE
+research/scancode-toolkit/src/packagedcode/nevra.license,spdx/Apache-2.0
+research/scancode-toolkit/src/scancode/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/src/scancode/notice,research/scancode-toolkit/NOTICE
+research/scancode-toolkit/src/textcode/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/src/typecode/bsd-simplified.license,spdx/BSD-2-Clause
+research/scancode-toolkit/tests/cluecode/data/copyright_fossology.license,spdx/GPL-2.0-only
+research/scancode-toolkit/tests/extractcode/data/gpl-3.0.license,spdx/GPL-3.0-only
+research/scancode-toolkit/tests/licensedcode/data/licenses/bsdi-license,spdx/BSD-1-Clause
+research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_18,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_16
+research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_32,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_31
+research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_33,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_31
+research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_39,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_36
+research/scancode-toolkit/tests/licensedcode/data/licenses/no_license_7,research/scancode-toolkit/tests/licensedcode/data/licenses/no_license_18
+research/scancode-toolkit/tests/licensedcode/data/licenses/notice_scancode,research/scancode-toolkit/NOTICE
+research/scancode-toolkit/tests/licensedcode/data/licenses/zip-3.0-4.fc17.x86_64.rpm.license,Approved/Info-ZIP license
+research/scancode-toolkit/tests/licensedcode/data/models/licenses.expected.json,research/scancode-toolkit/tests/licensedcode/data/models/licenses.dump.expected.json
+research/scancode-toolkit/tests/licensedcode/data/models/licenses.load.expected.json,research/scancode-toolkit/tests/licensedcode/data/models/licenses.dump.expected.json
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/bsd-ack-carrot2.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-ack-carrot2.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/gpl-1.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-1.0-plus.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/gpl-1.0.license,spdx/GPL-1.0-only
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/gpl-2.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-2.0-plus.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/gpl-2.0.license,spdx/GPL-2.0-only
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/gpl-3.0.license,spdx/GPL-3.0-only
+research/scancode-toolkit/tests/licensedcode/data/models/licenses/w3c-docs-19990405.license,research/scancode-toolkit/src/licensedcode/data/licenses/w3c-docs-19990405.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/orphaned_licenses/bsd-ack-carrot2.license,research/scancode-toolkit/src/licensedcode/data/licenses/bsd-ack-carrot2.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/orphaned_licenses/gpl-1.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-1.0-plus.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/validate/bsd-ack-carrot2.license,research/scancode-toolkit/tests/licensedcode/data/models/validate/apache-2.0.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/models/validate/gpl-1.0-plus.license,research/scancode-toolkit/src/licensedcode/data/licenses/gpl-1.0-plus.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/gpl-2.0.license,spdx/GPL-2.0-only
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/gpl/freertos-license-ref2,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/GPL/FreeRTOS-license-ref1
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/gpl/freertos-license-ref2.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/GPL/FreeRTOS-license-ref1.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/gpl/freertos-license-ref3.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/GPL/FreeRTOS-license-ref1.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/gpl/license,calculate-Linux/UPX-exception
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/hsqldb/hsqldb-license,Approved/BSD-3-Clause for HSQL Development Group
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/icu/icu-license,spdx/ICU
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/ijg/jpeg.license,spdx/IJG
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/intel/intel-wlan-license.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/FACE/face_license.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/isc/isc_no_isc_copyright,spdx/ISC
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/notredame/notredame-license,research/scancode-toolkit/src/licensedcode/data/licenses/notre-dame.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/osl/license.html,spdx/AFL-3.0
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/python/crtlicense.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/FACE/face_license.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/see-doc/copyright_ref.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/FACE/face_license.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/see-file/see-file_license_a.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/FACE/face_license.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/xfree86/license_xfree86.yml,research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/FACE/face_license.yml
+research/scancode-toolkit/tests/licensedcode/data/more_licenses/tests/zpl/python-psycopg_license,research/scancode-toolkit/src/licensedcode/data/licenses/lgpl-3.0-plus-openssl.LICENSE
+research/scancode-toolkit/tests/licensedcode/data/slic-tests/identification/7/license,research/scancode-toolkit/tests/licensedcode/data/slic-tests/identification/3/LICENSE
+research/scancode-toolkit/tests/licensedcode/data/slic-tests/identification/notice,spdx/TU-Berlin-2.0
+research/scancode-toolkit/tests/licensedcode/data/slic-tests/slic.license,spdx/MPL-2.0
+research/scancode-toolkit/tests/licensedcode/data/tokenize/weird_encoding/easyconf-0.9.0.pom.expected,research/scancode-toolkit/tests/licensedcode/data/tokenize/weird_encoding/easyconf-0.9.0.pom
+research/scancode-toolkit/thirdparty/afl-2.1.license,spdx/AFL-2.0
+research/scancode-toolkit/thirdparty/apache-2.0.license,spdx/Apache-2.0
+research/scancode-toolkit/thirdparty/apipkg.license,spdx/MIT
+research/scancode-toolkit/thirdparty/artistic-1.0.license,spdx/Artistic-1.0
+research/scancode-toolkit/thirdparty/attrs-18.2.0-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/backports.functools_lru_cache.license,spdx/MIT
+research/scancode-toolkit/thirdparty/bsd-new.license,spdx/BSD-3-Clause
+research/scancode-toolkit/thirdparty/bsd-simplified.license,spdx/BSD-2-Clause
+research/scancode-toolkit/thirdparty/bumpversion.license,spdx/MIT
+research/scancode-toolkit/thirdparty/cattrs-0.9.0-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/enum34-1.1.6.tar.gz.notice,research/scancode-toolkit/thirdparty/binaryornot.LICENSE
+research/scancode-toolkit/thirdparty/execnet-1.4.1-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/gpl-2.0-plus.license,spdx/GPL-2.0-only
+research/scancode-toolkit/thirdparty/gpl-2.0.license,spdx/GPL-2.0-only
+research/scancode-toolkit/thirdparty/gpl-3.0.license,spdx/GPL-3.0-only
+research/scancode-toolkit/thirdparty/historical.license,spdx/HPND
+research/scancode-toolkit/thirdparty/jaraco.timing.license,spdx/MIT
+research/scancode-toolkit/thirdparty/javaproperties.license,spdx/MIT
+research/scancode-toolkit/thirdparty/lgpl-2.1.license,spdx/LGPL-2.1-only
+research/scancode-toolkit/thirdparty/lgpl-3.0-plus.license,spdx/LGPL-3.0-only
+research/scancode-toolkit/thirdparty/lgpl-3.0.license,spdx/LGPL-3.0-only
+research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-win32.whl.notice,research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.NOTICE
+research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-win_amd64.whl.notice,research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.NOTICE
+research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27mu-manylinux1_x86_64.whl.notice,research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.NOTICE
+research/scancode-toolkit/thirdparty/lxml-4.2.1.tar.gz.notice,research/scancode-toolkit/thirdparty/lxml-4.2.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl.NOTICE
+research/scancode-toolkit/thirdparty/mit.license,spdx/MIT
+research/scancode-toolkit/thirdparty/mpl-2.0.license,spdx/MPL-2.0
+research/scancode-toolkit/thirdparty/packageurl_python-0.8.5-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/patch.license,spdx/MIT
+research/scancode-toolkit/thirdparty/py-1.7.0-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/pyahocorasick-1.1.8.tar.gz.notice,research/scancode-toolkit/thirdparty/binaryornot.LICENSE
+research/scancode-toolkit/thirdparty/pycryptodome-3.6.1-cp27-cp27mu-manylinux1_x86_64.whl.notice,research/scancode-toolkit/thirdparty/pycryptodome-3.6.1-cp27-cp27m-macosx_10_6_intel.whl.NOTICE
+research/scancode-toolkit/thirdparty/pycryptodome-3.6.1.tar.gz.notice,research/scancode-toolkit/thirdparty/pycryptodome-3.6.1-cp27-cp27m-macosx_10_6_intel.whl.NOTICE
+research/scancode-toolkit/thirdparty/pyparsing.license,spdx/MIT
+research/scancode-toolkit/thirdparty/pytest-3.9.2-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/pytest_cov.license,spdx/MIT
+research/scancode-toolkit/thirdparty/pytest_xdist-1.16.0-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/python.license,spdx/Python-2.0
+research/scancode-toolkit/thirdparty/pytz-2018.4-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/pyyaml.license,spdx/MIT
+research/scancode-toolkit/thirdparty/requests.notice,research/scancode-toolkit/thirdparty/funcsigs-1.0.2-py2.py3-none-any.whl.NOTICE
+research/scancode-toolkit/thirdparty/setuptools-40.4.3-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/setuptools.license,spdx/MIT
+research/scancode-toolkit/thirdparty/simplejson-3.15.0.tar.gz.notice,research/scancode-toolkit/thirdparty/simplejson-3.15.0-cp27-cp27m-macosx_10_12_x86_64.whl.NOTICE
+research/scancode-toolkit/thirdparty/singledispatch-3.4.0.3-py2.py3-none-any.whl.notice,spdx/MIT
+research/scancode-toolkit/thirdparty/six.license,spdx/MIT
+research/scancode-toolkit/thirdparty/spdx-tools.license,spdx/Apache-2.0
+research/scancode-toolkit/thirdparty/tempora.license,spdx/MIT
+research/scancode-toolkit/thirdparty/unicode.license,Approved/UNICODE LICENSE AGREEMENT - DATA FILES AND SOFTWARE
+research/scancode-toolkit/thirdparty/unicodecsv.license,research/scancode-toolkit/src/licensedcode/spans.LICENSE
+research/scancode-toolkit/thirdparty/url.license,spdx/MIT
+research/scancode-toolkit/thirdparty/virtualenv.py.notice,research/scancode-toolkit/thirdparty/virtualenv-16.0.0-py2.py3-none-any.whl.NOTICE
+research/scancode-toolkit/thirdparty/wheel.license,spdx/MIT
+research/scancode-toolkit/thirdparty/wincertstore.license,calculate-Linux/PSF-2
+research/scancode-toolkit/thirdparty/yg.lockfile.license,spdx/MIT
+research/scancode-toolkit/thirdparty/zlib.license,spdx/Zlib
+research/scancode-toolkit/thirdparty/zope21.license,spdx/ZPL-2.1
+research/scancode-toolkit/thirdparty/zpl-2.0.license,research/scancode-toolkit/src/licensedcode/data/licenses/zpl-2.0.LICENSE
+research/scancode-toolkit/thirdparty/zpl-2.1.license,spdx/ZPL-2.1
 reseller agreement 4.0 between highsoft as and reseller,Approved/Highsoft Standard License Agreement 9.0
 resin pro license deployment,Approved/resin pro licenses NOTICE
 resin pro licenses,Approved/resin pro licenses NOTICE
