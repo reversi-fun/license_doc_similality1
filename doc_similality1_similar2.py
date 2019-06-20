@@ -1,4 +1,4 @@
-#coding: UTF-8
+﻿#coding: UTF-8
 # http://tadaoyamaoka.hatenablog.com/entry/2017/04/29/122128 学習済みモデルを使用して文の類似度を測る
 #  http://stmind.hatenablog.com/?page=1384701545
 import os,io
@@ -92,7 +92,7 @@ f.close()
 for licName,licMetaData in license_metaData.items():
     license_alias[(licMetaData['url']).lower()] = 'calculate-Linux/' + licName
         
-pickUp_token = re.compile(r'[^w][Pp]atent')
+pickUp_token = re.compile(r'[^\w][Pp][Aa][Tt][Ee][Nn][Tt]')
 pickUp_dict = {}
 # Loding a corpus, remove the line break, convert to lower case
 # encodingの検出ツールを使う。

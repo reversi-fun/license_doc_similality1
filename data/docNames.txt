@@ -1511,6 +1511,7 @@ Approved/FreeBSDDL,113
 Approved/FreeType Project LICENSE,462
 Approved/Freetype-py Python bindings License,115
 Approved/FullCalendar Scheduler License,179
+Approved/GeoAPI - Programming interfaces for OGC ISO standards,145
 Approved/Google Cloud Platform License Agreement,3467
 Approved/Google Cloud Platform Terms,3560
 Approved/GPL-2.0 + BSD-3-Clause for wireshark,1911

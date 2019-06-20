@@ -10,7 +10,7 @@
       "request": "launch",
       "program": "${file}",
       "args": [
-        "own_texts",
+        "own_texts/node_modules/protractor/node_modules/minimatch/LICENSE",
         "lic-info4"
       ],
       "console": "integratedTerminal"
