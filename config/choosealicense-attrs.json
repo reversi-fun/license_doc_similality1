@@ -1,0 +1,693 @@
+{
+    "@context": "https://github.com/github/choosealicense.com/tree/gh-pages/_licenses",
+    "licenses": {
+        "0bsd": {
+            "name": "BSD Zero Clause License",
+            "identifiers": {
+                "spdx": [
+                    "0BSD"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "afl-3.0": {
+            "name": "Academic Free License v3.0",
+            "identifiers": {
+                "spdx": [
+                    "AFL-3.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "agpl-3.0": {
+            "name": "GNU Affero General Public License v3.0",
+            "identifiers": {
+                "spdx": [
+                    "AGPL-3.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "network-use-disclose",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "apache-2.0": {
+            "name": "Apache License 2.0",
+            "identifiers": {
+                "spdx": [
+                    "Apache-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "artistic-2.0": {
+            "name": "Artistic License 2.0",
+            "identifiers": {
+                "spdx": [
+                    "Artistic-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "bsd-2-clause": {
+            "name": "BSD 2-Clause \"Simplified\" License",
+            "identifiers": {
+                "spdx": [
+                    "BSD-2-Clause"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "bsd-3-clause": {
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "identifiers": {
+                "spdx": [
+                    "BSD-3-Clause"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "bsd-3-clause-clear": {
+            "name": "BSD 3-Clause Clear License",
+            "identifiers": {
+                "spdx": [
+                    "BSD-3-Clause-Clear"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "bsl-1.0": {
+            "name": "Boost Software License 1.0",
+            "identifiers": {
+                "spdx": [
+                    "BSL-1.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "cc0-1.0": {
+            "name": "Creative Commons Zero v1.0 Universal",
+            "identifiers": {
+                "spdx": [
+                    "CC0-1.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "cc-by-4.0": {
+            "name": "Creative Commons Attribution 4.0 International",
+            "identifiers": {
+                "spdx": [
+                    "CC-BY-4.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "cc-by-sa-4.0": {
+            "name": "Creative Commons Attribution Share Alike 4.0 International",
+            "identifiers": {
+                "spdx": [
+                    "CC-BY-SA-4.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "ecl-2.0": {
+            "name": "Educational Community License v2.0",
+            "identifiers": {
+                "spdx": [
+                    "ECL-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "epl-1.0": {
+            "name": "Eclipse Public License 1.0",
+            "identifiers": {
+                "spdx": [
+                    "EPL-1.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "epl-2.0": {
+            "name": "Eclipse Public License 2.0",
+            "identifiers": {
+                "spdx": [
+                    "EPL-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "eupl-1.1": {
+            "name": "European Union Public License 1.1",
+            "identifiers": {
+                "spdx": [
+                    "EUPL-1.1"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "network-use-disclose",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "eupl-1.2": {
+            "name": "European Union Public License 1.2",
+            "identifiers": {
+                "spdx": [
+                    "EUPL-1.2"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "network-use-disclose",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "gpl-2.0": {
+            "name": "GNU General Public License v2.0",
+            "identifiers": {
+                "spdx": [
+                    "GPL-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "gpl-3.0": {
+            "name": "GNU General Public License v3.0",
+            "identifiers": {
+                "spdx": [
+                    "GPL-3.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "isc": {
+            "name": "ISC License",
+            "identifiers": {
+                "spdx": [
+                    "ISC"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "lgpl-2.1": {
+            "name": "GNU Lesser General Public License v2.1",
+            "identifiers": {
+                "spdx": [
+                    "LGPL-2.1"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "same-license--library",
+                "warranty"
+            ]
+        },
+        "lgpl-3.0": {
+            "name": "GNU Lesser General Public License v3.0",
+            "identifiers": {
+                "spdx": [
+                    "LGPL-3.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license--library",
+                "warranty"
+            ]
+        },
+        "lppl-1.3c": {
+            "name": "LaTeX Project Public License v1.3c",
+            "identifiers": {
+                "spdx": [
+                    "LPPL-1.3c"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "mit": {
+            "name": "MIT License",
+            "identifiers": {
+                "spdx": [
+                    "MIT"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "mpl-2.0": {
+            "name": "Mozilla Public License 2.0",
+            "identifiers": {
+                "spdx": [
+                    "MPL-2.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license--file",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "ms-pl": {
+            "name": "Microsoft Public License",
+            "identifiers": {
+                "spdx": [
+                    "MS-PL"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "ms-rl": {
+            "name": "Microsoft Reciprocal License",
+            "identifiers": {
+                "spdx": [
+                    "MS-RL"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "include-copyright",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license--file",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "ncsa": {
+            "name": "University of Illinois/NCSA Open Source License",
+            "identifiers": {
+                "spdx": [
+                    "NCSA"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "odbl-1.0": {
+            "name": "ODC Open Database License v1.0",
+            "identifiers": {
+                "spdx": [
+                    "ODbL-1.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "ofl-1.1": {
+            "name": "SIL Open Font License 1.1",
+            "identifiers": {
+                "spdx": [
+                    "OFL-1.1"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "same-license",
+                "warranty"
+            ]
+        },
+        "osl-3.0": {
+            "name": "Open Software License 3.0",
+            "identifiers": {
+                "spdx": [
+                    "OSL-3.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "disclose-source",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "network-use-disclose",
+                "patent-use",
+                "private-use",
+                "same-license",
+                "trademark-use",
+                "warranty"
+            ]
+        },
+        "postgresql": {
+            "name": "PostgreSQL License",
+            "identifiers": {
+                "spdx": [
+                    "PostgreSQL"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "unlicense": {
+            "name": "The Unlicense",
+            "identifiers": {
+                "spdx": [
+                    "Unlicense"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "upl-1.0": {
+            "name": "Universal Permissive License v1.0",
+            "identifiers": {
+                "spdx": [
+                    "UPL-1.0"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "patent-use",
+                "private-use",
+                "warranty"
+            ]
+        },
+        "wtfpl": {
+            "name": "Do What The F*ck You Want To Public License",
+            "identifiers": {
+                "spdx": [
+                    "WTFPL"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "modifications",
+                "private-use"
+            ]
+        },
+        "zlib": {
+            "name": "zlib License",
+            "identifiers": {
+                "spdx": [
+                    "Zlib"
+                ]
+            },
+            "tags": [
+                "commercial-use",
+                "distribution",
+                "document-changes",
+                "include-copyright",
+                "liability",
+                "modifications",
+                "private-use",
+                "warranty"
+            ]
+        }
+    }
+}

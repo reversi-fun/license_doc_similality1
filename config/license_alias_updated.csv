@@ -5043,6 +5043,42 @@ research/adapt-openjdk-11.0.2#/legal/jdk.unsupported.desktop/additional_license_
 research/adapt-openjdk-11.0.2#/legal/jdk.unsupported/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.xml.dom/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
 research/adapt-openjdk-11.0.2#/legal/jdk.zipfs/additional_license_info,Approved/-See java base ADDITIONAL LICENSE NOTICE
+research/choosealicense.com-gh-pages/_licenses/0bsd,spdx/0BSD
+research/choosealicense.com-gh-pages/_licenses/afl-3.0,spdx/AFL-3.0
+research/choosealicense.com-gh-pages/_licenses/agpl-3.0,spdx/AGPL-3.0-only
+research/choosealicense.com-gh-pages/_licenses/apache-2.0,spdx/Apache-2.0
+research/choosealicense.com-gh-pages/_licenses/artistic-2.0,spdx/Artistic-2.0
+research/choosealicense.com-gh-pages/_licenses/bsd-2-clause,spdx/BSD-2-Clause
+research/choosealicense.com-gh-pages/_licenses/bsd-3-clause,spdx/BSD-3-Clause
+research/choosealicense.com-gh-pages/_licenses/bsd-3-clause-clear,spdx/BSD-3-Clause-Clear
+research/choosealicense.com-gh-pages/_licenses/bsl-1.0,spdx/BSL-1.0
+research/choosealicense.com-gh-pages/_licenses/cc-by-4.0,spdx/CC-BY-4.0
+research/choosealicense.com-gh-pages/_licenses/cc-by-sa-4.0,spdx/CC-BY-SA-4.0
+research/choosealicense.com-gh-pages/_licenses/cc0-1.0,spdx/CC0-1.0
+research/choosealicense.com-gh-pages/_licenses/ecl-2.0,spdx/ECL-2.0
+research/choosealicense.com-gh-pages/_licenses/epl-1.0,spdx/EPL-1.0
+research/choosealicense.com-gh-pages/_licenses/epl-2.0,spdx/EPL-2.0
+research/choosealicense.com-gh-pages/_licenses/eupl-1.1,spdx/EUPL-1.1
+research/choosealicense.com-gh-pages/_licenses/eupl-1.2,spdx/EUPL-1.2
+research/choosealicense.com-gh-pages/_licenses/gpl-2.0,spdx/GPL-2.0-only
+research/choosealicense.com-gh-pages/_licenses/gpl-3.0,spdx/GPL-3.0-only
+research/choosealicense.com-gh-pages/_licenses/isc,spdx/ISC
+research/choosealicense.com-gh-pages/_licenses/lgpl-2.1,spdx/LGPL-2.1-only
+research/choosealicense.com-gh-pages/_licenses/lgpl-3.0,spdx/LGPL-3.0-only
+research/choosealicense.com-gh-pages/_licenses/lppl-1.3c,spdx/LPPL-1.3c
+research/choosealicense.com-gh-pages/_licenses/mit,spdx/MIT
+research/choosealicense.com-gh-pages/_licenses/mpl-2.0,spdx/MPL-2.0
+research/choosealicense.com-gh-pages/_licenses/ms-pl,spdx/MS-PL
+research/choosealicense.com-gh-pages/_licenses/ms-rl,spdx/MS-RL
+research/choosealicense.com-gh-pages/_licenses/ncsa,spdx/NCSA
+research/choosealicense.com-gh-pages/_licenses/odbl-1.0,spdx/ODbL-1.0
+research/choosealicense.com-gh-pages/_licenses/ofl-1.1,spdx/OFL-1.1
+research/choosealicense.com-gh-pages/_licenses/osl-3.0,spdx/AFL-3.0
+research/choosealicense.com-gh-pages/_licenses/postgresql,spdx/PostgreSQL
+research/choosealicense.com-gh-pages/_licenses/unlicense,spdx/Unlicense
+research/choosealicense.com-gh-pages/_licenses/upl-1.0,spdx/UPL-1.0
+research/choosealicense.com-gh-pages/_licenses/wtfpl,spdx/WTFPL
+research/choosealicense.com-gh-pages/_licenses/zlib,spdx/Zlib
 research/cucumber-sandwich.jar#/cglib-license,spdx/Apache-2.0
 research/cucumber-sandwich.jar#/hamcrest-license,spdx/BSD-3-Clause
 research/cucumber-sandwich.jar#/license,spdx/MIT
@@ -5676,6 +5712,7 @@ research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license
 research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_32,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_31
 research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_33,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_31
 research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_39,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_36
+research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_44,research/scancode-toolkit/tests/licensedcode/data/licenses/newlib/newlib_license_36
 research/scancode-toolkit/tests/licensedcode/data/licenses/no_license_7,research/scancode-toolkit/tests/licensedcode/data/licenses/no_license_18
 research/scancode-toolkit/tests/licensedcode/data/licenses/notice_scancode,research/scancode-toolkit/NOTICE
 research/scancode-toolkit/tests/licensedcode/data/licenses/zip-3.0-4.fc17.x86_64.rpm.license,Approved/Info-ZIP license

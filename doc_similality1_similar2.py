@@ -71,6 +71,20 @@ for licName,licMetaData in license_metaData['licenses'].items():
         for spdxId in licMetaData['identifiers']['spdx']:
              license_notices['spdx/' + spdxId] = license_notices.get('spdx/' + spdxId, []) + licMetaData.get('tags', [])
 
+f = open("./config/choosealicense-attrs.json", "r",  encoding="utf-8")
+# jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+license_metaData = json.load(f)
+# ファイルを閉じる
+f.close()
+for licName,licMetaData in license_metaData['licenses'].items():
+    license_notices['research/choosealicense.com-gh-pages/_licenses/' + licName] = licMetaData.get('tags', []) 
+    for catlogName,licIDlist in licMetaData['identifiers'].items():
+        for licID in licIDlist:
+            if catlogName == 'spdx':
+                license_alias['research/choosealicense.com-gh-pages/_licenses/' + licName] =  catlogName + '/' + licID
+            if len(license_alias.get((catlogName + '/' + licID).lower(),'')) > 0:
+                license_notices[license_alias.get((catlogName + '/' + licID).lower(),'')] = license_notices.get(license_alias.get((catlogName + '/' + licID).lower(),''), []) + licMetaData.get('tags', []) 
+
 # OSIのlicenseの分類情報を読み込み
 f = open("./config/OSI-licenses-full.json", "r",  encoding="utf-8")
 # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
@@ -92,7 +106,7 @@ f.close()
 for licName,licMetaData in license_metaData.items():
     license_alias[(licMetaData['url']).lower()] = 'calculate-Linux/' + licName
         
-pickUp_token = re.compile(r'[^\w][Pp][Aa][Tt][Ee][Nn][Tt]')
+pickUp_token = re.compile(r'[^\w][Pp][Aa][Tt][Ee][Nn][Tt][^-]')
 pickUp_dict = {}
 # Loding a corpus, remove the line break, convert to lower case
 # encodingの検出ツールを使う。
